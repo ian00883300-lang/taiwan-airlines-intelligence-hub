@@ -1,0 +1,22 @@
+{
+  "scope": "代表性航線；非完整航網、不含共掛班號或貨運。",
+  "items": [
+    {
+      "id": "china-airlines-PHX",
+      "airline": "china-airlines",
+      "origin": "TPE",
+      "destination": "PHX",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "status": "confirmed",
+      "source": "華航｜班表異動（含鳳凰城）",
+      "source_url": "https://e-comm.china-airlines.com/typhoon_status/SchChg_EN.html",
+      "published_date": null,
+      "as_of": "2026-10-11",
+      "verified_date": "2026-10-11",
+      "source_id": "ciRouteLive",
+      "corroboration_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+    }
+  ]
+}

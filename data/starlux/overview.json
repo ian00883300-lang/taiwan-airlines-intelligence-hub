@@ -1,0 +1,432 @@
+{
+  "id": "starlux",
+  "code": "JX",
+  "name": "星宇航空",
+  "english": "STARLUX Airlines",
+  "color": "#ac8248",
+  "tag": "精品定位 · 長程拓展",
+  "founded": {
+    "label": "成立",
+    "value": "2018-05-02",
+    "source": "星宇｜公司成立公告",
+    "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+    "published_date": "2018-05-02",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2018-05-02",
+    "source_id": "jxAbout"
+  },
+  "alliance": {
+    "label": "聯盟",
+    "value": null,
+    "source": null,
+    "source_url": null,
+    "published_date": null,
+    "verified_date": null,
+    "status": "unverified",
+    "as_of": null,
+    "note": "本版未查得足以確認當前正式聯盟會員身分的官方資料；共掛班號不等於加入聯盟。"
+  },
+  "total": {
+    "label": "當前機隊總數",
+    "value": null,
+    "source": null,
+    "source_url": null,
+    "published_date": null,
+    "verified_date": null,
+    "status": "unverified",
+    "as_of": null,
+    "note": "2025 年底快照為 29 架；2026 已有新交機，不把歷史快照當作現況。"
+  },
+  "age": {
+    "label": "平均機齡",
+    "value": null,
+    "source": null,
+    "source_url": null,
+    "published_date": null,
+    "verified_date": null,
+    "status": "unverified",
+    "as_of": null,
+    "note": "尚未取得可比較且具日期的官方資料。"
+  },
+  "sections": {
+    "overview": [
+      {
+        "label": "成立",
+        "value": "2018-05-02",
+        "source": "星宇｜公司成立公告",
+        "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+        "published_date": "2018-05-02",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2018-05-02",
+        "source_id": "jxAbout"
+      },
+      {
+        "label": "聯盟",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "本版未查得足以確認當前正式聯盟會員身分的官方資料；共掛班號不等於加入聯盟。"
+      },
+      {
+        "label": "當前機隊總數",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "2025 年底快照為 29 架；2026 已有新交機，不把歷史快照當作現況。"
+      },
+      {
+        "label": "平均機齡",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "label": "航網規模",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "城市、機場、自營、共掛及貨運口徑尚未統一，不比較單一航點數。"
+      }
+    ],
+    "history": [
+      {
+        "label": "成立",
+        "value": "2018-05-02",
+        "source": "星宇｜公司成立公告",
+        "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+        "published_date": "2018-05-02",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2018-05-02",
+        "source_id": "jxAbout"
+      },
+      {
+        "title": "2026 年首架 A350-1000",
+        "body": "Airbus 於 2026-01-06 確認首架交付；這是歷史交付事件，不是今天的機隊總數。",
+        "source": "Airbus｜STARLUX 首架 A350-1000",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "published_date": "2026-01-06",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-01-06",
+        "source_id": "jxDelivery"
+      }
+    ],
+    "governance": [
+      {
+        "label": "公司治理",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "organization": [
+      {
+        "label": "組織架構",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "brand": [
+      {
+        "title": "精品航空定位",
+        "body": "證交所公司介紹以全服務精品航空、高品質軟硬體與重視品質的旅客為品牌定位。",
+        "source": "證交所｜星宇上市公司介紹",
+        "source_url": "https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "jxTwse"
+      }
+    ],
+    "fleet": [],
+    "orders": [],
+    "renewal": [
+      {
+        "label": "機隊更新",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "technical": [],
+    "routes": [],
+    "hubs": [
+      {
+        "label": "樞紐",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "alliances": [
+      {
+        "label": "航空聯盟",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "codeshare": [
+      {
+        "label": "共掛班號",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "passenger": [
+      {
+        "label": "客運業務",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "cargo": [
+      {
+        "label": "貨運",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "maintenance": [
+      {
+        "label": "修護",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "safety": [
+      {
+        "title": "疲勞也是安全風險",
+        "body": "ICAO 說明工時限制搭配 SMS，以及經主管機關核准的 FRMS 兩種管理途徑；勿以安全排名取代制度分析。",
+        "source": "ICAO｜Fatigue Management",
+        "source_url": "https://www.icao.int/operational-safety/fatigue-management",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "fatigue",
+        "scope": "一般航空知識"
+      }
+    ],
+    "sms": [
+      {
+        "title": "SMS 的四個面向",
+        "body": "安全政策、風險管理、安全保證、安全推廣。這是通用知識；各公司實際制度應另以其公開文件查核。",
+        "source": "FAA｜SMS Components",
+        "source_url": "https://www.faa.gov/about/initiatives/sms/explained/components",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "sms",
+        "scope": "一般航空知識，非公司合規結論"
+      }
+    ],
+    "esg": [
+      {
+        "title": "SAF 試行計畫",
+        "body": "2025 年年報提及參與台灣 SAF 添加試行；本版不推算比例或減碳量。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      }
+    ],
+    "saf": [
+      {
+        "title": "SAF 試行計畫",
+        "body": "2025 年年報提及參與台灣 SAF 添加試行；本版不推算比例或減碳量。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      }
+    ],
+    "finance": [],
+    "revenue": [],
+    "eps": [],
+    "strategy": [
+      {
+        "label": "營運策略",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "advantages": [
+      {
+        "label": "競爭優勢",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "risks": [
+      {
+        "label": "挑戰與風險",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "employees": [
+      {
+        "label": "人才",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "recruitment": [
+      {
+        "label": "當期培訓機師招募",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "招募梯次、截止日與資格尚待官方招募頁重新查核。"
+      }
+    ],
+    "cadet": [
+      {
+        "label": "培訓機師制度",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "interview": [],
+    "news": [
+      {
+        "label": "最新消息",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "future": [
+      {
+        "title": "長程機隊擴展",
+        "body": "A350-1000 交付公告連結歐洲、北美與部分亞太航線用途。逐條開航狀態需另查。",
+        "source": "Airbus｜STARLUX 首架 A350-1000",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "published_date": "2026-01-06",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-01-06",
+        "source_id": "jxDelivery"
+      }
+    ]
+  },
+  "last_verified": "2026-10-11"
+}

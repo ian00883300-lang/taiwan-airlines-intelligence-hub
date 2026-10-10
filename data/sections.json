@@ -1,0 +1,162 @@
+[
+  {
+    "id": "overview",
+    "zh": "公司總覽",
+    "en": "Overview"
+  },
+  {
+    "id": "history",
+    "zh": "歷史沿革",
+    "en": "History"
+  },
+  {
+    "id": "governance",
+    "zh": "公司治理",
+    "en": "Corporate Governance"
+  },
+  {
+    "id": "organization",
+    "zh": "組織架構",
+    "en": "Organization"
+  },
+  {
+    "id": "brand",
+    "zh": "品牌與理念",
+    "en": "Brand / Corporate Philosophy"
+  },
+  {
+    "id": "fleet",
+    "zh": "現役機隊",
+    "en": "Fleet"
+  },
+  {
+    "id": "orders",
+    "zh": "新機訂單",
+    "en": "Fleet Orders"
+  },
+  {
+    "id": "renewal",
+    "zh": "機隊更新",
+    "en": "Fleet Renewal"
+  },
+  {
+    "id": "technical",
+    "zh": "機型技術",
+    "en": "Aircraft Technical Knowledge"
+  },
+  {
+    "id": "routes",
+    "zh": "航網",
+    "en": "Route Network"
+  },
+  {
+    "id": "hubs",
+    "zh": "樞紐",
+    "en": "Hubs"
+  },
+  {
+    "id": "alliances",
+    "zh": "航空聯盟",
+    "en": "Alliances"
+  },
+  {
+    "id": "codeshare",
+    "zh": "共掛班號",
+    "en": "Codeshare Partners"
+  },
+  {
+    "id": "passenger",
+    "zh": "客運業務",
+    "en": "Passenger Business"
+  },
+  {
+    "id": "cargo",
+    "zh": "貨運",
+    "en": "Cargo"
+  },
+  {
+    "id": "maintenance",
+    "zh": "修護",
+    "en": "Maintenance"
+  },
+  {
+    "id": "safety",
+    "zh": "飛航安全",
+    "en": "Flight Safety"
+  },
+  {
+    "id": "sms",
+    "zh": "安全管理系統",
+    "en": "SMS"
+  },
+  {
+    "id": "esg",
+    "zh": "永續發展",
+    "en": "Sustainability / ESG"
+  },
+  {
+    "id": "saf",
+    "zh": "永續航空燃油",
+    "en": "SAF"
+  },
+  {
+    "id": "finance",
+    "zh": "財務",
+    "en": "Finance"
+  },
+  {
+    "id": "revenue",
+    "zh": "營收",
+    "en": "Revenue"
+  },
+  {
+    "id": "eps",
+    "zh": "每股盈餘",
+    "en": "EPS"
+  },
+  {
+    "id": "strategy",
+    "zh": "營運策略",
+    "en": "Operating Strategy"
+  },
+  {
+    "id": "advantages",
+    "zh": "競爭優勢",
+    "en": "Competitive Advantages"
+  },
+  {
+    "id": "risks",
+    "zh": "挑戰與風險",
+    "en": "Challenges / Risks"
+  },
+  {
+    "id": "employees",
+    "zh": "人才",
+    "en": "Employees / Talent"
+  },
+  {
+    "id": "recruitment",
+    "zh": "機師招募",
+    "en": "Pilot Recruitment"
+  },
+  {
+    "id": "cadet",
+    "zh": "培訓機師制度",
+    "en": "Cadet Pilot Program"
+  },
+  {
+    "id": "interview",
+    "zh": "面試知識",
+    "en": "Interview Knowledge"
+  },
+  {
+    "id": "news",
+    "zh": "最新消息",
+    "en": "Recent News"
+  },
+  {
+    "id": "future",
+    "zh": "未來策略",
+    "en": "Future Strategy"
+  }
+]

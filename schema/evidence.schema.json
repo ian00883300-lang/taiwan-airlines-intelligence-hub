@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TAIH evidence metadata",
+  "type": "object",
+  "required": [
+    "source",
+    "source_url",
+    "published_date",
+    "verified_date",
+    "status",
+    "as_of"
+  ],
+  "properties": {
+    "source": { "type": ["string", "null"] },
+    "source_url": { "type": ["string", "null"], "pattern": "^https://" },
+    "published_date": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "verified_date": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "as_of": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "status": {
+      "enum": ["confirmed", "announced", "planned", "estimated", "unverified"]
+    },
+    "value": { "type": ["string", "number", "null"] },
+    "order_type": {
+      "enum": ["firm_order", "option", "MoU", "announcement", "plan", "rumour"]
+    },
+    "delivery_state": {
+      "enum": [
+        "current",
+        "delivered",
+        "on_order",
+        "order_program",
+        "planned",
+        "retired"
+      ]
+    },
+    "current_fleet": { "type": ["integer", "null"], "minimum": 0 }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": ["confirmed", "announced", "planned", "estimated"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "pattern": "^https://" },
+          "verified_date": { "type": "string" }
+        }
+      }
+    }
+  ]
+}

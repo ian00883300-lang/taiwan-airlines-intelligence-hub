@@ -1,0 +1,445 @@
+{
+  "id": "china-airlines",
+  "code": "CI",
+  "name": "中華航空",
+  "english": "China Airlines",
+  "color": "#ba427e",
+  "tag": "客貨並進 · 全球航網",
+  "founded": {
+    "label": "成立",
+    "value": "1959-12-16",
+    "source": "華航｜2012 永續報告（歷史成立資訊）",
+    "source_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2012-12-31",
+    "source_id": "ciFounding"
+  },
+  "alliance": {
+    "label": "聯盟",
+    "value": "SkyTeam（2011 加入）",
+    "source": "KLM｜China Airlines Joins SkyTeam",
+    "source_url": "https://news.klm.com/china-airlines-treedt-toe-tot-skyteam-en/",
+    "published_date": "2011-09-28",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2011-09-28",
+    "source_id": "ciAlliance"
+  },
+  "total": {
+    "label": "機隊總數",
+    "value": 85,
+    "source": "中華航空｜營運概況",
+    "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2026-09-30",
+    "source_id": "ciFleet",
+    "scope": "華航本體；67 客機 + 18 貨機，不含子公司與訂單"
+  },
+  "age": {
+    "label": "平均機齡",
+    "value": "9.6 年",
+    "source": "中華航空｜營運概況",
+    "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2026-09-30",
+    "source_id": "ciFleet"
+  },
+  "sections": {
+    "overview": [
+      {
+        "label": "成立",
+        "value": "1959-12-16",
+        "source": "華航｜2012 永續報告（歷史成立資訊）",
+        "source_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2012-12-31",
+        "source_id": "ciFounding"
+      },
+      {
+        "label": "聯盟",
+        "value": "SkyTeam（2011 加入）",
+        "source": "KLM｜China Airlines Joins SkyTeam",
+        "source_url": "https://news.klm.com/china-airlines-treedt-toe-tot-skyteam-en/",
+        "published_date": "2011-09-28",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2011-09-28",
+        "source_id": "ciAlliance"
+      },
+      {
+        "label": "機隊總數",
+        "value": 85,
+        "source": "中華航空｜營運概況",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-09-30",
+        "source_id": "ciFleet",
+        "scope": "華航本體；67 客機 + 18 貨機，不含子公司與訂單"
+      },
+      {
+        "label": "平均機齡",
+        "value": "9.6 年",
+        "source": "中華航空｜營運概況",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-09-30",
+        "source_id": "ciFleet"
+      },
+      {
+        "label": "航網規模",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "城市、機場、自營、共掛及貨運口徑尚未統一，不比較單一航點數。"
+      }
+    ],
+    "history": [
+      {
+        "label": "成立",
+        "value": "1959-12-16",
+        "source": "華航｜2012 永續報告（歷史成立資訊）",
+        "source_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2012-12-31",
+        "source_id": "ciFounding"
+      },
+      {
+        "label": "聯盟",
+        "value": "SkyTeam（2011 加入）",
+        "source": "KLM｜China Airlines Joins SkyTeam",
+        "source_url": "https://news.klm.com/china-airlines-treedt-toe-tot-skyteam-en/",
+        "published_date": "2011-09-28",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2011-09-28",
+        "source_id": "ciAlliance"
+      }
+    ],
+    "governance": [
+      {
+        "title": "永續治理",
+        "body": "2025 年調整設置永續暨風險委員會，整合永續與營運風險管理。",
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "source_id": "ciEsg"
+      }
+    ],
+    "organization": [
+      {
+        "label": "組織架構",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "brand": [
+      {
+        "label": "品牌與理念",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "fleet": [],
+    "orders": [],
+    "renewal": [
+      {
+        "title": "汰舊換新計畫",
+        "body": "官方列出逐步汰換 737-800、A330-300 與 747-400F 的計畫；這些機型仍出現在目前現役表，不能當作已退役。",
+        "source": "華航｜2025 營運績效",
+        "source_id": "ciFinance",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "planned"
+      }
+    ],
+    "technical": [],
+    "routes": [],
+    "hubs": [
+      {
+        "label": "樞紐",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "alliances": [
+      {
+        "label": "聯盟",
+        "value": "SkyTeam（2011 加入）",
+        "source": "KLM｜China Airlines Joins SkyTeam",
+        "source_url": "https://news.klm.com/china-airlines-treedt-toe-tot-skyteam-en/",
+        "published_date": "2011-09-28",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2011-09-28",
+        "source_id": "ciAlliance"
+      }
+    ],
+    "codeshare": [
+      {
+        "label": "共掛班號",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "passenger": [
+      {
+        "label": "客運業務",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "cargo": [
+      {
+        "label": "全貨機",
+        "value": 18,
+        "source": "中華航空｜營運概況",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-09-30",
+        "source_id": "ciFleet",
+        "note": "8 架 747-400F + 10 架 777F；不含客機腹艙。"
+      }
+    ],
+    "maintenance": [
+      {
+        "title": "自有修護體系",
+        "body": "官方修護組織介紹列有自有機隊與第三方客戶的維修服務。",
+        "source": "華航｜修護組織介紹",
+        "source_url": "https://emo.china-airlines.com/lang-en/profile_en.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "ciMaintenance"
+      }
+    ],
+    "safety": [
+      {
+        "title": "疲勞也是安全風險",
+        "body": "ICAO 說明工時限制搭配 SMS，以及經主管機關核准的 FRMS 兩種管理途徑；勿以安全排名取代制度分析。",
+        "source": "ICAO｜Fatigue Management",
+        "source_url": "https://www.icao.int/operational-safety/fatigue-management",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "fatigue",
+        "scope": "一般航空知識"
+      }
+    ],
+    "sms": [
+      {
+        "title": "持續辨識及管理風險",
+        "body": "華航官方說明自 2007 年推動 SMS，透過安全績效目標與管理持續改善。排定的稽核日期不等於已通過。",
+        "source": "華航｜安全管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "ciSms"
+      }
+    ],
+    "esg": [
+      {
+        "title": "永續治理",
+        "body": "2025 年調整設置永續暨風險委員會，整合永續與營運風險管理。",
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "source_id": "ciEsg"
+      }
+    ],
+    "saf": [
+      {
+        "label": "永續航空燃油",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "finance": [],
+    "revenue": [],
+    "eps": [],
+    "strategy": [
+      {
+        "title": "客貨並進",
+        "body": "公司將客運、貨運及機隊調配共同列為營運主軸。",
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "source_id": "ciEsg"
+      }
+    ],
+    "advantages": [
+      {
+        "label": "競爭優勢",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "risks": [
+      {
+        "label": "挑戰與風險",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "employees": [
+      {
+        "title": "培訓概況",
+        "body": "公告列大學學士、有效英文檢定及體檢等資格；甄選涵蓋心理衡鑑、紙筆、中英文面試及綜合評量。細節以當期簡章為準。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      }
+    ],
+    "recruitment": [
+      {
+        "title": "官方公告全年接受報名",
+        "body": "2026-03-07 公告全年開放機師報名；逾 160 名是年度招募目標，並非現有剩餘職缺。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      }
+    ],
+    "cadet": [
+      {
+        "title": "培訓概況",
+        "body": "公告列大學學士、有效英文檢定及體檢等資格；甄選涵蓋心理衡鑑、紙筆、中英文面試及綜合評量。細節以當期簡章為準。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      }
+    ],
+    "interview": [],
+    "news": [
+      {
+        "title": "修護與團隊合作",
+        "body": "10 月 6 日宣布修護紀錄片，將訓練、維修流程及安全文化呈現給大眾。",
+        "source": "華航｜修護紀錄片新聞稿",
+        "source_url": "https://www.china-airlines.com/hk/zh/about-china-airlines/media/news/20261006.html",
+        "published_date": "2026-10-06",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-10-06",
+        "source_id": "ciNews"
+      }
+    ],
+    "future": [
+      {
+        "title": "787 產品規劃",
+        "body": "2026-06-02 公開新機豪華經濟艙；產品亮相不代表已交付或已投入營運。",
+        "source": "華航｜787 豪華經濟艙亮相",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20260602.html",
+        "published_date": "2026-06-02",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2026-06-02",
+        "source_id": "ci787"
+      },
+      {
+        "title": "A350-1000 總訂單增至 15 架",
+        "body": "Airbus 於 2025-12-18 確認追加 5 架，合計 15 架。早期的 5 架選擇權不再另外加總。",
+        "source": "Airbus｜華航 A350-1000 總訂單 15 架",
+        "source_id": "ciA350Total",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-12-china-airlines-orders-five-more-airbus-a350-1000s",
+        "published_date": "2025-12-18",
+        "as_of": "2025-12-18",
+        "verified_date": "2026-10-11",
+        "status": "announced"
+      }
+    ]
+  },
+  "last_verified": "2026-10-11"
+}

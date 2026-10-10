@@ -1,0 +1,30 @@
+{
+  "period": "2025 年度",
+  "scope": "合併營收；官方永續營運績效",
+  "revenue": {
+    "label": "2025 年度營收",
+    "value": 209.139,
+    "unit": "十億新臺幣",
+    "period": "2025-01-01/2025-12-31",
+    "scope": "合併營收；官方永續營運績效",
+    "source": "華航｜2025 營運績效",
+    "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "ciFinance"
+  },
+  "eps": {
+    "label": "基本 EPS",
+    "value": null,
+    "source": null,
+    "source_url": null,
+    "published_date": null,
+    "verified_date": null,
+    "status": "unverified",
+    "as_of": null,
+    "note": "尚未取得可比較且具日期的官方資料。"
+  },
+  "note": "不混用季度、年度、集團與公司本體數據。"
+}

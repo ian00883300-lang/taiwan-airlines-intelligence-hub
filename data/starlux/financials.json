@@ -1,0 +1,32 @@
+{
+  "period": "2025 年度",
+  "scope": "年報公司營收；與其他公司合併邊界不完全相同",
+  "revenue": {
+    "label": "2025 年度營收",
+    "value": 44.053262,
+    "unit": "十億新臺幣",
+    "period": "2025-01-01/2025-12-31",
+    "scope": "年報公司營收；與其他公司合併邊界不完全相同",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "jxAnnual"
+  },
+  "eps": {
+    "label": "2025 基本 EPS",
+    "value": 0.09,
+    "unit": "新臺幣／股",
+    "period": "2025-01-01/2025-12-31",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "jxAnnual"
+  },
+  "note": "不混用季度、年度、集團與公司本體數據。"
+}

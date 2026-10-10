@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "當期培訓機師招募",
+      "value": null,
+      "source": null,
+      "source_url": null,
+      "published_date": null,
+      "verified_date": null,
+      "status": "unverified",
+      "as_of": null,
+      "note": "招募梯次、截止日與資格尚待官方招募頁重新查核。"
+    }
+  ],
+  "program": [
+    {
+      "label": "培訓機師制度",
+      "value": null,
+      "source": null,
+      "source_url": null,
+      "published_date": null,
+      "verified_date": null,
+      "status": "unverified",
+      "as_of": null,
+      "note": "尚未取得可比較且具日期的官方資料。"
+    }
+  ]
+}

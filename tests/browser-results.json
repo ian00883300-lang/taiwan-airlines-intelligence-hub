@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-11",
+  "base": "http://127.0.0.1:4173/",
+  "results": [
+    {
+      "name": "Production dashboard loads three airlines and two real charts",
+      "pass": true
+    },
+    {
+      "name": "All 96 airline categories render without empty main content",
+      "pass": true
+    },
+    {
+      "name": "Fleet filter separates freight from passenger aircraft",
+      "pass": true
+    },
+    {
+      "name": "Map filters show one verified STARLUX Europe route and honest empty state",
+      "pass": true
+    },
+    {
+      "name": "Comparison has 22 dimensions and dated financial units",
+      "pass": true
+    },
+    {
+      "name": "Weekly filter excludes older STARLUX news until background is selected",
+      "pass": true
+    },
+    {
+      "name": "Question search, difficulty and topic filters work together",
+      "pass": true
+    },
+    {
+      "name": "Interview dialog timer, 60-second answer, note, bookmark and completion persist",
+      "pass": true
+    },
+    {
+      "name": "Notes export downloads a valid local JSON file",
+      "pass": true
+    },
+    {
+      "name": "Global search reaches the selected question",
+      "pass": true
+    },
+    {
+      "name": "Evidence panel exposes source, publication, verification and as-of fields",
+      "pass": true
+    },
+    {
+      "name": "Desktop, iPad and iPhone pages have no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile bottom navigation opens all five main destinations",
+      "pass": true
+    },
+    {
+      "name": "External map outage retains usable route list and shows fallback",
+      "pass": true
+    },
+    {
+      "name": "No browser runtime errors in tested flows",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

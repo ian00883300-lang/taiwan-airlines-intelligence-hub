@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+tests/*-check.mjs
+tests/inspect.mjs
+scripts/github-*.mjs

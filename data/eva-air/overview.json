@@ -1,0 +1,438 @@
+{
+  "id": "eva-air",
+  "code": "BR",
+  "name": "長榮航空",
+  "english": "EVA Air",
+  "color": "#21846b",
+  "tag": "跨洲網絡 · 客運與貨運",
+  "founded": {
+    "label": "成立",
+    "value": "1989",
+    "source": "長榮｜公司沿革",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": null,
+    "source_id": "evaHistory",
+    "note": "1989-03-08 奉准籌設；1989-04-07 正式登記，避免混用。"
+  },
+  "alliance": {
+    "label": "聯盟",
+    "value": "Star Alliance（2013 加入）",
+    "source": "SAS｜EVA joins Star Alliance",
+    "source_url": "https://www.sasgroup.net/newsroom/press-releases/2013/eva-air-joins-the-star-alliance-network/",
+    "published_date": "2013-06-18",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2013-06-18",
+    "source_id": "evaAlliance"
+  },
+  "total": {
+    "label": "機隊總數",
+    "value": 89,
+    "source": "長榮航空｜EVA Air Fleet",
+    "source_url": "https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "as_of": "2026-10-01",
+    "source_id": "evaFleet",
+    "scope": "長榮本體；80 客機 + 9 貨機，不含立榮與待交機"
+  },
+  "age": {
+    "label": "平均機齡",
+    "value": null,
+    "source": null,
+    "source_url": null,
+    "published_date": null,
+    "verified_date": null,
+    "status": "unverified",
+    "as_of": null,
+    "note": "尚未取得可比較且具日期的官方資料。"
+  },
+  "sections": {
+    "overview": [
+      {
+        "label": "成立",
+        "value": "1989",
+        "source": "長榮｜公司沿革",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaHistory",
+        "note": "1989-03-08 奉准籌設；1989-04-07 正式登記，避免混用。"
+      },
+      {
+        "label": "聯盟",
+        "value": "Star Alliance（2013 加入）",
+        "source": "SAS｜EVA joins Star Alliance",
+        "source_url": "https://www.sasgroup.net/newsroom/press-releases/2013/eva-air-joins-the-star-alliance-network/",
+        "published_date": "2013-06-18",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2013-06-18",
+        "source_id": "evaAlliance"
+      },
+      {
+        "label": "機隊總數",
+        "value": 89,
+        "source": "長榮航空｜EVA Air Fleet",
+        "source_url": "https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-10-01",
+        "source_id": "evaFleet",
+        "scope": "長榮本體；80 客機 + 9 貨機，不含立榮與待交機"
+      },
+      {
+        "label": "平均機齡",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "label": "航網規模",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "城市、機場、自營、共掛及貨運口徑尚未統一，不比較單一航點數。"
+      }
+    ],
+    "history": [
+      {
+        "label": "成立",
+        "value": "1989",
+        "source": "長榮｜公司沿革",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaHistory",
+        "note": "1989-03-08 奉准籌設；1989-04-07 正式登記，避免混用。"
+      },
+      {
+        "title": "首航",
+        "body": "1991-07-01 首航。",
+        "source": "長榮｜Fundamental Data",
+        "source_url": "https://www.evaair.com/en-us/about-eva-air/about-us/market-and-sales-overview/fundamental-data/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaAbout"
+      }
+    ],
+    "governance": [
+      {
+        "label": "公司治理",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "organization": [
+      {
+        "label": "組織架構",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "brand": [
+      {
+        "title": "品質方針",
+        "body": "官方提出安全便利、優質服務與顧客滿意。",
+        "source": "長榮｜Fundamental Data",
+        "source_url": "https://www.evaair.com/en-us/about-eva-air/about-us/market-and-sales-overview/fundamental-data/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaAbout"
+      }
+    ],
+    "fleet": [],
+    "orders": [],
+    "renewal": [
+      {
+        "title": "新機更新計畫",
+        "body": "Airbus 2025 年公告確認新增 6 架 A350-1000 與 3 架 A321neo，總待交提升至 24 與 18 架；和現役機隊分列。",
+        "source": "Airbus｜EVA Air 增訂",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-04-eva-air-expands-fleet-with-more-a350-1000-and-a321neo-aircraft",
+        "published_date": "2025-04-07",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2025-04-07",
+        "source_id": "evaOrder"
+      }
+    ],
+    "technical": [],
+    "routes": [],
+    "hubs": [
+      {
+        "label": "樞紐",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "alliances": [
+      {
+        "label": "聯盟",
+        "value": "Star Alliance（2013 加入）",
+        "source": "SAS｜EVA joins Star Alliance",
+        "source_url": "https://www.sasgroup.net/newsroom/press-releases/2013/eva-air-joins-the-star-alliance-network/",
+        "published_date": "2013-06-18",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2013-06-18",
+        "source_id": "evaAlliance"
+      }
+    ],
+    "codeshare": [
+      {
+        "label": "共掛班號",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "passenger": [
+      {
+        "label": "客運業務",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "cargo": [
+      {
+        "label": "全貨機",
+        "value": 9,
+        "source": "長榮航空｜EVA Air Fleet",
+        "source_url": "https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-10-01",
+        "source_id": "evaFleet",
+        "note": "777F；客機腹艙另計。"
+      }
+    ],
+    "maintenance": [
+      {
+        "label": "修護",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "safety": [
+      {
+        "title": "疲勞也是安全風險",
+        "body": "ICAO 說明工時限制搭配 SMS，以及經主管機關核准的 FRMS 兩種管理途徑；勿以安全排名取代制度分析。",
+        "source": "ICAO｜Fatigue Management",
+        "source_url": "https://www.icao.int/operational-safety/fatigue-management",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "fatigue",
+        "scope": "一般航空知識"
+      }
+    ],
+    "sms": [
+      {
+        "title": "SMS 的四個面向",
+        "body": "安全政策、風險管理、安全保證、安全推廣。這是通用知識；各公司實際制度應另以其公開文件查核。",
+        "source": "FAA｜SMS Components",
+        "source_url": "https://www.faa.gov/about/initiatives/sms/explained/components",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "sms",
+        "scope": "一般航空知識，非公司合規結論"
+      }
+    ],
+    "esg": [
+      {
+        "title": "SAF 使用與未來目標分列",
+        "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",
+        "source": "長榮｜永續績效",
+        "source_url": "https://www.evacsr.com/en/esg/about03.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaSaf"
+      }
+    ],
+    "saf": [
+      {
+        "title": "SAF 使用與未來目標分列",
+        "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",
+        "source": "長榮｜永續績效",
+        "source_url": "https://www.evacsr.com/en/esg/about03.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaSaf"
+      }
+    ],
+    "finance": [],
+    "revenue": [],
+    "eps": [],
+    "strategy": [
+      {
+        "label": "營運策略",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "advantages": [
+      {
+        "label": "競爭優勢",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "risks": [
+      {
+        "label": "挑戰與風險",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "employees": [
+      {
+        "title": "三階段培訓",
+        "body": "地面學科、基礎飛行、進階與機型轉換；完成後以副機長任用。各階段須達成訓練要求。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      }
+    ],
+    "recruitment": [
+      {
+        "title": "可隨時報名",
+        "body": "官方招募頁表示累積相當人數後通知甄試；不代表固定開課或保證录取日期。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      }
+    ],
+    "cadet": [
+      {
+        "title": "三階段培訓",
+        "body": "地面學科、基礎飛行、進階與機型轉換；完成後以副機長任用。各階段須達成訓練要求。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      }
+    ],
+    "interview": [],
+    "news": [
+      {
+        "label": "最新消息",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      }
+    ],
+    "future": [
+      {
+        "title": "新機更新計畫",
+        "body": "Airbus 2025 年公告確認新增 6 架 A350-1000 與 3 架 A321neo，總待交提升至 24 與 18 架；和現役機隊分列。",
+        "source": "Airbus｜EVA Air 增訂",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-04-eva-air-expands-fleet-with-more-a350-1000-and-a321neo-aircraft",
+        "published_date": "2025-04-07",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2025-04-07",
+        "source_id": "evaOrder"
+      }
+    ]
+  },
+  "last_verified": "2026-10-11"
+}

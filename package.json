@@ -1,0 +1,32 @@
+{
+  "name": "taiwan-airlines-intelligence-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/data.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "check": "node --test tests/data.test.mjs && vite build"
+  },
+  "dependencies": {
+    "chart.js": "4.5.0",
+    "leaflet": "1.9.4",
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.7.0",
+    "ajv": "8.17.1",
+    "playwright": "1.56.1",
+    "prettier": "3.6.2",
+    "vite": "6.4.1"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  }
+}

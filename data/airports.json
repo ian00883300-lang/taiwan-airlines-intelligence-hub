@@ -1,0 +1,41 @@
+{
+  "note": "座標為地圖示意用近似機場位置，非導航資料。",
+  "items": {
+    "TPE": {
+      "name": "臺灣桃園",
+      "lat": 25.08,
+      "lng": 121.23,
+      "region": "Taiwan"
+    },
+    "PHX": {
+      "name": "鳳凰城",
+      "lat": 33.43,
+      "lng": -112.01,
+      "region": "North America"
+    },
+    "DFW": {
+      "name": "達拉斯／沃斯堡",
+      "lat": 32.9,
+      "lng": -97.04,
+      "region": "North America"
+    },
+    "PRG": {
+      "name": "布拉格",
+      "lat": 50.1,
+      "lng": 14.26,
+      "region": "Europe"
+    },
+    "NRT": {
+      "name": "東京成田",
+      "lat": 35.77,
+      "lng": 140.39,
+      "region": "Japan"
+    },
+    "KIX": {
+      "name": "大阪關西",
+      "lat": 34.43,
+      "lng": 135.24,
+      "region": "Japan"
+    }
+  }
+}
