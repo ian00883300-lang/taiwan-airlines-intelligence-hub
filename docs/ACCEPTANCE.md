@@ -17,7 +17,7 @@
 |11|Question Bank|完成；20題、15類、三家+General、難度及搜尋|
 |12|Weekly Intelligence|完成結構與2則本週消息；1則較早背景分開；星宇本週待查核|
 |13|更新機制|完成static-first /data；人工更新指南；未啟用自動爬取|
-|14|GitHub|本機完成；repository及發布狀態見交付回報|
+|14|GitHub|已建立公開repository；GitHub Actions資料檢查與build通過|
 |15|免費技術|React/Vite/Chart.js/Leaflet/Lucide/JSON，無server runtime|
 |16|Responsive UI|桌面側欄；iPad重排；手機五項底部導覽|
 |17|語言|繁中UI、航空英文名詞、中英文題目；英文全站UI待未來版本|
@@ -27,7 +27,7 @@
 |21|可點選操作|三家公司同結構，含Overview/History/Fleet/Routes/Cargo/Finance/Safety/ESG/Recruitment/Interview|
 |22|不是Mockup|實際React網站、互動、localStorage；待查核區塊不冒充已完成研究|
 |23|回報格式|交付回報包含DONE/VERIFIED DATA/WEBSITE/TESTING/GITHUB/COST/PENDING/NEXT|
-|24|可開啟v0.1|本機HTTP預覽及可部署dist；公開部署需確認Pages設定|
+|24|可開啟v0.1|本機HTTP預覽及可部署dist；使用者已授權Pages；由GitHub Actions發布|
 
 ## 未完成研究（不影響開啟與操作）
 
@@ -36,3 +36,4 @@
 ## 瀏覽器驗證範圍
 
 獨立Chrome環境、375/390/768/1024/1440px，涵蓋96個分類、篩選、時間、收藏、筆記/匯出、来源、手機導覽、底圖失效。未在實體iPhone/Safari操作；桌面Chromium裝置尺寸模擬不等於原生Safari認證。
+

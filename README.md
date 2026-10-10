@@ -4,12 +4,14 @@
 
 **額外費用 NT$0**。React + Vite 靜態網站，無後端、無付費 API、無登入服務。只使用公開來源與免費開源函式庫。
 
+[開啟正式網站](https://ian00883300-lang.github.io/taiwan-airlines-intelligence-hub/) · [GitHub](https://github.com/ian00883300-lang/taiwan-airlines-intelligence-hub)
+
 ## 使用
 
 - 首頁：三家公司、日期分列的機隊快照、圖表、代表航線、週報、招募入口。
 - 公司研究：華航／長榮／星宇各 32 個分類，未完成資料顯示 `Data pending verification`。
 - 比較：22 面向；不混用年度／季度、客機／貨機／訂單、公司／集團營收。
-- 面試：20 道原創中英文練習，涵蓋 15 類；30／60 秒示範、計時、收藏、練習標记、筆記、JSON 匯出。
+- 面試：20 道原創中英文練習，涵蓋 15 類；30／60 秒示範、計時、收藏、練習標記、筆記、JSON 匯出。
 - 航網：Leaflet + OpenStreetMap；5 條已收錄代表性自營客運航線。底圖失效時保留清單。
 - 週報：本週與近期背景分開；手動查核更新，無自動爬取或付費流程。
 
@@ -39,7 +41,7 @@ pnpm test:browser
 - `data/`：sources、comparison、weekly-updates、interview-bank、airports、sections。
 - `schema/evidence.schema.json`：來源與狀態規格。
 - `sources.md`：來源目錄與資料衝突處理。
-- `docs/`：資料更新、驗收、部署及测试紀錄。
+- `docs/`：資料更新、驗收、部署及測試紀錄。
 - `src/`：繁體中文優先 UI。題庫保留英文欄位，未來可抽離字典支援英文介面；目前無完整英文 UI。
 
 `data/` 是唯一資料維護來源，更新 JSON 後重新 build 即可。不要由程式推算未知值。
@@ -50,7 +52,7 @@ pnpm test:browser
 
 華航機隊 85（2026-09-30），長榮 89（2026-10-01）。星宇 29 僅為 2025 年底歷史快照，不用作當前總數。金融數字保留各自年報／合併邊界，未以不同定義淨利作排行。
 
-待補：星宇當前同日分型機隊、完整招募梯次、各公司组织／共掛清單、完整機型座位及技術資料、完整航網、逐年交付與退役排程，以及華航／長榮當年 EPS。詳見 `docs/ACCEPTANCE.md`。
+待補：星宇當前同日分型機隊、完整招募梯次、各公司組織／共掛清單、完整機型座位及技術資料、完整航網、逐年交付與退役排程，以及華航／長榮當年 EPS。詳見 `docs/ACCEPTANCE.md`。
 
 本站內容為獨立研究及原創練習，非航空公司官方聲明、考題或操作手冊。練習回答不編造使用者的個人經驗。
 
@@ -62,3 +64,4 @@ pnpm test:browser
 - GitHub 免費公開 repository 與 GitHub Pages；不購買網域，不啟用付費方案。
 
 程式碼可依 MIT License 使用；來源網站內容及第三方函式庫仍依原授權。
+
