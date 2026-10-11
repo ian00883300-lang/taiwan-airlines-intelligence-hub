@@ -58,9 +58,7 @@ try {
   );
   await go("starlux/cadet");
   assert.ok(
-    (await page.locator(".training-program").innerText()).includes(
-      "Data pending verification",
-    ),
+    (await page.locator(".training-program").innerText()).includes("1.5–2 年"),
   );
   await go("china-airlines/finance");
   assert.equal(await page.locator("canvas").count(), 2);

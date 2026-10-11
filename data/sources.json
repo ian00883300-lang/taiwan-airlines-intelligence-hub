@@ -478,5 +478,25 @@
     "as_of": "2025-12-31",
     "verified_date": "2026-10-11",
     "status": "confirmed"
+  },
+  {
+    "id": "ciCadetCurrent",
+    "source": "華航｜培訓機師報名資格",
+    "source_url": "https://calcfec.china-airlines.com/PilotResume/chDefault.aspx",
+    "level": 1,
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "jxCadetCurrent",
+    "source": "星宇｜Cadet Pilot Program 與 FAQ",
+    "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+    "level": 1,
+    "published_date": null,
+    "verified_date": "2026-10-11",
+    "as_of": null,
+    "status": "confirmed"
   }
 ]

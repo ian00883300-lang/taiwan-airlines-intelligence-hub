@@ -76,14 +76,16 @@
       "scope": "官方約略時程，依分發機種而異；不保證個別學員完成日期。"
     },
     "starlux": {
-      "title": "課程時程待查核",
-      "body": "Data pending verification。尚未取得可用於本頁的完整官方分階段時程，不套用其他公司的課表。",
-      "source": null,
-      "source_url": null,
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
       "published_date": null,
-      "verified_date": null,
+      "verified_date": "2026-10-11",
       "as_of": null,
-      "status": "unverified"
+      "status": "estimated",
+      "source_id": "jxCadetCurrent",
+      "title": "海外約一年，後續機型訓練約半年",
+      "body": "官網說明赴美國或澳洲受訓約一年取得 CPL，再接受約半年機型訓練；FAQ 估計整體約 1.5–2 年。",
+      "scope": "官方概估；依公司政策與個人學習狀況而異，不保證完成日期。"
     }
   },
   "requirements": [

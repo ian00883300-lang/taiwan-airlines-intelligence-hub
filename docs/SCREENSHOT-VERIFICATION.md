@@ -10,7 +10,7 @@
 - IR 仍受天氣最低標準、機體與資格限制；不同類型時數不可直接相加。
 - 模擬機採計依類別、核准制度與上限，不能一律排除。
 - 截圖的首次單飛、航路完成、機長及教官時數範圍未取得三航通用官方依據，未轉成數據圖。
-- 華航引用 [2025-12-07 官方說明](https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20251207)，長榮引用[官方招募頁](https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/)，均保留適用範圍。星宇分階段時程維持待查核。
+- 華航引用 [2025-12-07 官方說明](https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20251207)，長榮引用[官方招募頁](https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/)，均保留適用範圍。後續已由[星宇官方培訓頁](https://careers.jx-starlux.com/Pilot/Cadet)補齊時程概估，標示 estimated，不保證個別完訓日期。
 
 ## 財務與社會參與
 

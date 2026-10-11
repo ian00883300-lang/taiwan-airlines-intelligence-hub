@@ -24,5 +24,55 @@
       "as_of": "2026-03-07",
       "source_id": "ciRecruit"
     }
+  ],
+  "qualifications": [
+    {
+      "source": "華航｜培訓機師報名資格",
+      "source_url": "https://calcfec.china-airlines.com/PilotResume/chDefault.aspx",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "ciCadetCurrent",
+      "title": "英文：口說與寫作必備，再擇一英檢",
+      "body": "TOEIC 口說 ≥140、寫作 ≥140，另擇一：TOEIC ≥750（聽力 ≥400）、IELTS ≥6.0、TOEFL ITP ≥527 或 Linguaskill ≥160。",
+      "scope": "培訓機師；不是 CPL／民航機師門檻。應試須具兩年內有效證明。"
+    },
+    {
+      "source": "華航｜培訓機師報名資格",
+      "source_url": "https://calcfec.china-airlines.com/PilotResume/chDefault.aspx",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "ciCadetCurrent",
+      "title": "成績效期與測驗形式",
+      "body": "筆試當日英檢須至少仍有兩個月效期。TOEIC 不接受 Bridge／團體考；IELTS 不接受 Online；Linguaskill 不接受遠端考。",
+      "scope": "正式報名前重新核對官方頁。"
+    },
+    {
+      "source": "華航｜培訓機師報名資格",
+      "source_url": "https://calcfec.china-airlines.com/PilotResume/chDefault.aspx",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "ciCadetCurrent",
+      "title": "學歷與身分摘要",
+      "body": "中華民國國籍及身分證；學士以上，接受應屆畢業生。男性須役畢／免役，屆退役亦可報考。",
+      "scope": "完整文件、體檢、報考次數及約定另見官方簡章。"
+    },
+    {
+      "source": "華航｜培訓機師報名資格",
+      "source_url": "https://calcfec.china-airlines.com/PilotResume/chDefault.aspx",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "ciCadetCurrent",
+      "title": "甄選項目",
+      "body": "航醫中心心理衡鑑、紙筆測驗、中英文面試及綜合評量。",
+      "scope": "這是官方列出的項目，不是保證的通知日期。"
+    }
   ]
 }

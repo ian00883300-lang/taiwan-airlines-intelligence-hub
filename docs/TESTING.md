@@ -33,3 +33,4 @@
 執行 pnpm test / pnpm build / pnpm preview，另開終端 pnpm test:browser。瀏覽器結果在tests/browser-results.json。
 新增互動測試：`node tests/practice-browser.mjs`。正式站測試可設定 `TEST_URL`。
 研究頁與主畫面設定：`node tests/research-browser.mjs`，涵蓋六個裝置寬度、訓練階段、法規切換、財務指標、分類導覽與 icon 載入。
+字體及招募更新：`node tests/reading-browser.mjs`，涵蓋實際縮放、保存、重設、對話框同步及最大字體排版。

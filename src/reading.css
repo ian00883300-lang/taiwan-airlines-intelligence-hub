@@ -1,0 +1,95 @@
+:root {
+  font-size: calc(14px * var(--reading-scale, 1));
+}
+.reading-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 0 0 20px;
+  color: #4c687c;
+  font-size: 14px;
+}
+.reading-controls > span {
+  margin-right: auto;
+}
+.reading-controls button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+.reading-controls output {
+  width: 43px;
+  text-align: center;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+.reading-controls button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+.reading-controls .reading-reset {
+  font-size: 13px;
+}
+.interview-dialog .reading-controls {
+  margin: 8px 0 20px;
+}
+.topbar {
+  min-height: 72px;
+  height: auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.question-meta,
+.question-bottom,
+.dialog-actions {
+  flex-wrap: wrap;
+}
+.question-bottom span {
+  overflow-wrap: anywhere;
+}
+.training-steps strong,
+.training-steps small {
+  overflow-wrap: anywhere;
+}
+.brand {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .breadcrumb {
+    display: none;
+  }
+  .global-search {
+    min-width: 0;
+    width: 100%;
+  }
+  .topbar {
+    min-height: 64px;
+    padding: 12px 18px;
+  }
+  .dialog-actions button {
+    flex: 1;
+  }
+  .interview-dialog .practice-controls {
+    flex-wrap: wrap;
+  }
+  .mobile-nav {
+    min-height: calc(70px + env(safe-area-inset-bottom));
+    height: auto;
+  }
+  .mobile-nav a {
+    padding: 10px 3px;
+    min-width: 0;
+  }
+  .mobile-nav a span {
+    font-size: 12px;
+  }
+  .reading-controls {
+    gap: 6px;
+  }
+  .hub-masthead h1 {
+    overflow-wrap: anywhere;
+  }
+}

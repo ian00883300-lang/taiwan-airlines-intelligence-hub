@@ -38,6 +38,8 @@ import {
 import "leaflet/dist/leaflet.css";
 import "./style.css";
 import "./research.css";
+import "./reading.css";
+import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
 import {
   TrainingPath,
   FinanceVisuals,
@@ -921,6 +923,22 @@ function Airline({ a, tab = "overview", openInterview }) {
         <Finance a={a} openInterview={openInterview} />
       ) : tab === "cadet" ? (
         <TrainingPath airline={a.id} Source={Source} />
+      ) : tab === "recruitment" ? (
+        <>
+          <p className="notice">
+            僅摘要「培訓」類別，查核日
+            2026-10-11。門檻與通知以官方當期頁面為準；不與自訓 CPL
+            或已有經驗機師混用。
+          </p>
+          <FactCards
+            records={[
+              ...data(a.id + "/recruitment").items,
+              ...(data(a.id + "/recruitment").qualifications || []),
+            ]}
+            airline={a.id}
+            openInterview={openInterview}
+          />
+        </>
       ) : tab === "esg" ? (
         <>
           <FactCards
@@ -1390,6 +1408,7 @@ function InterviewDialog({
         </button>
       </div>
       <h2 id="practice-title">{q.question}</h2>
+      <ReadingControls />
       <p className="english-question">{q.question_en}</p>
       <p className="muted">{q.note}</p>
       <div className="practice-controls">
@@ -1649,6 +1668,7 @@ function App() {
           </span>
         </header>
         <main id="main-content" tabIndex={-1}>
+          <ReadingControls />
           {page === "home" ? (
             <Home openInterview={setQ} />
           ) : a ? (
@@ -1740,7 +1760,9 @@ function App() {
   );
 }
 createRoot(document.getElementById("root")).render(
-  <PersonalProvider ids={bank.map((q) => q.id)}>
-    <App />
-  </PersonalProvider>,
+  <ReadingProvider>
+    <PersonalProvider ids={bank.map((q) => q.id)}>
+      <App />
+    </PersonalProvider>
+  </ReadingProvider>,
 );

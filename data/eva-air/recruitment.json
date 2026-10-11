@@ -24,5 +24,43 @@
       "as_of": null,
       "source_id": "evaRecruit"
     }
+  ],
+  "qualifications": [
+    {
+      "source": "長榮｜飛航人員招募",
+      "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "evaRecruit",
+      "title": "英文門檻與學歷",
+      "body": "培訓飛航學員：大專以上同等學歷、不限科系；兩年內 TOEIC ≥650，口說與寫作各 ≥140。其他英檢若同時具備為佳，不逕自當成 TOEIC 替代方案。",
+      "scope": "須持中華民國身分證，役畢或免役；其他條件見官方。"
+    },
+    {
+      "source": "長榮｜飛航人員招募",
+      "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "evaRecruit",
+      "title": "甄選五階段",
+      "body": "筆試（適職、心算、高中數學物理）→ 飛航員潛質測驗 → 主管面試 → 飛行能力傾向評估 → 航醫體檢。",
+      "scope": "培訓類別；與一般／民航飛行員流程分開。"
+    },
+    {
+      "source": "長榮｜飛航人員招募",
+      "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "evaRecruit",
+      "title": "報考履歷、自傳須留意撰寫規定",
+      "body": "官方提醒：提交的履歷或自傳若經查由 AI 撰寫，將取消參試或錄取資格。本站口說示範供理解與練習，不能直接當成報考履歷、自傳提交。",
+      "scope": "準備文件時請自行撰寫，並重新閱讀官方注意事項。"
+    }
   ]
 }

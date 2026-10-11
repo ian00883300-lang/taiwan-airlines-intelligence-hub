@@ -172,13 +172,14 @@ test("Financial mix and social categories reconcile to exact source totals", () 
   for (const x of read("data/china-airlines/social.json").history)
     assert.equal(x.commercial + x.charity + x.community, x.total);
 });
-test("Training requirements retain jurisdictions and uncertain program stays unverified", () => {
+test("Training requirements retain jurisdictions and company durations remain estimates", () => {
   const t = read("data/training-path.json");
   assert.deepEqual(
     [...new Set(t.requirements.map((x) => x.jurisdiction))].sort(),
     ["CASA", "FAA", "臺灣"],
   );
-  assert.equal(t.programs.starlux.status, "unverified");
+  assert.equal(t.programs.starlux.status, "estimated");
+  assert.ok(t.programs.starlux.source_url.includes("careers.jx-starlux.com"));
   assert.ok(
     t.requirements.find((x) => x.id === "tw-atpl").scope.includes("不是"),
   );

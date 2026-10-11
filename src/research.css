@@ -56,7 +56,7 @@
 .hub-masthead .edition small {
   color: #a8c8d9;
   letter-spacing: 1px;
-  font-size: 8px;
+  font-size: 0.571429rem;
   margin-top: 10px;
 }
 .airline-masthead .large-emblem {
@@ -77,7 +77,7 @@
   border: 1px solid #7395b0;
   border-radius: 9px;
   color: #e7f4fa;
-  font-size: 13px;
+  font-size: 0.928571rem;
   min-height: 44px;
 }
 .hero-actions a:first-child {
@@ -106,13 +106,13 @@
 }
 .install-guide summary small {
   display: block;
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #6d8293;
   margin-top: 4px;
 }
 .install-guide summary > span:last-child {
   margin-left: auto;
-  font-size: 22px;
+  font-size: 1.571429rem;
   color: #648395;
 }
 .install-guide > div {
@@ -133,7 +133,7 @@
   padding: 12px 17px;
   border-radius: 24px;
   color: #536e83;
-  font-size: 13px;
+  font-size: 0.928571rem;
   min-height: 44px;
 }
 .topic-nav a.active {
@@ -150,12 +150,12 @@
 .all-sections summary {
   padding: 13px 16px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #516e81;
 }
 .all-sections summary span {
   float: right;
-  font-size: 11px;
+  font-size: 0.785714rem;
 }
 .all-sections .section-nav {
   margin: 0;
@@ -166,14 +166,14 @@
   margin: 26px 0 20px;
 }
 .section-intro h2 {
-  font-size: 24px;
+  font-size: 1.714286rem;
   letter-spacing: -0.5px;
   margin: 6px 0;
 }
 .section-intro p {
   max-width: 850px;
   color: #627c8e;
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .training-steps {
   display: grid;
@@ -195,16 +195,16 @@
 }
 .training-steps button > span {
   color: #86a6b9;
-  font-size: 21px;
+  font-size: 1.5rem;
   font-variant-numeric: tabular-nums;
 }
 .training-steps strong {
-  font-size: 13px;
+  font-size: 0.928571rem;
   font-weight: 500;
   line-height: 1.5;
 }
 .training-steps small {
-  font-size: 8px;
+  font-size: 0.571429rem;
   letter-spacing: 0.8px;
   color: #8294a1;
 }
@@ -225,15 +225,15 @@
   background: linear-gradient(100deg, #eaf3f7, #f8fbfc);
 }
 .stage-detail h3 {
-  font-size: 21px;
+  font-size: 1.5rem;
   margin: 10px 0;
 }
 .stage-detail p {
-  font-size: 14px;
+  font-size: 1rem;
   max-width: 880px;
 }
 .stage-detail .stage-practice {
-  font-size: 12px;
+  font-size: 0.857143rem;
   padding: 12px 16px;
   background: #ffffffb0;
   border-radius: 8px;
@@ -250,7 +250,7 @@
 }
 .jurisdiction button {
   border-radius: 22px;
-  font-size: 12px;
+  font-size: 0.857143rem;
   min-height: 44px;
 }
 .jurisdiction button.active {
@@ -269,17 +269,17 @@
   border-radius: 14px;
 }
 .requirement-card > span {
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #647e91;
 }
 .requirement-card h3 {
-  font-size: 21px;
+  font-size: 1.5rem;
   line-height: 1.6;
   margin: 14px 0 10px;
   color: #245f85;
 }
 .requirement-card p {
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .research-note {
   margin: 20px 0;
@@ -294,7 +294,7 @@
   min-height: 30px;
 }
 .research-note p {
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .research-grid {
   display: grid;
@@ -318,10 +318,10 @@
   gap: 12px;
 }
 .chart-heading select {
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .research-grid h3 {
-  font-size: 18px;
+  font-size: 1.285714rem;
 }
 .mix-legend {
   list-style: none;
@@ -334,7 +334,7 @@
   align-items: center;
   padding: 10px 0;
   border-bottom: 1px solid #eef2f5;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .mix-legend li strong {
   font-weight: 500;
@@ -346,14 +346,14 @@
   color: #647d8e;
 }
 .social-insight h3 {
-  font-size: 38px;
+  font-size: 2.714286rem;
   color: #245f85;
   font-weight: 500;
   margin: 24px 0;
 }
 .social-insight h3 small {
   display: block;
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #718496;
   margin-top: 10px;
 }
@@ -361,7 +361,7 @@
   text-align: left;
   padding: 16px;
   color: #5c788e;
-  font-size: 12px;
+  font-size: 0.857143rem;
   background: #f7fafc;
 }
 @media (max-width: 1100px) {
@@ -388,7 +388,7 @@
     justify-content: space-between;
   }
   .airline-masthead .large-emblem {
-    font-size: 30px;
+    font-size: 2.142857rem;
   }
   .research-grid,
   .requirements-grid {
@@ -402,10 +402,10 @@
     padding: 14px;
   }
   .training-steps strong {
-    font-size: 14px;
+    font-size: 1rem;
   }
   .section-intro h2 {
-    font-size: 22px;
+    font-size: 1.571429rem;
   }
   .stage-detail,
   .requirement-card {
@@ -420,7 +420,7 @@
     margin: 8px 0 0 18px;
   }
   .topic-nav a {
-    font-size: 12px;
+    font-size: 0.857143rem;
     padding: 11px 15px;
   }
   .jurisdiction {
@@ -434,13 +434,13 @@
     width: 100%;
   }
   .chart-heading select {
-    font-size: 16px;
+    font-size: 1.142857rem;
   }
   .install-guide summary {
     padding: 12px;
   }
   .install-guide summary > span {
-    font-size: 13px;
+    font-size: 0.928571rem;
   }
   .mobile-nav {
     padding-bottom: env(safe-area-inset-bottom);

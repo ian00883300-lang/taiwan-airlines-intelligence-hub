@@ -1,28 +1,68 @@
 {
   "items": [
     {
-      "label": "當期培訓機師招募",
-      "value": null,
-      "source": null,
-      "source_url": null,
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
       "published_date": null,
-      "verified_date": null,
-      "status": "unverified",
+      "verified_date": "2026-10-11",
       "as_of": null,
-      "note": "招募梯次、截止日與資格尚待官方招募頁重新查核。"
+      "status": "confirmed",
+      "source_id": "jxCadetCurrent",
+      "title": "長期接受申請",
+      "body": "FAQ 表示可隨時申請；審核及通知視流程與職缺而定。",
+      "scope": "不代表保證邀考、錄取或立即開訓。"
     }
   ],
   "program": [
     {
-      "label": "培訓機師制度",
-      "value": null,
-      "source": null,
-      "source_url": null,
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
       "published_date": null,
-      "verified_date": null,
-      "status": "unverified",
+      "verified_date": "2026-10-11",
       "as_of": null,
-      "note": "尚未取得可比較且具日期的官方資料。"
+      "status": "estimated",
+      "source_id": "jxCadetCurrent",
+      "title": "海外約一年，後續機型訓練約半年",
+      "body": "官網說明赴美國或澳洲受訓約一年取得 CPL，再接受約半年機型訓練；FAQ 估計整體約 1.5–2 年。",
+      "scope": "官方概估；依公司政策與個人學習狀況而異，不保證完成日期。"
+    }
+  ],
+  "qualifications": [
+    {
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "jxCadetCurrent",
+      "title": "英文門檻（三擇一）",
+      "body": "TOEIC ≥800（聽力 ≥400），加口說 ≥160、寫作 ≥150；或 TOEFL iBT ≥80（聽力 ≥21）；或 IELTS ≥6.0（各科 ≥5.0）。",
+      "scope": "TOEIC 須公開測驗；口說與寫作須同一次。申請時成績須有效。"
+    },
+    {
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "jxCadetCurrent",
+      "title": "學歷與推薦人",
+      "body": "中華民國身分證；副學士以上，外國學歷需認證；一名師長或前主管推薦人。",
+      "scope": "應屆畢業／將退役者可參與甄選，但開訓前須取得相應證明。"
+    },
+    {
+      "source": "星宇｜Cadet Pilot Program 與 FAQ",
+      "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+      "published_date": null,
+      "verified_date": "2026-10-11",
+      "as_of": null,
+      "status": "confirmed",
+      "source_id": "jxCadetCurrent",
+      "title": "官方甄選流程",
+      "body": "筆試 → Panel Interview → 團體評估 → 體檢 → 潛質測驗 → 個人專業面試。",
+      "scope": "筆試範圍包含公司／航空知識、九至十年級數理及邏輯推理；時間依官方通知。"
     }
   ]
 }

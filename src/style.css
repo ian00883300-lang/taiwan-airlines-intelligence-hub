@@ -4,7 +4,7 @@
   color: #18334a;
   background: #f2f5f8;
   font-synthesis: none;
-  font-size: 14px;
+  font-size: 1rem;
   --navy: #102b42;
   --blue: #1678b0;
   --muted: #657b8e;
@@ -80,7 +80,7 @@ label {
   flex-direction: column;
   gap: 7px;
   color: #586f81;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 p {
   line-height: 1.8;
@@ -94,18 +94,18 @@ h3 {
   font-weight: 600;
 }
 h1 {
-  font-size: 32px;
+  font-size: 2.285714rem;
   letter-spacing: -0.7px;
 }
 h2 {
-  font-size: 19px;
+  font-size: 1.357143rem;
 }
 h3 {
-  font-size: 16px;
+  font-size: 1.142857rem;
 }
 small,
 .fineprint {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: var(--muted);
   line-height: 1.7;
 }
@@ -132,7 +132,7 @@ svg {
   gap: 10px;
   align-items: center;
   color: white;
-  font-size: 12px;
+  font-size: 0.857143rem;
   letter-spacing: 0.5px;
   font-weight: 700;
 }
@@ -146,14 +146,14 @@ svg {
 }
 .brand small {
   display: block;
-  font-size: 9px;
+  font-size: 0.642857rem;
   letter-spacing: 1.45px;
   color: #b0c5d6;
   margin-top: 5px;
 }
 .sidebar-caption {
   color: #809cb1;
-  font-size: 11px;
+  font-size: 0.785714rem;
   letter-spacing: 2px;
   margin: 27px 12px 24px;
 }
@@ -167,7 +167,7 @@ svg {
   display: flex;
   gap: 13px;
   align-items: center;
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .sidebar nav a:hover {
   background: #183d58;
@@ -192,15 +192,15 @@ svg {
   display: block;
   margin: 12px 0 9px;
   color: #d8e4ed;
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .sidebar-bottom p {
-  font-size: 9px;
+  font-size: 0.642857rem;
   letter-spacing: 1.6px;
   color: #8eabba;
 }
 .sidebar-bottom > span {
-  font-size: 10px;
+  font-size: 0.714286rem;
   border: 1px solid #355369;
   padding: 4px 8px;
   border-radius: 4px;
@@ -223,7 +223,7 @@ svg {
   align-items: center;
   gap: 12px;
   color: #8395a3;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .breadcrumb span {
   color: #304d61;
@@ -244,7 +244,7 @@ svg {
   border: 0;
   background: transparent;
   width: 100%;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .search-results {
   position: absolute;
@@ -268,7 +268,7 @@ svg {
   color: var(--navy);
 }
 .live-label {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #57748a;
   white-space: nowrap;
   display: flex;
@@ -296,13 +296,13 @@ main {
   margin: 6px 0 24px;
 }
 .heading p {
-  font-size: 13px;
+  font-size: 0.928571rem;
   color: #6a8091;
   margin: 10px 0 0;
   max-width: 760px;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 0.714286rem;
   letter-spacing: 1.8px;
   font-weight: 600;
   color: #4582a3;
@@ -316,15 +316,15 @@ main {
   gap: 3px;
 }
 .edition span {
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #718798;
 }
 .edition b {
-  font-size: 27px;
+  font-size: 1.928571rem;
   font-weight: 500;
 }
 .edition small {
-  font-size: 10px;
+  font-size: 0.714286rem;
   letter-spacing: 1px;
 }
 .verification-strip {
@@ -336,7 +336,7 @@ main {
   border-radius: 7px;
   padding: 11px 14px;
   color: #56748c;
-  font-size: 10px;
+  font-size: 0.714286rem;
   margin-bottom: 24px;
   flex-wrap: wrap;
 }
@@ -363,10 +363,10 @@ main {
   gap: 12px;
 }
 .airline-card-head h2 {
-  font-size: 18px;
+  font-size: 1.285714rem;
 }
 .airline-card-head p {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #6f8495;
   margin: 3px 0 0;
 }
@@ -382,7 +382,7 @@ main {
   border: 1px solid color-mix(in srgb, var(--brand) 25%, white);
   background: color-mix(in srgb, var(--brand) 7%, white);
   color: var(--brand);
-  font-size: 17px;
+  font-size: 1.214286rem;
   letter-spacing: 1px;
   font-weight: 600;
   border-radius: 50%;
@@ -394,23 +394,23 @@ main {
   margin-top: 23px;
 }
 .fleet-value strong {
-  font-size: 46px;
+  font-size: 3.285714rem;
   font-weight: 500;
   letter-spacing: -2px;
   line-height: 1.1;
 }
 .fleet-value span {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #7b8e9b;
 }
 .fleet-value .pending-number {
-  font-size: 29px;
+  font-size: 2.071429rem;
   letter-spacing: 1px;
   padding: 8px 0;
   color: #8b724c;
 }
 .fleet-date {
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #7f909f;
   margin: 6px 0 18px;
 }
@@ -424,7 +424,7 @@ main {
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 0.785714rem;
 }
 .mini-facts span {
   color: #80919e;
@@ -440,7 +440,7 @@ main {
   gap: 10px;
   padding-top: 15px;
   margin-top: 15px;
-  font-size: 10px;
+  font-size: 0.714286rem;
 }
 .card-footer > span {
   color: #8c9ba6;
@@ -468,16 +468,16 @@ main {
   margin: 4px 0 22px;
 }
 .section-title h2 {
-  font-size: 17px;
+  font-size: 1.214286rem;
 }
 .section-title h2 span {
   color: #8799a7;
-  font-size: 10px;
+  font-size: 0.714286rem;
   font-weight: 400;
   margin-left: 12px;
 }
 .section-title > a {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #5184a3;
   display: flex;
   align-items: center;
@@ -499,13 +499,13 @@ main {
   padding-left: 25px;
 }
 .two-charts h3 {
-  font-size: 13px;
+  font-size: 0.928571rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 18px;
 }
 .two-charts h3 small {
-  font-size: 10px;
+  font-size: 0.714286rem;
   font-weight: 400;
 }
 .donut-block {
@@ -530,11 +530,11 @@ main {
   pointer-events: none;
 }
 .donut-center b {
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: 500;
 }
 .donut-center span {
-  font-size: 9px;
+  font-size: 0.642857rem;
   color: #8296a5;
 }
 .chart-legend {
@@ -548,7 +548,7 @@ main {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: 0.714286rem;
   margin: 8px 0;
   color: #647c8d;
 }
@@ -590,12 +590,12 @@ main {
   margin: 2px 0 17px;
 }
 .study-panel h2 {
-  font-size: 24px;
+  font-size: 1.714286rem;
   line-height: 1.65;
   font-weight: 500;
 }
 .study-panel p {
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #b7cddd;
   margin: 12px 0 19px;
 }
@@ -614,12 +614,12 @@ main {
   border: 0;
   width: 100%;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .study-panel > a {
   display: block;
   color: #adcadc;
-  font-size: 10px;
+  font-size: 0.714286rem;
   margin-top: 14px;
 }
 .quick-grid {
@@ -632,19 +632,19 @@ main {
   padding-left: 25px;
 }
 .quick-grid b {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #7b91a2;
 }
 .quick-grid h3 {
-  font-size: 16px;
+  font-size: 1.142857rem;
   margin-top: 11px;
 }
 .quick-grid p {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #788c9c;
 }
 .quick-grid a {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #26769f;
 }
 .filters {
@@ -663,7 +663,7 @@ main {
 }
 .filter-count {
   margin-left: auto;
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #8396a4;
   padding-bottom: 12px;
 }
@@ -684,10 +684,10 @@ main {
   padding: 11px;
   border: 1px solid #e7edf1;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .route-list p {
-  font-size: 10px;
+  font-size: 0.714286rem;
   margin: 3px 0;
   color: #708696;
 }
@@ -710,7 +710,7 @@ main {
   align-items: center;
   gap: 14px;
   flex-wrap: wrap;
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #8396a6;
   margin-bottom: 13px;
 }
@@ -718,25 +718,25 @@ main {
   font-weight: 600;
 }
 .news-card h3 {
-  font-size: 16px;
+  font-size: 1.142857rem;
 }
 .news-card > p {
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #657c8e;
 }
 .news-card > details:not(.source) > summary {
   color: #3b789b;
-  font-size: 11px;
+  font-size: 0.785714rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 .news-card dl {
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .news-card dt {
-  font-size: 10px;
+  font-size: 0.714286rem;
   letter-spacing: 1px;
   color: #5583a0;
   margin-top: 17px;
@@ -747,7 +747,7 @@ main {
   line-height: 1.8;
 }
 .source {
-  font-size: 10px;
+  font-size: 0.714286rem;
   margin-top: 13px;
   color: #6c8496;
 }
@@ -768,7 +768,7 @@ main {
 }
 .source > summary > span {
   margin-left: 10px;
-  font-size: 9px;
+  font-size: 0.642857rem;
 }
 .source > div {
   padding: 12px;
@@ -791,7 +791,7 @@ main {
 .badge {
   display: inline-flex;
   border-radius: 4px;
-  font-size: 9px;
+  font-size: 0.642857rem;
   padding: 3px 7px;
   white-space: nowrap;
   font-weight: 500;
@@ -820,14 +820,14 @@ main {
   color: #8d784f;
   border-radius: 7px;
   margin: 12px 0;
-  font-size: 11px;
+  font-size: 0.785714rem;
   overflow-wrap: anywhere;
 }
 .pending strong {
   font-weight: 500;
 }
 .pending p {
-  font-size: 11px;
+  font-size: 0.785714rem;
   margin: 6px 0 0;
   color: #8c816b;
 }
@@ -839,19 +839,19 @@ main {
   padding-top: 0;
 }
 .recruit-row h3 {
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .recruit-row p {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #718798;
   margin: 6px 0 10px;
 }
 .recruit-row a {
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #4280a3;
 }
 .small-note {
-  font-size: 10px;
+  font-size: 0.714286rem;
   background: #f3f6f9;
   padding: 12px;
   color: #8194a3;
@@ -859,7 +859,7 @@ main {
   line-height: 1.8;
 }
 .large-emblem {
-  font-size: 52px;
+  font-size: 3.714286rem;
   font-weight: 600;
   letter-spacing: -2px;
 }
@@ -875,7 +875,7 @@ main {
   padding: 9px 12px;
   background: #e7edf2;
   border-radius: 6px;
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #60788c;
   white-space: nowrap;
 }
@@ -904,10 +904,10 @@ main {
   margin-bottom: 18px;
 }
 .fact-card p {
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .fact-value {
-  font-size: 23px !important;
+  font-size: 1.642857rem !important;
   font-weight: 500;
 }
 .text-button {
@@ -915,7 +915,7 @@ main {
   border: 0;
   padding: 0;
   color: #307da4;
-  font-size: 11px;
+  font-size: 0.785714rem;
   margin-top: 18px;
 }
 .notice {
@@ -923,7 +923,7 @@ main {
   background: #e9f1f7;
   border-left: 3px solid #8bb3ce;
   color: #4b6d84;
-  font-size: 12px;
+  font-size: 0.857143rem;
   line-height: 1.8;
   margin: 0 0 24px;
 }
@@ -948,7 +948,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 th {
   color: #587388;
@@ -983,15 +983,15 @@ td a {
 .compare-source {
   display: block;
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #6b91aa;
 }
 .order-value {
-  font-size: 38px;
+  font-size: 2.714286rem;
   margin: 18px 0;
 }
 .order-value span {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #698496;
 }
 .aircraft-detail {
@@ -1006,7 +1006,7 @@ td a {
   font-weight: 500;
 }
 .aircraft-detail > summary span {
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #7890a2;
   float: right;
   font-weight: 400;
@@ -1018,7 +1018,7 @@ td a {
   margin-top: 23px;
 }
 .spec-grid p {
-  font-size: 11px;
+  font-size: 0.785714rem;
   color: #937d51;
 }
 .timeline {
@@ -1030,11 +1030,11 @@ td a {
   padding: 6px 0 25px;
 }
 .timeline b {
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #337aa2;
 }
 .timeline p {
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .study-callout {
   display: flex;
@@ -1047,11 +1047,11 @@ td a {
   margin: 25px 0;
 }
 .study-callout p {
-  font-size: 13px;
+  font-size: 0.928571rem;
   color: #55768d;
 }
 .study-callout a {
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #1c739f;
 }
 .question-grid {
@@ -1075,16 +1075,16 @@ td a {
 .question-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #6f8ea2;
   gap: 10px;
   margin-bottom: 17px;
 }
 .question-card h3 {
-  font-size: 17px;
+  font-size: 1.214286rem;
 }
 .question-card p {
-  font-size: 12px;
+  font-size: 0.857143rem;
   font-weight: 400;
   color: #6c8395;
 }
@@ -1100,7 +1100,7 @@ td a {
   background: #edf3f7;
   border-radius: 4px;
   padding: 4px 8px;
-  font-size: 10px;
+  font-size: 0.714286rem;
   color: #597b91;
 }
 .question-bottom > svg {
@@ -1135,18 +1135,18 @@ td a {
   margin: 0;
 }
 .interview-dialog h2 {
-  font-size: 24px;
+  font-size: 1.714286rem;
 }
 .interview-dialog h3 {
-  font-size: 13px;
+  font-size: 0.928571rem;
   margin-top: 24px;
   margin-bottom: 10px;
 }
 .interview-dialog p {
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .english-question {
-  font-size: 16px !important;
+  font-size: 1.142857rem !important;
   color: #4f7790;
 }
 .practice-controls {
@@ -1163,7 +1163,7 @@ td a {
 }
 .segmented button {
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 0.785714rem;
   padding: 8px 12px;
 }
 .segmented .active {
@@ -1172,7 +1172,7 @@ td a {
 }
 .timer {
   margin-left: auto;
-  font-size: 24px;
+  font-size: 1.714286rem;
   min-width: 54px;
   text-align: center;
   font-variant-numeric: tabular-nums;
@@ -1181,7 +1181,7 @@ td a {
   padding: 23px;
   background: #edf4f9;
   border-left: 3px solid #75a8c5;
-  font-size: 16px;
+  font-size: 1.142857rem;
   line-height: 1.9;
 }
 .keywords {
@@ -1196,7 +1196,7 @@ td a {
   width: 100%;
   min-height: 95px;
   resize: vertical;
-  font-size: 13px;
+  font-size: 0.928571rem;
   line-height: 1.8;
 }
 .dialog-actions {
@@ -1220,7 +1220,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  font-size: 9px;
+  font-size: 0.642857rem;
   color: #8ca0af;
 }
 .mobile-nav {
@@ -1270,12 +1270,12 @@ footer {
     gap: 9px;
   }
   .airline-card-head h2 {
-    font-size: 16px;
+    font-size: 1.142857rem;
   }
   .airline-emblem {
     width: 36px;
     height: 36px;
-    font-size: 14px;
+    font-size: 1rem;
   }
   .home-columns {
     grid-template-columns: 1.5fr 1fr;
@@ -1300,7 +1300,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   .mini-facts > div {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .live-label {
     display: none;
@@ -1314,26 +1314,26 @@ footer {
     margin-left: 185px;
   }
   .brand {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .brand small {
-    font-size: 8px;
+    font-size: 0.571429rem;
     letter-spacing: 0.8px;
   }
   .brand-icon {
     width: 34px;
   }
   .sidebar nav a {
-    font-size: 12px;
+    font-size: 0.857143rem;
     padding: 12px 9px;
   }
   .sidebar-caption {
-    font-size: 10px;
+    font-size: 0.714286rem;
     letter-spacing: 1px;
     margin-left: 8px;
   }
   .heading h1 {
-    font-size: 27px;
+    font-size: 1.928571rem;
   }
   .airline-grid {
     grid-template-columns: 1fr;
@@ -1410,7 +1410,7 @@ footer {
     padding-left: 14px;
   }
   .quick-grid h3 {
-    font-size: 13px;
+    font-size: 0.928571rem;
   }
 }
 @media (max-width: 700px) {
@@ -1426,7 +1426,7 @@ footer {
     gap: 12px;
   }
   .breadcrumb {
-    font-size: 10px;
+    font-size: 0.714286rem;
     white-space: nowrap;
     gap: 6px;
   }
@@ -1437,7 +1437,7 @@ footer {
     padding: 0 10px;
   }
   .global-search input {
-    font-size: 11px;
+    font-size: 0.785714rem;
     min-width: 0;
   }
   .search-results {
@@ -1454,26 +1454,26 @@ footer {
     align-items: flex-start;
   }
   .heading h1 {
-    font-size: 25px;
+    font-size: 1.785714rem;
     letter-spacing: -0.5px;
   }
   .heading p {
-    font-size: 12px;
+    font-size: 0.857143rem;
   }
   .heading .eyebrow {
-    font-size: 9px;
+    font-size: 0.642857rem;
     letter-spacing: 1.1px;
   }
   .edition {
     display: none;
   }
   .heading > button {
-    font-size: 10px;
+    font-size: 0.714286rem;
     padding: 9px;
     white-space: nowrap;
   }
   .verification-strip {
-    font-size: 10px;
+    font-size: 0.714286rem;
     padding: 11px;
     gap: 7px;
   }
@@ -1490,27 +1490,27 @@ footer {
     padding: 20px;
   }
   .airline-card-head h2 {
-    font-size: 19px;
+    font-size: 1.357143rem;
   }
   .airline-card-head p {
-    font-size: 11px;
+    font-size: 0.785714rem;
   }
   .airline-emblem {
     width: 44px;
     height: 44px;
-    font-size: 17px;
+    font-size: 1.214286rem;
   }
   .fleet-value strong {
-    font-size: 43px;
+    font-size: 3.071429rem;
   }
   .fleet-value .pending-number {
-    font-size: 29px;
+    font-size: 2.071429rem;
   }
   .mini-facts {
     gap: 12px;
   }
   .mini-facts > div {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .panel {
     padding: 19px;
@@ -1530,7 +1530,7 @@ footer {
     padding: 19px 0 0;
   }
   .two-charts h3 {
-    font-size: 13px;
+    font-size: 0.928571rem;
   }
   .donut-block {
     flex-wrap: nowrap;
@@ -1554,24 +1554,24 @@ footer {
     padding: 17px 0 0;
   }
   .quick-grid h3 {
-    font-size: 16px;
+    font-size: 1.142857rem;
   }
   .quick-grid p {
-    font-size: 12px;
+    font-size: 0.857143rem;
   }
   .section-title {
     margin-bottom: 18px;
   }
   .section-title h2 {
-    font-size: 17px;
+    font-size: 1.214286rem;
   }
   .section-title h2 span {
-    font-size: 9px;
+    font-size: 0.642857rem;
     display: inline;
     margin-left: 8px;
   }
   .section-title > a {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .route-map {
     height: 285px;
@@ -1586,7 +1586,7 @@ footer {
   .filters select {
     width: 100%;
     min-width: 0;
-    font-size: 12px;
+    font-size: 0.857143rem;
   }
   .filter-count {
     margin-left: 0;
@@ -1605,10 +1605,10 @@ footer {
     gap: 9px;
   }
   .news-card h3 {
-    font-size: 16px;
+    font-size: 1.142857rem;
   }
   .news-card > p {
-    font-size: 13px;
+    font-size: 0.928571rem;
   }
   .news-card > details:not(.source) > summary {
     min-height: 40px;
@@ -1617,7 +1617,7 @@ footer {
     min-height: 32px;
   }
   .large-emblem {
-    font-size: 40px;
+    font-size: 2.857143rem;
   }
   .section-nav {
     flex-wrap: nowrap;
@@ -1636,10 +1636,10 @@ footer {
     padding: 20px;
   }
   .fact-top h3 {
-    font-size: 15px;
+    font-size: 1.071429rem;
   }
   .fact-value {
-    font-size: 20px !important;
+    font-size: 1.428571rem !important;
   }
   .text-button {
     min-height: 36px;
@@ -1656,7 +1656,7 @@ footer {
     width: 100px;
   }
   .comparison table {
-    font-size: 11px;
+    font-size: 0.785714rem;
     min-width: 800px;
   }
   .comparison td,
@@ -1667,10 +1667,10 @@ footer {
     padding: 20px;
   }
   .question-card h3 {
-    font-size: 17px;
+    font-size: 1.214286rem;
   }
   .question-meta {
-    font-size: 9px;
+    font-size: 0.642857rem;
   }
   .bank-filters {
     padding: 16px;
@@ -1680,26 +1680,26 @@ footer {
     max-height: 88dvh;
   }
   .interview-dialog h2 {
-    font-size: 22px;
+    font-size: 1.571429rem;
   }
   .practice-controls {
     gap: 7px;
     padding: 10px;
   }
   .practice-controls > button {
-    font-size: 11px;
+    font-size: 0.785714rem;
     padding: 9px;
   }
   .answer {
-    font-size: 15px;
+    font-size: 1.071429rem;
     padding: 17px;
   }
   .timer {
-    font-size: 20px;
+    font-size: 1.428571rem;
     min-width: 43px;
   }
   .dialog-actions button {
-    font-size: 12px;
+    font-size: 0.857143rem;
     flex: 1;
   }
   .study-callout {
@@ -1707,7 +1707,7 @@ footer {
     gap: 12px;
   }
   .study-callout h2 {
-    font-size: 17px;
+    font-size: 1.214286rem;
   }
   footer {
     padding-bottom: 105px;
@@ -1736,7 +1736,7 @@ footer {
     min-width: 58px;
     padding: 4px 8px;
     color: #8b9cab;
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .mobile-nav a.active {
     color: #1e789f;
@@ -1745,16 +1745,16 @@ footer {
     left: 15px;
   }
   .fineprint {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .recruit-row {
     padding: 18px 0;
   }
   .recruit-row h3 {
-    font-size: 15px;
+    font-size: 1.071429rem;
   }
   .recruit-row p {
-    font-size: 12px;
+    font-size: 0.857143rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1799,7 +1799,7 @@ footer {
   background: linear-gradient(120deg, #e9f3f7, #fffaf0);
 }
 .practice-overview h2 {
-  font-size: 25px;
+  font-size: 1.785714rem;
   letter-spacing: -0.6px;
   margin: 8px 0;
 }
@@ -1812,17 +1812,17 @@ footer {
   flex-direction: column;
   gap: 10px;
   min-width: 180px;
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #526d80;
 }
 .practice-progress strong {
-  font-size: 45px;
+  font-size: 3.214286rem;
   color: #18394c;
   font-weight: 500;
   line-height: 1;
 }
 .practice-progress small {
-  font-size: 19px;
+  font-size: 1.357143rem;
   color: #6b8393;
 }
 .practice-progress progress {
@@ -1856,10 +1856,10 @@ footer {
 }
 .library-status {
   color: #607989;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .private-library p {
-  font-size: 13px;
+  font-size: 0.928571rem;
   margin-top: 14px;
   max-width: 800px;
 }
@@ -1890,10 +1890,10 @@ footer {
   gap: 12px;
   margin-top: 18px;
   color: #557183;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 .answer-caption button {
-  font-size: 12px;
+  font-size: 0.857143rem;
   padding: 8px;
 }
 .answer-columns {
@@ -1908,7 +1908,7 @@ footer {
 }
 .interview-dialog .answer-block h3 {
   margin: 8px 0;
-  font-size: 12px;
+  font-size: 0.857143rem;
   color: #577585;
   font-weight: 500;
 }
@@ -1917,7 +1917,7 @@ footer {
   border: 1px solid #e4e6dc;
   border-radius: 12px;
   padding: 23px;
-  font-size: 17px;
+  font-size: 1.214286rem;
   line-height: 2;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
@@ -1930,7 +1930,7 @@ footer {
   color: #694e2d;
   border-radius: 4px;
   padding: 4px 9px;
-  font-size: 12px;
+  font-size: 0.857143rem;
   font-weight: 400;
 }
 .answer-coach {
@@ -1941,11 +1941,11 @@ footer {
 .answer-coach summary {
   cursor: pointer;
   color: #34586c;
-  font-size: 13px;
+  font-size: 0.928571rem;
   min-height: 30px;
 }
 .interview-dialog .answer-coach p {
-  font-size: 14px;
+  font-size: 1rem;
 }
 .answer-recall {
   padding: 40px 25px;
@@ -1960,7 +1960,7 @@ footer {
   padding: 12px 15px;
   border-radius: 8px;
   color: #715730;
-  font-size: 12px;
+  font-size: 0.857143rem;
 }
 dialog.interview-dialog {
   width: min(880px, calc(100% - 28px));
@@ -1980,7 +1980,7 @@ dialog.interview-dialog {
 }
 .interview-dialog .language-switch button {
   min-height: 44px;
-  font-size: 13px;
+  font-size: 0.928571rem;
 }
 .interview-dialog .practice-controls button {
   min-height: 44px;
@@ -1993,7 +1993,7 @@ dialog.interview-dialog {
     flex-direction: column;
   }
   .practice-overview h2 {
-    font-size: 22px;
+    font-size: 1.571429rem;
   }
   .practice-progress {
     width: 100%;
@@ -2002,17 +2002,17 @@ dialog.interview-dialog {
     align-items: center;
   }
   .practice-progress strong {
-    font-size: 32px;
+    font-size: 2.285714rem;
   }
   .practice-progress span:last-child {
     text-align: right;
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   .private-library {
     padding: 14px;
   }
   .library-status {
-    font-size: 10px;
+    font-size: 0.714286rem;
   }
   dialog.interview-dialog {
     width: 100%;
@@ -2026,7 +2026,7 @@ dialog.interview-dialog {
   }
   .interview-dialog .answer {
     padding: 18px;
-    font-size: 17px;
+    font-size: 1.214286rem;
     line-height: 1.95;
   }
   .answer-columns.bilingual {
@@ -2047,6 +2047,6 @@ dialog.interview-dialog {
   .interview-dialog input,
   .interview-dialog textarea,
   .interview-dialog select {
-    font-size: 16px;
+    font-size: 1.142857rem;
   }
 }
