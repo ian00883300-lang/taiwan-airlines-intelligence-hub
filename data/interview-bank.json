@@ -9,16 +9,8 @@
     "answer_30": "China Airlines combines passenger and dedicated cargo operations. I am interested in how these different missions are supported by the same commitment to safety. As a cadet, I would focus on learning procedures carefully and communicating clearly with the wider team.",
     "answer_60": "China Airlines combines passenger and dedicated cargo operations. I am interested in how these different missions are supported by the same commitment to safety. As a cadet, I would focus on learning procedures carefully and communicating clearly with the wider team. A passenger flight and a cargo flight may serve different customers, but both need careful planning and reliable coordination. I would learn how my role connects with dispatch, cabin crew and maintenance. I would also keep my company knowledge up to date instead of memorising a number without its date.",
     "chinese_answer": "從客貨並進切入，再連結程序與跨部門合作。",
-    "key_points": [
-      "passenger and cargo",
-      "procedures",
-      "teamwork"
-    ],
-    "keywords": [
-      "passenger and cargo",
-      "procedures",
-      "teamwork"
-    ],
+    "key_points": ["passenger and cargo", "procedures", "teamwork"],
+    "keywords": ["passenger and cargo", "procedures", "teamwork"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -29,7 +21,11 @@
     "as_of": "2026-09-30",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "ciFleet"
+    "source_id": "ciFleet",
+    "answer_zh_30": "我注意到華航同時經營客運與專用貨機業務。兩種任務的服務對象不同，但都需要嚴謹的規劃與團隊協調。對我而言，了解公司不只是記住機隊數字，也要理解每趟航班背後的工作。若成為培訓學員，我會先把程序學好，並養成清楚溝通的習慣。",
+    "answer_zh_60": "我注意到華航同時經營客運與專用貨機業務。兩種任務的服務對象不同，但都需要嚴謹的規劃與團隊協調。對我而言，了解公司不只是記住機隊數字，也要理解每趟航班背後的工作。若成為培訓學員，我會先把程序學好，並養成清楚溝通的習慣。\n\n例如客運與貨運在需求及作業安排上有所不同，我希望進一步了解機師如何與簽派、維修及其他單位合作。我也會持續確認資料的日期與統計範圍，避免把過時數字當成現況。",
+    "answer_outline": ["客貨營運", "程序紀律", "跨部門合作"],
+    "follow_up": "如果面試官問客運與貨運的差異，你會先比較哪一項？"
   },
   {
     "id": "why-ci",
@@ -41,16 +37,8 @@
     "answer_30": "I am drawn to China Airlines because of its passenger and cargo operations. That variety makes me want to understand the business behind each flight. I would bring a disciplined approach to learning and a willingness to accept feedback. I would support this answer with a real example from my own experience.",
     "answer_60": "I am drawn to China Airlines because of its passenger and cargo operations. That variety makes me want to understand the business behind each flight. I would bring a disciplined approach to learning and a willingness to accept feedback. I would support this answer with a real example from my own experience. I would not say that a large fleet alone makes an airline right for me. I would explain which part of its work I have researched and why it matches my values. Then I would give a specific example of following a procedure, responding to feedback or helping a team.",
     "chinese_answer": "結合已查核公司特色、自己的真實經驗，以及願意學習的具體行動。",
-    "key_points": [
-      "motivation",
-      "discipline",
-      "feedback"
-    ],
-    "keywords": [
-      "motivation",
-      "discipline",
-      "feedback"
-    ],
+    "key_points": ["motivation", "discipline", "feedback"],
+    "keywords": ["motivation", "discipline", "feedback"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -61,7 +49,11 @@
     "as_of": "2025-12-31",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "ciEsg"
+    "source_id": "ciEsg",
+    "answer_zh_30": "華航吸引我的地方，是客運與貨運並行的營運特色，讓我想了解不同任務如何透過同一套安全文化可靠地完成。我希望投入需要持續學習、遵守程序及團隊合作的工作。若有機會加入，我會以學員的態度接受回饋，先把每個訓練階段的基本功做好。",
+    "answer_zh_60": "華航吸引我的地方，是客運與貨運並行的營運特色，讓我想了解不同任務如何透過同一套安全文化可靠地完成。我希望投入需要持續學習、遵守程序及團隊合作的工作。若有機會加入，我會以學員的態度接受回饋，先把每個訓練階段的基本功做好。\n\n對我來說，選擇航空公司需要把公司特色與自己的長期目標連在一起，而不是只看規模。我會持續研究華航的營運與訓練要求，也會用實際準備成果檢查自己是否具備投入的決心。對不熟悉的內容，我願意主動請教並修正。",
+    "answer_outline": ["公司特色", "長期動機", "學員心態"],
+    "follow_up": "除了公司規模，華航哪項特色與你的真實經驗最有連結？"
   },
   {
     "id": "fleet-ci",
@@ -73,16 +65,8 @@
     "answer_30": "The 787 program gives China Airlines an opportunity to update its fleet and passenger product. However, an order is different from an aircraft in service. I would check the latest delivery information before quoting numbers. For a pilot, a new fleet also means learning new procedures and managing the transition carefully.",
     "answer_60": "The 787 program gives China Airlines an opportunity to update its fleet and passenger product. However, an order is different from an aircraft in service. I would check the latest delivery information before quoting numbers. For a pilot, a new fleet also means learning new procedures and managing the transition carefully. I would also consider the work behind a fleet transition, including training, maintenance support and network planning. A new aircraft is not useful simply because it is new. It must fit the airline’s needs and be introduced with the right preparation. That is the connection I would make to pilot training.",
     "chinese_answer": "以機隊更新與產品設計回答；不要把訂單當現役。",
-    "key_points": [
-      "fleet renewal",
-      "orders",
-      "training"
-    ],
-    "keywords": [
-      "fleet renewal",
-      "orders",
-      "training"
-    ],
+    "key_points": ["fleet renewal", "orders", "training"],
+    "keywords": ["fleet renewal", "orders", "training"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -93,7 +77,11 @@
     "as_of": "2026-06-02",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "ci787"
+    "source_id": "ci787",
+    "answer_zh_30": "我認為華航引進 787，是更新機隊與旅客產品的一項重要發展。不過，訂購不等於已交付，更不等於已投入營運，因此我會確認最新公告後才引用數量。從培訓學員的角度看，新機型也代表新的知識、程序與訓練要求，需要穩定地學習。",
+    "answer_zh_60": "我認為華航引進 787，是更新機隊與旅客產品的一項重要發展。不過，訂購不等於已交付，更不等於已投入營運，因此我會確認最新公告後才引用數量。從培訓學員的角度看，新機型也代表新的知識、程序與訓練要求，需要穩定地學習。\n\n我會同時關注機隊轉換如何影響訓練與作業安排，而不只比較飛機性能。回答時會清楚說明資料的基準日，並分開談現役機隊與未來規劃。這也提醒我，航空資訊需要不斷更新，不能只背一次就認為永遠正確。",
+    "answer_outline": ["訂購不等於營運", "機隊轉換", "持續學習"],
+    "follow_up": "如果最新交機資訊與你記的數字不同，你會如何回答？"
   },
   {
     "id": "why-br",
@@ -105,16 +93,8 @@
     "answer_30": "EVA Air interests me because its published cadet program has a clear training structure. I understand that progress depends on meeting standards at each stage. I would bring consistent preparation, ask for help early and use feedback to improve. I would also explain a real example of how I have learned a difficult skill.",
     "answer_60": "EVA Air interests me because its published cadet program has a clear training structure. I understand that progress depends on meeting standards at each stage. I would bring consistent preparation, ask for help early and use feedback to improve. I would also explain a real example of how I have learned a difficult skill. The program reminds me that motivation must be supported by daily habits. I would plan my study, review mistakes and check my understanding before moving on. When I need help, I would ask a focused question and apply the feedback. I see training as a responsibility, not just a chance to fly.",
     "chinese_answer": "官方訓練架構與你的學習習慣連結；避免聲稱面試官偏好。",
-    "key_points": [
-      "structured training",
-      "standards",
-      "learning"
-    ],
-    "keywords": [
-      "structured training",
-      "standards",
-      "learning"
-    ],
+    "key_points": ["structured training", "standards", "learning"],
+    "keywords": ["structured training", "standards", "learning"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -125,7 +105,11 @@
     "as_of": null,
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "evaRecruit"
+    "source_id": "evaRecruit",
+    "answer_zh_30": "長榮公開的培訓資訊讓我注意到，機師養成需要分階段達到明確標準。這樣的專業要求吸引我，也提醒我不能只靠熱情。我希望用規律準備、主動請教及持續修正來面對訓練，遇到困難時及早找出原因，而不是等問題累積後才處理。",
+    "answer_zh_60": "長榮公開的培訓資訊讓我注意到，機師養成需要分階段達到明確標準。這樣的專業要求吸引我，也提醒我不能只靠熱情。我希望用規律準備、主動請教及持續修正來面對訓練，遇到困難時及早找出原因，而不是等問題累積後才處理。\n\n我會先理解每個階段的目標，再把大目標拆成可檢查的小步驟。收到回饋後，我希望能說明自己改了什麼，以及改善是否有效。我選擇這條路，是願意長期接受專業要求，也願意從基礎開始建立可靠的工作習慣。",
+    "answer_outline": ["訓練標準", "規律準備", "及早求助"],
+    "follow_up": "你曾如何根據回饋調整學習方法？"
   },
   {
     "id": "fleet-br",
@@ -137,16 +121,8 @@
     "answer_30": "I would start with a dated fleet table and separate aircraft in service from those still to be delivered. EVA Air publishes both columns. I would also check whether an order announcement is new or is the exercise of an earlier option, so I do not count the same aircraft twice.",
     "answer_60": "I would start with a dated fleet table and separate aircraft in service from those still to be delivered. EVA Air publishes both columns. I would also check whether an order announcement is new or is the exercise of an earlier option, so I do not count the same aircraft twice. For example, a manufacturer may announce additional aircraft after an airline exercises an option. The final backlog already includes those aircraft. I would not add the option again. I would state the date and scope of the table so that the listener knows exactly what the number means.",
     "chinese_answer": "現役表與待交欄分開讀；已行使選擇權不能再次相加。",
-    "key_points": [
-      "in service",
-      "backlog",
-      "option"
-    ],
-    "keywords": [
-      "in service",
-      "backlog",
-      "option"
-    ],
+    "key_points": ["in service", "backlog", "option"],
+    "keywords": ["in service", "backlog", "option"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -157,7 +133,11 @@
     "as_of": "2026-10-01",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "evaFleet"
+    "source_id": "evaFleet",
+    "answer_zh_30": "我會先看長榮有日期的官方機隊表，把現役機隊與待交機數量分開。再確認訂單公告是新增訂購，還是執行先前的選擇權，避免重複計算。回答時也會交代是否包含貨機，以及資料的基準日，讓比較建立在相同範圍上。",
+    "answer_zh_60": "我會先看長榮有日期的官方機隊表，把現役機隊與待交機數量分開。再確認訂單公告是新增訂購，還是執行先前的選擇權，避免重複計算。回答時也會交代是否包含貨機，以及資料的基準日，讓比較建立在相同範圍上。\n\n如果表格與新聞稿看起來不同，我會先檢查日期與定義，而不是立即認定其中一個錯誤。某架飛機可能已經交付，但尚未出現在營運統計裡。無法確認時，我會清楚說明目前掌握的資訊與待確認部分。",
+    "answer_outline": ["基準日期", "現役與待交", "避免重複計算"],
+    "follow_up": "已交付卻尚未營運的飛機，應放在哪一類？"
   },
   {
     "id": "why-jx",
@@ -169,16 +149,8 @@
     "answer_30": "STARLUX interests me because of its boutique full-service positioning and development of long-haul operations. I would like to contribute through careful preparation and reliable teamwork. For me, service quality starts with safe and consistent operations. I would explain how my own experience has prepared me to learn in a growing airline.",
     "answer_60": "STARLUX interests me because of its boutique full-service positioning and development of long-haul operations. I would like to contribute through careful preparation and reliable teamwork. For me, service quality starts with safe and consistent operations. I would explain how my own experience has prepared me to learn in a growing airline. I would avoid making assumptions about company culture from its age or branding. Instead, I would use public information and connect it to my own goals. I want to develop the knowledge and discipline needed to contribute reliably. I also understand that being part of growth means staying adaptable and willing to learn.",
     "chinese_answer": "精品服務定位與專業紀律連結，加入自己的真實動機。",
-    "key_points": [
-      "boutique carrier",
-      "consistency",
-      "growth"
-    ],
-    "keywords": [
-      "boutique carrier",
-      "consistency",
-      "growth"
-    ],
+    "key_points": ["boutique carrier", "consistency", "growth"],
+    "keywords": ["boutique carrier", "consistency", "growth"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -189,7 +161,11 @@
     "as_of": null,
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "jxTwse"
+    "source_id": "jxTwse",
+    "answer_zh_30": "星宇的精品全服務定位與長程航網發展吸引我。我認為服務品質背後需要穩定的作業、清楚的標準與團隊合作。若有機會成為培訓學員，我希望用仔細準備、接受回饋及可靠的工作態度，逐步建立專業能力，參與公司的長期發展。",
+    "answer_zh_60": "星宇的精品全服務定位與長程航網發展吸引我。我認為服務品質背後需要穩定的作業、清楚的標準與團隊合作。若有機會成為培訓學員，我希望用仔細準備、接受回饋及可靠的工作態度，逐步建立專業能力，參與公司的長期發展。\n\n我不會把成長中的公司理解為訓練要求比較低，反而認為發展需要每個成員把基本工作做好。對機師而言，我理解安全與程序是工作的基礎。我會持續研究公司資訊，同時誠實面對自己還需要補足的能力。",
+    "answer_outline": ["品牌定位", "可靠作業", "扎實基本功"],
+    "follow_up": "你會如何用自身經驗說明「品質來自一致性」？"
   },
   {
     "id": "fleet-jx",
@@ -201,16 +177,8 @@
     "answer_30": "Airbus confirmed the first STARLUX A350-1000 delivery in January 2026. It supports the airline’s long-haul development. I would not use that announcement to guess the current fleet total. From a cadet’s perspective, the key lesson is that growth must be supported by training, maintenance and clear operating procedures.",
     "answer_60": "Airbus confirmed the first STARLUX A350-1000 delivery in January 2026. It supports the airline’s long-haul development. I would not use that announcement to guess the current fleet total. From a cadet’s perspective, the key lesson is that growth must be supported by training, maintenance and clear operating procedures. An aircraft can be delivered before it begins passenger service, and later deliveries can make the original announcement outdated. I would separate these stages in my answer. More broadly, I would discuss why an airline needs the people, procedures and ground support to turn new capacity into reliable operations.",
     "chinese_answer": "交付事件、全公司機隊與訂單總量要分開。",
-    "key_points": [
-      "delivery",
-      "long haul",
-      "readiness"
-    ],
-    "keywords": [
-      "delivery",
-      "long haul",
-      "readiness"
-    ],
+    "key_points": ["delivery", "long haul", "readiness"],
+    "keywords": ["delivery", "long haul", "readiness"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -221,7 +189,11 @@
     "as_of": "2026-01-06",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "jxDelivery"
+    "source_id": "jxDelivery",
+    "answer_zh_30": "空中巴士已公告星宇在 2026 年 1 月接收首架 A350-1000，這與長程營運發展有關。但單一交付公告不能直接代表目前的機隊總數，我會另外確認最新資料。對我而言，成長背後更需要訓練、維修與作業程序一起配合。",
+    "answer_zh_60": "空中巴士已公告星宇在 2026 年 1 月接收首架 A350-1000，這與長程營運發展有關。但單一交付公告不能直接代表目前的機隊總數，我會另外確認最新資料。對我而言，成長背後更需要訓練、維修與作業程序一起配合。\n\n新飛機帶來的是營運發展的條件，實際運用仍要看航空公司的安排。我在面試中會把已發生的交付與未來規劃分開說明。身為學員，我更應該關心如何建立足夠的知識與紀律，支持穩定可靠的運作。",
+    "answer_outline": ["交付事實", "長程發展", "配套能力"],
+    "follow_up": "為何不能由一篇交機新聞推算現在的總機隊數？"
   },
   {
     "id": "routes",
@@ -233,16 +205,8 @@
     "answer_30": "Adding frequency can give passengers more convenient times and improve connections on an existing route. A new destination can reach another market, but it also needs ground support and reliable demand. I would compare both options carefully instead of assuming that a larger destination count always means a stronger network.",
     "answer_60": "Adding frequency can give passengers more convenient times and improve connections on an existing route. A new destination can reach another market, but it also needs ground support and reliable demand. I would compare both options carefully instead of assuming that a larger destination count always means a stronger network. I would also ask whether the schedule gives passengers useful connections and whether the airline has enough aircraft and crew to operate reliably. This is a general business framework, not a claim about a company’s private decision. I would support any airline-specific conclusion with a current official announcement.",
     "chinese_answer": "以下是一般商業分析，不是特定公司的正式決策理由。",
-    "key_points": [
-      "frequency",
-      "connections",
-      "demand"
-    ],
-    "keywords": [
-      "frequency",
-      "connections",
-      "demand"
-    ],
+    "key_points": ["frequency", "connections", "demand"],
+    "keywords": ["frequency", "connections", "demand"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -252,7 +216,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "增班是在既有航線提供更多班次，有機會改善旅客的時間選擇與轉機銜接；新航點則是進入另一個市場，也需要評估需求與地面支援。我不會只用航點數判斷航網強弱，而會一起看班次、時刻與轉機安排是否符合旅客需求。",
+    "answer_zh_60": "增班是在既有航線提供更多班次，有機會改善旅客的時間選擇與轉機銜接；新航點則是進入另一個市場，也需要評估需求與地面支援。我不會只用航點數判斷航網強弱，而會一起看班次、時刻與轉機安排是否符合旅客需求。\n\n比較三家公司時，我也會先確認航點的定義，是否包含聯營或貨運。如果統計範圍不同，單一數字就容易造成誤解。對我而言，航網研究的重點是理解航線如何互相支持，而不只是看地圖上有多少個點。",
+    "answer_outline": ["新市場", "班次與銜接", "統計口徑"],
+    "follow_up": "一條既有航線增班，可能比新增航點更有價值嗎？"
   },
   {
     "id": "sms",
@@ -264,18 +232,8 @@
     "answer_30": "A Safety Management System is a structured way to manage safety risk. It includes safety policy, risk management, assurance and promotion. For me, it means following procedures, reporting concerns and learning from feedback. The goal is to identify problems early and check that the actions taken are actually working.",
     "answer_60": "A Safety Management System is a structured way to manage safety risk. It includes safety policy, risk management, assurance and promotion. For me, it means following procedures, reporting concerns and learning from feedback. The goal is to identify problems early and check that the actions taken are actually working. Reporting is useful only if the information leads to learning and effective action. I would want to understand the reporting process and give clear, factual information. I would also take training seriously and share lessons appropriately. For a cadet, the practical starting point is honesty, discipline and a willingness to speak up.",
     "chinese_answer": "SMS 用制度處理風險；不是只在事故後檢討。",
-    "key_points": [
-      "policy",
-      "risk",
-      "assurance",
-      "promotion"
-    ],
-    "keywords": [
-      "policy",
-      "risk",
-      "assurance",
-      "promotion"
-    ],
+    "key_points": ["policy", "risk", "assurance", "promotion"],
+    "keywords": ["policy", "risk", "assurance", "promotion"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -286,7 +244,11 @@
     "as_of": null,
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "sms"
+    "source_id": "sms",
+    "answer_zh_30": "安全管理系統是一套有組織地管理安全風險的方法，包含安全政策、風險管理、安全保證與安全推廣。對我而言，重點是遵守程序、及早反映疑慮，並確認改善措施是否有效。安全需要持續檢查與學習，不能只在出事後才檢討。",
+    "answer_zh_60": "安全管理系統是一套有組織地管理安全風險的方法，包含安全政策、風險管理、安全保證與安全推廣。對我而言，重點是遵守程序、及早反映疑慮，並確認改善措施是否有效。安全需要持續檢查與學習，不能只在出事後才檢討。\n\n如果未來在訓練中發現自己不理解的要求，我會主動確認，而不是假裝懂。若遇到安全疑慮，則依相關程序反映。作為學員，我應先理解自己的責任範圍，讓團隊能取得正確資訊，並從回饋中持續改善。",
+    "answer_outline": ["政策", "風險", "確認改善"],
+    "follow_up": "「有通報」與「風險真的降低」有什麼不同？"
   },
   {
     "id": "crm",
@@ -298,16 +260,8 @@
     "answer_30": "I would state what I observe, explain my concern and ask for clarification respectfully. If the risk remains, I would speak up again and follow the relevant procedure. Good teamwork does not mean staying silent. It means sharing useful information early so the team can make a safer decision.",
     "answer_60": "I would state what I observe, explain my concern and ask for clarification respectfully. If the risk remains, I would speak up again and follow the relevant procedure. Good teamwork does not mean staying silent. It means sharing useful information early so the team can make a safer decision. For example, I might ask the team to check a detail that does not match our shared understanding. I would focus on the issue rather than the person. I would also listen, because I might have missed information. The purpose is to build an accurate picture together and protect the shared goal.",
     "chinese_answer": "以下為練習情境，並非實際操作口令或公司 SOP。",
-    "key_points": [
-      "speak up",
-      "clarify",
-      "respect"
-    ],
-    "keywords": [
-      "speak up",
-      "clarify",
-      "respect"
-    ],
+    "key_points": ["speak up", "clarify", "respect"],
+    "keywords": ["speak up", "clarify", "respect"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -317,7 +271,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我會先清楚說出觀察到的情況，再說明自己的疑慮，並尊重地請對方確認。如果疑慮沒有解除，我會再次表達，並依相關程序處理。我認為良好的合作不是保持沉默，而是讓團隊及早掌握重要資訊，一起做出更可靠的決定。",
+    "answer_zh_60": "我會先清楚說出觀察到的情況，再說明自己的疑慮，並尊重地請對方確認。如果疑慮沒有解除，我會再次表達，並依相關程序處理。我認為良好的合作不是保持沉默，而是讓團隊及早掌握重要資訊，一起做出更可靠的決定。\n\n我也會留意自己可能遺漏資訊，所以提問時不先假設對方一定錯。重點是確認事實與風險，而不是爭輸贏。若牽涉安全，我不會只因對方資深就放棄表達；同時也會遵守權責與程序，避免情緒化處理。",
+    "answer_outline": ["觀察", "疑慮", "確認與追問"],
+    "follow_up": "如果資深同事第一次沒有回應你的疑慮，你會怎麼做？"
   },
   {
     "id": "leadership",
@@ -329,16 +287,8 @@
     "answer_30": "I would choose a real situation where I helped a team work toward a clear goal. I would explain how I listened, assigned tasks and followed up. I would be specific about my own actions and honest about what did not work. I would finish with what I learned about supporting others.",
     "answer_60": "I would choose a real situation where I helped a team work toward a clear goal. I would explain how I listened, assigned tasks and followed up. I would be specific about my own actions and honest about what did not work. I would finish with what I learned about supporting others. I would structure the example around the situation, the task, my actions and the result. I would explain how I adjusted when the original plan did not work. Good leadership is not doing everything alone. It is making the goal clear, keeping people informed and taking responsibility for the team’s progress.",
     "chinese_answer": "用自己的真實事件填入：情境、目標、你的行動、結果及反省。",
-    "key_points": [
-      "listen",
-      "coordinate",
-      "reflect"
-    ],
-    "keywords": [
-      "listen",
-      "coordinate",
-      "reflect"
-    ],
+    "key_points": ["listen", "coordinate", "reflect"],
+    "keywords": ["listen", "coordinate", "reflect"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -348,7 +298,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我認為領導的重點，是讓團隊理解目標、清楚分工，並願意提出問題。我會先了解成員的想法，再確認大家是否掌握各自的責任。遇到不同意見時，我會回到共同目標討論。我也願意接受比自己更好的方法，因為成果來自整個團隊。",
+    "answer_zh_60": "我認為領導的重點，是讓團隊理解目標、清楚分工，並願意提出問題。我會先了解成員的想法，再確認大家是否掌握各自的責任。遇到不同意見時，我會回到共同目標討論。我也願意接受比自己更好的方法，因為成果來自整個團隊。\n\n如果進度落後，我會先找出阻礙，而不是只要求大家加快。完成任務後，也應檢查哪些溝通與安排需要改善。這是我的領導原則；若要說明實際經驗，我會選一件真實事件，交代自己的行動、結果與仍可改進的地方。",
+    "answer_outline": ["共同目標", "傾聽分工", "檢討改善"],
+    "follow_up": "請用一件真實事件說明你親自做了什麼；若無領導職稱，也可談協調經驗。"
   },
   {
     "id": "teamwork",
@@ -360,16 +314,8 @@
     "answer_30": "Teamwork means sharing information, understanding responsibilities and supporting a common goal. I try to make my progress visible and ask for help before a problem becomes serious. I also welcome different views. In an interview, I would support this with a real example of what I contributed to a team.",
     "answer_60": "Teamwork means sharing information, understanding responsibilities and supporting a common goal. I try to make my progress visible and ask for help before a problem becomes serious. I also welcome different views. In an interview, I would support this with a real example of what I contributed to a team. If a team member was struggling, I would first clarify what support was needed and whether I could help without neglecting my own task. I would also check that changes were communicated to everyone affected. A useful example should show both the shared outcome and my personal responsibility.",
     "chinese_answer": "團隊合作不是全部同意，而是共同目標與清楚溝通。",
-    "key_points": [
-      "communication",
-      "responsibility",
-      "support"
-    ],
-    "keywords": [
-      "communication",
-      "responsibility",
-      "support"
-    ],
+    "key_points": ["communication", "responsibility", "support"],
+    "keywords": ["communication", "responsibility", "support"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -379,7 +325,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "團隊合作對我而言，是共享資訊、了解彼此的責任，並把共同目標放在個人表現之前。我會清楚交代自己的進度，也會在需要協助時及早說明。我願意聽不同觀點，因為別人可能看到我忽略的問題，讓團隊做出更完整的判斷。",
+    "answer_zh_60": "團隊合作對我而言，是共享資訊、了解彼此的責任，並把共同目標放在個人表現之前。我會清楚交代自己的進度，也會在需要協助時及早說明。我願意聽不同觀點，因為別人可能看到我忽略的問題，讓團隊做出更完整的判斷。\n\n我認為支持隊友不等於替對方隱瞞問題，而是協助他把工作完成，並把需要處理的風險說清楚。如果合作不順利，我會先確認大家對目標與分工的理解是否一致，再調整溝通方式，而不是直接認定對方不配合。",
+    "answer_outline": ["資訊共享", "清楚責任", "互相支持"],
+    "follow_up": "當你的想法與團隊決定不同時，你怎麼配合？"
   },
   {
     "id": "learning",
@@ -391,16 +341,8 @@
     "answer_30": "I break the skill into smaller parts and check that I understand the basics. I practise regularly and ask for specific feedback. When I make a mistake, I record the cause and change how I practise. I also check my progress against a clear standard rather than relying only on confidence.",
     "answer_60": "I break the skill into smaller parts and check that I understand the basics. I practise regularly and ask for specific feedback. When I make a mistake, I record the cause and change how I practise. I also check my progress against a clear standard rather than relying only on confidence. If I continue making the same mistake, I change my method instead of simply repeating it more often. I might explain the concept in my own words or ask someone to check my reasoning. The aim is reliable understanding that I can use under pressure, not just remembering an answer for one test.",
     "chinese_answer": "描述能重複執行的學習方法，不只說自己很努力。",
-    "key_points": [
-      "practice",
-      "feedback",
-      "standard"
-    ],
-    "keywords": [
-      "practice",
-      "feedback",
-      "standard"
-    ],
+    "key_points": ["practice", "feedback", "standard"],
+    "keywords": ["practice", "feedback", "standard"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -410,7 +352,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我會先把新知識拆成小部分，確認自己理解基本原理，再透過練習檢查是否能實際運用。遇到錯誤時，我會記下原因並尋求具體回饋，然後調整練習方式。我不只看花了多少時間，也會用明確標準確認自己是否真的進步。",
+    "answer_zh_60": "我會先把新知識拆成小部分，確認自己理解基本原理，再透過練習檢查是否能實際運用。遇到錯誤時，我會記下原因並尋求具體回饋，然後調整練習方式。我不只看花了多少時間，也會用明確標準確認自己是否真的進步。\n\n如果反覆練習仍沒有改善，我會停下來檢查方法，確認是觀念不清楚、步驟不熟，還是練習方式不合適。需要時會請教有經驗的人，並把建議轉成下一次可執行的行動。對我來說，能夠修正方法比一味增加練習量更重要。",
+    "answer_outline": ["理解原理", "練習驗證", "回饋修正"],
+    "follow_up": "如果練習很多次仍沒有進步，你會先改哪一件事？"
   },
   {
     "id": "failure",
@@ -422,16 +368,8 @@
     "answer_30": "I would describe a real failure, explain my responsibility and avoid blaming others. Then I would explain what I changed and how I checked that the change worked. The most important part is the lesson and the action that followed. I would not claim that I never make mistakes.",
     "answer_60": "I would describe a real failure, explain my responsibility and avoid blaming others. Then I would explain what I changed and how I checked that the change worked. The most important part is the lesson and the action that followed. I would not claim that I never make mistakes. I would keep the description of the mistake brief and spend more time on the improvement. For example, I could explain a new checking habit or a change to my preparation. I would only use details that actually happened. A credible lesson is more useful than a dramatic story.",
     "chinese_answer": "不要編造飛行經驗。選擇真實、能說明責任與改善的事件。",
-    "key_points": [
-      "ownership",
-      "change",
-      "evidence"
-    ],
-    "keywords": [
-      "ownership",
-      "change",
-      "evidence"
-    ],
+    "key_points": ["ownership", "change", "evidence"],
+    "keywords": ["ownership", "change", "evidence"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -441,7 +379,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我認為面對失敗，第一步是誠實承認自己的責任，再找出問題的原因。我不會只說下次更小心，而會確認有哪些具體做法需要改變，例如資訊確認、檢查步驟或溝通方式。改完之後，也要持續追蹤，確定同樣的問題更不容易再發生。",
+    "answer_zh_60": "我認為面對失敗，第一步是誠實承認自己的責任，再找出問題的原因。我不會只說下次更小心，而會確認有哪些具體做法需要改變，例如資訊確認、檢查步驟或溝通方式。改完之後，也要持續追蹤，確定同樣的問題更不容易再發生。\n\n談實際案例時，我會交代事情的背景、自己做錯或忽略的部分，以及後續改進的行動。成果不能只靠自己的感覺，需要有可說明的依據。如果仍有尚未改善的地方，我也會坦白說明，因為反省不是把故事包裝成完美結局。",
+    "answer_outline": ["承擔責任", "找出原因", "改變流程"],
+    "follow_up": "請補一件你的真實失敗：當時的責任、後續改動，以及如何確認改善。"
   },
   {
     "id": "conflict",
@@ -453,16 +395,8 @@
     "answer_30": "I first try to understand the other person’s concern and separate facts from assumptions. Then I explain my own view calmly and look for a solution that supports the team’s goal. If the issue affects safety or cannot be resolved at our level, I would use the appropriate reporting or escalation process.",
     "answer_60": "I first try to understand the other person’s concern and separate facts from assumptions. Then I explain my own view calmly and look for a solution that supports the team’s goal. If the issue affects safety or cannot be resolved at our level, I would use the appropriate reporting or escalation process. I would avoid turning disagreement into a personal contest. Sometimes the difference comes from missing information or unclear responsibilities. By checking those first, the team may find a simple solution. I would then confirm who will do what and follow up to make sure the issue has been resolved.",
     "chinese_answer": "先釐清事實與共同目標，再討論可行方案。",
-    "key_points": [
-      "listen",
-      "facts",
-      "resolution"
-    ],
-    "keywords": [
-      "listen",
-      "facts",
-      "resolution"
-    ],
+    "key_points": ["listen", "facts", "resolution"],
+    "keywords": ["listen", "facts", "resolution"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -472,7 +406,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我會先了解對方在意什麼，區分事實與推測，再平靜地說明自己的理由。我希望把討論拉回團隊的共同目標，而不是爭誰比較有道理。如果問題超出我們的權限，或涉及安全，我會依適當的程序尋求協助，不讓分歧一直累積。",
+    "answer_zh_60": "我會先了解對方在意什麼，區分事實與推測，再平靜地說明自己的理由。我希望把討論拉回團隊的共同目標，而不是爭誰比較有道理。如果問題超出我們的權限，或涉及安全，我會依適當的程序尋求協助，不讓分歧一直累積。\n\n當自己的提議沒有被接受時，我可能會失望，但仍應檢查表達方式與資訊是否足夠。必要時可以整理選項、說明風險，再請對方回饋。如果最後採用不同方案，我也會理解決策原因，並持續留意執行結果。",
+    "answer_outline": ["先理解", "說明依據", "共同目標"],
+    "follow_up": "如果你已解釋過，對方仍不同意，你會如何繼續？"
   },
   {
     "id": "decision",
@@ -484,16 +422,8 @@
     "answer_30": "I would identify what is known, what is uncertain and how much time is available. I would gather the most useful information and consider the risks of each option. I would seek input where possible and follow the relevant procedures. After acting, I would keep checking whether the situation has changed.",
     "answer_60": "I would identify what is known, what is uncertain and how much time is available. I would gather the most useful information and consider the risks of each option. I would seek input where possible and follow the relevant procedures. After acting, I would keep checking whether the situation has changed. I would also recognise that waiting for perfect information can have a cost, while rushing can introduce risk. The right balance depends on the situation and the applicable standards. I would explain my reasoning clearly, stay open to new information and be prepared to change the plan when needed.",
     "chinese_answer": "承認未知；安全底線、可用資訊、時間與再評估。",
-    "key_points": [
-      "uncertainty",
-      "risk",
-      "reassess"
-    ],
-    "keywords": [
-      "uncertainty",
-      "risk",
-      "reassess"
-    ],
+    "key_points": ["uncertainty", "risk", "reassess"],
+    "keywords": ["uncertainty", "risk", "reassess"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -503,7 +433,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我會先確認目前知道什麼、還缺什麼資訊，以及可用的時間。接著比較各選項的風險，補上最關鍵的資訊，必要時尋求協助並遵守相關程序。做出決定後，我仍會觀察情況是否改變，不能因為已經選了方向，就忽略新的訊息。",
+    "answer_zh_60": "我會先確認目前知道什麼、還缺什麼資訊，以及可用的時間。接著比較各選項的風險，補上最關鍵的資訊，必要時尋求協助並遵守相關程序。做出決定後，我仍會觀察情況是否改變，不能因為已經選了方向，就忽略新的訊息。\n\n如果時間充足，我會用適合的工具整理問題；但工具本身不是目的，也不是每次都需要完整分析。若未來在飛行環境中遇到狀況，我會依訓練、程序與團隊分工處理，不把一般工作上的判斷方式直接當成飛行處置方法。",
+    "answer_outline": ["時間限制", "重要資訊", "持續監控"],
+    "follow_up": "什麼情況適合深入分析，什麼情況必須先依程序行動？"
   },
   {
     "id": "stress",
@@ -515,16 +449,8 @@
     "answer_30": "I manage stress by preparing early, setting priorities and breaking tasks into manageable steps. When pressure rises, I slow down enough to check what matters most and communicate clearly. I also recognise when I need support. I would give a real example showing how these habits helped me perform reliably.",
     "answer_60": "I manage stress by preparing early, setting priorities and breaking tasks into manageable steps. When pressure rises, I slow down enough to check what matters most and communicate clearly. I also recognise when I need support. I would give a real example showing how these habits helped me perform reliably. Outside a demanding situation, I review what created the pressure and improve my preparation. During the task, I focus on the next useful action instead of trying to solve everything at once. I would not claim to be unaffected by stress. I would show that I recognise it and respond constructively.",
     "chinese_answer": "提供真實方法；不要說自己完全不會緊張。",
-    "key_points": [
-      "priorities",
-      "preparation",
-      "support"
-    ],
-    "keywords": [
-      "priorities",
-      "preparation",
-      "support"
-    ],
+    "key_points": ["priorities", "preparation", "support"],
+    "keywords": ["priorities", "preparation", "support"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -534,7 +460,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "我會提早準備、安排優先順序，並把大任務拆成可完成的小步驟。壓力增加時，我會先確認最重要的事情，避免一次想處理所有問題。我也願意主動求助，因為維持可靠的表現，需要知道自己的限制，而不是勉強自己撐下去。",
+    "answer_zh_60": "我會提早準備、安排優先順序，並把大任務拆成可完成的小步驟。壓力增加時，我會先確認最重要的事情，避免一次想處理所有問題。我也願意主動求助，因為維持可靠的表現，需要知道自己的限制，而不是勉強自己撐下去。\n\n完成一個階段後，我會檢查方法是否有效，再調整下一步。如果是因為不熟悉而緊張，就增加有回饋的練習；如果是安排過量，就重新設定優先順序。我希望培養穩定的準備習慣，而不是假設自己在任何壓力下都能表現完美。",
+    "answer_outline": ["拆小步驟", "設定優先", "及早求助"],
+    "follow_up": "當壓力已影響表現時，你會向誰求助、如何描述問題？"
   },
   {
     "id": "aviation",
@@ -546,16 +476,8 @@
     "answer_30": "An order is a commitment to obtain an aircraft. Delivery transfers the aircraft to the customer, but it may still need preparation before entering service. I would check the airline’s dated operational fleet information before calling it active. This distinction helps me avoid overstating the capacity an airline actually has available.",
     "answer_60": "An order is a commitment to obtain an aircraft. Delivery transfers the aircraft to the customer, but it may still need preparation before entering service. I would check the airline’s dated operational fleet information before calling it active. This distinction helps me avoid overstating the capacity an airline actually has available. The same care applies to retired aircraft and future plans. I would not include them in an active total. If two sources give different figures, I would compare their dates and definitions before choosing one. Being accurate about a small number shows the same habit of checking assumptions that learning aviation requires.",
     "chinese_answer": "用生命週期說明，不把交付等同已載客營運。",
-    "key_points": [
-      "order",
-      "delivery",
-      "entry into service"
-    ],
-    "keywords": [
-      "order",
-      "delivery",
-      "entry into service"
-    ],
+    "key_points": ["order", "delivery", "entry into service"],
+    "keywords": ["order", "delivery", "entry into service"],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -565,7 +487,11 @@
     "published_date": "2026-10-11",
     "verified_date": null,
     "status": "unverified",
-    "as_of": null
+    "as_of": null,
+    "answer_zh_30": "訂購代表取得飛機的承諾，交付則代表飛機交給客戶，但之後可能仍需準備才能投入服務。因此，我會查看有日期的營運機隊資料，才把飛機算進現役數量。這樣可以避免把未來規劃誤認為航空公司現在已經具備的運能。",
+    "answer_zh_60": "訂購代表取得飛機的承諾，交付則代表飛機交給客戶，但之後可能仍需準備才能投入服務。因此，我會查看有日期的營運機隊資料，才把飛機算進現役數量。這樣可以避免把未來規劃誤認為航空公司現在已經具備的運能。\n\n此外，選擇權與確定訂單也不能混在一起。比較航空公司時，我會先建立相同的分類，再核對公告與統計日期。對尚未確認的部分，我寧可明確說明目前不知道，也不根據單篇新聞推算總數。",
+    "answer_outline": ["訂購", "交付", "投入服務"],
+    "follow_up": "選擇權可以直接算進確定訂單嗎？為什麼？"
   },
   {
     "id": "current",
@@ -577,16 +503,8 @@
     "answer_30": "I would separate actual fuel use from future targets. For example, EVA Air reports a SAF share for 2025, while future goals describe what it hopes to achieve. I would discuss sustainability carefully and avoid calling any fuel a complete solution. Clear definitions and reliable evidence are important when comparing airlines.",
     "answer_60": "I would separate actual fuel use from future targets. For example, EVA Air reports a SAF share for 2025, while future goals describe what it hopes to achieve. I would discuss sustainability carefully and avoid calling any fuel a complete solution. Clear definitions and reliable evidence are important when comparing airlines. I would also avoid turning a future target into an achievement. The relevant year, measurement boundary and comparison baseline all matter. If I do not have the evidence for a percentage or a technical claim, I would leave it out and explain what I still need to verify.",
     "chinese_answer": "用具體來源與年度區分实际使用和未來目標；不說零排放。",
-    "key_points": [
-      "SAF",
-      "actual use",
-      "target"
-    ],
-    "keywords": [
-      "SAF",
-      "actual use",
-      "target"
-    ],
+    "key_points": ["SAF", "actual use", "target"],
+    "keywords": ["SAF", "actual use", "target"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -597,7 +515,11 @@
     "as_of": "2025-12-31",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "evaSaf"
+    "source_id": "evaSaf",
+    "answer_zh_30": "我會先把 SAF 的實際使用量與未來目標分開。例如長榮公布的年度使用比例，和未來希望達到的目標，是不同性質的資訊。我認為討論永續需要清楚定義與可靠依據，不應把任何單一燃料當成完整解方，也不能把目標說成已達成。",
+    "answer_zh_60": "我會先把 SAF 的實際使用量與未來目標分開。例如長榮公布的年度使用比例，和未來希望達到的目標，是不同性質的資訊。我認為討論永續需要清楚定義與可靠依據，不應把任何單一燃料當成完整解方，也不能把目標說成已達成。\n\n比較不同航空公司時，我會確認年度、計算範圍與資料來源是否一致。若某家公司沒有同口徑的資料，就不強行排名。我希望在面試中展現的是能理解進展與限制的態度，而不是只記住一個聽起來亮眼的數字。",
+    "answer_outline": ["實際使用", "未來目標", "比較口徑"],
+    "follow_up": "你會如何避免把永續目標說成已完成的成果？"
   },
   {
     "id": "fatigue",
@@ -609,16 +531,8 @@
     "answer_30": "Fatigue can affect safe performance, so it needs to be managed systematically. ICAO describes duty-time limits with safety management processes and an approved fatigue risk management approach. As a future pilot, I would take rest seriously, recognise limitations and report concerns through the proper channels. Being professional includes knowing when support is needed.",
     "answer_60": "Fatigue can affect safe performance, so it needs to be managed systematically. ICAO describes duty-time limits with safety management processes and an approved fatigue risk management approach. As a future pilot, I would take rest seriously, recognise limitations and report concerns through the proper channels. Being professional includes knowing when support is needed. I would not treat working through exhaustion as a sign of commitment. I would follow the applicable requirements and use the organisation’s reporting process when concerned. I would also build sensible routines during training. The aim is consistent performance, with honest communication about factors that can affect it.",
     "chinese_answer": "用 ICAO 框架理解；不要把自己熬夜仍可工作當優點。",
-    "key_points": [
-      "fatigue",
-      "rest",
-      "reporting"
-    ],
-    "keywords": [
-      "fatigue",
-      "rest",
-      "reporting"
-    ],
+    "key_points": ["fatigue", "rest", "reporting"],
+    "keywords": ["fatigue", "rest", "reporting"],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
@@ -629,6 +543,10 @@
     "as_of": null,
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "fatigue"
+    "source_id": "fatigue",
+    "answer_zh_30": "疲勞可能影響安全表現，因此需要有系統地管理。對未來的機師而言，休息不是工作以外的小事，而是專業責任的一部分。我會重視休息安排、了解自己的限制，並透過適當管道反映疑慮，不會把勉強撐住視為負責任的表現。",
+    "answer_zh_60": "疲勞可能影響安全表現，因此需要有系統地管理。對未來的機師而言，休息不是工作以外的小事，而是專業責任的一部分。我會重視休息安排、了解自己的限制，並透過適當管道反映疑慮，不會把勉強撐住視為負責任的表現。\n\n我理解疲勞管理需要個人與組織共同配合，也不只是看自己主觀上覺得累不累。作為學員，我會先學習適用的要求與通報方式，讓團隊知道可能影響表現的問題。遇到不確定的情況，我會及早確認，而不自行假設沒有風險。",
+    "answer_outline": ["休息責任", "了解限制", "適當通報"],
+    "follow_up": "你如何區分「努力投入」與「疲勞時勉強工作」？"
   }
 ]

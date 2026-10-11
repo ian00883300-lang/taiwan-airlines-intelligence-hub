@@ -2,10 +2,13 @@
 
 日期：2026-10-11（Asia/Taipei）。
 
-- 資料測試：10/10 通過。
+- 資料與匯入格式測試：12/12 通過。
 - 正式建置：通過，React、Chart.js、Leaflet分包。
 - 瀏覽器：15/15通過。
 - JavaScript runtime errors：0。
+- 題庫新增互動測試：中文／英文／雙語、30／60 秒、隱藏答案、320–1440px 對話框無橫向溢出，全部通過。
+- 個人答案：合成資料測試匯入、重新整理保存、版本切換、不合法檔案保留原資料、移除及取消，全部通過；未發出上傳請求。
+- 實際個人答案檔置於 repository 外，不隨網站發布。測試與截圖只使用通用或合成內容。
 
 - PASS — Production dashboard loads three airlines and two real charts
 - PASS — All 96 airline categories render without empty main content
@@ -28,3 +31,4 @@
 
 ## 重現
 執行 pnpm test / pnpm build / pnpm preview，另開終端 pnpm test:browser。瀏覽器結果在tests/browser-results.json。
+新增互動測試：`node tests/practice-browser.mjs`。正式站測試可設定 `TEST_URL`。

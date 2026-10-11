@@ -112,6 +112,9 @@ test("Interview bank covers 15 topics, four audiences, and both answer lengths",
   assert.equal(new Set(qs.map((x) => x.airline)).size, 4);
   for (const q of qs) {
     assert.ok(q.answer_60.length > q.answer_30.length);
+    assert.ok(q.answer_zh_30.length > 70, q.id + ' needs a spoken Chinese answer');
+    assert.ok(q.answer_zh_60.length > q.answer_zh_30.length);
+    assert.ok(q.answer_outline.length >= 3 && q.follow_up);
     assert.ok(
       q.question_en && q.chinese_answer && q.key_points.length && q.difficulty,
     );

@@ -37,6 +37,11 @@ import {
 } from "lucide-react";
 import "leaflet/dist/leaflet.css";
 import "./style.css";
+import {
+  PersonalProvider,
+  PrivateImport,
+  AnswerView,
+} from "./PracticeStudio.jsx";
 Chart.register(
   DoughnutController,
   ArcElement,
@@ -1150,6 +1155,40 @@ function QuestionBank({
   );
   return (
     <>
+      <section className="practice-overview" aria-label="練習進度">
+        <div>
+          <span className="eyebrow">YOUR NEXT TAKEOFF</span>
+          <h2>每天一題，把回答說清楚。</h2>
+          <p>理解重點 → 計時試說 → 記下調整</p>
+          <button
+            className="primary"
+            onClick={() =>
+              openInterview(
+                list.find((q) => !mastered.includes(q.id)) ||
+                  list[0] ||
+                  bank[0],
+              )
+            }
+          >
+            開始一題練習 <ArrowRight size={16} />
+          </button>
+        </div>
+        <div className="practice-progress">
+          <strong>
+            {mastered.filter((id) => bank.some((q) => q.id === id)).length}
+            <small> / {bank.length}</small>
+          </strong>
+          <span>已練習題目</span>
+          <progress
+            aria-label="已練習題目"
+            value={
+              mastered.filter((id) => bank.some((q) => q.id === id)).length
+            }
+            max={bank.length}
+          />
+          <span>30 秒抓重點 · 60 秒加例子</span>
+        </div>
+      </section>
       <div className="filters bank-filters">
         <label className="grow">
           搜尋題目
@@ -1275,14 +1314,19 @@ function InterviewDialog({
   const toggle = (arr, set) =>
     set(arr.includes(q.id) ? arr.filter((x) => x !== q.id) : [...arr, q.id]);
   return (
-    <dialog ref={ref} onCancel={close} className="interview-dialog">
+    <dialog
+      ref={ref}
+      onCancel={close}
+      className="interview-dialog"
+      aria-labelledby="practice-title"
+    >
       <div className="dialog-top">
         <span className="eyebrow">INTERVIEW VIEW · {q.topic}</span>
         <button onClick={close} aria-label="關閉練習">
           <X />
         </button>
       </div>
-      <h2>{q.question}</h2>
+      <h2 id="practice-title">{q.question}</h2>
       <p className="english-question">{q.question_en}</p>
       <p className="muted">{q.note}</p>
       <div className="practice-controls">
@@ -1323,17 +1367,7 @@ function InterviewDialog({
           <RotateCcw size={15} />
         </button>
       </div>
-      <h3>Why it matters</h3>
-      <p>{q.why_it_matters}</p>
-      <h3>{length}-second answer · English</h3>
-      <div className="answer">{q["answer_" + length]}</div>
-      <h3>中文理解 Chinese answer</h3>
-      <p>{q.chinese_answer}</p>
-      <div className="keywords">
-        {q.keywords.map((k) => (
-          <span key={k}>{k}</span>
-        ))}
-      </div>
+      <AnswerView q={q} length={length} />
       <Source item={q} />
       <label className="notes-label">
         我的口說筆記
@@ -1569,6 +1603,7 @@ function App() {
                   匯出筆記
                 </button>
               </Heading>
+              <PrivateImport />
               <QuestionBank
                 openInterview={setQ}
                 saved={saved}
@@ -1638,4 +1673,8 @@ function App() {
     </>
   );
 }
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <PersonalProvider ids={bank.map((q) => q.id)}>
+    <App />
+  </PersonalProvider>,
+);

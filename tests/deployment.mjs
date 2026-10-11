@@ -1,6 +1,69 @@
-import {chromium} from 'playwright';
-import assert from 'node:assert/strict';
-import fs from 'node:fs';
-const url='https://ian00883300-lang.github.io/taiwan-airlines-intelligence-hub/';
-const browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage({viewport:{width:390,height:844}});const errors=[];page.on('pageerror',e=>errors.push(e.message));const results=[];
-try{for(const route of ['home','china-airlines/fleet','eva-air/recruitment','starlux/routes','compare','weekly','interview']){const r=await page.goto(url+'#'+route,{waitUntil:'domcontentloaded'});assert.equal(r.status(),200);await page.locator('h1').waitFor();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));results.push({route,status:200,rendered:true});}await page.locator('.question-card').first().click();await page.locator('dialog').waitFor();assert.ok((await page.locator('dialog').innerText()).includes('30-second answer'));assert.deepEqual(errors,[]);await page.keyboard.press('Escape');await page.goto(url);await page.locator('.airline-card').first().waitFor();assert.equal(await page.locator('.airline-card').count(),3);await page.screenshot({path:'tests/live-mobile.png'});console.log(JSON.stringify({url,results,runtime_errors:errors,interview_dialog:true}));fs.writeFileSync('tests/deployment-results.json',JSON.stringify({verified_date:'2026-10-11',url,results,runtime_errors:errors,interview_dialog:true},null,2));}finally{await browser.close()}
+import { chromium } from "playwright";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const url =
+  "https://ian00883300-lang.github.io/taiwan-airlines-intelligence-hub/";
+const browser = await chromium.launch({ channel: "chrome", headless: true });
+const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+const errors = [];
+page.on("pageerror", (e) => errors.push(e.message));
+const results = [];
+try {
+  for (const route of [
+    "home",
+    "china-airlines/fleet",
+    "eva-air/recruitment",
+    "starlux/routes",
+    "compare",
+    "weekly",
+    "interview",
+  ]) {
+    await page.goto('about:blank');
+    const r = await page.goto(url + "#" + route, {
+      waitUntil: "domcontentloaded",
+    });
+    assert.equal(r.status(), 200);
+    await page.locator("h1").waitFor();
+    assert.ok(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth + 1,
+      ),
+    );
+    results.push({ route, status: 200, rendered: true });
+  }
+  await page.locator(".question-card").first().click();
+  await page.locator("dialog").waitFor();
+  assert.ok(
+    (await page.locator("dialog").innerText()).includes("中文建議回答"),
+  );
+  assert.deepEqual(errors, []);
+  await page.keyboard.press("Escape");
+  await page.goto(url);
+  await page.locator(".airline-card").first().waitFor();
+  assert.equal(await page.locator(".airline-card").count(), 3);
+  await page.screenshot({ path: "tests/live-mobile.png" });
+  console.log(
+    JSON.stringify({
+      url,
+      results,
+      runtime_errors: errors,
+      interview_dialog: true,
+    }),
+  );
+  fs.writeFileSync(
+    "tests/deployment-results.json",
+    JSON.stringify(
+      {
+        verified_date: "2026-10-11",
+        url,
+        results,
+        runtime_errors: errors,
+        interview_dialog: true,
+      },
+      null,
+      2,
+    ),
+  );
+} finally {
+  await browser.close();
+}

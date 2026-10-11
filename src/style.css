@@ -10,6 +10,7 @@
   --muted: #657b8e;
   --line: #e0e8ef;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -1782,5 +1783,270 @@ footer {
   }
   footer {
     padding-bottom: 0;
+  }
+}
+
+/* Practice studio: generous reading space, quiet emphasis, touch-friendly controls. */
+.practice-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding: 30px;
+  margin: 22px 0;
+  border: 1px solid #cddfe8;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #e9f3f7, #fffaf0);
+}
+.practice-overview h2 {
+  font-size: 25px;
+  letter-spacing: -0.6px;
+  margin: 8px 0;
+}
+.practice-overview p {
+  color: #527084;
+  margin-bottom: 18px;
+}
+.practice-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+  font-size: 12px;
+  color: #526d80;
+}
+.practice-progress strong {
+  font-size: 45px;
+  color: #18394c;
+  font-weight: 500;
+  line-height: 1;
+}
+.practice-progress small {
+  font-size: 19px;
+  color: #6b8393;
+}
+.practice-progress progress {
+  width: 100%;
+  height: 7px;
+  accent-color: #237f86;
+}
+.private-library {
+  padding: 17px 20px;
+  border: 1px solid #dce5eb;
+  border-radius: 12px;
+  background: #fff;
+}
+.private-library summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  min-height: 30px;
+}
+.private-library summary::before {
+  content: "＋";
+  color: #267c87;
+}
+.private-library[open] summary::before {
+  content: "−";
+}
+.private-library summary > span:first-child {
+  margin-right: auto;
+}
+.library-status {
+  color: #607989;
+  font-size: 12px;
+}
+.private-library p {
+  font-size: 13px;
+  margin-top: 14px;
+  max-width: 800px;
+}
+.import-label {
+  margin: 15px 0;
+  max-width: 440px;
+}
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.answer-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.answer-toolbar label {
+  flex-direction: row;
+  align-items: center;
+}
+.answer-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  color: #557183;
+  font-size: 12px;
+}
+.answer-caption button {
+  font-size: 12px;
+  padding: 8px;
+}
+.answer-columns {
+  display: grid;
+  gap: 18px;
+}
+.answer-columns.bilingual {
+  grid-template-columns: 1fr 1fr;
+}
+.answer-block {
+  min-width: 0;
+}
+.interview-dialog .answer-block h3 {
+  margin: 8px 0;
+  font-size: 12px;
+  color: #577585;
+  font-weight: 500;
+}
+.interview-dialog .answer {
+  background: #fafaf6;
+  border: 1px solid #e4e6dc;
+  border-radius: 12px;
+  padding: 23px;
+  font-size: 17px;
+  line-height: 2;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.answer-studio .keywords {
+  margin: 18px 0;
+}
+.keywords mark {
+  background: #ffebd1;
+  color: #694e2d;
+  border-radius: 4px;
+  padding: 4px 9px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.answer-coach {
+  border-top: 1px solid #e2e9ed;
+  padding: 15px 0;
+  margin-top: 8px;
+}
+.answer-coach summary {
+  cursor: pointer;
+  color: #34586c;
+  font-size: 13px;
+  min-height: 30px;
+}
+.interview-dialog .answer-coach p {
+  font-size: 14px;
+}
+.answer-recall {
+  padding: 40px 25px;
+  background: #f4f7f9;
+  border: 1px dashed #a7bccb;
+  border-radius: 12px;
+  color: #567184;
+  line-height: 1.9;
+}
+.interview-dialog .personal-note {
+  background: #fff3df;
+  padding: 12px 15px;
+  border-radius: 8px;
+  color: #715730;
+  font-size: 12px;
+}
+dialog.interview-dialog {
+  width: min(880px, calc(100% - 28px));
+  padding: 0 30px 28px;
+}
+.interview-dialog .dialog-top {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 14px 0;
+  z-index: 2;
+  border-bottom: 1px solid #edf1f4;
+}
+.interview-dialog .dialog-top button {
+  min-height: 44px;
+  min-width: 44px;
+}
+.interview-dialog .language-switch button {
+  min-height: 44px;
+  font-size: 13px;
+}
+.interview-dialog .practice-controls button {
+  min-height: 44px;
+}
+@media (max-width: 600px) {
+  .practice-overview {
+    padding: 22px;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .practice-overview h2 {
+    font-size: 22px;
+  }
+  .practice-progress {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .practice-progress strong {
+    font-size: 32px;
+  }
+  .practice-progress span:last-child {
+    text-align: right;
+    font-size: 10px;
+  }
+  .private-library {
+    padding: 14px;
+  }
+  .library-status {
+    font-size: 10px;
+  }
+  dialog.interview-dialog {
+    width: 100%;
+    max-width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    margin: 0;
+    border-radius: 0;
+    padding: 0 18px max(24px, env(safe-area-inset-bottom));
+    border: 0;
+  }
+  .interview-dialog .answer {
+    padding: 18px;
+    font-size: 17px;
+    line-height: 1.95;
+  }
+  .answer-columns.bilingual {
+    grid-template-columns: 1fr;
+  }
+  .interview-dialog .practice-controls {
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px;
+  }
+  .answer-caption {
+    align-items: flex-start;
+  }
+  .answer-toolbar label {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .interview-dialog input,
+  .interview-dialog textarea,
+  .interview-dialog select {
+    font-size: 16px;
   }
 }
