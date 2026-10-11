@@ -1,0 +1,61 @@
+{
+  "history": [
+    {
+      "source": "華航｜2025 社會參與",
+      "source_url": "https://calec.china-airlines.com/csr/social_development.html",
+      "published_date": null,
+      "as_of": "2023-12-31",
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "ciSocial",
+      "year": 2023,
+      "commercial": 36594093,
+      "charity": 3822991,
+      "community": 6049436,
+      "total": 46466520,
+      "scope": "社會參與種類；新臺幣元。含商業活動、慈善活動與社區投資，不等於現金捐款。"
+    },
+    {
+      "source": "華航｜2025 社會參與",
+      "source_url": "https://calec.china-airlines.com/csr/social_development.html",
+      "published_date": null,
+      "as_of": "2024-12-31",
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "ciSocial",
+      "year": 2024,
+      "commercial": 54932735,
+      "charity": 3602190,
+      "community": 3849735,
+      "total": 62384660,
+      "scope": "社會參與種類；新臺幣元。含商業活動、慈善活動與社區投資，不等於現金捐款。"
+    },
+    {
+      "source": "華航｜2025 社會參與",
+      "source_url": "https://calec.china-airlines.com/csr/social_development.html",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "ciSocial",
+      "year": 2025,
+      "commercial": 53566169,
+      "charity": 14052696,
+      "community": 4075484,
+      "total": 71694349,
+      "scope": "社會參與種類；新臺幣元。含商業活動、慈善活動與社區投資，不等於現金捐款。"
+    }
+  ],
+  "sroi": {
+    "source": "華航｜2025 社會參與",
+    "source_url": "https://calec.china-airlines.com/csr/social_development.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "ciSocial",
+    "title": "SROI 8.05",
+    "body": "2025 年公益體育營專案評估，每投入 1 元對應 8.05 元社會效益；不能解讀為全公司所有公益活動或財務投資報酬。",
+    "scope": "單一公益專案、評估模型結果。"
+  }
+}

@@ -37,6 +37,13 @@ import {
 } from "lucide-react";
 import "leaflet/dist/leaflet.css";
 import "./style.css";
+import "./research.css";
+import {
+  TrainingPath,
+  FinanceVisuals,
+  SocialVisuals,
+  InstallGuide,
+} from "./ResearchPanels.jsx";
 import {
   PersonalProvider,
   PrivateImport,
@@ -483,17 +490,30 @@ function NewsCard({ n }) {
 function Home({ openInterview }) {
   return (
     <>
-      <Heading
-        eyebrow="YOUR PRE-FLIGHT BRIEFING"
-        title="台灣航空情報中心"
-        description="台灣三大航空情報 × 培訓機師面試準備。從可信資料，到你的下一個好回答。"
-      >
-        <div className="edition">
-          <span>研究版本</span>
-          <b>v0.1</b>
-          <small>2026.10.11</small>
+      <div className="hub-masthead">
+        <Heading
+          eyebrow="YOUR PRE-FLIGHT BRIEFING"
+          title="台灣航空情報中心"
+          description="台灣三大航空情報 × 培訓機師面試準備。從可信資料，到你的下一個好回答。"
+        >
+          <div className="edition">
+            <img
+              src={`${import.meta.env.BASE_URL}icons/metal-t-192.png`}
+              alt="銀色金屬 T，航空情報中心圖示"
+            />
+            <small>INTELLIGENCE HUB</small>
+          </div>
+        </Heading>
+        <div className="hero-actions">
+          <a href="#interview">
+            開始面試練習 <ArrowRight size={16} />
+          </a>
+          <a href="#china-airlines/cadet">
+            探索機師養成路線 <ArrowUpRight size={16} />
+          </a>
         </div>
-      </Heading>
+      </div>
+      <InstallGuide />
       <div className="verification-strip">
         <ShieldCheck size={17} />
         <span>
@@ -811,6 +831,7 @@ function Finance({ a, openInterview }) {
       <p className="notice">
         {f.period} · {f.scope}。本版不把公司本體和合併集團數字視為完全相同規模。
       </p>
+      <FinanceVisuals f={f} Source={Source} />
       <FactCards
         records={[
           {
@@ -838,30 +859,57 @@ function Airline({ a, tab = "overview", openInterview }) {
   const section = sections.find((s) => s.id === tab);
   return (
     <>
-      <Heading
-        eyebrow={`${a.code} / AIRLINE INTELLIGENCE`}
-        title={a.name}
-        description={`${a.english} · ${a.tag}`}
-      >
-        <span className="large-emblem" style={{ color: a.color }}>
-          {a.code}
-        </span>
-      </Heading>
+      <div className="airline-masthead" style={{ "--airline-color": a.color }}>
+        <Heading
+          eyebrow={`${a.code} / AIRLINE INTELLIGENCE`}
+          title={a.name}
+          description={`${a.english} · ${a.tag}`}
+        >
+          <span className="large-emblem" style={{ color: a.color }}>
+            {a.code}
+          </span>
+        </Heading>
+      </div>
       <div className="verification-strip">
         <ShieldCheck size={16} /> Data verified through: {a.last_verified} ·
         個別欄位日期請展開來源
       </div>
-      <nav className="section-nav" aria-label="公司資料分類">
-        {sections.map((s) => (
+      <nav className="topic-nav" aria-label="常用研究主題">
+        {[
+          ["overview", "公司總覽"],
+          ["fleet", "機隊"],
+          ["routes", "航網"],
+          ["cadet", "機師之路"],
+          ["esg", "永續與社會"],
+          ["finance", "營運財務"],
+          ["interview", "面試練習"],
+        ].map(([id, name]) => (
           <a
-            key={s.id}
-            href={"#" + a.id + "/" + s.id}
-            className={s.id === tab ? "active" : ""}
+            key={id}
+            href={"#" + a.id + "/" + id}
+            className={id === tab ? "active" : ""}
+            aria-current={id === tab ? "page" : undefined}
           >
-            {s.zh}
+            {name}
           </a>
         ))}
       </nav>
+      <details className="all-sections" key={a.id + "/" + tab}>
+        <summary>
+          全部 32 個研究分類 <span>目前：{section.zh}</span>
+        </summary>
+        <nav className="section-nav" aria-label="公司資料分類">
+          {sections.map((s) => (
+            <a
+              key={s.id}
+              href={"#" + a.id + "/" + s.id}
+              className={s.id === tab ? "active" : ""}
+            >
+              {s.zh}
+            </a>
+          ))}
+        </nav>
+      </details>
       <SectionTitle title={section.zh} en={section.en} />
       {["fleet", "orders", "technical"].includes(tab) ? (
         <Fleet a={a} tab={tab} />
@@ -871,6 +919,21 @@ function Airline({ a, tab = "overview", openInterview }) {
         </section>
       ) : ["finance", "revenue", "eps"].includes(tab) ? (
         <Finance a={a} openInterview={openInterview} />
+      ) : tab === "cadet" ? (
+        <TrainingPath airline={a.id} Source={Source} />
+      ) : tab === "esg" ? (
+        <>
+          <FactCards
+            records={a.sections[tab] || []}
+            airline={a.id}
+            openInterview={openInterview}
+          />
+          {a.id === "china-airlines" ? (
+            <SocialVisuals Source={Source} />
+          ) : (
+            <Pending note="多年度社會參與圖表尚待官方資料查核，不套用華航數據。" />
+          )}
+        </>
       ) : tab === "interview" ? (
         <QuestionBank initial={a.id} openInterview={openInterview} />
       ) : tab === "news" ? (
@@ -1493,7 +1556,10 @@ function App() {
       <aside className="sidebar">
         <a href="#home" className="brand">
           <span className="brand-icon">
-            <Plane size={25} />
+            <img
+              src={`${import.meta.env.BASE_URL}icons/metal-t-192.png`}
+              alt=""
+            />
           </span>
           <div>
             TAIWAN AIRLINES<small>INTELLIGENCE HUB</small>

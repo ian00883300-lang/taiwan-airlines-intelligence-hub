@@ -16,15 +16,74 @@
     "source_id": "ciFinance"
   },
   "eps": {
-    "label": "基本 EPS",
-    "value": null,
-    "source": null,
-    "source_url": null,
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
     "published_date": null,
-    "verified_date": null,
-    "status": "unverified",
-    "as_of": null,
-    "note": "尚未取得可比較且具日期的官方資料。"
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "ciFinancial2025",
+    "label": "基本 EPS",
+    "value": 2.42,
+    "unit": "新臺幣／股",
+    "period": "2025-01-01/2025-12-31",
+    "scope": "合併報表基本每股盈餘；不是稀釋 EPS。報表第 8、61 頁。"
   },
-  "note": "不混用季度、年度、集團與公司本體數據。"
+  "note": "不混用季度、年度、集團與公司本體數據。",
+  "history": [
+    {
+      "source": "華航｜2025／2024 合併財務報表",
+      "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+      "published_date": null,
+      "as_of": "2024-12-31",
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "ciFinancial2025",
+      "year": 2024,
+      "revenue": 203879338,
+      "profit": 14383345,
+      "eps": 2.38,
+      "scope": "全年合併；營收與歸屬母公司淨利為新臺幣仟元，EPS 為元／股。第 7–8 頁及附註 29。"
+    },
+    {
+      "source": "華航｜2025／2024 合併財務報表",
+      "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-11",
+      "status": "confirmed",
+      "source_id": "ciFinancial2025",
+      "year": 2025,
+      "revenue": 209138766,
+      "profit": 14700319,
+      "eps": 2.42,
+      "scope": "全年合併；營收與歸屬母公司淨利為新臺幣仟元，EPS 為元／股。第 7–8 頁及附註 29。"
+    }
+  ],
+  "breakdown": {
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed",
+    "source_id": "ciFinancial2025",
+    "year": 2025,
+    "items": [
+      {
+        "label": "客運",
+        "amount": 124908428
+      },
+      {
+        "label": "貨運",
+        "amount": 66830701
+      },
+      {
+        "label": "其他",
+        "amount": 17399637
+      }
+    ],
+    "unit": "新臺幣仟元",
+    "scope": "合併營收，財報附註 27，第 54 頁；與永續網站的四捨五入營收交叉比對。"
+  }
 }

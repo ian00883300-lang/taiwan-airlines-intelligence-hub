@@ -3,11 +3,13 @@
 核對日：2026-10-11（Asia/Taipei）。以官方原頁優先，搜尋摘要只作線索；未使用截圖數字。
 
 ## 規則
+
 L1 航空公司官方（IR、年報、ESG、招募）；L2 政府及證交所；L3 製造商、聯盟、ICAO、IATA及機場；L4 可信航空媒體。本版無 L4 數據。
 
 source/source_url/published_date/verified_date/status 必備，另附 as_of、scope。未知日期 null；未知數量 null 而非0。狀態 confirmed/announced/planned/estimated/unverified。
 
 ## 差異解決
+
 - 華航搜尋快照84架已過時，原頁2026-09-30為85架，採原頁。
 - 長榮原頁2026-10-01為89架；不把待交訂單算入。
 - 星宇2025年底29架只用作歷史快照，2026交付事件不推算目前總數。
@@ -16,9 +18,10 @@ source/source_url/published_date/verified_date/status 必備，另附 as_of、sc
 - 三家財務邊界不同，揭露口徑；未比較未統一的淨利或季/年度EPS。
 
 ## Sources
+
 - **ciFleet** L1 [中華航空｜營運概況](https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations) — published: null; as_of: 2026-09-30; verified: 2026-10-11
 - **evaFleet** L1 [長榮航空｜EVA Air Fleet](https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/) — published: null; as_of: 2026-10-01; verified: 2026-10-11
-- **jxAnnual** L1 [星宇航空｜2025 年報](https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf) — published: null; as_of: 2025-12-31; verified: 2026-10-11
+- **jxAnnual** L1 [星宇航空｜2025 年報](<https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf>) — published: null; as_of: 2025-12-31; verified: 2026-10-11
 - **jxDelivery** L3 [Airbus｜STARLUX 首架 A350-1000](https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000) — published: 2026-01-06; as_of: 2026-01-06; verified: 2026-10-11
 - **evaOrder** L3 [Airbus｜EVA Air 增訂](https://www.airbus.com/en/newsroom/press-releases/2025-04-eva-air-expands-fleet-with-more-a350-1000-and-a321neo-aircraft) — published: 2025-04-07; as_of: 2025-04-07; verified: 2026-10-11
 - **ciOrder** L1 [華航｜787 確認訂單](https://www.china-airlines.com/at/en/about-china-airlines/media/news/20230621) — published: 2023-06-21; as_of: 2023-06-21; verified: 2026-10-11
@@ -55,3 +58,7 @@ source/source_url/published_date/verified_date/status 必備，另附 as_of、sc
 - **ciFounding** L1 [華航｜2012 永續報告（歷史成立資訊）](https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf) — published: null; as_of: 2012-12-31; verified: 2026-10-11
 - **ciA350Total** L3 [Airbus｜華航 A350-1000 總訂單 15 架](https://www.airbus.com/en/newsroom/press-releases/2025-12-china-airlines-orders-five-more-airbus-a350-1000s) — published: 2025-12-18; as_of: 2025-12-18; verified: 2026-10-11
 - **ciA350Initial** L1 [華航｜A350-1000 初始訂單與交付規劃](https://www.china-airlines.com/nl/en/about-china-airlines/media/news/20250331) — published: 2025-03-31; as_of: 2025-03-31; verified: 2026-10-11
+
+# 2026-10-11 追加查核
+
+新增培訓法規、華航合併財報與社會參與來源已逐筆記錄於 `data/sources.json`，查核與截圖差異見 [SCREENSHOT-VERIFICATION](docs/SCREENSHOT-VERIFICATION.md)。截图本身不作數據依據。

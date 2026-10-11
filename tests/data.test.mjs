@@ -112,7 +112,10 @@ test("Interview bank covers 15 topics, four audiences, and both answer lengths",
   assert.equal(new Set(qs.map((x) => x.airline)).size, 4);
   for (const q of qs) {
     assert.ok(q.answer_60.length > q.answer_30.length);
-    assert.ok(q.answer_zh_30.length > 70, q.id + ' needs a spoken Chinese answer');
+    assert.ok(
+      q.answer_zh_30.length > 70,
+      q.id + " needs a spoken Chinese answer",
+    );
     assert.ok(q.answer_zh_60.length > q.answer_zh_30.length);
     assert.ok(q.answer_outline.length >= 3 && q.follow_up);
     assert.ok(
@@ -158,4 +161,38 @@ test("Weekly events retain publication and event dates separately", () => {
     news.find((n) => n.airline === "starlux").event_date < "2026-10-05",
   );
   for (const n of news) assert.ok(n.what && n.why && n.impact && n.remember);
+});
+test("Financial mix and social categories reconcile to exact source totals", () => {
+  const f = read("data/china-airlines/financials.json");
+  assert.equal(
+    f.breakdown.items.reduce((sum, x) => sum + x.amount, 0),
+    f.history.find((x) => x.year === 2025).revenue,
+  );
+  assert.equal(f.eps.value, f.history.find((x) => x.year === 2025).eps);
+  for (const x of read("data/china-airlines/social.json").history)
+    assert.equal(x.commercial + x.charity + x.community, x.total);
+});
+test("Training requirements retain jurisdictions and uncertain program stays unverified", () => {
+  const t = read("data/training-path.json");
+  assert.deepEqual(
+    [...new Set(t.requirements.map((x) => x.jurisdiction))].sort(),
+    ["CASA", "FAA", "臺灣"],
+  );
+  assert.equal(t.programs.starlux.status, "unverified");
+  assert.ok(
+    t.requirements.find((x) => x.id === "tw-atpl").scope.includes("不是"),
+  );
+  assert.ok(t.requirements.every((x) => x.source_url && x.scope));
+});
+test("Home-screen icon files match declared sizes and manifest stays under site scope", () => {
+  const m = read("public/manifest.webmanifest");
+  assert.equal(m.start_url, "./#home");
+  assert.equal(m.scope, "./");
+  assert.equal(m.display, "standalone");
+  for (const size of [32, 180, 192, 512]) {
+    const b = fs.readFileSync(`public/icons/metal-t-${size}.png`);
+    assert.equal(b.readUInt32BE(16), size);
+    assert.equal(b.readUInt32BE(20), size);
+  }
+  for (const icon of m.icons) assert.ok(fs.existsSync("public/" + icon.src));
 });

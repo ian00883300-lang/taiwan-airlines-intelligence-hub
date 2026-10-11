@@ -388,5 +388,95 @@
     "verified_date": "2026-10-11",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "faaSchools",
+    "source": "FAA｜Pilot Schools Information",
+    "source_url": "https://www.faa.gov/training_testing/training/pilot_schools",
+    "level": 2,
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "faaIR",
+    "source": "eCFR｜14 CFR 61.65",
+    "source_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-B/section-61.65",
+    "level": 2,
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "faaCPL",
+    "source": "eCFR｜14 CFR 61.129",
+    "source_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-F/section-61.129",
+    "level": 2,
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "casaPPL",
+    "source": "CASA｜Private pilot licence",
+    "source_url": "https://www.casa.gov.au/licences-and-certificates/pilots/pilot-licences/getting-private-pilot-licence-ppl",
+    "level": 2,
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "casaCPL",
+    "source": "CASA｜Commercial pilot licence",
+    "source_url": "https://www.casa.gov.au/licences-and-certificates/pilots/pilot-licences/commercial-pilot-licences/getting-commercial-pilot-licence-cpl",
+    "level": 2,
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "twLicences",
+    "source": "全國法規資料庫｜航空人員檢定給證管理規則",
+    "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0090008",
+    "level": 2,
+    "published_date": "2025-11-03",
+    "as_of": null,
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciTraining",
+    "source": "華航｜海外培訓與 UND 合作說明",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20251207",
+    "level": 1,
+    "published_date": "2025-12-07",
+    "as_of": "2025-12-07",
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciFinancial2025",
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+    "level": 1,
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciSocial",
+    "source": "華航｜2025 社會參與",
+    "source_url": "https://calec.china-airlines.com/csr/social_development.html",
+    "level": 1,
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-11",
+    "status": "confirmed"
   }
 ]

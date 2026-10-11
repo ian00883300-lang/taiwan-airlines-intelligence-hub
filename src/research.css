@@ -1,0 +1,462 @@
+.brand-icon {
+  padding: 0;
+  overflow: hidden;
+}
+.brand-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hub-masthead,
+.airline-masthead {
+  padding: 32px;
+  border-radius: 20px;
+  color: #fff;
+  background:
+    radial-gradient(ellipse at 100% 0%, #2b5877 0%, transparent 58%),
+    linear-gradient(120deg, #102b42, #172e4b 70%, #31465c);
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+.airline-masthead {
+  background: linear-gradient(
+    115deg,
+    #102b42 15%,
+    #23496b 70%,
+    var(--airline-color)
+  );
+}
+.hub-masthead .heading,
+.airline-masthead .heading {
+  margin: 0;
+}
+.hub-masthead h1,
+.airline-masthead h1 {
+  color: white;
+}
+.hub-masthead .heading p,
+.airline-masthead .heading p {
+  color: #c6d7e5;
+}
+.hub-masthead .eyebrow,
+.airline-masthead .eyebrow {
+  color: #9ad2e7;
+}
+.hub-masthead .edition {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.hub-masthead .edition img {
+  width: 105px;
+  height: 105px;
+  border-radius: 24px;
+  box-shadow: 0 9px 28px #0005;
+}
+.hub-masthead .edition small {
+  color: #a8c8d9;
+  letter-spacing: 1px;
+  font-size: 8px;
+  margin-top: 10px;
+}
+.airline-masthead .large-emblem {
+  color: white !important;
+  opacity: 0.8;
+}
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid #7395b0;
+  border-radius: 9px;
+  color: #e7f4fa;
+  font-size: 13px;
+  min-height: 44px;
+}
+.hero-actions a:first-child {
+  background: #e5f4f8;
+  color: #173e58;
+  border-color: #e5f4f8;
+}
+.install-guide {
+  background: white;
+  border: 1px solid #dce5ec;
+  border-radius: 14px;
+  margin: 0 0 22px;
+}
+.install-guide summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-height: 72px;
+  padding: 12px 18px;
+}
+.install-guide summary img {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+}
+.install-guide summary small {
+  display: block;
+  font-size: 11px;
+  color: #6d8293;
+  margin-top: 4px;
+}
+.install-guide summary > span:last-child {
+  margin-left: auto;
+  font-size: 22px;
+  color: #648395;
+}
+.install-guide > div {
+  padding: 0 20px 12px;
+}
+.topic-nav {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 10px 0 14px;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+}
+.topic-nav a {
+  flex-shrink: 0;
+  background: white;
+  border: 1px solid #d9e3eb;
+  padding: 12px 17px;
+  border-radius: 24px;
+  color: #536e83;
+  font-size: 13px;
+  min-height: 44px;
+}
+.topic-nav a.active {
+  background: #193e64;
+  color: white;
+  border-color: #193e64;
+}
+.all-sections {
+  margin-bottom: 24px;
+  border: 1px solid #dde6ee;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+.all-sections summary {
+  padding: 13px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #516e81;
+}
+.all-sections summary span {
+  float: right;
+  font-size: 11px;
+}
+.all-sections .section-nav {
+  margin: 0;
+  padding: 12px;
+  border-bottom: 0;
+}
+.section-intro {
+  margin: 26px 0 20px;
+}
+.section-intro h2 {
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  margin: 6px 0;
+}
+.section-intro p {
+  max-width: 850px;
+  color: #627c8e;
+  font-size: 13px;
+}
+.training-steps {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+.training-steps button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 17px 12px;
+  min-height: 133px;
+  background: #fff;
+  border: 1px solid #d8e3ed;
+  border-radius: 12px;
+  gap: 10px;
+}
+.training-steps button > span {
+  color: #86a6b9;
+  font-size: 21px;
+  font-variant-numeric: tabular-nums;
+}
+.training-steps strong {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.training-steps small {
+  font-size: 8px;
+  letter-spacing: 0.8px;
+  color: #8294a1;
+}
+.training-steps button.active {
+  background: #193e64;
+  border-color: #193e64;
+  color: white;
+}
+.training-steps button.active > span,
+.training-steps button.active small {
+  color: #a4dbe9;
+}
+.stage-detail {
+  padding: 26px;
+  margin: 16px 0 24px;
+  border: 1px solid #cddfe9;
+  border-radius: 14px;
+  background: linear-gradient(100deg, #eaf3f7, #f8fbfc);
+}
+.stage-detail h3 {
+  font-size: 21px;
+  margin: 10px 0;
+}
+.stage-detail p {
+  font-size: 14px;
+  max-width: 880px;
+}
+.stage-detail .stage-practice {
+  font-size: 12px;
+  padding: 12px 16px;
+  background: #ffffffb0;
+  border-radius: 8px;
+  color: #44657b;
+  margin: 14px 0 0;
+}
+.training-program {
+  border-left: 4px solid #82aebb;
+}
+.jurisdiction {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.jurisdiction button {
+  border-radius: 22px;
+  font-size: 12px;
+  min-height: 44px;
+}
+.jurisdiction button.active {
+  background: #254f6e;
+  color: #fff;
+}
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.requirement-card {
+  padding: 24px;
+  border: 1px solid #dde5ec;
+  background: white;
+  border-radius: 14px;
+}
+.requirement-card > span {
+  font-size: 12px;
+  color: #647e91;
+}
+.requirement-card h3 {
+  font-size: 21px;
+  line-height: 1.6;
+  margin: 14px 0 10px;
+  color: #245f85;
+}
+.requirement-card p {
+  font-size: 13px;
+}
+.research-note {
+  margin: 20px 0;
+  padding: 18px;
+  border: 1px solid #e7dac4;
+  background: #fffaf0;
+  border-radius: 12px;
+  color: #766347;
+}
+.research-note summary {
+  cursor: pointer;
+  min-height: 30px;
+}
+.research-note p {
+  font-size: 13px;
+}
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.research-grid .panel {
+  min-width: 0;
+}
+.research-chart {
+  position: relative;
+  height: 290px;
+  width: 100%;
+  margin: 18px 0;
+}
+.chart-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.chart-heading select {
+  font-size: 12px;
+}
+.research-grid h3 {
+  font-size: 18px;
+}
+.mix-legend {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.mix-legend li {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eef2f5;
+  font-size: 12px;
+}
+.mix-legend li strong {
+  font-weight: 500;
+  margin-left: auto;
+}
+.mix-legend li > span:last-child {
+  min-width: 88px;
+  text-align: right;
+  color: #647d8e;
+}
+.social-insight h3 {
+  font-size: 38px;
+  color: #245f85;
+  font-weight: 500;
+  margin: 24px 0;
+}
+.social-insight h3 small {
+  display: block;
+  font-size: 12px;
+  color: #718496;
+  margin-top: 10px;
+}
+.table-wrap caption {
+  text-align: left;
+  padding: 16px;
+  color: #5c788e;
+  font-size: 12px;
+  background: #f7fafc;
+}
+@media (max-width: 1100px) {
+  .training-steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .hub-masthead,
+  .airline-masthead {
+    padding: 24px 20px;
+    border-radius: 16px;
+  }
+  .hub-masthead .heading {
+    align-items: flex-start;
+  }
+  .hub-masthead .edition {
+    display: none;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+  .hero-actions a {
+    justify-content: space-between;
+  }
+  .airline-masthead .large-emblem {
+    font-size: 30px;
+  }
+  .research-grid,
+  .requirements-grid {
+    grid-template-columns: 1fr;
+  }
+  .training-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .training-steps button {
+    min-height: 115px;
+    padding: 14px;
+  }
+  .training-steps strong {
+    font-size: 14px;
+  }
+  .section-intro h2 {
+    font-size: 22px;
+  }
+  .stage-detail,
+  .requirement-card {
+    padding: 20px;
+  }
+  .research-chart {
+    height: 260px;
+  }
+  .all-sections summary span {
+    display: block;
+    float: none;
+    margin: 8px 0 0 18px;
+  }
+  .topic-nav a {
+    font-size: 12px;
+    padding: 11px 15px;
+  }
+  .jurisdiction {
+    gap: 5px;
+  }
+  .jurisdiction button {
+    padding: 10px;
+    flex: 1;
+  }
+  .chart-heading label {
+    width: 100%;
+  }
+  .chart-heading select {
+    font-size: 16px;
+  }
+  .install-guide summary {
+    padding: 12px;
+  }
+  .install-guide summary > span {
+    font-size: 13px;
+  }
+  .mobile-nav {
+    padding-bottom: env(safe-area-inset-bottom);
+    height: calc(66px + env(safe-area-inset-bottom));
+  }
+  main {
+    padding-bottom: calc(100px + env(safe-area-inset-bottom));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+@media (display-mode: standalone) {
+  .topbar {
+    padding-top: env(safe-area-inset-top);
+  }
+}

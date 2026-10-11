@@ -2,7 +2,7 @@
 
 日期：2026-10-11（Asia/Taipei）。
 
-- 資料與匯入格式測試：12/12 通過。
+- 資料與匯入格式測試：15/15 通過。
 - 正式建置：通過，React、Chart.js、Leaflet分包。
 - 瀏覽器：15/15通過。
 - JavaScript runtime errors：0。
@@ -32,3 +32,4 @@
 ## 重現
 執行 pnpm test / pnpm build / pnpm preview，另開終端 pnpm test:browser。瀏覽器結果在tests/browser-results.json。
 新增互動測試：`node tests/practice-browser.mjs`。正式站測試可設定 `TEST_URL`。
+研究頁與主畫面設定：`node tests/research-browser.mjs`，涵蓋六個裝置寬度、訓練階段、法規切換、財務指標、分類導覽與 icon 載入。
