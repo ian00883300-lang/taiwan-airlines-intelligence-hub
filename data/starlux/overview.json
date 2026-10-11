@@ -321,7 +321,23 @@
     ],
     "finance": [],
     "revenue": [],
-    "eps": [],
+    "eps": [
+      {
+        "label": "2025 基本 EPS",
+        "value": 0.09,
+        "unit": "新臺幣／股",
+        "period": "2025-01-01/2025-12-31",
+        "scope": "星宇航空股份有限公司個別財務報表；基本每股盈餘",
+        "source": "星宇航空｜2025 年度個別財務報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "jxFinancial2025",
+        "note": "PDF 第 8 頁（印刷頁碼 8）：114 年度基本及稀釋 EPS 均為 0.09。"
+      }
+    ],
     "strategy": [
       {
         "label": "營運策略",

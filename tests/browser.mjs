@@ -42,7 +42,7 @@ try {
     },
   );
   await check(
-    "All 96 airline categories render without empty main content",
+    "All 96 legacy research links resolve to consolidated topics",
     async () => {
       let sections = JSON.parse(fs.readFileSync("data/sections.json"));
       for (let id of ["china-airlines", "eva-air", "starlux"])
@@ -52,7 +52,7 @@ try {
             (await page.locator("main").innerText()).includes(s.zh),
             id + "/" + s.id,
           );
-          assert.equal(await page.locator(".section-nav a").count(), 32);
+          assert.equal(await page.locator(".consolidated-nav a").count(), 10);
         }
     },
   );

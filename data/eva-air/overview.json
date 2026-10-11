@@ -327,7 +327,23 @@
     ],
     "finance": [],
     "revenue": [],
-    "eps": [],
+    "eps": [
+      {
+        "label": "2025 基本 EPS",
+        "value": 4.84,
+        "unit": "新臺幣／股",
+        "period": "2025-01-01/2025-12-31",
+        "scope": "長榮航空及子公司合併財務報表；基本每股盈餘",
+        "source": "長榮航空｜2025 年度合併財務報表",
+        "source_url": "https://www.evaair.com/en-global/images/evaair-2025-q4-quarterly-results-en_tcm33-97963.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaFinancial2025",
+        "note": "PDF 第 2 頁：基本 EPS 4.84；稀釋 EPS 4.80，不混用。"
+      }
+    ],
     "strategy": [
       {
         "label": "營運策略",

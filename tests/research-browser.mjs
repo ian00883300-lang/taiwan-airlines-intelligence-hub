@@ -11,9 +11,9 @@ const go = async (route) => {
 };
 try {
   await go("home");
-  await page.locator(".install-guide summary").click();
-  assert.ok(
-    (await page.locator(".install-guide").innerText()).includes("Safari"),
+  assert.equal(
+    await page.locator(".install-guide, .hub-masthead .edition").count(),
+    0,
   );
   const manifestURL = await page
     .locator('link[rel="manifest"]')
@@ -45,13 +45,7 @@ try {
   await page.getByRole("button", { name: "澳洲 CASA", exact: true }).click();
   assert.equal(await page.locator(".requirement-card").count(), 2);
   await page.getByRole("button", { name: "臺灣 CAA", exact: true }).click();
-  await page.locator(".all-sections summary").click();
-  assert.equal(await page.locator(".section-nav a").count(), 32);
-  await page
-    .locator(".section-nav")
-    .getByRole("link", { name: "機師招募", exact: true })
-    .click();
-  assert.ok(page.url().endsWith("/recruitment"));
+  assert.equal(await page.locator(".consolidated-nav a").count(), 10);
   await go("eva-air/cadet");
   assert.ok(
     (await page.locator(".training-program").innerText()).includes("12–14"),
@@ -100,7 +94,7 @@ try {
   await page.screenshot({ path: "tests/research-mobile.png" });
   assert.deepEqual(errors, []);
   console.log(
-    "PASS manifest/icons, installer instructions, training stages, jurisdiction filters, category navigation, financial metric switch, ESG figures, 6 responsive widths, no runtime errors",
+    "PASS manifest/icons, removed installer/hero logo, training stages, jurisdiction filters, category navigation, financial metric switch, ESG figures, 6 responsive widths, no runtime errors",
   );
 } finally {
   await browser.close();

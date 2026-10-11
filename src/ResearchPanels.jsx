@@ -22,7 +22,6 @@ Chart.register(
   Tooltip,
   Legend,
 );
-const icon = `${import.meta.env.BASE_URL}icons/metal-t-192.png`;
 function Plot({
   type = "bar",
   labels,
@@ -329,62 +328,5 @@ export function SocialVisuals({ Source }) {
         </table>
       </div>
     </section>
-  );
-}
-export function InstallGuide() {
-  const [prompt, setPrompt] = useState(null),
-    [message, setMessage] = useState("");
-  const standalone =
-    window.matchMedia("(display-mode: standalone)").matches ||
-    window.navigator.standalone;
-  useEffect(() => {
-    const capture = (e) => {
-      e.preventDefault();
-      setPrompt(e);
-    };
-    window.addEventListener("beforeinstallprompt", capture);
-    return () => window.removeEventListener("beforeinstallprompt", capture);
-  }, []);
-  return (
-    <details className="install-guide">
-      <summary>
-        <img src={icon} alt="" />
-        <span>
-          {standalone ? "已從主畫面開啟" : "把情報中心放到主畫面"}
-          <small>金屬 T icon · 手機 / 平板</small>
-        </span>
-        <span aria-hidden="true">＋</span>
-      </summary>
-      <div>
-        <p>
-          iPhone／iPad：用 Safari 開啟本站 → 分享
-          →「加入主畫面」，名稱可保留「Taiwan AIH」。系統會套用金屬 T 圖示。
-        </p>
-        <p>
-          Android：使用瀏覽器選單中的「安裝應用程式」或「加到主畫面」；可用選項依瀏覽器而異。
-        </p>
-        <p className="fineprint">
-          需網路連線。若舊捷徑未更新圖示，可刪除舊捷徑後重新加入；請保留個人答案原始檔，避免移除
-          App 時遺失本機資料。
-        </p>
-        {prompt && (
-          <button
-            onClick={async () => {
-              await prompt.prompt();
-              const r = await prompt.userChoice;
-              setMessage(
-                r.outcome === "accepted"
-                  ? "已接受安裝，請查看主畫面。"
-                  : "已取消，可稍後再從選單加入。",
-              );
-              setPrompt(null);
-            }}
-          >
-            加入主畫面
-          </button>
-        )}
-        <p role="status">{message}</p>
-      </div>
-    </details>
   );
 }

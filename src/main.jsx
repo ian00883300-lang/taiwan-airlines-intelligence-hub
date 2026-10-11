@@ -44,7 +44,6 @@ import {
   TrainingPath,
   FinanceVisuals,
   SocialVisuals,
-  InstallGuide,
 } from "./ResearchPanels.jsx";
 import {
   PersonalProvider,
@@ -497,15 +496,7 @@ function Home({ openInterview }) {
           eyebrow="YOUR PRE-FLIGHT BRIEFING"
           title="台灣航空情報中心"
           description="台灣三大航空情報 × 培訓機師面試準備。從可信資料，到你的下一個好回答。"
-        >
-          <div className="edition">
-            <img
-              src={`${import.meta.env.BASE_URL}icons/metal-t-192.png`}
-              alt="銀色金屬 T，航空情報中心圖示"
-            />
-            <small>INTELLIGENCE HUB</small>
-          </div>
-        </Heading>
+        />
         <div className="hero-actions">
           <a href="#interview">
             開始面試練習 <ArrowRight size={16} />
@@ -515,7 +506,6 @@ function Home({ openInterview }) {
           </a>
         </div>
       </div>
-      <InstallGuide />
       <div className="verification-strip">
         <ShieldCheck size={17} />
         <span>
@@ -855,17 +845,31 @@ function Finance({ a, openInterview }) {
     </>
   );
 }
+const researchGroups = data("research-groups");
 function Airline({ a, tab = "overview", openInterview }) {
-  const valid = sections.some((s) => s.id === tab);
-  if (!valid) tab = "overview";
-  const section = sections.find((s) => s.id === tab);
+  const group =
+    researchGroups.find((g) => g.id === tab || g.members.includes(tab)) ||
+    researchGroups[0];
+  const facts = (keys) => (
+    <FactCards
+      records={keys.flatMap((k) => a.sections[k] || [])}
+      airline={a.id}
+      openInterview={openInterview}
+    />
+  );
+  const part = (title, content) => (
+    <section className="research-part">
+      <h3 className="research-part-title">{title}</h3>
+      {content}
+    </section>
+  );
   return (
     <>
       <div className="airline-masthead" style={{ "--airline-color": a.color }}>
         <Heading
-          eyebrow={`${a.code} / AIRLINE INTELLIGENCE`}
+          eyebrow={a.code + " / AIRLINE INTELLIGENCE"}
           title={a.name}
-          description={`${a.english} · ${a.tag}`}
+          description={a.english + " · " + a.tag}
         >
           <span className="large-emblem" style={{ color: a.color }}>
             {a.code}
@@ -876,101 +880,95 @@ function Airline({ a, tab = "overview", openInterview }) {
         <ShieldCheck size={16} /> Data verified through: {a.last_verified} ·
         個別欄位日期請展開來源
       </div>
-      <nav className="topic-nav" aria-label="常用研究主題">
-        {[
-          ["overview", "公司總覽"],
-          ["fleet", "機隊"],
-          ["routes", "航網"],
-          ["cadet", "機師之路"],
-          ["esg", "永續與社會"],
-          ["finance", "營運財務"],
-          ["interview", "面試練習"],
-        ].map(([id, name]) => (
+      <nav className="topic-nav consolidated-nav" aria-label="研究主題">
+        {researchGroups.map((g) => (
           <a
-            key={id}
-            href={"#" + a.id + "/" + id}
-            className={id === tab ? "active" : ""}
-            aria-current={id === tab ? "page" : undefined}
+            key={g.id}
+            href={"#" + a.id + "/" + g.id}
+            className={g.id === group.id ? "active" : ""}
+            aria-current={g.id === group.id ? "page" : undefined}
           >
-            {name}
+            {g.zh}
           </a>
         ))}
       </nav>
-      <details className="all-sections" key={a.id + "/" + tab}>
-        <summary>
-          全部 32 個研究分類 <span>目前：{section.zh}</span>
-        </summary>
-        <nav className="section-nav" aria-label="公司資料分類">
-          {sections.map((s) => (
-            <a
-              key={s.id}
-              href={"#" + a.id + "/" + s.id}
-              className={s.id === tab ? "active" : ""}
-            >
-              {s.zh}
-            </a>
-          ))}
-        </nav>
-      </details>
-      <SectionTitle title={section.zh} en={section.en} />
-      {["fleet", "orders", "technical"].includes(tab) ? (
-        <Fleet a={a} tab={tab} />
-      ) : tab === "routes" ? (
-        <section className="panel">
-          <RouteMap initial={a.id} />
-        </section>
-      ) : ["finance", "revenue", "eps"].includes(tab) ? (
-        <Finance a={a} openInterview={openInterview} />
-      ) : tab === "cadet" ? (
-        <TrainingPath airline={a.id} Source={Source} />
-      ) : tab === "recruitment" ? (
+      <SectionTitle title={group.zh} en={group.en} />
+      <p className="research-scope">
+        {group.members
+          .map((id) => sections.find((s) => s.id === id)?.zh)
+          .join(" · ")}
+      </p>
+      {group.id === "fleet" ? (
         <>
-          <p className="notice">
-            僅摘要「培訓」類別，查核日
-            2026-10-11。門檻與通知以官方當期頁面為準；不與自訓 CPL
-            或已有經驗機師混用。
-          </p>
-          <FactCards
-            records={[
-              ...data(a.id + "/recruitment").items,
-              ...(data(a.id + "/recruitment").qualifications || []),
-            ]}
-            airline={a.id}
-            openInterview={openInterview}
-          />
+          {part("現役機隊與機型資料", <Fleet a={a} tab="fleet" />)}
+          {part("訂單與未來交付", <Fleet a={a} tab="orders" />)}
+          {part("機隊更新", facts(["renewal"]))}
         </>
-      ) : tab === "esg" ? (
+      ) : group.id === "routes" ? (
         <>
-          <FactCards
-            records={a.sections[tab] || []}
-            airline={a.id}
-            openInterview={openInterview}
-          />
+          <section className="panel">
+            <RouteMap initial={a.id} />
+          </section>
+          {part("樞紐與合作關係", facts(["hubs", "alliances", "codeshare"]))}
+        </>
+      ) : group.id === "finance" ? (
+        <Finance a={a} openInterview={openInterview} />
+      ) : group.id === "cadet" ? (
+        <>
+          {part(
+            "培訓招募與申請條件",
+            <>
+              <p className="notice">
+                僅摘要培訓類別，查核日
+                2026-10-11。門檻與通知以官方當期頁面為準；不與自訓 CPL
+                或已有經驗機師混用。
+              </p>
+              <FactCards
+                records={[
+                  ...data(a.id + "/recruitment").items,
+                  ...(data(a.id + "/recruitment").qualifications || []),
+                ]}
+                airline={a.id}
+                openInterview={openInterview}
+              />
+            </>,
+          )}
+          {part(
+            "機師養成路線",
+            <TrainingPath airline={a.id} Source={Source} />,
+          )}
+          {part("人才與職涯", facts(["employees"]))}
+        </>
+      ) : group.id === "esg" ? (
+        <>
+          {facts(group.members)}
           {a.id === "china-airlines" ? (
             <SocialVisuals Source={Source} />
           ) : (
             <Pending note="多年度社會參與圖表尚待官方資料查核，不套用華航數據。" />
           )}
         </>
-      ) : tab === "interview" ? (
+      ) : group.id === "interview" ? (
         <QuestionBank initial={a.id} openInterview={openInterview} />
-      ) : tab === "news" ? (
+      ) : group.id === "strategy" ? (
         <>
-          {weekly
-            .filter((n) => n.airline === a.id)
-            .map((n) => (
-              <NewsCard key={n.id} n={n} />
-            ))}
-          {a.id === "starlux" && (
-            <Pending note="本週（10/05–10/11）尚無已查核新聞；上方為較早背景事件。" />
+          {facts(["strategy", "advantages", "risks", "future"])}
+          {part(
+            "已查核動態",
+            <>
+              {weekly
+                .filter((n) => n.airline === a.id)
+                .map((n) => (
+                  <NewsCard key={n.id} n={n} />
+                ))}
+              {a.id === "starlux" && (
+                <Pending note="本週（10/05–10/11）尚無已查核新聞；上方為較早背景事件。" />
+              )}
+            </>,
           )}
         </>
       ) : (
-        <FactCards
-          records={a.sections[tab] || []}
-          airline={a.id}
-          openInterview={openInterview}
-        />
+        facts(group.members)
       )}
     </>
   );
@@ -1576,7 +1574,7 @@ function App() {
         <a href="#home" className="brand">
           <span className="brand-icon">
             <img
-              src={`${import.meta.env.BASE_URL}icons/metal-t-192.png`}
+              src={`${import.meta.env.BASE_URL}icons/metal-t-centered-192.png`}
               alt=""
             />
           </span>

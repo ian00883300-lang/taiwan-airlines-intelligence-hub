@@ -197,3 +197,9 @@ test("Home-screen icon files match declared sizes and manifest stays under site 
   }
   for (const icon of m.icons) assert.ok(fs.existsSync("public/" + icon.src));
 });
+
+test("Consolidated topics preserve every legacy research entry exactly once", () => {
+  const members = read("data/research-groups.json").flatMap(g => g.members);
+  assert.equal(new Set(members).size, members.length);
+  assert.deepEqual([...members].sort(), read("data/sections.json").map(s => s.id).sort());
+});

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "overview",
+    "zh": "公司與品牌",
+    "en": "Company & Brand",
+    "members": ["overview", "history", "governance", "organization", "brand"]
+  },
+  {
+    "id": "fleet",
+    "zh": "機隊與訂單",
+    "en": "Fleet & Orders",
+    "members": ["fleet", "orders", "renewal", "technical"]
+  },
+  {
+    "id": "routes",
+    "zh": "航網與聯盟",
+    "en": "Network & Partnerships",
+    "members": ["routes", "hubs", "alliances", "codeshare"]
+  },
+  {
+    "id": "operations",
+    "zh": "客貨運與修護",
+    "en": "Operations",
+    "members": ["passenger", "cargo", "maintenance"]
+  },
+  {
+    "id": "safety",
+    "zh": "飛安與管理",
+    "en": "Safety Management",
+    "members": ["safety", "sms"]
+  },
+  {
+    "id": "esg",
+    "zh": "永續與社會",
+    "en": "Sustainability",
+    "members": ["esg", "saf"]
+  },
+  {
+    "id": "finance",
+    "zh": "財務與營收",
+    "en": "Financial Performance",
+    "members": ["finance", "revenue", "eps"]
+  },
+  {
+    "id": "cadet",
+    "zh": "人才與機師培訓",
+    "en": "People & Pilot Training",
+    "members": ["employees", "recruitment", "cadet"]
+  },
+  {
+    "id": "strategy",
+    "zh": "策略與動態",
+    "en": "Strategy & Updates",
+    "members": ["strategy", "advantages", "risks", "future", "news"]
+  },
+  {
+    "id": "interview",
+    "zh": "面試準備",
+    "en": "Interview Preparation",
+    "members": ["interview"]
+  }
+]

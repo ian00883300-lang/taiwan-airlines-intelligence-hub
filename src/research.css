@@ -460,3 +460,31 @@
     padding-top: env(safe-area-inset-top);
   }
 }
+
+.consolidated-nav {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+.research-scope {
+  color: var(--muted, #64748b);
+  margin: -8px 0 24px;
+  line-height: 1.7;
+}
+.research-part {
+  margin: 28px 0;
+}
+.research-part-title {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce5ed;
+  font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+  .consolidated-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .consolidated-nav a {
+    white-space: normal;
+    text-align: center;
+  }
+}
