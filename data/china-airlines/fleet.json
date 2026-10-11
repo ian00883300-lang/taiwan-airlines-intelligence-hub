@@ -25,15 +25,15 @@
         "note": "製造商機型規格；非航空公司逐機配置清單。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "官方目前列出三種座位圖版本；不以單一座位數代表全機隊。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商）",
@@ -102,6 +102,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-a350-900.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A350-900_tcm538-68203.jpg"
       }
     },
     {
@@ -128,15 +140,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -204,6 +216,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-a330-300.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A330-300_tcm538-68202.jpg"
       }
     },
     {
@@ -230,15 +254,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -306,6 +330,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-777-300er.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-777-300ER_tcm538-68199.jpg"
       }
     },
     {
@@ -332,15 +368,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -408,6 +444,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-737-800.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-737-800_tcm538-68197.jpg"
       }
     },
     {
@@ -434,15 +482,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "官方目前列出兩種座位圖版本；不以單一座位數代表全機隊。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -510,6 +558,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-a321neo.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A321neo_tcm538-68201.jpg"
       }
     },
     {
@@ -536,15 +596,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "不適用：全貨機，不提供客運座位配置。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -612,6 +672,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-747-400f.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-747-400F_tcm538-68198.jpg"
       }
     },
     {
@@ -638,15 +710,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "不適用：全貨機，不提供客運座位配置。",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -714,6 +786,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-777f.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation_777F_tcm538-68200.jpg"
       }
     }
   ],

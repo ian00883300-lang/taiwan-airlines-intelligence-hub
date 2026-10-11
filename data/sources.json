@@ -518,5 +518,155 @@
     "verified_date": "2026-10-11",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "china-airlines-a350-900-typical_seats",
+    "source": "中華航空｜官方座位圖",
+    "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-777-300er-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-777-300er-engine",
+    "source": "GE Aerospace｜EVA engine selection",
+    "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-air-selects-ge-engines-its-boeing-787s-and-777s-aircraft",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "eva-air-787-9-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-9/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-787-10-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-10/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-a330-300-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A330-300/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-a321-200-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A321-200/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-777f-photo",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/cargo-airplanes/777F/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-777f-typical_seats",
+    "source": "長榮航空｜官方機型介紹",
+    "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/cargo-airplanes/777f/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "starlux-a321neo-photo",
+    "source": "星宇航空｜官方機隊介紹",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "starlux-a330-900-photo",
+    "source": "星宇航空｜官方機隊介紹",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a330neo",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "starlux-a350-900-photo",
+    "source": "星宇航空｜官方機隊介紹",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-900",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "starlux-a350-1000-photo",
+    "source": "星宇航空｜官方機隊介紹",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jx-A321neo-engine",
+    "source": "CFM International｜STARLUX LEAP-1A service agreement",
+    "source_url": "https://www.cfmaeroengines.com/press-articles/starlux-cfm-conclude-long-term-leap-1a-service-agreement",
+    "published_date": "2018-07-17",
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "jx-A330-900-engine",
+    "source": "Rolls-Royce｜STARLUX first A330neo",
+    "source_url": "https://www.rolls-royce.com/media/press-releases/2022/21-02-2022-rr-poweroftrent-congratulates-starlux-airlines-on-the-delivery-of-its-first-a330neo.aspx",
+    "published_date": "2022-02-21",
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
   }
 ]

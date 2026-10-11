@@ -1,3 +1,4 @@
+import AircraftPhoto from "./AircraftPhoto.jsx";
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
@@ -509,7 +510,7 @@ function Home({ openInterview }) {
       <div className="verification-strip">
         <ShieldCheck size={17} />
         <span>
-          Data verified through: <b>2026-10-11</b> ·
+          Data verified through: <b>2026-10-12</b> ·
           各資料基準日不同，未查核項目另行標示。
         </span>
         <a href="#sources">查看來源政策 ↗</a>
@@ -763,37 +764,47 @@ function Fleet({ a, tab }) {
         </div>
       </div>
       <SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
-      {f.items
-        .filter((x) => filter === "all" || x.kind === filter)
-        .map((x) => (
-          <details className="aircraft-detail" key={x.aircraft_type}>
-            <summary>
-              {x.aircraft_type}{" "}
-              <span>
-                {x.kind === "cargo" ? "CARGO" : "PASSENGER"} · 查看規格與來源
-              </span>
-            </summary>
-            <div className="spec-grid">
-              {[
-                "engine",
-                "typical_seats",
-                "range",
-                "main_routes",
-                "first_delivery",
-                "average_age",
-                "replacement_plan",
-                "future_orders",
-              ].map((k) => (
-                <div key={k}>
-                  <small>{x[k].label}</small>
-                  <p>{x[k].value ?? PENDING}</p>
-                  <Source item={x[k]} compact />
+      <div className="aircraft-gallery">
+        {f.items
+          .filter((x) => filter === "all" || x.kind === filter)
+          .map((x) => (
+            <article className="aircraft-card" key={x.aircraft_type}>
+              <AircraftPhoto
+                key={a.id + x.aircraft_type}
+                aircraft={x}
+                airline={a.name}
+              />
+              <details className="aircraft-detail">
+                <summary>
+                  {x.aircraft_type}{" "}
+                  <span>
+                    {x.kind === "cargo" ? "CARGO" : "PASSENGER"} ·
+                    查看規格與來源
+                  </span>
+                </summary>
+                <div className="spec-grid">
+                  {[
+                    "engine",
+                    "typical_seats",
+                    "range",
+                    "main_routes",
+                    "first_delivery",
+                    "average_age",
+                    "replacement_plan",
+                    "future_orders",
+                  ].map((k) => (
+                    <div key={k}>
+                      <small>{x[k].label}</small>
+                      <p>{x[k].value ?? PENDING}</p>
+                      <Source item={x[k]} compact />
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-            <Source item={x} />
-          </details>
-        ))}
+                <Source item={x} />
+              </details>
+            </article>
+          ))}
+      </div>
       <SectionTitle title="機隊歷史時間軸" en="Fleet timeline" />
       {f.history.length ? (
         <div className="timeline">

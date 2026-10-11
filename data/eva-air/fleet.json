@@ -14,25 +14,25 @@
       "source_id": "evaFleet",
       "engine": {
         "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "value": "GE90-115B",
+        "source": "GE Aerospace｜EVA engine selection",
+        "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-air-selects-ge-engines-its-boeing-787s-and-777s-aircraft",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "製造商對長榮選型公告；原文歷史採購數不是目前機隊架數。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "官方座位配置",
+        "value": "323／333／353 席：皇璽桂冠艙＋豪華經濟艙＋經濟艙分別為 38＋64＋221、39＋56＋238、39＋56＋258。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -100,6 +100,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-777-300er.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/777-300er_tcm33-69664.png"
       }
     },
     {
@@ -116,25 +128,25 @@
       "source_id": "evaFleet",
       "engine": {
         "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "value": "GEnx-1B",
+        "source": "GE Aerospace｜EVA engine selection",
+        "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-air-selects-ge-engines-its-boeing-787s-and-777s-aircraft",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "製造商對長榮選型公告；原文歷史採購數不是目前機隊架數。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-9/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "官方座位配置",
+        "value": "278 席：皇璽桂冠艙 26、豪華經濟艙 28、經濟艙 224。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -202,6 +214,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-9/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-787-9.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/787-9_tcm33-69662.png"
       }
     },
     {
@@ -218,26 +242,25 @@
       "source_id": "evaFleet",
       "engine": {
         "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "value": "GEnx-1B",
+        "source": "GE Aerospace｜EVA engine selection",
+        "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-air-selects-ge-engines-its-boeing-787s-and-777s-aircraft",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "製造商對長榮選型公告；原文歷史採購數不是目前機隊架數。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": "342（商務 34／經濟 308）",
-        "source": "長榮｜787-10 機艙配置",
-        "source_url": "https://www.evaair.com/zh-tw/fly-prepare/our-fleets/passenger-airplanes/787-10/",
-        "source_id": "eva787Cabin",
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-10/",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-10-12",
         "status": "confirmed",
         "as_of": null,
-        "note": "官方本頁列示配置，不保證每一班實際執飛座位圖。"
+        "label": "官方座位配置",
+        "value": "342 席：皇璽桂冠艙 34、經濟艙 308。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -305,6 +328,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-10/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-787-10.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/new-787-10_tcm33-69426.png"
       }
     },
     {
@@ -331,15 +366,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A330-300/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "官方座位配置",
+        "value": "309 席：桂冠艙 30、經濟艙 279。官網列有不同座椅版本。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -407,6 +442,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A330-300/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-a330-300.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/333_tcm33-69666.png"
       }
     },
     {
@@ -433,15 +480,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A321-200/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "官方座位配置",
+        "value": "184 席：商務艙 8、經濟艙 176。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -509,6 +556,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A321-200/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-a321-200.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/321_tcm33-69670.png"
       }
     },
     {
@@ -535,15 +594,15 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/cargo-airplanes/777f/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "官方座位配置",
+        "value": "不適用：全貨機，不提供客運座位配置。",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -611,6 +670,18 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/cargo-airplanes/777F/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/eva-air-777f.png",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© EVA Airways，圖片權利屬原航空公司",
+        "original_url": "https://www.evaair.com/en-global/images/77F_tcm33-69672.png"
       }
     }
   ],

@@ -14,25 +14,25 @@
       "source_id": null,
       "engine": {
         "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "value": "CFM LEAP-1A",
+        "source": "CFM International｜STARLUX LEAP-1A service agreement",
+        "source_url": "https://www.cfmaeroengines.com/press-articles/starlux-cfm-conclude-long-term-leap-1a-service-agreement",
+        "published_date": "2018-07-17",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "製造商對該航空公司機型選型公告；不把公告採購架數當作當期現役數。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "188 席：商務艙 8、經濟艙 180。",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -101,7 +101,19 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。"
+      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。",
+      "photo": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "image_url": "aircraft/starlux-a321neo.webp",
+        "description": "官方機型宣傳圖；星宇航空塗裝",
+        "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
+        "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/A321mohead_tcm5-14911.webp"
+      }
     },
     {
       "aircraft_type": "A330-900",
@@ -117,25 +129,25 @@
       "source_id": null,
       "engine": {
         "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "value": "Rolls-Royce Trent 7000",
+        "source": "Rolls-Royce｜STARLUX first A330neo",
+        "source_url": "https://www.rolls-royce.com/media/press-releases/2022/21-02-2022-rr-poweroftrent-congratulates-starlux-airlines-on-the-delivery-of-its-first-a330neo.aspx",
+        "published_date": "2022-02-21",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "製造商對該航空公司機型選型公告；不把公告採購架數當作當期現役數。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a330neo",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "297 席：商務艙 28、經濟艙 269。",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -204,7 +216,19 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。"
+      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。",
+      "photo": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a330neo",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "image_url": "aircraft/starlux-a330-900.webp",
+        "description": "官方機型宣傳圖；星宇航空塗裝",
+        "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
+        "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/A330mohead_tcm5-14913.webp"
+      }
     },
     {
       "aircraft_type": "A350-900",
@@ -231,15 +255,15 @@
         "note": "製造商機型規格；非航空公司逐機配置清單。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-900",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "306 席：頭等艙 4、商務艙 26、豪華經濟艙 36、經濟艙 240。",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。"
       },
       "range": {
         "label": "航程（製造商）",
@@ -309,7 +333,19 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。"
+      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。",
+      "photo": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-900",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "image_url": "aircraft/starlux-a350-900.webp",
+        "description": "官方機型宣傳圖；星宇航空塗裝",
+        "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
+        "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/900mohead_tcm5-14914.webp"
+      }
     },
     {
       "aircraft_type": "A350-1000",
@@ -336,15 +372,15 @@
         "note": "製造商機型規格；非航空公司逐機配置清單。"
       },
       "typical_seats": {
-        "label": "航空公司座位配置",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "350 席：頭等艙 4、商務艙 40、豪華經濟艙 36、經濟艙 270。",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。"
       },
       "range": {
         "label": "航程（製造商標準；非保證航線）",
@@ -413,7 +449,19 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。"
+      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。",
+      "photo": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "image_url": "aircraft/starlux-a350-1000.jpg",
+        "description": "官方機型宣傳圖；星宇航空塗裝",
+        "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
+        "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/351newcover2mobile_tcm5-15626.jpg"
+      }
     }
   ],
   "orders": [

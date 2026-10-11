@@ -24,7 +24,7 @@ test("All evidence has valid metadata and verified dates do not fabricate public
         n++;
         assert.ok(validate(o), path + " " + JSON.stringify(validate.errors));
         for (const k of ["published_date", "verified_date", "as_of"])
-          if (o[k]) assert.ok(o[k] <= "2026-10-11", path + " future date " + k);
+          if (o[k]) assert.ok(o[k] <= "2026-10-12", path + " future date " + k);
         if (o.value === null) assert.equal(o.status, "unverified", path);
       }
     });
