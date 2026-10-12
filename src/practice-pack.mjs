@@ -36,6 +36,9 @@ export function validatePack(input, ids) {
         fail();
       clean[field] = entry[field].trim();
     }
+    const revision = entry.question_revision ?? 1;
+    if (!Number.isSafeInteger(revision) || revision < 1) fail();
+    clean.question_revision = revision;
     answers[id] = clean;
   }
   return { version: 1, answers };

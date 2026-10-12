@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 const bank = JSON.parse(fs.readFileSync("data/interview-bank.json", "utf8"));
-const culture = bank.filter((q) => q.practice_group === "品牌理念與價值觀");
+const culture = bank.filter((q) => q.practice_group === "星宇品牌與公司研究");
 const base = process.env.TEST_URL || "http://127.0.0.1:4173/";
 const browser = await chromium.launch({
   headless: true,
@@ -21,7 +21,7 @@ try {
     assert.equal(await page.locator(".question-card").count(), 18);
     await page.locator(".bank-filters select").nth(2).selectOption("進階");
     assert.equal(await page.locator(".question-card").count(), 16);
-    await page.locator(".bank-filters input").fill("品牌理念");
+    await page.locator(".bank-filters input").fill("星宇品牌與公司研究");
     assert.equal(await page.locator(".question-card").count(), 12);
     for (const q of culture) {
       await page
@@ -31,7 +31,13 @@ try {
         })
         .click();
       const dialog = page.locator("dialog[open]");
-      assert.ok((await dialog.innerText()).includes("證交所2024年10月25日"));
+      await dialog.locator(".deep-research").evaluate((el) => (el.open = true));
+      assert.ok(await dialog.locator(`a[href="${q.source_url}"]`).count());
+      assert.ok(
+        (await dialog.locator(".deep-research").innerText()).includes(
+          "容易混淆",
+        ),
+      );
       for (const seconds of [30, 60]) {
         await dialog
           .getByRole("button", { name: `${seconds} 秒`, exact: true })
@@ -64,7 +70,7 @@ try {
   }
   await page.goto(base + "#interview");
   await page.locator(".bank-filters select").nth(2).selectOption("all");
-  await page.locator(".bank-filters input").fill("星宇 A350-1000");
+  await page.locator(".bank-filters input").fill("如何區分星宇首架 A350-1000");
   await page.locator(".question-card").click();
   let dialog = page.locator("dialog[open]");
   assert.ok(

@@ -71,7 +71,7 @@ try {
     async () => {
       await go("starlux/routes");
       await page.getByLabel("區域").selectOption("Europe");
-      assert.equal(await page.locator(".route-list article").count(), 1);
+      assert.equal(await page.locator(".route-table tbody tr").count(), 1);
       assert.ok(
         (await page.locator(".route-list").innerText()).includes("PRG"),
       );
@@ -233,7 +233,7 @@ try {
       assert.ok(
         (await page.locator("main").innerText()).includes("底圖暫時無法載入"),
       );
-      assert.equal(await page.locator(".route-list article").count(), 2);
+      assert.equal(await page.locator(".route-table tbody tr").count(), 12);
       await page.unroute("https://tile.openstreetmap.org/**");
     },
   );

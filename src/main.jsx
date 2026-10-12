@@ -42,6 +42,15 @@ import "./style.css";
 import "./research.css";
 import "./reading.css";
 import EventDates from "./EventDates.jsx";
+import RouteNetwork from "./RouteNetwork.jsx";
+import {
+  CompanyTimeline,
+  CompanyIdentity,
+  OperationsResearch,
+  RevenueMix,
+  StrategyResearch,
+  EarningsBridge,
+} from "./CompanyResearch.jsx";
 import { formatEventDate } from "./event-dates.mjs";
 import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
 import {
@@ -297,135 +306,8 @@ function Donut({ airline }) {
     </div>
   );
 }
-function RouteMap({ initial = "all" }) {
-  const [air, setAir] = useState(initial),
-    [region, setRegion] = useState("all"),
-    [tileError, setTileError] = useState(false);
-  const ref = useRef();
-  const all = ids.flatMap((id) => data(id + "/routes").items);
-  const filtered = all.filter(
-    (r) =>
-      (air === "all" || r.airline === air) &&
-      (region === "all" ||
-        r.region === region ||
-        (region === "Taiwan" && r.origin === "TPE") ||
-        (region === "Asia" &&
-          ["Japan", "Korea", "China", "Southeast Asia"].includes(r.region))),
-  );
-  useEffect(() => {
-    const map = L.map(ref.current, {
-      scrollWheelZoom: false,
-      worldCopyJump: false,
-    }).setView([32, 165], 2);
-    const tiles = L.tileLayer(
-      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-      {
-        maxZoom: 12,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      },
-    ).addTo(map);
-    tiles.on("tileerror", () => setTileError(true));
-    let airports = data("airports").items;
-    for (let r of filtered) {
-      let from = airports[r.origin],
-        to = airports[r.destination];
-      let lng = to.lng < 0 ? to.lng + 360 : to.lng;
-      let color = getAir(r.airline).color;
-      L.polyline(
-        [
-          [from.lat, from.lng],
-          [to.lat, lng],
-        ],
-        { color, weight: 2.5, opacity: 0.8 },
-      ).addTo(map);
-      let content = document.createElement("span");
-      content.textContent = `${getAir(r.airline).name} · TPE → ${r.destination} ${to.name}`;
-      L.circleMarker([to.lat, lng], {
-        radius: 6,
-        color,
-        fillColor: color,
-        fillOpacity: 1,
-      })
-        .addTo(map)
-        .bindPopup(content);
-    }
-    L.circleMarker([25.08, 121.23], {
-      radius: 7,
-      color: "#163851",
-      fillColor: "#fff",
-      fillOpacity: 1,
-    })
-      .addTo(map)
-      .bindPopup("TPE 臺灣桃園");
-    let ro = new ResizeObserver(() => map.invalidateSize());
-    ro.observe(ref.current);
-    return () => {
-      ro.disconnect();
-      map.remove();
-    };
-  }, [air, region]);
-  return (
-    <div>
-      <div className="filters">
-        <label>
-          航空公司
-          <select value={air} onChange={(e) => setAir(e.target.value)}>
-            <option value="all">全部航空公司</option>
-            {airlines.map((a) => (
-              <option key={a.id} value={a.id}>
-                {a.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          區域
-          <select value={region} onChange={(e) => setRegion(e.target.value)}>
-            <option value="all">全部區域</option>
-            {regions.map((r) => (
-              <option key={r}>{r}</option>
-            ))}
-          </select>
-        </label>
-        <span className="filter-count">{filtered.length} 條已收錄航線</span>
-      </div>
-      <div ref={ref} className="route-map" aria-label="代表性航線互動地圖" />
-      {tileError && (
-        <p className="notice">
-          底圖暫時無法載入；已查核航線仍可由下方清單閱讀。
-        </p>
-      )}
-      <p className="fineprint">
-        代表性自營客運航線，非完整航網。連線為示意，非實際航路；不含共掛與貨運。無班次保證。
-      </p>
-      <div className="route-list">
-        {filtered.length ? (
-          filtered.map((r) => (
-            <article key={r.id}>
-              <span
-                className="airline-dot"
-                style={{ background: getAir(r.airline).color }}
-              />
-              <div>
-                <b>
-                  TPE <span className="muted">→</span> {r.destination}
-                </b>
-                <p>
-                  {getAir(r.airline).name} ·{" "}
-                  {data("airports").items[r.destination].name}
-                </p>
-                <EventDates ids={r.event_ids} />
-                <Source item={r} compact />
-              </div>
-            </article>
-          ))
-        ) : (
-          <Pending note="此篩選尚無已查核航線；不代表航空公司未營運該區域。" />
-        )}
-      </div>
-    </div>
-  );
+function RouteMap(props) {
+  return <RouteNetwork {...props} Source={Source} />;
 }
 function AirlineCard({ a }) {
   return (
@@ -818,7 +700,11 @@ function Fleet({ a, tab }) {
                   ].map((k) => (
                     <div key={k}>
                       <small>{x[k].label}</small>
-                      <p>{k === "first_delivery" ? formatEventDate(x[k].value) : (x[k].value ?? PENDING)}</p>
+                      <p>
+                        {k === "first_delivery"
+                          ? formatEventDate(x[k].value)
+                          : (x[k].value ?? PENDING)}
+                      </p>
                       <EventDates ids={x[k].event_ids} />
                       <Source item={x[k]} compact />
                     </div>
@@ -860,6 +746,8 @@ function Finance({ a, openInterview }) {
         {f.period} · {f.scope}。本版不把公司本體和合併集團數字視為完全相同規模。
       </p>
       <FinanceVisuals f={f} Source={Source} />
+      <RevenueMix airline={a.id} Source={Source} />
+      {a.id === "starlux" && <EarningsBridge Source={Source} />}
       <FactCards
         records={[
           {
@@ -935,7 +823,23 @@ function Airline({ a, tab = "overview", openInterview }) {
           .map((id) => sections.find((s) => s.id === id)?.zh)
           .join(" · ")}
       </p>
-      {group.id === "fleet" ? (
+      {group.id === "overview" ? (
+        <>
+          {part(
+            "公司歷史時間軸",
+            <CompanyTimeline airline={a.id} Source={Source} />,
+          )}
+          {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}
+        </>
+      ) : group.id === "operations" ? (
+        <>
+          <OperationsResearch airline={a.id} Source={Source} />
+          {part(
+            "已公開的服務與修護細節",
+            facts(["passenger", "cargo", "maintenance"]),
+          )}
+        </>
+      ) : group.id === "fleet" ? (
         <>
           {part("現役機隊與機型資料", <Fleet a={a} tab="fleet" />)}
           {part("訂單與未來交付", <Fleet a={a} tab="orders" />)}
@@ -946,7 +850,10 @@ function Airline({ a, tab = "overview", openInterview }) {
           <section className="panel">
             <RouteMap initial={a.id} />
           </section>
-          {part("營運統計、樞紐與合作關係", facts(["routes", "hubs", "alliances", "codeshare"]))}
+          {part(
+            "營運統計、樞紐與合作關係",
+            facts(["routes", "hubs", "alliances", "codeshare"]),
+          )}
         </>
       ) : group.id === "finance" ? (
         <Finance a={a} openInterview={openInterview} />
@@ -989,7 +896,7 @@ function Airline({ a, tab = "overview", openInterview }) {
         <QuestionBank initial={a.id} openInterview={openInterview} />
       ) : group.id === "strategy" ? (
         <>
-          {facts(["strategy", "advantages", "risks", "future"])}
+          {<StrategyResearch airline={a.id} Source={Source} />}
           {part(
             "已查核動態",
             <>
@@ -998,9 +905,6 @@ function Airline({ a, tab = "overview", openInterview }) {
                 .map((n) => (
                   <NewsCard key={n.id} n={n} />
                 ))}
-              {a.id === "starlux" && (
-                <Pending note="本週（10/05–10/11）尚無已查核新聞；上方為較早背景事件。" />
-              )}
             </>,
           )}
         </>
@@ -1488,7 +1392,7 @@ function InterviewDialog({
           <RotateCcw size={15} />
         </button>
       </div>
-      <AnswerView q={q} length={length} />
+      <AnswerView q={q} length={length} Source={Source} />
       <EventDates ids={q.event_ids} />
       <Source item={q} />
       <label className="notes-label">

@@ -1,0 +1,133 @@
+{
+  "facts": [
+    {
+      "label": "法人與成立",
+      "value": "星宇航空股份有限公司；2018年5月2日成立",
+      "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+      "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "published_date": null,
+      "as_of": "2026-10-11",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxStock"
+    },
+    {
+      "label": "交易市場與代號",
+      "value": "臺灣證券交易所上市；2646；上市2024年10月25日",
+      "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+      "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "published_date": null,
+      "as_of": "2026-10-11",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxStock"
+    },
+    {
+      "label": "實收資本額",
+      "value": 30087350000,
+      "unit": "新臺幣元",
+      "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+      "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "published_date": null,
+      "as_of": "2026-10-11",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxStock"
+    },
+    {
+      "label": "已發行普通股",
+      "value": 3008735000,
+      "unit": "股",
+      "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+      "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+      "published_date": null,
+      "as_of": "2026-10-11",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxStock"
+    },
+    {
+      "label": "董事會",
+      "value": "7席董事、3席獨立董事；為2025年報名單，非即時异動表",
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxAnnual"
+    },
+    {
+      "label": "主識別品牌色",
+      "value": "曜石灰、大地金；官方未在這篇公告公布通用HEX／RGB色碼",
+      "source": "星宇｜首架 A350-1000 交付與返台",
+      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+      "published_date": "2026-01-05",
+      "as_of": "2026-01-05",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxHandover"
+    },
+    {
+      "label": "A350-1000設計元素",
+      "value": "碳纖維編織圖騰、曜石灰底色、大地金點綴、醒目1000字樣",
+      "source": "星宇｜首架 A350-1000 交付與返台",
+      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+      "published_date": "2026-01-05",
+      "as_of": "2026-01-05",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxHandover"
+    },
+    {
+      "label": "AIRSORAYAMA",
+      "value": "空山基 × Pantone × Airbus × Mankiewicz；專案銀／金配色與工程限制共同設計",
+      "source": "星宇｜AIRSORAYAMA專屬色與航空塗裝",
+      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260703",
+      "published_date": "2026-07-03",
+      "as_of": "2026-07-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxPantone"
+    }
+  ],
+  "shareholders": {
+    "as_of": "2026-03-31",
+    "rows": [
+      {
+        "name": "星宇投資有限公司",
+        "shares": 827055000,
+        "percent": 27.49
+      },
+      {
+        "name": "星威投資開發有限公司",
+        "shares": 827055000,
+        "percent": 27.49
+      }
+    ],
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "note": "年報頁87主要股東名單；頁14附註說明張國煒透過兩家公司持有合計54.98%。持股不是今日即時資料，也不將法人持股直接寫成個人直接持股。"
+  },
+  "earnings": {
+    "revenue_thousand": 44053262,
+    "operating_income_thousand": 1637261,
+    "finance_cost_thousand": 1365217,
+    "pretax_income_thousand": 43471,
+    "income_tax_benefit_thousand": 229137,
+    "net_income_thousand": 272608,
+    "eps": 0.09,
+    "source": "星宇航空｜2025 年度個別財務報告",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxFinancial2025",
+    "note": "個別綜合損益表，仟元精度；營業利益、稅前淨利、本期淨利及其他綜合損益分開。股價未接即時行情。"
+  }
+}

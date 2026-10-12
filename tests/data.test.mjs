@@ -45,12 +45,12 @@ function walk(x, path, fn) {
   if (!Array.isArray(x)) fn(x, path);
   for (const [k, v] of Object.entries(x)) walk(v, path + "." + k, fn);
 }
-test("STARLUX has at least twelve culture exercises without inventing company policies", () => {
+test("STARLUX has twelve distinct sourced company-detail exercises and deep analysis", () => {
   const questions = read("data/interview-bank.json").filter(
     (q) => q.airline === "starlux",
   );
   const culture = questions.filter(
-    (q) => q.practice_group === "品牌理念與價值觀",
+    (q) => q.practice_group === "星宇品牌與公司研究",
   );
   assert.ok(questions.length >= 12);
   assert.ok(culture.length >= 12);
@@ -58,17 +58,28 @@ test("STARLUX has at least twelve culture exercises without inventing company po
   for (const q of culture) {
     assert.ok(linked.includes(q.id), q.id);
     assert.equal(q.content_type, "original_practice");
-    assert.equal(q.answer_basis, "personal_reasoning");
-    assert.equal(
-      q.source_url,
-      null,
-      "Personal opinions must not be attributed to an official page",
-    );
-    assert.equal(q.verified_date, null);
-    assert.equal(q.company_context.source_id, "jxTwse");
-    assert.equal(q.company_context.verified_date, "2026-10-12");
-    assert.equal(q.company_context.status, "confirmed");
+    assert.equal(q.answer_basis, "source_based_analysis");
+    assert.ok(q.source_url.startsWith("https://"));
+    assert.ok(q.deep_dive.evidence_ids.length);
+    assert.ok(q.deep_dive.analysis_zh.length > 100);
+    assert.ok(q.deep_dive.analysis_en.length > 200);
+    assert.ok(q.deep_dive.pitfalls.length >= 2);
   }
+  assert.equal(new Set(culture.map((q) => q.question)).size, 12);
+  for (const keyword of [
+    "品牌主色",
+    "Pantone",
+    "股東",
+    "董事會",
+    "營收",
+    "EPS",
+    "股票",
+    "四艙等",
+  ])
+    assert.ok(
+      culture.some((q) => q.question.includes(keyword)),
+      keyword,
+    );
 });
 test("Inauguration and handover dates never fall back to article publication dates", () => {
   const events = read("data/events.json");
@@ -107,7 +118,9 @@ test("Inauguration and handover dates never fall back to article publication dat
     events.find((e) => e.id === "china-airlines-phx-inaugural").event_date,
     null,
   );
-  const q = read("data/interview-bank.json").find((q) => q.id === "fleet-jx");
+  const q = read("data/interview-bank.json").find(
+    (q) => q.id === "jx-event-dates",
+  );
   for (const key of ["answer_30", "answer_60"]) {
     assert.ok(q[key].includes("6 January 2026"));
     assert.ok(q[key].includes("5 January 2026"));
@@ -132,6 +145,124 @@ test("Event dates use full calendar dates and reject missing days or invalid dat
     "2026-04-31",
   ])
     assert.equal(formatEventDate(input), "確切年月日待查核");
+});
+test("Traffic comparison keeps common scopes and reconciles load factors from original units", () => {
+  const traffic = read("data/research-dossier.json").traffic;
+  assert.equal(traffic.period, "2025-01-01/2025-12-31");
+  assert.equal(traffic.rows.length, 3);
+  assert.ok(traffic.scope.includes("轉引民航局"));
+  for (const row of traffic.rows) {
+    assert.ok(
+      Math.abs(
+        (row.rpk_thousand / row.ask_thousand) * 100 - row.passenger_load_factor,
+      ) < 0.02,
+    );
+    assert.ok(
+      Math.abs(
+        (row.ftk_thousand / row.aftk_thousand) * 100 - row.cargo_load_factor,
+      ) < 0.02,
+    );
+  }
+  assert.equal(
+    traffic.rows.find((r) => r.airline === "china-airlines").passengers,
+    11419585,
+  );
+  assert.ok(traffic.note.includes("11,746,082"));
+});
+test("Revenue mixes reconcile within their source precision and never mix EVA company and group boundaries", () => {
+  const airlines = read("data/research-dossier.json").airlines;
+  for (const id of ["china-airlines", "starlux"]) {
+    const mix = airlines[id].revenue_mix;
+    assert.equal(
+      mix.parts.reduce((sum, p) => sum + p.amount, 0),
+      mix.total,
+    );
+  }
+  assert.equal(airlines["eva-air"].revenue_mix.total, null);
+  assert.ok(airlines["eva-air"].revenue_mix.scope.includes("合併營收"));
+  const e = read("data/starlux/identity.json").earnings;
+  assert.equal(
+    e.pretax_income_thousand + e.income_tax_benefit_thousand,
+    e.net_income_thousand,
+  );
+  assert.equal(e.net_income_thousand, 272608);
+  const facts = read("data/starlux/identity.json").facts;
+  assert.equal(
+    facts.find((x) => x.label === "實收資本額").value /
+      facts.find((x) => x.label === "已發行普通股").value,
+    10,
+  );
+});
+test("All companies have sorted typed timelines, operational models and evidence-separated strategy rows", () => {
+  const dossier = read("data/research-dossier.json");
+  for (const id of ids) {
+    const x = dossier.airlines[id];
+    assert.ok(x.timeline.length >= 6);
+    assert.deepEqual(
+      x.timeline.map((t) => t.date),
+      x.timeline.map((t) => t.date).sort(),
+    );
+    assert.ok(
+      x.timeline.every((t) =>
+        ["event", "snapshot", "announcement"].includes(t.date_kind),
+      ),
+    );
+    assert.ok(x.strategy.length >= 3);
+    for (const strategy of x.strategy)
+      assert.ok(
+        strategy.official_fact &&
+          strategy.analysis &&
+          strategy.risk &&
+          strategy.kpi &&
+          strategy.source_id,
+      );
+  }
+});
+test("Expanded self-operated route records cover real origins and keep sources and first-flight evidence separate", () => {
+  const routes = ids.flatMap((id) => read(`data/${id}/routes.json`).items);
+  assert.equal(routes.length, 35);
+  assert.equal(
+    new Set(routes.map((r) => [r.airline, r.origin, r.destination].join("/")))
+      .size,
+    routes.length,
+  );
+  for (const origin of ["TPE", "RMQ", "KHH"])
+    assert.ok(routes.some((r) => r.origin === origin));
+  assert.ok(routes.every((r) => r.route_type === "self_operated_passenger"));
+  const table = read("data/events.json");
+  const phoenix = routes.find(
+    (r) => r.airline === "starlux" && r.destination === "PHX",
+  );
+  assert.equal(
+    table.find((e) => e.id === phoenix.event_ids[0]).event_date,
+    "2026-01-15",
+  );
+  assert.ok(
+    routes.some(
+      (r) =>
+        r.evidence_kind === "dated_operating_snapshot" &&
+        table.find((e) => e.id === r.event_ids[0]).event_date === null,
+    ),
+  );
+});
+test("Deep interview references resolve and revised IDs retain the old question for private-answer review", () => {
+  const sources = new Set(read("data/sources.json").map((s) => s.id));
+  const bank = read("data/interview-bank.json");
+  for (const q of bank) {
+    assert.ok(q.deep_dive, q.id);
+    for (const id of q.deep_dive.evidence_ids) assert.ok(sources.has(id), id);
+    if (q.question_revision > 1)
+      assert.ok(q.previous_question.zh && q.previous_question.en);
+  }
+  assert.equal(
+    bank.find((q) => q.id === "jx-values-honesty").source_id,
+    "jxFinancial2025",
+  );
+  assert.ok(
+    bank
+      .find((q) => q.id === "jx-values-honesty")
+      .answer_60.includes("272,608"),
+  );
 });
 test("All evidence has valid metadata and verified dates do not fabricate publication dates", () => {
   let n = 0;

@@ -644,3 +644,122 @@
   text-align: center;
   letter-spacing: 2px;
 }
+.research-table {
+  max-width: 100%;
+  min-width: 0;
+}
+.research-table table {
+  min-width: 680px;
+  table-layout: fixed;
+}
+.research-table th,
+.research-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+.research-table th small {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+}
+.research-table td p {
+  margin: 7px 0;
+}
+.research-table caption {
+  text-align: left;
+  padding: 16px;
+  font-weight: 600;
+}
+.traffic-table .selected-airline {
+  background: #eef4f8;
+}
+.traffic-comparison,
+.revenue-mix,
+.strategy-research,
+.company-identity {
+  min-width: 0;
+  margin-bottom: 28px;
+}
+.metric-definition {
+  padding: 14px;
+  background: #eef4f8;
+  border-radius: 10px;
+}
+.company-timeline ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.company-timeline li {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid #dce5ed;
+}
+.company-timeline time {
+  font-weight: 700;
+  color: #56768b;
+}
+.company-timeline h3 {
+  margin: 6px 0;
+}
+.timeline-kind {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #e8eff3;
+}
+.network-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  margin: 10px 0 18px;
+  padding: 0;
+}
+.network-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.network-legend i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.route-table table {
+  min-width: 900px;
+}
+.route-network,
+.route-list {
+  min-width: 0;
+}
+.deep-research {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #dce5ed;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+.deep-research summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+.deep-research li {
+  margin: 7px 0;
+}
+@media (max-width: 600px) {
+  .company-timeline li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+  .research-table table {
+    min-width: 650px;
+  }
+  .route-table table {
+    min-width: 900px;
+  }
+}

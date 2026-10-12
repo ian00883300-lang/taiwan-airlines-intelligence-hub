@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 import { validatePack, STORAGE_KEY } from "./practice-pack.mjs";
+import sourceCatalog from "../data/sources.json";
 
 const PersonalContext = createContext();
 export function PersonalProvider({ children, ids }) {
@@ -102,11 +103,16 @@ export function PrivateImport() {
   );
 }
 
-export function AnswerView({ q, length }) {
+export function AnswerView({ q, length, Source }) {
   const { pack } = useContext(PersonalContext);
   const personal = pack?.answers[q.id];
+  const currentPersonal =
+    personal &&
+    (personal.question_revision ?? 1) === (q.question_revision ?? 1);
   const [language, setLanguage] = useState("zh");
-  const [version, setVersion] = useState(personal ? "personal" : "general");
+  const [version, setVersion] = useState(
+    currentPersonal ? "personal" : "general",
+  );
   const [hidden, setHidden] = useState(false);
   const mine = version === "personal" && personal;
   const zh = mine ? personal["zh_" + length] : q["answer_zh_" + length];
@@ -141,7 +147,9 @@ export function AnswerView({ q, length }) {
               value={version}
               onChange={(e) => setVersion(e.target.value)}
             >
-              <option value="personal">我的版本</option>
+              <option value="personal">
+                {currentPersonal ? "我的版本" : "我的舊版答案（待確認）"}
+              </option>
               <option value="general">通用示範</option>
             </select>
           </label>
@@ -159,6 +167,13 @@ export function AnswerView({ q, length }) {
       <p className="fineprint">
         秒數是口說目標，請依自己的語速精簡；先理解，再用自己的話說。
       </p>
+      {personal && !currentPersonal && (
+        <p className="personal-note" role="status">
+          題目已重新整理，舊版個人答案仍保留，請確認是否適用。
+          {q.previous_question && `原題目：${q.previous_question.zh}`}
+          可在「答案版本」查看舊稿。
+        </p>
+      )}
       {mine && (
         <p className="personal-note">
           根據你的準備文件整理，尚未逐項由你確認。請確認經歷細節與措辭符合事實後再使用。
@@ -204,6 +219,49 @@ export function AnswerView({ q, length }) {
         <p>延伸追問：{mine ? personal.follow_up : q.follow_up}</p>
         {mine && <p className="fineprint">整理依據：{personal.basis}</p>}
       </details>
+      {q.deep_dive && (
+        <details className="deep-research">
+          <summary>深入分析、易錯點與事實來源</summary>
+          <p className="fineprint">
+            以下為原創研究解讀，非公司官方標準答案；來源支持的是公司事實與數字。
+          </p>
+          {language !== "en" && <p lang="zh-Hant">{q.deep_dive.analysis_zh}</p>}
+          {language !== "zh" && <p lang="en">{q.deep_dive.analysis_en}</p>}
+          <h4>容易混淆</h4>
+          <ul>
+            {q.deep_dive.pitfalls.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <h4>延伸追問</h4>
+          <ul>
+            {q.deep_dive.follow_ups.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <h4>事實查核來源</h4>
+          {q.deep_dive.evidence_ids.map((id) => {
+            const source = sourceCatalog.find((item) => item.id === id);
+            return (
+              source && (
+                <div key={id}>
+                  {Source ? (
+                    <Source item={source} />
+                  ) : (
+                    <a
+                      href={source.source_url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {source.source}
+                    </a>
+                  )}
+                </div>
+              )
+            );
+          })}
+        </details>
+      )}
     </section>
   );
 }

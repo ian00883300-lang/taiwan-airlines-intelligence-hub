@@ -62,6 +62,21 @@ try {
   await page.getByRole("status").filter({ hasText: "已載入 1 題" }).waitFor();
   await page.reload();
   await page.locator(".question-card").first().click();
+  assert.equal(await page.getByLabel("答案版本").inputValue(), "general");
+  assert.ok(
+    (await page.locator("dialog").innerText()).includes("舊版個人答案仍保留"),
+  );
+  await page.getByLabel("答案版本").selectOption("personal");
+  assert.equal(await page.locator(".answer").innerText(), entry.zh_30);
+  await page.keyboard.press("Escape");
+  await page.locator(".private-library summary").click();
+  await upload({
+    version: 1,
+    answers: { "company-ci": { ...entry, question_revision: 2 } },
+  });
+  await page.getByRole("status").filter({ hasText: "已載入 1 題" }).waitFor();
+  await page.reload();
+  await page.locator(".question-card").first().click();
   assert.equal(await page.getByLabel("答案版本").inputValue(), "personal");
   assert.equal(await page.locator(".answer").innerText(), entry.zh_30);
   await page.getByLabel("答案版本").selectOption("general");

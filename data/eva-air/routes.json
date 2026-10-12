@@ -1,5 +1,5 @@
 {
-  "scope": "代表性航線；非完整航網、不含共掛班號或貨運。",
+  "scope": "已查核的自營客運航網紀錄與歷史快照；來源基準日不同，非即時完整班表。不含共掛及聯航目的地。",
   "items": [
     {
       "id": "eva-air-DFW",
@@ -16,7 +16,9 @@
       "verified_date": "2026-10-12",
       "source_id": "brDfw",
       "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
-      "event_ids": ["br-dallas-inaugural"]
+      "event_ids": [
+        "br-dallas-inaugural"
+      ]
     },
     {
       "id": "eva-air-NRT",
@@ -33,7 +35,249 @@
       "verified_date": "2026-10-11",
       "source_id": "evaRoute",
       "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
-      "event_ids": ["eva-air-nrt-inaugural"]
+      "event_ids": [
+        "eva-air-nrt-inaugural"
+      ]
+    },
+    {
+      "id": "eva-air-TPE-LAX",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "LAX",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-LAX-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-SFO",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "SFO",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-SFO-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-SEA",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "SEA",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-SEA-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-JFK",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "JFK",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-JFK-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-IAH",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "IAH",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-IAH-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-ORD",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "ORD",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-ORD-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-YVR",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "YVR",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-YVR-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-YYZ",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "YYZ",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜達拉斯首航",
+      "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+      "published_date": "2025-10-03",
+      "as_of": "2025-10-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "brDfw",
+      "event_ids": [
+        "eva-air-TPE-YYZ-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-UKB",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "UKB",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜2025 年報",
+      "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "evaFinance",
+      "event_ids": [
+        "eva-air-TPE-UKB-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-BKK",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "BKK",
+      "region": "Southeast Asia",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜2025 年報",
+      "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "evaFinance",
+      "event_ids": [
+        "eva-air-TPE-BKK-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-TPE-ICN",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "ICN",
+      "region": "Korea",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜2025 年報",
+      "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "evaFinance",
+      "event_ids": [
+        "eva-air-TPE-ICN-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+    },
+    {
+      "id": "eva-air-KHH-KIX",
+      "airline": "eva-air",
+      "origin": "KHH",
+      "destination": "KIX",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "source": "長榮｜2025 年報",
+      "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+      "published_date": null,
+      "as_of": "2025-12-31",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "evaFinance",
+      "event_ids": [
+        "eva-air-KHH-KIX-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     }
   ]
 }
