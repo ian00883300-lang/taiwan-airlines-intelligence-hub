@@ -929,7 +929,7 @@ main {
 }
 .fleet-layout {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   gap: 22px;
 }
 .fleet-layout .donut {
@@ -1379,7 +1379,7 @@ footer {
     padding: 25px;
   }
   .fleet-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .fleet-layout .panel {
     margin-bottom: 0;
