@@ -1,19 +1,20 @@
 {
   "period": "2025 年度",
-  "scope": "合併營收；官方永續營運績效",
+  "scope": "2025年度查核合併財務報表",
   "revenue": {
     "label": "2025 年度營收",
-    "value": 209.139,
+    "value": 209.138766,
     "unit": "十億新臺幣",
     "period": "2025-01-01/2025-12-31",
-    "scope": "合併營收；官方永續營運績效",
-    "source": "華航｜2025 營運績效",
-    "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+    "scope": "2025年度查核合併財務報表營業收入209,138,766仟元；換算十億新臺幣，非永續網站四捨五入數。",
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "ciFinance"
+    "source_id": "ciFinancial2025",
+    "level": 1
   },
   "eps": {
     "source": "華航｜2025／2024 合併財務報表",

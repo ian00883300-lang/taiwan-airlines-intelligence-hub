@@ -50,7 +50,28 @@ try {
       await go(airline + "/overview");
       assert.ok((await page.locator(".company-timeline li").count()) >= 6);
       assert.ok((await page.locator(".company-identity tbody tr").count()) > 0);
+      if (width < 760) {
+        assert.equal(
+          await page
+            .locator(".company-identity tbody td")
+            .first()
+            .evaluate((el) => getComputedStyle(el).display),
+          "block",
+        );
+      }
       await fits(airline + " timeline " + width);
+      if (airline !== "eva-air") {
+        await go(airline + "/finance");
+        assert.equal(
+          await page.locator(".annual-performance tbody tr").count(),
+          7,
+        );
+        assert.match(
+          await page.locator(".annual-performance").innerText(),
+          airline === "starlux" ? /1,324,438/ : /14,700,319/,
+        );
+        await fits(airline + " two-year finance " + width);
+      }
       await go(airline + "/operations");
       assert.equal(await page.locator(".traffic-table tbody tr").count(), 3);
       await page.getByRole("button", { name: "貨運指標", exact: true }).click();

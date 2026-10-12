@@ -264,6 +264,35 @@ test("Deep interview references resolve and revised IDs retain the old question 
       .answer_60.includes("272,608"),
   );
 });
+test("Audited two-year results preserve profit scope and registry discrepancies", () => {
+  const dossier = read("data/research-dossier.json");
+  const ci = dossier.airlines["china-airlines"].annual_analysis;
+  const jx = dossier.airlines.starlux.annual_analysis;
+  assert.equal(
+    ci.rows.find((row) => row.label === "本期淨利").current,
+    16173472,
+  );
+  assert.equal(
+    ci.rows.find((row) => row.label === "歸屬母公司淨利").current,
+    14700319,
+  );
+  assert.equal(
+    jx.rows.find((row) => row.label === "營業收入").previous,
+    35546851,
+  );
+  assert.equal(
+    jx.rows.find((row) => row.label === "本期淨利").previous,
+    1324438,
+  );
+  assert.ok(jx.operating_margin_2025 < jx.operating_margin_2024);
+  const airline = read("data/china-airlines/overview.json");
+  assert.equal(airline.founded.value, "1959-12-16");
+  const discrepancy = airline.sections.governance.find(
+    (row) => row.label === "成立日期來源差異",
+  );
+  assert.ok(discrepancy.value.includes("1959年9月7日"));
+  assert.equal(discrepancy.source_id, "ciStock");
+});
 test("All evidence has valid metadata and verified dates do not fabricate publication dates", () => {
   let n = 0;
   for (const [p, x] of all)

@@ -169,7 +169,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
         {routes.length}
         筆自營客運航網紀錄，包含來源基準日不同的歷史快照，非今日完整班表。連線為航網示意，非導航航路。共掛與interline銜接不算自營；貨運運量另見客貨運表，不將腹艙貨運畫成獨立貨機航線。
       </p>
-      <div className="route-list">
+      <div className="route-list mobile-records">
         {filtered.length ? (
           <div className="table-wrap research-table route-table">
             <table>
@@ -191,7 +191,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                   return (
                     <tr key={r.id}>
                       <th scope="row">{airlineById(r.airline).name}</th>
-                      <td>
+                      <td data-label="起點 → 終點">
                         <strong>
                           {r.origin} → {r.destination}
                         </strong>
@@ -200,7 +200,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                           {airports.items[r.destination].name}
                         </p>
                       </td>
-                      <td>
+                      <td data-label="區域／基準日">
                         {r.region}
                         <p>
                           {r.as_of ? formatEventDate(r.as_of) : "未指定基準日"}
@@ -211,7 +211,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                             : "已收錄官方證據"}
                         </small>
                       </td>
-                      <td>
+                      <td data-label="已核實首航">
                         {formatEventDate(event?.event_date)}
                         {event?.announced_event_date && (
                           <p>
@@ -220,7 +220,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                           </p>
                         )}
                       </td>
-                      <td>
+                      <td data-label="證據">
                         <Source item={r} compact />
                         <details>
                           <summary>首航詳情</summary>

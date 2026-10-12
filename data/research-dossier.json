@@ -67,6 +67,19 @@
           "source_id": "ciFounding"
         },
         {
+          "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+          "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+          "published_date": null,
+          "as_of": "2026-10-11",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "ciStock",
+          "date": "1993-02-26",
+          "date_kind": "event",
+          "label": "臺灣證券交易所上市",
+          "body": "證券代號2610；來源為證交所上市公司基本資料，不將上市與公司成立混為同一事件。"
+        },
+        {
           "date": "2011-09-28",
           "label": "加入SkyTeam",
           "body": "航空聯盟會員里程碑；不是共掛航點全部自營。",
@@ -229,7 +242,65 @@
           "source_id": "ciA350Total",
           "supporting_source_ids": ["ciA350Initial"]
         }
-      ]
+      ],
+      "annual_analysis": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "合併財務報表；本期淨利包含非控制權益，歸屬母公司淨利另列。",
+        "note": "查核財報第7–8頁（華航）／第8頁（星宇）。金額以新臺幣仟元呈現，EPS為元／股；年增率由原始數據計算，費用增加不代表績效改善。",
+        "rows": [
+          {
+            "label": "營業收入",
+            "previous": 203879338,
+            "current": 209138766,
+            "unit": "仟元"
+          },
+          {
+            "label": "營業利益",
+            "previous": 18202347,
+            "current": 20836218,
+            "unit": "仟元"
+          },
+          {
+            "label": "財務成本（費用）",
+            "previous": 2755707,
+            "current": 3037042,
+            "unit": "仟元"
+          },
+          {
+            "label": "稅前淨利",
+            "previous": 19276062,
+            "current": 20058610,
+            "unit": "仟元"
+          },
+          {
+            "label": "本期淨利",
+            "previous": 15495188,
+            "current": 16173472,
+            "unit": "仟元"
+          },
+          {
+            "label": "歸屬母公司淨利",
+            "previous": 14383345,
+            "current": 14700319,
+            "unit": "仟元"
+          },
+          {
+            "label": "基本EPS",
+            "previous": 2.38,
+            "current": 2.42,
+            "unit": "元／股"
+          }
+        ],
+        "operating_margin_2024": 8.927999854502175,
+        "operating_margin_2025": 9.962867429369837
+      }
     },
     "eva-air": {
       "timeline": [
@@ -641,7 +712,65 @@
           "source_id": "jxFinancial2025",
           "supporting_source_ids": ["jxAnnual"]
         }
-      ]
+      ],
+      "annual_analysis": {
+        "source": "星宇航空｜2025 年度個別財務報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "level": 1,
+        "source_id": "jxFinancial2025",
+        "scope": "個別財務報表；所得稅利益與其他綜合損益不能混同營業利益或本期淨利。",
+        "note": "查核財報第7–8頁（華航）／第8頁（星宇）。金額以新臺幣仟元呈現，EPS為元／股；年增率由原始數據計算，費用增加不代表績效改善。",
+        "rows": [
+          {
+            "label": "營業收入",
+            "previous": 35546851,
+            "current": 44053262,
+            "unit": "仟元"
+          },
+          {
+            "label": "營業利益",
+            "previous": 2369762,
+            "current": 1637261,
+            "unit": "仟元"
+          },
+          {
+            "label": "財務成本（費用）",
+            "previous": 977813,
+            "current": 1365217,
+            "unit": "仟元"
+          },
+          {
+            "label": "稅前淨利",
+            "previous": 1293501,
+            "current": 43471,
+            "unit": "仟元"
+          },
+          {
+            "label": "所得稅利益",
+            "previous": 30937,
+            "current": 229137,
+            "unit": "仟元"
+          },
+          {
+            "label": "本期淨利",
+            "previous": 1324438,
+            "current": 272608,
+            "unit": "仟元"
+          },
+          {
+            "label": "基本EPS",
+            "previous": 0.53,
+            "current": 0.09,
+            "unit": "元／股"
+          }
+        ],
+        "operating_margin_2024": 6.666587709836801,
+        "operating_margin_2025": 3.716548844895981
+      }
     }
   }
 }

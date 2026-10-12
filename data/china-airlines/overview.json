@@ -155,6 +155,53 @@
         "status": "confirmed",
         "as_of": "2025-12-31",
         "source_id": "ciEsg"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "證券代號與上市日期",
+        "value": "2610；上市日期1993年2月26日。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "董事長與總經理",
+        "value": "董事長高星潢；總經理陳漢銘。2026年10月11日公開資料快照。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "實收資本額與普通股股數",
+        "value": "實收資本額61,449,885,580元；已發行普通股6,144,988,558股。",
+        "note": "股本與股數不是市值；市值另需同一時間的市場價格，本版不加入未核實即時股價。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "成立日期來源差異",
+        "value": "華航沿革記錄1959年12月16日；證交所「成立日期」欄列1959年9月7日。差異待釐清，兩者不互相取代。",
+        "corroboration_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+        "note": "只呈現兩來源原始日期；尚未取得證據說明差異原因，不推測為登記日或營運日。"
       }
     ],
     "organization": [

@@ -751,6 +751,118 @@
 .deep-research li {
   margin: 7px 0;
 }
+.performance-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+.performance-highlights article {
+  padding: 18px;
+  border: 1px solid #dce5ed;
+  border-radius: 12px;
+  background: #f7f9fb;
+}
+.performance-highlights strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.6rem;
+  color: #163851;
+}
+.annual-performance {
+  margin: 28px 0;
+  min-width: 0;
+}
+.company-identity thead th:first-child {
+  width: 22%;
+}
+.company-identity thead th:nth-child(2) {
+  width: 50%;
+}
+.company-identity thead th:last-child {
+  width: 28%;
+}
+@media (min-width: 390px) and (max-width: 760px) {
+  .annual-performance .mobile-records {
+    min-width: 0;
+  }
+  .annual-performance tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .annual-performance tbody th {
+    grid-column: 1 / -1;
+  }
+  .annual-performance tbody td:last-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 760px) {
+  .mobile-records .table-wrap {
+    border: 0;
+    background: transparent;
+    overflow: visible;
+  }
+  .mobile-records .table-wrap table {
+    display: block;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .mobile-records caption {
+    display: block;
+    padding: 12px 0;
+  }
+  .mobile-records thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .mobile-records tbody {
+    display: block;
+  }
+  .mobile-records tfoot {
+    display: block;
+  }
+  section[aria-label="星宇損益與EPS分析"] .research-table table {
+    min-width: 0;
+  }
+  .mobile-records tr {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid #dce5ed;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .mobile-records th[scope="row"],
+  .mobile-records td {
+    display: block;
+    width: auto;
+    padding: 12px 16px;
+  }
+  .mobile-records td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 5px;
+    color: #587388;
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+  .mobile-records p {
+    margin: 6px 0;
+  }
+  .performance-highlights {
+    gap: 10px;
+  }
+  .performance-highlights article {
+    padding: 12px;
+  }
+  .performance-highlights span {
+    font-size: 0.8rem;
+  }
+}
 .fleet-snapshot-summary {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -50,6 +50,7 @@ import {
   RevenueMix,
   StrategyResearch,
   EarningsBridge,
+  AnnualPerformance,
 } from "./CompanyResearch.jsx";
 import { formatEventDate } from "./event-dates.mjs";
 import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
@@ -809,6 +810,7 @@ function Finance({ a, openInterview }) {
       </p>
       <FinanceVisuals f={f} Source={Source} />
       <RevenueMix airline={a.id} Source={Source} />
+      <AnnualPerformance airline={a.id} Source={Source} />
       {a.id === "starlux" && <EarningsBridge Source={Source} />}
       <FactCards
         records={[

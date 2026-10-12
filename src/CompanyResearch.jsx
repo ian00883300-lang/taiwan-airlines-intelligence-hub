@@ -55,7 +55,10 @@ export function CompanyIdentity({ a, Source }) {
           ...a.sections.brand,
         ];
   return (
-    <section className="company-identity" aria-label="公司與品牌資料表">
+    <section
+      className="company-identity mobile-records"
+      aria-label="公司與品牌資料表"
+    >
       <div className="table-wrap research-table">
         <table>
           <caption>公司、品牌與治理資料</caption>
@@ -70,14 +73,14 @@ export function CompanyIdentity({ a, Source }) {
             {records.map((record, index) => (
               <tr key={index}>
                 <th scope="row">{record.label || record.title}</th>
-                <td>
+                <td data-label="公開資料">
                   {record.value != null
                     ? typeof record.value === "number"
                       ? number(record.value) + " " + (record.unit || "")
                       : record.value
                     : record.body || "尚待官方資料查核"}
                 </td>
-                <td>
+                <td data-label="基準與來源">
                   {record.as_of || "來源未指定基準日"}
                   <Source item={record} compact />
                 </td>
@@ -104,8 +107,8 @@ export function CompanyIdentity({ a, Source }) {
                 {identity.shareholders.rows.map((row) => (
                   <tr key={row.name}>
                     <th scope="row">{row.name}</th>
-                    <td>{number(row.shares)} 股</td>
-                    <td>{row.percent}%</td>
+                    <td data-label="股數">{number(row.shares)} 股</td>
+                    <td data-label="持股比例">{row.percent}%</td>
                   </tr>
                 ))}
               </tbody>
@@ -211,7 +214,7 @@ export function TrafficComparison({ airline, Source }) {
 export function RevenueMix({ airline, Source }) {
   const mix = dossier.airlines[airline].revenue_mix;
   return (
-    <section className="revenue-mix" aria-label="客貨運營收結構">
+    <section className="revenue-mix mobile-records" aria-label="客貨運營收結構">
       <div className="table-wrap research-table">
         <table>
           <caption>
@@ -228,8 +231,8 @@ export function RevenueMix({ airline, Source }) {
             {mix.parts.map((part) => (
               <tr key={part.name}>
                 <th scope="row">{part.name}</th>
-                <td>{number(part.amount)}</td>
-                <td>
+                <td data-label="營收">{number(part.amount)}</td>
+                <td data-label="同範圍占比">
                   {mix.total
                     ? number((part.amount / mix.total) * 100, 2) + "%"
                     : "缺少同口徑完整合計，不計算"}
@@ -241,8 +244,8 @@ export function RevenueMix({ airline, Source }) {
             <tfoot>
               <tr>
                 <th scope="row">合計</th>
-                <td>{number(mix.total)}</td>
-                <td>100%</td>
+                <td data-label="合計營收">{number(mix.total)}</td>
+                <td data-label="同範圍占比">100%</td>
               </tr>
             </tfoot>
           )}
@@ -358,6 +361,70 @@ export function EarningsBridge({ Source }) {
       </p>
       <p>{e.note}</p>
       <Source item={e} />
+    </section>
+  );
+}
+
+export function AnnualPerformance({ airline, Source }) {
+  const record = dossier.airlines[airline].annual_analysis;
+  if (!record) return null;
+  return (
+    <section
+      className="annual-performance mobile-records"
+      aria-label="兩年損益與營業利益率"
+    >
+      <h3>2024／2025 損益比較</h3>
+      <p>{record.scope}</p>
+      <div className="performance-highlights">
+        <article>
+          <span>2024營業利益率</span>
+          <strong>{number(record.operating_margin_2024, 2)}%</strong>
+        </article>
+        <article>
+          <span>2025營業利益率</span>
+          <strong>{number(record.operating_margin_2025, 2)}%</strong>
+        </article>
+      </div>
+      <div className="table-wrap research-table">
+        <table>
+          <caption>{names[airline]} · 金額：新臺幣仟元，EPS：元／股</caption>
+          <thead>
+            <tr>
+              <th scope="col">項目</th>
+              <th scope="col">2024</th>
+              <th scope="col">2025</th>
+              <th scope="col">年增率</th>
+            </tr>
+          </thead>
+          <tbody>
+            {record.rows.map((row) => (
+              <tr key={row.label}>
+                <th scope="row">
+                  {row.label}
+                  <small>{row.unit}</small>
+                </th>
+                <td data-label="2024">
+                  {number(row.previous, row.unit === "元／股" ? 2 : 0)}
+                </td>
+                <td data-label="2025">
+                  {number(row.current, row.unit === "元／股" ? 2 : 0)}
+                </td>
+                <td data-label="年增率">
+                  {number((row.current / row.previous - 1) * 100, 2)}%
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="metric-definition">
+        營業利益率＝營業利益／營業收入。
+        {airline === "starlux"
+          ? "2025營收增加，但營業利益及淨利下降；成長、成本與資金負擔須分開評估。"
+          : "集團本期淨利與歸屬母公司淨利口徑不同；基本EPS並非直接以集團本期淨利除以期末股數。"}
+      </p>
+      <p className="fineprint">{record.note}</p>
+      <Source item={record} />
     </section>
   );
 }
