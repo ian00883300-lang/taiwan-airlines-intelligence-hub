@@ -26,7 +26,7 @@
     "published_date": null,
     "level": 1,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -106,7 +106,7 @@
     "published_date": null,
     "level": 1,
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -495,7 +495,7 @@
     "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
     "level": 1,
     "published_date": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "as_of": null,
     "status": "confirmed"
   },
@@ -855,6 +855,16 @@
     "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801",
     "published_date": "2026-08-01",
     "as_of": "2026-08-01",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciOperations2025",
+    "source": "華航｜2025營運與旅客服務績效",
+    "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
     "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1

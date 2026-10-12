@@ -35,4 +35,4 @@
 - `BROWSER_PATH=/usr/bin/chromium node tests/practice-browser.mjs`：個人答案匯入、保存與對話框操作。
 - `BROWSER_PATH=/usr/bin/chromium node tests/reading-browser.mjs`：字體、存儲與150%文字排版。
 
-本次改動供檢閱，尚未推送GitHub或發布網站。雲端環境網路設定草稿與網站程式發布為不同操作。
+第一批已推送main（e4798dd），GitHub Actions資料驗證與Pages發布成功。雲端環境網路設定草稿與網站程式發布為不同操作。

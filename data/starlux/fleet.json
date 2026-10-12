@@ -649,6 +649,21 @@
       "source_id": "jxDelivery",
       "note": "2026年1月6日 Airbus 公告首架已交付，該批總訂單 18 架；公告發布日不直接代表交機日，18 架也不是目前剩餘待交数。",
       "quantity_basis": "program_total"
+    },
+    {
+      "aircraft_type": "A350F",
+      "quantity": 10,
+      "order_type": "firm_order",
+      "delivery_state": "order_program",
+      "quantity_basis": "program_total",
+      "source": "Airbus｜STARLUX 首架 A350-1000",
+      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+      "published_date": "2026-01-06",
+      "as_of": "2026-01-06",
+      "status": "announced",
+      "verified_date": "2026-10-12",
+      "source_id": "jxDelivery",
+      "note": "Airbus2026年1月6日原文「ordered 10 A350F freighters」；全批訂單總量，非現役或剩餘待交數。逐架交機日期未確認。"
     }
   ],
   "history": [
@@ -682,6 +697,35 @@
     }
   ],
   "retired": [],
-  "planned": [],
+  "planned": [
+    {
+      "title": "2026年年底43架目標（計畫）",
+      "body": "年報規劃2026年年底達43架；不能視為現在已達成。機型與逐架交機日期須依後續公告核實。",
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "source_id": "jxAnnual",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "planned",
+      "as_of": null,
+      "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+      "note": "年報印刷頁碼102（PDF第104頁）。",
+      "date": "2026年（計畫年份；逐架交機年月日未公告）"
+    },
+    {
+      "title": "2033年76架目標（計畫）",
+      "body": "年報2033年76架包含客機與10架A350F貨機；目標年份不等於逐架交機日。",
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "source_id": "jxAnnual",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "planned",
+      "as_of": null,
+      "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+      "note": "年報印刷頁碼103（PDF第105頁）。",
+      "date": "2033年（計畫年份；逐架交機年月日未公告）"
+    }
+  ],
   "replacement_timeline": []
 }

@@ -199,7 +199,19 @@
       }
     ],
     "technical": [],
-    "routes": [],
+    "routes": [
+      {
+        "title": "2025航點統計口徑",
+        "body": "官方績效頁記錄2025客運72個航點，貨運33個貨機航點（包含客貨機與純貨機航點），並記錄新增客運PHX與貨運YYZ。客運與貨運航點不能相加作為不重複總航點；網站地圖仍只展示已收錄的代表航線。",
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciOperations2025"
+      }
+    ],
     "hubs": [
       {
         "label": "樞紐",
@@ -241,15 +253,15 @@
     ],
     "passenger": [
       {
-        "label": "客運業務",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "2025全年載客與旅客調查",
+        "body": "華航官方2025績效頁記錄全年載客11,746,082人次，較2024年增加2.46%；2025年1至12月旅客淨推薦值NPS為73.3。載客人次不是獨立旅客人數；NPS不當作航空安全指標。",
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciOperations2025"
       }
     ],
     "cargo": [

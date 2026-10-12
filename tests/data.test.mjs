@@ -3,6 +3,34 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import Ajv from "ajv";
 import { formatEventDate } from "../src/event-dates.mjs";
+test("STARLUX workforce snapshots reconcile and do not become current fleet statistics", () => {
+  const workforce = JSON.parse(
+    fs.readFileSync("data/starlux/workforce.json", "utf8"),
+  );
+  assert.deepEqual(
+    workforce.snapshots.map((x) => x.as_of),
+    ["2025-12-31", "2026-03-31"],
+  );
+  for (const x of workforce.snapshots) {
+    assert.equal(
+      x.pilots + x.cabin_crew + x.dispatchers + x.maintenance + x.other,
+      x.total,
+    );
+    assert.equal(x.source_id, "jxAnnual");
+  }
+  assert.equal(workforce.snapshots[1].total, 6224);
+  const overview = JSON.parse(
+    fs.readFileSync("data/starlux/overview.json", "utf8"),
+  );
+  assert.equal(overview.total.value, null);
+  assert.ok(overview.sections.renewal.every((x) => x.status === "planned"));
+  const fleet = JSON.parse(fs.readFileSync("data/starlux/fleet.json", "utf8"));
+  const cargo = fleet.orders.find((x) => x.aircraft_type === "A350F");
+  assert.equal(cargo.quantity, 10);
+  assert.equal(cargo.quantity_basis, "program_total");
+  assert.equal(cargo.delivery_state, "order_program");
+  assert.ok(fleet.planned.every((x) => x.status === "planned"));
+});
 const read = (p) =>
   JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
 const ids = ["china-airlines", "eva-air", "starlux"];
@@ -301,15 +329,19 @@ test("Consolidated topics preserve every legacy research entry exactly once", ()
 test("Every passenger layout reconciles cabin counts to its total and all aircraft expose engines and introductions", () => {
   let layouts = 0;
   for (const id of ids) {
-    const a = read("data/"+id+"/overview.json");
+    const a = read("data/" + id + "/overview.json");
     assert.ok(a.icao_code && a.codes.source_url.includes("iata.org"));
-    for (const x of read("data/"+id+"/fleet.json").items) {
+    for (const x of read("data/" + id + "/fleet.json").items) {
       assert.ok(x.engine.value && x.engine.source_url, id + x.aircraft_type);
       assert.ok(x.introduction.value && x.introduction.source_url);
       if (x.kind === "cargo") continue;
       assert.ok(x.cabin_configurations.layouts.length);
       for (const layout of x.cabin_configurations.layouts) {
-        assert.equal(layout.cabins.reduce((sum,c)=>sum+c.seats,0), layout.total, id+x.aircraft_type+layout.name);
+        assert.equal(
+          layout.cabins.reduce((sum, c) => sum + c.seats, 0),
+          layout.total,
+          id + x.aircraft_type + layout.name,
+        );
         layouts++;
       }
     }

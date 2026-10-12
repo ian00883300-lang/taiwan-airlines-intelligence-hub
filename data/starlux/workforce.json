@@ -1,0 +1,37 @@
+{
+  "scope": "年報歷史快照；不是即時人數。民國114年與115年已轉換為西元2025年及2026年。",
+  "snapshots": [
+    {
+      "as_of": "2025-12-31",
+      "total": 5896,
+      "pilots": 454,
+      "cabin_crew": 1599,
+      "dispatchers": 19,
+      "maintenance": 404,
+      "other": 3420,
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxAnnual",
+      "note": "2025年報印刷頁112（PDF第114頁），114年度欄。"
+    },
+    {
+      "as_of": "2026-03-31",
+      "total": 6224,
+      "pilots": 475,
+      "cabin_crew": 1682,
+      "dispatchers": 20,
+      "maintenance": 439,
+      "other": 3608,
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxAnnual",
+      "note": "同表115年度截至115年3月31日欄；非年末或今日人數。"
+    }
+  ]
+}

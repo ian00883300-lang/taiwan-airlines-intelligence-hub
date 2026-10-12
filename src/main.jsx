@@ -946,7 +946,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           <section className="panel">
             <RouteMap initial={a.id} />
           </section>
-          {part("樞紐與合作關係", facts(["hubs", "alliances", "codeshare"]))}
+          {part("營運統計、樞紐與合作關係", facts(["routes", "hubs", "alliances", "codeshare"]))}
         </>
       ) : group.id === "finance" ? (
         <Finance a={a} openInterview={openInterview} />
