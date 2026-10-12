@@ -576,3 +576,71 @@
     min-width: 0;
   }
 }
+
+.aircraft-overview {
+  padding: 0 18px 18px;
+}
+.aircraft-overview h4 {
+  margin: 0 0 10px;
+  color: #163f5c;
+  font-size: 1rem;
+}
+.aircraft-overview section {
+  border-top: 1px solid #e1eaf0;
+  padding: 18px 0;
+}
+.aircraft-overview p {
+  line-height: 1.8;
+  margin: 8px 0;
+}
+.aircraft-engine > strong {
+  display: block;
+  font-size: 1.2rem;
+  overflow-wrap: anywhere;
+}
+.cabin-layout {
+  padding: 14px;
+  background: #f0f5f9;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+.cabin-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+}
+.cabin-total strong {
+  font-size: 1.8rem;
+  color: #173f60;
+  white-space: nowrap;
+}
+.cabin-total small {
+  font-size: 0.9rem;
+}
+.cabin-layout dl {
+  margin: 10px 0 0;
+}
+.cabin-layout dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-top: 1px solid #dbe5ed;
+}
+.cabin-layout dd {
+  margin: 0;
+  white-space: nowrap;
+}
+.airline-codes {
+  display: block;
+  margin-top: 7px;
+  color: #58738a;
+  font-size: 0.8rem;
+}
+.icao-emblem {
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 2px;
+}

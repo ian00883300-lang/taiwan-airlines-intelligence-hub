@@ -203,3 +203,22 @@ test("Consolidated topics preserve every legacy research entry exactly once", ()
   assert.equal(new Set(members).size, members.length);
   assert.deepEqual([...members].sort(), read("data/sections.json").map(s => s.id).sort());
 });
+
+test("Every passenger layout reconciles cabin counts to its total and all aircraft expose engines and introductions", () => {
+  let layouts = 0;
+  for (const id of ids) {
+    const a = read("data/"+id+"/overview.json");
+    assert.ok(a.icao_code && a.codes.source_url.includes("iata.org"));
+    for (const x of read("data/"+id+"/fleet.json").items) {
+      assert.ok(x.engine.value && x.engine.source_url, id + x.aircraft_type);
+      assert.ok(x.introduction.value && x.introduction.source_url);
+      if (x.kind === "cargo") continue;
+      assert.ok(x.cabin_configurations.layouts.length);
+      for (const layout of x.cabin_configurations.layouts) {
+        assert.equal(layout.cabins.reduce((sum,c)=>sum+c.seats,0), layout.total, id+x.aircraft_type+layout.name);
+        layouts++;
+      }
+    }
+  }
+  assert.equal(layouts, 21);
+});

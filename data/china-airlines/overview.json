@@ -53,6 +53,17 @@
   "sections": {
     "overview": [
       {
+        "label": "航空公司代碼",
+        "value": "IATA CI / ICAO CAL",
+        "source": "IATA｜China Airlines 會員名錄",
+        "source_url": "https://www.iata.org/en/about/members/airline-list/china-airlines/341/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+      },
+      {
         "label": "成立",
         "value": "1959-12-16",
         "source": "華航｜2012 永續報告（歷史成立資訊）",
@@ -441,5 +452,17 @@
       }
     ]
   },
-  "last_verified": "2026-10-12"
+  "last_verified": "2026-10-12",
+  "icao_code": "CAL",
+  "codes": {
+    "label": "航空公司代碼",
+    "value": "IATA CI / ICAO CAL",
+    "source": "IATA｜China Airlines 會員名錄",
+    "source_url": "https://www.iata.org/en/about/members/airline-list/china-airlines/341/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+  }
 }

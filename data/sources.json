@@ -668,5 +668,155 @@
     "as_of": null,
     "status": "confirmed",
     "level": 3
+  },
+  {
+    "id": "china-airlines-a350-900-introduction",
+    "source": "機型簡介｜依官方機型資料整理",
+    "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-900",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-a330-300-introduction",
+    "source": "機型簡介｜依官方機型資料整理",
+    "source_url": "https://www.aircraft.airbus.com/en/aircraft/a330/a330-300",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-a330-300-engine",
+    "source": "華航｜2025 第四次法人說明會",
+    "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "china-airlines-777-300er-introduction",
+    "source": "機型簡介｜依官方機型資料整理",
+    "source_url": "https://www.boeing.com/commercial/777",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-777-300er-engine",
+    "source": "Boeing｜華航聯名塗裝 777 交付",
+    "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
+    "published_date": "2016-05-16",
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-737-800-introduction",
+    "source": "機型簡介｜依官方機型資料整理",
+    "source_url": "https://www.boeing.com/commercial/737ng",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-a321neo-engine",
+    "source": "Airbus｜華航首架 A321neo",
+    "source_url": "https://www.airbus.com/en/newsroom/press-releases/2021-11-china-airlines-becomes-new-operator-of-a321neo",
+    "published_date": "2021-11-30",
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-777f-engine",
+    "source": "華航｜新長程貨機公告",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20190508-1",
+    "published_date": "2019-05-08",
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "eva-air-787-9-introduction",
+    "source": "機型簡介｜依官方機型資料整理",
+    "source_url": "https://www.boeing.com/commercial/787",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "eva-air-a330-300-engine",
+    "source": "GE Aerospace｜BOC 租賃予 EVA 的 A330-300",
+    "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/boc-aviation-selects-ge-aviation-engines-two-new-a330-300",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "eva-air-a321-200-engine",
+    "source": "MTU｜EVA A321-200 引擎維修合約",
+    "source_url": "https://www.mtu.de/newsroom/press/latest-press-releases/press-release-detail/mtu-maintenance-and-eva-air-sign-exclusive-engine-mro-contract-for-cfm56-5b-fleet/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "eva-air-777f-engine",
+    "source": "GE Aerospace｜EVA 777 貨機採購",
+    "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-orders-ge90-powered-boeing-777-freighter-aircraft-onpointsm",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "china-airlines-codes",
+    "source": "IATA｜China Airlines 會員名錄",
+    "source_url": "https://www.iata.org/en/about/members/airline-list/china-airlines/341/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "eva-air-codes",
+    "source": "IATA｜EVA Air 會員名錄",
+    "source_url": "https://www.iata.org/en/about/members/airline-list/eva-air/357/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "starlux-codes",
+    "source": "IATA｜STARLUX Airlines 會員名錄",
+    "source_url": "https://www.iata.org/en/about/members/airline-list/starlux-airlines/605/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "level": 3
   }
 ]

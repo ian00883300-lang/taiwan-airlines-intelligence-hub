@@ -8,6 +8,10 @@ try {
  for(const [id,count] of [['china-airlines',7],['eva-air',6],['starlux',4]]) {
   await page.goto(base+'#'+id+'/fleet');await page.locator('.aircraft-photo').first().waitFor();
   assert.equal(await page.locator('.aircraft-photo').count(),count);
+  assert.equal(await page.locator('.aircraft-overview').count(),count);
+  assert.equal(await page.locator('.aircraft-engine > strong').count(),count);
+  assert.ok((await page.locator('.airline-masthead').innerText()).includes(({"china-airlines":"CAL","eva-air":"EVA","starlux":"SJX"})[id]));
+  for(const overview of await page.locator('.aircraft-overview').all()) assert.ok(await overview.isVisible());
   for(const figure of await page.locator('.aircraft-photo').all()) {
    await figure.scrollIntoViewIfNeeded();await figure.evaluate(e=>e.querySelector('img')?.decode().catch(()=>{}));
    assert.ok(await figure.evaluate(e=>!!e.querySelector('img')?.naturalWidth));

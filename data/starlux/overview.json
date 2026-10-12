@@ -52,6 +52,17 @@
   "sections": {
     "overview": [
       {
+        "label": "航空公司代碼",
+        "value": "IATA JX / ICAO SJX",
+        "source": "IATA｜STARLUX Airlines 會員名錄",
+        "source_url": "https://www.iata.org/en/about/members/airline-list/starlux-airlines/605/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+      },
+      {
         "label": "成立",
         "value": "2018-05-02",
         "source": "星宇｜公司成立公告",
@@ -446,5 +457,17 @@
       }
     ]
   },
-  "last_verified": "2026-10-12"
+  "last_verified": "2026-10-12",
+  "icao_code": "SJX",
+  "codes": {
+    "label": "航空公司代碼",
+    "value": "IATA JX / ICAO SJX",
+    "source": "IATA｜STARLUX Airlines 會員名錄",
+    "source_url": "https://www.iata.org/en/about/members/airline-list/starlux-airlines/605/",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+  }
 }

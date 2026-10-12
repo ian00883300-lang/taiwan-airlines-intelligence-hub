@@ -112,6 +112,83 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/777-300er_tcm33-69664.png"
+      },
+      "cabin_configurations": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/777-300ER/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "label": "總座位數與艙等配置",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。",
+        "layouts": [
+          {
+            "name": "配置 1",
+            "total": 323,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 38
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 64
+              },
+              {
+                "name": "經濟艙",
+                "seats": 221
+              }
+            ]
+          },
+          {
+            "name": "配置 2",
+            "total": 333,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 39
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 56
+              },
+              {
+                "name": "經濟艙",
+                "seats": 238
+              }
+            ]
+          },
+          {
+            "name": "配置 3",
+            "total": 353,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 39
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 56
+              },
+              {
+                "name": "經濟艙",
+                "seats": 258
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 777 家族的加長航程廣體雙發客機，採雙走道客艙；與 777F 分屬客運和貨運版本，各航空公司及航機的艙等配置可以不同。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/777",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -226,6 +303,47 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/787-9_tcm33-69662.png"
+      },
+      "cabin_configurations": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-9/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "label": "總座位數與艙等配置",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 278,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 26
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 28
+              },
+              {
+                "name": "經濟艙",
+                "seats": 224
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 787 Dreamliner 家族的廣體客機，兼顧航程與載客量。與 787-10 的機身長度及性能不同；航空公司座位配置不是製造商典型座位數。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/787",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -340,6 +458,43 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/new-787-10_tcm33-69426.png"
+      },
+      "cabin_configurations": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/787-10/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "label": "總座位數與艙等配置",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 342,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 34
+              },
+              {
+                "name": "經濟艙",
+                "seats": 308
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 787 家族的加長型廣體客機，機身較 787-9 長、提供更大的客艙容量。實際座位數與航程仍須依航空公司配置及操作條件解讀。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/787",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -355,15 +510,15 @@
       "as_of": "2026-10-01",
       "source_id": "evaFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "GE CF6-80E1",
+        "source": "GE Aerospace｜BOC 租賃予 EVA 的 A330-300",
+        "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/boc-aviation-selects-ge-aviation-engines-two-new-a330-300",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "官方明確確認兩架租賃予 EVA 的 A330-300 選型；不視為所有機號引擎後綴的逐機核對。"
       },
       "typical_seats": {
         "source": "長榮航空｜官方機型介紹",
@@ -454,6 +609,43 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/333_tcm33-69666.png"
+      },
+      "cabin_configurations": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A330-300/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "label": "總座位數與艙等配置",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 309,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 30
+              },
+              {
+                "name": "經濟艙",
+                "seats": 279
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A330 家族的廣體雙走道客機，可執行不同長度的航段。A330-300 與新一代 A330-900neo 不同，發動機與客艙配置不可混用。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a330/a330-300",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -469,15 +661,15 @@
       "as_of": "2026-10-01",
       "source_id": "evaFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "CFM56-5B",
+        "source": "MTU｜EVA A321-200 引擎維修合約",
+        "source_url": "https://www.mtu.de/newsroom/press/latest-press-releases/press-release-detail/mtu-maintenance-and-eva-air-sign-exclusive-engine-mro-contract-for-cfm56-5b-fleet/",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "確認系列；不自行外推 -5B3/P 等後綴。"
       },
       "typical_seats": {
         "source": "長榮航空｜官方機型介紹",
@@ -568,6 +760,43 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/321_tcm33-69670.png"
+      },
+      "cabin_configurations": {
+        "source": "長榮航空｜官方機型介紹",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A321-200/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "label": "總座位數與艙等配置",
+        "note": "官網目前公開配置；不推定每架飛機皆相同，實際航班可能調整機型或配置。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 184,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 176
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A320 家族的 A321 單走道客機；A321-200 與 A321neo 是不同版本，應分別研究引擎與客艙配置。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.evaair.com/en-global/fly-prepare/our-fleets/passenger-airplanes/A321-200/",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -583,15 +812,15 @@
       "as_of": "2026-10-01",
       "source_id": "evaFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "GE90 系列",
+        "source": "GE Aerospace｜EVA 777 貨機採購",
+        "source_url": "https://www.geaerospace.com/news/press-releases/commercial-engines/eva-orders-ge90-powered-boeing-777-freighter-aircraft-onpointsm",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "GE 訂購公告稱 GE90-115B，與一般 777F 規格資料有子型差異；此處僅確認 GE90 系列，精確子型待技術文件交叉核對。"
       },
       "typical_seats": {
         "source": "長榮航空｜官方機型介紹",
@@ -682,6 +911,17 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© EVA Airways，圖片權利屬原航空公司",
         "original_url": "https://www.evaair.com/en-global/images/77F_tcm33-69672.png"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 777 家族的專用雙發貨機，主艙用於載貨，不設一般客運艙等。777F 與 777-300ER 是不同用途的機型，不能以客機座位數描述其容量。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/777",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     }
   ],

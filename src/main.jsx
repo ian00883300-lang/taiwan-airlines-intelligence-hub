@@ -1,3 +1,4 @@
+import AircraftOverview from "./AircraftOverview.jsx";
 import AircraftPhoto from "./AircraftPhoto.jsx";
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
@@ -414,6 +415,9 @@ function AirlineCard({ a }) {
         <div>
           <h2>{a.name}</h2>
           <p>{a.english}</p>
+          <small className="airline-codes">
+            IATA {a.code} · ICAO {a.icao_code}
+          </small>
         </div>
         <a href={"#" + a.id} aria-label={"查看" + a.name}>
           <ArrowUpRight size={21} />
@@ -774,6 +778,7 @@ function Fleet({ a, tab }) {
                 aircraft={x}
                 airline={a.name}
               />
+              <AircraftOverview aircraft={x} Source={Source} />
               <details className="aircraft-detail">
                 <summary>
                   {x.aircraft_type}{" "}
@@ -784,8 +789,6 @@ function Fleet({ a, tab }) {
                 </summary>
                 <div className="spec-grid">
                   {[
-                    "engine",
-                    "typical_seats",
                     "range",
                     "main_routes",
                     "first_delivery",
@@ -878,12 +881,13 @@ function Airline({ a, tab = "overview", openInterview }) {
     <>
       <div className="airline-masthead" style={{ "--airline-color": a.color }}>
         <Heading
-          eyebrow={a.code + " / AIRLINE INTELLIGENCE"}
+          eyebrow={a.code + " / " + a.icao_code + " · AIRLINE INTELLIGENCE"}
           title={a.name}
           description={a.english + " · " + a.tag}
         >
           <span className="large-emblem" style={{ color: a.color }}>
             {a.code}
+            <small className="icao-emblem">{a.icao_code}</small>
           </span>
         </Heading>
       </div>

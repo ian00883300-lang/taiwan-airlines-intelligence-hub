@@ -113,6 +113,43 @@
         "description": "官方機型宣傳圖；星宇航空塗裝",
         "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
         "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/A321mohead_tcm5-14911.webp"
+      },
+      "cabin_configurations": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 188,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 180
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A320 家族的 A321 新引擎版本，採單走道客艙。不同航空公司可選用不同引擎與座位配置，不能只憑 neo 名稱推定選型。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -228,6 +265,43 @@
         "description": "官方機型宣傳圖；星宇航空塗裝",
         "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
         "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/A330mohead_tcm5-14913.webp"
+      },
+      "cabin_configurations": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a330neo",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 297,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 28
+              },
+              {
+                "name": "經濟艙",
+                "seats": 269
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A330neo 家族的廣體雙走道客機，使用 Trent 7000 引擎；與 A330-300 為不同版本，須分別查閱配置。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a330neo",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -345,6 +419,51 @@
         "description": "官方機型宣傳圖；星宇航空塗裝",
         "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
         "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/900mohead_tcm5-14914.webp"
+      },
+      "cabin_configurations": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-900",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 306,
+            "cabins": [
+              {
+                "name": "頭等艙",
+                "seats": 4
+              },
+              {
+                "name": "商務艙",
+                "seats": 26
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 36
+              },
+              {
+                "name": "經濟艙",
+                "seats": 240
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A350 家族的長程廣體雙發客機，採雙走道客艙與複合材料機體；與 A350-1000 同屬一個家族，但機身尺寸、發動機版本與座位配置不同。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-900",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -461,6 +580,51 @@
         "description": "官方機型宣傳圖；星宇航空塗裝",
         "credit": "© STARLUX Airlines，圖片權利屬原航空公司",
         "original_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/351newcover2mobile_tcm5-15626.jpg"
+      },
+      "cabin_configurations": {
+        "source": "星宇航空｜官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "官網列示配置，非機隊數量；實際航班座位以訂位與官方座位圖為準。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 350,
+            "cabins": [
+              {
+                "name": "頭等艙",
+                "seats": 4
+              },
+              {
+                "name": "商務艙",
+                "seats": 40
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 36
+              },
+              {
+                "name": "經濟艙",
+                "seats": 270
+              }
+            ]
+          }
+        ]
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "A350 家族的加長型長程廣體客機，搭配推力較大的 Trent XWB-97；不能將 A350-900 的引擎或艙等座位數直接套用。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-900",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     }
   ],

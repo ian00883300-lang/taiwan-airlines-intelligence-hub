@@ -32,7 +32,7 @@
         "as_of": null,
         "status": "confirmed",
         "label": "官方座位配置",
-        "value": "官方目前列出三種座位圖版本；不以單一座位數代表全機隊。",
+        "value": "306 席（標準配置）／300 席（A35C · B-18919）／331 席（A35D／A35G · B-18920）",
         "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
@@ -114,6 +114,82 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A350-900_tcm538-68203.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A350 家族的長程廣體雙發客機，採雙走道客艙與複合材料機體；與 A350-1000 同屬一個家族，但機身尺寸、發動機版本與座位配置不同。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-900",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。A35D／A35G 的 2027 年座號編排調整不改變總座位數。",
+        "layouts": [
+          {
+            "name": "標準配置",
+            "total": 306,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 32
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 31
+              },
+              {
+                "name": "經濟艙",
+                "seats": 243
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/A350-900_20260820_tcm517-67242.jpg"
+          },
+          {
+            "name": "A35C · B-18919",
+            "total": 300,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 40
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 32
+              },
+              {
+                "name": "經濟艙",
+                "seats": 228
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/A35C_20260820_tcm517-67243.jpg"
+          },
+          {
+            "name": "A35D／A35G · B-18920",
+            "total": 331,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 28
+              },
+              {
+                "name": "經濟艙",
+                "seats": 303
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/A35D_A35G_20261006_tcm517-79788.jpg"
+          }
+        ]
       }
     },
     {
@@ -129,15 +205,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "GE CF6-80E1",
+        "source": "華航｜2025 第四次法人說明會",
+        "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -147,7 +223,7 @@
         "as_of": null,
         "status": "confirmed",
         "label": "官方座位配置",
-        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "value": "307 席（配置一）／313 席（配置二）",
         "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
@@ -228,6 +304,59 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A330-300_tcm538-68202.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A330 家族的廣體雙走道客機，可執行不同長度的航段。A330-300 與新一代 A330-900neo 不同，發動機與客艙配置不可混用。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a330/a330-300",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
+        "layouts": [
+          {
+            "name": "配置一",
+            "total": 307,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 30
+              },
+              {
+                "name": "經濟艙",
+                "seats": 277
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/A330-300_20260820_tcm517-67241.jpg"
+          },
+          {
+            "name": "配置二",
+            "total": 313,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 36
+              },
+              {
+                "name": "經濟艙",
+                "seats": 277
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/A330-300_20260820_tcm517-67241.jpg"
+          }
+        ]
       }
     },
     {
@@ -243,15 +372,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "使用引擎",
+        "value": "GE90-115B",
+        "source": "Boeing｜華航聯名塗裝 777 交付",
+        "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
+        "published_date": "2016-05-16",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -261,7 +390,7 @@
         "as_of": null,
         "status": "confirmed",
         "label": "官方座位配置",
-        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "value": "358 席（官網列示配置）",
         "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
@@ -342,6 +471,48 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-777-300ER_tcm538-68199.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 777 家族的加長航程廣體雙發客機，採雙走道客艙；與 777F 分屬客運和貨運版本，各航空公司及航機的艙等配置可以不同。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/777",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 358,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 40
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 62
+              },
+              {
+                "name": "經濟艙",
+                "seats": 256
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B777-300ER_20260820_tcm517-67240.jpg"
+          }
+        ]
       }
     },
     {
@@ -357,15 +528,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "CFM56-7B",
+        "source": "華航｜2025 第四次法人說明會",
+        "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -375,7 +546,7 @@
         "as_of": null,
         "status": "confirmed",
         "label": "官方座位配置",
-        "value": "官方已提供此機型座位圖；總座位數待逐版核對。",
+        "value": "158 席（配置一）／161 席（配置二）",
         "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
@@ -456,6 +627,59 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-737-800_tcm538-68197.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 737 Next Generation 家族的單走道客機；737-800 與 737 MAX 8 為不同世代，研究時應分清機型名稱及引擎系列。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/737ng",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
+        "layouts": [
+          {
+            "name": "配置一",
+            "total": 158,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 150
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
+          },
+          {
+            "name": "配置二",
+            "total": 161,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 153
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
+          }
+        ]
       }
     },
     {
@@ -471,15 +695,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "使用引擎",
+        "value": "Pratt & Whitney PW1100G",
+        "source": "Airbus｜華航首架 A321neo",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2021-11-china-airlines-becomes-new-operator-of-a321neo",
+        "published_date": "2021-11-30",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -489,7 +713,7 @@
         "as_of": null,
         "status": "confirmed",
         "label": "官方座位配置",
-        "value": "官方目前列出兩種座位圖版本；不以單一座位數代表全機隊。",
+        "value": "180 席（32Q）／235 席（32C · B-18135／B-18136）",
         "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
       },
       "range": {
@@ -570,6 +794,59 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-A321neo_tcm538-68201.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "Airbus A320 家族的 A321 新引擎版本，採單走道客艙。不同航空公司可選用不同引擎與座位配置，不能只憑 neo 名稱推定選型。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。32C 前艙為豪華經濟艙，不是商務艙。",
+        "layouts": [
+          {
+            "name": "32Q",
+            "total": 180,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 12
+              },
+              {
+                "name": "經濟艙",
+                "seats": 168
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/32Q_20260820_tcm517-67239.jpg"
+          },
+          {
+            "name": "32C · B-18135／B-18136",
+            "total": 235,
+            "cabins": [
+              {
+                "name": "豪華經濟艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 227
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/32C-20260820_tcm517-77993.jpg"
+          }
+        ]
       }
     },
     {
@@ -585,15 +862,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "使用引擎",
+        "value": "GE CF6-80C2",
+        "source": "華航｜2025 第四次法人說明會",
+        "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -684,6 +961,17 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-747-400F_tcm538-68198.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 747-400 的四發貨機版本，具有上層駕駛艙與主貨艙；容量應以貨物載重與容積理解，不提供客運座位配置。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     },
     {
@@ -699,15 +987,15 @@
       "as_of": "2026-09-30",
       "source_id": "ciFleet",
       "engine": {
-        "label": "發動機",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "使用引擎",
+        "value": "GE90 系列",
+        "source": "華航｜新長程貨機公告",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20190508-1",
+        "published_date": "2019-05-08",
+        "verified_date": "2026-10-12",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "confirmed",
+        "note": "已確認 GE90 系列；精確子型號待技術文件交叉核對。"
       },
       "typical_seats": {
         "source": "中華航空｜官方座位圖",
@@ -798,6 +1086,17 @@
         "description": "官方機型示意圖（非實機攝影）",
         "credit": "© China Airlines，圖片權利屬原航空公司",
         "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation_777F_tcm538-68200.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 777 家族的專用雙發貨機，主艙用於載貨，不設一般客運艙等。777F 與 777-300ER 是不同用途的機型，不能以客機座位數描述其容量。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/777",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       }
     }
   ],
