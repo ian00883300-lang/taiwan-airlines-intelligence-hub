@@ -132,14 +132,19 @@
       },
       {
         "title": "2026 年首架 A350-1000",
-        "body": "Airbus 於 2026-01-06 確認首架交付；這是歷史交付事件，不是今天的機隊總數。",
-        "source": "Airbus｜STARLUX 首架 A350-1000",
-        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
-        "published_date": "2026-01-06",
-        "verified_date": "2026-10-11",
+        "body": "首架 A350-1000 於2026年1月5日交機（土魯斯當地）、2026年1月6日抵台、2026年2月10日首次載客飛航；Airbus 另於2026年1月6日發布交付公告。",
+        "source": "星宇｜首架 A350-1000 交付與返台",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+        "published_date": "2026-01-05",
+        "verified_date": "2026-10-12",
         "status": "confirmed",
-        "as_of": "2026-01-06",
-        "source_id": "jxDelivery"
+        "as_of": "2026-01-05",
+        "source_id": "jxHandover",
+        "event_ids": [
+          "jx-a350-1000-first-delivery",
+          "jx-a350-1000-arrival",
+          "jx-a350-1000-first-service"
+        ]
       }
     ],
     "governance": [

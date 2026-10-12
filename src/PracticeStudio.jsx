@@ -150,6 +150,7 @@ export function AnswerView({ q, length }) {
       <div className="answer-caption">
         <span>
           {length} 秒練習 · {mine ? "我的建議稿" : "通用示範"}
+          {q.practice_group && ` · ${q.practice_group}`}
         </span>
         <button aria-pressed={hidden} onClick={() => setHidden(!hidden)}>
           {hidden ? "顯示答案" : "隱藏答案，先試說"}

@@ -25,6 +25,14 @@
       "type": ["string", "null"],
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
+    "event_date": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "announced_event_date": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
     "status": {
       "enum": ["confirmed", "announced", "planned", "estimated", "unverified"]
     },

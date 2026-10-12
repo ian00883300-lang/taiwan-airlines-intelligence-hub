@@ -2050,3 +2050,17 @@ dialog.interview-dialog {
     font-size: 1.142857rem;
   }
 }
+.event-dates {
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid var(--border, #d4dce2);
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+  font-size: 0.9rem;
+}
+.event-dates p {
+  margin: 6px 0;
+}
+.event-dates > div + div {
+  margin-top: 12px;
+}

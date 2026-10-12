@@ -36,7 +36,7 @@
     "published_date": "2026-01-06",
     "level": 3,
     "as_of": "2026-01-06",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -143,10 +143,10 @@
     "id": "jxTwse",
     "source": "證交所｜星宇上市公司介紹",
     "source_url": "https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b",
-    "published_date": null,
+    "published_date": "2024-10-25",
     "level": 2,
-    "as_of": null,
-    "verified_date": "2026-10-11",
+    "as_of": "2024-10-25",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -246,7 +246,7 @@
     "published_date": null,
     "level": 1,
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -295,7 +295,7 @@
     "source_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
     "published_date": "2025-09-19",
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -315,7 +315,7 @@
     "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
     "published_date": "2025-10-03",
     "as_of": "2025-10-03",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -325,7 +325,7 @@
     "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
     "published_date": "2026-08-01",
     "as_of": "2026-08-01",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 3
   },
@@ -818,5 +818,45 @@
     "as_of": null,
     "status": "confirmed",
     "level": 3
+  },
+  {
+    "id": "jxHandover",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "published_date": "2026-01-05",
+    "as_of": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxArrival",
+    "source": "星宇｜首架 A350-1000 抵台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260106",
+    "published_date": "2026-01-06",
+    "as_of": "2026-01-06",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFirstService",
+    "source": "星宇｜A350-1000 JX802 首次載客飛航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260210",
+    "published_date": "2026-02-10",
+    "as_of": "2026-02-10",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxPragueOfficial",
+    "source": "星宇｜台北—布拉格首航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801",
+    "published_date": "2026-08-01",
+    "as_of": "2026-08-01",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
   }
 ]

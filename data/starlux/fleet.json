@@ -525,15 +525,21 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       },
       "first_delivery": {
-        "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "首次交付（土魯斯當地）",
+        "value": "2026-01-05",
+        "source": "星宇｜首架 A350-1000 交付與返台",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+        "published_date": "2026-01-05",
+        "as_of": "2026-01-05",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "jxHandover",
+        "event_ids": [
+          "jx-a350-1000-first-delivery",
+          "jx-a350-1000-arrival",
+          "jx-a350-1000-first-service"
+        ],
+        "note": "交機2026年1月5日；抵台2026年1月6日；首次載客2026年2月10日。"
       },
       "average_age": {
         "label": "平均機齡",
@@ -637,11 +643,11 @@
       "source": "Airbus｜STARLUX 首架 A350-1000",
       "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
       "published_date": "2026-01-06",
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-10-12",
       "status": "announced",
       "as_of": "2026-01-06",
       "source_id": "jxDelivery",
-      "note": "2026-01-06 首架交付時，該批總訂單 18 架；不是目前剩餘待交數。",
+      "note": "2026年1月6日 Airbus 公告首架已交付，該批總訂單 18 架；公告發布日不直接代表交機日，18 架也不是目前剩餘待交数。",
       "quantity_basis": "program_total"
     }
   ],
@@ -658,15 +664,21 @@
       "source_id": "jxAnnual"
     },
     {
-      "date": "2026-01-06",
-      "label": "首架 A350-1000 交付",
-      "source": "Airbus｜STARLUX 首架 A350-1000",
-      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
-      "published_date": "2026-01-06",
-      "verified_date": "2026-10-11",
+      "date": "2026-01-05",
+      "date_kind": "event",
+      "label": "首架 A350-1000 交付（土魯斯當地）；不同於 Airbus 2026年1月6日公告日",
+      "source": "星宇｜首架 A350-1000 交付與返台",
+      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+      "published_date": "2026-01-05",
+      "as_of": "2026-01-05",
+      "verified_date": "2026-10-12",
       "status": "confirmed",
-      "as_of": "2026-01-06",
-      "source_id": "jxDelivery"
+      "source_id": "jxHandover",
+      "event_ids": [
+        "jx-a350-1000-first-delivery",
+        "jx-a350-1000-arrival",
+        "jx-a350-1000-first-service"
+      ]
     }
   ],
   "retired": [],

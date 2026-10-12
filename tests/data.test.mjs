@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import Ajv from "ajv";
+import { formatEventDate } from "../src/event-dates.mjs";
 const read = (p) =>
   JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
 const ids = ["china-airlines", "eva-air", "starlux"];
@@ -16,6 +17,94 @@ function walk(x, path, fn) {
   if (!Array.isArray(x)) fn(x, path);
   for (const [k, v] of Object.entries(x)) walk(v, path + "." + k, fn);
 }
+test("STARLUX has at least twelve culture exercises without inventing company policies", () => {
+  const questions = read("data/interview-bank.json").filter(
+    (q) => q.airline === "starlux",
+  );
+  const culture = questions.filter(
+    (q) => q.practice_group === "品牌理念與價值觀",
+  );
+  assert.ok(questions.length >= 12);
+  assert.ok(culture.length >= 12);
+  const linked = read("data/starlux/interview.json").question_ids;
+  for (const q of culture) {
+    assert.ok(linked.includes(q.id), q.id);
+    assert.equal(q.content_type, "original_practice");
+    assert.equal(q.answer_basis, "personal_reasoning");
+    assert.equal(
+      q.source_url,
+      null,
+      "Personal opinions must not be attributed to an official page",
+    );
+    assert.equal(q.verified_date, null);
+    assert.equal(q.company_context.source_id, "jxTwse");
+    assert.equal(q.company_context.verified_date, "2026-10-12");
+    assert.equal(q.company_context.status, "confirmed");
+  }
+});
+test("Inauguration and handover dates never fall back to article publication dates", () => {
+  const events = read("data/events.json");
+  const eventIds = new Set(events.map((e) => e.id));
+  assert.equal(eventIds.size, events.length);
+  for (const [p, x] of all)
+    walk(x, p, (o, path) => {
+      for (const id of o.event_ids || []) assert.ok(eventIds.has(id), path);
+    });
+  for (const air of ids)
+    for (const route of read(`data/${air}/routes.json`).items)
+      assert.ok(route.event_ids.length, route.id);
+  for (const event of events) {
+    assert.ok(
+      ["delivery", "inaugural", "arrival", "entry_into_service"].includes(
+        event.event_type,
+      ),
+    );
+    if (event.event_date) {
+      assert.notEqual(formatEventDate(event.event_date), "確切年月日待查核");
+      assert.equal(event.status, "confirmed");
+    } else assert.equal(event.status, "unverified");
+  }
+  const delivery = events.find((e) => e.id === "jx-a350-1000-first-delivery");
+  assert.equal(delivery.event_date, "2026-01-05");
+  assert.equal(delivery.source_id, "jxHandover");
+  assert.equal(
+    events.find((e) => e.id === "jx-a350-1000-arrival").event_date,
+    "2026-01-06",
+  );
+  assert.equal(
+    events.find((e) => e.id === "jx-a350-1000-first-service").event_date,
+    "2026-02-10",
+  );
+  assert.equal(
+    events.find((e) => e.id === "china-airlines-phx-inaugural").event_date,
+    null,
+  );
+  const q = read("data/interview-bank.json").find((q) => q.id === "fleet-jx");
+  for (const key of ["answer_30", "answer_60"]) {
+    assert.ok(q[key].includes("6 January 2026"));
+    assert.ok(q[key].includes("5 January 2026"));
+    assert.ok(q[key].includes("10 February 2026"));
+    assert.ok(!q[key].includes("in January 2026"));
+  }
+  assert.ok(q.answer_60.includes("publication date"));
+  for (const key of ["answer_zh_30", "answer_zh_60"]) {
+    assert.ok(q[key].includes("2026年1月6日"));
+    assert.ok(q[key].includes("2026年1月5日"));
+    assert.ok(q[key].includes("2026年2月10日"));
+  }
+});
+test("Event dates use full calendar dates and reject missing days or invalid dates", () => {
+  assert.equal(formatEventDate("2026-08-01"), "2026年8月1日");
+  assert.equal(formatEventDate("2024-02-29"), "2024年2月29日");
+  for (const input of [
+    null,
+    "2026-01",
+    "2026-02-29",
+    "2026-13-01",
+    "2026-04-31",
+  ])
+    assert.equal(formatEventDate(input), "確切年月日待查核");
+});
 test("All evidence has valid metadata and verified dates do not fabricate publication dates", () => {
   let n = 0;
   for (const [p, x] of all)
@@ -199,9 +288,14 @@ test("Home-screen icon files match declared sizes and manifest stays under site 
 });
 
 test("Consolidated topics preserve every legacy research entry exactly once", () => {
-  const members = read("data/research-groups.json").flatMap(g => g.members);
+  const members = read("data/research-groups.json").flatMap((g) => g.members);
   assert.equal(new Set(members).size, members.length);
-  assert.deepEqual([...members].sort(), read("data/sections.json").map(s => s.id).sort());
+  assert.deepEqual(
+    [...members].sort(),
+    read("data/sections.json")
+      .map((s) => s.id)
+      .sort(),
+  );
 });
 
 test("Every passenger layout reconciles cabin counts to its total and all aircraft expose engines and introductions", () => {

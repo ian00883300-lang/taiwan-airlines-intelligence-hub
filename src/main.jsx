@@ -41,6 +41,8 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import "./research.css";
 import "./reading.css";
+import EventDates from "./EventDates.jsx";
+import { formatEventDate } from "./event-dates.mjs";
 import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
 import {
   TrainingPath,
@@ -145,6 +147,23 @@ function Badge({ status }) {
 }
 function Source({ item, compact = false }) {
   if (!item) return null;
+  if (
+    item.content_type === "original_practice" &&
+    item.answer_basis === "personal_reasoning"
+  )
+    return (
+      <>
+        {item.company_context && (
+          <>
+            <p>{item.company_context.value}</p>
+            <Source item={item.company_context} />
+          </>
+        )}
+        <p className="fineprint">
+          原創情境與個人價值觀練習；回答中的建議是練習思路，不是星宇官方政策或內部文化的查核結果。
+        </p>
+      </>
+    );
   return (
     <details className={"source " + (compact ? "compact" : "")}>
       <summary>
@@ -396,6 +415,7 @@ function RouteMap({ initial = "all" }) {
                   {getAir(r.airline).name} ·{" "}
                   {data("airports").items[r.destination].name}
                 </p>
+                <EventDates ids={r.event_ids} />
                 <Source item={r} compact />
               </div>
             </article>
@@ -798,7 +818,8 @@ function Fleet({ a, tab }) {
                   ].map((k) => (
                     <div key={k}>
                       <small>{x[k].label}</small>
-                      <p>{x[k].value ?? PENDING}</p>
+                      <p>{k === "first_delivery" ? formatEventDate(x[k].value) : (x[k].value ?? PENDING)}</p>
+                      <EventDates ids={x[k].event_ids} />
                       <Source item={x[k]} compact />
                     </div>
                   ))}
@@ -815,6 +836,7 @@ function Fleet({ a, tab }) {
             <article key={i}>
               <b>{e.date}</b>
               <p>{e.label}</p>
+              <EventDates ids={e.event_ids} />
               <Source item={e} />
             </article>
           ))}
@@ -1243,7 +1265,7 @@ function QuestionBank({
       (difficulty === "all" || q.difficulty === difficulty) &&
       (mode === "all" ||
         (mode === "saved" ? saved : mastered).includes(q.id)) &&
-      `${q.question} ${q.question_en} ${q.keywords}`
+      `${q.question} ${q.question_en} ${q.keywords} ${q.practice_group || ""}`
         .toLowerCase()
         .includes(query.toLowerCase()),
   );
@@ -1320,8 +1342,9 @@ function QuestionBank({
             onChange={(e) => setDifficulty(e.target.value)}
           >
             <option value="all">全部難度</option>
-            <option>基礎</option>
-            <option>中階</option>
+            {[...new Set(bank.map((q) => q.difficulty))].map((level) => (
+              <option key={level}>{level}</option>
+            ))}
           </select>
         </label>
         <label>
@@ -1357,6 +1380,9 @@ function QuestionBank({
             </div>
             <h3>{q.question}</h3>
             <p>{q.question_en}</p>
+            {q.practice_group && (
+              <p className="fineprint">{q.practice_group}</p>
+            )}
             <div className="question-bottom">
               {q.keywords.slice(0, 2).map((k) => (
                 <span key={k}>{k}</span>
@@ -1463,6 +1489,7 @@ function InterviewDialog({
         </button>
       </div>
       <AnswerView q={q} length={length} />
+      <EventDates ids={q.event_ids} />
       <Source item={q} />
       <label className="notes-label">
         我的口說筆記
@@ -1494,7 +1521,7 @@ function Sources() {
       <Heading
         eyebrow="EVIDENCE BEFORE ANSWERS"
         title="來源與查核"
-        description="官方資料優先，未知就留白。資料查核日：2026-10-11。"
+        description="官方資料優先，逐筆保留查核日期。星宇面試背景與事件日期最近查核：2026-10-12。"
       />
       <div className="facts-grid">
         {[

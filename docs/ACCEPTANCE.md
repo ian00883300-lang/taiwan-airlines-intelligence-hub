@@ -14,7 +14,7 @@
 |8|Route Network|完成；Leaflet/OSM、公司/9區域篩選，5條代表航線；非完整航網|
 |9|三雄比較|完成22面向；未知值標記；財務邊界分列|
 |10|Interview View|完成；Why、Question、30/60秒、中英、Keywords、計時與筆記|
-|11|Question Bank|完成；20題、15類、三家+General、難度及搜尋|
+|11|Question Bank|完成；36題、15類、三家+General、難度及搜尋|
 |12|Weekly Intelligence|完成結構與2則本週消息；1則較早背景分開；星宇本週待查核|
 |13|更新機制|完成static-first /data；人工更新指南；未啟用自動爬取|
 |14|GitHub|已建立公開repository；GitHub Actions資料檢查與build通過|

@@ -62,3 +62,19 @@ source/source_url/published_date/verified_date/status 必備，另附 as_of、sc
 # 2026-10-11 追加查核
 
 新增培訓法規、華航合併財報與社會參與來源已逐筆記錄於 `data/sources.json`，查核與截圖差異見 [SCREENSHOT-VERIFICATION](docs/SCREENSHOT-VERIFICATION.md)。截图本身不作數據依據。
+
+## 2026年10月12日：星宇面試背景與事件日期重查
+
+|來源|支持內容|事件日／發布日|網址|
+|---|---|---|---|
+|星宇首架 A350-1000 交機稿|正文「包含今日交付的A350-1000」，土魯斯5日14:10起飛返台|交機2026年1月5日；稿件日期01月05日，2026年度新聞索引|https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105|
+|星宇抵台稿|「今（6）日上午10:15正式降落桃園」|抵台2026年1月6日|https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260106|
+|星宇 JX802 首航稿|「今（10）日」首次載客，TPE–NRT|機型首次載客2026年2月10日；不是成田航線初次開航|https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260210|
+|星宇布拉格首航稿|台北—布拉格「今（1）日啟航」|首航2026年8月1日|https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801|
+|布拉格機場首航稿|1.8.2026、launching its direct flight route today|2026年8月1日，與航空公司交叉核對|https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today|
+|長榮達拉斯首航稿|標題「Inaugural Flight on October 3, 2025」，內文today’s DFW–TPE flight|2025年10月3日，達拉斯端當地事件|https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html|
+|證交所星宇公司介紹|全服務精品航空、具挑戰精神文化、flight safety as core value|發布2024年10月25日；本次重查2026年10月12日|https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b|
+
+Airbus 2026年1月6日的新聞稿用於交叉比對已交付事實，不能替代星宇新聞稿所支持的土魯斯2026年1月5日交機日。
+12題品牌理念／價值觀／企業文化練習使用證交所介紹作為公開背景；示範回答的個人態度與做法屬原創練習，不歸因為公司內部政策或標準答案。
+華航2025年9月19日新聞稿支持預定2025年12月3日開航鳳凰城；本次尚未找到實際首航的事後官方證據，保留「預定開航日」並將實際首航日留為 null。大阪、長榮成田首航日亦未完成查核。

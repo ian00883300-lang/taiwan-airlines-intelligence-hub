@@ -13,9 +13,10 @@
       "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
       "published_date": "2026-08-01",
       "as_of": "2026-08-01",
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-10-12",
       "source_id": "jxPrg",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
+      "event_ids": ["jx-prague-inaugural"]
     },
     {
       "id": "starlux-KIX",
@@ -29,9 +30,10 @@
       "source_url": "https://www.starlux-airlines.com/flights/zh/flights-from-osaka-to-taipei",
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-10-12",
       "source_id": "jxRoute",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
+      "event_ids": ["starlux-kix-inaugural"]
     }
   ]
 }

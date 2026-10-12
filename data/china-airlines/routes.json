@@ -16,7 +16,8 @@
       "verified_date": "2026-10-11",
       "source_id": "ciRouteLive",
       "corroboration_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
+      "event_ids": ["china-airlines-phx-inaugural"]
     }
   ]
 }

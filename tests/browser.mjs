@@ -113,7 +113,7 @@ try {
     "Question search, difficulty and topic filters work together",
     async () => {
       await go("interview");
-      assert.equal(await page.locator(".question-card").count(), 20);
+      assert.equal(await page.locator(".question-card").count(), 36);
       await page.getByLabel("主題").selectOption("Fleet");
       assert.equal(await page.locator(".question-card").count(), 3);
       await page.getByLabel("航空公司").selectOption("eva-air");
@@ -251,7 +251,18 @@ try {
   await browser.close();
   fs.writeFileSync(
     "tests/browser-results.json",
-    JSON.stringify({ date: "2026-10-11", base, results, errors }, null, 2),
+    JSON.stringify(
+      {
+        date: new Intl.DateTimeFormat("en-CA", {
+          timeZone: "Asia/Taipei",
+        }).format(new Date()),
+        base,
+        results,
+        errors,
+      },
+      null,
+      2,
+    ),
   );
 }
 if (results.some((x) => !x.pass)) process.exitCode = 1;

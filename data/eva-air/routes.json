@@ -13,9 +13,10 @@
       "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
       "published_date": "2025-10-03",
       "as_of": "2025-10-03",
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-10-12",
       "source_id": "brDfw",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
+      "event_ids": ["br-dallas-inaugural"]
     },
     {
       "id": "eva-air-NRT",
@@ -31,7 +32,8 @@
       "as_of": null,
       "verified_date": "2026-10-11",
       "source_id": "evaRoute",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
+      "event_ids": ["eva-air-nrt-inaugural"]
     }
   ]
 }
