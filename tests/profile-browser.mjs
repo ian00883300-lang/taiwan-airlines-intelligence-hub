@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 const base = process.env.TEST_URL || "http://127.0.0.1:4173/";
 const browser = await chromium.launch({ headless: true, executablePath: process.env.BROWSER_PATH || "/usr/bin/chromium" });
 const checks = [
-  ["starlux/overview", "董事會7席"],
+  ["starlux/overview", "7席董事"],
   ["starlux/cadet", "6,224"],
   ["starlux/routes", "阿提哈德"],
   ["starlux/operations", "JX Cargo APP"],
