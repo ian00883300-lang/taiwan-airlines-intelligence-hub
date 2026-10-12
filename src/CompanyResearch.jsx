@@ -289,11 +289,11 @@ export function StrategyResearch({ airline, Source }) {
           <tbody>
             {dossier.airlines[airline].strategy.map((row) => (
               <tr key={row.theme}>
-                <th scope="row">
+                <th scope="row" data-label="方向">
                   {row.theme}
                   <small>{row.stage}</small>
                 </th>
-                <td>
+                <td data-label="官方事實與來源">
                   {row.official_fact}
                   <Source item={row} compact />
                   {(row.supporting_source_ids || []).map((id) => (
@@ -304,8 +304,8 @@ export function StrategyResearch({ airline, Source }) {
                     />
                   ))}
                 </td>
-                <td>{row.analysis}</td>
-                <td>
+                <td data-label="營運／商業解讀">{row.analysis}</td>
+                <td data-label="追蹤指標與風險">
                   <strong>指標</strong>
                   <p>{row.kpi}</p>
                   <strong>風險</strong>

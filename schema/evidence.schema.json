@@ -22,9 +22,9 @@
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
     "as_of": {
-      "type": ["string", "null"],
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      "type": ["string", "null"]
     },
+    "date_precision": { "enum": ["day", "month"] },
     "event_date": {
       "type": ["string", "null"],
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
@@ -53,6 +53,16 @@
     "current_fleet": { "type": ["integer", "null"], "minimum": 0 }
   },
   "allOf": [
+    {
+      "if": {
+        "required": ["date_precision"],
+        "properties": { "date_precision": { "const": "month" } }
+      },
+      "then": { "properties": { "as_of": { "pattern": "^\\d{4}-\\d{2}$" } } },
+      "else": {
+        "properties": { "as_of": { "pattern": "^\\d{4}-\\d{2}-\\d{2}$" } }
+      }
+    },
     {
       "if": {
         "properties": {

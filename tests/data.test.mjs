@@ -322,6 +322,19 @@ test("STARLUX historical 29 and program order 18 do not become a current total",
   assert.ok(f.items.every((x) => x.current_fleet === null));
   assert.equal(f.history[0].as_of, "2025-12-31");
   assert.equal(f.orders[0].delivery_state, "order_program");
+  assert.equal(f.latest_confirmed_total.value, 31);
+  assert.equal(f.latest_confirmed_total.as_of, "2026-03");
+  assert.equal(f.latest_confirmed_total.date_precision, "month");
+  assert.equal(f.composition_snapshot.as_of, "2025-12-31");
+  assert.equal(
+    f.composition_snapshot.rows.reduce((sum, row) => sum + row.quantity, 0),
+    f.composition_snapshot.total,
+  );
+  assert.ok(
+    f.composition_snapshot.rows.every((row) =>
+      f.items.some((item) => item.aircraft_type === row.aircraft_type),
+    ),
+  );
 });
 test("Order lifecycle and classification are explicit", () => {
   for (const id of ids)

@@ -26,6 +26,26 @@ try {
   }
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 1000 });
+    await go("home");
+    assert.equal(await page.locator("canvas").count(), 3);
+    const starluxCard = page
+      .locator(".airline-card")
+      .filter({ hasText: "星宇航空" });
+    assert.match(await starluxCard.innerText(), /31/);
+    assert.match(await starluxCard.innerText(), /2026年3月/);
+    await fits("three airline charts " + width);
+    await go("starlux/fleet");
+    assert.match(
+      await page.locator(".fleet-snapshot-summary").innerText(),
+      /31[\s\S]*2026年3月[\s\S]*29[\s\S]*2025年12月31日/,
+    );
+    assert.equal(await page.locator(".donut-center b").innerText(), "29");
+    const a330 = page
+      .locator(".fleet-layout tbody tr")
+      .filter({ hasText: "A330-900" });
+    assert.equal(await a330.locator("td").nth(1).innerText(), "6");
+    assert.equal(await a330.locator("td").nth(3).innerText(), "2025-12-31");
+    await fits("STARLUX separate total and composition " + width);
     for (const airline of ["china-airlines", "eva-air", "starlux"]) {
       await go(airline + "/overview");
       assert.ok((await page.locator(".company-timeline li").count()) >= 6);

@@ -31,11 +31,11 @@ const go = async (hash = "home") => {
 };
 try {
   await check(
-    "Production dashboard loads three airlines and two real charts",
+    "Production dashboard loads three airlines and three dated charts",
     async () => {
       await go();
       assert.equal(await page.locator(".airline-card").count(), 3);
-      assert.equal(await page.locator("canvas").count(), 2);
+      assert.equal(await page.locator("canvas").count(), 3);
       assert.ok(
         (await page.locator("h1").innerText()).includes("台灣航空情報中心"),
       );

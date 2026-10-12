@@ -751,6 +751,112 @@
 .deep-research li {
   margin: 7px 0;
 }
+.fleet-snapshot-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #dce5ed;
+  border-radius: 12px;
+  background: #f7f9fb;
+}
+.fleet-snapshot-summary strong {
+  display: block;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  color: #6b522e;
+}
+.fleet-snapshot-summary small {
+  font-size: 1rem;
+}
+.fleet-snapshot-note {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.donut-block:has(> .fineprint) {
+  flex-wrap: wrap;
+}
+.donut-block > .fineprint {
+  flex-basis: 100%;
+  min-width: 0;
+  margin: 0;
+}
+.source > summary {
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.source > summary > span {
+  overflow-wrap: anywhere;
+}
+.research-table td {
+  font-variant-numeric: tabular-nums;
+}
+.strategy-research table {
+  min-width: 960px;
+}
+.strategy-research th:first-child {
+  width: 16%;
+}
+.home-columns .two-charts {
+  grid-template-columns: minmax(0, 1fr);
+}
+.home-columns .two-charts > div + div {
+  border-left: 0;
+  padding-left: 0;
+  border-top: 1px solid #dce5ed;
+  padding-top: 20px;
+}
+@media (max-width: 760px) {
+  .strategy-research .table-wrap {
+    border: 0;
+    background: transparent;
+    overflow: visible;
+  }
+  .strategy-research .research-table table {
+    display: block;
+    min-width: 0;
+  }
+  .strategy-research caption {
+    display: block;
+    padding: 12px 0;
+  }
+  .strategy-research thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .strategy-research tbody {
+    display: block;
+  }
+  .strategy-research tr {
+    display: block;
+    margin-bottom: 18px;
+    border: 1px solid #dce5ed;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+  }
+  .strategy-research th:first-child,
+  .strategy-research td {
+    display: block;
+    width: auto;
+    padding: 16px;
+  }
+  .strategy-research td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 8px;
+    color: #587388;
+    font-weight: 600;
+  }
+  .fleet-snapshot-summary {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 18px;
+  }
+}
 @media (max-width: 600px) {
   .company-timeline li {
     grid-template-columns: minmax(0, 1fr);

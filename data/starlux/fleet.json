@@ -727,5 +727,46 @@
       "date": "2033年（計畫年份；逐架交機年月日未公告）"
     }
   ],
-  "replacement_timeline": []
+  "replacement_timeline": [],
+  "latest_confirmed_total": {
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "level": 1,
+    "as_of": "2026-03",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "value": 31,
+    "date_precision": "month",
+    "label": "官方機隊快照",
+    "note": "2025年報印刷頁碼102：截至2026年3月共31架；來源未列日與同月完整分型數量。這是歷史快照，並非今日即時總數。"
+  },
+  "composition_snapshot": {
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "level": 1,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "total": 29,
+    "label": "年末分型快照",
+    "rows": [
+      {
+        "aircraft_type": "A321neo",
+        "quantity": 13
+      },
+      {
+        "aircraft_type": "A330-900",
+        "quantity": 6
+      },
+      {
+        "aircraft_type": "A350-900",
+        "quantity": 10
+      }
+    ],
+    "note": "2025年報印刷頁碼4：2025年年底完整分型數量。2026年已有新機交付，不能當作今日現役組成，也不能與2026年3月31架總數混算。"
+  }
 }

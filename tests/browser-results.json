@@ -3,7 +3,7 @@
   "base": "http://127.0.0.1:4173/",
   "results": [
     {
-      "name": "Production dashboard loads three airlines and two real charts",
+      "name": "Production dashboard loads three airlines and three dated charts",
       "pass": true
     },
     {

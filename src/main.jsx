@@ -249,9 +249,11 @@ function SectionTitle({ title, en, link }) {
 }
 function Donut({ airline }) {
   const canvas = useRef();
-  let f = data(airline.id + "/fleet").items.filter(
-    (x) => x.current_fleet !== null,
-  );
+  const fleet = data(airline.id + "/fleet");
+  const historical = airline.total.value === null && fleet.composition_snapshot;
+  let f = fleet.items.filter((x) => x.current_fleet !== null);
+  if (historical)
+    f = historical.rows.map((row) => ({ ...row, current_fleet: row.quantity }));
   useEffect(() => {
     if (!canvas.current || !f.length) return;
     let chart = new Chart(canvas.current, {
@@ -291,7 +293,7 @@ function Donut({ airline }) {
         />
         <div className="donut-center">
           <b>{f.reduce((s, x) => s + x.current_fleet, 0)}</b>
-          <span>現役 / 架</span>
+          <span>{historical ? "年末快照 / 架" : "現役 / 架"}</span>
         </div>
       </div>
       <ul className="chart-legend">
@@ -303,6 +305,11 @@ function Donut({ airline }) {
           </li>
         ))}
       </ul>
+      {historical && (
+        <p className="fineprint">
+          分型基準 {historical.as_of}；不同於2026年3月總數。
+        </p>
+      )}
     </div>
   );
 }
@@ -310,6 +317,7 @@ function RouteMap(props) {
   return <RouteNetwork {...props} Source={Source} />;
 }
 function AirlineCard({ a }) {
+  const snapshot = data(a.id + "/fleet").latest_confirmed_total;
   return (
     <article className="airline-card" style={{ "--brand": a.color }}>
       <div className="airline-card-head">
@@ -331,6 +339,11 @@ function AirlineCard({ a }) {
             <strong>{a.total.value}</strong>
             <span>架現役機隊</span>
           </>
+        ) : snapshot ? (
+          <>
+            <strong>{snapshot.value}</strong>
+            <span>架 · 官方歷史快照</span>
+          </>
         ) : (
           <strong className="pending-number">待查核</strong>
         )}
@@ -338,8 +351,11 @@ function AirlineCard({ a }) {
       <p className="fleet-date">
         {a.total.as_of
           ? "資料基準 " + a.total.as_of
-          : "當前總數 Data pending verification"}
+          : snapshot
+            ? "資料基準 2026年3月（來源未列日）"
+            : "當前總數 Data pending verification"}
       </p>
+      {snapshot && <Source item={snapshot} compact />}
       <div className="mini-facts">
         <div>
           <span>成立 Founded</span>
@@ -434,11 +450,14 @@ function Home({ openInterview }) {
         <section className="panel">
           <SectionTitle title="機隊組成" en="Fleet snapshot" link="compare" />
           <div className="two-charts">
-            {airlines.slice(0, 2).map((a) => (
+            {airlines.map((a) => (
               <div key={a.id}>
                 <h3>
                   {a.name}
-                  <small>{a.total.as_of}</small>
+                  <small>
+                    {a.total.as_of ||
+                      data(a.id + "/fleet").composition_snapshot?.as_of}
+                  </small>
                 </h3>
                 <Donut airline={a} />
               </div>
@@ -624,16 +643,46 @@ function Fleet({ a, tab }) {
     );
   return (
     <>
+      {f.latest_confirmed_total && (
+        <section
+          className="fleet-snapshot-summary"
+          aria-label="星宇官方機隊數量"
+        >
+          <div>
+            <span>最新已查核總數</span>
+            <strong>
+              {f.latest_confirmed_total.value}
+              <small> 架</small>
+            </strong>
+            <p>2026年3月 · 月份快照</p>
+            <Source item={f.latest_confirmed_total} compact />
+          </div>
+          <div>
+            <span>完整分型快照</span>
+            <strong>
+              {f.composition_snapshot.total}
+              <small> 架</small>
+            </strong>
+            <p>2025年12月31日 · 年末快照</p>
+            <Source item={f.composition_snapshot} compact />
+          </div>
+          <p className="fleet-snapshot-note">
+            兩個基準不同，勿直接混算。2026年底43架是計畫；今日即時總數與分型仍待更新來源。
+          </p>
+        </section>
+      )}
       <div className="fleet-layout">
         <section className="panel">
           <h3>{a.name} · 機隊組成</h3>
           <Donut airline={a} />
-          <Source item={a.total} />
+          <Source item={f.composition_snapshot || a.total} />
         </section>
         <div>
           <p className="notice">
-            Current Fleet
-            僅計現役。訂單、未來計畫、已退役皆分開保存。未知值不視為 0。
+            {f.composition_snapshot
+              ? "分型數量採2025年12月31日快照；未有同日證據的機型顯示待查核。"
+              : "Current Fleet 僅計現役。"}{" "}
+            訂單、未來計畫與已退役分開保存。未知值不視為 0。
           </p>
           <label>
             篩選機隊
@@ -648,7 +697,7 @@ function Fleet({ a, tab }) {
               <thead>
                 <tr>
                   <th>機型</th>
-                  <th>現役</th>
+                  <th>{f.composition_snapshot ? "年末數量" : "現役"}</th>
                   <th>任務</th>
                   <th>基準日</th>
                 </tr>
@@ -659,9 +708,22 @@ function Fleet({ a, tab }) {
                   .map((x) => (
                     <tr key={x.aircraft_type}>
                       <td>{x.aircraft_type}</td>
-                      <td>{x.current_fleet ?? "待查核"}</td>
+                      <td>
+                        {x.current_fleet ??
+                          f.composition_snapshot?.rows.find(
+                            (row) => row.aircraft_type === x.aircraft_type,
+                          )?.quantity ??
+                          "待查核"}
+                      </td>
                       <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
-                      <td>{x.as_of || "待查核"}</td>
+                      <td>
+                        {x.as_of ||
+                          (f.composition_snapshot?.rows.some(
+                            (row) => row.aircraft_type === x.aircraft_type,
+                          )
+                            ? f.composition_snapshot.as_of
+                            : "待查核")}
+                      </td>
                     </tr>
                   ))}
               </tbody>
@@ -927,7 +989,9 @@ function comparisonValue(a, key) {
     case "fleet":
       return a.total.value !== null
         ? `${a.total.value} 架 (${a.total.as_of})`
-        : PENDING;
+        : f.latest_confirmed_total
+          ? `${f.latest_confirmed_total.value} 架（${f.latest_confirmed_total.as_of}，歷史快照）`
+          : PENDING;
     case "age":
       return rec(a.age);
     case "types":
