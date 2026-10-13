@@ -22,7 +22,7 @@
         "cargo_tonnes": 1266861,
         "ftk_thousand": 5669981,
         "aftk_thousand": 8462118,
-        "cargo_load_factor": 67.0
+        "cargo_load_factor": 67
       },
       {
         "airline": "eva-air",
@@ -93,6 +93,45 @@
           "source_id": "ciAlliance"
         },
         {
+          "date": "2016-09-30",
+          "date_kind": "event",
+          "label": "首架 A350-900 交付",
+          "body": "製造商確認土魯斯交付典禮日期。",
+          "source": "Airbus｜華航首架 A350-900 交付",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2016-09-china-airlines-becomes-new-operator-of-the-a350-xwb",
+          "published_date": "2016-09-30",
+          "as_of": "2016-09-30",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciA350FirstDelivery"
+        },
+        {
+          "date": "2021-11-29",
+          "date_kind": "event",
+          "label": "首架 A321neo 交付",
+          "body": "德國漢堡當地交付日；不是 2022 年首次載客日。",
+          "source": "華航｜首架 A321neo 交機",
+          "source_url": "https://www.china-airlines.com/uk/zh/about-china-airlines/media/news/20211129",
+          "published_date": "2021-11-29",
+          "as_of": "2021-11-29",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciNeoDelivery"
+        },
+        {
+          "date": "2022-03-27",
+          "date_kind": "event",
+          "label": "A321neo 首次載客服務",
+          "body": "桃園—香港投入服務；不是該航線創始日期。",
+          "source": "華航｜A321neo 首次載客與香港任務",
+          "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20220327.html",
+          "published_date": "2022-03-27",
+          "as_of": "2022-03-27",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciNeoFirstService"
+        },
+        {
           "date": "2023-06-21",
           "label": "787訂單公告",
           "body": "訂購與交付／投入營運分開。",
@@ -104,6 +143,32 @@
           "verified_date": "2026-10-11",
           "status": "confirmed",
           "source_id": "ciOrder"
+        },
+        {
+          "date": "2023-07-19",
+          "date_kind": "event",
+          "label": "布拉格首航抵達",
+          "body": "CI067 抵達布拉格；本日期指當地抵達及慶祝儀式。",
+          "source": "華航｜布拉格首航抵達與歐洲六航點",
+          "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20230719.html",
+          "published_date": "2023-07-19",
+          "as_of": "2023-07-19",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciPragueActual"
+        },
+        {
+          "date": "2023-09-18",
+          "date_kind": "event",
+          "label": "台北—熊本首航",
+          "body": "A321neo 執飛，拓展九州客運航網。",
+          "source": "華航｜台北—熊本正式開航",
+          "source_url": "https://www.china-airlines.com/sea/zh/about-china-airlines/media/news/20230918.html",
+          "published_date": "2023-09-18",
+          "as_of": "2023-09-18",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciKumamotoActual"
         },
         {
           "date": "2025-03-31",
@@ -577,6 +642,45 @@
           "source_id": "jxTwse"
         },
         {
+          "date": "2022-02-18",
+          "date_kind": "event",
+          "label": "首架 A330-900 交付",
+          "body": "Safran 明示 2 月 18 日交付；Airbus 2 月 21 日發稿日不當成交付日。",
+          "source": "Safran｜星宇 A330neo 交付及座椅投入服務",
+          "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+          "published_date": "2022-06-02",
+          "as_of": "2022-02-18",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxA330DeliverySafran"
+        },
+        {
+          "date": "2022-10-28",
+          "date_kind": "event",
+          "label": "首架 A350-900 交付",
+          "body": "首架 B-58501 於土魯斯交付；交付與首次營運分開。",
+          "source": "星宇航空新聞稿（PR Newswire）｜首架 A350-900 交付",
+          "source_url": "https://www.prnewswire.com/news-releases/starlux-takes-delivery-of-first-a350-900-301662756.html",
+          "published_date": "2022-10-28",
+          "as_of": "2022-10-28",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxA350DeliveryRelease"
+        },
+        {
+          "date": "2024-08-16",
+          "date_kind": "event",
+          "label": "台北—西雅圖首航",
+          "body": "A350-900 首航紀錄；與當前派飛配置分開。",
+          "source": "西雅圖港務局｜星宇西雅圖首航",
+          "source_url": "https://www.portseattle.org/news/starlux-airlines-takes-skies-nonstop-service-sea-taipei",
+          "published_date": "2024-08-17",
+          "as_of": "2024-08-16",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxSeaActualAircraft"
+        },
+        {
           "date": "2024-10-25",
           "label": "證交所上市",
           "body": "上市公司基本資料明示上市日期，股票代號2646。",
@@ -588,6 +692,19 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxStock"
+        },
+        {
+          "date": "2025-06-02",
+          "date_kind": "event",
+          "label": "台北—安大略首航",
+          "body": "A350-900 首航紀錄；與當前派飛配置分開。",
+          "source": "桃園機場｜Quarterly Issue 28（2025 年 8 月），第 2 頁",
+          "source_url": "https://www.taoyuan-airport.com/api/imagecrop/fileid/6F4B2B99-5E8C-F011-BC16-0050569094FE",
+          "published_date": null,
+          "as_of": "2025-06-02",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxOntActualAircraft"
         },
         {
           "date": "2025-12-31",
@@ -666,6 +783,19 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxFirstService"
+        },
+        {
+          "date": "2026-03-30",
+          "date_kind": "event",
+          "label": "台中—成田首航",
+          "body": "台中第二營運基地拓展日本航網；公告配置 A321neo。",
+          "source": "僑委會轉載中央社｜星宇台中—成田首航",
+          "source_url": "https://www.ocac.gov.tw/OCAC/SubSites/Pages/Detail.aspx?nodeid=1958&pid=84983172&site=cac08b4d-90f6-42ea-a535-18713f0724a4",
+          "published_date": "2026-03-31",
+          "as_of": "2026-03-30",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxRmqNrtActual"
         },
         {
           "date": "2026-07-03",

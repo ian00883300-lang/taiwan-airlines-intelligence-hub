@@ -236,7 +236,19 @@
         "note": "年報印刷頁碼102（PDF第104頁）。"
       }
     ],
-    "technical": [],
+    "technical": [
+      {
+        "title": "同廠機隊共通性：效益與界線",
+        "body": "Airbus 以星宇 A321neo、A330neo、A350 組合說明機隊共通性的營運效益。面試解讀：共通性可支援資源規劃，但不能據此說機師免訓練即可跨機型執飛；資格與訓練仍依核准規範。",
+        "source": "Airbus｜星宇 A330neo FHS 支援合約",
+        "source_url": "https://www.aircraft.airbus.com/en/newsroom/news/2023-04-airbus-signs-fhs-contract-with-starlux-for-a330neo-support",
+        "published_date": "2023-04-12",
+        "as_of": "2023-04-12",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxFhsSupport"
+      }
+    ],
     "routes": [],
     "hubs": [
       {
@@ -363,6 +375,17 @@
         "as_of": "2026-03-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼112（PDF第114頁）。"
+      },
+      {
+        "title": "A330neo 航材與零組件支援",
+        "body": "2023 年 Airbus FHS 多年合約包括桃園基地備件庫、共享航材池，以及全球零組件工程與修理服務。這是航材支援安排，不代表星宇自行具備所有機型或發動機的大修能力。",
+        "source": "Airbus｜星宇 A330neo FHS 支援合約",
+        "source_url": "https://www.aircraft.airbus.com/en/newsroom/news/2023-04-airbus-signs-fhs-contract-with-starlux-for-a330neo-support",
+        "published_date": "2023-04-12",
+        "as_of": "2023-04-12",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxFhsSupport"
       }
     ],
     "safety": [

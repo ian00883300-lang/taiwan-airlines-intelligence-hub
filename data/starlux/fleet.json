@@ -315,14 +315,15 @@
       },
       "first_delivery": {
         "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "value": "2022-02-18",
+        "source": "Safran｜星宇 A330neo 交付及座椅投入服務",
+        "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+        "published_date": "2022-06-02",
+        "as_of": "2022-02-18",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxA330DeliverySafran",
+        "note": "Safran 明示 2 月 18 日交付；Airbus 2 月 21 日發稿日不當成交付日。"
       },
       "average_age": {
         "label": "平均機齡",
@@ -552,14 +553,15 @@
       },
       "first_delivery": {
         "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "value": "2022-10-28",
+        "source": "星宇航空新聞稿（PR Newswire）｜首架 A350-900 交付",
+        "source_url": "https://www.prnewswire.com/news-releases/starlux-takes-delivery-of-first-a350-900-301662756.html",
+        "published_date": "2022-10-28",
+        "as_of": "2022-10-28",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxA350DeliveryRelease",
+        "note": "首架 B-58501 於土魯斯交付；交付與首次營運分開。"
       },
       "average_age": {
         "label": "平均機齡",

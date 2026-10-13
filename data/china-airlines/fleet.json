@@ -61,14 +61,15 @@
       },
       "first_delivery": {
         "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "value": "2016-09-30",
+        "source": "Airbus｜華航首架 A350-900 交付",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2016-09-china-airlines-becomes-new-operator-of-the-a350-xwb",
+        "published_date": "2016-09-30",
+        "as_of": "2016-09-30",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciA350FirstDelivery",
+        "note": "製造商確認土魯斯交付典禮日期。"
       },
       "average_age": {
         "label": "平均機齡",
@@ -1108,14 +1109,15 @@
       },
       "first_delivery": {
         "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "value": "2021-11-29",
+        "source": "華航｜首架 A321neo 交機",
+        "source_url": "https://www.china-airlines.com/uk/zh/about-china-airlines/media/news/20211129",
+        "published_date": "2021-11-29",
+        "as_of": "2021-11-29",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciNeoDelivery",
+        "note": "德國漢堡當地交付日；不是 2022 年首次載客日。"
       },
       "average_age": {
         "label": "平均機齡",

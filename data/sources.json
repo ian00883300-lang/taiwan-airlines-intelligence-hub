@@ -1151,5 +1151,115 @@
     "status": "confirmed",
     "note": "桃園機場季刊確認 2025-06-02 開航及 A350-900 配置；刊物僅標示出版月份。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
     "level": 3
+  },
+  {
+    "id": "ciPragueActual",
+    "source": "華航｜布拉格首航抵達與歐洲六航點",
+    "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20230719.html",
+    "published_date": "2023-07-19",
+    "as_of": "2023-07-19",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciKumamotoActual",
+    "source": "華航｜台北—熊本正式開航",
+    "source_url": "https://www.china-airlines.com/sea/zh/about-china-airlines/media/news/20230918.html",
+    "published_date": "2023-09-18",
+    "as_of": "2023-09-18",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciNeoFirstService",
+    "source": "華航｜A321neo 首次載客與香港任務",
+    "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20220327.html",
+    "published_date": "2022-03-27",
+    "as_of": "2022-03-27",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciSeattleActual",
+    "source": "華航｜西雅圖開航事後報導",
+    "source_url": "https://www.china-airlines.com/de/de/about-china-airlines/media/news/20240715.html",
+    "published_date": "2024-07-15",
+    "as_of": "2024-07-14",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxRmqNrtActual",
+    "source": "僑委會轉載中央社｜星宇台中—成田首航",
+    "source_url": "https://www.ocac.gov.tw/OCAC/SubSites/Pages/Detail.aspx?nodeid=1958&pid=84983172&site=cac08b4d-90f6-42ea-a535-18713f0724a4",
+    "published_date": "2026-03-31",
+    "as_of": "2026-03-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxRmqNrtAircraft",
+    "source": "成田機場｜星宇台中線開航公告",
+    "source_url": "https://www.narita-airport.jp/files/e61b1f7d9eb202ccbbd7db9f3cc8fe9ab6a64ec5075749eab0fffd5da34e91b5",
+    "published_date": "2026-03-27",
+    "as_of": "2026-03-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "ciA350FirstDelivery",
+    "source": "Airbus｜華航首架 A350-900 交付",
+    "source_url": "https://www.airbus.com/en/newsroom/press-releases/2016-09-china-airlines-becomes-new-operator-of-the-a350-xwb",
+    "published_date": "2016-09-30",
+    "as_of": "2016-09-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "ciNeoDelivery",
+    "source": "華航｜首架 A321neo 交機",
+    "source_url": "https://www.china-airlines.com/uk/zh/about-china-airlines/media/news/20211129",
+    "published_date": "2021-11-29",
+    "as_of": "2021-11-29",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxA330DeliverySafran",
+    "source": "Safran｜星宇 A330neo 交付及座椅投入服務",
+    "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+    "published_date": "2022-06-02",
+    "as_of": "2022-02-18",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "jxA350DeliveryRelease",
+    "source": "星宇航空新聞稿（PR Newswire）｜首架 A350-900 交付",
+    "source_url": "https://www.prnewswire.com/news-releases/starlux-takes-delivery-of-first-a350-900-301662756.html",
+    "published_date": "2022-10-28",
+    "as_of": "2022-10-28",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFhsSupport",
+    "source": "Airbus｜星宇 A330neo FHS 支援合約",
+    "source_url": "https://www.aircraft.airbus.com/en/newsroom/news/2023-04-airbus-signs-fhs-contract-with-starlux-for-a330neo-support",
+    "published_date": "2023-04-12",
+    "as_of": "2023-04-12",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
   }
 ]

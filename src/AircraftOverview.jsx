@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function AircraftOverview({ aircraft: x, Source }) {
+  const [tailQuery, setTailQuery] = useState("");
+  const registrations = (x.registrations?.records || []).filter((r) =>
+    r.tail.toLowerCase().includes(tailQuery.trim().toLowerCase()),
+  );
   return (
     <div className="aircraft-overview">
       <section className="aircraft-missions">
@@ -14,14 +18,28 @@ export default function AircraftOverview({ aircraft: x, Source }) {
       </section>
       {x.registrations && (
         <section className="aircraft-registrations">
-          <details>
+          <details open>
             <summary>
               機身編號 · {x.registrations.records.length} 架 ·{" "}
               {x.registrations.as_of}
             </summary>
             <p className="fineprint">{x.registrations.note}</p>
+            <label>
+              搜尋機身編號
+              <input
+                aria-label={`${x.aircraft_type} 搜尋機身編號`}
+                value={tailQuery}
+                onChange={(e) => setTailQuery(e.target.value)}
+                placeholder="例如 B-58501"
+              />
+            </label>
+            <p className="fineprint">
+              顯示 {registrations.length} / {x.registrations.records.length}{" "}
+              架。機齡為來源基準日數值；出廠日期不等於交付日期。登記不代表當日可執飛。
+            </p>
+            {!registrations.length && <p>沒有符合的機身編號。</p>}
             <div className="registration-list">
-              {x.registrations.records.map((r) => (
+              {registrations.map((r) => (
                 <div key={r.tail}>
                   <strong>{r.tail}</strong>
                   <span>出廠 {r.manufactured}</span>

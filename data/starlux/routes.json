@@ -268,6 +268,37 @@
       "aircraft": "A350-1000（活動公布安排；可能調整）",
       "event_ids": ["starlux-NRT-inaugural-pending"],
       "evidence_kind": "official_configuration"
+    },
+    {
+      "id": "starlux-RMQ-NRT",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "NRT",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "source": "僑委會轉載中央社｜星宇台中—成田首航",
+      "source_url": "https://www.ocac.gov.tw/OCAC/SubSites/Pages/Detail.aspx?nodeid=1958&pid=84983172&site=cac08b4d-90f6-42ea-a535-18713f0724a4",
+      "published_date": "2026-03-31",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNrtActual",
+      "event_ids": ["starlux-RMQ-NRT-inaugural"],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "官方歷史航網紀錄，非今日完整班表。",
+      "aircraft": "A321neo（2026-03-30 配置紀錄）",
+      "aircraft_note": "實際首航由中央社事後報導確認；機型及 188 席是成田機場開航公告安排，並非即時派飛。",
+      "aircraft_source_url": "https://www.narita-airport.jp/files/e61b1f7d9eb202ccbbd7db9f3cc8fe9ab6a64ec5075749eab0fffd5da34e91b5",
+      "aircraft_evidence": {
+        "source": "成田機場｜星宇台中線開航公告",
+        "source_url": "https://www.narita-airport.jp/files/e61b1f7d9eb202ccbbd7db9f3cc8fe9ab6a64ec5075749eab0fffd5da34e91b5",
+        "published_date": "2026-03-27",
+        "as_of": "2026-03-30",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxRmqNrtAircraft",
+        "note": "實際首航由中央社事後報導確認；機型及 188 席是成田機場開航公告安排，並非即時派飛。"
+      }
     }
   ]
 }

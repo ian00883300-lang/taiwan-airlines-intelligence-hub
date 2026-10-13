@@ -269,7 +269,19 @@
         "corroboration_url": "https://calec.china-airlines.com/csr/management_vision.html"
       }
     ],
-    "technical": [],
+    "technical": [
+      {
+        "title": "交付、首次載客與機隊統計不同",
+        "body": "首架 A321neo 於 2021-11-29 漢堡交付，2022-03-27 才在桃園—香港首次載客。機隊登記、交機與正式投入營運是不同事件，不宜用一個日期替代。",
+        "source": "華航｜A321neo 首次載客與香港任務",
+        "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20220327.html",
+        "published_date": "2022-03-27",
+        "as_of": "2022-03-27",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciNeoFirstService"
+      }
+    ],
     "routes": [
       {
         "title": "2025航點統計口徑",
@@ -381,6 +393,17 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": null,
+        "source_id": "ciMaintenance"
+      },
+      {
+        "title": "修護服務範圍與能力表分開核對",
+        "body": "EMO 官網列有航線維修、機體、發動機、零組件、機隊技術及庫存技術管理。介紹頁未標發布日期，且含舊機型，不直接據此宣稱所有能力均為今日有效；特定工作須再查核現行核准能力清單。",
+        "source": "華航｜修護組織介紹",
+        "source_url": "https://emo.china-airlines.com/lang-en/profile_en.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
         "source_id": "ciMaintenance"
       }
     ],

@@ -64,3 +64,5 @@
 - 查核機身名冊為華航85＋星宇37共122筆；登記狀態與即時可用狀態分開。
 
 2026-10-14: 30 unit/data checks passed; production build passed; route filters passed at 320/390/768/1440 px and 150% reading scale. Added CI LAX 777-300ER and JX SEA/ONT A350-900 historical evidence; verified separate inauguration dates.
+
+2026-10-14 expansion: 30 data/unit checks passed; route filters at four widths passed; 390px registration search, empty state and reset passed; Vite build passed. Six new route records, four delivery facts, ten timeline milestones, four maintenance/technical cards.

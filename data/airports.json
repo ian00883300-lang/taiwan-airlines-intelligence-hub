@@ -180,6 +180,30 @@
       "lat": 24.8273,
       "lng": 125.145,
       "region": "Japan"
+    },
+    "KMJ": {
+      "name": "熊本",
+      "lat": 32.84,
+      "lng": 130.86,
+      "region": "Japan"
+    },
+    "AMS": {
+      "name": "阿姆斯特丹",
+      "lat": 52.31,
+      "lng": 4.76,
+      "region": "Europe"
+    },
+    "FRA": {
+      "name": "法蘭克福",
+      "lat": 50.04,
+      "lng": 8.56,
+      "region": "Europe"
+    },
+    "HKG": {
+      "name": "香港",
+      "lat": 22.31,
+      "lng": 113.92,
+      "region": "Asia"
     }
   }
 }
