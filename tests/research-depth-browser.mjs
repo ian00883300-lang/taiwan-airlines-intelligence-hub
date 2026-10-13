@@ -148,13 +148,13 @@ try {
       await go(airline + "/routes");
       if (airline === "china-airlines") {
         const phx = page
-          .locator(".route-table tbody tr")
+          .locator(".route-table tbody tr[data-route]")
           .filter({ hasText: "TPE → PHX" });
         assert.match(await phx.innerText(), /2025年12月3日/);
         assert.ok(!(await phx.innerText()).includes("實際首航另查"));
       }
       assert.equal(
-        await page.locator(".route-table tbody tr").count(),
+        await page.locator(".route-table tbody tr[data-route]").count(),
         { "china-airlines": 19, "eva-air": 14, starlux: 13 }[airline],
       );
       await fits(airline + " routes " + width);
@@ -165,7 +165,7 @@ try {
   }
   await go("starlux/routes");
   await page.getByLabel("出發機場").selectOption("RMQ");
-  assert.equal(await page.locator(".route-table tbody tr").count(), 2);
+  assert.equal(await page.locator(".route-table tbody tr[data-route]").count(), 2);
   assert.ok(
     (await page.locator(".route-table tbody").innerText()).includes(
       "RMQ → SHI",
@@ -178,7 +178,7 @@ try {
   );
   await page.getByLabel("航空公司").selectOption("all");
   await page.getByLabel("出發機場").selectOption("KHH");
-  assert.equal(await page.locator(".route-table tbody tr").count(), 3);
+  assert.equal(await page.locator(".route-table tbody tr[data-route]").count(), 3);
   assert.ok(
     (await page.locator(".route-table tbody").innerText()).includes(
       "KHH → KIX",

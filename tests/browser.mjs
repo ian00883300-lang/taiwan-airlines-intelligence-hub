@@ -70,12 +70,12 @@ try {
     "Map filters show one verified STARLUX Europe route and honest empty state",
     async () => {
       await go("starlux/routes");
-      await page.getByLabel("區域").selectOption("Europe");
-      assert.equal(await page.locator(".route-table tbody tr").count(), 1);
+      await page.getByLabel("洲別").selectOption("Europe");
+      assert.equal(await page.locator(".route-table tbody tr[data-route]").count(), 1);
       assert.ok(
         (await page.locator(".route-list").innerText()).includes("PRG"),
       );
-      await page.getByLabel("區域").selectOption("Oceania");
+      await page.getByLabel("洲別").selectOption("Oceania");
       assert.ok(
         (await page.locator(".route-list").innerText()).includes(
           "Data pending verification",
@@ -237,7 +237,7 @@ try {
         (await page.locator("main").innerText()).includes("底圖暫時無法載入"),
       );
       assert.equal(
-        await page.locator(".route-table tbody tr").count(),
+        await page.locator(".route-table tbody tr[data-route]").count(),
         JSON.parse(fs.readFileSync("data/starlux/routes.json", "utf8")).items
           .length,
       );

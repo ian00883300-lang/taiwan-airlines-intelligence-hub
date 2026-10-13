@@ -1256,3 +1256,64 @@
     width: auto;
   }
 }
+.route-view-switch {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 16px;
+}
+.route-view-switch button {
+  border: 1px solid #bdcedb;
+  border-radius: 8px;
+  padding: 12px 18px;
+  background: white;
+  color: #24445d;
+  cursor: pointer;
+}
+.route-view-switch button[aria-pressed="true"] {
+  background: #193e60;
+  color: white;
+  border-color: #193e60;
+}
+.aircraft-route-picker {
+  background: #edf4f9;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.aircraft-route-picker label {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+.aircraft-route-picker select {
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #bdcedb;
+  border-radius: 6px;
+}
+.route-network .continent-heading th {
+  width: auto !important;
+  background: #193e60;
+  color: white;
+  font-size: 1.05rem;
+  padding: 12px 16px;
+  text-align: left;
+}
+.continent-heading small {
+  font-weight: 400;
+  margin-left: 14px;
+  color: #dae8f2;
+}
+@media (max-width: 760px) {
+  .route-network .continent-heading {
+    border: 0;
+    border-radius: 6px;
+    margin: 20px 0 10px;
+  }
+  .route-network .continent-heading th {
+    display: block;
+  }
+}
