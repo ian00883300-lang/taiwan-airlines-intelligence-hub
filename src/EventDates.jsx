@@ -17,7 +17,9 @@ export default function EventDates({ ids = [] }) {
           {event.announced_event_date && (
             <p>
               公告中的預定開航日：{formatEventDate(event.announced_event_date)}
-              （實際首航另查）
+              {event.event_date
+                ? "（實際首航已另具事後證據）"
+                : "（實際首航另查）"}
             </p>
           )}
           {event.published_date && (

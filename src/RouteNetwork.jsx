@@ -213,7 +213,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                       </td>
                       <td data-label="已核實首航">
                         {formatEventDate(event?.event_date)}
-                        {event?.announced_event_date && (
+                        {event?.announced_event_date && !event.event_date && (
                           <p>
                             預定{formatEventDate(event.announced_event_date)}
                             （實際首航另查）

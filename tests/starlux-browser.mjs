@@ -92,7 +92,8 @@ try {
   }
   assert.ok(dates.includes("2026年8月1日"));
   assert.ok(dates.includes("2025年10月3日"));
-  assert.ok(dates.includes("2025年12月3日（實際首航另查）"));
+  assert.ok(dates.includes("2025年12月3日"));
+  assert.ok(!dates.includes("2025年12月3日（實際首航另查）"));
   assert.deepEqual(errors, []);
   console.log(
     "PASS route dates show event, announcement, plan and unknown dates distinctly; no runtime errors",

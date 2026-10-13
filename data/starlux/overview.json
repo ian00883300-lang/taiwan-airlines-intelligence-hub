@@ -278,15 +278,15 @@
         "note": "年報印刷頁碼102（PDF第104頁）。"
       },
       {
-        "title": "其他北美合作",
-        "body": "年報列美國航空為合作夥伴，但此段未明示全部協議類型及班號，因此不把合作夥伴一律標成共掛。",
-        "source": "星宇航空｜2025 年報",
-        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
-        "source_id": "jxAnnual",
-        "published_date": null,
+        "title": "美國航空interline銜接（已具體查核）",
+        "body": "2026年1月15日鳳凰城首航稿明示與美國航空聯航協議，提供透過鳳凰城轉往40個美國境內城市的銜接。這是該公告的interline範圍，不代表星宇自營40個美國航點或所有航段共掛。",
+        "source": "星宇｜台北—鳳凰城首航",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
+        "source_id": "jxPhoenix",
+        "published_date": "2026-01-15",
         "verified_date": "2026-10-12",
         "status": "confirmed",
-        "as_of": null,
+        "as_of": "2026-01-15",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼102（PDF第104頁）。"
       }
@@ -428,6 +428,17 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "source_id": "jxAnnual"
+      },
+      {
+        "source": "布拉格機場｜星宇首航",
+        "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
+        "published_date": "2026-08-01",
+        "as_of": "2026-08-01",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxPrg",
+        "title": "布拉格首航稿的SAF範圍",
+        "body": "2026年8月1日布拉格機場首航稿提到當地出發2%SAF混合比例。這是機場稿中限定當地出發的敘述，不代表整個星宇航網都採2%，也不能推算星宇全年採購或減排總量。"
       }
     ],
     "finance": [],
@@ -492,6 +503,17 @@
         "as_of": "2025-12-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼129（PDF第131頁）。"
+      },
+      {
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxAnnual",
+        "title": "燃油成本的正確分母",
+        "body": "2025年報印刷第111頁記錄燃油支出占營運成本26.67%。這是營運成本占比，不是營收占比或票價燃油附加費；需求、油價與匯率風險仍需分開分析。"
       }
     ],
     "employees": [
@@ -591,7 +613,7 @@
       }
     ]
   },
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-13",
   "icao_code": "SJX",
   "codes": {
     "label": "航空公司代碼",

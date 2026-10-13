@@ -243,6 +243,18 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-11",
         "status": "planned"
+      },
+      {
+        "source": "華航｜777X客貨機原始簽約",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+        "published_date": "2025-05-08",
+        "as_of": "2025-05-08",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ci777X",
+        "title": "777X簽約與後續訂單分階段",
+        "body": "2025年5月8日原始簽約公告為777-9客機10架、777-8F貨機4架，另有合計9架選購權；原稿預定2030年起交付。2025營運績效另確認選購權轉正式訂單後為15架與8架，既有訂單表保留年末正式總數，不能把兩次資料相加。",
+        "corroboration_url": "https://calec.china-airlines.com/csr/management_vision.html"
       }
     ],
     "technical": [],
@@ -296,6 +308,17 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "source": "華航｜台北—鳳凰城實際首航",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+        "published_date": "2025-12-03",
+        "as_of": "2025-12-03",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciPhxActual",
+        "title": "鳳凰城聯程票與北美合作",
+        "body": "2025年12月3日首航稿列西南航空、阿拉斯加航空、西捷航空及太陽城航空聯程機票銜接。聯程票不是共掛班號；這些夥伴轉機城市也不算華航自營直航航點。"
       }
     ],
     "passenger": [
@@ -323,6 +346,17 @@
         "as_of": "2026-09-30",
         "source_id": "ciFleet",
         "note": "8 架 747-400F + 10 架 777F；不含客機腹艙。"
+      },
+      {
+        "source": "華航｜貨運AI客服上線",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260615.html",
+        "published_date": "2026-06-15",
+        "as_of": "2026-06-15",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciCargoAi",
+        "title": "貨運AI客服與數位服務",
+        "body": "2026年6月15日官方公告貨運AI客服於官網與App上線，服務包括航班資訊、貨況追蹤及知識問答，支援多語系與24小時查詢。這是客服查詢能力，不代表貨物自動核准承運、保證艙位或已完成報關。"
       }
     ],
     "maintenance": [
@@ -380,15 +414,16 @@
     ],
     "saf": [
       {
-        "label": "永續航空燃油",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "source": "華航｜長程SAF示範與Book & Claim",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html",
+        "published_date": "2026-09-14",
+        "as_of": "2026-09-14",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciSaf40",
+        "title": "2026長程SAF示範：Book & Claim",
+        "body": "2026年9月13日CI073台北—阿姆斯特丹示範航班；2026年9月14日公告以Book & Claim方式提升SAF使用比例至40%，總量36.3公噸。這是該示範的宣告口徑，不能解讀成全航網40%使用率，亦不能直接推定為該班機油箱實際混合比例。",
+        "note": "Book & Claim將SAF的環境屬性與實際燃料供應鏈安排連結；原稿明示此方式，避免把權益宣告與機上物理加油比例混用。"
       }
     ],
     "finance": [],
@@ -511,7 +546,7 @@
       }
     ]
   },
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-13",
   "icao_code": "CAL",
   "codes": {
     "label": "航空公司代碼",

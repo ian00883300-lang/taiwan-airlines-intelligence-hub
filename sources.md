@@ -1,6 +1,6 @@
 # 資料來源與查核紀錄
 
-核對日：2026-10-11（Asia/Taipei）。以官方原頁優先，搜尋摘要只作線索；未使用截圖數字。
+分批核對，最新增補：2026-10-13（Asia/Taipei）；各筆原始查核日分別保留。以官方原頁優先，搜尋摘要只作線索；未使用截圖數字。
 
 ## 規則
 
@@ -77,7 +77,7 @@ source/source_url/published_date/verified_date/status 必備，另附 as_of、sc
 
 Airbus 2026年1月6日的新聞稿用於交叉比對已交付事實，不能替代星宇新聞稿所支持的土魯斯2026年1月5日交機日。
 12題品牌理念／價值觀／企業文化練習使用證交所介紹作為公開背景；示範回答的個人態度與做法屬原創練習，不歸因為公司內部政策或標準答案。
-華航2025年9月19日新聞稿支持預定2025年12月3日開航鳳凰城；本次尚未找到實際首航的事後官方證據，保留「預定開航日」並將實際首航日留為 null。大阪、長榮成田首航日亦未完成查核。
+華航2025年9月19日新聞稿支持預定2025年12月3日開航鳳凰城；2026年10月13日已取得2025年12月3日事後官方新聞稿，實際首航更新為2025年12月3日；原開航計畫另留作歷史證據。大阪、長榮成田首航日亦未完成查核。
 
 ## 星宇年報與招募補充（2026年10月12日）
 
@@ -92,3 +92,12 @@ Airbus 2026年1月6日的新聞稿用於交叉比對已交付事實，不能替�
 實際讀取華航 https://calec.china-airlines.com/csr/management_vision.html ：2025全年載客11,746,082人次、NPS73.3、客運72航點與貨運33航點。這些是年度營運與旅客服務口徑，不直接比較安全，也不把重疊的客貨航點相加。
 
 長榮 https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/ 區分1989年3月8日奉准籌設、1989年4月7日正式登記與1991年7月1日首航後開始營運。公司首航日不套用到其所有航線；頁面只列年份區間的飛機交機紀錄，未拿區間補造精確交機日。
+
+## 2026年10月13日新增查核
+
+- **ciPhxActual** L1 [華航｜台北—鳳凰城實際首航](https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html) — published: 2025-12-03; verified: 2026-10-13。
+- **ci777X** L1 [華航｜777X客貨機原始簽約](https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html) — published: 2025-05-08; verified: 2026-10-13。
+- **ciSaf40** L1 [華航｜長程SAF示範與Book & Claim](https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html) — published: 2026-09-14; verified: 2026-10-13。
+- **ciCargoAi** L1 [華航｜貨運AI客服上線](https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260615.html) — published: 2026-06-15; verified: 2026-10-13。
+
+鳳凰城首航採官方正文「今（3）日正式開通」確認；777X原始10／4架與年末15／8架分階段保留，不把原始選購權再加進正式訂單。華航40%SAF示範明示Book & Claim，不能改寫為油箱物理混合比例。星宇四項CEIV及26.67%燃油成本占比取自2025年報，分母與期間另列。

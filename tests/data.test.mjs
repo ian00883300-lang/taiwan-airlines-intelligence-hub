@@ -116,7 +116,7 @@ test("Inauguration and handover dates never fall back to article publication dat
   );
   assert.equal(
     events.find((e) => e.id === "china-airlines-phx-inaugural").event_date,
-    null,
+    "2025-12-03",
   );
   const q = read("data/interview-bank.json").find(
     (q) => q.id === "jx-event-dates",
@@ -315,6 +315,37 @@ test("Cash-flow statements reconcile signed activities to closing cash without d
     57551666,
   );
   assert.equal(dossier.airlines.starlux.cash_flow.rows[1].financing, 12123788);
+});
+test("New operating evidence confirms PHX, preserves SAF accounting boundaries and CEIV scope", () => {
+  const event = read("data/events.json").find(
+    (row) => row.id === "china-airlines-phx-inaugural",
+  );
+  assert.equal(event.event_date, "2025-12-03");
+  assert.equal(event.source_id, "ciPhxActual");
+  assert.equal(event.announcement_published_date, "2025-09-19");
+  assert.ok(event.evidence_quote.includes("正式開通"));
+  const ci = read("data/china-airlines/overview.json");
+  assert.ok(ci.sections.saf[0].body.includes("Book & Claim"));
+  assert.ok(ci.sections.saf[0].body.includes("2026年9月13日"));
+  const orders = read("data/china-airlines/fleet.json").orders;
+  assert.equal(
+    orders.find((row) => row.aircraft_type === "777-9").quantity,
+    15,
+  );
+  assert.equal(
+    orders.find((row) => row.aircraft_type === "777-8F").quantity,
+    8,
+  );
+  assert.equal(
+    read("data/research-dossier.json").airlines.starlux.cargo_capabilities.rows
+      .length,
+    4,
+  );
+  const saf = read("data/interview-bank.json").find(
+    (row) => row.id === "current",
+  );
+  assert.ok(saf.answer_60.includes("Book & Claim"));
+  assert.ok(saf.answer_zh_60.includes("36.3"));
 });
 test("All evidence has valid metadata and verified dates do not fabricate publication dates", () => {
   const today = new Intl.DateTimeFormat("sv-SE", {

@@ -108,6 +108,16 @@ try {
         await fits(airline + " cash flows " + width);
       }
       await go(airline + "/operations");
+      if (airline === "starlux") {
+        assert.equal(
+          await page.locator(".cargo-capabilities tbody tr").count(),
+          4,
+        );
+        assert.match(
+          await page.locator(".cargo-capabilities").innerText(),
+          /Lithium Batteries/,
+        );
+      }
       assert.equal(await page.locator(".traffic-table tbody tr").count(), 3);
       await page.getByRole("button", { name: "貨運指標", exact: true }).click();
       assert.ok(
@@ -136,6 +146,13 @@ try {
       );
       await fits(airline + " strategy " + width);
       await go(airline + "/routes");
+      if (airline === "china-airlines") {
+        const phx = page
+          .locator(".route-table tbody tr")
+          .filter({ hasText: "TPE → PHX" });
+        assert.match(await phx.innerText(), /2025年12月3日/);
+        assert.ok(!(await phx.innerText()).includes("實際首航另查"));
+      }
       assert.equal(
         await page.locator(".route-table tbody tr").count(),
         { "china-airlines": 9, "eva-air": 14, starlux: 12 }[airline],

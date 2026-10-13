@@ -306,7 +306,46 @@ export function OperationsResearch({ airline, Source }) {
       </article>
       <TrafficComparison airline={airline} Source={Source} />
       <RevenueMix airline={airline} Source={Source} />
+      {dossier.airlines[airline].cargo_capabilities && (
+        <CargoCapabilities airline={airline} Source={Source} />
+      )}
     </>
+  );
+}
+
+function CargoCapabilities({ airline, Source }) {
+  const record = dossier.airlines[airline].cargo_capabilities;
+  return (
+    <section
+      className="cargo-capabilities mobile-records"
+      aria-label="星宇貨運CEIV認證與研究重點"
+    >
+      <h3>特殊貨物與CEIV能力</h3>
+      <p>{record.scope}</p>
+      <div className="table-wrap research-table">
+        <table>
+          <caption>2025年報 · 貨種與研究重點</caption>
+          <thead>
+            <tr>
+              <th scope="col">認證</th>
+              <th scope="col">貨種</th>
+              <th scope="col">研究追問（分析框架）</th>
+            </tr>
+          </thead>
+          <tbody>
+            {record.rows.map((row) => (
+              <tr key={row.certification}>
+                <th scope="row">{row.certification}</th>
+                <td data-label="貨種">{row.focus}</td>
+                <td data-label="研究追問">{row.research_focus}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="fineprint">{record.note}</p>
+      <Source item={record} />
+    </section>
   );
 }
 

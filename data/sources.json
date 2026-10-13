@@ -928,5 +928,45 @@
     "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 2
+  },
+  {
+    "id": "ciPhxActual",
+    "source": "華航｜台北—鳳凰城實際首航",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+    "published_date": "2025-12-03",
+    "as_of": "2025-12-03",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ci777X",
+    "source": "華航｜777X客貨機原始簽約",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+    "published_date": "2025-05-08",
+    "as_of": "2025-05-08",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciSaf40",
+    "source": "華航｜長程SAF示範與Book & Claim",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html",
+    "published_date": "2026-09-14",
+    "as_of": "2026-09-14",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciCargoAi",
+    "source": "華航｜貨運AI客服上線",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260615.html",
+    "published_date": "2026-06-15",
+    "as_of": "2026-06-15",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
   }
 ]

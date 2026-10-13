@@ -132,6 +132,19 @@
           "source_id": "ciRoute"
         },
         {
+          "source": "華航｜台北—鳳凰城實際首航",
+          "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+          "published_date": "2025-12-03",
+          "as_of": "2025-12-03",
+          "verified_date": "2026-10-13",
+          "status": "confirmed",
+          "source_id": "ciPhxActual",
+          "date": "2025-12-03",
+          "date_kind": "event",
+          "label": "台北—鳳凰城實際首航",
+          "body": "CI036由台北出發，以A350-900首航。事後官方稿確認，不再只列預定開航日。"
+        },
+        {
           "date": "2025-12-18",
           "label": "A350-1000增訂公告",
           "body": "總計15架，不重複加回舊選擇權。",
@@ -876,6 +889,39 @@
         "note": "新臺幣仟元；流入為正、流出為負。期初現金＋營業＋投資＋籌資＋匯率影響＝期末現金。設備取得與設備預付款是投資現金流的子項，不可與投資淨額重複相加。",
         "citation": "星宇查核財報印刷第10頁。",
         "analysis": "2025營業現金流低於投資淨流出，籌資淨流入補充資金。這支持進一步追蹤交機付款、融資成本與運能利用；不能只以營收成長評估擴張的資金負擔。"
+      },
+      "cargo_capabilities": {
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxAnnual",
+        "scope": "2025年度年報記錄取得四項IATA CEIV認證；不是本次重新查核的今日認證有效期。",
+        "rows": [
+          {
+            "certification": "CEIV Pharma",
+            "focus": "醫藥冷鏈",
+            "research_focus": "溫控、交接與溫度偏離管理"
+          },
+          {
+            "certification": "CEIV Fresh",
+            "focus": "生鮮貨物",
+            "research_focus": "時效、貨種適配與品質維持"
+          },
+          {
+            "certification": "CEIV Live Animals",
+            "focus": "活生動物",
+            "research_focus": "動物照護、容器與地面交接"
+          },
+          {
+            "certification": "CEIV Lithium Batteries",
+            "focus": "鋰電池",
+            "research_focus": "危險品分類、包裝與安全程序"
+          }
+        ],
+        "note": "年報印刷第1頁。右欄是研究追問框架，不代表星宇逐項已公布內部SOP。認證不等於所有貨物、所有場站與所有航班均可無條件承運，也不代表已有專用貨機。"
       }
     }
   }
