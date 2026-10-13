@@ -300,6 +300,76 @@
         ],
         "operating_margin_2024": 8.927999854502175,
         "operating_margin_2025": 9.962867429369837
+      },
+      "cash_flow": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "全年合併現金流量；包含集團子公司。",
+        "rows": [
+          {
+            "year": 2024,
+            "operating": 54283415,
+            "investing": -7265844,
+            "financing": -12128710,
+            "exchange": 1368215,
+            "opening_cash": 30391564,
+            "closing_cash": 66648640
+          },
+          {
+            "year": 2025,
+            "operating": 49385273,
+            "investing": -50825315,
+            "financing": -6808760,
+            "exchange": -848172,
+            "opening_cash": 66648640,
+            "closing_cash": 57551666
+          }
+        ],
+        "equipment_payments_2025": 6197341,
+        "equipment_prepayments_2025": 47519174,
+        "note": "新臺幣仟元；流入為正、流出為負。期初現金＋營業＋投資＋籌資＋匯率影響＝期末現金。設備取得與設備預付款是投資現金流的子項，不可與投資淨額重複相加。",
+        "citation": "華航查核財報印刷第10–12頁。",
+        "analysis": "2025營業現金流仍為正，設備預付款增加是重要投資支出。期末現金下降不直接證明虧損或流動性危機；需合看到期負債、可用授信與投資安排。"
+      },
+      "group_entities": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "2025年12月31日查核合併報表附註13，集團觀點的所有權比例，報表以整數百分比列示。",
+        "note": "只列部分子公司，不是完整組織圖；比例不可推定為母公司直接持股的精確小數。子公司航線與飛機不自動併入華航本體的機隊表。",
+        "rows": [
+          {
+            "name": "台灣虎航（Tigerair Taiwan）",
+            "business": "航空運輸",
+            "ownership_percent": 69
+          },
+          {
+            "name": "華信航空（Mandarin Airlines）",
+            "business": "航空運輸與飛機維修",
+            "ownership_percent": 97
+          },
+          {
+            "name": "Taiwan Aircraft Maintenance And Engineering",
+            "business": "飛機維修",
+            "ownership_percent": 100
+          },
+          {
+            "name": "Taiwan Air Cargo Terminal",
+            "business": "航空貨運與倉儲",
+            "ownership_percent": 59
+          }
+        ],
+        "citation": "查核財報印刷第32–33頁；附註所有權比例從集團觀點計算。"
       }
     },
     "eva-air": {
@@ -770,6 +840,42 @@
         ],
         "operating_margin_2024": 6.666587709836801,
         "operating_margin_2025": 3.716548844895981
+      },
+      "cash_flow": {
+        "source": "星宇航空｜2025 年度個別財務報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "level": 1,
+        "source_id": "jxFinancial2025",
+        "scope": "全年個別現金流量；不是合併集團數字。",
+        "rows": [
+          {
+            "year": 2024,
+            "operating": 10965481,
+            "investing": -30003339,
+            "financing": 29391392,
+            "exchange": 47861,
+            "opening_cash": 5640518,
+            "closing_cash": 16041913
+          },
+          {
+            "year": 2025,
+            "operating": 8060298,
+            "investing": -20849698,
+            "financing": 12123788,
+            "exchange": -36485,
+            "opening_cash": 16041913,
+            "closing_cash": 15339816
+          }
+        ],
+        "equipment_payments_2025": 13188668,
+        "equipment_prepayments_2025": 6770547,
+        "note": "新臺幣仟元；流入為正、流出為負。期初現金＋營業＋投資＋籌資＋匯率影響＝期末現金。設備取得與設備預付款是投資現金流的子項，不可與投資淨額重複相加。",
+        "citation": "星宇查核財報印刷第10頁。",
+        "analysis": "2025營業現金流低於投資淨流出，籌資淨流入補充資金。這支持進一步追蹤交機付款、融資成本與運能利用；不能只以營收成長評估擴張的資金負擔。"
       }
     }
   }

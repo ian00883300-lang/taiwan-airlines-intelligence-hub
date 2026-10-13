@@ -293,7 +293,36 @@ test("Audited two-year results preserve profit scope and registry discrepancies"
   assert.ok(discrepancy.value.includes("1959年9月7日"));
   assert.equal(discrepancy.source_id, "ciStock");
 });
+test("Cash-flow statements reconcile signed activities to closing cash without double-counting equipment", () => {
+  const dossier = read("data/research-dossier.json");
+  for (const airline of ["china-airlines", "starlux"]) {
+    const record = dossier.airlines[airline].cash_flow;
+    for (const row of record.rows) {
+      assert.equal(
+        row.opening_cash +
+          row.operating +
+          row.investing +
+          row.financing +
+          row.exchange,
+        row.closing_cash,
+      );
+    }
+    assert.ok(record.equipment_prepayments_2025 > 0);
+    assert.ok(record.note.includes("不可"));
+  }
+  assert.equal(
+    dossier.airlines["china-airlines"].cash_flow.rows[1].closing_cash,
+    57551666,
+  );
+  assert.equal(dossier.airlines.starlux.cash_flow.rows[1].financing, 12123788);
+});
 test("All evidence has valid metadata and verified dates do not fabricate publication dates", () => {
+  const today = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
   let n = 0;
   for (const [p, x] of all)
     walk(x, p, (o, path) => {
@@ -301,7 +330,7 @@ test("All evidence has valid metadata and verified dates do not fabricate public
         n++;
         assert.ok(validate(o), path + " " + JSON.stringify(validate.errors));
         for (const k of ["published_date", "verified_date", "as_of"])
-          if (o[k]) assert.ok(o[k] <= "2026-10-12", path + " future date " + k);
+          if (o[k]) assert.ok(o[k] <= today, path + " future date " + k);
         if (o.value === null) assert.equal(o.status, "unverified", path);
       }
     });

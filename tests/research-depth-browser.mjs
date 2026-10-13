@@ -46,10 +46,19 @@ try {
     assert.equal(await a330.locator("td").nth(1).innerText(), "6");
     assert.equal(await a330.locator("td").nth(3).innerText(), "2025-12-31");
     await fits("STARLUX separate total and composition " + width);
+    await page
+      .getByLabel("查看機型", { exact: true })
+      .selectOption("A350-1000");
+    assert.equal(await page.locator(".aircraft-card").count(), 1);
+    assert.equal(await page.locator(".fleet-layout tbody tr").count(), 1);
+    assert.equal(await page.locator(".donut-center b").innerText(), "29");
+    await fits("filtered aircraft cards " + width);
     for (const airline of ["china-airlines", "eva-air", "starlux"]) {
       await go(airline + "/overview");
       assert.ok((await page.locator(".company-timeline li").count()) >= 6);
       assert.ok((await page.locator(".company-identity tbody tr").count()) > 0);
+      if (airline === "china-airlines")
+        assert.equal(await page.locator(".company-group tbody tr").count(), 4);
       if (width < 760) {
         assert.equal(
           await page
@@ -71,6 +80,32 @@ try {
           airline === "starlux" ? /1,324,438/ : /14,700,319/,
         );
         await fits(airline + " two-year finance " + width);
+        await page
+          .getByRole("button", { name: "現金流與投資", exact: true })
+          .click();
+        await page.locator(".cash-flow-research").waitFor();
+        assert.equal(
+          await page.locator(".cash-flow-research tbody tr").count(),
+          6,
+        );
+        assert.match(
+          await page.locator(".cash-flow-research").innerText(),
+          airline === "starlux" ? /15,339,816/ : /57,551,666/,
+        );
+        await page.waitForFunction(() => {
+          const top = document
+            .querySelector(".cash-flow-research")
+            ?.getBoundingClientRect().top;
+          return top >= 0 && top < 200;
+        });
+        const top = await page
+          .locator(".cash-flow-research")
+          .evaluate((el) => el.getBoundingClientRect().top);
+        assert.ok(
+          top >= 0 && top < 200,
+          "chapter jump reaches cash-flow heading",
+        );
+        await fits(airline + " cash flows " + width);
       }
       await go(airline + "/operations");
       assert.equal(await page.locator(".traffic-table tbody tr").count(), 3);

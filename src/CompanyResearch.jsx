@@ -89,6 +89,9 @@ export function CompanyIdentity({ a, Source }) {
           </tbody>
         </table>
       </div>
+      {dossier.airlines[a.id].group_entities && (
+        <CompanyGroup airline={a.id} Source={Source} />
+      )}
       {a.id === "starlux" && (
         <>
           <div className="table-wrap research-table">
@@ -118,6 +121,41 @@ export function CompanyIdentity({ a, Source }) {
           <Source item={identity.shareholders} />
         </>
       )}
+    </section>
+  );
+}
+
+function CompanyGroup({ airline, Source }) {
+  const record = dossier.airlines[airline].group_entities;
+  return (
+    <section className="company-group" aria-label="華航部分子公司與業務">
+      <h3>集團業務與部分子公司</h3>
+      <p>{record.scope}</p>
+      <div className="table-wrap research-table">
+        <table>
+          <caption>業務分工與財報列示比例</caption>
+          <thead>
+            <tr>
+              <th scope="col">公司</th>
+              <th scope="col">主要業務</th>
+              <th scope="col">集團觀點比例</th>
+            </tr>
+          </thead>
+          <tbody>
+            {record.rows.map((row) => (
+              <tr key={row.name}>
+                <th scope="row">{row.name}</th>
+                <td data-label="主要業務">{row.business}</td>
+                <td data-label="集團觀點比例">{row.ownership_percent}%</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="fineprint">
+        {record.note} {record.citation}
+      </p>
+      <Source item={record} />
     </section>
   );
 }
@@ -325,39 +363,18 @@ export function StrategyResearch({ airline, Source }) {
 
 export function EarningsBridge({ Source }) {
   const e = identity.earnings;
-  const rows = [
-    ["營業收入", e.revenue_thousand],
-    ["營業利益", e.operating_income_thousand],
-    ["財務成本（費用）", e.finance_cost_thousand],
-    ["稅前淨利", e.pretax_income_thousand],
-    ["所得稅利益", e.income_tax_benefit_thousand],
-    ["本期淨利", e.net_income_thousand],
-  ];
   return (
-    <section aria-label="星宇損益與EPS分析">
-      <div className="table-wrap research-table">
-        <table>
-          <caption>星宇2025個別損益重點 · 新臺幣仟元</caption>
-          <thead>
-            <tr>
-              <th scope="col">項目</th>
-              <th scope="col">金額</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map(([name, value]) => (
-              <tr key={name}>
-                <th scope="row">{name}</th>
-                <td>{number(value)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+    <section className="earnings-explanation" aria-label="星宇損益與EPS分析">
+      <h3>從稅前淨利看本期淨利</h3>
+      <p className="earnings-equation">
+        稅前淨利 {number(e.pretax_income_thousand)} ＋ 所得稅利益{" "}
+        {number(e.income_tax_benefit_thousand)} ＝ 本期淨利{" "}
+        {number(e.net_income_thousand)}（新臺幣仟元）
+      </p>
       <p>
-        基本EPS {e.eps} 元／股；淨利率約
+        基本EPS {e.eps} 元／股；淨利率約{" "}
         {number((e.net_income_thousand / e.revenue_thousand) * 100, 2)}
-        %。財務成本不是全部營業外損益，表列項目不能直接逐列相加。
+        %。所得稅利益不是營業收入，財務成本也不等於全部營業外損益。
       </p>
       <p>{e.note}</p>
       <Source item={e} />
@@ -424,6 +441,79 @@ export function AnnualPerformance({ airline, Source }) {
           : "集團本期淨利與歸屬母公司淨利口徑不同；基本EPS並非直接以集團本期淨利除以期末股數。"}
       </p>
       <p className="fineprint">{record.note}</p>
+      <Source item={record} />
+    </section>
+  );
+}
+
+export function CashFlowResearch({ airline, Source }) {
+  const record = dossier.airlines[airline].cash_flow;
+  if (!record) return null;
+  const fields = [
+    ["operating", "營業活動"],
+    ["investing", "投資活動"],
+    ["financing", "籌資活動"],
+    ["exchange", "匯率影響"],
+    ["opening_cash", "期初現金"],
+    ["closing_cash", "期末現金"],
+  ];
+  return (
+    <section
+      className="cash-flow-research mobile-records"
+      aria-label="現金流與機隊投資"
+    >
+      <h3>現金流與機隊投資</h3>
+      <p>{record.scope}</p>
+      <div className="table-wrap research-table">
+        <table>
+          <caption>2024／2025現金流量 · 新臺幣仟元</caption>
+          <thead>
+            <tr>
+              <th scope="col">項目</th>
+              {record.rows.map((row) => (
+                <th key={row.year} scope="col">
+                  {row.year}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {fields.map(([key, label]) => (
+              <tr key={key}>
+                <th scope="row">{label}</th>
+                {record.rows.map((row) => (
+                  <td key={row.year} data-label={String(row.year)}>
+                    {number(row[key])}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="performance-highlights">
+        <article>
+          <span>2025設備取得付款</span>
+          <strong>
+            {number(record.equipment_payments_2025 / 100000, 2)}
+            <small> 億元</small>
+          </strong>
+        </article>
+        <article>
+          <span>2025設備預付款增加</span>
+          <strong>
+            {number(record.equipment_prepayments_2025 / 100000, 2)}
+            <small> 億元</small>
+          </strong>
+        </article>
+      </div>
+      <p className="fineprint">
+        設備科目包含財報所列不動產、廠房及設備，不能全數推定為飛機成交價；預付款也不是當年交機架數。
+      </p>
+      <p className="metric-definition">研究解讀：{record.analysis}</p>
+      <p>
+        {record.note} {record.citation}
+      </p>
       <Source item={record} />
     </section>
   );

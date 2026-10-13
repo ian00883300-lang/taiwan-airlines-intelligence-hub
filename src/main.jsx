@@ -51,6 +51,7 @@ import {
   StrategyResearch,
   EarningsBridge,
   AnnualPerformance,
+  CashFlowResearch,
 } from "./CompanyResearch.jsx";
 import { formatEventDate } from "./event-dates.mjs";
 import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
@@ -615,6 +616,13 @@ function Timeline({ items, empty }) {
 function Fleet({ a, tab }) {
   const f = data(a.id + "/fleet");
   const [filter, setFilter] = useState("all");
+  const [aircraftType, setAircraftType] = useState("all");
+  useEffect(() => setAircraftType("all"), [a.id, filter]);
+  const visibleAircraft = f.items.filter(
+    (x) =>
+      (filter === "all" || x.kind === filter) &&
+      (aircraftType === "all" || x.aircraft_type === aircraftType),
+  );
   if (tab === "orders")
     return (
       <>
@@ -693,6 +701,23 @@ function Fleet({ a, tab }) {
               <option value="cargo">貨運 Cargo</option>
             </select>
           </label>
+          <label className="aircraft-type-filter">
+            查看機型
+            <select
+              aria-label="查看機型"
+              value={aircraftType}
+              onChange={(e) => setAircraftType(e.target.value)}
+            >
+              <option value="all">全部機型</option>
+              {f.items
+                .filter((x) => filter === "all" || x.kind === filter)
+                .map((x) => (
+                  <option key={x.aircraft_type} value={x.aircraft_type}>
+                    {x.aircraft_type}
+                  </option>
+                ))}
+            </select>
+          </label>
           <div className="table-wrap">
             <table>
               <thead>
@@ -704,29 +729,27 @@ function Fleet({ a, tab }) {
                 </tr>
               </thead>
               <tbody>
-                {f.items
-                  .filter((x) => filter === "all" || x.kind === filter)
-                  .map((x) => (
-                    <tr key={x.aircraft_type}>
-                      <td>{x.aircraft_type}</td>
-                      <td>
-                        {x.current_fleet ??
-                          f.composition_snapshot?.rows.find(
-                            (row) => row.aircraft_type === x.aircraft_type,
-                          )?.quantity ??
-                          "待查核"}
-                      </td>
-                      <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
-                      <td>
-                        {x.as_of ||
-                          (f.composition_snapshot?.rows.some(
-                            (row) => row.aircraft_type === x.aircraft_type,
-                          )
-                            ? f.composition_snapshot.as_of
-                            : "待查核")}
-                      </td>
-                    </tr>
-                  ))}
+                {visibleAircraft.map((x) => (
+                  <tr key={x.aircraft_type}>
+                    <td>{x.aircraft_type}</td>
+                    <td>
+                      {x.current_fleet ??
+                        f.composition_snapshot?.rows.find(
+                          (row) => row.aircraft_type === x.aircraft_type,
+                        )?.quantity ??
+                        "待查核"}
+                    </td>
+                    <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
+                    <td>
+                      {x.as_of ||
+                        (f.composition_snapshot?.rows.some(
+                          (row) => row.aircraft_type === x.aircraft_type,
+                        )
+                          ? f.composition_snapshot.as_of
+                          : "待查核")}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
@@ -734,49 +757,46 @@ function Fleet({ a, tab }) {
       </div>
       <SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
-        {f.items
-          .filter((x) => filter === "all" || x.kind === filter)
-          .map((x) => (
-            <article className="aircraft-card" key={x.aircraft_type}>
-              <AircraftPhoto
-                key={a.id + x.aircraft_type}
-                aircraft={x}
-                airline={a.name}
-              />
-              <AircraftOverview aircraft={x} Source={Source} />
-              <details className="aircraft-detail">
-                <summary>
-                  {x.aircraft_type}{" "}
-                  <span>
-                    {x.kind === "cargo" ? "CARGO" : "PASSENGER"} ·
-                    查看規格與來源
-                  </span>
-                </summary>
-                <div className="spec-grid">
-                  {[
-                    "range",
-                    "main_routes",
-                    "first_delivery",
-                    "average_age",
-                    "replacement_plan",
-                    "future_orders",
-                  ].map((k) => (
-                    <div key={k}>
-                      <small>{x[k].label}</small>
-                      <p>
-                        {k === "first_delivery"
-                          ? formatEventDate(x[k].value)
-                          : (x[k].value ?? PENDING)}
-                      </p>
-                      <EventDates ids={x[k].event_ids} />
-                      <Source item={x[k]} compact />
-                    </div>
-                  ))}
-                </div>
-                <Source item={x} />
-              </details>
-            </article>
-          ))}
+        {visibleAircraft.map((x) => (
+          <article className="aircraft-card" key={x.aircraft_type}>
+            <AircraftPhoto
+              key={a.id + x.aircraft_type}
+              aircraft={x}
+              airline={a.name}
+            />
+            <AircraftOverview aircraft={x} Source={Source} />
+            <details className="aircraft-detail">
+              <summary>
+                {x.aircraft_type}{" "}
+                <span>
+                  {x.kind === "cargo" ? "CARGO" : "PASSENGER"} · 查看規格與來源
+                </span>
+              </summary>
+              <div className="spec-grid">
+                {[
+                  "range",
+                  "main_routes",
+                  "first_delivery",
+                  "average_age",
+                  "replacement_plan",
+                  "future_orders",
+                ].map((k) => (
+                  <div key={k}>
+                    <small>{x[k].label}</small>
+                    <p>
+                      {k === "first_delivery"
+                        ? formatEventDate(x[k].value)
+                        : (x[k].value ?? PENDING)}
+                    </p>
+                    <EventDates ids={x[k].event_ids} />
+                    <Source item={x[k]} compact />
+                  </div>
+                ))}
+              </div>
+              <Source item={x} />
+            </details>
+          </article>
+        ))}
       </div>
       <SectionTitle title="機隊歷史時間軸" en="Fleet timeline" />
       {f.history.length ? (
@@ -803,34 +823,84 @@ function Fleet({ a, tab }) {
 }
 function Finance({ a, openInterview }) {
   const f = data(a.id + "/financials");
+  const chapters = [
+    ...(f.history?.length ? [["trend", "歷年圖表"]] : []),
+    ["mix", "營收結構"],
+    ...(a.id !== "eva-air"
+      ? [
+          ["profit", "損益比較"],
+          ["cash", "現金流與投資"],
+        ]
+      : []),
+    ["summary", "財務摘要"],
+  ];
   return (
-    <>
+    <div className="finance-page">
       <p className="notice">
         {f.period} · {f.scope}。本版不把公司本體和合併集團數字視為完全相同規模。
       </p>
-      <FinanceVisuals f={f} Source={Source} />
-      <RevenueMix airline={a.id} Source={Source} />
-      <AnnualPerformance airline={a.id} Source={Source} />
-      {a.id === "starlux" && <EarningsBridge Source={Source} />}
-      <FactCards
-        records={[
-          {
-            ...f.revenue,
-            value:
-              f.revenue.value === null
-                ? null
-                : f.revenue.value + " " + f.revenue.unit,
-          },
-          {
-            ...f.eps,
-            value: f.eps.value === null ? null : f.eps.value + " " + f.eps.unit,
-          },
-        ]}
-        openInterview={openInterview}
-        airline={a.id}
-      />
+      <nav className="finance-section-nav" aria-label="財務頁章節跳轉">
+        {chapters.map(([id, label]) => (
+          <button
+            key={id}
+            onClick={() => {
+              const chapter = document.getElementById(`finance-${a.id}-${id}`);
+              chapter?.setAttribute("tabindex", "-1");
+              chapter?.focus({ preventScroll: true });
+              chapter?.scrollIntoView({
+                behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
+                  .matches
+                  ? "instant"
+                  : "smooth",
+                block: "start",
+              });
+            }}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+      {f.history?.length && (
+        <section id={`finance-${a.id}-trend`} className="finance-chapter">
+          <FinanceVisuals f={f} Source={Source} />
+        </section>
+      )}
+      <section id={`finance-${a.id}-mix`} className="finance-chapter">
+        <RevenueMix airline={a.id} Source={Source} />
+      </section>
+      {a.id !== "eva-air" && (
+        <>
+          <section id={`finance-${a.id}-profit`} className="finance-chapter">
+            <AnnualPerformance airline={a.id} Source={Source} />
+            {a.id === "starlux" && <EarningsBridge Source={Source} />}
+          </section>
+          <section id={`finance-${a.id}-cash`} className="finance-chapter">
+            <CashFlowResearch airline={a.id} Source={Source} />
+          </section>
+        </>
+      )}
+      <section id={`finance-${a.id}-summary`} className="finance-chapter">
+        <FactCards
+          records={[
+            {
+              ...f.revenue,
+              value:
+                f.revenue.value === null
+                  ? null
+                  : f.revenue.value + " " + f.revenue.unit,
+            },
+            {
+              ...f.eps,
+              value:
+                f.eps.value === null ? null : f.eps.value + " " + f.eps.unit,
+            },
+          ]}
+          openInterview={openInterview}
+          airline={a.id}
+        />
+      </section>
       <p className="fineprint">{f.note} 本頁供公司研究，非投資建議。</p>
-    </>
+    </div>
   );
 }
 const researchGroups = data("research-groups");

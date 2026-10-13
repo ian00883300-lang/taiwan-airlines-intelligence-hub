@@ -29,13 +29,16 @@
     "answer_basis": "source_based_analysis",
     "supporting_source_ids": ["ciFleet"],
     "deep_dive": {
-      "analysis_zh": "研究時我會同時看客運RPK／ASK與貨運FTK／AFTK、收益率、燃油與匯率，再看合併與公司本體是否一致。三家同口徑國際及兩岸統計可以比较運量與載運率；不能拿不同範圍財報營收去除其中一段運力，製造出假收益率。對機師而言，客貨業務共同依赖簽派、載重與維修配合，但實際程序與機型資格仍依正式規範。",
-      "analysis_en": "I would assess passenger RPK and ASK, cargo FTK and AFTK, yields, fuel and foreign-exchange exposure, while checking parent-versus-group boundaries. Comparable international and cross-strait statistics can support volume and load-factor analysis. Revenue with a different scope must not be divided by those capacity figures to manufacture a yield. For a pilot, both businesses rely on dispatch, loading and maintenance coordination, with actual procedures and qualifications governed by authorised documents.",
+      "analysis_zh": "研究時我會同時看客運RPK／ASK與貨運FTK／AFTK、收益率、燃油與匯率，再看合併與公司本體是否一致。三家同口徑國際及兩岸統計可以比较運量與載運率；不能拿不同範圍財報營收去除其中一段運力，製造出假收益率。對機師而言，客貨業務共同依赖簽派、載重與維修配合，但實際程序與機型資格仍依正式規範。\n\n補充現金流觀點：華航2025合併營業現金淨流入49,385,273仟元，投資現金淨流出50,825,315仟元；設備預付款增加47,519,174仟元。這些是全年現金流，不能當作飛機成交價或交機架數；期末現金下降也不能單獨證明虧損。",
+      "analysis_en": "I would assess passenger RPK and ASK, cargo FTK and AFTK, yields, fuel and foreign-exchange exposure, while checking parent-versus-group boundaries. Comparable international and cross-strait statistics can support volume and load-factor analysis. Revenue with a different scope must not be divided by those capacity figures to manufacture a yield. For a pilot, both businesses rely on dispatch, loading and maintenance coordination, with actual procedures and qualifications governed by authorised documents.\n\nCash-flow context: CAL reported 2025 consolidated operating cash inflow of NT$49,385,273 thousand and investing cash outflow of NT$50,825,315 thousand, including NT$47,519,174 thousand of increased equipment prepayments. These are annual cash-flow items, not aircraft prices or delivery counts; a lower closing cash balance alone does not establish a loss.",
       "pitfalls": [
         "營收、運量與運能口徑不同卻直接計算",
         "把計畫或合作目的地當成現役與自營"
       ],
-      "follow_ups": ["貨運營收增加，是運量、運距、收益率還是組合變化造成的？"],
+      "follow_ups": [
+        "貨運營收增加，是運量、運距、收益率還是組合變化造成的？",
+        "有獲利為什麼期末現金仍可能下降？請區分營業、投資與籌資活動。"
+      ],
       "evidence_ids": ["ciFinancial2025", "ciFleet"]
     },
     "question_revision": 2,
@@ -1138,10 +1141,13 @@
     "status": "confirmed",
     "supporting_source_ids": ["jxAnnual"],
     "deep_dive": {
-      "analysis_zh": "我會沿損益表由營收走到營業成本、費用、營業外項目、所得稅，再到淨利與EPS，而不是用「新公司所以獲利低」代替分析。約0.62%的淨利率與較高財務成本提示擴張中的資金、成本與匯率敏感性，但不能把全部營業外损益都歸因同一項。EPS分母是加權平均股數；也不能把本期綜合損益總額1,557,837仟元當成本期淨利或可分配股利。",
-      "analysis_en": "I would follow the income statement from revenue through operating costs and expenses, non-operating items, tax and net income before discussing EPS. The approximately 0.62% net margin and substantial finance costs make funding and cost sensitivity relevant, but not every non-operating loss has the same cause. EPS uses weighted-average shares. Total comprehensive income of NT$1,557,837 thousand is a different measure from net income and cannot simply be treated as distributable earnings. This is a financial interpretation, not a prediction of the share price.",
+      "analysis_zh": "我會沿損益表由營收走到營業成本、費用、營業外項目、所得稅，再到淨利與EPS，而不是用「新公司所以獲利低」代替分析。約0.62%的淨利率與較高財務成本提示擴張中的資金、成本與匯率敏感性，但不能把全部營業外损益都歸因同一項。EPS分母是加權平均股數；也不能把本期綜合損益總額1,557,837仟元當成本期淨利或可分配股利。\n\n補充現金流觀點：星宇2025個別營業現金淨流入8,060,298仟元，投資淨流出20,849,698仟元，籌資淨流入12,123,788仟元。淨利、營業現金與籌資是三個不同層次；投資流出不全是交機付款，亦不等於當期費用。",
+      "analysis_en": "I would follow the income statement from revenue through operating costs and expenses, non-operating items, tax and net income before discussing EPS. The approximately 0.62% net margin and substantial finance costs make funding and cost sensitivity relevant, but not every non-operating loss has the same cause. EPS uses weighted-average shares. Total comprehensive income of NT$1,557,837 thousand is a different measure from net income and cannot simply be treated as distributable earnings. This is a financial interpretation, not a prediction of the share price.\n\nCash-flow context: STARLUX reported 2025 standalone operating inflow of NT$8,060,298 thousand, investing outflow of NT$20,849,698 thousand and financing inflow of NT$12,123,788 thousand. Profit, operating cash and financing measure different things; investing outflows are neither all aircraft delivery payments nor current-period expenses.",
       "pitfalls": ["營收成長等於EPS成長", "把綜合損益當淨利"],
-      "follow_ups": ["稅前淨利、本期淨利與其他綜合損益有何不同？"],
+      "follow_ups": [
+        "稅前淨利、本期淨利與其他綜合損益有何不同？",
+        "有獲利為什麼期末現金仍可能下降？請區分營業、投資與籌資活動。"
+      ],
       "evidence_ids": ["jxFinancial2025", "jxAnnual"]
     },
     "question_revision": 2,
