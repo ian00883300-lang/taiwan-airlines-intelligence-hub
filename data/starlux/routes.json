@@ -9,13 +9,15 @@
       "region": "Europe",
       "route_type": "self_operated_passenger",
       "status": "confirmed",
-      "source": "布拉格機場｜星宇首航",
-      "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
-      "published_date": "2026-08-01",
-      "as_of": "2026-08-01",
-      "verified_date": "2026-10-11",
-      "source_id": "jxPrg",
-      "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+      "source": "星宇｜AIRSORAYAMA 活動班表",
+      "source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-13",
+      "source_id": null,
+      "note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。",
+      "label": "航線與任務",
+      "aircraft": "A350-1000（活動公布安排；可能調整）"
     },
     {
       "id": "starlux-KIX",
@@ -32,6 +34,40 @@
       "verified_date": "2026-10-11",
       "source_id": "jxRoute",
       "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。"
+    },
+    {
+      "label": "航線與任務",
+      "source": "星宇｜AIRSORAYAMA 活動班表",
+      "source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
+      "published_date": null,
+      "verified_date": "2026-10-13",
+      "as_of": null,
+      "status": "confirmed",
+      "note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。",
+      "id": "starlux-NRT",
+      "airline": "starlux",
+      "origin": "TPE",
+      "destination": "NRT",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "aircraft": "A350-1000（活動公布安排；可能調整）"
+    },
+    {
+      "label": "航線與任務",
+      "source": "星宇｜AIRSORAYAMA 活動班表",
+      "source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
+      "published_date": null,
+      "verified_date": "2026-10-13",
+      "as_of": null,
+      "status": "confirmed",
+      "note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。",
+      "id": "starlux-PHX",
+      "airline": "starlux",
+      "origin": "TPE",
+      "destination": "PHX",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "aircraft": "A350-1000（活動公布安排；可能調整）"
     }
   ]
 }

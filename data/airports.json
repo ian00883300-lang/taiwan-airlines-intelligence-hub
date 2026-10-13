@@ -36,6 +36,78 @@
       "lat": 34.43,
       "lng": 135.24,
       "region": "Japan"
+    },
+    "RMQ": {
+      "name": "臺中",
+      "lat": 24.26,
+      "lng": 120.62,
+      "region": "Taiwan"
+    },
+    "KHH": {
+      "name": "高雄",
+      "lat": 22.58,
+      "lng": 120.35,
+      "region": "Taiwan"
+    },
+    "OKA": {
+      "name": "沖繩那霸",
+      "lat": 26.2,
+      "lng": 127.65,
+      "region": "Japan"
+    },
+    "MNL": {
+      "name": "馬尼拉",
+      "lat": 14.51,
+      "lng": 121.02,
+      "region": "Southeast Asia"
+    },
+    "FCO": {
+      "name": "羅馬菲烏米奇諾",
+      "lat": 41.8,
+      "lng": 12.24,
+      "region": "Europe"
+    },
+    "VIE": {
+      "name": "維也納",
+      "lat": 48.11,
+      "lng": 16.57,
+      "region": "Europe"
+    },
+    "SIN": {
+      "name": "新加坡樟宜",
+      "lat": 1.36,
+      "lng": 103.99,
+      "region": "Southeast Asia"
+    },
+    "BNE": {
+      "name": "布里斯本",
+      "lat": -27.38,
+      "lng": 153.12,
+      "region": "Oceania"
+    },
+    "AKL": {
+      "name": "奧克蘭",
+      "lat": -37.01,
+      "lng": 174.79,
+      "region": "Oceania"
+    },
+    "MEL": {
+      "name": "墨爾本",
+      "lat": -37.67,
+      "lng": 144.84,
+      "region": "Oceania"
+    },
+    "BKK": {
+      "name": "曼谷蘇凡納布",
+      "lat": 13.69,
+      "lng": 100.75,
+      "region": "Southeast Asia"
+    },
+    "LAX": {
+      "name": "洛杉磯",
+      "lat": 33.94,
+      "lng": -118.41,
+      "region": "North America"
     }
   }
 }

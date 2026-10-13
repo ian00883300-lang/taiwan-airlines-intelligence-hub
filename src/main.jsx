@@ -263,7 +263,7 @@ function Donut({ airline }) {
         />
         <div className="donut-center">
           <b>{f.reduce((s, x) => s + x.current_fleet, 0)}</b>
-          <span>現役 / 架</span>
+          <span>{airline.id === "starlux" ? "登記 / 架" : "機隊 / 架"}</span>
         </div>
       </div>
       <ul className="chart-legend">
@@ -289,7 +289,7 @@ function RouteMap({ initial = "all" }) {
       (air === "all" || r.airline === air) &&
       (region === "all" ||
         r.region === region ||
-        (region === "Taiwan" && r.origin === "TPE") ||
+        (region === "Taiwan" && ["TPE", "KHH", "RMQ"].includes(r.origin)) ||
         (region === "Asia" &&
           ["Japan", "Korea", "China", "Southeast Asia"].includes(r.region))),
   );
@@ -320,8 +320,11 @@ function RouteMap({ initial = "all" }) {
         ],
         { color, weight: 2.5, opacity: 0.8 },
       ).addTo(map);
+      L.circleMarker([from.lat, from.lng], { radius: 4, color, fillOpacity: 1 })
+        .addTo(map)
+        .bindTooltip(r.origin + " " + from.name);
       let content = document.createElement("span");
-      content.textContent = `${getAir(r.airline).name} · TPE → ${r.destination} ${to.name}`;
+      content.textContent = `${getAir(r.airline).name} · ${r.origin} → ${r.destination} ${to.name}`;
       L.circleMarker([to.lat, lng], {
         radius: 6,
         color,
@@ -390,12 +393,23 @@ function RouteMap({ initial = "all" }) {
               />
               <div>
                 <b>
-                  TPE <span className="muted">→</span> {r.destination}
+                  {r.origin} <span className="muted">→</span> {r.destination}
                 </b>
                 <p>
                   {getAir(r.airline).name} ·{" "}
                   {data("airports").items[r.destination].name}
                 </p>
+                <p>{r.aircraft || "機型派遣待查核"}</p>
+                {r.aircraft_source_url && (
+                  <a
+                    href={r.aircraft_source_url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    機型派飛來源 ↗
+                  </a>
+                )}
+                <p>{r.note}</p>
                 <Source item={r} compact />
               </div>
             </article>
@@ -427,7 +441,7 @@ function AirlineCard({ a }) {
         {a.total.value !== null ? (
           <>
             <strong>{a.total.value}</strong>
-            <span>架現役機隊</span>
+            <span>{a.id === "starlux" ? "架登記機隊" : "架機隊"}</span>
           </>
         ) : (
           <strong className="pending-number">待查核</strong>
@@ -514,7 +528,7 @@ function Home({ openInterview }) {
       <div className="verification-strip">
         <ShieldCheck size={17} />
         <span>
-          Data verified through: <b>2026-10-12</b> ·
+          Data verified through: <b>2026-10-13</b> ·
           各資料基準日不同，未查核項目另行標示。
         </span>
         <a href="#sources">查看來源政策 ↗</a>
@@ -611,65 +625,85 @@ function Home({ openInterview }) {
       <section className="panel">
         <SectionTitle title="最近更新" en="Research log" />
         <p>
-          2026-10-11 ·
-          核對華航與長榮官方機隊表，建立星宇歷史交付紀錄、代表航線與面試題庫。完整來源可逐項展開。
+          2026-10-13 · 新增華航與星宇共 122 筆機身編號、星宇 37
+          架登記機隊、航線任務、公司方向與中文面試練習。完整來源可逐項展開。
         </p>
       </section>
     </>
   );
 }
+const eventDate = (d) =>
+  d?.replace(
+    /^(\d{4})-(\d{2})-(\d{2})$/,
+    (_, y, m, day) => y + "年" + Number(m) + "月" + Number(day) + "日",
+  ) || "";
 function FactCards({ records, openInterview, airline }) {
   return (
-    <div className="facts-grid">
+    <div className="facts-grid compact-facts">
       {records.map((r, i) => (
         <article className="fact-card" key={i}>
-          <div className="fact-top">
-            <h3>{r.title || r.label}</h3>
-            <Badge status={r.status} />
+          <div className="fact-summary">
+            <strong>
+              {eventDate(
+                r.event_date ||
+                  (typeof r.value === "string" &&
+                  /^\d{4}-\d{2}-\d{2}$/.test(r.value)
+                    ? r.value
+                    : null),
+              )}
+              {r.event_date ||
+              (typeof r.value === "string" &&
+                /^\d{4}-\d{2}-\d{2}$/.test(r.value))
+                ? " — "
+                : ""}
+              {r.title || (r.label === "成立" ? "公司成立" : r.label)}
+            </strong>
+            <span>
+              {r.value === null
+                ? PENDING
+                : (r.body ??
+                  (/^\d{4}-\d{2}-\d{2}$/.test(String(r.value)) ? "" : r.value))}
+            </span>
+            {r.note && <span className="muted">{r.note}</span>}
+            {r.status !== "confirmed" && <Badge status={r.status} />}
           </div>
-          {r.value === null ? (
-            <Pending note={r.note} />
-          ) : (
-            <p className={r.value !== undefined ? "fact-value" : ""}>
-              {r.body ?? r.value}
-            </p>
-          )}
-          {r.note && r.value !== null && <p className="muted">{r.note}</p>}
-          <Source item={r} />
-          <button
-            className="text-button"
-            onClick={() =>
-              openInterview(
-                bank.find(
-                  (q) =>
-                    q.id ===
-                    (r.source_id === "sms" || r.source_id === "ciSms"
-                      ? "sms"
-                      : r.source_id === "fatigue"
-                        ? "fatigue"
-                        : r.source_id === "evaSaf"
-                          ? "current"
-                          : r.source_id === "ci787"
-                            ? "fleet-ci"
-                            : r.source_id === "ciFleet"
-                              ? "company-ci"
-                              : r.source_id === "evaFleet"
-                                ? "fleet-br"
-                                : r.source_id === "jxDelivery"
-                                  ? "fleet-jx"
-                                  : r.source_id === "ciRecruit"
-                                    ? "why-ci"
-                                    : r.source_id === "evaRecruit"
-                                      ? "why-br"
-                                      : ""),
-                ) ||
-                  bank.find((q) => q.airline === airline) ||
-                  bank[0],
-              )
-            }
-          >
-            <GraduationCap size={15} /> Interview View
-          </button>
+          <div className="fact-tools">
+            <Source item={r} />
+            <button
+              className="text-button"
+              onClick={() =>
+                openInterview(
+                  bank.find(
+                    (q) =>
+                      q.id ===
+                      (r.source_id === "sms" || r.source_id === "ciSms"
+                        ? "sms"
+                        : r.source_id === "fatigue"
+                          ? "fatigue"
+                          : r.source_id === "evaSaf"
+                            ? "current"
+                            : r.source_id === "ci787"
+                              ? "fleet-ci"
+                              : r.source_id === "ciFleet"
+                                ? "company-ci"
+                                : r.source_id === "evaFleet"
+                                  ? "fleet-br"
+                                  : r.source_id === "jxDelivery"
+                                    ? "fleet-jx"
+                                    : r.source_id === "ciRecruit"
+                                      ? "why-ci"
+                                      : r.source_id === "evaRecruit"
+                                        ? "why-br"
+                                        : ""),
+                  ) ||
+                    bank.find((q) => q.airline === airline) ||
+                    bank[0],
+                )
+              }
+            >
+              <GraduationCap size={15} /> Interview View
+            </button>
+          </div>
         </article>
       ))}
     </div>
@@ -730,8 +764,11 @@ function Fleet({ a, tab }) {
         </section>
         <div>
           <p className="notice">
-            Current Fleet
-            僅計現役。訂單、未來計畫、已退役皆分開保存。未知值不視為 0。
+            機隊快照 · {a.total.as_of}。
+            {a.id === "starlux"
+              ? "民航局登記口徑，不等於即時可用或正在執飛架數。"
+              : "航空公司公開機隊口徑。"}
+            訂單與未來計畫另列；機身名冊採民航局 2026-09-30 資料。
           </p>
           <label>
             篩選機隊
@@ -746,7 +783,7 @@ function Fleet({ a, tab }) {
               <thead>
                 <tr>
                   <th>機型</th>
-                  <th>現役</th>
+                  <th>{a.id === "starlux" ? "登記數" : "機隊數"}</th>
                   <th>任務</th>
                   <th>基準日</th>
                 </tr>
@@ -891,6 +928,14 @@ function Airline({ a, tab = "overview", openInterview }) {
           </span>
         </Heading>
       </div>
+      {a.slogan && (
+        <p className="slogan-evidence">
+          {a.slogan.english} ·{" "}
+          <a href={a.slogan.source_url} target="_blank" rel="noreferrer">
+            官方品牌標語來源 ↗
+          </a>
+        </p>
+      )}
       <div className="verification-strip">
         <ShieldCheck size={16} /> Data verified through: {a.last_verified} ·
         個別欄位日期請展開來源
@@ -908,6 +953,17 @@ function Airline({ a, tab = "overview", openInterview }) {
         ))}
       </nav>
       <SectionTitle title={group.zh} en={group.en} />
+      {a.priorities?.[group.id]?.length > 0 && (
+        <section className="company-priorities" aria-label="公司方向與重點">
+          <span className="eyebrow">COMPANY DIRECTION</span>
+          <h3>{a.name} · 本主題方向與重點</h3>
+          <FactCards
+            records={a.priorities[group.id]}
+            airline={a.id}
+            openInterview={openInterview}
+          />
+        </section>
+      )}
       <p className="research-scope">
         {group.members
           .map((id) => sections.find((s) => s.id === id)?.zh)
@@ -915,7 +971,7 @@ function Airline({ a, tab = "overview", openInterview }) {
       </p>
       {group.id === "fleet" ? (
         <>
-          {part("現役機隊與機型資料", <Fleet a={a} tab="fleet" />)}
+          {part("機隊快照與機型資料", <Fleet a={a} tab="fleet" />)}
           {part("訂單與未來交付", <Fleet a={a} tab="orders" />)}
           {part("機隊更新", facts(["renewal"]))}
         </>
@@ -1494,7 +1550,7 @@ function Sources() {
       <Heading
         eyebrow="EVIDENCE BEFORE ANSWERS"
         title="來源與查核"
-        description="官方資料優先，未知就留白。資料查核日：2026-10-11。"
+        description="官方資料優先，未知就留白。資料查核日依各筆來源列示；最近查核 2026-10-13。"
       />
       <div className="facts-grid">
         {[

@@ -4,17 +4,19 @@
   "name": "星宇航空",
   "english": "STARLUX Airlines",
   "color": "#ac8248",
-  "tag": "精品定位 · 長程拓展",
+  "tag": "華麗新生 閃耀如星",
   "founded": {
+    "title": "公司成立",
+    "body": "證交所上市公司介紹所載成立日期。",
+    "source": "臺灣證券交易所｜星宇航空上市介紹",
+    "source_url": "https://wwwc.twse.com.tw/market_insights/zh/detail/8a8216d69236c2e30192b842c8600253",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
     "label": "成立",
     "value": "2018-05-02",
-    "source": "星宇｜公司成立公告",
-    "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
-    "published_date": "2018-05-02",
-    "verified_date": "2026-10-11",
-    "status": "confirmed",
-    "as_of": "2018-05-02",
-    "source_id": "jxAbout"
+    "event_date": "2018-05-02"
   },
   "alliance": {
     "label": "聯盟",
@@ -28,26 +30,28 @@
     "note": "本版未查得足以確認當前正式聯盟會員身分的官方資料；共掛班號不等於加入聯盟。"
   },
   "total": {
-    "label": "當前機隊總數",
-    "value": null,
-    "source": null,
-    "source_url": null,
-    "published_date": null,
-    "verified_date": null,
-    "status": "unverified",
-    "as_of": null,
-    "note": "2025 年底快照為 29 架；2026 已有新交機，不把歷史快照當作現況。"
+    "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+    "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+    "published_date": "2026-10-07",
+    "verified_date": "2026-10-13",
+    "as_of": "2026-09-30",
+    "status": "confirmed",
+    "label": "登記機隊總數",
+    "value": 37,
+    "note": "CAA 2026-09-30 名冊：13 A321neo、10 A330-900、10 A350-900、4 A350-1000；非即時可用架數。"
   },
   "age": {
+    "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+    "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+    "published_date": "2026-10-07",
+    "verified_date": "2026-10-13",
+    "as_of": "2026-09-30",
+    "status": "confirmed",
     "label": "平均機齡",
-    "value": null,
-    "source": null,
-    "source_url": null,
-    "published_date": null,
-    "verified_date": null,
-    "status": "unverified",
-    "as_of": null,
-    "note": "尚未取得可比較且具日期的官方資料。"
+    "value": "3.08 年",
+    "note": "CAA 同日名冊平均值，四捨五入至小數二位。"
   },
   "sections": {
     "overview": [
@@ -120,15 +124,17 @@
     ],
     "history": [
       {
+        "title": "公司成立",
+        "body": "證交所上市公司介紹所載成立日期。",
+        "source": "臺灣證券交易所｜星宇航空上市介紹",
+        "source_url": "https://wwwc.twse.com.tw/market_insights/zh/detail/8a8216d69236c2e30192b842c8600253",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
         "label": "成立",
         "value": "2018-05-02",
-        "source": "星宇｜公司成立公告",
-        "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
-        "published_date": "2018-05-02",
-        "verified_date": "2026-10-11",
-        "status": "confirmed",
-        "as_of": "2018-05-02",
-        "source_id": "jxAbout"
+        "event_date": "2018-05-02"
       },
       {
         "title": "2026 年首架 A350-1000",
@@ -139,7 +145,8 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": "2026-01-06",
-        "source_id": "jxDelivery"
+        "source_id": "jxDelivery",
+        "event_date": "2026-01-06"
       }
     ],
     "governance": [
@@ -169,6 +176,18 @@
       }
     ],
     "brand": [
+      {
+        "label": "官方品牌標語",
+        "value": "華麗新生 閃耀如星",
+        "english": "Born with luxury. Shining like stars",
+        "source": "星宇｜官方品牌標語",
+        "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+        "published_date": "2018-05-02",
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "中文標語另見官方小舖：https://shop.jx-starlux.com/pages/關於我們 。Safety is Our Attitude 為安全理念。"
+      },
       {
         "title": "精品航空定位",
         "body": "證交所公司介紹以全服務精品航空、高品質軟硬體與重視品質的旅客為品牌定位。",
@@ -319,15 +338,14 @@
     ],
     "saf": [
       {
-        "title": "SAF 試行計畫",
-        "body": "2025 年年報提及參與台灣 SAF 添加試行；本版不推算比例或減碳量。",
-        "source": "星宇航空｜2025 年報",
-        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "title": "減碳基準與路徑",
+        "body": "以 2024 年範疇一、二排放強度 27.61 公噸 CO₂e／百萬營收為基準，設定每年降低 1% 的短中期目標，並朝 2050 淨零方向推進。",
+        "source": "星宇｜溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
         "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-11",
-        "status": "confirmed",
-        "source_id": "jxAnnual"
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "planned"
       }
     ],
     "finance": [],
@@ -457,7 +475,7 @@
       }
     ]
   },
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-13",
   "icao_code": "SJX",
   "codes": {
     "label": "航空公司代碼",
@@ -469,5 +487,112 @@
     "as_of": null,
     "status": "confirmed",
     "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+  },
+  "slogan": {
+    "label": "官方品牌標語",
+    "value": "華麗新生 閃耀如星",
+    "english": "Born with luxury. Shining like stars",
+    "source": "星宇｜官方品牌標語",
+    "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+    "published_date": "2018-05-02",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "中文標語另見官方小舖：https://shop.jx-starlux.com/pages/關於我們 。Safety is Our Attitude 為安全理念。"
+  },
+  "priorities": {
+    "operations": [
+      {
+        "title": "客貨運服務數位化",
+        "body": "2026 營運規劃包括全球客服中心、智能客服，以及貨運官網／App 升級，改善服務與訂單處理效率。年報印刷第 9 頁。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "planned",
+        "source_id": "jxAnnual"
+      }
+    ],
+    "safety": [
+      {
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent",
+        "title": "將安全內化為工作習慣",
+        "body": "官方培訓理念強調飛安是旅客信任的基礎，要求機師內化安全意識並接受高標準訓練。",
+        "scope": "不代表保證邀考、錄取或立即開訓。"
+      }
+    ],
+    "esg": [
+      {
+        "title": "SAF 與排放強度目標",
+        "body": "SAF 平均添加比例目標為 2027 年 2%、2030 年 5%。2030 年範疇一、二排放強度目標較 2024 年下降 5%；此為強度，不是排放總量下降 5%。",
+        "source": "星宇｜溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "planned"
+      }
+    ],
+    "cadet": [
+      {
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent",
+        "title": "團隊合作、領導與訓練紀律",
+        "body": "招募除知識與技能，也重視團隊及領導特質。培訓包含海外商用駕駛訓練及後續機型轉換訓練。",
+        "scope": "不代表保證邀考、錄取或立即開訓。"
+      }
+    ],
+    "strategy": [
+      {
+        "title": "轉運樞紐與跨洲航網",
+        "body": "2026 經營策略以擴大自營航網、深化台灣轉運樞紐效益及國際合作，串聯亞洲、北美與歐洲。年報印刷第 8 頁。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "planned",
+        "source_id": "jxAnnual"
+      }
+    ],
+    "finance": [
+      {
+        "title": "滾動檢討損益、維持穩健發展",
+        "body": "2025 年報表示持續檢視損益；未公開未來財務預測。不可把機隊擴張直接解讀為獲利保證。年報印刷第 124 頁。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      }
+    ],
+    "interview": [
+      {
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent",
+        "title": "把公司研究連結到安全與團隊能力",
+        "body": "依官方招募重視的特質，練習清楚說明動機、查證機隊與航網，並用真實案例展示合作、接受回饋與持續學習。下方為本站原創練習方向，非官方考題。",
+        "scope": "不代表保證邀考、錄取或立即開訓。"
+      }
+    ]
   }
 }

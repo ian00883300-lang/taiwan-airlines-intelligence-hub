@@ -4,7 +4,7 @@
   "name": "長榮航空",
   "english": "EVA Air",
   "color": "#21846b",
-  "tag": "跨洲網絡 · 客運與貨運",
+  "tag": "分享讓飛行更愉悅",
   "founded": {
     "label": "成立",
     "value": "1989",
@@ -174,6 +174,18 @@
       }
     ],
     "brand": [
+      {
+        "label": "官方品牌標語",
+        "value": "分享讓飛行更愉悅",
+        "english": "Sharing the World, Flying Together",
+        "source": "長榮｜官方品牌標語",
+        "source_url": "https://flights.evaair.com/zh-tw/航班-出發自-台中",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "英文：Sharing the World, Flying Together"
+      },
       {
         "title": "品質方針",
         "body": "官方提出安全便利、優質服務與顧客滿意。",
@@ -461,7 +473,7 @@
       }
     ]
   },
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-13",
   "icao_code": "EVA",
   "codes": {
     "label": "航空公司代碼",
@@ -473,5 +485,136 @@
     "as_of": null,
     "status": "confirmed",
     "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+  },
+  "slogan": {
+    "label": "官方品牌標語",
+    "value": "分享讓飛行更愉悅",
+    "english": "Sharing the World, Flying Together",
+    "source": "長榮｜官方品牌標語",
+    "source_url": "https://flights.evaair.com/zh-tw/航班-出發自-台中",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "英文：Sharing the World, Flying Together"
+  },
+  "priorities": {
+    "operations": [
+      {
+        "label": "全貨機",
+        "value": 9,
+        "source": "長榮航空｜EVA Air Fleet",
+        "source_url": "https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-10-01",
+        "source_id": "evaFleet",
+        "note": "777F；客機腹艙另計。"
+      }
+    ],
+    "safety": [
+      {
+        "title": "公司方向待查核",
+        "body": "Data pending verification；尚未取得足以支持此主題公司目標的官方資料，不將一般航空知識當作公司政策。",
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "as_of": null,
+        "status": "unverified"
+      }
+    ],
+    "esg": [
+      {
+        "title": "SAF 使用與未來目標分列",
+        "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",
+        "source": "長榮｜永續績效",
+        "source_url": "https://www.evacsr.com/en/esg/about03.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaSaf"
+      },
+      {
+        "title": "SAF 使用與未來目標分列",
+        "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",
+        "source": "長榮｜永續績效",
+        "source_url": "https://www.evacsr.com/en/esg/about03.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaSaf"
+      }
+    ],
+    "cadet": [
+      {
+        "title": "可隨時報名",
+        "body": "官方招募頁表示累積相當人數後通知甄試；不代表固定開課或保證录取日期。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      },
+      {
+        "title": "三階段培訓",
+        "body": "地面學科、基礎飛行、進階與機型轉換；完成後以副機長任用。各階段須達成訓練要求。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      }
+    ],
+    "strategy": [
+      {
+        "title": "新機更新計畫",
+        "body": "Airbus 2025 年公告確認新增 6 架 A350-1000 與 3 架 A321neo，總待交提升至 24 與 18 架；和現役機隊分列。",
+        "source": "Airbus｜EVA Air 增訂",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-04-eva-air-expands-fleet-with-more-a350-1000-and-a321neo-aircraft",
+        "published_date": "2025-04-07",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2025-04-07",
+        "source_id": "evaOrder"
+      }
+    ],
+    "finance": [
+      {
+        "label": "2025 年度營收",
+        "unit": "十億新臺幣",
+        "period": "2025-01-01/2025-12-31",
+        "scope": "長榮航空及子公司合併財務報表",
+        "source": "長榮｜2025 年報",
+        "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "evaFinance",
+        "title": "營運成果基準",
+        "body": "2025 年度營收 220.333377 十億新臺幣；長榮航空及子公司合併財務報表。本數字為已公布成果，不是公司未來財測。"
+      }
+    ],
+    "interview": [
+      {
+        "title": "三階段培訓",
+        "body": "地面學科、基礎飛行、進階與機型轉換；完成後以副機長任用。各階段須達成訓練要求。",
+        "source": "長榮｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": null,
+        "source_id": "evaRecruit"
+      }
+    ]
   }
 }

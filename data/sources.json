@@ -818,5 +818,154 @@
     "as_of": null,
     "status": "confirmed",
     "level": 3
+  },
+  {
+    "id": "china-airlines-slogan",
+    "label": "官方品牌標語",
+    "value": "充滿驚喜的遠行 回到熟悉的家",
+    "english": "Show You the World Take You Home",
+    "source": "華航｜官方品牌／客艙宣傳用語",
+    "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "英文：Show You the World Take You Home",
+    "level": 1
+  },
+  {
+    "id": "eva-air-slogan",
+    "label": "官方品牌標語",
+    "value": "分享讓飛行更愉悅",
+    "english": "Sharing the World, Flying Together",
+    "source": "長榮｜官方品牌標語",
+    "source_url": "https://flights.evaair.com/zh-tw/航班-出發自-台中",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "英文：Sharing the World, Flying Together",
+    "level": 1
+  },
+  {
+    "id": "caaSep26",
+    "level": 2,
+    "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+    "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+    "published_date": "2026-10-07",
+    "verified_date": "2026-10-13",
+    "as_of": "2026-09-30",
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-85",
+    "level": 1,
+    "source": "星宇｜溫室氣體管理",
+    "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-86",
+    "level": 1,
+    "source": "華航｜IAGOS 大氣觀測",
+    "source_url": "https://calec.china-airlines.com/csr/en/news20240703.html",
+    "published_date": "2024-07-03",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-87",
+    "level": 1,
+    "source": "華航｜彩繪機首航",
+    "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+    "published_date": "2025-11-19",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-88",
+    "level": 1,
+    "source": "華航｜高雄航線公告",
+    "source_url": "https://calec.china-airlines.com/csr/news20230515.html",
+    "published_date": "2023-05-15",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-89",
+    "level": 1,
+    "source": "華航貨運｜孟買航線",
+    "source_url": "https://cargo.china-airlines.com/CCNetv2/content/about/NewsView.aspx?Id=28",
+    "published_date": "2019-11-15",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-90",
+    "level": 1,
+    "source": "華航｜2022 年報",
+    "source_url": "https://calec.china-airlines.com/annual-report/annual_2022.pdf",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-91",
+    "level": 1,
+    "source": "華航｜SAF 採購公告",
+    "source_url": "https://www.china-airlines.com/us/en/about-china-airlines/media/news/20250722.html",
+    "published_date": "2025-07-22",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "announced"
+  },
+  {
+    "id": "oct13-92",
+    "level": 1,
+    "source": "星宇｜開航公告",
+    "source_url": "https://www.starlux-airlines.com/en-VN/about-us/media-center/news/2020/news-20200123",
+    "published_date": "2020-01-23",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "oct13-93",
+    "level": 1,
+    "source": "星宇｜A330neo 部署公告",
+    "source_url": "https://www.starlux-airlines.com/id-ID/about-us/media-center/news/2022/20220525",
+    "published_date": "2022-05-25",
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "announced"
+  },
+  {
+    "id": "oct13-94",
+    "level": 1,
+    "source": "星宇｜AIRSORAYAMA 活動班表",
+    "source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "announced"
+  },
+  {
+    "id": "oct13-95",
+    "level": 2,
+    "source": "臺灣證券交易所｜星宇航空上市介紹",
+    "source_url": "https://wwwc.twse.com.tw/market_insights/zh/detail/8a8216d69236c2e30192b842c8600253",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed"
   }
 ]

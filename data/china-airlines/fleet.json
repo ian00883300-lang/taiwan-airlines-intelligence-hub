@@ -49,15 +49,15 @@
       },
       "role": "客運 Passenger",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "航線與任務",
+        "value": "長程與區域客運：官方配置頁列羅馬、維也納、新加坡，以及布里斯本／奧克蘭、墨爾本、成田、曼谷的部分航班。",
+        "source": "華航｜座艙配置",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "現行官方配置頁所列部分航班；不保證每個日期固定派飛。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -190,6 +190,138 @@
             "source_url": "https://prd-api.china-airlines.com/us/en/Images/A35D_A35G_20261006_tcm517-79788.jpg"
           }
         ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18901",
+            "type": "A350-900",
+            "manufactured": "2016-09-30",
+            "age_years": 10
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18902",
+            "type": "A350-900",
+            "manufactured": "2016-11-21",
+            "age_years": 9.858333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18903",
+            "type": "A350-900",
+            "manufactured": "2016-12-22",
+            "age_years": 9.772222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18905",
+            "type": "A350-900",
+            "manufactured": "2016-12-30",
+            "age_years": 9.75
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18906",
+            "type": "A350-900",
+            "manufactured": "2017-03-20",
+            "age_years": 9.527777777777779
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18907",
+            "type": "A350-900",
+            "manufactured": "2017-05-24",
+            "age_years": 9.35
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18908",
+            "type": "A350-900",
+            "manufactured": "2017-07-25",
+            "age_years": 9.180555555555555
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18909",
+            "type": "A350-900",
+            "manufactured": "2017-09-13",
+            "age_years": 9.047222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18910",
+            "type": "A350-900",
+            "manufactured": "2017-11-06",
+            "age_years": 8.9
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18912",
+            "type": "A350-900",
+            "manufactured": "2017-11-29",
+            "age_years": 8.83611111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18915",
+            "type": "A350-900",
+            "manufactured": "2018-01-23",
+            "age_years": 8.686111111111112
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18916",
+            "type": "A350-900",
+            "manufactured": "2018-03-08",
+            "age_years": 8.561111111111112
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18917",
+            "type": "A350-900",
+            "manufactured": "2018-06-12",
+            "age_years": 8.3
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18918",
+            "type": "A350-900",
+            "manufactured": "2018-10-19",
+            "age_years": 7.947222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18919",
+            "type": "A350-900",
+            "manufactured": "2019-11-28",
+            "age_years": 6.838888888888889
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18920",
+            "type": "A350-900",
+            "manufactured": "2018-10-25",
+            "age_years": 7.930555555555555
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18922",
+            "type": "A350-900",
+            "manufactured": "2018-08-07",
+            "age_years": 8.147222222222222
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -239,15 +371,15 @@
       },
       "role": "客運 Passenger",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "航線與任務",
+        "value": "客運之外，兩架裝設 IAGOS 儀器，在飛航太平洋區域時執行大氣觀測任務。",
+        "source": "華航｜IAGOS 大氣觀測",
+        "source_url": "https://calec.china-airlines.com/csr/en/news20240703.html",
+        "published_date": "2024-07-03",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "官方歷史任務介紹；當前逐城市派飛資料 Data pending verification。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -357,6 +489,103 @@
             "source_url": "https://prd-api.china-airlines.com/us/en/Images/A330-300_20260820_tcm517-67241.jpg"
           }
         ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18306",
+            "type": "A330-300",
+            "manufactured": "2005-07-08",
+            "age_years": 21.227777777777778
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18307",
+            "type": "A330-300",
+            "manufactured": "2005-09-21",
+            "age_years": 21.025
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18308",
+            "type": "A330-300",
+            "manufactured": "2005-10-20",
+            "age_years": 20.944444444444443
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18309",
+            "type": "A330-300",
+            "manufactured": "2005-12-08",
+            "age_years": 20.81111111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18311",
+            "type": "A330-300",
+            "manufactured": "2006-06-20",
+            "age_years": 20.27777777777778
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18315",
+            "type": "A330-300",
+            "manufactured": "2007-03-23",
+            "age_years": 19.519444444444446
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18316",
+            "type": "A330-300",
+            "manufactured": "2007-05-16",
+            "age_years": 19.372222222222224
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18317",
+            "type": "A330-300",
+            "manufactured": "2007-10-01",
+            "age_years": 18.997222222222224
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18358",
+            "type": "A330-300",
+            "manufactured": "2012-10-15",
+            "age_years": 13.958333333333334
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18359",
+            "type": "A330-300",
+            "manufactured": "2012-12-05",
+            "age_years": 13.819444444444445
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18360",
+            "type": "A330-300",
+            "manufactured": "2013-12-02",
+            "age_years": 12.827777777777778
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18361",
+            "type": "A330-300",
+            "manufactured": "2014-06-27",
+            "age_years": 12.258333333333333
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -406,15 +635,15 @@
       },
       "role": "客運 Passenger",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "航線與任務",
+        "value": "長程客運例：2025-11-19 彩繪機首航台北—洛杉磯，官方當時公告主要派飛洛杉磯。",
+        "source": "華航｜彩繪機首航",
+        "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+        "published_date": "2025-11-19",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史派飛紀錄；不是 2026 年完整或即時班表。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -513,6 +742,89 @@
             "source_url": "https://prd-api.china-airlines.com/us/en/Images/B777-300ER_20260820_tcm517-67240.jpg"
           }
         ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18001",
+            "type": "B777-300ER",
+            "manufactured": "2015-05-22",
+            "age_years": 11.355555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18002",
+            "type": "B777-300ER",
+            "manufactured": "2015-06-30",
+            "age_years": 11.25
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18003",
+            "type": "B777-300ER",
+            "manufactured": "2015-08-25",
+            "age_years": 11.097222222222221
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18005",
+            "type": "B777-300ER",
+            "manufactured": "2015-10-29",
+            "age_years": 10.919444444444444
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18006",
+            "type": "B777-300ER",
+            "manufactured": "2016-01-19",
+            "age_years": 10.697222222222223
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18007",
+            "type": "B777-300ER",
+            "manufactured": "2016-05-16",
+            "age_years": 10.372222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18051",
+            "type": "B777-300ER",
+            "manufactured": "2014-09-30",
+            "age_years": 12
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18052",
+            "type": "B777-300ER",
+            "manufactured": "2014-10-23",
+            "age_years": 11.936111111111112
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18053",
+            "type": "B777-300ER",
+            "manufactured": "2014-11-24",
+            "age_years": 11.85
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18055",
+            "type": "B777-300ER",
+            "manufactured": "2015-01-14",
+            "age_years": 11.71111111111111
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -562,15 +874,15 @@
       },
       "role": "客運 Passenger",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "航線與任務",
+        "value": "區域客運例：2023 年公告高雄—首爾金浦 CI184/185 自 7 月 6 日起採此機型。",
+        "source": "華航｜高雄航線公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20230515.html",
+        "published_date": "2023-05-15",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史開航公告；當前同航線派飛機型待查核。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -680,6 +992,61 @@
             "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
           }
         ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18651",
+            "type": "B737-800",
+            "manufactured": "2013-04-16",
+            "age_years": 13.455555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18652",
+            "type": "B737-800",
+            "manufactured": "2013-05-16",
+            "age_years": 13.372222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18653",
+            "type": "B737-800",
+            "manufactured": "2013-06-28",
+            "age_years": 13.255555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18660",
+            "type": "B737-800",
+            "manufactured": "2016-03-15",
+            "age_years": 10.541666666666666
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18663",
+            "type": "B737-800",
+            "manufactured": "2016-10-20",
+            "age_years": 9.944444444444445
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18665",
+            "type": "B737-800",
+            "manufactured": "2016-11-14",
+            "age_years": 9.877777777777778
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -729,15 +1096,15 @@
       },
       "role": "客運 Passenger",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "航線與任務",
+        "value": "區域客運：台中—沖繩 CI310/311/312/313、高雄—沖繩 CI132/133、高雄—馬尼拉 CI711/712（特定座艙配置）。",
+        "source": "華航｜座艙配置",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "現行官方配置頁所列部分航班；不保證每個日期固定派飛。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -847,6 +1214,173 @@
             "source_url": "https://prd-api.china-airlines.com/us/en/Images/32C-20260820_tcm517-77993.jpg"
           }
         ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18101",
+            "type": "A321-200NX",
+            "manufactured": "2021-11-29",
+            "age_years": 4.836111111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18102",
+            "type": "A321-200NX",
+            "manufactured": "2021-12-13",
+            "age_years": 4.7972222222222225
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18103",
+            "type": "A321-200NX",
+            "manufactured": "2022-02-15",
+            "age_years": 4.625
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18105",
+            "type": "A321-200NX",
+            "manufactured": "2022-05-19",
+            "age_years": 4.363888888888889
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18106",
+            "type": "A321-200NX",
+            "manufactured": "2022-04-25",
+            "age_years": 4.430555555555555
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18107",
+            "type": "A321-200NX",
+            "manufactured": "2022-04-28",
+            "age_years": 4.4222222222222225
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18108",
+            "type": "A321-200NX",
+            "manufactured": "2022-06-23",
+            "age_years": 4.269444444444445
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18109",
+            "type": "A321-200NX",
+            "manufactured": "2022-06-30",
+            "age_years": 4.25
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18110",
+            "type": "A321-200NX",
+            "manufactured": "2022-11-30",
+            "age_years": 3.8333333333333335
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18111",
+            "type": "A321-200NX",
+            "manufactured": "2022-12-14",
+            "age_years": 3.7944444444444443
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18112",
+            "type": "A321-200NX",
+            "manufactured": "2024-03-11",
+            "age_years": 2.5527777777777776
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18115",
+            "type": "A321-200NX",
+            "manufactured": "2024-04-30",
+            "age_years": 2.4166666666666665
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18116",
+            "type": "A321-200NX",
+            "manufactured": "2024-07-05",
+            "age_years": 2.236111111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18117",
+            "type": "A321-200NX",
+            "manufactured": "2025-04-11",
+            "age_years": 1.4694444444444446
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18118",
+            "type": "A321-200NX",
+            "manufactured": "2024-11-25",
+            "age_years": 1.8472222222222223
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18120",
+            "type": "A321-200NX",
+            "manufactured": "2025-01-21",
+            "age_years": 1.6916666666666667
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18121",
+            "type": "A321-200NX",
+            "manufactured": "2025-05-28",
+            "age_years": 1.3388888888888888
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18122",
+            "type": "A321-200NX",
+            "manufactured": "2025-11-27",
+            "age_years": 0.8416666666666667
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18123",
+            "type": "A321-200NX",
+            "manufactured": "2025-12-18",
+            "age_years": 0.7833333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18125",
+            "type": "A321-200NX",
+            "manufactured": "2026-06-26",
+            "age_years": 0.2611111111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18135",
+            "type": "A321-200NX",
+            "manufactured": "2025-08-13",
+            "age_years": 1.1305555555555555
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18136",
+            "type": "A321-200NX",
+            "manufactured": "2025-08-12",
+            "age_years": 1.1333333333333333
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -896,15 +1430,15 @@
       },
       "role": "貨運 Freight",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "label": "航線與任務",
+        "value": "全貨運例：2019 年公告台北—孟買—阿姆斯特丹及回程航線。",
+        "source": "華航貨運｜孟買航線",
+        "source_url": "https://cargo.china-airlines.com/CCNetv2/content/about/NewsView.aspx?Id=28",
+        "published_date": "2019-11-15",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史航線公告，正文另記 2019-11-13；不可視為當期固定班表。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -972,6 +1506,75 @@
         "as_of": null,
         "status": "confirmed",
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18717",
+            "type": "B747-400F",
+            "manufactured": "2004-05-12",
+            "age_years": 22.383333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18718",
+            "type": "B747-400F",
+            "manufactured": "2004-06-17",
+            "age_years": 22.28611111111111
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18719",
+            "type": "B747-400F",
+            "manufactured": "2005-01-18",
+            "age_years": 21.7
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18720",
+            "type": "B747-400F",
+            "manufactured": "2005-05-12",
+            "age_years": 21.383333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18721",
+            "type": "B747-400F",
+            "manufactured": "2005-08-05",
+            "age_years": 21.15277777777778
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18722",
+            "type": "B747-400F",
+            "manufactured": "2006-06-29",
+            "age_years": 20.252777777777776
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18723",
+            "type": "B747-400F",
+            "manufactured": "2006-10-25",
+            "age_years": 19.930555555555557
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18725",
+            "type": "B747-400F",
+            "manufactured": "2007-04-20",
+            "age_years": 19.444444444444443
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     },
     {
@@ -1021,15 +1624,15 @@
       },
       "role": "貨運 Freight",
       "main_routes": {
-        "label": "機型派飛航線",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "label": "航線與任務",
+        "value": "北美貨運：2022 年報說明與 747-400F 混合調度。",
+        "source": "華航｜2022 年報",
+        "source_url": "https://calec.china-airlines.com/annual-report/annual_2022.pdf",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史區域任務；年報未將各航段唯一指定給 777F，不推論專屬航線。"
       },
       "first_delivery": {
         "label": "首次交付",
@@ -1097,6 +1700,89 @@
         "as_of": null,
         "status": "confirmed",
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18771",
+            "type": "B777F",
+            "manufactured": "2020-11-30",
+            "age_years": 5.833333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18772",
+            "type": "B777F",
+            "manufactured": "2020-12-23",
+            "age_years": 5.769444444444445
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18773",
+            "type": "B777F",
+            "manufactured": "2021-01-28",
+            "age_years": 5.6722222222222225
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18775",
+            "type": "B777F",
+            "manufactured": "2022-03-29",
+            "age_years": 4.502777777777778
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18776",
+            "type": "B777F",
+            "manufactured": "2022-12-16",
+            "age_years": 3.7888888888888888
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18777",
+            "type": "B777F",
+            "manufactured": "2023-05-05",
+            "age_years": 3.4027777777777777
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18778",
+            "type": "B777F",
+            "manufactured": "2023-08-03",
+            "age_years": 3.158333333333333
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18779",
+            "type": "B777F",
+            "manufactured": "2025-05-16",
+            "age_years": 1.3722222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18780",
+            "type": "B777F",
+            "manufactured": "2024-06-24",
+            "age_years": 2.2666666666666666
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18781",
+            "type": "B777F",
+            "manufactured": "2024-06-29",
+            "age_years": 2.2527777777777778
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
       }
     }
   ],

@@ -644,3 +644,135 @@
   text-align: center;
   letter-spacing: 2px;
 }
+
+.compact-facts {
+  display: block;
+  background: #fff;
+  border: 1px solid #dce5ed;
+  border-radius: 14px;
+  padding: 0 18px;
+}
+.compact-facts .fact-card {
+  padding: 14px 0;
+  border: 0;
+  border-bottom: 1px solid #e3ebf0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.compact-facts .fact-card:last-child {
+  border-bottom: 0;
+}
+.fact-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 12px;
+  line-height: 1.75;
+}
+.fact-summary strong {
+  color: #193d56;
+}
+.fact-summary .muted {
+  font-size: 0.92rem;
+}
+.fact-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  align-items: baseline;
+}
+.fact-tools .source {
+  flex: 1 1 180px;
+  margin: 4px 0 0;
+}
+.fact-tools .text-button {
+  padding: 2px 0;
+  font-size: 0.8rem;
+}
+.fact-tools .source[open] {
+  flex-basis: 100%;
+}
+@media (max-width: 600px) {
+  .compact-facts {
+    padding: 0 14px;
+  }
+  .fact-tools .text-button {
+    min-height: 36px;
+  }
+}
+
+.slogan-evidence {
+  margin: -8px 0 18px;
+  color: #657b8c;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.company-priorities {
+  border-left: 4px solid #ac8248;
+  background: #f1f5f8;
+  padding: 20px;
+  margin: 18px 0 24px;
+  border-radius: 8px;
+  min-width: 0;
+}
+.company-priorities h3 {
+  margin: 8px 0 14px;
+}
+.company-priorities .compact-facts {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.registration-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+  margin: 14px 0;
+}
+.registration-list > div {
+  display: flex;
+  flex-direction: column;
+  background: #f1f5f8;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+.aircraft-registrations summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 0;
+}
+.route-list {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  align-items: start;
+}
+.route-list article,
+.route-list article > div {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.route-list p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  margin: 6px 0;
+}
+.route-list .source[open] {
+  width: 100%;
+  max-width: 100%;
+  position: static;
+  overflow: visible;
+}
+.table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
+@media (max-width: 600px) {
+  .company-priorities {
+    padding: 14px;
+  }
+  .route-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

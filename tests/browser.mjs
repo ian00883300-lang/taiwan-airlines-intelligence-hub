@@ -113,7 +113,7 @@ try {
     "Question search, difficulty and topic filters work together",
     async () => {
       await go("interview");
-      assert.equal(await page.locator(".question-card").count(), 20);
+      assert.equal(await page.locator(".question-card").count(), JSON.parse(fs.readFileSync("data/interview-bank.json", "utf8")).length);
       await page.getByLabel("主題").selectOption("Fleet");
       assert.equal(await page.locator(".question-card").count(), 3);
       await page.getByLabel("航空公司").selectOption("eva-air");
@@ -233,7 +233,7 @@ try {
       assert.ok(
         (await page.locator("main").innerText()).includes("底圖暫時無法載入"),
       );
-      assert.equal(await page.locator(".route-list article").count(), 2);
+      assert.equal(await page.locator(".route-list article").count(), JSON.parse(fs.readFileSync("data/starlux/routes.json", "utf8")).items.length);
       await page.unroute("https://tile.openstreetmap.org/**");
     },
   );

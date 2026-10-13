@@ -4,7 +4,7 @@
   "name": "中華航空",
   "english": "China Airlines",
   "color": "#ba427e",
-  "tag": "客貨並進 · 全球航網",
+  "tag": "充滿驚喜的遠行 回到熟悉的家",
   "founded": {
     "label": "成立",
     "value": "1959-12-16",
@@ -130,7 +130,9 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": "2012-12-31",
-        "source_id": "ciFounding"
+        "source_id": "ciFounding",
+        "event_date": "1959-12-16",
+        "body": "公司成立。成立日期依既列官方歷史資料。"
       },
       {
         "label": "聯盟",
@@ -141,7 +143,8 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": "2011-09-28",
-        "source_id": "ciAlliance"
+        "source_id": "ciAlliance",
+        "event_date": "2011-09-28"
       }
     ],
     "governance": [
@@ -171,6 +174,18 @@
       }
     ],
     "brand": [
+      {
+        "label": "官方品牌標語",
+        "value": "充滿驚喜的遠行 回到熟悉的家",
+        "english": "Show You the World Take You Home",
+        "source": "華航｜官方品牌／客艙宣傳用語",
+        "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "英文：Show You the World Take You Home"
+      },
       {
         "label": "品牌與理念",
         "value": null,
@@ -321,15 +336,14 @@
     ],
     "saf": [
       {
-        "label": "永續航空燃油",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "title": "SAF 供應合作",
+        "body": "2025-07-22 公告未來三年向台塑石化採購逾一萬噸 SAF；這是採購安排，不代表公布當日已全數使用。",
+        "source": "華航｜SAF 採購公告",
+        "source_url": "https://www.china-airlines.com/us/en/about-china-airlines/media/news/20250722.html",
+        "published_date": "2025-07-22",
+        "verified_date": "2026-10-13",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "status": "announced"
       }
     ],
     "finance": [],
@@ -452,7 +466,7 @@
       }
     ]
   },
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-13",
   "icao_code": "CAL",
   "codes": {
     "label": "航空公司代碼",
@@ -464,5 +478,119 @@
     "as_of": null,
     "status": "confirmed",
     "note": "二字母為 IATA 航空公司代碼，三字母為 ICAO 航空公司代碼。"
+  },
+  "slogan": {
+    "label": "官方品牌標語",
+    "value": "充滿驚喜的遠行 回到熟悉的家",
+    "english": "Show You the World Take You Home",
+    "source": "華航｜官方品牌／客艙宣傳用語",
+    "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail",
+    "published_date": null,
+    "verified_date": "2026-10-13",
+    "as_of": null,
+    "status": "confirmed",
+    "note": "英文：Show You the World Take You Home"
+  },
+  "priorities": {
+    "operations": [
+      {
+        "title": "客貨運能與修護協同",
+        "body": "公司以客運、貨運及機隊調配共同推動營運；修護資料另列於下方。",
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "source_id": "ciEsg"
+      }
+    ],
+    "safety": [
+      {
+        "title": "持續監控與調整營運風險",
+        "body": "依地緣政治、航路安全及場站條件，必要時調整航班時間、航路與營運策略。",
+        "source": "華航｜安全管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciSms"
+      }
+    ],
+    "esg": [
+      {
+        "title": "2050 淨零與 2030 SAF 5%",
+        "body": "華航將飛航作業 2050 淨零、2030 年 SAF 添加比例 5% 列入永續目標；地面作業另訂 2030 年較 2023 年減碳 15%。目標與當年成果分開閱讀。",
+        "source": "華航｜永續治理與中長期目標",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "planned"
+      }
+    ],
+    "cadet": [
+      {
+        "title": "官方公告全年接受報名",
+        "body": "2026-03-07 公告全年開放機師報名；逾 160 名是年度招募目標，並非現有剩餘職缺。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-11",
+        "status": "announced",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      },
+      {
+        "title": "培訓概況",
+        "body": "公告列大學學士、有效英文檢定及體檢等資格；甄選涵蓋心理衡鑑、紙筆、中英文面試及綜合評量。細節以當期簡章為準。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      }
+    ],
+    "strategy": [
+      {
+        "title": "以安全、治理支撐機隊與航網發展",
+        "body": "官方以「領先亞太，展翼全球」為願景，連結機隊航網、產品服務與集團合作；機隊新案的訂購、交付與營運須分階段追蹤。",
+        "source": "華航｜永續治理",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "verified_date": "2026-10-13",
+        "as_of": null,
+        "status": "confirmed"
+      }
+    ],
+    "finance": [
+      {
+        "title": "營運韌性與機隊投資",
+        "body": "以客貨並進支撐營運，並持續投入機隊與服務升級。比較財務表現須區分營收、獲利與合併範圍；下列為已公布成果，非未来財測。",
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "source_id": "ciEsg"
+      }
+    ],
+    "interview": [
+      {
+        "title": "從客貨並進連結機師職責",
+        "body": "本站準備方向：了解客貨運特色，再以真實例子說明程序紀律、團隊溝通與接受訓練回饋；不是官方評分標準或保證考題。",
+        "source": "華航｜2026 機師招募公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20260307.html",
+        "published_date": "2026-03-07",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "as_of": "2026-03-07",
+        "source_id": "ciRecruit"
+      }
+    ]
   }
 }

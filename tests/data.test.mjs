@@ -24,7 +24,7 @@ test("All evidence has valid metadata and verified dates do not fabricate public
         n++;
         assert.ok(validate(o), path + " " + JSON.stringify(validate.errors));
         for (const k of ["published_date", "verified_date", "as_of"])
-          if (o[k]) assert.ok(o[k] <= "2026-10-12", path + " future date " + k);
+          if (o[k]) assert.ok(o[k] <= "2026-10-13", path + " future date " + k);
         if (o.value === null) assert.equal(o.status, "unverified", path);
       }
     });
@@ -66,12 +66,27 @@ test("Passenger and cargo sums match dated current fleet totals, excluding all o
     );
   }
 });
-test("STARLUX historical 29 and program order 18 do not become a current total", () => {
+test("STARLUX dated CAA total matches registrations and excludes program orders", () => {
   const a = read("data/starlux/overview.json"),
     f = read("data/starlux/fleet.json");
-  assert.equal(a.total.value, null);
-  assert.equal(a.total.status, "unverified");
-  assert.ok(f.items.every((x) => x.current_fleet === null));
+  assert.equal(a.total.value, 37);
+  assert.equal(a.total.as_of, "2026-09-30");
+  assert.equal(a.total.status, "confirmed");
+  assert.equal(
+    f.items.reduce((n, x) => n + x.current_fleet, 0),
+    37,
+  );
+  for (const id of ["china-airlines", "starlux"]) {
+    const fleet = read("data/" + id + "/fleet.json");
+    const tails = fleet.items.flatMap((x) =>
+      x.registrations.records.map((r) => r.tail),
+    );
+    assert.equal(new Set(tails).size, tails.length);
+    for (const x of fleet.items) {
+      assert.equal(x.registrations.records.length, x.current_fleet);
+      assert.equal(x.registrations.as_of, "2026-09-30");
+    }
+  }
   assert.equal(f.history[0].as_of, "2025-12-31");
   assert.equal(f.orders[0].delivery_state, "order_program");
 });
@@ -199,23 +214,32 @@ test("Home-screen icon files match declared sizes and manifest stays under site 
 });
 
 test("Consolidated topics preserve every legacy research entry exactly once", () => {
-  const members = read("data/research-groups.json").flatMap(g => g.members);
+  const members = read("data/research-groups.json").flatMap((g) => g.members);
   assert.equal(new Set(members).size, members.length);
-  assert.deepEqual([...members].sort(), read("data/sections.json").map(s => s.id).sort());
+  assert.deepEqual(
+    [...members].sort(),
+    read("data/sections.json")
+      .map((s) => s.id)
+      .sort(),
+  );
 });
 
 test("Every passenger layout reconciles cabin counts to its total and all aircraft expose engines and introductions", () => {
   let layouts = 0;
   for (const id of ids) {
-    const a = read("data/"+id+"/overview.json");
+    const a = read("data/" + id + "/overview.json");
     assert.ok(a.icao_code && a.codes.source_url.includes("iata.org"));
-    for (const x of read("data/"+id+"/fleet.json").items) {
+    for (const x of read("data/" + id + "/fleet.json").items) {
       assert.ok(x.engine.value && x.engine.source_url, id + x.aircraft_type);
       assert.ok(x.introduction.value && x.introduction.source_url);
       if (x.kind === "cargo") continue;
       assert.ok(x.cabin_configurations.layouts.length);
       for (const layout of x.cabin_configurations.layouts) {
-        assert.equal(layout.cabins.reduce((sum,c)=>sum+c.seats,0), layout.total, id+x.aircraft_type+layout.name);
+        assert.equal(
+          layout.cabins.reduce((sum, c) => sum + c.seats, 0),
+          layout.total,
+          id + x.aircraft_type + layout.name,
+        );
         layouts++;
       }
     }
