@@ -145,6 +145,17 @@
         "status": "confirmed",
         "as_of": null,
         "source_id": "evaAbout"
+      },
+      {
+        "title": "籌設、登記與營運日期分開",
+        "body": "長榮官方沿革記錄1989年3月8日奉准籌設、1989年4月7日正式登記成立；1991年7月1日首航後開始營運。這是三種不同公司里程碑，1991年7月1日不代表每一條航線的首航日。",
+        "source": "長榮｜公司沿革",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "evaHistory"
       }
     ],
     "governance": [

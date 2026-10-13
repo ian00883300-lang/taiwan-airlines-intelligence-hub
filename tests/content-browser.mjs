@@ -27,11 +27,18 @@ try {
         );
         if (!["routes", "fleet"].includes(topic))
           assert.equal(await page.locator(".company-priorities").count(), 1);
-        if (topic === "routes")
+        if (topic === "routes") {
           await page
             .locator(".route-list .source")
             .first()
             .evaluate((e) => (e.open = true));
+          assert.ok(
+            await page
+              .locator(".route-table")
+              .evaluate((e) => e.scrollWidth <= e.clientWidth + 2),
+            "Route table must not be clipped at " + width,
+          );
+        }
         if (topic === "fleet") {
           await page
             .locator(".aircraft-registrations details")
@@ -52,8 +59,17 @@ try {
   }
   await page.goto(base + "#starlux/overview");
   assert.ok(
-    (await page.locator(".compact-facts").innerText()).includes("2018年5月2日"),
+    (await page.locator(".company-timeline").innerText()).includes(
+      "2018年5月2日",
+    ),
   );
+  await page
+    .locator(".company-timeline")
+    .screenshot({ path: "tests/compact-timeline.png" });
+  await page.goto(base + "#china-airlines/routes");
+  await page
+    .locator(".route-table")
+    .screenshot({ path: "tests/route-table.png" });
   await page.goto(base + "#starlux/esg");
   await page.screenshot({
     path: "tests/company-direction.png",

@@ -26,7 +26,7 @@
     "published_date": null,
     "level": 1,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -36,7 +36,7 @@
     "published_date": "2026-01-06",
     "level": 3,
     "as_of": "2026-01-06",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -106,7 +106,7 @@
     "published_date": null,
     "level": 1,
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -143,10 +143,10 @@
     "id": "jxTwse",
     "source": "證交所｜星宇上市公司介紹",
     "source_url": "https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b",
-    "published_date": null,
+    "published_date": "2024-10-25",
     "level": 2,
-    "as_of": null,
-    "verified_date": "2026-10-11",
+    "as_of": "2024-10-25",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -246,7 +246,7 @@
     "published_date": null,
     "level": 1,
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -285,7 +285,7 @@
     "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -295,7 +295,7 @@
     "source_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
     "published_date": "2025-09-19",
     "as_of": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -315,7 +315,7 @@
     "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
     "published_date": "2025-10-03",
     "as_of": "2025-10-03",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -325,7 +325,7 @@
     "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
     "published_date": "2026-08-01",
     "as_of": "2026-08-01",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 3
   },
@@ -466,7 +466,7 @@
     "level": 1,
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed"
   },
   {
@@ -495,7 +495,7 @@
     "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
     "level": 1,
     "published_date": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "as_of": null,
     "status": "confirmed"
   },
@@ -505,7 +505,7 @@
     "source_url": "https://www.evaair.com/en-global/images/evaair-2025-q4-quarterly-results-en_tcm33-97963.pdf",
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -515,7 +515,7 @@
     "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
     "level": 1
   },
@@ -818,6 +818,156 @@
     "as_of": null,
     "status": "confirmed",
     "level": 3
+  },
+  {
+    "id": "jxHandover",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "published_date": "2026-01-05",
+    "as_of": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxArrival",
+    "source": "星宇｜首架 A350-1000 抵台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260106",
+    "published_date": "2026-01-06",
+    "as_of": "2026-01-06",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFirstService",
+    "source": "星宇｜A350-1000 JX802 首次載客飛航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260210",
+    "published_date": "2026-02-10",
+    "as_of": "2026-02-10",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxPragueOfficial",
+    "source": "星宇｜台北—布拉格首航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801",
+    "published_date": "2026-08-01",
+    "as_of": "2026-08-01",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciOperations2025",
+    "source": "華航｜2025營運與旅客服務績效",
+    "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxPantone",
+    "source": "星宇｜AIRSORAYAMA專屬色與航空塗裝",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260703",
+    "published_date": "2026-07-03",
+    "as_of": "2026-07-03",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxArtProject",
+    "source": "星宇｜AIRSORAYAMA藝術計畫發表",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260127",
+    "published_date": "2026-01-27",
+    "as_of": "2026-01-27",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxPhoenix",
+    "source": "星宇｜台北—鳳凰城首航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
+    "published_date": "2026-01-15",
+    "as_of": "2026-01-15",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxMiyako",
+    "source": "星宇｜宮古島定期航班雙城首航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260213",
+    "published_date": "2026-02-13",
+    "as_of": "2026-02-13",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxStock",
+    "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+    "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "published_date": null,
+    "as_of": "2026-10-11",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "ciStock",
+    "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+    "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "published_date": null,
+    "as_of": "2026-10-11",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "ciPhxActual",
+    "source": "華航｜台北—鳳凰城實際首航",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+    "published_date": "2025-12-03",
+    "as_of": "2025-12-03",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ci777X",
+    "source": "華航｜777X客貨機原始簽約",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+    "published_date": "2025-05-08",
+    "as_of": "2025-05-08",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciSaf40",
+    "source": "華航｜長程SAF示範與Book & Claim",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html",
+    "published_date": "2026-09-14",
+    "as_of": "2026-09-14",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciCargoAi",
+    "source": "華航｜貨運AI客服上線",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260615.html",
+    "published_date": "2026-06-15",
+    "as_of": "2026-06-15",
+    "verified_date": "2026-10-13",
+    "status": "confirmed",
+    "level": 1
   },
   {
     "id": "china-airlines-slogan",

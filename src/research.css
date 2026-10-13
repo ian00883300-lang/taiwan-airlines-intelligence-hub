@@ -644,6 +644,420 @@
   text-align: center;
   letter-spacing: 2px;
 }
+.research-table {
+  max-width: 100%;
+  min-width: 0;
+}
+.research-table table {
+  min-width: 680px;
+  table-layout: fixed;
+}
+.research-table th,
+.research-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+.research-table th small {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+}
+.research-table td p {
+  margin: 7px 0;
+}
+.research-table caption {
+  text-align: left;
+  padding: 16px;
+  font-weight: 600;
+}
+.traffic-table .selected-airline {
+  background: #eef4f8;
+}
+.traffic-comparison,
+.revenue-mix,
+.strategy-research,
+.company-identity {
+  min-width: 0;
+  margin-bottom: 28px;
+}
+.metric-definition {
+  padding: 14px;
+  background: #eef4f8;
+  border-radius: 10px;
+}
+.company-timeline ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.company-timeline li {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid #dce5ed;
+}
+.company-timeline time {
+  font-weight: 700;
+  color: #56768b;
+}
+.company-timeline h3 {
+  margin: 6px 0;
+}
+.timeline-kind {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #e8eff3;
+}
+.network-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  margin: 10px 0 18px;
+  padding: 0;
+}
+.network-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.network-legend i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.route-table table {
+  min-width: 900px;
+}
+.route-network,
+.route-list {
+  min-width: 0;
+}
+.deep-research {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #dce5ed;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+.deep-research summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+.deep-research li {
+  margin: 7px 0;
+}
+.performance-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+.performance-highlights article {
+  padding: 18px;
+  border: 1px solid #dce5ed;
+  border-radius: 12px;
+  background: #f7f9fb;
+}
+.performance-highlights strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.6rem;
+  color: #163851;
+}
+.annual-performance {
+  margin: 28px 0;
+  min-width: 0;
+}
+.finance-page {
+  min-width: 0;
+}
+.finance-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 28px;
+  padding: 16px;
+  background: #eef4f8;
+  border-radius: 12px;
+}
+.finance-section-nav button {
+  border: 1px solid #cddce7;
+  background: white;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #244d6a;
+  font: inherit;
+  cursor: pointer;
+}
+.finance-section-nav button:hover,
+.finance-section-nav button:focus-visible {
+  border-color: #244d6a;
+  background: #e2edf5;
+}
+.finance-chapter {
+  scroll-margin-top: 28px;
+  min-width: 0;
+  padding-bottom: 14px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #dce5ed;
+}
+.cash-flow-research {
+  min-width: 0;
+}
+.earnings-explanation {
+  padding: 20px;
+  margin-top: 24px;
+  border: 1px solid #dce5ed;
+  border-radius: 12px;
+  background: #f7f9fb;
+}
+.earnings-equation {
+  font-weight: 600;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+  color: #244d6a;
+}
+.aircraft-type-filter {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 14px;
+}
+@media (max-width: 600px) {
+  .aircraft-type-filter {
+    display: flex;
+    margin: 14px 0 0;
+  }
+}
+.performance-highlights strong small {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+@media (max-width: 760px) {
+  .finance-section-nav {
+    gap: 8px;
+    padding: 12px;
+  }
+  .finance-section-nav button {
+    flex: 1 1 130px;
+  }
+  .finance-chapter {
+    scroll-margin-top: 20px;
+  }
+}
+.company-identity thead th:first-child {
+  width: 22%;
+}
+.company-identity thead th:nth-child(2) {
+  width: 50%;
+}
+.company-identity thead th:last-child {
+  width: 28%;
+}
+@media (min-width: 390px) and (max-width: 760px) {
+  .annual-performance .mobile-records {
+    min-width: 0;
+  }
+  .annual-performance tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .annual-performance tbody th {
+    grid-column: 1 / -1;
+  }
+  .annual-performance tbody td:last-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 760px) {
+  .mobile-records .table-wrap {
+    border: 0;
+    background: transparent;
+    overflow: visible;
+  }
+  .mobile-records .table-wrap table {
+    display: block;
+    min-width: 0;
+    table-layout: auto;
+  }
+  .mobile-records caption {
+    display: block;
+    padding: 12px 0;
+  }
+  .mobile-records thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .mobile-records tbody {
+    display: block;
+  }
+  .mobile-records tfoot {
+    display: block;
+  }
+  section[aria-label="星宇損益與EPS分析"] .research-table table {
+    min-width: 0;
+  }
+  .mobile-records tr {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid #dce5ed;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .mobile-records th[scope="row"],
+  .mobile-records td {
+    display: block;
+    width: auto;
+    padding: 12px 16px;
+  }
+  .mobile-records td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 5px;
+    color: #587388;
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+  .mobile-records p {
+    margin: 6px 0;
+  }
+  .performance-highlights {
+    gap: 10px;
+  }
+  .performance-highlights article {
+    padding: 12px;
+  }
+  .performance-highlights span {
+    font-size: 0.8rem;
+  }
+}
+.fleet-snapshot-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #dce5ed;
+  border-radius: 12px;
+  background: #f7f9fb;
+}
+.fleet-snapshot-summary strong {
+  display: block;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  color: #6b522e;
+}
+.fleet-snapshot-summary small {
+  font-size: 1rem;
+}
+.fleet-snapshot-note {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.donut-block:has(> .fineprint) {
+  flex-wrap: wrap;
+}
+.donut-block > .fineprint {
+  flex-basis: 100%;
+  min-width: 0;
+  margin: 0;
+}
+.source > summary {
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.source > summary > span {
+  overflow-wrap: anywhere;
+}
+.research-table td {
+  font-variant-numeric: tabular-nums;
+}
+.strategy-research table {
+  min-width: 960px;
+}
+.strategy-research th:first-child {
+  width: 16%;
+}
+.home-columns .two-charts {
+  grid-template-columns: minmax(0, 1fr);
+}
+.home-columns .two-charts > div + div {
+  border-left: 0;
+  padding-left: 0;
+  border-top: 1px solid #dce5ed;
+  padding-top: 20px;
+}
+@media (max-width: 760px) {
+  .strategy-research .table-wrap {
+    border: 0;
+    background: transparent;
+    overflow: visible;
+  }
+  .strategy-research .research-table table {
+    display: block;
+    min-width: 0;
+  }
+  .strategy-research caption {
+    display: block;
+    padding: 12px 0;
+  }
+  .strategy-research thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .strategy-research tbody {
+    display: block;
+  }
+  .strategy-research tr {
+    display: block;
+    margin-bottom: 18px;
+    border: 1px solid #dce5ed;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+  }
+  .strategy-research th:first-child,
+  .strategy-research td {
+    display: block;
+    width: auto;
+    padding: 16px;
+  }
+  .strategy-research td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 8px;
+    color: #587388;
+    font-weight: 600;
+  }
+  .fleet-snapshot-summary {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .company-timeline li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+  .research-table table {
+    min-width: 650px;
+  }
+  .route-table table {
+    min-width: 900px;
+  }
+}
 
 .compact-facts {
   display: block;
@@ -774,5 +1188,71 @@
   }
   .route-list {
     grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* A route table occupies the entire panel, never one column of the old card grid. */
+.route-network .route-list {
+  display: block;
+  width: 100%;
+}
+.route-network .route-table {
+  width: 100%;
+  max-width: 100%;
+}
+.route-network .route-table table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+}
+.route-network .route-table th,
+.route-network .route-table td {
+  overflow-wrap: anywhere;
+  white-space: normal;
+  vertical-align: top;
+}
+.route-network .route-table th:nth-child(1) {
+  width: 13%;
+}
+.route-network .route-table th:nth-child(2) {
+  width: 30%;
+}
+.route-network .route-table th:nth-child(3) {
+  width: 18%;
+}
+.route-network .route-table th:nth-child(4) {
+  width: 17%;
+}
+.route-network .route-table th:nth-child(5) {
+  width: 22%;
+}
+.company-timeline li.compact-event {
+  display: block;
+  padding: 14px 0;
+  margin: 0;
+}
+.compact-event .event-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  line-height: 1.75;
+}
+.compact-event .timeline-kind {
+  margin: 0;
+}
+.company-timeline .compact-event time {
+  white-space: nowrap;
+}
+.compact-event .source {
+  margin-top: 6px;
+}
+@media (max-width: 760px) {
+  .route-network .route-table table {
+    table-layout: auto;
+  }
+  .route-network .route-table th,
+  .route-network .route-table td {
+    width: auto;
   }
 }

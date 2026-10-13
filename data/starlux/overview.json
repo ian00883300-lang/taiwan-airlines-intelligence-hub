@@ -124,55 +124,74 @@
     ],
     "history": [
       {
-        "title": "公司成立",
-        "body": "證交所上市公司介紹所載成立日期。",
-        "source": "臺灣證券交易所｜星宇航空上市介紹",
-        "source_url": "https://wwwc.twse.com.tw/market_insights/zh/detail/8a8216d69236c2e30192b842c8600253",
-        "published_date": null,
-        "verified_date": "2026-10-13",
-        "as_of": null,
-        "status": "confirmed",
         "label": "成立",
         "value": "2018-05-02",
-        "event_date": "2018-05-02"
+        "source": "星宇｜公司成立公告",
+        "source_url": "https://www.starlux-airlines.com/en-ID/about-us/media-center/news/2018/news-20180502",
+        "published_date": "2018-05-02",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "as_of": "2018-05-02",
+        "source_id": "jxAbout"
       },
       {
         "title": "2026 年首架 A350-1000",
-        "body": "Airbus 於 2026-01-06 確認首架交付；這是歷史交付事件，不是今天的機隊總數。",
-        "source": "Airbus｜STARLUX 首架 A350-1000",
-        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
-        "published_date": "2026-01-06",
-        "verified_date": "2026-10-11",
+        "body": "首架 A350-1000 於2026年1月5日交機（土魯斯當地）、2026年1月6日抵台、2026年2月10日首次載客飛航；Airbus 另於2026年1月6日發布交付公告。",
+        "source": "星宇｜首架 A350-1000 交付與返台",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+        "published_date": "2026-01-05",
+        "verified_date": "2026-10-12",
         "status": "confirmed",
-        "as_of": "2026-01-06",
-        "source_id": "jxDelivery",
-        "event_date": "2026-01-06"
+        "as_of": "2026-01-05",
+        "source_id": "jxHandover",
+        "event_ids": [
+          "jx-a350-1000-first-delivery",
+          "jx-a350-1000-arrival",
+          "jx-a350-1000-first-service"
+        ]
       }
     ],
     "governance": [
       {
-        "label": "公司治理",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "董事會與独立董事（年報所載）",
+        "body": "2025年報列董事會7席，其中3席獨立董事；年報董事名單包括張國煒、翟健華、葉淑汶、董俊毅、蔡堆、王德和、洪慶山。名單為年報紀錄，任職與異動需再查最新公司公告。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "董事名單見年報印刷頁12–15，董事會組成見頁19；PDF頁碼為印刷頁碼加2。"
+      },
+      {
+        "title": "治理制度與董事會運作",
+        "body": "2025年報記錄2025年度董事會開會7次，並公開審計委員會及薪資報酬委員會運作資訊；不能用會議次數直接評定治理品質。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼36（PDF第38頁）。"
       }
     ],
     "organization": [
       {
-        "label": "組織架構",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "公開人力職類（非完整組織圖）",
+        "body": "年報分列飛航員、空服員、簽派員、維修人員與其他職類。此為人力配置分類，不冒充完整部門層級、指揮鏈或即時組織圖。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2026-03-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼112（PDF第114頁）。"
       }
     ],
     "brand": [
@@ -204,30 +223,34 @@
     "orders": [],
     "renewal": [
       {
-        "label": "機隊更新",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "2026年度機隊擴張目標（年報計畫）",
+        "body": "年報以2026年3月機隊31架為背景，規劃當年度再引進12架、年底達43架。31與43分別是月度歷史資料與年度目標；原文未給3月快照的確切日或逐架交機日，不能填成3月31日或當前43架。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "planned",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
       }
     ],
     "technical": [],
     "routes": [],
     "hubs": [
       {
-        "label": "樞紐",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "樞紐與台灣市場布局",
+        "body": "2025年報以台北為跨洲轉運樞紐，並說明北部及中部市場布局。台中航線屬區域拓展；年報所載計畫不能直接當作今日航網清單。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
       }
     ],
     "alliances": [
@@ -245,54 +268,101 @@
     ],
     "codeshare": [
       {
-        "label": "共掛班號",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "阿拉斯加航空共用班號合作",
+        "body": "年報記錄與阿拉斯加航空共用班號合作、北美內陸轉機及會員合作。共掛航點不算星宇自營航點，也不代表加入航空聯盟。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
+      },
+      {
+        "title": "阿提哈德航空共掛合作",
+        "body": "年報記錄自2025年9月新增與阿提哈德航空共掛合作，範圍涉及星宇日本航線與阿提哈德桃園—阿布達比及歐洲銜接。原文僅列月份，不補成9月1日；具體有效班號須查當期班表。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
+      },
+      {
+        "title": "美國航空interline銜接（已具體查核）",
+        "body": "2026年1月15日鳳凰城首航稿明示與美國航空聯航協議，提供透過鳳凰城轉往40個美國境內城市的銜接。這是該公告的interline範圍，不代表星宇自營40個美國航點或所有航段共掛。",
+        "source": "星宇｜台北—鳳凰城首航",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
+        "source_id": "jxPhoenix",
+        "published_date": "2026-01-15",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2026-01-15",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
       }
     ],
     "passenger": [
       {
-        "label": "客運業務",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "客運航網與中轉策略",
+        "body": "年報說明透過台北樞紐串聯亞洲、北美及歐洲旅客，並發展轉機與商務客運市場。自營航線、共掛銜接與未來規劃分開記錄。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼103（PDF第105頁）。"
       }
     ],
     "cargo": [
       {
-        "label": "貨運",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "貨運數位平台",
+        "body": "年報說明JX Cargo APP提供貨況推播、航班動態查詢、訂艙管理與貨運輔助功能；此為貨運服務能力，不代表專用貨機已投入營運。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
+      },
+      {
+        "title": "A350F貨機訂單與未來業務",
+        "body": "Airbus於2026年1月6日公告星宇已訂購10架A350F，供未來貨運網絡發展使用。10架是訂單總量，不是已交付或現役貨機數；逐架交機年月日尚待官方公告。",
+        "source": "Airbus｜STARLUX 首架 A350-1000",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "source_id": "jxDelivery",
+        "published_date": "2026-01-06",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2026-01-06",
+        "scope": "以2026年10月12日讀取的官方培訓招募頁為準。",
+        "note": ""
       }
     ],
     "maintenance": [
       {
-        "label": "修護",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "維修人力快照",
+        "body": "年報記錄截至2026年3月31日維修人員439人。人數不等於全部維修資格、基地容量或第三方維修能力。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2026-03-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼112（PDF第114頁）。"
       }
     ],
     "safety": [
@@ -307,20 +377,47 @@
         "as_of": null,
         "source_id": "fatigue",
         "scope": "一般航空知識"
+      },
+      {
+        "title": "SRC、SAG與公正文化",
+        "body": "年報說明最高層級安全審查委員會SRC、作業領域安全落實小組SAG，以及持續推動Just Culture與正向回報機制。制度敘述不等於對每一事件處理結果的驗證。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼131（PDF第133頁）。"
       }
     ],
     "sms": [
       {
-        "title": "SMS 的四個面向",
-        "body": "安全政策、風險管理、安全保證、安全推廣。這是通用知識；各公司實際制度應另以其公開文件查核。",
-        "source": "FAA｜SMS Components",
-        "source_url": "https://www.faa.gov/about/initiatives/sms/explained/components",
+        "title": "星宇公開SMS做法",
+        "body": "年報說明安全管理系統整合危害辨識與風險評估，參考ICAO Doc.9859及IOSA規範。安全報告、FDM與稽核發現納入風險資訊，不以品牌印象替代制度證據。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-10-12",
         "status": "confirmed",
-        "as_of": null,
-        "source_id": "sms",
-        "scope": "一般航空知識，非公司合規結論"
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼129（PDF第131頁）。"
+      },
+      {
+        "title": "風險分級與變更管理",
+        "body": "年報列高度風險須暫停或限制作業並升級審議；中度風險需減緩與核定；低度風險維持控制與監測。機隊引進、航網與系統重大變更納入事前評估、核准及事後檢視。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼130（PDF第132頁）。"
       }
     ],
     "esg": [
@@ -337,6 +434,28 @@
       }
     ],
     "saf": [
+      {
+        "title": "SAF 試行計畫",
+        "body": "2025 年年報提及參與台灣 SAF 添加試行；本版不推算比例或減碳量。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      },
+      {
+        "source": "布拉格機場｜星宇首航",
+        "source_url": "https://www.prg.aero/en/starlux-airlines-makes-its-debut-europe-new-direct-service-connects-prague-taipei-today",
+        "published_date": "2026-08-01",
+        "as_of": "2026-08-01",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxPrg",
+        "title": "布拉格首航稿的SAF範圍",
+        "body": "2026年8月1日布拉格機場首航稿提到當地出發2%SAF混合比例。這是機場稿中限定當地出發的敘述，不代表整個星宇航網都採2%，也不能推算星宇全年採購或減排總量。"
+      },
       {
         "title": "減碳基準與路徑",
         "body": "以 2024 年範疇一、二排放強度 27.61 公噸 CO₂e／百萬營收為基準，設定每年降低 1% 的短中期目標，並朝 2050 淨零方向推進。",
@@ -369,54 +488,86 @@
     ],
     "strategy": [
       {
-        "label": "營運策略",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "已公開的發展方向",
+        "body": "年報列擴大航網、深化轉機與合作、貨運平台及旅客服務為發展方向。資料是年報中的策略，不代表全部目標已完成。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼102（PDF第104頁）。"
       }
     ],
     "advantages": [
       {
-        "label": "競爭優勢",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "優勢分析的公開依據",
+        "body": "年報描述精品服務、台北轉機及新世代Airbus機隊的策略配置。是否構成持續競爭優勢仍需搭配成本、收益與營運成果評估，不能把策略文字直接當作績效證明。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼103（PDF第105頁）。"
       }
     ],
     "risks": [
       {
-        "label": "挑戰與風險",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "風險與成長管理",
+        "body": "年報公開營運風險管理涵蓋飛航、地面作業、營運連續性、法規遵循與緊急事件應變。機隊及航網擴張需配合正式變更管理，不以增長速度推論安全結果。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼129（PDF第131頁）。"
+      },
+      {
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxAnnual",
+        "title": "燃油成本的正確分母",
+        "body": "2025年報印刷第111頁記錄燃油支出占營運成本26.67%。這是營運成本占比，不是營收占比或票價燃油附加費；需求、油價與匯率風險仍需分開分析。"
       }
     ],
     "employees": [
       {
-        "label": "人才",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "2025年度員工快照",
+        "body": "2025年度員工合計5,896人：飛航員454、空服員1,599、簽派員19、維修人員404、其他3,420。為年報年度統計，不當作2026年10月現況。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2025-12-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼112（PDF第114頁）。"
+      },
+      {
+        "title": "2026年3月31日員工快照",
+        "body": "截至2026年3月31日員工合計6,224人：飛航員475、空服員1,682、簽派員20、維修人員439、其他3,608；平均年齡33.57歲、平均服務年資2.83年。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": "2026-03-31",
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼112（PDF第114頁）。"
       }
     ],
     "recruitment": [
@@ -424,7 +575,7 @@
         "source": "星宇｜Cadet Pilot Program 與 FAQ",
         "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-10-12",
         "as_of": null,
         "status": "confirmed",
         "source_id": "jxCadetCurrent",
@@ -438,7 +589,7 @@
         "source": "星宇｜Cadet Pilot Program 與 FAQ",
         "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-10-12",
         "as_of": null,
         "status": "estimated",
         "source_id": "jxCadetCurrent",
@@ -472,6 +623,19 @@
         "status": "confirmed",
         "as_of": "2026-01-06",
         "source_id": "jxDelivery"
+      },
+      {
+        "title": "2033機隊目標（非確定交機時程）",
+        "body": "年報長期計畫以2033年達76架為目標，分列A350-1000 18架、A350-900 10架、A330-900 11架、A321neo 27架及A350F 10架。此為規劃口徑，未公告完整交機年月日，不等於現役或剩餘待交數。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "source_id": "jxAnnual",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "planned",
+        "as_of": null,
+        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+        "note": "年報印刷頁碼103（PDF第105頁）。"
       }
     ]
   },

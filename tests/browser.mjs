@@ -31,11 +31,11 @@ const go = async (hash = "home") => {
 };
 try {
   await check(
-    "Production dashboard loads three airlines and two real charts",
+    "Production dashboard loads three airlines and three dated charts",
     async () => {
       await go();
       assert.equal(await page.locator(".airline-card").count(), 3);
-      assert.equal(await page.locator("canvas").count(), 2);
+      assert.equal(await page.locator("canvas").count(), 3);
       assert.ok(
         (await page.locator("h1").innerText()).includes("台灣航空情報中心"),
       );
@@ -71,7 +71,7 @@ try {
     async () => {
       await go("starlux/routes");
       await page.getByLabel("區域").selectOption("Europe");
-      assert.equal(await page.locator(".route-list article").count(), 1);
+      assert.equal(await page.locator(".route-table tbody tr").count(), 1);
       assert.ok(
         (await page.locator(".route-list").innerText()).includes("PRG"),
       );
@@ -113,7 +113,10 @@ try {
     "Question search, difficulty and topic filters work together",
     async () => {
       await go("interview");
-      assert.equal(await page.locator(".question-card").count(), JSON.parse(fs.readFileSync("data/interview-bank.json", "utf8")).length);
+      assert.equal(
+        await page.locator(".question-card").count(),
+        JSON.parse(fs.readFileSync("data/interview-bank.json", "utf8")).length,
+      );
       await page.getByLabel("主題").selectOption("Fleet");
       assert.equal(await page.locator(".question-card").count(), 3);
       await page.getByLabel("航空公司").selectOption("eva-air");
@@ -233,7 +236,11 @@ try {
       assert.ok(
         (await page.locator("main").innerText()).includes("底圖暫時無法載入"),
       );
-      assert.equal(await page.locator(".route-list article").count(), JSON.parse(fs.readFileSync("data/starlux/routes.json", "utf8")).items.length);
+      assert.equal(
+        await page.locator(".route-table tbody tr").count(),
+        JSON.parse(fs.readFileSync("data/starlux/routes.json", "utf8")).items
+          .length,
+      );
       await page.unroute("https://tile.openstreetmap.org/**");
     },
   );
@@ -251,7 +258,18 @@ try {
   await browser.close();
   fs.writeFileSync(
     "tests/browser-results.json",
-    JSON.stringify({ date: "2026-10-11", base, results, errors }, null, 2),
+    JSON.stringify(
+      {
+        date: new Intl.DateTimeFormat("en-CA", {
+          timeZone: "Asia/Taipei",
+        }).format(new Date()),
+        base,
+        results,
+        errors,
+      },
+      null,
+      2,
+    ),
   );
 }
 if (results.some((x) => !x.pass)) process.exitCode = 1;

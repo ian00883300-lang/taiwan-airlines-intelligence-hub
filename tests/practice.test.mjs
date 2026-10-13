@@ -15,7 +15,24 @@ test("Personal import accepts known questions and strips unknown fields", () => 
     },
     ["learning"],
   );
-  assert.deepEqual(result, { version: 1, answers: { learning: entry } });
+  assert.deepEqual(result, {
+    version: 1,
+    answers: { learning: { ...entry, question_revision: 1 } },
+  });
+});
+test("Personal answers preserve question revisions and reject malformed revisions", () => {
+  const result = validatePack(
+    { version: 1, answers: { learning: { ...entry, question_revision: 2 } } },
+    ["learning"],
+  );
+  assert.equal(result.answers.learning.question_revision, 2);
+  for (const question_revision of [0, -1, 1.5, "2"])
+    assert.throws(() =>
+      validatePack(
+        { version: 1, answers: { learning: { ...entry, question_revision } } },
+        ["learning"],
+      ),
+    );
 });
 test("Personal import rejects invalid structure, unknown ids, missing answers and oversized text", () => {
   for (const input of [

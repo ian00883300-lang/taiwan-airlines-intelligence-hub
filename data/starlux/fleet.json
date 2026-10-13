@@ -254,8 +254,7 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1"
+      }
     },
     {
       "aircraft_type": "A330-900",
@@ -490,8 +489,7 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1"
+      }
     },
     {
       "aircraft_type": "A350-900",
@@ -736,8 +734,7 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1"
+      }
     },
     {
       "aircraft_type": "A350-1000",
@@ -798,15 +795,21 @@
         "note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。"
       },
       "first_delivery": {
-        "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "label": "首次交付（土魯斯當地）",
+        "value": "2026-01-05",
+        "source": "星宇｜首架 A350-1000 交付與返台",
+        "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+        "published_date": "2026-01-05",
+        "as_of": "2026-01-05",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "jxHandover",
+        "event_ids": [
+          "jx-a350-1000-first-delivery",
+          "jx-a350-1000-arrival",
+          "jx-a350-1000-first-service"
+        ],
+        "note": "交機2026年1月5日；抵台2026年1月6日；首次載客2026年2月10日。"
       },
       "average_age": {
         "label": "平均機齡",
@@ -939,8 +942,7 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1"
+      }
     }
   ],
   "orders": [
@@ -952,12 +954,27 @@
       "source": "Airbus｜STARLUX 首架 A350-1000",
       "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
       "published_date": "2026-01-06",
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-10-12",
       "status": "announced",
       "as_of": "2026-01-06",
       "source_id": "jxDelivery",
-      "note": "2026-01-06 首架交付時，該批總訂單 18 架；不是目前剩餘待交數。",
+      "note": "2026年1月6日 Airbus 公告首架已交付，該批總訂單 18 架；公告發布日不直接代表交機日，18 架也不是目前剩餘待交数。",
       "quantity_basis": "program_total"
+    },
+    {
+      "aircraft_type": "A350F",
+      "quantity": 10,
+      "order_type": "firm_order",
+      "delivery_state": "order_program",
+      "quantity_basis": "program_total",
+      "source": "Airbus｜STARLUX 首架 A350-1000",
+      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+      "published_date": "2026-01-06",
+      "as_of": "2026-01-06",
+      "status": "announced",
+      "verified_date": "2026-10-12",
+      "source_id": "jxDelivery",
+      "note": "Airbus2026年1月6日原文「ordered 10 A350F freighters」；全批訂單總量，非現役或剩餘待交數。逐架交機日期未確認。"
     }
   ],
   "history": [
@@ -973,19 +990,109 @@
       "source_id": "jxAnnual"
     },
     {
-      "date": "2026-01-06",
-      "label": "首架 A350-1000 交付",
-      "source": "Airbus｜STARLUX 首架 A350-1000",
-      "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
-      "published_date": "2026-01-06",
-      "verified_date": "2026-10-11",
+      "date": "2026-01-05",
+      "date_kind": "event",
+      "label": "首架 A350-1000 交付（土魯斯當地）；不同於 Airbus 2026年1月6日公告日",
+      "source": "星宇｜首架 A350-1000 交付與返台",
+      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+      "published_date": "2026-01-05",
+      "as_of": "2026-01-05",
+      "verified_date": "2026-10-12",
       "status": "confirmed",
-      "as_of": "2026-01-06",
-      "source_id": "jxDelivery"
+      "source_id": "jxHandover",
+      "event_ids": [
+        "jx-a350-1000-first-delivery",
+        "jx-a350-1000-arrival",
+        "jx-a350-1000-first-service"
+      ]
+    },
+    {
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "published_date": null,
+      "level": 1,
+      "as_of": "2026-03",
+      "verified_date": "2026-10-12",
+      "status": "confirmed",
+      "source_id": "jxAnnual",
+      "value": 31,
+      "date_precision": "month",
+      "label": "2026年3月歷史快照：31架（僅月份精度）",
+      "note": "2025年報印刷頁碼102：截至2026年3月共31架；來源未列日與同月完整分型數量。這是歷史快照，並非今日即時總數。",
+      "date": "2026-03"
     }
   ],
   "retired": [],
-  "planned": [],
+  "planned": [
+    {
+      "title": "2026年年底43架目標（計畫）",
+      "body": "年報規劃2026年年底達43架；不能視為現在已達成。機型與逐架交機日期須依後續公告核實。",
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "source_id": "jxAnnual",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "planned",
+      "as_of": null,
+      "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+      "note": "年報印刷頁碼102（PDF第104頁）。",
+      "date": "2026年（計畫年份；逐架交機年月日未公告）"
+    },
+    {
+      "title": "2033年76架目標（計畫）",
+      "body": "年報2033年76架包含客機與10架A350F貨機；目標年份不等於逐架交機日。",
+      "source": "星宇航空｜2025 年報",
+      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+      "source_id": "jxAnnual",
+      "published_date": null,
+      "verified_date": "2026-10-12",
+      "status": "planned",
+      "as_of": null,
+      "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
+      "note": "年報印刷頁碼103（PDF第105頁）。",
+      "date": "2033年（計畫年份；逐架交機年月日未公告）"
+    }
+  ],
   "replacement_timeline": [],
+  "latest_confirmed_total": {
+    "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+    "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+    "published_date": "2026-10-07",
+    "verified_date": "2026-10-13",
+    "as_of": "2026-09-30",
+    "status": "confirmed",
+    "label": "登記機隊總數",
+    "value": 37,
+    "note": "CAA 2026-09-30 名冊：13 A321neo、10 A330-900、10 A350-900、4 A350-1000；非即時可用架數。",
+    "date_precision": "day"
+  },
+  "composition_snapshot": {
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "level": 1,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "total": 29,
+    "label": "年末分型快照",
+    "rows": [
+      {
+        "aircraft_type": "A321neo",
+        "quantity": 13
+      },
+      {
+        "aircraft_type": "A330-900",
+        "quantity": 6
+      },
+      {
+        "aircraft_type": "A350-900",
+        "quantity": 10
+      }
+    ],
+    "note": "2025年報印刷頁碼4：2025年年底完整分型數量。2026年已有新機交付，不能當作今日現役組成，也不能與2026年3月31架總數混算。"
+  },
   "note": "現況採 CAA 2026-09-30 登記名冊；歴史快照、採購計畫與目前登記數分列，不推算剩餘訂單。"
 }

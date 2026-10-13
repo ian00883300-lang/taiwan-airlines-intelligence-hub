@@ -2,7 +2,12 @@ import { chromium } from "playwright";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 const base = process.env.TEST_URL || "http://127.0.0.1:4173/";
-const browser = await chromium.launch({ channel: "chrome", headless: true });
+const browser = await chromium.launch({
+  headless: true,
+  ...(process.env.BROWSER_PATH
+    ? { executablePath: process.env.BROWSER_PATH }
+    : { channel: "chrome" }),
+});
 const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
 const errors = [];
 page.on("pageerror", (e) => errors.push(e.message));
@@ -16,13 +21,11 @@ const entry = {
   basis: "合成資料",
 };
 const upload = async (object) =>
-  page
-    .getByLabel("匯入個人答案 JSON")
-    .setInputFiles({
-      name: "test.json",
-      mimeType: "application/json",
-      buffer: Buffer.from(JSON.stringify(object)),
-    });
+  page.getByLabel("匯入個人答案 JSON").setInputFiles({
+    name: "test.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(object)),
+  });
 try {
   await page.goto(base + "#interview");
   await page.locator(".question-card").first().click();
@@ -56,6 +59,21 @@ try {
     if (r.method() !== "GET") writes.push(r.url());
   });
   await upload({ version: 1, answers: { "company-ci": entry } });
+  await page.getByRole("status").filter({ hasText: "已載入 1 題" }).waitFor();
+  await page.reload();
+  await page.locator(".question-card").first().click();
+  assert.equal(await page.getByLabel("答案版本").inputValue(), "general");
+  assert.ok(
+    (await page.locator("dialog").innerText()).includes("舊版個人答案仍保留"),
+  );
+  await page.getByLabel("答案版本").selectOption("personal");
+  assert.equal(await page.locator(".answer").innerText(), entry.zh_30);
+  await page.keyboard.press("Escape");
+  await page.locator(".private-library summary").click();
+  await upload({
+    version: 1,
+    answers: { "company-ci": { ...entry, question_revision: 2 } },
+  });
   await page.getByRole("status").filter({ hasText: "已載入 1 題" }).waitFor();
   await page.reload();
   await page.locator(".question-card").first().click();

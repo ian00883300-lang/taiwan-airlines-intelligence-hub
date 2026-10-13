@@ -1,0 +1,928 @@
+{
+  "traffic": {
+    "title": "2025年國際及兩岸客貨運同口徑比較",
+    "scope": "星宇2025年報印刷頁100（PDF第102頁），轉引民航局114年12月統計月報的114年度表。此處讀取年報轉引表，未宣稱另讀民航局原始檔。",
+    "period": "2025-01-01/2025-12-31",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "note": "RPK／ASK原單位為千公里；FTK／AFTK為噸千公里。客運載客率不等於獲利率。華航此口徑11,419,585人次與永續頁11,746,082人次不同，未混填。",
+    "rows": [
+      {
+        "airline": "china-airlines",
+        "flights": 68884,
+        "passengers": 11419585,
+        "rpk_thousand": 37062787,
+        "ask_thousand": 47242956,
+        "passenger_load_factor": 78.45,
+        "cargo_tonnes": 1266861,
+        "ftk_thousand": 5669981,
+        "aftk_thousand": 8462118,
+        "cargo_load_factor": 67.0
+      },
+      {
+        "airline": "eva-air",
+        "flights": 65012,
+        "passengers": 13326018,
+        "rpk_thousand": 52963557,
+        "ask_thousand": 68082464,
+        "passenger_load_factor": 77.79,
+        "cargo_tonnes": 844932,
+        "ftk_thousand": 4794397,
+        "aftk_thousand": 6709609,
+        "cargo_load_factor": 71.46
+      },
+      {
+        "airline": "starlux",
+        "flights": 25282,
+        "passengers": 4902048,
+        "rpk_thousand": 14195377,
+        "ask_thousand": 18291267,
+        "passenger_load_factor": 77.61,
+        "cargo_tonnes": 166059,
+        "ftk_thousand": 386906,
+        "aftk_thousand": 583665,
+        "cargo_load_factor": 66.29
+      }
+    ]
+  },
+  "airlines": {
+    "china-airlines": {
+      "timeline": [
+        {
+          "date": "1959-12-16",
+          "label": "公司成立",
+          "body": "公司成立紀錄；與航線首航及機隊交付分開。",
+          "date_kind": "event",
+          "source": "華航｜2012 永續報告（歷史成立資訊）",
+          "source_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+          "published_date": null,
+          "as_of": "2012-12-31",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciFounding"
+        },
+        {
+          "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+          "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+          "published_date": null,
+          "as_of": "2026-10-11",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "ciStock",
+          "date": "1993-02-26",
+          "date_kind": "event",
+          "label": "臺灣證券交易所上市",
+          "body": "證券代號2610；來源為證交所上市公司基本資料，不將上市與公司成立混為同一事件。"
+        },
+        {
+          "date": "2011-09-28",
+          "label": "加入SkyTeam",
+          "body": "航空聯盟會員里程碑；不是共掛航點全部自營。",
+          "date_kind": "event",
+          "source": "KLM｜China Airlines Joins SkyTeam",
+          "source_url": "https://news.klm.com/china-airlines-treedt-toe-tot-skyteam-en/",
+          "published_date": "2011-09-28",
+          "as_of": "2011-09-28",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciAlliance"
+        },
+        {
+          "date": "2023-06-21",
+          "label": "787訂單公告",
+          "body": "訂購與交付／投入營運分開。",
+          "date_kind": "announcement",
+          "source": "華航｜787 確認訂單",
+          "source_url": "https://www.china-airlines.com/at/en/about-china-airlines/media/news/20230621",
+          "published_date": "2023-06-21",
+          "as_of": "2023-06-21",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciOrder"
+        },
+        {
+          "date": "2025-03-31",
+          "label": "A350-1000初始訂單公告",
+          "body": "原始交付規劃2029起，逐架完整日期未公告。",
+          "date_kind": "announcement",
+          "source": "華航｜A350-1000 初始訂單與交付規劃",
+          "source_url": "https://www.china-airlines.com/nl/en/about-china-airlines/media/news/20250331",
+          "published_date": "2025-03-31",
+          "as_of": "2025-03-31",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciA350Initial"
+        },
+        {
+          "date": "2025-09-19",
+          "label": "鳳凰城開航計畫公告",
+          "body": "公告預定2025年12月3日開航；實際首航的事後日期證據另查。",
+          "date_kind": "announcement",
+          "source": "華航｜鳳凰城開航公告",
+          "source_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
+          "published_date": "2025-09-19",
+          "as_of": null,
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "ciRoute"
+        },
+        {
+          "source": "華航｜台北—鳳凰城實際首航",
+          "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+          "published_date": "2025-12-03",
+          "as_of": "2025-12-03",
+          "verified_date": "2026-10-13",
+          "status": "confirmed",
+          "source_id": "ciPhxActual",
+          "date": "2025-12-03",
+          "date_kind": "event",
+          "label": "台北—鳳凰城實際首航",
+          "body": "CI036由台北出發，以A350-900首航。事後官方稿確認，不再只列預定開航日。"
+        },
+        {
+          "date": "2025-12-18",
+          "label": "A350-1000增訂公告",
+          "body": "總計15架，不重複加回舊選擇權。",
+          "date_kind": "announcement",
+          "source": "Airbus｜華航 A350-1000 總訂單 15 架",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-12-china-airlines-orders-five-more-airbus-a350-1000s",
+          "published_date": "2025-12-18",
+          "as_of": "2025-12-18",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciA350Total"
+        },
+        {
+          "date": "2026-06-02",
+          "label": "787豪經艙產品展示",
+          "body": "產品展示不代表已交付或已投入營運。",
+          "date_kind": "announcement",
+          "source": "華航｜787 豪華經濟艙亮相",
+          "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20260602.html",
+          "published_date": "2026-06-02",
+          "as_of": "2026-06-02",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ci787"
+        }
+      ],
+      "revenue_mix": {
+        "unit": "新臺幣仟元",
+        "scope": "2025合併財報附註27；其他項為財報收入分類。",
+        "total": 209138766,
+        "parts": [
+          {
+            "name": "客運",
+            "amount": 124908428
+          },
+          {
+            "name": "貨運",
+            "amount": 66830701
+          },
+          {
+            "name": "其他",
+            "amount": 17399637
+          }
+        ],
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025"
+      },
+      "operating_model": {
+        "title": "客運與專用貨機雙軌",
+        "body": "客運除旅客收入外可使用腹艙；747-400F、777F承擔專用貨機業務。現役數與新機訂單分開。",
+        "source": "中華航空｜營運概況",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "as_of": "2026-09-30",
+        "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "ciFleet"
+      },
+      "strategy": [
+        {
+          "theme": "客貨雙軌",
+          "official_fact": "2025合併收入客運1249.08億元、貨運668.31億元。",
+          "analysis": "研究解讀：客貨需求週期可提供不同收入來源，但腹艙與貨機的運能、成本與市場不能互換。",
+          "kpi": "客貨收益率、載運量、營收組成、RASK與CASK",
+          "risk": "貨價與旅客票價循環；燃油與匯率",
+          "stage": "已公開方向",
+          "source": "華航｜2025／2024 合併財務報表",
+          "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "ciFinancial2025"
+        },
+        {
+          "theme": "北美直航＋联航銜接",
+          "official_fact": "鳳凰城公告說明與Southwest的interline銜接；不代表共掛班號或聯盟會員。",
+          "analysis": "研究解讀：直航提升時效，聯航擴大銷售範圍；收益需考慮轉機銜接、銷售分攤與航權。",
+          "kpi": "直航／轉機旅客、班次、銜接品質",
+          "risk": "初期培養需求、機場／時刻限制",
+          "stage": "已公開方向",
+          "source": "華航｜鳳凰城開航公告",
+          "source_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
+          "published_date": "2025-09-19",
+          "as_of": null,
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "ciRoute"
+        },
+        {
+          "theme": "機隊更新",
+          "official_fact": "A350-1000總訂單15架；原始公告預定2029起交付。787產品展示不等於已交機。",
+          "analysis": "研究解讀：新機導入要配合訓練、維修與客艙準備，不能只比較採購數。",
+          "kpi": "交付進度、可用機時、訓練與維修準備",
+          "risk": "製造商交期及投入營運時程",
+          "stage": "訂单與計畫",
+          "source": "Airbus｜華航 A350-1000 總訂單 15 架",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-12-china-airlines-orders-five-more-airbus-a350-1000s",
+          "published_date": "2025-12-18",
+          "as_of": "2025-12-18",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "ciA350Total",
+          "supporting_source_ids": ["ciA350Initial"]
+        }
+      ],
+      "annual_analysis": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "合併財務報表；本期淨利包含非控制權益，歸屬母公司淨利另列。",
+        "note": "查核財報第7–8頁（華航）／第8頁（星宇）。金額以新臺幣仟元呈現，EPS為元／股；年增率由原始數據計算，費用增加不代表績效改善。",
+        "rows": [
+          {
+            "label": "營業收入",
+            "previous": 203879338,
+            "current": 209138766,
+            "unit": "仟元"
+          },
+          {
+            "label": "營業利益",
+            "previous": 18202347,
+            "current": 20836218,
+            "unit": "仟元"
+          },
+          {
+            "label": "財務成本（費用）",
+            "previous": 2755707,
+            "current": 3037042,
+            "unit": "仟元"
+          },
+          {
+            "label": "稅前淨利",
+            "previous": 19276062,
+            "current": 20058610,
+            "unit": "仟元"
+          },
+          {
+            "label": "本期淨利",
+            "previous": 15495188,
+            "current": 16173472,
+            "unit": "仟元"
+          },
+          {
+            "label": "歸屬母公司淨利",
+            "previous": 14383345,
+            "current": 14700319,
+            "unit": "仟元"
+          },
+          {
+            "label": "基本EPS",
+            "previous": 2.38,
+            "current": 2.42,
+            "unit": "元／股"
+          }
+        ],
+        "operating_margin_2024": 8.927999854502175,
+        "operating_margin_2025": 9.962867429369837
+      },
+      "cash_flow": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "全年合併現金流量；包含集團子公司。",
+        "rows": [
+          {
+            "year": 2024,
+            "operating": 54283415,
+            "investing": -7265844,
+            "financing": -12128710,
+            "exchange": 1368215,
+            "opening_cash": 30391564,
+            "closing_cash": 66648640
+          },
+          {
+            "year": 2025,
+            "operating": 49385273,
+            "investing": -50825315,
+            "financing": -6808760,
+            "exchange": -848172,
+            "opening_cash": 66648640,
+            "closing_cash": 57551666
+          }
+        ],
+        "equipment_payments_2025": 6197341,
+        "equipment_prepayments_2025": 47519174,
+        "note": "新臺幣仟元；流入為正、流出為負。期初現金＋營業＋投資＋籌資＋匯率影響＝期末現金。設備取得與設備預付款是投資現金流的子項，不可與投資淨額重複相加。",
+        "citation": "華航查核財報印刷第10–12頁。",
+        "analysis": "2025營業現金流仍為正，設備預付款增加是重要投資支出。期末現金下降不直接證明虧損或流動性危機；需合看到期負債、可用授信與投資安排。"
+      },
+      "group_entities": {
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "scope": "2025年12月31日查核合併報表附註13，集團觀點的所有權比例，報表以整數百分比列示。",
+        "note": "只列部分子公司，不是完整組織圖；比例不可推定為母公司直接持股的精確小數。子公司航線與飛機不自動併入華航本體的機隊表。",
+        "rows": [
+          {
+            "name": "台灣虎航（Tigerair Taiwan）",
+            "business": "航空運輸",
+            "ownership_percent": 69
+          },
+          {
+            "name": "華信航空（Mandarin Airlines）",
+            "business": "航空運輸與飛機維修",
+            "ownership_percent": 97
+          },
+          {
+            "name": "Taiwan Aircraft Maintenance And Engineering",
+            "business": "飛機維修",
+            "ownership_percent": 100
+          },
+          {
+            "name": "Taiwan Air Cargo Terminal",
+            "business": "航空貨運與倉儲",
+            "ownership_percent": 59
+          }
+        ],
+        "citation": "查核財報印刷第32–33頁；附註所有權比例從集團觀點計算。"
+      }
+    },
+    "eva-air": {
+      "timeline": [
+        {
+          "date": "1989-03-08",
+          "label": "奉准籌設",
+          "body": "與公司登記日期區分。",
+          "date_kind": "event",
+          "source": "長榮｜公司沿革",
+          "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "evaHistory"
+        },
+        {
+          "date": "1989-04-07",
+          "label": "正式登記成立",
+          "body": "公司登記里程碑。",
+          "date_kind": "event",
+          "source": "長榮｜公司沿革",
+          "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "evaHistory"
+        },
+        {
+          "date": "1991-07-01",
+          "label": "營運首航",
+          "body": "公司首次營運日，不套用到每條航線。",
+          "date_kind": "event",
+          "source": "長榮｜公司沿革",
+          "source_url": "https://www.evaair.com/zh-tw/about-eva-air/about-us/company-chronicle/",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "evaHistory"
+        },
+        {
+          "date": "2013-06-18",
+          "label": "加入Star Alliance",
+          "body": "航空聯盟會員里程碑。",
+          "date_kind": "event",
+          "source": "SAS｜EVA joins Star Alliance",
+          "source_url": "https://www.sasgroup.net/newsroom/press-releases/2013/eva-air-joins-the-star-alliance-network/",
+          "published_date": "2013-06-18",
+          "as_of": "2013-06-18",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "evaAlliance"
+        },
+        {
+          "date": "2025-04-07",
+          "label": "A350-1000與A321neo增訂公告",
+          "body": "公告／訂購日期，不代表交機日。",
+          "date_kind": "announcement",
+          "source": "Airbus｜EVA Air 增訂",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2025-04-eva-air-expands-fleet-with-more-a350-1000-and-a321neo-aircraft",
+          "published_date": "2025-04-07",
+          "as_of": "2025-04-07",
+          "verified_date": "2026-10-11",
+          "status": "confirmed",
+          "source_id": "evaOrder"
+        },
+        {
+          "date": "2025-10-03",
+          "label": "達拉斯—台北首航",
+          "body": "達拉斯端當地日期，官方標題與內文明示。",
+          "date_kind": "event",
+          "source": "長榮｜達拉斯首航",
+          "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+          "published_date": "2025-10-03",
+          "as_of": "2025-10-03",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "brDfw"
+        }
+      ],
+      "revenue_mix": {
+        "unit": "新臺幣百萬元",
+        "scope": "2025年報印刷頁135，長榮本體客貨運營運收入；不能除以合併營收220,333.377百萬元來冒充同範圍占比。",
+        "total": null,
+        "parts": [
+          {
+            "name": "客運",
+            "amount": 140344
+          },
+          {
+            "name": "貨運",
+            "amount": 54759
+          }
+        ],
+        "source": "長榮｜2025 年報",
+        "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "evaFinance"
+      },
+      "operating_model": {
+        "title": "長程客運、腹艙及777F貨運",
+        "body": "客運收入與貨運收入共同支持航網。貨運載貨率與客運載客率分別使用可供運力作分母。",
+        "source": "長榮｜2025 年報",
+        "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "evaFinance"
+      },
+      "strategy": [
+        {
+          "theme": "亞太—北美轉機",
+          "official_fact": "2025年報將拓展北美網絡及強化亞太—北美轉機列為方向。",
+          "analysis": "研究解讀：樞紐班表的銜接與運能安排比航點數本身更重要，轉機占比須另查。",
+          "kpi": "轉機收益、RPK／ASK、班表銜接",
+          "risk": "樞紐壅塞與需求變動",
+          "stage": "已公開方向",
+          "source": "長榮｜2025 年報",
+          "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "evaFinance"
+        },
+        {
+          "theme": "客貨運能及高價值貨源",
+          "official_fact": "2025年報列靈活機隊安排、掌握高價值急件與客機改貨機為方向。",
+          "analysis": "研究解讀：貨機承載能力與客機腹艙供給受不同限制；改裝計畫不能直接算現役貨機。",
+          "kpi": "FTK／AFTK、貨運收益率與機隊可用率",
+          "risk": "貨運循環、改裝與交期",
+          "stage": "已公開方向",
+          "source": "長榮｜2025 年報",
+          "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "evaFinance"
+        },
+        {
+          "theme": "聯盟與產品更新",
+          "official_fact": "Star Alliance會員與共掛合作扩大銜接；達拉斯首航新聞描述787-9新豪經艙。",
+          "analysis": "研究解讀：聯盟、共掛、interline及艙等產品是不同商業工具，要分開比較。",
+          "kpi": "合作網絡、艙等收益與旅客服務",
+          "risk": "服務一致性與不同公司轉機責任",
+          "stage": "已公開方向",
+          "source": "長榮｜達拉斯首航",
+          "source_url": "https://www.evaair.com/de-at/about-eva-air/news/news-releases/2025-10-03-dfw-news.html",
+          "published_date": "2025-10-03",
+          "as_of": "2025-10-03",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "brDfw",
+          "supporting_source_ids": ["evaAlliance"]
+        }
+      ]
+    },
+    "starlux": {
+      "timeline": [
+        {
+          "date": "2018-05-02",
+          "label": "公司成立",
+          "body": "證交所上市公司基本資料所載成立日期。",
+          "date_kind": "event",
+          "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+          "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+          "published_date": null,
+          "as_of": "2026-10-11",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxStock"
+        },
+        {
+          "date": "2020-01-23",
+          "label": "正式開始航空服務",
+          "body": "證交所公司介紹明示服務開始日。",
+          "date_kind": "event",
+          "source": "證交所｜星宇上市公司介紹",
+          "source_url": "https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b",
+          "published_date": "2024-10-25",
+          "as_of": "2024-10-25",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxTwse"
+        },
+        {
+          "date": "2024-10-25",
+          "label": "證交所上市",
+          "body": "上市公司基本資料明示上市日期，股票代號2646。",
+          "date_kind": "event",
+          "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+          "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+          "published_date": null,
+          "as_of": "2026-10-11",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxStock"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "年末機隊快照",
+          "body": "A321neo13、A330-9006、A350-90010，共29；歷史快照。",
+          "date_kind": "snapshot",
+          "source": "星宇航空｜2025 年報",
+          "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxAnnual"
+        },
+        {
+          "date": "2026-01-05",
+          "label": "首架A350-1000交機",
+          "body": "土魯斯當地交付，與抵台及首次載客分開。",
+          "date_kind": "event",
+          "source": "星宇｜首架 A350-1000 交付與返台",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+          "published_date": "2026-01-05",
+          "as_of": "2026-01-05",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxHandover"
+        },
+        {
+          "date": "2026-01-06",
+          "label": "首架A350-1000抵台",
+          "body": "台灣當地10:15降落桃園。",
+          "date_kind": "event",
+          "source": "星宇｜首架 A350-1000 抵台",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260106",
+          "published_date": "2026-01-06",
+          "as_of": "2026-01-06",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxArrival"
+        },
+        {
+          "date": "2026-01-15",
+          "label": "台北—鳳凰城首航",
+          "body": "航空公司當日首航稿記錄；與華航鳳凰城航線分開。",
+          "date_kind": "event",
+          "source": "星宇｜台北—鳳凰城首航",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
+          "published_date": "2026-01-15",
+          "as_of": "2026-01-15",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxPhoenix"
+        },
+        {
+          "date": "2026-01-27",
+          "label": "AIRSORAYAMA計畫發表",
+          "body": "東京發表艺术合作；不是當日全部藝術機投入營運。",
+          "date_kind": "announcement",
+          "source": "星宇｜AIRSORAYAMA藝術計畫發表",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260127",
+          "published_date": "2026-01-27",
+          "as_of": "2026-01-27",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxArtProject"
+        },
+        {
+          "date": "2026-02-10",
+          "label": "A350-1000首次載客",
+          "body": "JX802桃園—成田；為機型首次載客，不是航線最早開航。",
+          "date_kind": "event",
+          "source": "星宇｜A350-1000 JX802 首次載客飛航",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260210",
+          "published_date": "2026-02-10",
+          "as_of": "2026-02-10",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxFirstService"
+        },
+        {
+          "date": "2026-07-03",
+          "label": "Pantone專屬色與工藝公告",
+          "body": "藝術機專案銀／金色與主識別曜石灰／大地金分開。",
+          "date_kind": "announcement",
+          "source": "星宇｜AIRSORAYAMA專屬色與航空塗裝",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260703",
+          "published_date": "2026-07-03",
+          "as_of": "2026-07-03",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxPantone"
+        },
+        {
+          "date": "2026-08-01",
+          "label": "台北—布拉格首航",
+          "body": "星宇與布拉格機場交叉核對，首條歐洲航線。",
+          "date_kind": "event",
+          "source": "星宇｜台北—布拉格首航",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801",
+          "published_date": "2026-08-01",
+          "as_of": "2026-08-01",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxPragueOfficial"
+        }
+      ],
+      "revenue_mix": {
+        "unit": "新臺幣萬元",
+        "scope": "2025年報印刷頁6，個別營運摘要；萬元精度。加總440億5,326萬元與個別財報仟元精度44,053,262仟元相差2仟元，是摘要四捨五入，不改動財報總數。",
+        "total": 4405326,
+        "parts": [
+          {
+            "name": "客運",
+            "amount": 3545172
+          },
+          {
+            "name": "貨運",
+            "amount": 495362
+          },
+          {
+            "name": "其他",
+            "amount": 364792
+          }
+        ],
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      },
+      "operating_model": {
+        "title": "客運、腹艙貨運與未來貨機",
+        "body": "2025貨運增長與廣體機腹艙運力相關；A350F10架是訂單總量，不代表已投入貨機服務。",
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "jxAnnual"
+      },
+      "strategy": [
+        {
+          "theme": "精品定位的收益策略",
+          "official_fact": "證交所將其定位為全服務精品航空；2025營收客運80.5%、貨運11.2%、其他8.3%。",
+          "analysis": "研究解讀：精品品牌必須轉化為收益品質及服務一致性，不能只由塗裝或新增航點推論獲利。",
+          "kpi": "艙等收益、RASK／CASK、營業與淨利率",
+          "risk": "高服務成本、品牌投入與需求波動",
+          "stage": "已公開方向",
+          "source": "星宇航空｜2025 年報",
+          "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxAnnual",
+          "supporting_source_ids": ["jxTwse"]
+        },
+        {
+          "theme": "台北樞紐及台中布局",
+          "official_fact": "2026年3月底年報記錄31航點、39定期航線，並說明台北轉機與中部市場。",
+          "analysis": "研究解讀：樞紐轉機與區域直航服務不同客源，航點與航線數不能互換。",
+          "kpi": "轉機品質、可用運力、航點／航線口徑",
+          "risk": "新航點需求培養與班表協調",
+          "stage": "已公開方向",
+          "source": "星宇航空｜2025 年報",
+          "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxAnnual"
+        },
+        {
+          "theme": "跨洲及合作",
+          "official_fact": "2026年1月15日鳳凰城、8月1日布拉格首航；另有阿拉斯加、阿提哈德共掛與美國航空interline。",
+          "analysis": "研究解讀：自營直航與合作銜接共同拓網，但合作目的地不能當作自營航點。",
+          "kpi": "直航收益、聯程銜接與客源組成",
+          "risk": "新增機型與長程作業的資源配套",
+          "stage": "已公開方向",
+          "source": "星宇｜台北—鳳凰城首航",
+          "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
+          "published_date": "2026-01-15",
+          "as_of": "2026-01-15",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxPhoenix",
+          "supporting_source_ids": ["jxPragueOfficial", "jxAnnual"]
+        },
+        {
+          "theme": "規模擴張與資金壓力",
+          "official_fact": "2025個別營業利益16.37億元，財務成本13.65億元；2026年底43架與2033年76架是年報計畫。",
+          "analysis": "研究解讀：運能增長須同時評估融資、現金流與成本，營收成長不保證EPS成長。",
+          "kpi": "現金流、財務成本、ROIC與交付里程碑",
+          "risk": "交期、匯率及資金成本",
+          "stage": "計畫與風險分析",
+          "source": "星宇航空｜2025 年度個別財務報告",
+          "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+          "published_date": null,
+          "as_of": "2025-12-31",
+          "verified_date": "2026-10-12",
+          "status": "confirmed",
+          "source_id": "jxFinancial2025",
+          "supporting_source_ids": ["jxAnnual"]
+        }
+      ],
+      "annual_analysis": {
+        "source": "星宇航空｜2025 年度個別財務報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "level": 1,
+        "source_id": "jxFinancial2025",
+        "scope": "個別財務報表；所得稅利益與其他綜合損益不能混同營業利益或本期淨利。",
+        "note": "查核財報第7–8頁（華航）／第8頁（星宇）。金額以新臺幣仟元呈現，EPS為元／股；年增率由原始數據計算，費用增加不代表績效改善。",
+        "rows": [
+          {
+            "label": "營業收入",
+            "previous": 35546851,
+            "current": 44053262,
+            "unit": "仟元"
+          },
+          {
+            "label": "營業利益",
+            "previous": 2369762,
+            "current": 1637261,
+            "unit": "仟元"
+          },
+          {
+            "label": "財務成本（費用）",
+            "previous": 977813,
+            "current": 1365217,
+            "unit": "仟元"
+          },
+          {
+            "label": "稅前淨利",
+            "previous": 1293501,
+            "current": 43471,
+            "unit": "仟元"
+          },
+          {
+            "label": "所得稅利益",
+            "previous": 30937,
+            "current": 229137,
+            "unit": "仟元"
+          },
+          {
+            "label": "本期淨利",
+            "previous": 1324438,
+            "current": 272608,
+            "unit": "仟元"
+          },
+          {
+            "label": "基本EPS",
+            "previous": 0.53,
+            "current": 0.09,
+            "unit": "元／股"
+          }
+        ],
+        "operating_margin_2024": 6.666587709836801,
+        "operating_margin_2025": 3.716548844895981
+      },
+      "cash_flow": {
+        "source": "星宇航空｜2025 年度個別財務報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "level": 1,
+        "source_id": "jxFinancial2025",
+        "scope": "全年個別現金流量；不是合併集團數字。",
+        "rows": [
+          {
+            "year": 2024,
+            "operating": 10965481,
+            "investing": -30003339,
+            "financing": 29391392,
+            "exchange": 47861,
+            "opening_cash": 5640518,
+            "closing_cash": 16041913
+          },
+          {
+            "year": 2025,
+            "operating": 8060298,
+            "investing": -20849698,
+            "financing": 12123788,
+            "exchange": -36485,
+            "opening_cash": 16041913,
+            "closing_cash": 15339816
+          }
+        ],
+        "equipment_payments_2025": 13188668,
+        "equipment_prepayments_2025": 6770547,
+        "note": "新臺幣仟元；流入為正、流出為負。期初現金＋營業＋投資＋籌資＋匯率影響＝期末現金。設備取得與設備預付款是投資現金流的子項，不可與投資淨額重複相加。",
+        "citation": "星宇查核財報印刷第10頁。",
+        "analysis": "2025營業現金流低於投資淨流出，籌資淨流入補充資金。這支持進一步追蹤交機付款、融資成本與運能利用；不能只以營收成長評估擴張的資金負擔。"
+      },
+      "cargo_capabilities": {
+        "source": "星宇航空｜2025 年報",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "jxAnnual",
+        "scope": "2025年度年報記錄取得四項IATA CEIV認證；不是本次重新查核的今日認證有效期。",
+        "rows": [
+          {
+            "certification": "CEIV Pharma",
+            "focus": "醫藥冷鏈",
+            "research_focus": "溫控、交接與溫度偏離管理"
+          },
+          {
+            "certification": "CEIV Fresh",
+            "focus": "生鮮貨物",
+            "research_focus": "時效、貨種適配與品質維持"
+          },
+          {
+            "certification": "CEIV Live Animals",
+            "focus": "活生動物",
+            "research_focus": "動物照護、容器與地面交接"
+          },
+          {
+            "certification": "CEIV Lithium Batteries",
+            "focus": "鋰電池",
+            "research_focus": "危險品分類、包裝與安全程序"
+          }
+        ],
+        "note": "年報印刷第1頁。右欄是研究追問框架，不代表星宇逐項已公布內部SOP。認證不等於所有貨物、所有場站與所有航班均可無條件承運，也不代表已有專用貨機。"
+      }
+    }
+  }
+}

@@ -929,7 +929,7 @@ main {
 }
 .fleet-layout {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   gap: 22px;
 }
 .fleet-layout .donut {
@@ -1379,7 +1379,7 @@ footer {
     padding: 25px;
   }
   .fleet-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .fleet-layout .panel {
     margin-bottom: 0;
@@ -2049,4 +2049,18 @@ dialog.interview-dialog {
   .interview-dialog select {
     font-size: 1.142857rem;
   }
+}
+.event-dates {
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid var(--border, #d4dce2);
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+  font-size: 0.9rem;
+}
+.event-dates p {
+  margin: 6px 0;
+}
+.event-dates > div + div {
+  margin-top: 12px;
 }

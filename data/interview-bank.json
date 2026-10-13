@@ -3,181 +3,280 @@
     "id": "company-ci",
     "airline": "china-airlines",
     "topic": "Company Knowledge",
-    "question": "中華航空的特色是什麼？",
-    "question_en": "What stands out to you about China Airlines?",
-    "answer": "China Airlines combines passenger and dedicated cargo operations. I am interested in how these different missions are supported by the same commitment to safety. As a cadet, I would focus on learning procedures carefully and communicating clearly with the wider team.",
-    "answer_30": "China Airlines combines passenger and dedicated cargo operations. I am interested in how these different missions are supported by the same commitment to safety. As a cadet, I would focus on learning procedures carefully and communicating clearly with the wider team.",
-    "answer_60": "China Airlines combines passenger and dedicated cargo operations. I am interested in how these different missions are supported by the same commitment to safety. As a cadet, I would focus on learning procedures carefully and communicating clearly with the wider team. A passenger flight and a cargo flight may serve different customers, but both need careful planning and reliable coordination. I would learn how my role connects with dispatch, cabin crew and maintenance. I would also keep my company knowledge up to date instead of memorising a number without its date.",
-    "chinese_answer": "從客貨並進切入，再連結程序與跨部門合作。",
+    "question": "華航客貨雙軌模式如何反映在2025營收與營運風險？",
+    "question_en": "How does China Airlines’ passenger-and-cargo model affect revenue and operating risks?",
+    "answer": "China Airlines’ 2025 consolidated revenue was approximately NT$209.139 billion, including NT$124.908 billion from passengers and NT$66.831 billion from cargo. That creates exposure to different markets, but revenue share is not profit share. Belly cargo and dedicated freighters have different capacity, scheduling and cost characteristics.",
+    "answer_30": "China Airlines’ 2025 consolidated revenue was approximately NT$209.139 billion, including NT$124.908 billion from passengers and NT$66.831 billion from cargo. That creates exposure to different markets, but revenue share is not profit share. Belly cargo and dedicated freighters have different capacity, scheduling and cost characteristics.",
+    "answer_60": "China Airlines’ 2025 consolidated revenue was approximately NT$209.139 billion, including NT$124.908 billion from passengers and NT$66.831 billion from cargo. That creates exposure to different markets, but revenue share is not profit share. Belly cargo and dedicated freighters have different capacity, scheduling and cost characteristics. I would assess passenger RPK and ASK, cargo FTK and AFTK, yields, fuel and foreign-exchange exposure, while checking parent-versus-group boundaries. Comparable international and cross-strait statistics can support volume and load-factor analysis. Revenue with a different scope must not be divided by those capacity figures to manufacture a yield. For a pilot, both businesses rely on dispatch, loading and maintenance coordination, with actual procedures and qualifications governed by authorised documents.",
+    "chinese_answer": "研究時我會同時看客運RPK／ASK與貨運FTK／AFTK、收益率、燃油與匯率，再看合併與公司本體是否一致。三家同口徑國際及兩岸統計可以比较運量與載運率；不能拿不同範圍財報營收去除其中一段運力，製造出假收益率。對機師而言，客貨業務共同依赖簽派、載重與維修配合，但實際程序與機型資格仍依正式規範。",
     "key_points": [
-      "passenger and cargo",
-      "procedures",
-      "teamwork"
+      "客貨收入組成",
+      "腹艙／貨機",
+      "運量與收益口徑"
     ],
     "keywords": [
-      "passenger and cargo",
-      "procedures",
-      "teamwork"
+      "客貨收入組成",
+      "腹艙／貨機",
+      "運量與收益口徑"
     ],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "中華航空｜營運概況",
-    "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
     "published_date": null,
-    "as_of": "2026-09-30",
-    "verified_date": "2026-10-11",
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "ciFleet",
-    "answer_zh_30": "我注意到華航同時經營客運與專用貨機業務。兩種任務的服務對象不同，但都需要嚴謹的規劃與團隊協調。對我而言，了解公司不只是記住機隊數字，也要理解每趟航班背後的工作。若成為培訓學員，我會先把程序學好，並養成清楚溝通的習慣。",
-    "answer_zh_60": "我注意到華航同時經營客運與專用貨機業務。兩種任務的服務對象不同，但都需要嚴謹的規劃與團隊協調。對我而言，了解公司不只是記住機隊數字，也要理解每趟航班背後的工作。若成為培訓學員，我會先把程序學好，並養成清楚溝通的習慣。\n\n例如客運與貨運在需求及作業安排上有所不同，我希望進一步了解機師如何與簽派、維修及其他單位合作。我也會持續確認資料的日期與統計範圍，避免把過時數字當成現況。",
+    "source_id": "ciFinancial2025",
+    "answer_zh_30": "華航2025合併營收約2,091.39億元，客運1,249.08億元、貨運668.31億元、其他173.996億元。客貨雙軌提供不同市場收入來源，但營收占比不是獲利占比；客機腹艙與專用貨機的承載、成本及班表也不同，不能只用總機隊數說明業務模式。",
+    "answer_zh_60": "華航2025合併營收約2,091.39億元，客運1,249.08億元、貨運668.31億元、其他173.996億元。客貨雙軌提供不同市場收入來源，但營收占比不是獲利占比；客機腹艙與專用貨機的承載、成本及班表也不同，不能只用總機隊數說明業務模式。\n\n研究時我會同時看客運RPK／ASK與貨運FTK／AFTK、收益率、燃油與匯率，再看合併與公司本體是否一致。三家同口徑國際及兩岸統計可以比较運量與載運率；不能拿不同範圍財報營收去除其中一段運力，製造出假收益率。對機師而言，客貨業務共同依赖簽派、載重與維修配合，但實際程序與機型資格仍依正式規範。",
     "answer_outline": [
-      "客貨營運",
-      "程序紀律",
-      "跨部門合作"
+      "客貨收入組成",
+      "腹艙／貨機",
+      "運量與收益口徑"
     ],
-    "follow_up": "如果面試官問客運與貨運的差異，你會先比較哪一項？"
+    "follow_up": "貨運營收增加，是運量、運距、收益率還是組合變化造成的？",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "ciFleet"
+    ],
+    "deep_dive": {
+      "analysis_zh": "研究時我會同時看客運RPK／ASK與貨運FTK／AFTK、收益率、燃油與匯率，再看合併與公司本體是否一致。三家同口徑國際及兩岸統計可以比较運量與載運率；不能拿不同範圍財報營收去除其中一段運力，製造出假收益率。對機師而言，客貨業務共同依赖簽派、載重與維修配合，但實際程序與機型資格仍依正式規範。\n\n補充現金流觀點：華航2025合併營業現金淨流入49,385,273仟元，投資現金淨流出50,825,315仟元；設備預付款增加47,519,174仟元。這些是全年現金流，不能當作飛機成交價或交機架數；期末現金下降也不能單獨證明虧損。",
+      "analysis_en": "I would assess passenger RPK and ASK, cargo FTK and AFTK, yields, fuel and foreign-exchange exposure, while checking parent-versus-group boundaries. Comparable international and cross-strait statistics can support volume and load-factor analysis. Revenue with a different scope must not be divided by those capacity figures to manufacture a yield. For a pilot, both businesses rely on dispatch, loading and maintenance coordination, with actual procedures and qualifications governed by authorised documents.\n\nCash-flow context: CAL reported 2025 consolidated operating cash inflow of NT$49,385,273 thousand and investing cash outflow of NT$50,825,315 thousand, including NT$47,519,174 thousand of increased equipment prepayments. These are annual cash-flow items, not aircraft prices or delivery counts; a lower closing cash balance alone does not establish a loss.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "貨運營收增加，是運量、運距、收益率還是組合變化造成的？",
+        "有獲利為什麼期末現金仍可能下降？請區分營業、投資與籌資活動。"
+      ],
+      "evidence_ids": [
+        "ciFinancial2025",
+        "ciFleet"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "中華航空的特色是什麼？",
+      "en": "What stands out to you about China Airlines?"
+    }
   },
   {
     "id": "why-ci",
     "airline": "china-airlines",
     "topic": "Why This Airline",
-    "question": "為什麼想加入華航？",
-    "question_en": "Why do you want to join China Airlines?",
-    "answer": "I am drawn to China Airlines because of its passenger and cargo operations. That variety makes me want to understand the business behind each flight. I would bring a disciplined approach to learning and a willingness to accept feedback. I would support this answer with a real example from my own experience.",
-    "answer_30": "I am drawn to China Airlines because of its passenger and cargo operations. That variety makes me want to understand the business behind each flight. I would bring a disciplined approach to learning and a willingness to accept feedback. I would support this answer with a real example from my own experience.",
-    "answer_60": "I am drawn to China Airlines because of its passenger and cargo operations. That variety makes me want to understand the business behind each flight. I would bring a disciplined approach to learning and a willingness to accept feedback. I would support this answer with a real example from my own experience. I would not say that a large fleet alone makes an airline right for me. I would explain which part of its work I have researched and why it matches my values. Then I would give a specific example of following a procedure, responding to feedback or helping a team.",
-    "chinese_answer": "結合已查核公司特色、自己的真實經驗，以及願意學習的具體行動。",
+    "question": "為什麼想加入華航？如何把公司研究連結到自身適合度？",
+    "question_en": "Why China Airlines, and how would you connect company research to your own fit?",
+    "answer": "My specific interest is China Airlines’ combination of passenger and cargo operations across different missions. Cargo contributed about NT$66.831 billion of 2025 consolidated revenue. I would connect that research to reliable operations through training, dispatch and maintenance, then demonstrate my own fit using a genuine learning or teamwork example.",
+    "answer_30": "My specific interest is China Airlines’ combination of passenger and cargo operations across different missions. Cargo contributed about NT$66.831 billion of 2025 consolidated revenue. I would connect that research to reliable operations through training, dispatch and maintenance, then demonstrate my own fit using a genuine learning or teamwork example.",
+    "answer_60": "My specific interest is China Airlines’ combination of passenger and cargo operations across different missions. Cargo contributed about NT$66.831 billion of 2025 consolidated revenue. I would connect that research to reliable operations through training, dispatch and maintenance, then demonstrate my own fit using a genuine learning or teamwork example. I would separate the reason for choosing the company from the evidence about myself. The first explains the researched business and associated work demands; the second shows my actions, results and reflection. A diversified business does not automatically qualify a cadet on every type or eliminate market risk. My motivation should therefore connect with discipline, sustained learning and responsibility, rather than rely only on fleet size or revenue rankings.",
+    "chinese_answer": "我會把回答分成公司選擇與個人證據：前者说明研究過的業務及其工作要求，後者交代自己的行動、結果與反思。客貨並進並不代表某個學員能自動取得全部機型資格，也不代表景氣風險消失。這樣的動機應建立在對紀律、學習與跨部門責任的理解，而非拿機隊或營收排名作為唯一加入理由。",
     "key_points": [
-      "motivation",
-      "discipline",
-      "feedback"
+      "公司研究",
+      "真實個人證據",
+      "任務與責任"
     ],
     "keywords": [
-      "motivation",
-      "discipline",
-      "feedback"
+      "公司研究",
+      "真實個人證據",
+      "任務與責任"
     ],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "華航｜經營者的話",
-    "source_url": "https://calec.china-airlines.com/csr/about.html",
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
     "published_date": null,
     "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "ciEsg",
-    "answer_zh_30": "華航吸引我的地方，是客運與貨運並行的營運特色，讓我想了解不同任務如何透過同一套安全文化可靠地完成。我希望投入需要持續學習、遵守程序及團隊合作的工作。若有機會加入，我會以學員的態度接受回饋，先把每個訓練階段的基本功做好。",
-    "answer_zh_60": "華航吸引我的地方，是客運與貨運並行的營運特色，讓我想了解不同任務如何透過同一套安全文化可靠地完成。我希望投入需要持續學習、遵守程序及團隊合作的工作。若有機會加入，我會以學員的態度接受回饋，先把每個訓練階段的基本功做好。\n\n對我來說，選擇航空公司需要把公司特色與自己的長期目標連在一起，而不是只看規模。我會持續研究華航的營運與訓練要求，也會用實際準備成果檢查自己是否具備投入的決心。對不熟悉的內容，我願意主動請教並修正。",
+    "source_id": "ciFinancial2025",
+    "answer_zh_30": "吸引我的具體方向是華航客貨雙軌與長程、區域航網的組合；2025合併資料中貨運收入約668.31億元。我希望理解不同任務如何通过訓練、簽派與維修協作達成可靠營運，再用自身真實的學習或合作經驗說明適合度，而不只說公司規模大。",
+    "answer_zh_60": "吸引我的具體方向是華航客貨雙軌與長程、區域航網的組合；2025合併資料中貨運收入約668.31億元。我希望理解不同任務如何通过訓練、簽派與維修協作達成可靠營運，再用自身真實的學習或合作經驗說明適合度，而不只說公司規模大。\n\n我會把回答分成公司選擇與個人證據：前者说明研究過的業務及其工作要求，後者交代自己的行動、結果與反思。客貨並進並不代表某個學員能自動取得全部機型資格，也不代表景氣風險消失。這樣的動機應建立在對紀律、學習與跨部門責任的理解，而非拿機隊或營收排名作為唯一加入理由。",
     "answer_outline": [
-      "公司特色",
-      "長期動機",
-      "學員心態"
+      "公司研究",
+      "真實個人證據",
+      "任務與責任"
     ],
-    "follow_up": "除了公司規模，華航哪項特色與你的真實經驗最有連結？"
+    "follow_up": "請用本人真實經驗說明為何能適應程序紀律與跨部門合作。",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "ciEsg"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會把回答分成公司選擇與個人證據：前者说明研究過的業務及其工作要求，後者交代自己的行動、結果與反思。客貨並進並不代表某個學員能自動取得全部機型資格，也不代表景氣風險消失。這樣的動機應建立在對紀律、學習與跨部門責任的理解，而非拿機隊或營收排名作為唯一加入理由。",
+      "analysis_en": "I would separate the reason for choosing the company from the evidence about myself. The first explains the researched business and associated work demands; the second shows my actions, results and reflection. A diversified business does not automatically qualify a cadet on every type or eliminate market risk. My motivation should therefore connect with discipline, sustained learning and responsibility, rather than rely only on fleet size or revenue rankings.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "請用本人真實經驗說明為何能適應程序紀律與跨部門合作。"
+      ],
+      "evidence_ids": [
+        "ciFinancial2025",
+        "ciEsg"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "為什麼想加入華航？",
+      "en": "Why do you want to join China Airlines?"
+    }
   },
   {
     "id": "fleet-ci",
     "airline": "china-airlines",
     "topic": "Fleet",
-    "question": "怎麼看華航引進 787？",
-    "question_en": "Why might the 787 matter to China Airlines?",
-    "answer": "The 787 program gives China Airlines an opportunity to update its fleet and passenger product. However, an order is different from an aircraft in service. I would check the latest delivery information before quoting numbers. For a pilot, a new fleet also means learning new procedures and managing the transition carefully.",
-    "answer_30": "The 787 program gives China Airlines an opportunity to update its fleet and passenger product. However, an order is different from an aircraft in service. I would check the latest delivery information before quoting numbers. For a pilot, a new fleet also means learning new procedures and managing the transition carefully.",
-    "answer_60": "The 787 program gives China Airlines an opportunity to update its fleet and passenger product. However, an order is different from an aircraft in service. I would check the latest delivery information before quoting numbers. For a pilot, a new fleet also means learning new procedures and managing the transition carefully. I would also consider the work behind a fleet transition, including training, maintenance support and network planning. A new aircraft is not useful simply because it is new. It must fit the airline’s needs and be introduced with the right preparation. That is the connection I would make to pilot training.",
-    "chinese_answer": "以機隊更新與產品設計回答；不要把訂單當現役。",
+    "question": "華航787-9／787-10計畫如何連結機隊更新與航網配置？",
+    "question_en": "How could China Airlines’ 787-9 and 787-10 programme support fleet and network planning?",
+    "answer": "The recorded programme consists of eighteen 787-9s and six 787-10s, or 24 aircraft in total. That is an order programme, not today’s operating fleet. The premium-economy presentation on 2 June 2026 is not a delivery record. Aircraft variant, cabin product, handover and operational entry must remain distinct.",
+    "answer_30": "The recorded programme consists of eighteen 787-9s and six 787-10s, or 24 aircraft in total. That is an order programme, not today’s operating fleet. The premium-economy presentation on 2 June 2026 is not a delivery record. Aircraft variant, cabin product, handover and operational entry must remain distinct.",
+    "answer_60": "The recorded programme consists of eighteen 787-9s and six 787-10s, or 24 aircraft in total. That is an order programme, not today’s operating fleet. The premium-economy presentation on 2 June 2026 is not a delivery record. Aircraft variant, cabin product, handover and operational entry must remain distinct. I would examine configuration, range and payload against demand, then assess training, maintenance, spares and dispatch readiness. Across programmes, firm orders, options and plans must be separated to avoid double-counting. Useful evidence includes delivery and service-entry milestones, available aircraft time, yields and costs. A newer model is not automatically the right choice for every route, and an unverified entry-into-service date should not be presented as fact.",
+    "chinese_answer": "我會評估各型號配置、航程及載重如何匹配客源，再讨论訓練、維修、備件與簽派準備。不同新機計畫也要區分確定訂單、選擇權與公告計畫，避免把787與A350-1000數量重複计算。真正能追蹤的是交付與入營里程碑、可用機時、收益與成本；不能因為機型較新就假設每條航線都更適合，或引用未查核的投入營運日期。",
     "key_points": [
-      "fleet renewal",
-      "orders",
-      "training"
+      "18架787-9／6架787-10",
+      "產品≠交機",
+      "任務與導入配套"
     ],
     "keywords": [
-      "fleet renewal",
-      "orders",
-      "training"
+      "18架787-9／6架787-10",
+      "產品≠交機",
+      "任務與導入配套"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "華航｜787 豪華經濟艙亮相",
-    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20260602.html",
-    "published_date": "2026-06-02",
-    "as_of": "2026-06-02",
+    "source": "華航｜787 確認訂單",
+    "source_url": "https://www.china-airlines.com/at/en/about-china-airlines/media/news/20230621",
+    "published_date": "2023-06-21",
+    "as_of": "2023-06-21",
     "verified_date": "2026-10-11",
     "status": "confirmed",
-    "source_id": "ci787",
-    "answer_zh_30": "我認為華航引進 787，是更新機隊與旅客產品的一項重要發展。不過，訂購不等於已交付，更不等於已投入營運，因此我會確認最新公告後才引用數量。從培訓學員的角度看，新機型也代表新的知識、程序與訓練要求，需要穩定地學習。",
-    "answer_zh_60": "我認為華航引進 787，是更新機隊與旅客產品的一項重要發展。不過，訂購不等於已交付，更不等於已投入營運，因此我會確認最新公告後才引用數量。從培訓學員的角度看，新機型也代表新的知識、程序與訓練要求，需要穩定地學習。\n\n我會同時關注機隊轉換如何影響訓練與作業安排，而不只比較飛機性能。回答時會清楚說明資料的基準日，並分開談現役機隊與未來規劃。這也提醒我，航空資訊需要不斷更新，不能只背一次就認為永遠正確。",
+    "source_id": "ciOrder",
+    "answer_zh_30": "已收錄的787整批訂單為787-9十八架、787-10六架，共24架；這是訂單總量，不是今天現役數。2026年6月2日豪經艙產品公開也不是交機證據。分析要分清型號、客艙產品、交付與投入營運，才能連結到航線需求與機隊更新。",
+    "answer_zh_60": "已收錄的787整批訂單為787-9十八架、787-10六架，共24架；這是訂單總量，不是今天現役數。2026年6月2日豪經艙產品公開也不是交機證據。分析要分清型號、客艙產品、交付與投入營運，才能連結到航線需求與機隊更新。\n\n我會評估各型號配置、航程及載重如何匹配客源，再讨论訓練、維修、備件與簽派準備。不同新機計畫也要區分確定訂單、選擇權與公告計畫，避免把787與A350-1000數量重複计算。真正能追蹤的是交付與入營里程碑、可用機時、收益與成本；不能因為機型較新就假設每條航線都更適合，或引用未查核的投入營運日期。",
     "answer_outline": [
-      "訂購不等於營運",
-      "機隊轉換",
-      "持續學習"
+      "18架787-9／6架787-10",
+      "產品≠交機",
+      "任務與導入配套"
     ],
-    "follow_up": "如果最新交機資訊與你記的數字不同，你會如何回答？"
+    "follow_up": "公布客艙產品與完成營運導入，中間還有哪些待核實條件？",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "ci787",
+      "ciA350Total"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會評估各型號配置、航程及載重如何匹配客源，再讨论訓練、維修、備件與簽派準備。不同新機計畫也要區分確定訂單、選擇權與公告計畫，避免把787與A350-1000數量重複计算。真正能追蹤的是交付與入營里程碑、可用機時、收益與成本；不能因為機型較新就假設每條航線都更適合，或引用未查核的投入營運日期。",
+      "analysis_en": "I would examine configuration, range and payload against demand, then assess training, maintenance, spares and dispatch readiness. Across programmes, firm orders, options and plans must be separated to avoid double-counting. Useful evidence includes delivery and service-entry milestones, available aircraft time, yields and costs. A newer model is not automatically the right choice for every route, and an unverified entry-into-service date should not be presented as fact.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "公布客艙產品與完成營運導入，中間還有哪些待核實條件？"
+      ],
+      "evidence_ids": [
+        "ciOrder",
+        "ci787",
+        "ciA350Total"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "怎麼看華航引進 787？",
+      "en": "Why might the 787 matter to China Airlines?"
+    }
   },
   {
     "id": "why-br",
     "airline": "eva-air",
     "topic": "Why This Airline",
-    "question": "為什麼想加入長榮？",
-    "question_en": "Why do you want to join EVA Air?",
-    "answer": "EVA Air interests me because its published cadet program has a clear training structure. I understand that progress depends on meeting standards at each stage. I would bring consistent preparation, ask for help early and use feedback to improve. I would also explain a real example of how I have learned a difficult skill.",
-    "answer_30": "EVA Air interests me because its published cadet program has a clear training structure. I understand that progress depends on meeting standards at each stage. I would bring consistent preparation, ask for help early and use feedback to improve. I would also explain a real example of how I have learned a difficult skill.",
-    "answer_60": "EVA Air interests me because its published cadet program has a clear training structure. I understand that progress depends on meeting standards at each stage. I would bring consistent preparation, ask for help early and use feedback to improve. I would also explain a real example of how I have learned a difficult skill. The program reminds me that motivation must be supported by daily habits. I would plan my study, review mistakes and check my understanding before moving on. When I need help, I would ask a focused question and apply the feedback. I see training as a responsibility, not just a chance to fly.",
-    "chinese_answer": "官方訓練架構與你的學習習慣連結；避免聲稱面試官偏好。",
+    "question": "為什麼想加入長榮？其航網與客貨模式有哪些具體吸引點？",
+    "question_en": "Why EVA Air, and which specific parts of its network and business interest you?",
+    "answer": "I am interested in EVA’s Asia-Pacific–North America network and passenger-and-cargo capacity planning. Its 2025 report gives parent-airline operating passenger revenue of NT$140,344 million and cargo revenue of NT$54,759 million, alongside alliance and partner connectivity. Those are not the same boundary as consolidated group revenue.",
+    "answer_30": "I am interested in EVA’s Asia-Pacific–North America network and passenger-and-cargo capacity planning. Its 2025 report gives parent-airline operating passenger revenue of NT$140,344 million and cargo revenue of NT$54,759 million, alongside alliance and partner connectivity. Those are not the same boundary as consolidated group revenue.",
+    "answer_60": "I am interested in EVA’s Asia-Pacific–North America network and passenger-and-cargo capacity planning. Its 2025 report gives parent-airline operating passenger revenue of NT$140,344 million and cargo revenue of NT$54,759 million, alongside alliance and partner connectivity. Those are not the same boundary as consolidated group revenue. Network research should consider connections, demand and capacity rather than count every Star Alliance destination as EVA-operated. Cargo analysis should distinguish belly capacity, dedicated freighters and conversion plans. I would then explain which work demands I am prepared to commit to and support that with a real example. Product awards provide context but do not replace an understanding of safety governance, procedures or career requirements.",
+    "chinese_answer": "航網研究要看樞紐銜接、需求與運能，而非把Star Alliance的所有目的地算成長榮自營。貨運則須区分腹艙、專用貨機與改裝計畫。個人動機应回答自己願意投入哪些工作要求，再用可被追問的真實經驗支持。公司獲獎可以作為產品背景，但不替代對安全治理、程序與職涯要求的理解。",
     "key_points": [
-      "structured training",
-      "standards",
-      "learning"
+      "亞太—北美轉機",
+      "本體／合併範圍",
+      "真實適合度"
     ],
     "keywords": [
-      "structured training",
-      "standards",
-      "learning"
+      "亞太—北美轉機",
+      "本體／合併範圍",
+      "真實適合度"
     ],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "長榮｜飛航人員招募",
-    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+    "source": "長榮｜2025 年報",
+    "source_url": "https://www.evaair.com/en-tw/images/annual-reports-year-114-en_tcm53-98343.pdf",
     "published_date": null,
-    "as_of": null,
-    "verified_date": "2026-10-11",
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "evaRecruit",
-    "answer_zh_30": "長榮公開的培訓資訊讓我注意到，機師養成需要分階段達到明確標準。這樣的專業要求吸引我，也提醒我不能只靠熱情。我希望用規律準備、主動請教及持續修正來面對訓練，遇到困難時及早找出原因，而不是等問題累積後才處理。",
-    "answer_zh_60": "長榮公開的培訓資訊讓我注意到，機師養成需要分階段達到明確標準。這樣的專業要求吸引我，也提醒我不能只靠熱情。我希望用規律準備、主動請教及持續修正來面對訓練，遇到困難時及早找出原因，而不是等問題累積後才處理。\n\n我會先理解每個階段的目標，再把大目標拆成可檢查的小步驟。收到回饋後，我希望能說明自己改了什麼，以及改善是否有效。我選擇這條路，是願意長期接受專業要求，也願意從基礎開始建立可靠的工作習慣。",
+    "source_id": "evaFinance",
+    "answer_zh_30": "我對長榮亞太—北美轉機网络與客貨運能配置有興趣。2025年報列長榮本體客運收入140,344百萬元、貨運54,759百萬元，另有聯盟與合作銜接。這與集團合併營收不是同一口徑。我希望把公司研究連結到跨部門配合與自身真實準備，而不只引用服務獎項。",
+    "answer_zh_60": "我對長榮亞太—北美轉機网络與客貨運能配置有興趣。2025年報列長榮本體客運收入140,344百萬元、貨運54,759百萬元，另有聯盟與合作銜接。這與集團合併營收不是同一口徑。我希望把公司研究連結到跨部門配合與自身真實準備，而不只引用服務獎項。\n\n航網研究要看樞紐銜接、需求與運能，而非把Star Alliance的所有目的地算成長榮自營。貨運則須区分腹艙、專用貨機與改裝計畫。個人動機应回答自己願意投入哪些工作要求，再用可被追問的真實經驗支持。公司獲獎可以作為產品背景，但不替代對安全治理、程序與職涯要求的理解。",
     "answer_outline": [
-      "訓練標準",
-      "規律準備",
-      "及早求助"
+      "亞太—北美轉機",
+      "本體／合併範圍",
+      "真實適合度"
     ],
-    "follow_up": "你曾如何根據回饋調整學習方法？"
+    "follow_up": "聯盟航網與航空公司自營航網在研究中應如何分開？",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "evaAlliance"
+    ],
+    "deep_dive": {
+      "analysis_zh": "航網研究要看樞紐銜接、需求與運能，而非把Star Alliance的所有目的地算成長榮自營。貨運則須区分腹艙、專用貨機與改裝計畫。個人動機应回答自己願意投入哪些工作要求，再用可被追問的真實經驗支持。公司獲獎可以作為產品背景，但不替代對安全治理、程序與職涯要求的理解。",
+      "analysis_en": "Network research should consider connections, demand and capacity rather than count every Star Alliance destination as EVA-operated. Cargo analysis should distinguish belly capacity, dedicated freighters and conversion plans. I would then explain which work demands I am prepared to commit to and support that with a real example. Product awards provide context but do not replace an understanding of safety governance, procedures or career requirements.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "聯盟航網與航空公司自營航網在研究中應如何分開？"
+      ],
+      "evidence_ids": [
+        "evaFinance",
+        "evaAlliance"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "為什麼想加入長榮？",
+      "en": "Why do you want to join EVA Air?"
+    }
   },
   {
     "id": "fleet-br",
     "airline": "eva-air",
     "topic": "Fleet",
-    "question": "如何區分長榮現役與待交機？",
-    "question_en": "How do you distinguish an active fleet from aircraft on order?",
-    "answer": "I would start with a dated fleet table and separate aircraft in service from those still to be delivered. EVA Air publishes both columns. I would also check whether an order announcement is new or is the exercise of an earlier option, so I do not count the same aircraft twice.",
-    "answer_30": "I would start with a dated fleet table and separate aircraft in service from those still to be delivered. EVA Air publishes both columns. I would also check whether an order announcement is new or is the exercise of an earlier option, so I do not count the same aircraft twice.",
-    "answer_60": "I would start with a dated fleet table and separate aircraft in service from those still to be delivered. EVA Air publishes both columns. I would also check whether an order announcement is new or is the exercise of an earlier option, so I do not count the same aircraft twice. For example, a manufacturer may announce additional aircraft after an airline exercises an option. The final backlog already includes those aircraft. I would not add the option again. I would state the date and scope of the table so that the listener knows exactly what the number means.",
-    "chinese_answer": "現役表與待交欄分開讀；已行使選擇權不能再次相加。",
+    "question": "長榮現役、待交、增訂與客改貨如何避免重複計算？",
+    "question_en": "How would you avoid double-counting EVA’s current fleet, backlog, additional orders and conversions?",
+    "answer": "EVA’s 1 October 2026 fleet table records 89 aircraft: 80 passenger aircraft and nine freighters. Its backlog is listed separately by type. The current fleet, remaining backlog and a manufacturer’s additional-order announcement have different meanings. A passenger-to-freighter conversion changes an aircraft’s role, not evidence for counting it twice.",
+    "answer_30": "EVA’s 1 October 2026 fleet table records 89 aircraft: 80 passenger aircraft and nine freighters. Its backlog is listed separately by type. The current fleet, remaining backlog and a manufacturer’s additional-order announcement have different meanings. A passenger-to-freighter conversion changes an aircraft’s role, not evidence for counting it twice.",
+    "answer_60": "EVA’s 1 October 2026 fleet table records 89 aircraft: 80 passenger aircraft and nine freighters. Its backlog is listed separately by type. The current fleet, remaining backlog and a manufacturer’s additional-order announcement have different meanings. A passenger-to-freighter conversion changes an aircraft’s role, not evidence for counting it twice. I would first establish a table with a common date and company boundary, then identify whether each announcement is a new order, an exercised option or an update. Delivered aircraft not yet in service do not immediately establish usable capacity. The treatment of aircraft under conversion depends on the source’s definition. If the official table changes, I would update its snapshot date and type counts together instead of combine a new total with old components.",
+    "chinese_answer": "我會先建立同日、同公司範圍的表格，再對照每筆公告是否為新單、執行選擇權或原計畫更新。已交付但尚未入營也不能直接算可用運能；改裝中的飛機是否仍列機隊，需遵守官方表定義。面試時可說明如何校對，而不背無日期總數。若最新原頁數字更新，就更新快照與基準日，不把新總量與舊分型數硬湊成一致。",
     "key_points": [
-      "in service",
-      "backlog",
-      "option"
+      "2026年10月1日89架",
+      "現役／剩餘待交",
+      "轉換與增訂分開"
     ],
     "keywords": [
-      "in service",
-      "backlog",
-      "option"
+      "2026年10月1日89架",
+      "現役／剩餘待交",
+      "轉換與增訂分開"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
@@ -190,14 +289,40 @@
     "verified_date": "2026-10-11",
     "status": "confirmed",
     "source_id": "evaFleet",
-    "answer_zh_30": "我會先看長榮有日期的官方機隊表，把現役機隊與待交機數量分開。再確認訂單公告是新增訂購，還是執行先前的選擇權，避免重複計算。回答時也會交代是否包含貨機，以及資料的基準日，讓比較建立在相同範圍上。",
-    "answer_zh_60": "我會先看長榮有日期的官方機隊表，把現役機隊與待交機數量分開。再確認訂單公告是新增訂購，還是執行先前的選擇權，避免重複計算。回答時也會交代是否包含貨機，以及資料的基準日，讓比較建立在相同範圍上。\n\n如果表格與新聞稿看起來不同，我會先檢查日期與定義，而不是立即認定其中一個錯誤。某架飛機可能已經交付，但尚未出現在營運統計裡。無法確認時，我會清楚說明目前掌握的資訊與待確認部分。",
+    "answer_zh_30": "2026年10月1日長榮機隊表記錄89架，其中80架客機、9架貨機；待交欄另列A350-1000、A321neo及787型號。現役快照、剩餘待交與製造商增訂公告要分開。客機改貨機是機隊角色轉換，不是沒有證據就可以同時加一架客機和一架貨機。",
+    "answer_zh_60": "2026年10月1日長榮機隊表記錄89架，其中80架客機、9架貨機；待交欄另列A350-1000、A321neo及787型號。現役快照、剩餘待交與製造商增訂公告要分開。客機改貨機是機隊角色轉換，不是沒有證據就可以同時加一架客機和一架貨機。\n\n我會先建立同日、同公司範圍的表格，再對照每筆公告是否為新單、執行選擇權或原計畫更新。已交付但尚未入營也不能直接算可用運能；改裝中的飛機是否仍列機隊，需遵守官方表定義。面試時可說明如何校對，而不背無日期總數。若最新原頁數字更新，就更新快照與基準日，不把新總量與舊分型數硬湊成一致。",
     "answer_outline": [
-      "基準日期",
-      "現役與待交",
-      "避免重複計算"
+      "2026年10月1日89架",
+      "現役／剩餘待交",
+      "轉換與增訂分開"
     ],
-    "follow_up": "已交付卻尚未營運的飛機，應放在哪一類？"
+    "follow_up": "飛機正在客改貨期間，該如何核對現役與可用運能？",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "evaOrder",
+      "evaFinance"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會先建立同日、同公司範圍的表格，再對照每筆公告是否為新單、執行選擇權或原計畫更新。已交付但尚未入營也不能直接算可用運能；改裝中的飛機是否仍列機隊，需遵守官方表定義。面試時可說明如何校對，而不背無日期總數。若最新原頁數字更新，就更新快照與基準日，不把新總量與舊分型數硬湊成一致。",
+      "analysis_en": "I would first establish a table with a common date and company boundary, then identify whether each announcement is a new order, an exercised option or an update. Delivered aircraft not yet in service do not immediately establish usable capacity. The treatment of aircraft under conversion depends on the source’s definition. If the official table changes, I would update its snapshot date and type counts together instead of combine a new total with old components.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "飛機正在客改貨期間，該如何核對現役與可用運能？"
+      ],
+      "evidence_ids": [
+        "evaFleet",
+        "evaOrder",
+        "evaFinance"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "如何區分長榮現役與待交機？",
+      "en": "How do you distinguish an active fleet from aircraft on order?"
+    }
   },
   {
     "id": "why-jx",
@@ -205,9 +330,9 @@
     "topic": "Why This Airline",
     "question": "為什麼想加入星宇？",
     "question_en": "Why do you want to join STARLUX?",
-    "answer": "STARLUX interests me because of its boutique full-service positioning and development of long-haul operations. I would like to contribute through careful preparation and reliable teamwork. For me, service quality starts with safe and consistent operations. I would explain how my own experience has prepared me to learn in a growing airline.",
-    "answer_30": "STARLUX interests me because of its boutique full-service positioning and development of long-haul operations. I would like to contribute through careful preparation and reliable teamwork. For me, service quality starts with safe and consistent operations. I would explain how my own experience has prepared me to learn in a growing airline.",
-    "answer_60": "STARLUX interests me because of its boutique full-service positioning and development of long-haul operations. I would like to contribute through careful preparation and reliable teamwork. For me, service quality starts with safe and consistent operations. I would explain how my own experience has prepared me to learn in a growing airline. I would avoid making assumptions about company culture from its age or branding. Instead, I would use public information and connect it to my own goals. I want to develop the knowledge and discipline needed to contribute reliably. I also understand that being part of growth means staying adaptable and willing to learn.",
+    "answer": "My interest comes from STARLUX’s documented full-service positioning, Taipei connecting strategy and long-haul fleet development. Passenger services represented 80.5% of its 2025 revenue, alongside belly cargo. I would connect that research to training, reliable operations and teamwork, then support my personal fit with a genuine example.",
+    "answer_30": "My interest comes from STARLUX’s documented full-service positioning, Taipei connecting strategy and long-haul fleet development. Passenger services represented 80.5% of its 2025 revenue, alongside belly cargo. I would connect that research to training, reliable operations and teamwork, then support my personal fit with a genuine example.",
+    "answer_60": "My interest comes from STARLUX’s documented full-service positioning, Taipei connecting strategy and long-haul fleet development. Passenger services represented 80.5% of its 2025 revenue, alongside belly cargo. I would connect that research to training, reliable operations and teamwork, then support my personal fit with a genuine example. Premium positioning still needs demand, yield and cost evidence. New aircraft, branding and listed status do not automatically establish success. Growth also needs people and change management. I would keep company facts separate from my personal motivation and use an experience that I can explain honestly under follow-up questions.",
     "chinese_answer": "精品服務定位與專業紀律連結，加入自己的真實動機。",
     "key_points": [
       "boutique carrier",
@@ -223,100 +348,170 @@
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "證交所｜星宇上市公司介紹",
-    "source_url": "https://wwwc.twse.com.tw/market_insights/en/detail/8a8216d69236c2e30192b84e17e3025b",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
     "published_date": null,
-    "as_of": null,
-    "verified_date": "2026-10-11",
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "jxTwse",
-    "answer_zh_30": "星宇的精品全服務定位與長程航網發展吸引我。我認為服務品質背後需要穩定的作業、清楚的標準與團隊合作。若有機會成為培訓學員，我希望用仔細準備、接受回饋及可靠的工作態度，逐步建立專業能力，參與公司的長期發展。",
-    "answer_zh_60": "星宇的精品全服務定位與長程航網發展吸引我。我認為服務品質背後需要穩定的作業、清楚的標準與團隊合作。若有機會成為培訓學員，我希望用仔細準備、接受回饋及可靠的工作態度，逐步建立專業能力，參與公司的長期發展。\n\n我不會把成長中的公司理解為訓練要求比較低，反而認為發展需要每個成員把基本工作做好。對機師而言，我理解安全與程序是工作的基礎。我會持續研究公司資訊，同時誠實面對自己還需要補足的能力。",
+    "source_id": "jxAnnual",
+    "answer_zh_30": "我對星宇的興趣來自精品全服務定位、台北轉機樞紐與長程機隊布局，而不只是品牌外觀。2025年營收以客運80.5%為主，也有腹艙貨運。對培訓學員而言，我希望理解這些商業選擇如何轉化成可靠營運、訓練與跨部門配合，再用自己的真實經驗說明適合度。",
+    "answer_zh_60": "我對星宇的興趣來自精品全服務定位、台北轉機樞紐與長程機隊布局，而不只是品牌外觀。2025年營收以客運80.5%為主，也有腹艙貨運。對培訓學員而言，我希望理解這些商業選擇如何轉化成可靠營運、訓練與跨部門配合，再用自己的真實經驗說明適合度。\n\n精品定位能否支持較佳收益，需要票價、艙等需求與成本資料驗證。擴張中的公司也需要變更管理與足夠人力，不能把新機、好看的塗裝或上市地位當成自動成功的證據。我的回答會分開公司研究與個人動機：前者引用公開來源，後者用本人可以被追問的實際學習與合作經驗，不套用虛構成就。",
     "answer_outline": [
       "品牌定位",
       "可靠作業",
       "扎實基本功"
     ],
-    "follow_up": "你會如何用自身經驗說明「品質來自一致性」？"
+    "follow_up": "你會如何用自身經驗說明「品質來自一致性」？",
+    "answer_basis": "source_based_analysis",
+    "deep_dive": {
+      "analysis_zh": "精品服務定位與專業紀律連結，加入自己的真實動機。",
+      "analysis_en": "Explain the commercial or operational implication, state the data period, and distinguish the public facts from your interpretation.",
+      "pitfalls": [
+        "把計畫、歷史與現況混用",
+        "未取得正式文件便聲稱內部程序"
+      ],
+      "follow_ups": [
+        "你會如何用自身經驗說明「品質來自一致性」？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 1
   },
   {
     "id": "fleet-jx",
     "airline": "starlux",
     "topic": "Fleet",
-    "question": "星宇 A350-1000 交付代表什麼？",
-    "question_en": "What does the A350-1000 delivery mean for STARLUX?",
-    "answer": "Airbus confirmed the first STARLUX A350-1000 delivery in January 2026. It supports the airline’s long-haul development. I would not use that announcement to guess the current fleet total. From a cadet’s perspective, the key lesson is that growth must be supported by training, maintenance and clear operating procedures.",
-    "answer_30": "Airbus confirmed the first STARLUX A350-1000 delivery in January 2026. It supports the airline’s long-haul development. I would not use that announcement to guess the current fleet total. From a cadet’s perspective, the key lesson is that growth must be supported by training, maintenance and clear operating procedures.",
-    "answer_60": "Airbus confirmed the first STARLUX A350-1000 delivery in January 2026. It supports the airline’s long-haul development. I would not use that announcement to guess the current fleet total. From a cadet’s perspective, the key lesson is that growth must be supported by training, maintenance and clear operating procedures. An aircraft can be delivered before it begins passenger service, and later deliveries can make the original announcement outdated. I would separate these stages in my answer. More broadly, I would discuss why an airline needs the people, procedures and ground support to turn new capacity into reliable operations.",
-    "chinese_answer": "交付事件、全公司機隊與訂單總量要分開。",
+    "question": "星宇不同Airbus機型的角色與機隊快照，應如何分析？",
+    "question_en": "How would you analyse the roles and dated fleet composition of STARLUX’s Airbus types?",
+    "answer": "At the end of 2025 STARLUX had 13 A321neos, six A330-900s and ten A350-900s, totalling 29. Its first A350-1000 was delivered on 5 January 2026. Different types support different capacity needs, but historical totals and an aircraft’s name do not establish today’s fleet or every route assignment.",
+    "answer_30": "At the end of 2025 STARLUX had 13 A321neos, six A330-900s and ten A350-900s, totalling 29. Its first A350-1000 was delivered on 5 January 2026. Different types support different capacity needs, but historical totals and an aircraft’s name do not establish today’s fleet or every route assignment.",
+    "answer_60": "At the end of 2025 STARLUX had 13 A321neos, six A330-900s and ten A350-900s, totalling 29. Its first A350-1000 was delivered on 5 January 2026. Different types support different capacity needs, but historical totals and an aircraft’s name do not establish today’s fleet or every route assignment. I would align dates and compare cabin capacity, range, payload and network demand before discussing training and maintenance commonality. An all-Airbus fleet does not mean every individual is qualified on every type. Arrival on 6 January 2026 and first passenger service on 10 February 2026 illustrate the preparation between delivery and operation. An order does not immediately create available capacity or revenue.",
+    "chinese_answer": "先對齊快照，再用運能與任務分析，最後連結訓練維修；詳細交機階段另見日期題。",
     "key_points": [
-      "delivery",
-      "long haul",
-      "readiness"
+      "2025年末13／6／10",
+      "任務與需求",
+      "交付與投入營運"
     ],
     "keywords": [
-      "delivery",
-      "long haul",
-      "readiness"
+      "2025年末13／6／10",
+      "任務與需求",
+      "交付與投入營運"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
-    "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "Airbus｜STARLUX 首架 A350-1000",
-    "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
-    "published_date": "2026-01-06",
-    "as_of": "2026-01-06",
-    "verified_date": "2026-10-11",
+    "note": "原創面試練習，非官方考題或標準答案。交機、抵台及首次載客日期已於2026年10月12日逐項查核星宇官方新聞稿，Airbus 公告另作交叉比對。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "published_date": "2026-01-05",
+    "as_of": "2026-01-05",
+    "verified_date": "2026-10-12",
     "status": "confirmed",
-    "source_id": "jxDelivery",
-    "answer_zh_30": "空中巴士已公告星宇在 2026 年 1 月接收首架 A350-1000，這與長程營運發展有關。但單一交付公告不能直接代表目前的機隊總數，我會另外確認最新資料。對我而言，成長背後更需要訓練、維修與作業程序一起配合。",
-    "answer_zh_60": "空中巴士已公告星宇在 2026 年 1 月接收首架 A350-1000，這與長程營運發展有關。但單一交付公告不能直接代表目前的機隊總數，我會另外確認最新資料。對我而言，成長背後更需要訓練、維修與作業程序一起配合。\n\n新飛機帶來的是營運發展的條件，實際運用仍要看航空公司的安排。我在面試中會把已發生的交付與未來規劃分開說明。身為學員，我更應該關心如何建立足夠的知識與紀律，支持穩定可靠的運作。",
+    "source_id": "jxHandover",
+    "answer_zh_30": "2025年末星宇有A321neo13架、A330-9006架、A350-90010架，共29架；首架A350-1000於2026年1月5日交機。窄體、廣體與長程機型支持不同運能需求，但不能只由機型名稱指定每條航線，或把歷史29架當作今天總數。",
+    "answer_zh_60": "2025年末星宇有A321neo13架、A330-9006架、A350-90010架，共29架；首架A350-1000於2026年1月5日交機。窄體、廣體與長程機型支持不同運能需求，但不能只由機型名稱指定每條航線，或把歷史29架當作今天總數。\n\n分析機隊應先對齐基準日，再看座位、航程、載重、航網與需求，最後討論訓練、維修與機队共同性的效益及限制。即使全Airbus機隊，仍不能假設每位機師或維修人員自動具備所有機型資格。A350-1000於2026年1月6日抵台、2026年2月10日首次載客，顯示交機到投入營運尚有準備階段；運能與營收也不會在訂購當日立即增加。",
     "answer_outline": [
-      "交付事實",
-      "長程發展",
-      "配套能力"
+      "2025年末13／6／10",
+      "任務與需求",
+      "交付與投入營運"
     ],
-    "follow_up": "為何不能由一篇交機新聞推算現在的總機隊數？"
+    "follow_up": "全Airbus機隊有哪些共同性優勢，又有哪些資格與作業限制？",
+    "event_ids": [
+      "jx-a350-1000-first-delivery",
+      "jx-a350-1000-arrival",
+      "jx-a350-1000-first-service"
+    ],
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "jxAnnual"
+    ],
+    "deep_dive": {
+      "analysis_zh": "先對齊快照，再用運能與任務分析，最後連結訓練維修；詳細交機階段另見日期題。",
+      "analysis_en": "Explain the commercial or operational implication, state the data period, and distinguish the public facts from your interpretation.",
+      "pitfalls": [
+        "把計畫、歷史與現況混用",
+        "未取得正式文件便聲稱內部程序"
+      ],
+      "follow_ups": [
+        "全Airbus機隊有哪些共同性優勢，又有哪些資格與作業限制？"
+      ],
+      "evidence_ids": [
+        "jxHandover",
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "星宇 A350-1000 交付代表什麼？",
+      "en": "What does the A350-1000 delivery mean for STARLUX?"
+    }
   },
   {
     "id": "routes",
     "airline": "General",
     "topic": "Routes",
-    "question": "新航點與增班有何差別？",
-    "question_en": "Why add frequency rather than a new destination?",
-    "answer": "Adding frequency can give passengers more convenient times and improve connections on an existing route. A new destination can reach another market, but it also needs ground support and reliable demand. I would compare both options carefully instead of assuming that a larger destination count always means a stronger network.",
-    "answer_30": "Adding frequency can give passengers more convenient times and improve connections on an existing route. A new destination can reach another market, but it also needs ground support and reliable demand. I would compare both options carefully instead of assuming that a larger destination count always means a stronger network.",
-    "answer_60": "Adding frequency can give passengers more convenient times and improve connections on an existing route. A new destination can reach another market, but it also needs ground support and reliable demand. I would compare both options carefully instead of assuming that a larger destination count always means a stronger network. I would also ask whether the schedule gives passengers useful connections and whether the airline has enough aircraft and crew to operate reliably. This is a general business framework, not a claim about a company’s private decision. I would support any airline-specific conclusion with a current official announcement.",
-    "chinese_answer": "以下是一般商業分析，不是特定公司的正式決策理由。",
+    "question": "新航點、增班與轉機銜接，分別如何影響運能與商業效果？",
+    "question_en": "How do a new destination, added frequency and connecting service affect capacity and economics?",
+    "answer": "A new destination expands coverage, additional frequency improves schedule choice and capacity, and connections expand saleable journeys. They are different growth measures. One destination served from both TPE and RMQ can create two routes. Demand, connections, aircraft availability and yields matter more than destination counts alone.",
+    "answer_30": "A new destination expands coverage, additional frequency improves schedule choice and capacity, and connections expand saleable journeys. They are different growth measures. One destination served from both TPE and RMQ can create two routes. Demand, connections, aircraft availability and yields matter more than destination counts alone.",
+    "answer_60": "A new destination expands coverage, additional frequency improves schedule choice and capacity, and connections expand saleable journeys. They are different growth measures. One destination served from both TPE and RMQ can create two routes. Demand, connections, aircraft availability and yields matter more than destination counts alone. If ASK grows faster than RPK, load factor may fall. A high load factor still does not establish profitability because yield and costs matter. Interline or codeshare destinations can expand sales without being operated by the airline. I would retain the source date, current timetable and operating-carrier definition, then examine connection waves and competitiveness. This is a framework for analysis, not a claim about an undisclosed route profit.",
+    "chinese_answer": "若新增班次使ASK上升，但RPK未同步增加，載客率可能下降；即使載客率高，票價與成本組合仍可能使航線低獲利。聯航或共掛目的地能擴大銷售範圍，卻不代表航空公司自己飛航。具體研究应保留來源日期、當期班表與自營口徑，再評估增班是否改善轉機波與產品競爭力。這是分析框架，不虛構公司未公開的航線獲利。",
     "key_points": [
-      "frequency",
-      "connections",
-      "demand"
+      "航點／航線／班次",
+      "RPK／ASK",
+      "自營與合作"
     ],
     "keywords": [
-      "frequency",
-      "connections",
-      "demand"
+      "航點／航線／班次",
+      "RPK／ASK",
+      "自營與合作"
     ],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "本站原創練習",
-    "source_url": null,
-    "published_date": "2026-10-11",
-    "verified_date": null,
-    "status": "unverified",
-    "as_of": null,
-    "answer_zh_30": "增班是在既有航線提供更多班次，有機會改善旅客的時間選擇與轉機銜接；新航點則是進入另一個市場，也需要評估需求與地面支援。我不會只用航點數判斷航網強弱，而會一起看班次、時刻與轉機安排是否符合旅客需求。",
-    "answer_zh_60": "增班是在既有航線提供更多班次，有機會改善旅客的時間選擇與轉機銜接；新航點則是進入另一個市場，也需要評估需求與地面支援。我不會只用航點數判斷航網強弱，而會一起看班次、時刻與轉機安排是否符合旅客需求。\n\n比較三家公司時，我也會先確認航點的定義，是否包含聯營或貨運。如果統計範圍不同，單一數字就容易造成誤解。對我而言，航網研究的重點是理解航線如何互相支持，而不只是看地圖上有多少個點。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "as_of": "2025-12-31",
+    "answer_zh_30": "新航點擴大網絡覆蓋，增班提高既有市場的時間選擇與運能，轉機則擴大可銷售行程；三者不是相同成長指標。同一目的地由TPE與RMQ出發可形成兩條航線。要分析效果，需看需求、班表銜接、機隊可用率與收益，不只比較航點數。",
+    "answer_zh_60": "新航點擴大網絡覆蓋，增班提高既有市場的時間選擇與運能，轉機則擴大可銷售行程；三者不是相同成長指標。同一目的地由TPE與RMQ出發可形成兩條航線。要分析效果，需看需求、班表銜接、機隊可用率與收益，不只比較航點數。\n\n若新增班次使ASK上升，但RPK未同步增加，載客率可能下降；即使載客率高，票價與成本組合仍可能使航線低獲利。聯航或共掛目的地能擴大銷售範圍，卻不代表航空公司自己飛航。具體研究应保留來源日期、當期班表與自營口徑，再評估增班是否改善轉機波與產品競爭力。這是分析框架，不虛構公司未公開的航線獲利。",
     "answer_outline": [
-      "新市場",
-      "班次與銜接",
-      "統計口徑"
+      "航點／航線／班次",
+      "RPK／ASK",
+      "自營與合作"
     ],
-    "follow_up": "一條既有航線增班，可能比新增航點更有價值嗎？"
+    "follow_up": "新增一個航點與增加一班航班，哪一個對轉機網絡更有價值？",
+    "answer_basis": "source_based_analysis",
+    "supporting_source_ids": [
+      "brDfw"
+    ],
+    "source_id": "jxAnnual",
+    "deep_dive": {
+      "analysis_zh": "若新增班次使ASK上升，但RPK未同步增加，載客率可能下降；即使載客率高，票價與成本組合仍可能使航線低獲利。聯航或共掛目的地能擴大銷售範圍，卻不代表航空公司自己飛航。具體研究应保留來源日期、當期班表與自營口徑，再評估增班是否改善轉機波與產品競爭力。這是分析框架，不虛構公司未公開的航線獲利。",
+      "analysis_en": "If ASK grows faster than RPK, load factor may fall. A high load factor still does not establish profitability because yield and costs matter. Interline or codeshare destinations can expand sales without being operated by the airline. I would retain the source date, current timetable and operating-carrier definition, then examine connection waves and competitiveness. This is a framework for analysis, not a claim about an undisclosed route profit.",
+      "pitfalls": [
+        "營收、運量與運能口徑不同卻直接計算",
+        "把計畫或合作目的地當成現役與自營"
+      ],
+      "follow_ups": [
+        "新增一個航點與增加一班航班，哪一個對轉機網絡更有價值？"
+      ],
+      "evidence_ids": [
+        "jxAnnual",
+        "brDfw"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "新航點與增班有何差別？",
+      "en": "Why add frequency rather than a new destination?"
+    }
   },
   {
     "id": "sms",
@@ -324,21 +519,19 @@
     "topic": "Safety",
     "question": "安全管理系統是什麼？",
     "question_en": "What is a Safety Management System?",
-    "answer": "A Safety Management System is a structured way to manage safety risk. It includes safety policy, risk management, assurance and promotion. For me, it means following procedures, reporting concerns and learning from feedback. The goal is to identify problems early and check that the actions taken are actually working.",
-    "answer_30": "A Safety Management System is a structured way to manage safety risk. It includes safety policy, risk management, assurance and promotion. For me, it means following procedures, reporting concerns and learning from feedback. The goal is to identify problems early and check that the actions taken are actually working.",
-    "answer_60": "A Safety Management System is a structured way to manage safety risk. It includes safety policy, risk management, assurance and promotion. For me, it means following procedures, reporting concerns and learning from feedback. The goal is to identify problems early and check that the actions taken are actually working. Reporting is useful only if the information leads to learning and effective action. I would want to understand the reporting process and give clear, factual information. I would also take training seriously and share lessons appropriately. For a cadet, the practical starting point is honesty, discipline and a willingness to speak up.",
-    "chinese_answer": "SMS 用制度處理風險；不是只在事故後檢討。",
+    "answer": "SMS is more than four headings. The FAA identifies safety policy, risk management, safety assurance and safety promotion. Hazards are identified, risk is assessed and controlled, and effectiveness is monitored. STARLUX separately discloses reporting, FDM and governance mechanisms; a general framework and company evidence are different layers.",
+    "answer_30": "SMS is more than four headings. The FAA identifies safety policy, risk management, safety assurance and safety promotion. Hazards are identified, risk is assessed and controlled, and effectiveness is monitored. STARLUX separately discloses reporting, FDM and governance mechanisms; a general framework and company evidence are different layers.",
+    "answer_60": "SMS is more than four headings. The FAA identifies safety policy, risk management, safety assurance and safety promotion. Hazards are identified, risk is assessed and controlled, and effectiveness is monitored. STARLUX separately discloses reporting, FDM and governance mechanisms; a general framework and company evidence are different layers. A risk matrix is only a tool: ownership, actions, timing and follow-up are also needed. More reports can reflect better reporting culture rather than more danger, so severity, exposure and performance indicators matter. I can discuss these relationships without claiming to have audited the airline or treating a ranking as proof of SMS effectiveness.",
+    "chinese_answer": "例如風險矩陣只是評估工具，還需要責任人、措施、時點與追蹤結果。報告量增加不一定代表更危險，也可能反映回報文化改善，因此需结合事件嚴重度、暴露量與SPI。研究可討論這些關係，但不把公開制度敘述當成自己已稽核公司安全績效，也不以安全排名替代SMS成效。",
     "key_points": [
-      "policy",
-      "risk",
-      "assurance",
-      "promotion"
+      "四構面与管理循環",
+      "公開公司證據",
+      "控制措施的有效性"
     ],
     "keywords": [
-      "policy",
-      "risk",
-      "assurance",
-      "promotion"
+      "四構面与管理循環",
+      "公開公司證據",
+      "控制措施的有效性"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
@@ -351,14 +544,31 @@
     "verified_date": "2026-10-11",
     "status": "confirmed",
     "source_id": "sms",
-    "answer_zh_30": "安全管理系統是一套有組織地管理安全風險的方法，包含安全政策、風險管理、安全保證與安全推廣。對我而言，重點是遵守程序、及早反映疑慮，並確認改善措施是否有效。安全需要持續檢查與學習，不能只在出事後才檢討。",
-    "answer_zh_60": "安全管理系統是一套有組織地管理安全風險的方法，包含安全政策、風險管理、安全保證與安全推廣。對我而言，重點是遵守程序、及早反映疑慮，並確認改善措施是否有效。安全需要持續檢查與學習，不能只在出事後才檢討。\n\n如果未來在訓練中發現自己不理解的要求，我會主動確認，而不是假裝懂。若遇到安全疑慮，則依相關程序反映。作為學員，我應先理解自己的責任範圍，讓團隊能取得正確資訊，並從回饋中持續改善。",
+    "answer_zh_30": "安全管理不是只背四個縮寫。FAA列安全政策、風險管理、安全保證與安全推廣；危害辨識後評估風險、採取控制，再檢查措施是否有效。星宇年報另公開FDM、報告、SRC與SAG等機制，通用SMS框架與某公司的實際公開做法應分開說明。",
+    "answer_zh_60": "安全管理不是只背四個縮寫。FAA列安全政策、風險管理、安全保證與安全推廣；危害辨識後評估風險、採取控制，再檢查措施是否有效。星宇年報另公開FDM、報告、SRC與SAG等機制，通用SMS框架與某公司的實際公開做法應分開說明。\n\n例如風險矩陣只是評估工具，還需要責任人、措施、時點與追蹤結果。報告量增加不一定代表更危險，也可能反映回報文化改善，因此需结合事件嚴重度、暴露量與SPI。研究可討論這些關係，但不把公開制度敘述當成自己已稽核公司安全績效，也不以安全排名替代SMS成效。",
     "answer_outline": [
-      "政策",
-      "風險",
-      "確認改善"
+      "四構面与管理循環",
+      "公開公司證據",
+      "控制措施的有效性"
     ],
-    "follow_up": "「有通報」與「風險真的降低」有什麼不同？"
+    "follow_up": "「有通報」與「風險真的降低」有什麼不同？",
+    "answer_basis": "source_based_analysis",
+    "deep_dive": {
+      "analysis_zh": "例如風險矩陣只是評估工具，還需要責任人、措施、時點與追蹤結果。報告量增加不一定代表更危險，也可能反映回報文化改善，因此需结合事件嚴重度、暴露量與SPI。研究可討論這些關係，但不把公開制度敘述當成自己已稽核公司安全績效，也不以安全排名替代SMS成效。",
+      "analysis_en": "A risk matrix is only a tool: ownership, actions, timing and follow-up are also needed. More reports can reflect better reporting culture rather than more danger, so severity, exposure and performance indicators matter. I can discuss these relationships without claiming to have audited the airline or treating a ranking as proof of SMS effectiveness.",
+      "pitfalls": [
+        "把報告多當成更不安全",
+        "安全排名當SMS證明"
+      ],
+      "follow_ups": [
+        "「有通報」與「風險真的降低」有什麼不同？"
+      ],
+      "evidence_ids": [
+        "sms",
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 1
   },
   {
     "id": "crm",
@@ -369,7 +579,7 @@
     "answer": "I would state what I observe, explain my concern and ask for clarification respectfully. If the risk remains, I would speak up again and follow the relevant procedure. Good teamwork does not mean staying silent. It means sharing useful information early so the team can make a safer decision.",
     "answer_30": "I would state what I observe, explain my concern and ask for clarification respectfully. If the risk remains, I would speak up again and follow the relevant procedure. Good teamwork does not mean staying silent. It means sharing useful information early so the team can make a safer decision.",
     "answer_60": "I would state what I observe, explain my concern and ask for clarification respectfully. If the risk remains, I would speak up again and follow the relevant procedure. Good teamwork does not mean staying silent. It means sharing useful information early so the team can make a safer decision. For example, I might ask the team to check a detail that does not match our shared understanding. I would focus on the issue rather than the person. I would also listen, because I might have missed information. The purpose is to build an accurate picture together and protect the shared goal.",
-    "chinese_answer": "以下為練習情境，並非實際操作口令或公司 SOP。",
+    "chinese_answer": "以具體觀察、相關標準、風險與建議溝通；先確認彼此資訊是否一致。若有立即安全疑慮，依正式程序及時提出並使用適當升級途徑。不是以資歷爭論，也不假設某公司有特定口令。",
     "key_points": [
       "speak up",
       "clarify",
@@ -397,7 +607,20 @@
       "疑慮",
       "確認與追問"
     ],
-    "follow_up": "如果資深同事第一次沒有回應你的疑慮，你會怎麼做？"
+    "follow_up": "如果資深同事第一次沒有回應你的疑慮，你會怎麼做？",
+    "deep_dive": {
+      "analysis_zh": "以具體觀察、相關標準、風險與建議溝通；先確認彼此資訊是否一致。若有立即安全疑慮，依正式程序及時提出並使用適當升級途徑。不是以資歷爭論，也不假設某公司有特定口令。",
+      "analysis_en": "State an observation, relevant standard, risk and suggested action. Check shared understanding and use the authorised escalation process if an immediate safety concern remains.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "如果資深同事第一次沒有回應你的疑慮，你會怎麼做？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "leadership",
@@ -408,7 +631,7 @@
     "answer": "I would choose a real situation where I helped a team work toward a clear goal. I would explain how I listened, assigned tasks and followed up. I would be specific about my own actions and honest about what did not work. I would finish with what I learned about supporting others.",
     "answer_30": "I would choose a real situation where I helped a team work toward a clear goal. I would explain how I listened, assigned tasks and followed up. I would be specific about my own actions and honest about what did not work. I would finish with what I learned about supporting others.",
     "answer_60": "I would choose a real situation where I helped a team work toward a clear goal. I would explain how I listened, assigned tasks and followed up. I would be specific about my own actions and honest about what did not work. I would finish with what I learned about supporting others. I would structure the example around the situation, the task, my actions and the result. I would explain how I adjusted when the original plan did not work. Good leadership is not doing everything alone. It is making the goal clear, keeping people informed and taking responsibility for the team’s progress.",
-    "chinese_answer": "用自己的真實事件填入：情境、目標、你的行動、結果及反省。",
+    "chinese_answer": "用STAR結構說明真實情境與任務，再突出分工、風險評估、溝通與回饋。結果要有可觀察證據；沒有正式主管職也可分析協作領導，不能虛構帶隊人數或成果。",
     "key_points": [
       "listen",
       "coordinate",
@@ -436,7 +659,20 @@
       "傾聽分工",
       "檢討改善"
     ],
-    "follow_up": "請用一件真實事件說明你親自做了什麼；若無領導職稱，也可談協調經驗。"
+    "follow_up": "請用一件真實事件說明你親自做了什麼；若無領導職稱，也可談協調經驗。",
+    "deep_dive": {
+      "analysis_zh": "用STAR結構說明真實情境與任務，再突出分工、風險評估、溝通與回饋。結果要有可觀察證據；沒有正式主管職也可分析協作領導，不能虛構帶隊人數或成果。",
+      "analysis_en": "Use a genuine situation and task, then explain allocation, risk assessment, communication and feedback. Show an observable result and reflection without inventing authority or achievements.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "請用一件真實事件說明你親自做了什麼；若無領導職稱，也可談協調經驗。"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "teamwork",
@@ -447,7 +683,7 @@
     "answer": "Teamwork means sharing information, understanding responsibilities and supporting a common goal. I try to make my progress visible and ask for help before a problem becomes serious. I also welcome different views. In an interview, I would support this with a real example of what I contributed to a team.",
     "answer_30": "Teamwork means sharing information, understanding responsibilities and supporting a common goal. I try to make my progress visible and ask for help before a problem becomes serious. I also welcome different views. In an interview, I would support this with a real example of what I contributed to a team.",
     "answer_60": "Teamwork means sharing information, understanding responsibilities and supporting a common goal. I try to make my progress visible and ask for help before a problem becomes serious. I also welcome different views. In an interview, I would support this with a real example of what I contributed to a team. If a team member was struggling, I would first clarify what support was needed and whether I could help without neglecting my own task. I would also check that changes were communicated to everyone affected. A useful example should show both the shared outcome and my personal responsibility.",
-    "chinese_answer": "團隊合作不是全部同意，而是共同目標與清楚溝通。",
+    "chinese_answer": "說明如何建立共同目標、分工、交接與進度確認，並處理資訊不對稱。區分自己做了什麼和整體團隊成果，避免只說「我們溝通很好」。",
     "key_points": [
       "communication",
       "responsibility",
@@ -475,7 +711,20 @@
       "清楚責任",
       "互相支持"
     ],
-    "follow_up": "當你的想法與團隊決定不同時，你怎麼配合？"
+    "follow_up": "當你的想法與團隊決定不同時，你怎麼配合？",
+    "deep_dive": {
+      "analysis_zh": "說明如何建立共同目標、分工、交接與進度確認，並處理資訊不對稱。區分自己做了什麼和整體團隊成果，避免只說「我們溝通很好」。",
+      "analysis_en": "Explain shared goals, responsibilities, handovers and progress checks. Distinguish your contribution from the team result and address information gaps.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "當你的想法與團隊決定不同時，你怎麼配合？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "learning",
@@ -486,7 +735,7 @@
     "answer": "I break the skill into smaller parts and check that I understand the basics. I practise regularly and ask for specific feedback. When I make a mistake, I record the cause and change how I practise. I also check my progress against a clear standard rather than relying only on confidence.",
     "answer_30": "I break the skill into smaller parts and check that I understand the basics. I practise regularly and ask for specific feedback. When I make a mistake, I record the cause and change how I practise. I also check my progress against a clear standard rather than relying only on confidence.",
     "answer_60": "I break the skill into smaller parts and check that I understand the basics. I practise regularly and ask for specific feedback. When I make a mistake, I record the cause and change how I practise. I also check my progress against a clear standard rather than relying only on confidence. If I continue making the same mistake, I change my method instead of simply repeating it more often. I might explain the concept in my own words or ask someone to check my reasoning. The aim is reliable understanding that I can use under pressure, not just remembering an answer for one test.",
-    "chinese_answer": "描述能重複執行的學習方法，不只說自己很努力。",
+    "chinese_answer": "指出學習缺口，設定分段目標與自我檢核，再用教學回饋驗證。背出內容與能在情境中應用不同；航空相關知識要核對正式教材版本。",
     "key_points": [
       "practice",
       "feedback",
@@ -514,7 +763,20 @@
       "練習驗證",
       "回饋修正"
     ],
-    "follow_up": "如果練習很多次仍沒有進步，你會先改哪一件事？"
+    "follow_up": "如果練習很多次仍沒有進步，你會先改哪一件事？",
+    "deep_dive": {
+      "analysis_zh": "指出學習缺口，設定分段目標與自我檢核，再用教學回饋驗證。背出內容與能在情境中應用不同；航空相關知識要核對正式教材版本。",
+      "analysis_en": "Identify the gap, set stages and self-checks, then validate understanding through feedback and application. Verify authorised document versions for aviation material.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "如果練習很多次仍沒有進步，你會先改哪一件事？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "failure",
@@ -525,7 +787,7 @@
     "answer": "I would describe a real failure, explain my responsibility and avoid blaming others. Then I would explain what I changed and how I checked that the change worked. The most important part is the lesson and the action that followed. I would not claim that I never make mistakes.",
     "answer_30": "I would describe a real failure, explain my responsibility and avoid blaming others. Then I would explain what I changed and how I checked that the change worked. The most important part is the lesson and the action that followed. I would not claim that I never make mistakes.",
     "answer_60": "I would describe a real failure, explain my responsibility and avoid blaming others. Then I would explain what I changed and how I checked that the change worked. The most important part is the lesson and the action that followed. I would not claim that I never make mistakes. I would keep the description of the mistake brief and spend more time on the improvement. For example, I could explain a new checking habit or a change to my preparation. I would only use details that actually happened. A credible lesson is more useful than a dramatic story.",
-    "chinese_answer": "不要編造飛行經驗。選擇真實、能說明責任與改善的事件。",
+    "chinese_answer": "承認自己可控的不足，說清楚影响、修正與後续防範。不要把失敗包裝成沒有缺點的故事；若结果仍未改善，也應如實交代。",
     "key_points": [
       "ownership",
       "change",
@@ -553,7 +815,20 @@
       "找出原因",
       "改變流程"
     ],
-    "follow_up": "請補一件你的真實失敗：當時的責任、後續改動，以及如何確認改善。"
+    "follow_up": "請補一件你的真實失敗：當時的責任、後續改動，以及如何確認改善。",
+    "deep_dive": {
+      "analysis_zh": "承認自己可控的不足，說清楚影响、修正與後续防範。不要把失敗包裝成沒有缺點的故事；若结果仍未改善，也應如實交代。",
+      "analysis_en": "Acknowledge the controllable gap, its impact, corrective action and prevention. Do not disguise a failure as a flawless story or claim an improvement that has not occurred.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "請補一件你的真實失敗：當時的責任、後續改動，以及如何確認改善。"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "conflict",
@@ -564,7 +839,7 @@
     "answer": "I first try to understand the other person’s concern and separate facts from assumptions. Then I explain my own view calmly and look for a solution that supports the team’s goal. If the issue affects safety or cannot be resolved at our level, I would use the appropriate reporting or escalation process.",
     "answer_30": "I first try to understand the other person’s concern and separate facts from assumptions. Then I explain my own view calmly and look for a solution that supports the team’s goal. If the issue affects safety or cannot be resolved at our level, I would use the appropriate reporting or escalation process.",
     "answer_60": "I first try to understand the other person’s concern and separate facts from assumptions. Then I explain my own view calmly and look for a solution that supports the team’s goal. If the issue affects safety or cannot be resolved at our level, I would use the appropriate reporting or escalation process. I would avoid turning disagreement into a personal contest. Sometimes the difference comes from missing information or unclear responsibilities. By checking those first, the team may find a simple solution. I would then confirm who will do what and follow up to make sure the issue has been resolved.",
-    "chinese_answer": "先釐清事實與共同目標，再討論可行方案。",
+    "chinese_answer": "分開事實、任务目標與个人偏好；釐清雙方限制、提出選項並確認決策方式。以具體行為説明尊重，不用猜測對方動機替代證據。",
     "key_points": [
       "listen",
       "facts",
@@ -592,7 +867,20 @@
       "說明依據",
       "共同目標"
     ],
-    "follow_up": "如果你已解釋過，對方仍不同意，你會如何繼續？"
+    "follow_up": "如果你已解釋過，對方仍不同意，你會如何繼續？",
+    "deep_dive": {
+      "analysis_zh": "分開事實、任务目標與个人偏好；釐清雙方限制、提出選項並確認決策方式。以具體行為説明尊重，不用猜測對方動機替代證據。",
+      "analysis_en": "Separate facts, task objectives and preferences. Clarify constraints, propose options and agree on a decision process rather than guess the other person’s motives.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "如果你已解釋過，對方仍不同意，你會如何繼續？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "decision",
@@ -603,7 +891,7 @@
     "answer": "I would identify what is known, what is uncertain and how much time is available. I would gather the most useful information and consider the risks of each option. I would seek input where possible and follow the relevant procedures. After acting, I would keep checking whether the situation has changed.",
     "answer_30": "I would identify what is known, what is uncertain and how much time is available. I would gather the most useful information and consider the risks of each option. I would seek input where possible and follow the relevant procedures. After acting, I would keep checking whether the situation has changed.",
     "answer_60": "I would identify what is known, what is uncertain and how much time is available. I would gather the most useful information and consider the risks of each option. I would seek input where possible and follow the relevant procedures. After acting, I would keep checking whether the situation has changed. I would also recognise that waiting for perfect information can have a cost, while rushing can introduce risk. The right balance depends on the situation and the applicable standards. I would explain my reasoning clearly, stay open to new information and be prepared to change the plan when needed.",
-    "chinese_answer": "承認未知；安全底線、可用資訊、時間與再評估。",
+    "chinese_answer": "先辨識必須補齐的安全關鍵資訊與可接受的不確定性，再评估選項、限制與升級途徑。研究框架不替代航空正式決策程序。",
     "key_points": [
       "uncertainty",
       "risk",
@@ -631,7 +919,20 @@
       "重要資訊",
       "持續監控"
     ],
-    "follow_up": "什麼情況適合深入分析，什麼情況必須先依程序行動？"
+    "follow_up": "什麼情況適合深入分析，什麼情況必須先依程序行動？",
+    "deep_dive": {
+      "analysis_zh": "先辨識必須補齐的安全關鍵資訊與可接受的不確定性，再评估選項、限制與升級途徑。研究框架不替代航空正式決策程序。",
+      "analysis_en": "Identify safety-critical missing information and acceptable uncertainty, evaluate options and constraints, and use the appropriate escalation path. A research framework is not an operational procedure.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "什麼情況適合深入分析，什麼情況必須先依程序行動？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "stress",
@@ -642,7 +943,7 @@
     "answer": "I manage stress by preparing early, setting priorities and breaking tasks into manageable steps. When pressure rises, I slow down enough to check what matters most and communicate clearly. I also recognise when I need support. I would give a real example showing how these habits helped me perform reliably.",
     "answer_30": "I manage stress by preparing early, setting priorities and breaking tasks into manageable steps. When pressure rises, I slow down enough to check what matters most and communicate clearly. I also recognise when I need support. I would give a real example showing how these habits helped me perform reliably.",
     "answer_60": "I manage stress by preparing early, setting priorities and breaking tasks into manageable steps. When pressure rises, I slow down enough to check what matters most and communicate clearly. I also recognise when I need support. I would give a real example showing how these habits helped me perform reliably. Outside a demanding situation, I review what created the pressure and improve my preparation. During the task, I focus on the next useful action instead of trying to solve everything at once. I would not claim to be unaffected by stress. I would show that I recognise it and respond constructively.",
-    "chinese_answer": "提供真實方法；不要說自己完全不會緊張。",
+    "chinese_answer": "區分正常壓力、工作負荷与影响適任性的狀態；用優先順序、準備、分工與休息管理，不以意志力保證永不失誤。身體或心理狀況影响適任時按規定求助與回報。",
     "key_points": [
       "priorities",
       "preparation",
@@ -670,7 +971,20 @@
       "設定優先",
       "及早求助"
     ],
-    "follow_up": "當壓力已影響表現時，你會向誰求助、如何描述問題？"
+    "follow_up": "當壓力已影響表現時，你會向誰求助、如何描述問題？",
+    "deep_dive": {
+      "analysis_zh": "區分正常壓力、工作負荷与影响適任性的狀態；用優先順序、準備、分工與休息管理，不以意志力保證永不失誤。身體或心理狀況影响適任時按規定求助與回報。",
+      "analysis_en": "Distinguish pressure, workload and fitness effects. Use preparation, prioritisation, teamwork and rest rather than claim willpower prevents error; follow reporting requirements when fitness is affected.",
+      "pitfalls": [
+        "使用虛構的個人經驗",
+        "只報結果，不說自己的行動與檢核"
+      ],
+      "follow_ups": [
+        "當壓力已影響表現時，你會向誰求助、如何描述問題？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   },
   {
     "id": "aviation",
@@ -678,38 +992,62 @@
     "topic": "Aviation Knowledge",
     "question": "訂購、交付與營運有什麼不同？",
     "question_en": "Is a delivered aircraft always in service?",
-    "answer": "An order is a commitment to obtain an aircraft. Delivery transfers the aircraft to the customer, but it may still need preparation before entering service. I would check the airline’s dated operational fleet information before calling it active. This distinction helps me avoid overstating the capacity an airline actually has available.",
-    "answer_30": "An order is a commitment to obtain an aircraft. Delivery transfers the aircraft to the customer, but it may still need preparation before entering service. I would check the airline’s dated operational fleet information before calling it active. This distinction helps me avoid overstating the capacity an airline actually has available.",
-    "answer_60": "An order is a commitment to obtain an aircraft. Delivery transfers the aircraft to the customer, but it may still need preparation before entering service. I would check the airline’s dated operational fleet information before calling it active. This distinction helps me avoid overstating the capacity an airline actually has available. The same care applies to retired aircraft and future plans. I would not include them in an active total. If two sources give different figures, I would compare their dates and definitions before choosing one. Being accurate about a small number shows the same habit of checking assumptions that learning aviation requires.",
-    "chinese_answer": "用生命週期說明，不把交付等同已載客營運。",
+    "answer": "An order is a commercial commitment, delivery is handover, and operational entry follows the required preparation. STARLUX’s first A350-1000 was delivered on 5 January 2026, arrived on 6 January 2026 and first carried passengers on 10 February 2026. Product presentation, arrival and passenger service are distinct milestones.",
+    "answer_30": "An order is a commercial commitment, delivery is handover, and operational entry follows the required preparation. STARLUX’s first A350-1000 was delivered on 5 January 2026, arrived on 6 January 2026 and first carried passengers on 10 February 2026. Product presentation, arrival and passenger service are distinct milestones.",
+    "answer_60": "An order is a commercial commitment, delivery is handover, and operational entry follows the required preparation. STARLUX’s first A350-1000 was delivered on 5 January 2026, arrived on 6 January 2026 and first carried passengers on 10 February 2026. Product presentation, arrival and passenger service are distinct milestones. Capacity analysis requires evidence about crew qualification, aircraft and operational documentation, maintenance and ground support, with actual approvals governed by the applicable requirements. Delivered count does not directly establish usable aircraft time, and orders are not current fleet. This explains the lifecycle rather than providing a substitute for an authorised operational checklist.",
+    "chinese_answer": "分析新增運能要確認機組資格、航空器及營運相關文件、維修與地面支援等準備，實際核准要求依適用法規與公司文件。由已交付數推算可用機時，或把訂單算進現役表，都會误導商業與營運判斷。題目的目的是理解生命週期，不提供替代正式程序的操作清單。",
     "key_points": [
-      "order",
-      "delivery",
-      "entry into service"
+      "訂單→交付→投入服務",
+      "實際事件年月日",
+      "資格與支援準備"
     ],
     "keywords": [
-      "order",
-      "delivery",
-      "entry into service"
+      "訂單→交付→投入服務",
+      "實際事件年月日",
+      "資格與支援準備"
     ],
     "difficulty": "基礎",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "本站原創練習",
-    "source_url": null,
-    "published_date": "2026-10-11",
-    "verified_date": null,
-    "status": "unverified",
-    "as_of": null,
-    "answer_zh_30": "訂購代表取得飛機的承諾，交付則代表飛機交給客戶，但之後可能仍需準備才能投入服務。因此，我會查看有日期的營運機隊資料，才把飛機算進現役數量。這樣可以避免把未來規劃誤認為航空公司現在已經具備的運能。",
-    "answer_zh_60": "訂購代表取得飛機的承諾，交付則代表飛機交給客戶，但之後可能仍需準備才能投入服務。因此，我會查看有日期的營運機隊資料，才把飛機算進現役數量。這樣可以避免把未來規劃誤認為航空公司現在已經具備的運能。\n\n此外，選擇權與確定訂單也不能混在一起。比較航空公司時，我會先建立相同的分類，再核對公告與統計日期。對尚未確認的部分，我寧可明確說明目前不知道，也不根據單篇新聞推算總數。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "published_date": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "as_of": "2026-01-05",
+    "answer_zh_30": "訂購是商業承諾，交付是飛機移交，投入服務則是完成相關準備後執行營運。星宇首架A350-1000於2026年1月5日交機、2026年1月6日抵台、2026年2月10日首次載客，正好呈現這些階段。發表產品、返台與載客首航不能当作同一天，也不能由公告日猜交機日。",
+    "answer_zh_60": "訂購是商業承諾，交付是飛機移交，投入服務則是完成相關準備後執行營運。星宇首架A350-1000於2026年1月5日交機、2026年1月6日抵台、2026年2月10日首次載客，正好呈現這些階段。發表產品、返台與載客首航不能当作同一天，也不能由公告日猜交機日。\n\n分析新增運能要確認機組資格、航空器及營運相關文件、維修與地面支援等準備，實際核准要求依適用法規與公司文件。由已交付數推算可用機時，或把訂單算進現役表，都會误導商業與營運判斷。題目的目的是理解生命週期，不提供替代正式程序的操作清單。",
     "answer_outline": [
-      "訂購",
-      "交付",
-      "投入服務"
+      "訂單→交付→投入服務",
+      "實際事件年月日",
+      "資格與支援準備"
     ],
-    "follow_up": "選擇權可以直接算進確定訂單嗎？為什麼？"
+    "follow_up": "選擇權可以直接算進確定訂單嗎？為什麼？",
+    "answer_basis": "source_based_analysis",
+    "event_ids": [
+      "jx-a350-1000-first-delivery",
+      "jx-a350-1000-arrival",
+      "jx-a350-1000-first-service"
+    ],
+    "deep_dive": {
+      "analysis_zh": "分析新增運能要確認機組資格、航空器及營運相關文件、維修與地面支援等準備，實際核准要求依適用法規與公司文件。由已交付數推算可用機時，或把訂單算進現役表，都會误導商業與營運判斷。題目的目的是理解生命週期，不提供替代正式程序的操作清單。",
+      "analysis_en": "Capacity analysis requires evidence about crew qualification, aircraft and operational documentation, maintenance and ground support, with actual approvals governed by the applicable requirements. Delivered count does not directly establish usable aircraft time, and orders are not current fleet. This explains the lifecycle rather than providing a substitute for an authorised operational checklist.",
+      "pitfalls": [
+        "訂單計入現役",
+        "公告日取代交機日"
+      ],
+      "follow_ups": [
+        "選擇權可以直接算進確定訂單嗎？為什麼？"
+      ],
+      "evidence_ids": [
+        "jxHandover",
+        "jxArrival",
+        "jxFirstService"
+      ]
+    },
+    "source_id": "jxHandover",
+    "question_revision": 1
   },
   {
     "id": "current",
@@ -717,39 +1055,62 @@
     "topic": "Current Aviation Issues",
     "question": "如何看待 SAF？",
     "question_en": "How would you discuss sustainable aviation fuel?",
-    "answer": "I would separate actual fuel use from future targets. For example, EVA Air reports a SAF share for 2025, while future goals describe what it hopes to achieve. I would discuss sustainability carefully and avoid calling any fuel a complete solution. Clear definitions and reliable evidence are important when comparing airlines.",
-    "answer_30": "I would separate actual fuel use from future targets. For example, EVA Air reports a SAF share for 2025, while future goals describe what it hopes to achieve. I would discuss sustainability carefully and avoid calling any fuel a complete solution. Clear definitions and reliable evidence are important when comparing airlines.",
-    "answer_60": "I would separate actual fuel use from future targets. For example, EVA Air reports a SAF share for 2025, while future goals describe what it hopes to achieve. I would discuss sustainability carefully and avoid calling any fuel a complete solution. Clear definitions and reliable evidence are important when comparing airlines. I would also avoid turning a future target into an achievement. The relevant year, measurement boundary and comparison baseline all matter. If I do not have the evidence for a percentage or a technical claim, I would leave it out and explain what I still need to verify.",
-    "chinese_answer": "用具體來源與年度區分实际使用和未來目標；不說零排放。",
+    "answer": "I assess SAF through feedstock, certification and lifecycle emissions, while separating physical fuel supply from Book & Claim. CAL’s 14 September 2026 statement described a 40% SAF claim, totaling 36.3 tonnes, for the previous day’s CI073 demonstration. That is neither a network-wide usage rate nor proof of a 40% physical blend in that aircraft.",
+    "answer_30": "I assess SAF through feedstock, certification and lifecycle emissions, while separating physical fuel supply from Book & Claim. CAL’s 14 September 2026 statement described a 40% SAF claim, totaling 36.3 tonnes, for the previous day’s CI073 demonstration. That is neither a network-wide usage rate nor proof of a 40% physical blend in that aircraft.",
+    "answer_60": "I would assess SAF through feedstock, traceable certification, lifecycle boundaries, supply and cost. CAL used CI073 from Taipei to Amsterdam on 13 September 2026 as a demonstration; its statement the next day described a 40% SAF claim totaling 36.3 tonnes through Book & Claim. I would preserve that method and date rather than recast an environmental-attribute claim as the aircraft’s physical fuel blend or the airline’s network-wide usage. Prague Airport’s statement on STARLUX’s 1 August 2026 inaugural service referred to a 2% blend for departures there; that also cannot be generalized to every STARLUX flight. SAF is not zero-emission fuel. Compatibility limits, future targets, actual fuel supply and claimed reductions require separate evidence.",
+    "chinese_answer": "專業追問应看減排相對哪種基準、涵盖哪個階段、供应與成本及是否重複計入減量。Airbus公告說明機型可使用最高50%SAF混合燃料與2030相容目標，那是技術相容與計畫，不是公司今天已用50%。面試回答應同時讨论燃料、機隊、營運效率與可核驗資料，避免把單一產品用語當成完整ESG成效。",
     "key_points": [
-      "SAF",
-      "actual use",
-      "target"
+      "生命週期與基準",
+      "機場端2%范围",
+      "相容≠實際使用"
     ],
     "keywords": [
-      "SAF",
-      "actual use",
-      "target"
+      "生命週期與基準",
+      "機場端2%范围",
+      "相容≠實際使用"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
     "content_type": "original_practice",
     "note": "原創練習題與示範回答；非歷屆考題、非航空公司標準答案。秒數為練習目標，請依語速調整。",
-    "source": "長榮｜永續績效",
-    "source_url": "https://www.evacsr.com/en/esg/about03.html",
-    "published_date": null,
-    "as_of": "2025-12-31",
-    "verified_date": "2026-10-11",
+    "source": "華航｜長程SAF示範與Book & Claim",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html",
+    "published_date": "2026-09-14",
+    "as_of": "2026-09-14",
+    "verified_date": "2026-10-13",
     "status": "confirmed",
-    "source_id": "evaSaf",
-    "answer_zh_30": "我會先把 SAF 的實際使用量與未來目標分開。例如長榮公布的年度使用比例，和未來希望達到的目標，是不同性質的資訊。我認為討論永續需要清楚定義與可靠依據，不應把任何單一燃料當成完整解方，也不能把目標說成已達成。",
-    "answer_zh_60": "我會先把 SAF 的實際使用量與未來目標分開。例如長榮公布的年度使用比例，和未來希望達到的目標，是不同性質的資訊。我認為討論永續需要清楚定義與可靠依據，不應把任何單一燃料當成完整解方，也不能把目標說成已達成。\n\n比較不同航空公司時，我會確認年度、計算範圍與資料來源是否一致。若某家公司沒有同口徑的資料，就不強行排名。我希望在面試中展現的是能理解進展與限制的態度，而不是只記住一個聽起來亮眼的數字。",
+    "source_id": "ciSaf40",
+    "answer_zh_30": "SAF要看原料、認證與生命週期減排，也要區分實體加油與Book & Claim。華航2026年9月14日公告，前一日CI073示範採Book & Claim宣告40%、36.3公噸。這不是全航網使用率，也不能直接說該班油箱實際混合40%。",
+    "answer_zh_60": "我會從原料、可追溯認證、生命週期邊界、供應與成本來評估SAF。華航2026年9月13日CI073台北—阿姆斯特丹示範航班，次日公告以Book & Claim方式提升宣告比例至40%、總量36.3公噸。面試時要保留這個方式與日期，不能把環境屬性宣告改寫成機上實體混油比例或全航網使用率。星宇布拉格首航於2026年8月1日，機場稿談到當地出發的2%混合比例，也不能外推整個星宇航網。SAF不是零排放；技術相容比例、目標、實際供應和減量權益是不同問題。",
     "answer_outline": [
-      "實際使用",
-      "未來目標",
-      "比較口徑"
+      "生命週期與基準",
+      "機場端2%范围",
+      "相容≠實際使用"
     ],
-    "follow_up": "你會如何避免把永續目標說成已完成的成果？"
+    "follow_up": "你會如何避免把永續目標說成已完成的成果？",
+    "answer_basis": "source_based_analysis",
+    "deep_dive": {
+      "analysis_zh": "專業追問应看減排相對哪種基準、涵盖哪個階段、供应與成本及是否重複計入減量。Airbus公告說明機型可使用最高50%SAF混合燃料與2030相容目標，那是技術相容與計畫，不是公司今天已用50%。面試回答應同時讨论燃料、機隊、營運效率與可核驗資料，避免把單一產品用語當成完整ESG成效。\n\n華航2026年9月14日稿明示40%採Book & Claim，應追問環境屬性如何分配、追溯與避免重複宣告，不把宣告比例當作該班實體加油比例。",
+      "analysis_en": "A deeper discussion asks about the reference fuel, lifecycle boundary, supply, cost and potential double-counting. Airbus’s statement about up to 50% SAF compatibility and a 2030 target is not evidence that an airline currently uses a 50% blend. I would connect fuel, fleet and operating efficiency with verifiable disclosures rather than treat one sustainability label as a complete ESG result.\n\nCAL explicitly described Book & Claim for its 40% SAF demonstration in September 2026. Further questions concern allocation, traceability and avoidance of duplicate environmental claims rather than assuming a physical fuel blend.",
+      "pitfalls": [
+        "SAF當零排放",
+        "相容比例當實際使用"
+      ],
+      "follow_ups": [
+        "你會如何避免把永續目標說成已完成的成果？"
+      ],
+      "evidence_ids": [
+        "evaSaf",
+        "jxPrg",
+        "jxDelivery",
+        "ciSaf40"
+      ]
+    },
+    "question_revision": 1,
+    "supporting_source_ids": [
+      "jxPrg",
+      "jxDelivery"
+    ]
   },
   {
     "id": "fatigue",
@@ -757,19 +1118,19 @@
     "topic": "Safety",
     "question": "疲勞管理為什麼重要？",
     "question_en": "Why is fatigue management important?",
-    "answer": "Fatigue can affect safe performance, so it needs to be managed systematically. ICAO describes duty-time limits with safety management processes and an approved fatigue risk management approach. As a future pilot, I would take rest seriously, recognise limitations and report concerns through the proper channels. Being professional includes knowing when support is needed.",
-    "answer_30": "Fatigue can affect safe performance, so it needs to be managed systematically. ICAO describes duty-time limits with safety management processes and an approved fatigue risk management approach. As a future pilot, I would take rest seriously, recognise limitations and report concerns through the proper channels. Being professional includes knowing when support is needed.",
-    "answer_60": "Fatigue can affect safe performance, so it needs to be managed systematically. ICAO describes duty-time limits with safety management processes and an approved fatigue risk management approach. As a future pilot, I would take rest seriously, recognise limitations and report concerns through the proper channels. Being professional includes knowing when support is needed. I would not treat working through exhaustion as a sign of commitment. I would follow the applicable requirements and use the organisation’s reporting process when concerned. I would also build sensible routines during training. The aim is consistent performance, with honest communication about factors that can affect it.",
-    "chinese_answer": "用 ICAO 框架理解；不要把自己熬夜仍可工作當優點。",
+    "answer": "Fatigue can affect attention, reaction and judgement; willpower does not guarantee fitness. ICAO discusses prescriptive limits and approved fatigue-risk management approaches. Individuals need sleep and fitness awareness, while organisations need scheduling, reporting and monitoring. Compliance with a limit alone does not prove that every situation is fatigue-free.",
+    "answer_30": "Fatigue can affect attention, reaction and judgement; willpower does not guarantee fitness. ICAO discusses prescriptive limits and approved fatigue-risk management approaches. Individuals need sleep and fitness awareness, while organisations need scheduling, reporting and monitoring. Compliance with a limit alone does not prove that every situation is fatigue-free.",
+    "answer_60": "Fatigue can affect attention, reaction and judgement; willpower does not guarantee fitness. ICAO discusses prescriptive limits and approved fatigue-risk management approaches. Individuals need sleep and fitness awareness, while organisations need scheduling, reporting and monitoring. Compliance with a limit alone does not prove that every situation is fatigue-free. Relevant factors include sleep opportunity, circadian timing, consecutive work, time-zone change and recovery. If fitness is affected, reporting and assistance should follow the applicable requirements; a personal estimate of how long to keep going is not a substitute. Actual duty limits, FRMS approval and company procedures need their own evidence. I would not invent one set of numerical limits for all three airlines.",
+    "chinese_answer": "研究应考慮睡眠機會、晝夜節律、連續工作、跨時區與恢復時間等影响，并確認資料及管理制度。若状态影響適任，要依規定及時回報與求助，不能自行推算「还可以撑幾小時」取代正式判斷。這些是風險理解與報告原則，實際法定工時、FRMS核准範圍與公司程序需另查，不編造三家公司通用的數字。",
     "key_points": [
-      "fatigue",
-      "rest",
-      "reporting"
+      "生理與工作因素",
+      "個人及組織責任",
+      "正式限制與回報"
     ],
     "keywords": [
-      "fatigue",
-      "rest",
-      "reporting"
+      "生理與工作因素",
+      "個人及組織責任",
+      "正式限制與回報"
     ],
     "difficulty": "中階",
     "why_it_matters": "練習把可查證的知識轉化成清楚、誠實、適合口說的回答。",
@@ -782,14 +1143,1059 @@
     "verified_date": "2026-10-11",
     "status": "confirmed",
     "source_id": "fatigue",
-    "answer_zh_30": "疲勞可能影響安全表現，因此需要有系統地管理。對未來的機師而言，休息不是工作以外的小事，而是專業責任的一部分。我會重視休息安排、了解自己的限制，並透過適當管道反映疑慮，不會把勉強撐住視為負責任的表現。",
-    "answer_zh_60": "疲勞可能影響安全表現，因此需要有系統地管理。對未來的機師而言，休息不是工作以外的小事，而是專業責任的一部分。我會重視休息安排、了解自己的限制，並透過適當管道反映疑慮，不會把勉強撐住視為負責任的表現。\n\n我理解疲勞管理需要個人與組織共同配合，也不只是看自己主觀上覺得累不累。作為學員，我會先學習適用的要求與通報方式，讓團隊知道可能影響表現的問題。遇到不確定的情況，我會及早確認，而不自行假設沒有風險。",
+    "answer_zh_30": "疲勞可能影响注意力、反應與判断，不能用意志力保证適任。ICAO將規範性工時限制與經核准的FRMS等管理途徑放在制度中討論；個人需要睡眠與適任管理，組織則需要排班、報告與追蹤。遵守上限不等於每個情境都一定沒有疲勞風險。",
+    "answer_zh_60": "疲勞可能影响注意力、反應與判断，不能用意志力保证適任。ICAO將規範性工時限制與經核准的FRMS等管理途徑放在制度中討論；個人需要睡眠與適任管理，組織則需要排班、報告與追蹤。遵守上限不等於每個情境都一定沒有疲勞風險。\n\n研究应考慮睡眠機會、晝夜節律、連續工作、跨時區與恢復時間等影响，并確認資料及管理制度。若状态影響適任，要依規定及時回報與求助，不能自行推算「还可以撑幾小時」取代正式判斷。這些是風險理解與報告原則，實際法定工時、FRMS核准範圍與公司程序需另查，不編造三家公司通用的數字。",
     "answer_outline": [
-      "休息責任",
-      "了解限制",
-      "適當通報"
+      "生理與工作因素",
+      "個人及組織責任",
+      "正式限制與回報"
     ],
-    "follow_up": "你如何區分「努力投入」與「疲勞時勉強工作」？"
+    "follow_up": "你如何區分「努力投入」與「疲勞時勉強工作」？",
+    "answer_basis": "source_based_analysis",
+    "deep_dive": {
+      "analysis_zh": "研究应考慮睡眠機會、晝夜節律、連續工作、跨時區與恢復時間等影响，并確認資料及管理制度。若状态影響適任，要依規定及時回報與求助，不能自行推算「还可以撑幾小時」取代正式判斷。這些是風險理解與報告原則，實際法定工時、FRMS核准範圍與公司程序需另查，不編造三家公司通用的數字。",
+      "analysis_en": "Relevant factors include sleep opportunity, circadian timing, consecutive work, time-zone change and recovery. If fitness is affected, reporting and assistance should follow the applicable requirements; a personal estimate of how long to keep going is not a substitute. Actual duty limits, FRMS approval and company procedures need their own evidence. I would not invent one set of numerical limits for all three airlines.",
+      "pitfalls": [
+        "意志力保證適任",
+        "編造通用工時上限"
+      ],
+      "follow_ups": [
+        "你如何區分「努力投入」與「疲勞時勉強工作」？"
+      ],
+      "evidence_ids": [
+        "fatigue"
+      ]
+    },
+    "question_revision": 1
+  },
+  {
+    "id": "jx-values-safety",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇的品牌主色是什麼？與藝術機銀／金色如何區分？",
+    "question_en": "What are STARLUX’s main brand colours, and how do they differ from AIRSORAYAMA?",
+    "answer": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity.",
+    "answer_30": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity.",
+    "answer_60": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity. The professional distinction is between a stable corporate identity and an extension for a specific product or campaign. I would identify both palettes and explain their documented applications. The announcement does not publish universal HEX or RGB values, or a Pantone reference for the main identity. I would therefore avoid inventing numerical colour specifications or presenting a personal interpretation of grey and gold as the company’s official symbolism.",
+    "answer_zh_30": "星宇2026年1月5日官方稿把曜石灰與大地金列為品牌色：首架 A350-1000 以曜石灰作碳纖維編織圖騰底色，再用大地金點綴。AIRSORAYAMA 的銀與金則是藝術合作專案色，不能把藝術機塗裝直接當成全公司新的主識別。",
+    "answer_zh_60": "星宇2026年1月5日官方稿把曜石灰與大地金列為品牌色：首架 A350-1000 以曜石灰作碳纖維編織圖騰底色，再用大地金點綴。AIRSORAYAMA 的銀與金則是藝術合作專案色，不能把藝術機塗裝直接當成全公司新的主識別。\n\n我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
+    "chinese_answer": "我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
+    "key_points": [
+      "曜石灰／大地金",
+      "主識別與專案識別",
+      "不猜色碼"
+    ],
+    "keywords": [
+      "曜石灰／大地金",
+      "主識別與專案識別",
+      "不猜色碼"
+    ],
+    "answer_outline": [
+      "曜石灰／大地金",
+      "主識別與專案識別",
+      "不猜色碼"
+    ],
+    "follow_up": "品牌主色與特別塗裝如何在同一公司內維持辨識？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "source_id": "jxHandover",
+    "published_date": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-01-05",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxPantone"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
+      "analysis_en": "The professional distinction is between a stable corporate identity and an extension for a specific product or campaign. I would identify both palettes and explain their documented applications. The announcement does not publish universal HEX or RGB values, or a Pantone reference for the main identity. I would therefore avoid inventing numerical colour specifications or presenting a personal interpretation of grey and gold as the company’s official symbolism.",
+      "pitfalls": [
+        "把艺术機銀／金當成主品牌色",
+        "捏造HEX或官方象徵"
+      ],
+      "follow_ups": [
+        "品牌主色與特別塗裝如何在同一公司內維持辨識？"
+      ],
+      "evidence_ids": [
+        "jxHandover",
+        "jxPantone"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "品牌價值與飛航安全衝突時，你如何排序？",
+      "en": "How would you balance brand expectations with flight safety?"
+    }
+  },
+  {
+    "id": "jx-values-premium",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇首架 A350-1000 的塗裝有哪些設計元素與工程連結？",
+    "question_en": "Which design elements connect STARLUX’s first A350-1000 livery with the aircraft?",
+    "answer": "The official description identifies a carbon-fibre weaving motif, obsidian grey with earth-gold accents and a prominent “1000” marking. These connect the brand identity to the aircraft type. The visual motif, structural material and certified aircraft performance are separate facts and should not be confused.",
+    "answer_30": "The official description identifies a carbon-fibre weaving motif, obsidian grey with earth-gold accents and a prominent “1000” marking. These connect the brand identity to the aircraft type. The visual motif, structural material and certified aircraft performance are separate facts and should not be confused.",
+    "answer_60": "The official description identifies a carbon-fibre weaving motif, obsidian grey with earth-gold accents and a prominent “1000” marking. These connect the brand identity to the aircraft type. The visual motif, structural material and certified aircraft performance are separate facts and should not be confused. A deeper answer links each element to a communication purpose: the motif evokes the material technology, the marking identifies the flagship type and the colours preserve corporate recognition. That is design analysis, not a claim that the paint increases range or safety. For performance, I would separately check the manufacturer’s model and weight configuration. A published maximum range is not a guarantee for every flight, because payload, weather and operating conditions affect the mission.",
+    "answer_zh_30": "官方描述三個明確元素：象徵碳纖維複合材料的編織圖騰、曜石灰搭配大地金的尾翼，以及醒目的「1000」字樣。這些元素把品牌識別與機型特性連結起來。設計意象、實際機體材料與性能仍要分開說明，不能由外觀直接推論飛行能力。",
+    "answer_zh_60": "官方描述三個明確元素：象徵碳纖維複合材料的編織圖騰、曜石灰搭配大地金的尾翼，以及醒目的「1000」字樣。這些元素把品牌識別與機型特性連結起來。設計意象、實際機體材料與性能仍要分開說明，不能由外觀直接推論飛行能力。\n\n專業回答不只說「好看」：編織圖騰呼應機型材料，1000字樣讓新旗艦定位容易辨識，而色彩維持企業識別。這是對設計功能的分析，不是聲稱塗裝增加航程或使飛機更安全。若被問到性能，我會另查製造商的型號、重量選型與限制，不把航空公司產品介紹中的最大航程當成每趟航班可保證的距離。",
+    "chinese_answer": "專業回答不只說「好看」：編織圖騰呼應機型材料，1000字樣讓新旗艦定位容易辨識，而色彩維持企業識別。這是對設計功能的分析，不是聲稱塗裝增加航程或使飛機更安全。若被問到性能，我會另查製造商的型號、重量選型與限制，不把航空公司產品介紹中的最大航程當成每趟航班可保證的距離。",
+    "key_points": [
+      "碳纖維圖騰",
+      "品牌識別",
+      "機型與性能分開"
+    ],
+    "keywords": [
+      "碳纖維圖騰",
+      "品牌識別",
+      "機型與性能分開"
+    ],
+    "answer_outline": [
+      "碳纖維圖騰",
+      "品牌識別",
+      "機型與性能分開"
+    ],
+    "follow_up": "你會如何向不熟悉航空的人解釋「機型旗艦」而不誇大性能？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "source_id": "jxHandover",
+    "published_date": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-01-05",
+    "status": "confirmed",
+    "supporting_source_ids": [],
+    "deep_dive": {
+      "analysis_zh": "專業回答不只說「好看」：編織圖騰呼應機型材料，1000字樣讓新旗艦定位容易辨識，而色彩維持企業識別。這是對設計功能的分析，不是聲稱塗裝增加航程或使飛機更安全。若被問到性能，我會另查製造商的型號、重量選型與限制，不把航空公司產品介紹中的最大航程當成每趟航班可保證的距離。",
+      "analysis_en": "A deeper answer links each element to a communication purpose: the motif evokes the material technology, the marking identifies the flagship type and the colours preserve corporate recognition. That is design analysis, not a claim that the paint increases range or safety. For performance, I would separately check the manufacturer’s model and weight configuration. A published maximum range is not a guarantee for every flight, because payload, weather and operating conditions affect the mission.",
+      "pitfalls": [
+        "由塗裝推論性能",
+        "把宣傳航程當成保證"
+      ],
+      "follow_ups": [
+        "你會如何向不熟悉航空的人解釋「機型旗艦」而不誇大性能？"
+      ],
+      "evidence_ids": [
+        "jxHandover"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你如何把「精品服務」轉化為培訓學員的日常行動？",
+      "en": "How would you translate premium service into everyday actions as a cadet?"
+    }
+  },
+  {
+    "id": "jx-values-detail",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "AIRSORAYAMA由哪些夥伴完成？Pantone與航空工程各扮演什麼角色？",
+    "question_en": "Who contributes to AIRSORAYAMA, and how do colour design and aircraft engineering interact?",
+    "answer": "AIRSORAYAMA brings together STARLUX and artist Hajime Sorayama. The colour announcement also names Pantone, Airbus and coating specialist Mankiewicz. The silver-and-gold concept has to be translated into paint and application processes that respect the aircraft’s material, lightning-protection and safety constraints.",
+    "answer_30": "AIRSORAYAMA brings together STARLUX and artist Hajime Sorayama. The colour announcement also names Pantone, Airbus and coating specialist Mankiewicz. The silver-and-gold concept has to be translated into paint and application processes that respect the aircraft’s material, lightning-protection and safety constraints.",
+    "answer_60": "AIRSORAYAMA brings together STARLUX and artist Hajime Sorayama. The colour announcement also names Pantone, Airbus and coating specialist Mankiewicz. The silver-and-gold concept has to be translated into paint and application processes that respect the aircraft’s material, lightning-protection and safety constraints. The 3 July 2026 statement describes customised pigments and layered painting after repeated colour adjustments, rather than simply applying a mirror-metal finish. I would separate artistic intent, colour management, material processing and compliance. This makes the answer relevant to aviation: innovation is developed within constraints. I could discuss product recognition and consistent implementation, while making clear that a marketing statement is not an independent certification report or my own verification of the engineering process.",
+    "answer_zh_30": "這是星宇與藝術家空山基的合作，官方色彩公告另列 Pantone、Airbus 與塗料商 Mankiewicz。空山基提供銀／金機械美學，Pantone協助色彩轉譯，航空與塗裝團隊則處理材料、防雷與施工限制。藝術效果必須放回航空工程条件中理解。",
+    "answer_zh_60": "這是星宇與藝術家空山基的合作，官方色彩公告另列 Pantone、Airbus 與塗料商 Mankiewicz。空山基提供銀／金機械美學，Pantone協助色彩轉譯，航空與塗裝團隊則處理材料、防雷與施工限制。藝術效果必須放回航空工程条件中理解。\n\n2026年7月3日原文說明，A350-1000結構與規範使傳統鏡面金屬效果難以直接實現，因此採專屬顏料與多層噴塗，經反覆調校。我的分析會把藝術概念、色彩管理、材料製程與符合規範四層分開。可追問品牌合作如何產生可辨識的產品，但不能把官方行銷稿當成自己已獨立驗證塗裝認證或工程性能的報告。",
+    "chinese_answer": "2026年7月3日原文說明，A350-1000結構與規範使傳統鏡面金屬效果難以直接實現，因此採專屬顏料與多層噴塗，經反覆調校。我的分析會把藝術概念、色彩管理、材料製程與符合規範四層分開。可追問品牌合作如何產生可辨識的產品，但不能把官方行銷稿當成自己已獨立驗證塗裝認證或工程性能的報告。",
+    "key_points": [
+      "空山基",
+      "Pantone／Airbus／Mankiewicz",
+      "材料與防雷限制"
+    ],
+    "keywords": [
+      "空山基",
+      "Pantone／Airbus／Mankiewicz",
+      "材料與防雷限制"
+    ],
+    "answer_outline": [
+      "空山基",
+      "Pantone／Airbus／Mankiewicz",
+      "材料與防雷限制"
+    ],
+    "follow_up": "為何「金屬視覺」不等於直接使用鏡面金屬塗裝？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇｜AIRSORAYAMA專屬色與航空塗裝",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260703",
+    "source_id": "jxPantone",
+    "published_date": "2026-07-03",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-07-03",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxArtProject"
+    ],
+    "deep_dive": {
+      "analysis_zh": "2026年7月3日原文說明，A350-1000結構與規範使傳統鏡面金屬效果難以直接實現，因此採專屬顏料與多層噴塗，經反覆調校。我的分析會把藝術概念、色彩管理、材料製程與符合規範四層分開。可追問品牌合作如何產生可辨識的產品，但不能把官方行銷稿當成自己已獨立驗證塗裝認證或工程性能的報告。",
+      "analysis_en": "The 3 July 2026 statement describes customised pigments and layered painting after repeated colour adjustments, rather than simply applying a mirror-metal finish. I would separate artistic intent, colour management, material processing and compliance. This makes the answer relevant to aviation: innovation is developed within constraints. I could discuss product recognition and consistent implementation, while making clear that a marketing statement is not an independent certification report or my own verification of the engineering process.",
+      "pitfalls": [
+        "只記聯名名字",
+        "把塗裝稿當獨立認證報告"
+      ],
+      "follow_ups": [
+        "為何「金屬視覺」不等於直接使用鏡面金屬塗裝？"
+      ],
+      "evidence_ids": [
+        "jxPantone",
+        "jxArtProject"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你認為星宇品牌重視的細節，與機師工作有何連結？",
+      "en": "How would you connect attention to brand detail with a pilot’s work?"
+    }
+  },
+  {
+    "id": "jx-values-growth",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇的法人、成立、營運與上市日期分別是什麼？",
+    "question_en": "How would you distinguish STARLUX’s legal formation, service launch and listing?",
+    "answer": "The legal entity is STARLUX Airlines Co., Ltd., incorporated on 2 May 2018. The TWSE introduction records the service launch on 23 January 2020. TWSE company data gives 25 October 2024 as the listing date and 2646 as the stock code. These are distinct milestones.",
+    "answer_30": "The legal entity is STARLUX Airlines Co., Ltd., incorporated on 2 May 2018. The TWSE introduction records the service launch on 23 January 2020. TWSE company data gives 25 October 2024 as the listing date and 2646 as the stock code. These are distinct milestones.",
+    "answer_60": "The legal entity is STARLUX Airlines Co., Ltd., incorporated on 2 May 2018. The TWSE introduction records the service launch on 23 January 2020. TWSE company data gives 25 October 2024 as the listing date and 2646 as the stock code. These are distinct milestones. I would present the milestones as a timeline and explain their different meanings. Incorporation establishes the legal entity, the service launch begins the operating history and listing relates to securities trading and disclosure. Operating experience cannot be calculated from the incorporation date alone, and listed status does not establish profitability or equivalence with a mature airline. I would rely on explicit event fields rather than infer a milestone from an article’s publication date.",
+    "answer_zh_30": "法人是星宇航空股份有限公司，2018年5月2日成立；證交所公司介紹記錄2020年1月23日開始航空服務，上市公司基本資料列2024年10月25日上市、股票代號2646。成立、開航與上市是三個不同里程碑，不能只用一個「公司年齡」涵蓋全部。",
+    "answer_zh_60": "法人是星宇航空股份有限公司，2018年5月2日成立；證交所公司介紹記錄2020年1月23日開始航空服務，上市公司基本資料列2024年10月25日上市、股票代號2646。成立、開航與上市是三個不同里程碑，不能只用一個「公司年齡」涵蓋全部。\n\n我會用時間軸回答：成立代表法人與組織開始建立，正式營運代表航空服務展開，上市則涉及證券交易與公開資訊義務。它們也對應不同研究問題，例如「飛航經驗有幾年」不能直接用成立年推算；「上市公司」也不代表獲利或規模已與成熟航空公司相同。日期來自明示事件欄位，而不是把新聞發布日當成事件日。",
+    "chinese_answer": "我會用時間軸回答：成立代表法人與組織開始建立，正式營運代表航空服務展開，上市則涉及證券交易與公開資訊義務。它們也對應不同研究問題，例如「飛航經驗有幾年」不能直接用成立年推算；「上市公司」也不代表獲利或規模已與成熟航空公司相同。日期來自明示事件欄位，而不是把新聞發布日當成事件日。",
+    "key_points": [
+      "2018年5月2日成立",
+      "2020年1月23日營運",
+      "2024年10月25日上市"
+    ],
+    "keywords": [
+      "2018年5月2日成立",
+      "2020年1月23日營運",
+      "2024年10月25日上市"
+    ],
+    "answer_outline": [
+      "2018年5月2日成立",
+      "2020年1月23日營運",
+      "2024年10月25日上市"
+    ],
+    "follow_up": "面試官問公司有多少年營運經驗，你會用哪一個日期？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+    "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "source_id": "jxStock",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2026-10-11",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxTwse"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會用時間軸回答：成立代表法人與組織開始建立，正式營運代表航空服務展開，上市則涉及證券交易與公開資訊義務。它們也對應不同研究問題，例如「飛航經驗有幾年」不能直接用成立年推算；「上市公司」也不代表獲利或規模已與成熟航空公司相同。日期來自明示事件欄位，而不是把新聞發布日當成事件日。",
+      "analysis_en": "I would present the milestones as a timeline and explain their different meanings. Incorporation establishes the legal entity, the service launch begins the operating history and listing relates to securities trading and disclosure. Operating experience cannot be calculated from the incorporation date alone, and listed status does not establish profitability or equivalence with a mature airline. I would rely on explicit event fields rather than infer a milestone from an article’s publication date.",
+      "pitfalls": [
+        "混淆成立與開航",
+        "用文章日期推上市日期"
+      ],
+      "follow_ups": [
+        "面試官問公司有多少年營運經驗，你會用哪一個日期？"
+      ],
+      "evidence_ids": [
+        "jxStock",
+        "jxTwse"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "如果公司快速成長，你希望堅持哪些工作價值？",
+      "en": "Which working values would you maintain during rapid growth?"
+    }
+  },
+  {
+    "id": "jx-values-innovation",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇的主要股東與控制結構如何組成？",
+    "question_en": "What does STARLUX’s disclosed shareholder structure tell you about control?",
+    "answer": "At 31 March 2026, the annual report lists STARLUX Investment and Starwei Investment Development with 827,055,000 shares each, or 27.49% each. It also describes Chang Kuo-wei’s holding through those companies as 54.98% in total. Legal holders, indirect control and the snapshot date must remain distinct.",
+    "answer_30": "At 31 March 2026, the annual report lists STARLUX Investment and Starwei Investment Development with 827,055,000 shares each, or 27.49% each. It also describes Chang Kuo-wei’s holding through those companies as 54.98% in total. Legal holders, indirect control and the snapshot date must remain distinct.",
+    "answer_60": "At 31 March 2026, the annual report lists STARLUX Investment and Starwei Investment Development with 827,055,000 shares each, or 27.49% each. It also describes Chang Kuo-wei’s holding through those companies as 54.98% in total. Legal holders, indirect control and the snapshot date must remain distinct. A concentrated shareholding can support stable decision-making, while making board independence, related-party transactions and minority-shareholder protections relevant research topics. That is an analytical question, not an allegation of misconduct. Actual control and voting rights require the disclosed relationships and subsequent changes. The top-shareholder table does not by itself establish free float, and shareholder holding companies should not be presented as subsidiaries of the airline.",
+    "answer_zh_30": "2025年報主要股東表以2026年3月31日為基準：星宇投資與星威投資開發各持827,055,000股、27.49%。年報另說明張國煒透過兩家公司持有合計54.98%。回答要保留法人名稱與日期，不能把法人持股寫成個人直接持股或今日即時比例。",
+    "answer_zh_60": "2025年報主要股東表以2026年3月31日為基準：星宇投資與星威投資開發各持827,055,000股、27.49%。年報另說明張國煒透過兩家公司持有合計54.98%。回答要保留法人名稱與日期，不能把法人持股寫成個人直接持股或今日即時比例。\n\n專業解读是：持股集中提供穩定決策基礎，也讓董事會獨立性、關係人交易與少數股東保障成為研究重點。這是治理分析，不是斷言存在不當交易。實際控制與表決權仍要看公司揭露、法人關係及最新異動；不能只把前十大股東表相加就稱為可流通股比例，也不能把「股東」與航空公司旗下子公司混在同一組織圖。",
+    "chinese_answer": "專業解读是：持股集中提供穩定決策基礎，也讓董事會獨立性、關係人交易與少數股東保障成為研究重點。這是治理分析，不是斷言存在不當交易。實際控制與表決權仍要看公司揭露、法人關係及最新異動；不能只把前十大股東表相加就稱為可流通股比例，也不能把「股東」與航空公司旗下子公司混在同一組織圖。",
+    "key_points": [
+      "法人持股",
+      "間接控制54.98%",
+      "2026年3月31日快照"
+    ],
+    "keywords": [
+      "法人持股",
+      "間接控制54.98%",
+      "2026年3月31日快照"
+    ],
+    "answer_outline": [
+      "法人持股",
+      "間接控制54.98%",
+      "2026年3月31日快照"
+    ],
+    "follow_up": "大股東與子公司有何不同？控制結構與董事會監督如何連結？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "source_id": "jxAnnual",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "supporting_source_ids": [],
+    "deep_dive": {
+      "analysis_zh": "專業解读是：持股集中提供穩定決策基礎，也讓董事會獨立性、關係人交易與少數股東保障成為研究重點。這是治理分析，不是斷言存在不當交易。實際控制與表決權仍要看公司揭露、法人關係及最新異動；不能只把前十大股東表相加就稱為可流通股比例，也不能把「股東」與航空公司旗下子公司混在同一組織圖。",
+      "analysis_en": "A concentrated shareholding can support stable decision-making, while making board independence, related-party transactions and minority-shareholder protections relevant research topics. That is an analytical question, not an allegation of misconduct. Actual control and voting rights require the disclosed relationships and subsequent changes. The top-shareholder table does not by itself establish free float, and shareholder holding companies should not be presented as subsidiaries of the airline.",
+      "pitfalls": [
+        "把法人當成子公司",
+        "把持股當即時或直接個人持股"
+      ],
+      "follow_ups": [
+        "大股東與子公司有何不同？控制結構與董事會監督如何連結？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你如何看待航空品牌創新與程序標準化？",
+      "en": "How would you balance innovation with standardised procedures?"
+    }
+  },
+  {
+    "id": "jx-values-speak-up",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇董事會與經營團隊的角色有何不同？",
+    "question_en": "How would you distinguish STARLUX’s board oversight from operational management?",
+    "answer": "The 2025 annual report describes seven board seats, including three independent directors, and governance through committees such as audit and remuneration. Board oversight, executive management and operational responsibilities are different layers. Knowing the chairman’s name alone does not explain how the company is organised.",
+    "answer_30": "The 2025 annual report describes seven board seats, including three independent directors, and governance through committees such as audit and remuneration. Board oversight, executive management and operational responsibilities are different layers. Knowing the chairman’s name alone does not explain how the company is organised.",
+    "answer_60": "The 2025 annual report describes seven board seats, including three independent directors, and governance through committees such as audit and remuneration. Board oversight, executive management and operational responsibilities are different layers. Knowing the chairman’s name alone does not explain how the company is organised. I would distinguish shareholders, directors and committees, executive management and functions such as flight operations, cabin service, dispatch and maintenance. Operational safety also depends on formal governance and procedures; a shareholding percentage does not directly prescribe an individual flight decision. The public report supports the board and workforce descriptions but is not a complete real-time organisation chart. Current authorities and reporting lines require the relevant company documents. This explains the relationship between governance and operations rather than merely listing prominent individuals.",
+    "answer_zh_30": "2025年報列董事會7席，其中3席獨立董事，並公開審計與薪酬委員會等治理資訊。董事會負責公司治理與監督，經營團隊執行業務與營運。股權控制、董事會決策及航務作業責任不是同一層，不能只記董事長姓名來回答公司組成。",
+    "answer_zh_60": "2025年報列董事會7席，其中3席獨立董事，並公開審計與薪酬委員會等治理資訊。董事會負責公司治理與監督，經營團隊執行業務與營運。股權控制、董事會決策及航務作業責任不是同一層，不能只記董事長姓名來回答公司組成。\n\n我會把公司組成拆為股東、董事會與委員會、經營團隊，以及飛航、空服、簽派、維修等營運職能。飛安決策還涉及正式安全治理與程序，不由股權比例直接決定個別航班操作。公開年報能支持董事與人力分類，但不是完整即時組織圖；實際職權及責任鏈需看當期正式文件。這樣回答比列出幾個名人更能說明治理與營運的關係。",
+    "chinese_answer": "我會把公司組成拆為股東、董事會與委員會、經營團隊，以及飛航、空服、簽派、維修等營運職能。飛安決策還涉及正式安全治理與程序，不由股權比例直接決定個別航班操作。公開年報能支持董事與人力分類，但不是完整即時組織圖；實際職權及責任鏈需看當期正式文件。這樣回答比列出幾個名人更能說明治理與營運的關係。",
+    "key_points": [
+      "7席／3獨立董事",
+      "監督與執行",
+      "營運責任鏈"
+    ],
+    "keywords": [
+      "7席／3獨立董事",
+      "監督與執行",
+      "營運責任鏈"
+    ],
+    "answer_outline": [
+      "7席／3獨立董事",
+      "監督與執行",
+      "營運責任鏈"
+    ],
+    "follow_up": "獨立董事、執行長與飛航主管各自監督或執行什麼？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "source_id": "jxAnnual",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "supporting_source_ids": [],
+    "deep_dive": {
+      "analysis_zh": "我會把公司組成拆為股東、董事會與委員會、經營團隊，以及飛航、空服、簽派、維修等營運職能。飛安決策還涉及正式安全治理與程序，不由股權比例直接決定個別航班操作。公開年報能支持董事與人力分類，但不是完整即時組織圖；實際職權及責任鏈需看當期正式文件。這樣回答比列出幾個名人更能說明治理與營運的關係。",
+      "analysis_en": "I would distinguish shareholders, directors and committees, executive management and functions such as flight operations, cabin service, dispatch and maintenance. Operational safety also depends on formal governance and procedures; a shareholding percentage does not directly prescribe an individual flight decision. The public report supports the board and workforce descriptions but is not a complete real-time organisation chart. Current authorities and reporting lines require the relevant company documents. This explains the relationship between governance and operations rather than merely listing prominent individuals.",
+      "pitfalls": [
+        "用股權比例推操作權限",
+        "把人力分類當完整組織圖"
+      ],
+      "follow_ups": [
+        "獨立董事、執行長與飛航主管各自監督或執行什麼？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "當你發現與自身價值觀不一致的做法，會怎麼溝通？",
+      "en": "How would you raise a concern when an action conflicts with your values?"
+    }
+  },
+  {
+    "id": "jx-values-team",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇2025營收由哪些業務構成？腹艙貨運與貨機訂單如何區分？",
+    "question_en": "What makes up STARLUX’s 2025 revenue, and how does cargo fit its business?",
+    "answer": "The annual-report summary gives approximately NT$44.053 billion in 2025 revenue: passenger services 80.5%, cargo 11.2% and other activities 8.3%. It links cargo growth to additional widebody belly capacity. The ten A350F aircraft are an order programme, not proof that those freighters generated the 2025 cargo revenue.",
+    "answer_30": "The annual-report summary gives approximately NT$44.053 billion in 2025 revenue: passenger services 80.5%, cargo 11.2% and other activities 8.3%. It links cargo growth to additional widebody belly capacity. The ten A350F aircraft are an order programme, not proof that those freighters generated the 2025 cargo revenue.",
+    "answer_60": "The annual-report summary gives approximately NT$44.053 billion in 2025 revenue: passenger services 80.5%, cargo 11.2% and other activities 8.3%. It links cargo growth to additional widebody belly capacity. The ten A350F aircraft are an order programme, not proof that those freighters generated the 2025 cargo revenue. The operating model matters: cargo shares the passenger network through belly capacity, which is affected by baggage, payload and schedules. Dedicated freighters have different loading capabilities and economics. Revenue share is not profit share, and cargo growth does not establish a freighter fleet. I would also preserve reporting precision. The annual-report summary uses ten-thousand-dollar units, while the financial statement reports NT$44,053,262 thousand. Their small rounding difference should be explained, not removed by changing audited figures.",
+    "answer_zh_30": "2025年報摘要營收約440.53億元，客運354.52億元、80.5%；貨運49.54億元、11.2%；其他36.48億元、8.3%。年報將貨運成長連結到新增廣體機腹艙運力。A350F10架則是未來貨機訂單，不能把2025貨運收入說成已由這些貨機創造。",
+    "answer_zh_60": "2025年報摘要營收約440.53億元，客運354.52億元、80.5%；貨運49.54億元、11.2%；其他36.48億元、8.3%。年報將貨運成長連結到新增廣體機腹艙運力。A350F10架則是未來貨機訂單，不能把2025貨運收入說成已由這些貨機創造。\n\n專業分析要看業務模式：旅客與貨物共同使用客機航網，腹艙容量受旅客行李、載重及航班安排影响；專用貨機則有不同裝載能力與成本。營收占比不是獲利占比，也不能由貨運成長直接推論貨機數量。表格使用年報萬元精度，若引用財報則改用仟元精度44,053,262仟元，保留摘要四捨五入差異，不為了加總而修改審計報表。",
+    "chinese_answer": "專業分析要看業務模式：旅客與貨物共同使用客機航網，腹艙容量受旅客行李、載重及航班安排影响；專用貨機則有不同裝載能力與成本。營收占比不是獲利占比，也不能由貨運成長直接推論貨機數量。表格使用年報萬元精度，若引用財報則改用仟元精度44,053,262仟元，保留摘要四捨五入差異，不為了加總而修改審計報表。",
+    "key_points": [
+      "客運80.5%",
+      "貨運11.2%",
+      "腹艙與貨機分開"
+    ],
+    "keywords": [
+      "客運80.5%",
+      "貨運11.2%",
+      "腹艙與貨機分開"
+    ],
+    "answer_outline": [
+      "客運80.5%",
+      "貨運11.2%",
+      "腹艙與貨機分開"
+    ],
+    "follow_up": "沒有現役全貨機，航空公司是否仍可有貨運收入？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "source_id": "jxAnnual",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxFinancial2025",
+      "jxDelivery"
+    ],
+    "deep_dive": {
+      "analysis_zh": "專業分析要看業務模式：旅客與貨物共同使用客機航網，腹艙容量受旅客行李、載重及航班安排影响；專用貨機則有不同裝載能力與成本。營收占比不是獲利占比，也不能由貨運成長直接推論貨機數量。表格使用年報萬元精度，若引用財報則改用仟元精度44,053,262仟元，保留摘要四捨五入差異，不為了加總而修改審計報表。",
+      "analysis_en": "The operating model matters: cargo shares the passenger network through belly capacity, which is affected by baggage, payload and schedules. Dedicated freighters have different loading capabilities and economics. Revenue share is not profit share, and cargo growth does not establish a freighter fleet. I would also preserve reporting precision. The annual-report summary uses ten-thousand-dollar units, while the financial statement reports NT$44,053,262 thousand. Their small rounding difference should be explained, not removed by changing audited figures.",
+      "pitfalls": [
+        "營收占比當獲利占比",
+        "把A350F訂單當2025運能"
+      ],
+      "follow_ups": [
+        "沒有現役全貨機，航空公司是否仍可有貨運收入？"
+      ],
+      "evidence_ids": [
+        "jxAnnual",
+        "jxFinancial2025",
+        "jxDelivery"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你希望怎樣的團隊文化？你能帶來什麼？",
+      "en": "What team culture would you support, and how would you contribute?"
+    }
+  },
+  {
+    "id": "jx-values-honesty",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇營收成長23.9%，為何2025基本EPS仍只有0.09元？",
+    "question_en": "Why can STARLUX’s revenue grow 23.9% while basic EPS is only NT$0.09?",
+    "answer": "The 2025 separate statements report revenue of NT$44,053,262 thousand and operating income of NT$1,637,261 thousand. Finance costs were NT$1,365,217 thousand. Pre-tax income of NT$43,471 thousand and an income-tax benefit of NT$229,137 thousand produced net income of NT$272,608 thousand and basic EPS of NT$0.09.",
+    "answer_30": "The 2025 separate statements report revenue of NT$44,053,262 thousand and operating income of NT$1,637,261 thousand. Finance costs were NT$1,365,217 thousand. Pre-tax income of NT$43,471 thousand and an income-tax benefit of NT$229,137 thousand produced net income of NT$272,608 thousand and basic EPS of NT$0.09.",
+    "answer_60": "The 2025 separate statements report revenue of NT$44,053,262 thousand and operating income of NT$1,637,261 thousand. Finance costs were NT$1,365,217 thousand. Pre-tax income of NT$43,471 thousand and an income-tax benefit of NT$229,137 thousand produced net income of NT$272,608 thousand and basic EPS of NT$0.09. I would follow the income statement from revenue through operating costs and expenses, non-operating items, tax and net income before discussing EPS. The approximately 0.62% net margin and substantial finance costs make funding and cost sensitivity relevant, but not every non-operating loss has the same cause. EPS uses weighted-average shares. Total comprehensive income of NT$1,557,837 thousand is a different measure from net income and cannot simply be treated as distributable earnings. This is a financial interpretation, not a prediction of the share price.",
+    "answer_zh_30": "2025個別財報營收44,053,262仟元，營業利益1,637,261仟元，但財務成本為1,365,217仟元。稅前淨利43,471仟元，加所得稅利益229,137仟元後，本期淨利272,608仟元，基本EPS0.09。收入成長與股東每股獲利不是同一件事。",
+    "answer_zh_60": "2025個別財報營收44,053,262仟元，營業利益1,637,261仟元，但財務成本為1,365,217仟元。稅前淨利43,471仟元，加所得稅利益229,137仟元後，本期淨利272,608仟元，基本EPS0.09。收入成長與股東每股獲利不是同一件事。\n\n我會沿損益表由營收走到營業成本、費用、營業外項目、所得稅，再到淨利與EPS，而不是用「新公司所以獲利低」代替分析。約0.62%的淨利率與較高財務成本提示擴張中的資金、成本與匯率敏感性，但不能把全部營業外损益都歸因同一項。EPS分母是加權平均股數；也不能把本期綜合損益總額1,557,837仟元當成本期淨利或可分配股利。",
+    "chinese_answer": "我會沿損益表由營收走到營業成本、費用、營業外項目、所得稅，再到淨利與EPS，而不是用「新公司所以獲利低」代替分析。約0.62%的淨利率與較高財務成本提示擴張中的資金、成本與匯率敏感性，但不能把全部營業外损益都歸因同一項。EPS分母是加權平均股數；也不能把本期綜合損益總額1,557,837仟元當成本期淨利或可分配股利。",
+    "key_points": [
+      "營業利益→淨利",
+      "財務成本",
+      "EPS與綜合損益"
+    ],
+    "keywords": [
+      "營業利益→淨利",
+      "財務成本",
+      "EPS與綜合損益"
+    ],
+    "answer_outline": [
+      "營業利益→淨利",
+      "財務成本",
+      "EPS與綜合損益"
+    ],
+    "follow_up": "稅前淨利、本期淨利與其他綜合損益有何不同？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇航空｜2025 年度個別財務報告",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%B2%A1%E5%A0%B1%20final_tcm5-15180.pdf",
+    "source_id": "jxFinancial2025",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxAnnual"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會沿損益表由營收走到營業成本、費用、營業外項目、所得稅，再到淨利與EPS，而不是用「新公司所以獲利低」代替分析。約0.62%的淨利率與較高財務成本提示擴張中的資金、成本與匯率敏感性，但不能把全部營業外损益都歸因同一項。EPS分母是加權平均股數；也不能把本期綜合損益總額1,557,837仟元當成本期淨利或可分配股利。\n\n補充現金流觀點：星宇2025個別營業現金淨流入8,060,298仟元，投資淨流出20,849,698仟元，籌資淨流入12,123,788仟元。淨利、營業現金與籌資是三個不同層次；投資流出不全是交機付款，亦不等於當期費用。",
+      "analysis_en": "I would follow the income statement from revenue through operating costs and expenses, non-operating items, tax and net income before discussing EPS. The approximately 0.62% net margin and substantial finance costs make funding and cost sensitivity relevant, but not every non-operating loss has the same cause. EPS uses weighted-average shares. Total comprehensive income of NT$1,557,837 thousand is a different measure from net income and cannot simply be treated as distributable earnings. This is a financial interpretation, not a prediction of the share price.\n\nCash-flow context: STARLUX reported 2025 standalone operating inflow of NT$8,060,298 thousand, investing outflow of NT$20,849,698 thousand and financing inflow of NT$12,123,788 thousand. Profit, operating cash and financing measure different things; investing outflows are neither all aircraft delivery payments nor current-period expenses.",
+      "pitfalls": [
+        "營收成長等於EPS成長",
+        "把綜合損益當淨利"
+      ],
+      "follow_ups": [
+        "稅前淨利、本期淨利與其他綜合損益有何不同？",
+        "有獲利為什麼期末現金仍可能下降？請區分營業、投資與籌資活動。"
+      ],
+      "evidence_ids": [
+        "jxFinancial2025",
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "面試時不知道星宇某項資訊，你會怎麼回答？",
+      "en": "How would you respond if you did not know a STARLUX company fact?"
+    }
+  },
+  {
+    "id": "jx-values-feedback",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇股票2646的股本、股價、市值與EPS有什麼不同？",
+    "question_en": "How do capital, share price, market value and EPS differ for STARLUX stock 2646?",
+    "answer": "TWSE records STARLUX as stock 2646, listed on 25 October 2024. Its 11 October 2026 data snapshot reports paid-in capital of NT$30,087,350,000 and 3,008,735,000 issued ordinary shares. Capital, traded price, market value and earnings per share are different quantities. This site does not provide a live quotation.",
+    "answer_30": "TWSE records STARLUX as stock 2646, listed on 25 October 2024. Its 11 October 2026 data snapshot reports paid-in capital of NT$30,087,350,000 and 3,008,735,000 issued ordinary shares. Capital, traded price, market value and earnings per share are different quantities. This site does not provide a live quotation.",
+    "answer_60": "TWSE records STARLUX as stock 2646, listed on 25 October 2024. Its 11 October 2026 data snapshot reports paid-in capital of NT$30,087,350,000 and 3,008,735,000 issued ordinary shares. Capital, traded price, market value and earnings per share are different quantities. This site does not provide a live quotation. The capital and share count imply a NT$10 par value, not a NT$10 trading price. Any P/E discussion must identify the quotation date and whether EPS is historical annual, trailing or forecast. A small EPS such as the 2025 basic NT$0.09 makes that ratio sensitive to the selected period. Airline research should also consider cash flow, capital expenditure and funding commitments. I would not combine an arbitrary price with a different-period EPS or treat brand enthusiasm as a valuation method.",
+    "answer_zh_30": "證交所資料列星宇2646於2024年10月25日上市。2026年10月11日資料快照中，實收資本額為30,087,350,000元、已發行普通股3,008,735,000股。股本是會計與發行資料，股價是交易價格，市值則需用同一時點價格與股數計算；網站沒有提供即時股價。",
+    "answer_zh_60": "證交所資料列星宇2646於2024年10月25日上市。2026年10月11日資料快照中，實收資本額為30,087,350,000元、已發行普通股3,008,735,000股。股本是會計與發行資料，股價是交易價格，市值則需用同一時點價格與股數計算；網站沒有提供即時股價。\n\n這組股本與股數對應每股10元的面額，不代表股票交易價是10元。若討論本益比，必須交代價格時點、EPS期間及是否用全年、近四季或預估EPS；2025基本EPS0.09容易讓倍數對單年利潤變動非常敏感。以航空公司研究而言，还要看現金流、資本支出與融資承諾，不用單一本益比或品牌喜好判斷投資價值，更不將不同年度EPS與任意股價拼成「當前估值」。",
+    "chinese_answer": "這組股本與股數對應每股10元的面額，不代表股票交易價是10元。若討論本益比，必須交代價格時點、EPS期間及是否用全年、近四季或預估EPS；2025基本EPS0.09容易讓倍數對單年利潤變動非常敏感。以航空公司研究而言，还要看現金流、資本支出與融資承諾，不用單一本益比或品牌喜好判斷投資價值，更不將不同年度EPS與任意股價拼成「當前估值」。",
+    "key_points": [
+      "2646／上市2024年10月25日",
+      "股本與市值",
+      "EPS期間與價格時點"
+    ],
+    "keywords": [
+      "2646／上市2024年10月25日",
+      "股本與市值",
+      "EPS期間與價格時點"
+    ],
+    "answer_outline": [
+      "2646／上市2024年10月25日",
+      "股本與市值",
+      "EPS期間與價格時點"
+    ],
+    "follow_up": "如果股價變動但公司未增資，實收股本會跟著變動嗎？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "證交所OpenAPI｜上市公司基本資料（2646）",
+    "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "source_id": "jxStock",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2026-10-11",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxFinancial2025"
+    ],
+    "deep_dive": {
+      "analysis_zh": "這組股本與股數對應每股10元的面額，不代表股票交易價是10元。若討論本益比，必須交代價格時點、EPS期間及是否用全年、近四季或預估EPS；2025基本EPS0.09容易讓倍數對單年利潤變動非常敏感。以航空公司研究而言，还要看現金流、資本支出與融資承諾，不用單一本益比或品牌喜好判斷投資價值，更不將不同年度EPS與任意股價拼成「當前估值」。",
+      "analysis_en": "The capital and share count imply a NT$10 par value, not a NT$10 trading price. Any P/E discussion must identify the quotation date and whether EPS is historical annual, trailing or forecast. A small EPS such as the 2025 basic NT$0.09 makes that ratio sensitive to the selected period. Airline research should also consider cash flow, capital expenditure and funding commitments. I would not combine an arbitrary price with a different-period EPS or treat brand enthusiasm as a valuation method.",
+      "pitfalls": [
+        "面額當股價",
+        "使用不存在的即時行情"
+      ],
+      "follow_ups": [
+        "如果股價變動但公司未增資，實收股本會跟著變動嗎？"
+      ],
+      "evidence_ids": [
+        "jxStock",
+        "jxFinancial2025"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "收到嚴格回饋時，你如何維持自信與謙遜？",
+      "en": "How would you remain confident and humble when receiving demanding feedback?"
+    }
+  },
+  {
+    "id": "jx-values-service",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇A350-1000四艙等350席如何連結精品定位與營收管理？",
+    "question_en": "How does the 350-seat A350-1000 cabin relate to STARLUX’s positioning and revenue management?",
+    "answer": "The announced first A350-1000 configuration has four first-class, 40 business-class, 36 premium-economy and 270 economy seats, totalling 350. Four cabins segment different needs and willingness to pay, but seat counts alone do not reveal revenue or profitability. Premium positioning must be connected to product design and demand.",
+    "answer_30": "The announced first A350-1000 configuration has four first-class, 40 business-class, 36 premium-economy and 270 economy seats, totalling 350. Four cabins segment different needs and willingness to pay, but seat counts alone do not reveal revenue or profitability. Premium positioning must be connected to product design and demand.",
+    "answer_60": "The announced first A350-1000 configuration has four first-class, 40 business-class, 36 premium-economy and 270 economy seats, totalling 350. Four cabins segment different needs and willingness to pay, but seat counts alone do not reveal revenue or profitability. Premium positioning must be connected to product design and demand. I would consider the trade-off between cabin space, fares and load factors, then ask whether business demand, connecting traffic and route length support the premium product. An overall load factor can hide different cabin mixes. RASK and CASK require consistent operating boundaries; group revenue divided by one route’s ASK is not a valid metric. This is a revenue-management framework. Without disclosed cabin-level yields, I would not assert that first class is the most profitable or invent actual fares.",
+    "answer_zh_30": "官方首架A350-1000配置為頭等4、商務40、豪華經濟36、經濟270席，共350席。四艙等能服務不同需求與支付能力，但座位數本身不告訴我們各艙等收益。分析精品定位，必須連結座位配置、產品與需求，而不是只說頭等艙看起來高級。",
+    "answer_zh_60": "官方首架A350-1000配置為頭等4、商務40、豪華經濟36、經濟270席，共350席。四艙等能服務不同需求與支付能力，但座位數本身不告訴我們各艙等收益。分析精品定位，必須連結座位配置、產品與需求，而不是只說頭等艙看起來高級。\n\n我會考慮艙等空間、售價与載客率的取捨，再看商務需求、轉機客源與航線長度是否支持高艙等產品。單一全機載客率可能掩蓋艙等組合差異；RASK與CASK也須使用一致營運範圍，不能以合併集團營收直接除某條航線ASK。這是收益管理的研究框架；官方未公開各艙等實際收益時，不自行宣稱「頭等艙最賺」或推算票價。",
+    "chinese_answer": "我會考慮艙等空間、售價与載客率的取捨，再看商務需求、轉機客源與航線長度是否支持高艙等產品。單一全機載客率可能掩蓋艙等組合差異；RASK與CASK也須使用一致營運範圍，不能以合併集團營收直接除某條航線ASK。這是收益管理的研究框架；官方未公開各艙等實際收益時，不自行宣稱「頭等艙最賺」或推算票價。",
+    "key_points": [
+      "4／40／36／270共350席",
+      "艙等分群",
+      "RASK／CASK口徑"
+    ],
+    "keywords": [
+      "4／40／36／270共350席",
+      "艙等分群",
+      "RASK／CASK口徑"
+    ],
+    "answer_outline": [
+      "4／40／36／270共350席",
+      "艙等分群",
+      "RASK／CASK口徑"
+    ],
+    "follow_up": "高載客率卻低獲利，可能有哪些原因？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "source_id": "jxHandover",
+    "published_date": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-01-05",
+    "status": "confirmed",
+    "supporting_source_ids": [],
+    "deep_dive": {
+      "analysis_zh": "我會考慮艙等空間、售價与載客率的取捨，再看商務需求、轉機客源與航線長度是否支持高艙等產品。單一全機載客率可能掩蓋艙等組合差異；RASK與CASK也須使用一致營運範圍，不能以合併集團營收直接除某條航線ASK。這是收益管理的研究框架；官方未公開各艙等實際收益時，不自行宣稱「頭等艙最賺」或推算票價。",
+      "analysis_en": "I would consider the trade-off between cabin space, fares and load factors, then ask whether business demand, connecting traffic and route length support the premium product. An overall load factor can hide different cabin mixes. RASK and CASK require consistent operating boundaries; group revenue divided by one route’s ASK is not a valid metric. This is a revenue-management framework. Without disclosed cabin-level yields, I would not assert that first class is the most profitable or invent actual fares.",
+      "pitfalls": [
+        "座位數等於收入占比",
+        "載客率當獲利率"
+      ],
+      "follow_ups": [
+        "高載客率卻低獲利，可能有哪些原因？"
+      ],
+      "evidence_ids": [
+        "jxHandover"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "精品品牌的服務承諾，與誠實說明限制如何並存？",
+      "en": "How would you combine a premium service promise with honest communication?"
+    }
+  },
+  {
+    "id": "jx-values-responsibility",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇台北轉機樞紐與台中直航布局如何服務不同市場？",
+    "question_en": "How do STARLUX’s Taipei hub and Taichung services address different markets?",
+    "answer": "The annual report describes a Taipei connecting hub alongside Taichung regional services. At the end of March 2026 it records 31 destinations and 39 scheduled routes. Hub connections and regional originating traffic address different markets, and destinations, routes and partner connections must not be counted as interchangeable measures.",
+    "answer_30": "The annual report describes a Taipei connecting hub alongside Taichung regional services. At the end of March 2026 it records 31 destinations and 39 scheduled routes. Hub connections and regional originating traffic address different markets, and destinations, routes and partner connections must not be counted as interchangeable measures.",
+    "answer_60": "The annual report describes a Taipei connecting hub alongside Taichung regional services. At the end of March 2026 it records 31 destinations and 39 scheduled routes. Hub connections and regional originating traffic address different markets, and destinations, routes and partner connections must not be counted as interchangeable measures. I would use the map to show how one destination can be served from both TPE and RMQ, creating more than one route. A connecting strategy involves schedules, transfer time, baggage and cooperation arrangements, while regional direct service depends on local demand and aircraft capacity. Inaugural dates describe development, not today’s timetable. From a cadet perspective, network growth also requires aligned training, dispatch, maintenance and ground support, rather than simply flying farther.",
+    "answer_zh_30": "年報以台北為跨洲轉機樞紐，同时發展台中區域航線；2026年3月底記錄31個航點、39條定期航線。台北轉機連結亞洲與長程客源，台中則服務區域出發需求。航點數、航線數、自營與合作銜接不能混成一個規模數字。",
+    "answer_zh_60": "年報以台北為跨洲轉機樞紐，同时發展台中區域航線；2026年3月底記錄31個航點、39條定期航線。台北轉機連結亞洲與長程客源，台中則服務區域出發需求。航點數、航線數、自營與合作銜接不能混成一個規模數字。\n\n我會用航圖說明同一目的地可能有TPE與RMQ兩個起點，因此一個航點可以對應多條航線。研究轉機要看班次、銜接時間、行李與合作安排；區域直航則要看本地需求與可用機隊。首航日期可建立發展時間軸，但不代表今天班表。對培訓機師而言，航網擴張還意味訓練、簽派、維修與地面支援需要同步准备，而非單純「飛得更遠」。",
+    "chinese_answer": "我會用航圖說明同一目的地可能有TPE與RMQ兩個起點，因此一個航點可以對應多條航線。研究轉機要看班次、銜接時間、行李與合作安排；區域直航則要看本地需求與可用機隊。首航日期可建立發展時間軸，但不代表今天班表。對培訓機師而言，航網擴張還意味訓練、簽派、維修與地面支援需要同步准备，而非單純「飛得更遠」。",
+    "key_points": [
+      "台北轉機／台中區域",
+      "31航點39航線",
+      "起點與銜接"
+    ],
+    "keywords": [
+      "台北轉機／台中區域",
+      "31航點39航線",
+      "起點與銜接"
+    ],
+    "answer_outline": [
+      "台北轉機／台中區域",
+      "31航點39航線",
+      "起點與銜接"
+    ],
+    "follow_up": "為什麼同一家公司航線數可能大於航點數？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "source_id": "jxAnnual",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxPhoenix",
+      "jxPragueOfficial"
+    ],
+    "deep_dive": {
+      "analysis_zh": "我會用航圖說明同一目的地可能有TPE與RMQ兩個起點，因此一個航點可以對應多條航線。研究轉機要看班次、銜接時間、行李與合作安排；區域直航則要看本地需求與可用機隊。首航日期可建立發展時間軸，但不代表今天班表。對培訓機師而言，航網擴張還意味訓練、簽派、維修與地面支援需要同步准备，而非單純「飛得更遠」。",
+      "analysis_en": "I would use the map to show how one destination can be served from both TPE and RMQ, creating more than one route. A connecting strategy involves schedules, transfer time, baggage and cooperation arrangements, while regional direct service depends on local demand and aircraft capacity. Inaugural dates describe development, not today’s timetable. From a cadet perspective, network growth also requires aligned training, dispatch, maintenance and ground support, rather than simply flying farther.",
+      "pitfalls": [
+        "把合作航點算自營",
+        "首航班表當現況"
+      ],
+      "follow_ups": [
+        "為什麼同一家公司航線數可能大於航點數？"
+      ],
+      "evidence_ids": [
+        "jxAnnual",
+        "jxPhoenix",
+        "jxPragueOfficial"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你如何理解機師對公司品牌的責任？",
+      "en": "What responsibility would a pilot have toward an airline’s brand?"
+    }
+  },
+  {
+    "id": "jx-values-motivation",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "星宇品牌與公司研究",
+    "question": "星宇A350F計畫如何從腹艙貨運轉向專用貨機？應追蹤哪些風險？",
+    "question_en": "How could STARLUX’s A350F programme change its cargo model, and what should be monitored?",
+    "answer": "Airbus announced an order for ten STARLUX A350Fs on 6 January 2026. The 2025 cargo business was supported by widebody belly capacity. The annual report plans dedicated-freighter introduction from 2028, without complete delivery dates. Order, handover and operational entry are separate stages.",
+    "answer_30": "Airbus announced an order for ten STARLUX A350Fs on 6 January 2026. The 2025 cargo business was supported by widebody belly capacity. The annual report plans dedicated-freighter introduction from 2028, without complete delivery dates. Order, handover and operational entry are separate stages.",
+    "answer_60": "Airbus announced an order for ten STARLUX A350Fs on 6 January 2026. The 2025 cargo business was supported by widebody belly capacity. The annual report plans dedicated-freighter introduction from 2028, without complete delivery dates. Order, handover and operational entry are separate stages. A research framework would cover cargo demand, loading and ground handling, crew training, maintenance, financing and whether freighter routes complement passenger belly capacity. Belly schedules follow passenger operations; freighters can be deployed around cargo demand but add fixed costs and exposure to the cargo cycle. FTK, AFTK, load factor and yield measure different dimensions. Tonnes alone do not measure distance. After an order announcement, remaining backlog, actual deliveries and operational readiness still need separate verification.",
+    "answer_zh_30": "Airbus於2026年1月6日公告星宇訂購10架A350F；2025貨運收入則與廣體客機腹艙運力相關。年報規劃2028起引進全貨機，但未提供逐架交機年月日。訂單、交付及正式投入貨運是不同階段，不能把10架訂單當作現役貨機。",
+    "answer_zh_60": "Airbus於2026年1月6日公告星宇訂購10架A350F；2025貨運收入則與廣體客機腹艙運力相關。年報規劃2028起引進全貨機，但未提供逐架交機年月日。訂單、交付及正式投入貨運是不同階段，不能把10架訂單當作現役貨機。\n\n研究框架包括貨源、裝載與地面處理能力、機組訓練、維修、融資，以及貨機航網是否與客機腹艙互補。腹艙班次隨客運安排，專用貨機能更依貨源調度，但有额外固定成本與需求週期風險。可追蹤FTK、AFTK、載貨率與收益率；「貨物噸數」不考慮距離，不能代替FTK。公布總訂單後仍需查剩餘待交與實際營運批准，年份計畫不補造成特定月日。",
+    "chinese_answer": "研究框架包括貨源、裝載與地面處理能力、機組訓練、維修、融資，以及貨機航網是否與客機腹艙互補。腹艙班次隨客運安排，專用貨機能更依貨源調度，但有额外固定成本與需求週期風險。可追蹤FTK、AFTK、載貨率與收益率；「貨物噸數」不考慮距離，不能代替FTK。公布總訂單後仍需查剩餘待交與實際營運批准，年份計畫不補造成特定月日。",
+    "key_points": [
+      "10架訂單／2028年計畫",
+      "腹艙與全貨機",
+      "FTK／AFTK"
+    ],
+    "keywords": [
+      "10架訂單／2028年計畫",
+      "腹艙與全貨機",
+      "FTK／AFTK"
+    ],
+    "answer_outline": [
+      "10架訂單／2028年計畫",
+      "腹艙與全貨機",
+      "FTK／AFTK"
+    ],
+    "follow_up": "載貨噸數增加，但FTK下降，可能代表什麼？",
+    "difficulty": "進階",
+    "why_it_matters": "從可查核公司事實推進到商業、治理或營運分析，保持數字與日期口徑一致。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
+    "source": "Airbus｜STARLUX 首架 A350-1000",
+    "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+    "source_id": "jxDelivery",
+    "published_date": "2026-01-06",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-01-06",
+    "status": "confirmed",
+    "supporting_source_ids": [
+      "jxAnnual"
+    ],
+    "deep_dive": {
+      "analysis_zh": "研究框架包括貨源、裝載與地面處理能力、機組訓練、維修、融資，以及貨機航網是否與客機腹艙互補。腹艙班次隨客運安排，專用貨機能更依貨源調度，但有额外固定成本與需求週期風險。可追蹤FTK、AFTK、載貨率與收益率；「貨物噸數」不考慮距離，不能代替FTK。公布總訂單後仍需查剩餘待交與實際營運批准，年份計畫不補造成特定月日。\n\n2025年報列四項IATA CEIV認證：Pharma、Fresh、Live Animals及Lithium Batteries。可以由貨種延伸討論溫控、時效、動物照護與危險品作業；認證不等於已有專用貨機，也不代表所有場站與貨物都無條件承運。",
+      "analysis_en": "A research framework would cover cargo demand, loading and ground handling, crew training, maintenance, financing and whether freighter routes complement passenger belly capacity. Belly schedules follow passenger operations; freighters can be deployed around cargo demand but add fixed costs and exposure to the cargo cycle. FTK, AFTK, load factor and yield measure different dimensions. Tonnes alone do not measure distance. After an order announcement, remaining backlog, actual deliveries and operational readiness still need separate verification.\n\nThe 2025 annual report lists CEIV Pharma, Fresh, Live Animals and Lithium Batteries. These support questions about temperature control, timeliness, animal handling and dangerous-goods procedures; they do not establish an operating freighter fleet or unconditional acceptance of every shipment at every station.",
+      "pitfalls": [
+        "訂單當現役",
+        "噸數當噸公里"
+      ],
+      "follow_ups": [
+        "載貨噸數增加，但FTK下降，可能代表什麼？"
+      ],
+      "evidence_ids": [
+        "jxDelivery",
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "你對星宇的認同，如何超越喜歡品牌外觀？",
+      "en": "How would your motivation go beyond liking the STARLUX brand image?"
+    }
+  },
+  {
+    "id": "jx-prepare-research",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與面試準備",
+    "question": "星宇2026年43架與2033年76架的機隊目標，應如何判讀？",
+    "question_en": "How should STARLUX’s 43-aircraft and 76-aircraft targets be interpreted?",
+    "answer": "The annual report describes 31 aircraft in March 2026, with targets of 43 by the end of 2026 and 76 in 2033. The first is a monthly historical observation; the latter two are plans. The 2033 target includes both passenger aircraft and A350F freighters, not today’s operating fleet.",
+    "answer_30": "The annual report describes 31 aircraft in March 2026, with targets of 43 by the end of 2026 and 76 in 2033. The first is a monthly historical observation; the latter two are plans. The 2033 target includes both passenger aircraft and A350F freighters, not today’s operating fleet.",
+    "answer_60": "The annual report describes 31 aircraft in March 2026, with targets of 43 by the end of 2026 and 76 in 2033. The first is a monthly historical observation; the latter two are plans. The 2033 target includes both passenger aircraft and A350F freighters, not today’s operating fleet. I would examine aircraft types, order status, delivery milestones, crew and maintenance readiness, financing and network demand. The March snapshot does not specify a day, so I would not invent 31 March. A target year is not an individual delivery date, and changes in supply or demand may affect the plan. Progress should be evaluated through evidence rather than a general statement about rapid growth.",
+    "answer_zh_30": "2025年報說明2026年3月機隊31架，規劃2026年底43架、2033年76架；前者是月度歷史資料，後兩者是計畫。2033目標包括客機與A350F貨機，不能把它當成今日現役數，也不能把目標年份填造成逐架交機年月日。",
+    "answer_zh_60": "2025年報說明2026年3月機隊31架，規劃2026年底43架、2033年76架；前者是月度歷史資料，後兩者是計畫。2033目標包括客機與A350F貨機，不能把它當成今日現役數，也不能把目標年份填造成逐架交機年月日。\n\n我會把目標拆為機型、訂單狀態、交付里程碑、機組與維修準備、資金及航網需求，再看實際進度是否支持計畫。2026年3月的快照未給確切日，不能補成3月31日。若交期或需求改變，營運安排可能調整；面試回答应說明這些可觀察條件，而不是用「公司快速成長」作沒有證據的結論。",
+    "chinese_answer": "分開歷史、訂單、計畫與正式投入營運，評估目標的配套條件。",
+    "key_points": [
+      "官方資料",
+      "日期與範圍",
+      "可更新筆記"
+    ],
+    "keywords": [
+      "官方資料",
+      "日期與範圍",
+      "可更新筆記"
+    ],
+    "answer_outline": [
+      "月度歷史31架",
+      "年度目標43架",
+      "2033計畫76架"
+    ],
+    "follow_up": "交機延誤時，哪幾項營運與財務指標應先更新？",
+    "difficulty": "進階",
+    "why_it_matters": "練習準確描述資料範圍及尚未確認的部分。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創面試練習，非官方考題或標準答案；來源與日期需按實際可取得的證據核對。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "source_id": "jxAnnual",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": "2025-12-31",
+    "status": "confirmed",
+    "deep_dive": {
+      "analysis_zh": "分開歷史、訂單、計畫與正式投入營運，評估目標的配套條件。",
+      "analysis_en": "Explain the commercial or operational implication, state the data period, and distinguish the public facts from your interpretation.",
+      "pitfalls": [
+        "把計畫、歷史與現況混用",
+        "未取得正式文件便聲稱內部程序"
+      ],
+      "follow_ups": [
+        "交機延誤時，哪幾項營運與財務指標應先更新？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "如何準備一份可靠的星宇公司研究？",
+      "en": "How would you prepare reliable research on STARLUX?"
+    }
+  },
+  {
+    "id": "jx-cadet-first-week",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與面試準備",
+    "question": "星宇培訓機師甄選有哪些具體門檻與流程？",
+    "question_en": "What are the specific entry requirements and selection stages for a STARLUX cadet?",
+    "answer": "The official page requires ROC eligibility, an associate degree or above and valid English results. One option is TOEIC 800, listening 400, with speaking 160 and writing 150 from the same test. Selection includes written, panel, group, medical, aptitude and individual professional assessments. A Class One medical certificate is required before the aptitude stage.",
+    "answer_30": "The official page requires ROC eligibility, an associate degree or above and valid English results. One option is TOEIC 800, listening 400, with speaking 160 and writing 150 from the same test. Selection includes written, panel, group, medical, aptitude and individual professional assessments. A Class One medical certificate is required before the aptitude stage.",
+    "answer_60": "The official page requires ROC eligibility, an associate degree or above and valid English results. One option is TOEIC 800, listening 400, with speaking 160 and writing 150 from the same test. Selection includes written, panel, group, medical, aptitude and individual professional assessments. A Class One medical certificate is required before the aptitude stage. The page also describes about one year overseas for CPL training and roughly six months of type conversion; the FAQ gives an overall estimate of 1.5 to two years, not a guarantee. Teamwork and leadership are explicitly valued. Invited candidates have at most two attempts, while CPL holders are directed to the CPL recruitment route. Preparation should follow the actual requirements, test scope and documents rather than an invented syllabus.",
+    "answer_zh_30": "官方培訓頁要求中華民國身分、副學士以上及有效英檢；TOEIC至少800、聽力400，加同次口說160與寫作150，也接受符合門檻的TOEFL或IELTS。甄選有筆試、Panel、團體、體檢、潛質與個人專業面試；第一類體檢須在潛質測驗前取得。",
+    "answer_zh_60": "官方培訓頁要求中華民國身分、副學士以上及有效英檢；TOEIC至少800、聽力400，加同次口說160與寫作150，也接受符合門檻的TOEFL或IELTS。甄選有筆試、Panel、團體、體檢、潛質與個人專業面試；第一類體檢須在潛質測驗前取得。\n\n培訓頁說明海外約一年取得CPL、後續約半年機型訓練，FAQ概估整體1.5至2年，並非保證時程。公司明示重視團隊與領導特質；受邀甄選最多兩次，已有CPL者走CPL招募類別。我的準備会按筆試範圍、語言、醫療資格與文件逐項核對，不把展示用學習計畫當成正式課表，也不編造教官對個人的評價。",
+    "chinese_answer": "用官網門檻、時點與流程回答，將官方概估與個人準備分開。",
+    "key_points": [
+      "正式教材",
+      "規律複習",
+      "休息與回饋"
+    ],
+    "keywords": [
+      "正式教材",
+      "規律複習",
+      "休息與回饋"
+    ],
+    "answer_outline": [
+      "英檢與文件",
+      "六階段甄選",
+      "訓練概估非保證"
+    ],
+    "follow_up": "英檢快到期、已持CPL或尚未取得體檢時，你會如何確認申請途徑？",
+    "difficulty": "進階",
+    "why_it_matters": "練習準確描述資料範圍及尚未確認的部分。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創面試練習；個人學習計畫不代表星宇實際課表，正式要求需依當期通知。",
+    "source": "星宇｜Cadet Pilot Program 與 FAQ",
+    "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+    "source_id": "jxCadetCurrent",
+    "published_date": null,
+    "verified_date": "2026-10-12",
+    "as_of": null,
+    "status": "confirmed",
+    "deep_dive": {
+      "analysis_zh": "用官網門檻、時點與流程回答，將官方概估與個人準備分開。",
+      "analysis_en": "Explain the commercial or operational implication, state the data period, and distinguish the public facts from your interpretation.",
+      "pitfalls": [
+        "把計畫、歷史與現況混用",
+        "未取得正式文件便聲稱內部程序"
+      ],
+      "follow_ups": [
+        "英檢快到期、已持CPL或尚未取得體檢時，你會如何確認申請途徑？"
+      ],
+      "evidence_ids": [
+        "jxCadetCurrent"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "若獲選星宇培訓學員，你會如何安排初期學習？",
+      "en": "How would you organise your initial learning if selected as a STARLUX cadet?"
+    }
+  },
+  {
+    "id": "jx-event-dates",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與面試準備",
+    "question": "如何區分星宇首架 A350-1000 的交機、抵台與首航日期？",
+    "question_en": "How would you distinguish STARLUX’s first A350-1000 delivery, arrival and first passenger flight?",
+    "answer": "STARLUX’s first A350-1000 was delivered on 5 January 2026 in Toulouse, arrived in Taiwan on 6 January 2026 and made its first passenger flight on 10 February 2026 as JX802 from Taipei to Tokyo Narita. These are three separate milestones, supported by STARLUX’s official announcements.",
+    "answer_30": "STARLUX’s first A350-1000 was delivered on 5 January 2026 in Toulouse, arrived in Taiwan on 6 January 2026 and made its first passenger flight on 10 February 2026 as JX802 from Taipei to Tokyo Narita. These are three separate milestones, supported by STARLUX’s official announcements.",
+    "answer_60": "STARLUX’s first A350-1000 was delivered on 5 January 2026 in Toulouse, arrived in Taiwan on 6 January 2026 and made its first passenger flight on 10 February 2026 as JX802 from Taipei to Tokyo Narita. These are three separate milestones, supported by STARLUX’s official announcements. Airbus also announced the delivery on 6 January 2026, but that publication date is different from the handover day. The first passenger flight marks entry into service for the aircraft type, not the original opening of the Taipei–Narita route. I would keep those distinctions clear and avoid inferring today’s total fleet from a historical announcement.",
+    "answer_zh_30": "星宇首架 A350-1000 於2026年1月5日在法國土魯斯交付、2026年1月6日抵台，並於2026年2月10日首次載客執飛 JX802 桃園—東京成田。這是三個不同事件，均有星宇官方新聞稿支持；交機與首航不能混為同一天。",
+    "answer_zh_60": "星宇首架 A350-1000 於2026年1月5日在法國土魯斯交付、2026年1月6日抵台，並於2026年2月10日首次載客執飛 JX802 桃園—東京成田。這是三個不同事件，均有星宇官方新聞稿支持；交機與首航不能混為同一天。\n\nAirbus 也於2026年1月6日公告交付消息，但那是新聞發布日，不能取代土魯斯交機的2026年1月5日。2026年2月10日則是 A350-1000 機型首次載客，不代表星宇桃園—成田航線最早在這一天開航。機隊發展需要訓練、維修與程序配合，我不會用單一歷史交機事件推算現在的機隊總數。",
+    "chinese_answer": "依序說明交機2026年1月5日、抵台2026年1月6日、機型首次載客2026年2月10日，再連結訓練與營運準備。",
+    "key_points": [
+      "公告發布日",
+      "實際交機日",
+      "投入服務日"
+    ],
+    "keywords": [
+      "公告發布日",
+      "實際交機日",
+      "投入服務日"
+    ],
+    "answer_outline": [
+      "交機2026年1月5日",
+      "抵台2026年1月6日",
+      "首次載客2026年2月10日"
+    ],
+    "follow_up": "新聞寫「已交付」時，你能確認哪個日期？",
+    "difficulty": "進階",
+    "why_it_matters": "練習準確描述資料範圍及尚未確認的部分。",
+    "content_type": "original_practice",
+    "answer_basis": "dated_source_record",
+    "note": "原創面試練習，非官方考題或標準答案。交機、抵台及首次載客日期已於2026年10月12日逐項查核星宇官方新聞稿，Airbus 公告另作交叉比對。",
+    "source": "星宇｜首架 A350-1000 交付與返台",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
+    "source_id": "jxHandover",
+    "published_date": "2026-01-05",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-01-05",
+    "status": "confirmed",
+    "event_ids": [
+      "jx-a350-1000-first-delivery",
+      "jx-a350-1000-arrival",
+      "jx-a350-1000-first-service"
+    ],
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "此題考的是飛機生命週期與證據種類。交付、台灣抵達及機型首次載客各有不同日期與文件；交付公告不能代替航空公司明示的交機日，也不能由返台飛行推論營運已啟動。營運準備與核准條件須依正式文件，不以面試示範作程序清單。",
+      "analysis_en": "This tests the aircraft lifecycle and the type of evidence. Handover, arrival in Taiwan and the first passenger service have distinct dates and documentation. An announcement does not replace an explicit event record, and ferrying the aircraft home does not establish readiness for passenger operations. Authorised documentation remains necessary for the actual requirements.",
+      "pitfalls": [
+        "公告發布日當交機日",
+        "機型首飛當航線首次開航"
+      ],
+      "follow_ups": [
+        "為何新飛機已抵台，仍不能直接推算能提供多少可用運能？"
+      ],
+      "evidence_ids": [
+        "jxHandover",
+        "jxArrival",
+        "jxFirstService"
+      ]
+    }
+  },
+  {
+    "id": "jx-prague-date",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與面試準備",
+    "question": "布拉格首航如何連結星宇歐洲航網、客源與合作策略？",
+    "question_en": "How does the Prague inauguration connect to STARLUX’s network, traffic and partnership strategy?",
+    "answer": "STARLUX inaugurated Taipei–Prague on 1 August 2026 as its first European route. Official statements connect it with Central European business, semiconductor and tourism demand. Direct operation and European connections through partners are different tools. Demand, connectivity and capacity matter more than treating the first destination as proof of brand success.",
+    "answer_30": "STARLUX inaugurated Taipei–Prague on 1 August 2026 as its first European route. Official statements connect it with Central European business, semiconductor and tourism demand. Direct operation and European connections through partners are different tools. Demand, connectivity and capacity matter more than treating the first destination as proof of brand success.",
+    "answer_60": "STARLUX inaugurated Taipei–Prague on 1 August 2026 as its first European route. Official statements connect it with Central European business, semiconductor and tourism demand. Direct operation and European connections through partners are different tools. Demand, connectivity and capacity matter more than treating the first destination as proof of brand success. I would relate the route to the Taipei hub, Asian feeder traffic and long-haul fleet, then monitor cabin demand, RPK, ASK, yields, connections and aircraft availability. The inaugural timetable does not establish today’s schedule. A map of self-operated routes should not include partner flights as if operated by STARLUX. A cadet can also identify training, dispatch, airport and maintenance preparation without claiming knowledge of undisclosed operating procedures.",
+    "answer_zh_30": "星宇於2026年8月1日首航台北—布拉格，為首條歐洲航線。官方稿連結中歐半導體商務及旅遊需求；自營直航與透過阿提哈德合作銜接歐洲是不同工具。專業分析要看需求、轉機銜接與運能，而不只把首個歐洲航點視為品牌成功。",
+    "answer_zh_60": "星宇於2026年8月1日首航台北—布拉格，為首條歐洲航線。官方稿連結中歐半導體商務及旅遊需求；自營直航與透過阿提哈德合作銜接歐洲是不同工具。專業分析要看需求、轉機銜接與運能，而不只把首個歐洲航點視為品牌成功。\n\n我會把航線放在台北樞紐、亞洲接駁與長程機隊的脈絡，再追蹤艙等需求、RPK／ASK、收益、班表銜接與機隊可用率。首航當期公布的班次及機型調整不自動證明今天安排相同；航圖上的自營線也不能混入合作航班。對學員而言，研究重點還包括長程運作的訓練、簽派、機場與維修配套，但不宣稱掌握未公開的公司操作程序。",
+    "chinese_answer": "以首航事實建立航網分析，再談客源、合作與可觀察的指標。",
+    "key_points": [
+      "2026年8月1日",
+      "機場端事件",
+      "首航與現況分開"
+    ],
+    "keywords": [
+      "2026年8月1日",
+      "機場端事件",
+      "首航與現況分開"
+    ],
+    "answer_outline": [
+      "2026年8月1日首航",
+      "自營與合作分開",
+      "需求與運能"
+    ],
+    "follow_up": "已有共掛可銜接歐洲，為何還可能開自營直航？",
+    "difficulty": "進階",
+    "why_it_matters": "練習準確描述資料範圍及尚未確認的部分。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創面試練習。星宇與布拉格機場兩個官方來源已重新查核，2026年8月1日為首航事件日。",
+    "source": "星宇｜台北—布拉格首航",
+    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260801",
+    "source_id": "jxPragueOfficial",
+    "published_date": "2026-08-01",
+    "verified_date": "2026-10-12",
+    "as_of": "2026-08-01",
+    "status": "confirmed",
+    "event_ids": [
+      "jx-prague-inaugural"
+    ],
+    "supporting_source_ids": [
+      "jxAnnual",
+      "jxPrg"
+    ],
+    "deep_dive": {
+      "analysis_zh": "以首航事實建立航網分析，再談客源、合作與可觀察的指標。",
+      "analysis_en": "Explain the commercial or operational implication, state the data period, and distinguish the public facts from your interpretation.",
+      "pitfalls": [
+        "把計畫、歷史與現況混用",
+        "未取得正式文件便聲稱內部程序"
+      ],
+      "follow_ups": [
+        "已有共掛可銜接歐洲，為何還可能開自營直航？"
+      ],
+      "evidence_ids": [
+        "jxPragueOfficial",
+        "jxAnnual",
+        "jxPrg"
+      ]
+    },
+    "question_revision": 2,
+    "previous_question": {
+      "zh": "如何在面試中精確說明星宇布拉格首航？",
+      "en": "How would you describe the Prague inauguration precisely in an interview?"
+    }
   },
   {
     "id": "jx-safety-service",
@@ -829,7 +2235,24 @@
       "權限與程序",
       "具體溝通"
     ],
-    "follow_up": "如果你提出的疑慮被認為會拖慢進度，下一步怎麼做？"
+    "follow_up": "如果你提出的疑慮被認為會拖慢進度，下一步怎麼做？",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我認為安全是服務能夠成立的前提。若為了準點或旅客期待而忽略程序，就失去旅客信任的基礎。以學員的身分，我會先確認限制與程序，遇到不確定的狀況清楚提出，並透過團隊協調尋找可行方案，不會自行承諾超出權限的結果。\n\n例如面對進度壓力，我會說明目前已知的風險、仍需確認的事項及下一步，讓團隊根據共同資訊決策。我也會避免只喊「安全第一」卻說不出行動；真正的安全態度應表現在準備、交叉確認，以及願意承認自己不知道。",
+      "analysis_en": "Safety is the foundation of reliable service. As a cadet, I would follow procedures, clarify uncertainty and communicate limitations early. I would not make promises beyond my authority just to satisfy a short-term expectation. Under time pressure, I would explain the known facts, the unresolved issue and the next verification step. This helps the team make an informed decision. For me, a safety attitude means preparation and cross-checking, not simply repeating a slogan.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "如果你提出的疑慮被認為會拖慢進度，下一步怎麼做？"
+      ],
+      "evidence_ids": [
+        "jxCadetCurrent"
+      ]
+    }
   },
   {
     "id": "jx-group-discussion",
@@ -869,7 +2292,24 @@
       "邀請參與",
       "比較依據"
     ],
-    "follow_up": "如果對方仍不願讓其他人發言，你會如何保持討論效率？"
+    "follow_up": "如果對方仍不願讓其他人發言，你會如何保持討論效率？",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我會先讓討論回到共同目標，而不是直接批評對方。我可以簡短整理已經形成的共識，再邀請尚未發言的人補充，並建議把剩餘時間分配給不同選項。我的目標是讓團隊有更完整的資訊與結論，不是爭取最多的發言時間或搶著當領導者。\n\n如果意見仍然衝突，我會協助比較各選項的依據、限制和風險，確認大家是否在討論同一個問題。面試若要求過去經驗，我會換成自己的真實案例，清楚交代我的行動和結果，不把這個假設情境說成親身經歷。",
+      "analysis_en": "I would bring the discussion back to our shared objective, summarise the points already made and invite quieter members to contribute. I would also suggest a simple time plan so that the team can reach a reasoned conclusion. If disagreement continued, I would compare the evidence and limitations behind each option. My aim would be a better team decision, not the most speaking time. For a past-experience question, I would use a real example rather than present this hypothetical approach as something I had done.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "如果對方仍不願讓其他人發言，你會如何保持討論效率？"
+      ],
+      "evidence_ids": [
+        "jxCadetCurrent"
+      ]
+    }
   },
   {
     "id": "jx-training-setback",
@@ -909,7 +2349,24 @@
       "分段練習",
       "追蹤回饋"
     ],
-    "follow_up": "你會用什麼具體指標判斷自己真的改善了？"
+    "follow_up": "你會用什麼具體指標判斷自己真的改善了？",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我會先把問題具體化，區分是知識理解、操作順序、注意力分配，還是緊張造成的表現差異。我會請教教官，確認最優先改善的一項，再設定可以檢查的小目標。只增加練習時間不一定有效，我需要知道錯在哪裡，以及下一次要如何驗證改善。\n\n每次練習後，我會用簡短紀錄整理錯誤、回饋和下一步，並在下一次課前確認是否完成。如果壓力或疲勞已影響學習，我會及早反映並調整，而不是隱瞞。這是建議做法；若面試官要真實挫折，我會改用自己的經歷和實際結果。",
+      "analysis_en": "I would first identify whether the difficulty came from knowledge, sequencing, workload or anxiety. I would ask my instructor to help prioritise one improvement and set a measurable practice goal. More repetition alone is not always the answer. After each session, I would record the feedback, the change I planned and how I would check it next time. I would also raise fatigue or stress concerns early. If asked for a personal example, I would support this approach with a genuine experience and its actual outcome.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "你會用什麼具體指標判斷自己真的改善了？"
+      ],
+      "evidence_ids": [
+        "jxCadetCurrent"
+      ]
+    }
   },
   {
     "id": "jx-english-clarification",
@@ -949,7 +2406,24 @@
       "重述確認",
       "持續練習"
     ],
-    "follow_up": "請用英文示範一次澄清問題。"
+    "follow_up": "請用英文示範一次澄清問題。",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我會先禮貌請對方重述或確認關鍵字，而不是猜一個看似流暢的答案。我也可以用自己的話重述理解，確認問題方向後再回答。航空工作需要準確的共同理解，因此我希望在準備階段就養成主動澄清的習慣，同時持續訓練英文聽力與口說。\n\n例如我可以說：Could you please repeat the last part? 或 Do you mean that…? 確認之後，我會用簡短、結構清楚的句子作答。這不是用澄清取代英文能力，而是避免在不確定時繼續累積誤解，並把不熟悉的內容列入後續練習。",
+      "analysis_en": "I would politely ask for repetition or clarify the key point instead of guessing. I could paraphrase my understanding before answering. Clear shared understanding matters more than pretending to understand, and I would keep improving my listening and speaking skills. For example, I could say, Could you please repeat the last part? Once the meaning was clear, I would give a short, structured answer. Clarification is not a substitute for language preparation; it is a habit that prevents uncertainty from becoming a larger misunderstanding.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "請用英文示範一次澄清問題。"
+      ],
+      "evidence_ids": [
+        "jxCadetCurrent"
+      ]
+    }
   },
   {
     "id": "jx-growth-profit",
@@ -989,7 +2463,24 @@
       "財務口徑",
       "避免保證"
     ],
-    "follow_up": "營收增加但獲利下降，可能有哪些原因？"
+    "follow_up": "營收增加但獲利下降，可能有哪些原因？",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我不會直接把機隊增加等同獲利增加。新增飛機能提供運能與航網發展機會，但也涉及訓練、人力、維修和營運成本。我會同時觀察載客需求、收益與成本，並確認資料期間和統計範圍。面試時，對沒有公開的財測，我會清楚說明無法判斷，不會自行保證結果。\n\n例如比較公司表現時，我會先區分營收、營業利益和稅後淨利，避免只看一個成長百分比。對培訓機師而言，我認為能貢獻的是先把安全、紀律和協作做好，讓公司有可靠的營運基礎；商業擴張則需要整體團隊與市場條件共同支持。",
+      "analysis_en": "Fleet growth creates capacity and network opportunities, but it does not guarantee profit. Additional aircraft also require training, staffing, maintenance and operating expenditure. I would compare demand, revenue and costs using the same reporting period and scope. I would distinguish revenue from operating profit and net income, and avoid inventing a forecast that the company has not published. As a cadet, my contribution would begin with safe, disciplined and dependable work, while commercial results depend on the wider organisation and market.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "營收增加但獲利下降，可能有哪些原因？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    }
   },
   {
     "id": "jx-saf-goals",
@@ -1028,6 +2519,23 @@
       "強度與總量",
       "安全與程序"
     ],
-    "follow_up": "為什麼運量增加時，排放強度下降仍可能伴隨總排放增加？"
+    "follow_up": "為什麼運量增加時，排放強度下降仍可能伴隨總排放增加？",
+    "practice_group": "星宇情境與時事練習",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "依星宇公開資料，SAF 平均添加比例目標為二〇二七年百分之二、二〇三〇年百分之五。我會特別說明這是目標，不是目前已達成的比例。公司也以二〇二四年為基準設定排放強度改善方向；強度下降與排放總量下降不同，介紹時不能混為一談。\n\n我理解航空減碳需要燃料、機隊與營運效率一起推進。對學員而言，我會先建立正確知識，依訓練與核准程序工作，不會為了節油自行省略安全程序。面試前我也會再查最新永續資料，保留年份、基準與適用範圍，避免背誦過時數字。",
+      "analysis_en": "STARLUX publishes average SAF blending targets of two percent for 2027 and five percent for 2030. I would describe these as targets, not current achievements. I would also distinguish emissions intensity from absolute emissions when discussing its reduction pathway. Decarbonisation involves fuel, fleet and operational efficiency. As a cadet, I would learn the approved procedures and never bypass a safety requirement to save fuel. Before an interview, I would recheck the reporting year, baseline and scope rather than repeat an isolated percentage.",
+      "pitfalls": [
+        "將原創情境當成歷屆考題或官方答案。",
+        "將假設做法當成自己的真實經歷，或省略數據日期與範圍。"
+      ],
+      "follow_ups": [
+        "為什麼運量增加時，排放強度下降仍可能伴隨總排放增加？"
+      ],
+      "evidence_ids": [
+        "oct13-85"
+      ]
+    }
   }
 ]

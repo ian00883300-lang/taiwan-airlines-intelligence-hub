@@ -41,6 +41,19 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import "./research.css";
 import "./reading.css";
+import EventDates from "./EventDates.jsx";
+import RouteNetwork from "./RouteNetwork.jsx";
+import {
+  CompanyTimeline,
+  CompanyIdentity,
+  OperationsResearch,
+  RevenueMix,
+  StrategyResearch,
+  EarningsBridge,
+  AnnualPerformance,
+  CashFlowResearch,
+} from "./CompanyResearch.jsx";
+import { formatEventDate } from "./event-dates.mjs";
 import { ReadingProvider, ReadingControls } from "./ReadingControls.jsx";
 import {
   TrainingPath,
@@ -145,6 +158,23 @@ function Badge({ status }) {
 }
 function Source({ item, compact = false }) {
   if (!item) return null;
+  if (
+    item.content_type === "original_practice" &&
+    item.answer_basis === "personal_reasoning"
+  )
+    return (
+      <>
+        {item.company_context && (
+          <>
+            <p>{item.company_context.value}</p>
+            <Source item={item.company_context} />
+          </>
+        )}
+        <p className="fineprint">
+          原創情境與個人價值觀練習；回答中的建議是練習思路，不是星宇官方政策或內部文化的查核結果。
+        </p>
+      </>
+    );
   return (
     <details className={"source " + (compact ? "compact" : "")}>
       <summary>
@@ -221,9 +251,11 @@ function SectionTitle({ title, en, link }) {
 }
 function Donut({ airline }) {
   const canvas = useRef();
-  let f = data(airline.id + "/fleet").items.filter(
-    (x) => x.current_fleet !== null,
-  );
+  const fleet = data(airline.id + "/fleet");
+  const historical = airline.total.value === null && fleet.composition_snapshot;
+  let f = fleet.items.filter((x) => x.current_fleet !== null);
+  if (historical)
+    f = historical.rows.map((row) => ({ ...row, current_fleet: row.quantity }));
   useEffect(() => {
     if (!canvas.current || !f.length) return;
     let chart = new Chart(canvas.current, {
@@ -263,7 +295,7 @@ function Donut({ airline }) {
         />
         <div className="donut-center">
           <b>{f.reduce((s, x) => s + x.current_fleet, 0)}</b>
-          <span>{airline.id === "starlux" ? "登記 / 架" : "機隊 / 架"}</span>
+          <span>{historical ? "年末快照 / 架" : "機隊 / 架"}</span>
         </div>
       </div>
       <ul className="chart-legend">
@@ -275,153 +307,19 @@ function Donut({ airline }) {
           </li>
         ))}
       </ul>
-    </div>
-  );
-}
-function RouteMap({ initial = "all" }) {
-  const [air, setAir] = useState(initial),
-    [region, setRegion] = useState("all"),
-    [tileError, setTileError] = useState(false);
-  const ref = useRef();
-  const all = ids.flatMap((id) => data(id + "/routes").items);
-  const filtered = all.filter(
-    (r) =>
-      (air === "all" || r.airline === air) &&
-      (region === "all" ||
-        r.region === region ||
-        (region === "Taiwan" && ["TPE", "KHH", "RMQ"].includes(r.origin)) ||
-        (region === "Asia" &&
-          ["Japan", "Korea", "China", "Southeast Asia"].includes(r.region))),
-  );
-  useEffect(() => {
-    const map = L.map(ref.current, {
-      scrollWheelZoom: false,
-      worldCopyJump: false,
-    }).setView([32, 165], 2);
-    const tiles = L.tileLayer(
-      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-      {
-        maxZoom: 12,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      },
-    ).addTo(map);
-    tiles.on("tileerror", () => setTileError(true));
-    let airports = data("airports").items;
-    for (let r of filtered) {
-      let from = airports[r.origin],
-        to = airports[r.destination];
-      let lng = to.lng < 0 ? to.lng + 360 : to.lng;
-      let color = getAir(r.airline).color;
-      L.polyline(
-        [
-          [from.lat, from.lng],
-          [to.lat, lng],
-        ],
-        { color, weight: 2.5, opacity: 0.8 },
-      ).addTo(map);
-      L.circleMarker([from.lat, from.lng], { radius: 4, color, fillOpacity: 1 })
-        .addTo(map)
-        .bindTooltip(r.origin + " " + from.name);
-      let content = document.createElement("span");
-      content.textContent = `${getAir(r.airline).name} · ${r.origin} → ${r.destination} ${to.name}`;
-      L.circleMarker([to.lat, lng], {
-        radius: 6,
-        color,
-        fillColor: color,
-        fillOpacity: 1,
-      })
-        .addTo(map)
-        .bindPopup(content);
-    }
-    L.circleMarker([25.08, 121.23], {
-      radius: 7,
-      color: "#163851",
-      fillColor: "#fff",
-      fillOpacity: 1,
-    })
-      .addTo(map)
-      .bindPopup("TPE 臺灣桃園");
-    let ro = new ResizeObserver(() => map.invalidateSize());
-    ro.observe(ref.current);
-    return () => {
-      ro.disconnect();
-      map.remove();
-    };
-  }, [air, region]);
-  return (
-    <div>
-      <div className="filters">
-        <label>
-          航空公司
-          <select value={air} onChange={(e) => setAir(e.target.value)}>
-            <option value="all">全部航空公司</option>
-            {airlines.map((a) => (
-              <option key={a.id} value={a.id}>
-                {a.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          區域
-          <select value={region} onChange={(e) => setRegion(e.target.value)}>
-            <option value="all">全部區域</option>
-            {regions.map((r) => (
-              <option key={r}>{r}</option>
-            ))}
-          </select>
-        </label>
-        <span className="filter-count">{filtered.length} 條已收錄航線</span>
-      </div>
-      <div ref={ref} className="route-map" aria-label="代表性航線互動地圖" />
-      {tileError && (
-        <p className="notice">
-          底圖暫時無法載入；已查核航線仍可由下方清單閱讀。
+      {historical && (
+        <p className="fineprint">
+          分型基準 {historical.as_of}；不同於2026年3月總數。
         </p>
       )}
-      <p className="fineprint">
-        代表性自營客運航線，非完整航網。連線為示意，非實際航路；不含共掛與貨運。無班次保證。
-      </p>
-      <div className="route-list">
-        {filtered.length ? (
-          filtered.map((r) => (
-            <article key={r.id}>
-              <span
-                className="airline-dot"
-                style={{ background: getAir(r.airline).color }}
-              />
-              <div>
-                <b>
-                  {r.origin} <span className="muted">→</span> {r.destination}
-                </b>
-                <p>
-                  {getAir(r.airline).name} ·{" "}
-                  {data("airports").items[r.destination].name}
-                </p>
-                <p>{r.aircraft || "機型派遣待查核"}</p>
-                {r.aircraft_source_url && (
-                  <a
-                    href={r.aircraft_source_url}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    機型派飛來源 ↗
-                  </a>
-                )}
-                <p>{r.note}</p>
-                <Source item={r} compact />
-              </div>
-            </article>
-          ))
-        ) : (
-          <Pending note="此篩選尚無已查核航線；不代表航空公司未營運該區域。" />
-        )}
-      </div>
     </div>
   );
 }
+function RouteMap(props) {
+  return <RouteNetwork {...props} Source={Source} />;
+}
 function AirlineCard({ a }) {
+  const snapshot = data(a.id + "/fleet").latest_confirmed_total;
   return (
     <article className="airline-card" style={{ "--brand": a.color }}>
       <div className="airline-card-head">
@@ -441,7 +339,12 @@ function AirlineCard({ a }) {
         {a.total.value !== null ? (
           <>
             <strong>{a.total.value}</strong>
-            <span>{a.id === "starlux" ? "架登記機隊" : "架機隊"}</span>
+            <span>架機隊</span>
+          </>
+        ) : snapshot ? (
+          <>
+            <strong>{snapshot.value}</strong>
+            <span>架 · 官方歷史快照</span>
           </>
         ) : (
           <strong className="pending-number">待查核</strong>
@@ -450,8 +353,11 @@ function AirlineCard({ a }) {
       <p className="fleet-date">
         {a.total.as_of
           ? "資料基準 " + a.total.as_of
-          : "當前總數 Data pending verification"}
+          : snapshot
+            ? "資料基準 2026年3月（來源未列日）"
+            : "當前總數 Data pending verification"}
       </p>
+      {snapshot && <Source item={snapshot} compact />}
       <div className="mini-facts">
         <div>
           <span>成立 Founded</span>
@@ -528,7 +434,7 @@ function Home({ openInterview }) {
       <div className="verification-strip">
         <ShieldCheck size={17} />
         <span>
-          Data verified through: <b>2026-10-13</b> ·
+          Data verified through: <b>2026-10-12</b> ·
           各資料基準日不同，未查核項目另行標示。
         </span>
         <a href="#sources">查看來源政策 ↗</a>
@@ -546,11 +452,14 @@ function Home({ openInterview }) {
         <section className="panel">
           <SectionTitle title="機隊組成" en="Fleet snapshot" link="compare" />
           <div className="two-charts">
-            {airlines.slice(0, 2).map((a) => (
+            {airlines.map((a) => (
               <div key={a.id}>
                 <h3>
                   {a.name}
-                  <small>{a.total.as_of}</small>
+                  <small>
+                    {a.total.as_of ||
+                      data(a.id + "/fleet").composition_snapshot?.as_of}
+                  </small>
                 </h3>
                 <Donut airline={a} />
               </div>
@@ -625,8 +534,8 @@ function Home({ openInterview }) {
       <section className="panel">
         <SectionTitle title="最近更新" en="Research log" />
         <p>
-          2026-10-13 · 新增華航與星宇共 122 筆機身編號、星宇 37
-          架登記機隊、航線任務、公司方向與中文面試練習。完整來源可逐項展開。
+          2026-10-11 ·
+          核對華航與長榮官方機隊表，建立星宇歷史交付紀錄、代表航線與面試題庫。完整來源可逐項展開。
         </p>
       </section>
     </>
@@ -727,6 +636,13 @@ function Timeline({ items, empty }) {
 function Fleet({ a, tab }) {
   const f = data(a.id + "/fleet");
   const [filter, setFilter] = useState("all");
+  const [aircraftType, setAircraftType] = useState("all");
+  useEffect(() => setAircraftType("all"), [a.id, filter]);
+  const visibleAircraft = f.items.filter(
+    (x) =>
+      (filter === "all" || x.kind === filter) &&
+      (aircraftType === "all" || x.aircraft_type === aircraftType),
+  );
   if (tab === "orders")
     return (
       <>
@@ -756,19 +672,48 @@ function Fleet({ a, tab }) {
     );
   return (
     <>
+      {f.latest_confirmed_total && (
+        <section
+          className="fleet-snapshot-summary"
+          aria-label="星宇官方機隊數量"
+        >
+          <div>
+            <span>最新已查核總數</span>
+            <strong>
+              {f.latest_confirmed_total.value}
+              <small> 架</small>
+            </strong>
+            <p>{f.latest_confirmed_total.as_of} · 登記機隊快照</p>
+            <Source item={f.latest_confirmed_total} compact />
+          </div>
+          <div>
+            <span>完整分型快照</span>
+            <strong>
+              {f.composition_snapshot.total}
+              <small> 架</small>
+            </strong>
+            <p>2025年12月31日 · 年末快照</p>
+            <Source item={f.composition_snapshot} compact />
+          </div>
+          <p className="fleet-snapshot-note">
+            兩個基準不同，勿混算。最新登記數不等於即時可執飛架數；2026年底43架另屬計畫。
+          </p>
+        </section>
+      )}
       <div className="fleet-layout">
         <section className="panel">
           <h3>{a.name} · 機隊組成</h3>
           <Donut airline={a} />
-          <Source item={a.total} />
+          <Source
+            item={a.total.value !== null ? a.total : f.composition_snapshot}
+          />
         </section>
         <div>
           <p className="notice">
-            機隊快照 · {a.total.as_of}。
             {a.id === "starlux"
-              ? "民航局登記口徑，不等於即時可用或正在執飛架數。"
-              : "航空公司公開機隊口徑。"}
-            訂單與未來計畫另列；機身名冊採民航局 2026-09-30 資料。
+              ? "分型數量採民航局2026年9月30日登記機隊；不代表當日可執飛架數。"
+              : "航空公司公開機隊快照；機身名冊另採民航局2026年9月30日資料。"}{" "}
+            訂單、未來計畫與已退役分開保存。未知值不視為 0。
           </p>
           <label>
             篩選機隊
@@ -778,27 +723,55 @@ function Fleet({ a, tab }) {
               <option value="cargo">貨運 Cargo</option>
             </select>
           </label>
+          <label className="aircraft-type-filter">
+            查看機型
+            <select
+              aria-label="查看機型"
+              value={aircraftType}
+              onChange={(e) => setAircraftType(e.target.value)}
+            >
+              <option value="all">全部機型</option>
+              {f.items
+                .filter((x) => filter === "all" || x.kind === filter)
+                .map((x) => (
+                  <option key={x.aircraft_type} value={x.aircraft_type}>
+                    {x.aircraft_type}
+                  </option>
+                ))}
+            </select>
+          </label>
           <div className="table-wrap">
             <table>
               <thead>
                 <tr>
                   <th>機型</th>
-                  <th>{a.id === "starlux" ? "登記數" : "機隊數"}</th>
+                  <th>{a.id === "starlux" ? "登記數量" : "機隊數量"}</th>
                   <th>任務</th>
                   <th>基準日</th>
                 </tr>
               </thead>
               <tbody>
-                {f.items
-                  .filter((x) => filter === "all" || x.kind === filter)
-                  .map((x) => (
-                    <tr key={x.aircraft_type}>
-                      <td>{x.aircraft_type}</td>
-                      <td>{x.current_fleet ?? "待查核"}</td>
-                      <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
-                      <td>{x.as_of || "待查核"}</td>
-                    </tr>
-                  ))}
+                {visibleAircraft.map((x) => (
+                  <tr key={x.aircraft_type}>
+                    <td>{x.aircraft_type}</td>
+                    <td>
+                      {x.current_fleet ??
+                        f.composition_snapshot?.rows.find(
+                          (row) => row.aircraft_type === x.aircraft_type,
+                        )?.quantity ??
+                        "待查核"}
+                    </td>
+                    <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
+                    <td>
+                      {x.as_of ||
+                        (f.composition_snapshot?.rows.some(
+                          (row) => row.aircraft_type === x.aircraft_type,
+                        )
+                          ? f.composition_snapshot.as_of
+                          : "待查核")}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
@@ -806,44 +779,46 @@ function Fleet({ a, tab }) {
       </div>
       <SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
-        {f.items
-          .filter((x) => filter === "all" || x.kind === filter)
-          .map((x) => (
-            <article className="aircraft-card" key={x.aircraft_type}>
-              <AircraftPhoto
-                key={a.id + x.aircraft_type}
-                aircraft={x}
-                airline={a.name}
-              />
-              <AircraftOverview aircraft={x} Source={Source} />
-              <details className="aircraft-detail">
-                <summary>
-                  {x.aircraft_type}{" "}
-                  <span>
-                    {x.kind === "cargo" ? "CARGO" : "PASSENGER"} ·
-                    查看規格與來源
-                  </span>
-                </summary>
-                <div className="spec-grid">
-                  {[
-                    "range",
-                    "main_routes",
-                    "first_delivery",
-                    "average_age",
-                    "replacement_plan",
-                    "future_orders",
-                  ].map((k) => (
-                    <div key={k}>
-                      <small>{x[k].label}</small>
-                      <p>{x[k].value ?? PENDING}</p>
-                      <Source item={x[k]} compact />
-                    </div>
-                  ))}
-                </div>
-                <Source item={x} />
-              </details>
-            </article>
-          ))}
+        {visibleAircraft.map((x) => (
+          <article className="aircraft-card" key={x.aircraft_type}>
+            <AircraftPhoto
+              key={a.id + x.aircraft_type}
+              aircraft={x}
+              airline={a.name}
+            />
+            <AircraftOverview aircraft={x} Source={Source} />
+            <details className="aircraft-detail">
+              <summary>
+                {x.aircraft_type}{" "}
+                <span>
+                  {x.kind === "cargo" ? "CARGO" : "PASSENGER"} · 查看規格與來源
+                </span>
+              </summary>
+              <div className="spec-grid">
+                {[
+                  "range",
+                  "main_routes",
+                  "first_delivery",
+                  "average_age",
+                  "replacement_plan",
+                  "future_orders",
+                ].map((k) => (
+                  <div key={k}>
+                    <small>{x[k].label}</small>
+                    <p>
+                      {k === "first_delivery"
+                        ? formatEventDate(x[k].value)
+                        : (x[k].value ?? PENDING)}
+                    </p>
+                    <EventDates ids={x[k].event_ids} />
+                    <Source item={x[k]} compact />
+                  </div>
+                ))}
+              </div>
+              <Source item={x} />
+            </details>
+          </article>
+        ))}
       </div>
       <SectionTitle title="機隊歷史時間軸" en="Fleet timeline" />
       {f.history.length ? (
@@ -852,6 +827,7 @@ function Fleet({ a, tab }) {
             <article key={i}>
               <b>{e.date}</b>
               <p>{e.label}</p>
+              <EventDates ids={e.event_ids} />
               <Source item={e} />
             </article>
           ))}
@@ -869,31 +845,84 @@ function Fleet({ a, tab }) {
 }
 function Finance({ a, openInterview }) {
   const f = data(a.id + "/financials");
+  const chapters = [
+    ...(f.history?.length ? [["trend", "歷年圖表"]] : []),
+    ["mix", "營收結構"],
+    ...(a.id !== "eva-air"
+      ? [
+          ["profit", "損益比較"],
+          ["cash", "現金流與投資"],
+        ]
+      : []),
+    ["summary", "財務摘要"],
+  ];
   return (
-    <>
+    <div className="finance-page">
       <p className="notice">
         {f.period} · {f.scope}。本版不把公司本體和合併集團數字視為完全相同規模。
       </p>
-      <FinanceVisuals f={f} Source={Source} />
-      <FactCards
-        records={[
-          {
-            ...f.revenue,
-            value:
-              f.revenue.value === null
-                ? null
-                : f.revenue.value + " " + f.revenue.unit,
-          },
-          {
-            ...f.eps,
-            value: f.eps.value === null ? null : f.eps.value + " " + f.eps.unit,
-          },
-        ]}
-        openInterview={openInterview}
-        airline={a.id}
-      />
+      <nav className="finance-section-nav" aria-label="財務頁章節跳轉">
+        {chapters.map(([id, label]) => (
+          <button
+            key={id}
+            onClick={() => {
+              const chapter = document.getElementById(`finance-${a.id}-${id}`);
+              chapter?.setAttribute("tabindex", "-1");
+              chapter?.focus({ preventScroll: true });
+              chapter?.scrollIntoView({
+                behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
+                  .matches
+                  ? "instant"
+                  : "smooth",
+                block: "start",
+              });
+            }}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+      {f.history?.length && (
+        <section id={`finance-${a.id}-trend`} className="finance-chapter">
+          <FinanceVisuals f={f} Source={Source} />
+        </section>
+      )}
+      <section id={`finance-${a.id}-mix`} className="finance-chapter">
+        <RevenueMix airline={a.id} Source={Source} />
+      </section>
+      {a.id !== "eva-air" && (
+        <>
+          <section id={`finance-${a.id}-profit`} className="finance-chapter">
+            <AnnualPerformance airline={a.id} Source={Source} />
+            {a.id === "starlux" && <EarningsBridge Source={Source} />}
+          </section>
+          <section id={`finance-${a.id}-cash`} className="finance-chapter">
+            <CashFlowResearch airline={a.id} Source={Source} />
+          </section>
+        </>
+      )}
+      <section id={`finance-${a.id}-summary`} className="finance-chapter">
+        <FactCards
+          records={[
+            {
+              ...f.revenue,
+              value:
+                f.revenue.value === null
+                  ? null
+                  : f.revenue.value + " " + f.revenue.unit,
+            },
+            {
+              ...f.eps,
+              value:
+                f.eps.value === null ? null : f.eps.value + " " + f.eps.unit,
+            },
+          ]}
+          openInterview={openInterview}
+          airline={a.id}
+        />
+      </section>
       <p className="fineprint">{f.note} 本頁供公司研究，非投資建議。</p>
-    </>
+    </div>
   );
 }
 const researchGroups = data("research-groups");
@@ -969,9 +998,25 @@ function Airline({ a, tab = "overview", openInterview }) {
           .map((id) => sections.find((s) => s.id === id)?.zh)
           .join(" · ")}
       </p>
-      {group.id === "fleet" ? (
+      {group.id === "overview" ? (
         <>
-          {part("機隊快照與機型資料", <Fleet a={a} tab="fleet" />)}
+          {part(
+            "公司歷史時間軸",
+            <CompanyTimeline airline={a.id} Source={Source} />,
+          )}
+          {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}
+        </>
+      ) : group.id === "operations" ? (
+        <>
+          <OperationsResearch airline={a.id} Source={Source} />
+          {part(
+            "已公開的服務與修護細節",
+            facts(["passenger", "cargo", "maintenance"]),
+          )}
+        </>
+      ) : group.id === "fleet" ? (
+        <>
+          {part("現役機隊與機型資料", <Fleet a={a} tab="fleet" />)}
           {part("訂單與未來交付", <Fleet a={a} tab="orders" />)}
           {part("機隊更新", facts(["renewal"]))}
         </>
@@ -980,7 +1025,10 @@ function Airline({ a, tab = "overview", openInterview }) {
           <section className="panel">
             <RouteMap initial={a.id} />
           </section>
-          {part("樞紐與合作關係", facts(["hubs", "alliances", "codeshare"]))}
+          {part(
+            "營運統計、樞紐與合作關係",
+            facts(["routes", "hubs", "alliances", "codeshare"]),
+          )}
         </>
       ) : group.id === "finance" ? (
         <Finance a={a} openInterview={openInterview} />
@@ -1023,7 +1071,7 @@ function Airline({ a, tab = "overview", openInterview }) {
         <QuestionBank initial={a.id} openInterview={openInterview} />
       ) : group.id === "strategy" ? (
         <>
-          {facts(["strategy", "advantages", "risks", "future"])}
+          {<StrategyResearch airline={a.id} Source={Source} />}
           {part(
             "已查核動態",
             <>
@@ -1032,9 +1080,6 @@ function Airline({ a, tab = "overview", openInterview }) {
                 .map((n) => (
                   <NewsCard key={n.id} n={n} />
                 ))}
-              {a.id === "starlux" && (
-                <Pending note="本週（10/05–10/11）尚無已查核新聞；上方為較早背景事件。" />
-              )}
             </>,
           )}
         </>
@@ -1057,7 +1102,9 @@ function comparisonValue(a, key) {
     case "fleet":
       return a.total.value !== null
         ? `${a.total.value} 架 (${a.total.as_of})`
-        : PENDING;
+        : f.latest_confirmed_total
+          ? `${f.latest_confirmed_total.value} 架（${f.latest_confirmed_total.as_of}，歷史快照）`
+          : PENDING;
     case "age":
       return rec(a.age);
     case "types":
@@ -1299,7 +1346,7 @@ function QuestionBank({
       (difficulty === "all" || q.difficulty === difficulty) &&
       (mode === "all" ||
         (mode === "saved" ? saved : mastered).includes(q.id)) &&
-      `${q.question} ${q.question_en} ${q.keywords}`
+      `${q.question} ${q.question_en} ${q.keywords} ${q.practice_group || ""}`
         .toLowerCase()
         .includes(query.toLowerCase()),
   );
@@ -1376,8 +1423,9 @@ function QuestionBank({
             onChange={(e) => setDifficulty(e.target.value)}
           >
             <option value="all">全部難度</option>
-            <option>基礎</option>
-            <option>中階</option>
+            {[...new Set(bank.map((q) => q.difficulty))].map((level) => (
+              <option key={level}>{level}</option>
+            ))}
           </select>
         </label>
         <label>
@@ -1413,6 +1461,9 @@ function QuestionBank({
             </div>
             <h3>{q.question}</h3>
             <p>{q.question_en}</p>
+            {q.practice_group && (
+              <p className="fineprint">{q.practice_group}</p>
+            )}
             <div className="question-bottom">
               {q.keywords.slice(0, 2).map((k) => (
                 <span key={k}>{k}</span>
@@ -1518,7 +1569,8 @@ function InterviewDialog({
           <RotateCcw size={15} />
         </button>
       </div>
-      <AnswerView q={q} length={length} />
+      <AnswerView q={q} length={length} Source={Source} />
+      <EventDates ids={q.event_ids} />
       <Source item={q} />
       <label className="notes-label">
         我的口說筆記
@@ -1550,7 +1602,7 @@ function Sources() {
       <Heading
         eyebrow="EVIDENCE BEFORE ANSWERS"
         title="來源與查核"
-        description="官方資料優先，未知就留白。資料查核日依各筆來源列示；最近查核 2026-10-13。"
+        description="官方資料優先，逐筆保留查核日期。星宇面試背景與事件日期最近查核：2026-10-12。"
       />
       <div className="facts-grid">
         {[

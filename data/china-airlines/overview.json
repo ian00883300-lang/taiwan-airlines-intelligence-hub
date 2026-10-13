@@ -130,9 +130,7 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": "2012-12-31",
-        "source_id": "ciFounding",
-        "event_date": "1959-12-16",
-        "body": "公司成立。成立日期依既列官方歷史資料。"
+        "source_id": "ciFounding"
       },
       {
         "label": "聯盟",
@@ -143,8 +141,7 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "as_of": "2011-09-28",
-        "source_id": "ciAlliance",
-        "event_date": "2011-09-28"
+        "source_id": "ciAlliance"
       }
     ],
     "governance": [
@@ -158,6 +155,53 @@
         "status": "confirmed",
         "as_of": "2025-12-31",
         "source_id": "ciEsg"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "證券代號與上市日期",
+        "value": "2610；上市日期1993年2月26日。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "董事長與總經理",
+        "value": "董事長高星潢；總經理陳漢銘。2026年10月11日公開資料快照。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "實收資本額與普通股股數",
+        "value": "實收資本額61,449,885,580元；已發行普通股6,144,988,558股。",
+        "note": "股本與股數不是市值；市值另需同一時間的市場價格，本版不加入未核實即時股價。"
+      },
+      {
+        "source": "證交所OpenAPI｜上市公司基本資料（2610）",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "published_date": null,
+        "as_of": "2026-10-11",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciStock",
+        "label": "成立日期來源差異",
+        "value": "華航沿革記錄1959年12月16日；證交所「成立日期」欄列1959年9月7日。差異待釐清，兩者不互相取代。",
+        "corroboration_url": "https://calec.china-airlines.com/csr/en/download/2012/2012-Sustainable-Environment-Report_en.pdf",
+        "note": "只呈現兩來源原始日期；尚未取得證據說明差異原因，不推測為登記日或營運日。"
       }
     ],
     "organization": [
@@ -211,10 +255,34 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-11",
         "status": "planned"
+      },
+      {
+        "source": "華航｜777X客貨機原始簽約",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+        "published_date": "2025-05-08",
+        "as_of": "2025-05-08",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ci777X",
+        "title": "777X簽約與後續訂單分階段",
+        "body": "2025年5月8日原始簽約公告為777-9客機10架、777-8F貨機4架，另有合計9架選購權；原稿預定2030年起交付。2025營運績效另確認選購權轉正式訂單後為15架與8架，既有訂單表保留年末正式總數，不能把兩次資料相加。",
+        "corroboration_url": "https://calec.china-airlines.com/csr/management_vision.html"
       }
     ],
     "technical": [],
-    "routes": [],
+    "routes": [
+      {
+        "title": "2025航點統計口徑",
+        "body": "官方績效頁記錄2025客運72個航點，貨運33個貨機航點（包含客貨機與純貨機航點），並記錄新增客運PHX與貨運YYZ。客運與貨運航點不能相加作為不重複總航點；網站地圖仍只展示已收錄的代表航線。",
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciOperations2025"
+      }
+    ],
     "hubs": [
       {
         "label": "樞紐",
@@ -252,19 +320,30 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "source": "華航｜台北—鳳凰城實際首航",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
+        "published_date": "2025-12-03",
+        "as_of": "2025-12-03",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciPhxActual",
+        "title": "鳳凰城聯程票與北美合作",
+        "body": "2025年12月3日首航稿列西南航空、阿拉斯加航空、西捷航空及太陽城航空聯程機票銜接。聯程票不是共掛班號；這些夥伴轉機城市也不算華航自營直航航點。"
       }
     ],
     "passenger": [
       {
-        "label": "客運業務",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "2025全年載客與旅客調查",
+        "body": "華航官方2025績效頁記錄全年載客11,746,082人次，較2024年增加2.46%；2025年1至12月旅客淨推薦值NPS為73.3。載客人次不是獨立旅客人數；NPS不當作航空安全指標。",
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "source_id": "ciOperations2025"
       }
     ],
     "cargo": [
@@ -279,6 +358,17 @@
         "as_of": "2026-09-30",
         "source_id": "ciFleet",
         "note": "8 架 747-400F + 10 架 777F；不含客機腹艙。"
+      },
+      {
+        "source": "華航｜貨運AI客服上線",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260615.html",
+        "published_date": "2026-06-15",
+        "as_of": "2026-06-15",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciCargoAi",
+        "title": "貨運AI客服與數位服務",
+        "body": "2026年6月15日官方公告貨運AI客服於官網與App上線，服務包括航班資訊、貨況追蹤及知識問答，支援多語系與24小時查詢。這是客服查詢能力，不代表貨物自動核准承運、保證艙位或已完成報關。"
       }
     ],
     "maintenance": [
@@ -335,6 +425,18 @@
       }
     ],
     "saf": [
+      {
+        "source": "華航｜長程SAF示範與Book & Claim",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260914.html",
+        "published_date": "2026-09-14",
+        "as_of": "2026-09-14",
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "source_id": "ciSaf40",
+        "title": "2026長程SAF示範：Book & Claim",
+        "body": "2026年9月13日CI073台北—阿姆斯特丹示範航班；2026年9月14日公告以Book & Claim方式提升SAF使用比例至40%，總量36.3公噸。這是該示範的宣告口徑，不能解讀成全航網40%使用率，亦不能直接推定為該班機油箱實際混合比例。",
+        "note": "Book & Claim將SAF的環境屬性與實際燃料供應鏈安排連結；原稿明示此方式，避免把權益宣告與機上物理加油比例混用。"
+      },
       {
         "title": "SAF 供應合作",
         "body": "2025-07-22 公告未來三年向台塑石化採購逾一萬噸 SAF；這是採購安排，不代表公布當日已全數使用。",

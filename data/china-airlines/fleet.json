@@ -1865,6 +1865,17 @@
   ],
   "history": [
     {
+      "source": "華航｜777X客貨機原始簽約",
+      "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+      "published_date": "2025-05-08",
+      "as_of": "2025-05-08",
+      "verified_date": "2026-10-13",
+      "status": "confirmed",
+      "source_id": "ci777X",
+      "date": "2025-05-08",
+      "label": "777X原始簽約：777-9 10架、777-8F 4架，另9架選購權；不同於2025年末轉正式訂單後總數。"
+    },
+    {
       "date": "2026-09-30",
       "label": "官方現役快照：85 架（客機 67／貨機 18）",
       "source": "中華航空｜營運概況",
@@ -1888,6 +1899,17 @@
       "as_of": "2025-03-31",
       "verified_date": "2026-10-11",
       "status": "planned"
+    },
+    {
+      "source": "華航｜777X客貨機原始簽約",
+      "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250508.html",
+      "published_date": "2025-05-08",
+      "as_of": "2025-05-08",
+      "verified_date": "2026-10-13",
+      "status": "planned",
+      "source_id": "ci777X",
+      "date": "2030年起（原始公告計畫，逐架交機日未確認）",
+      "label": "2025年5月8日公告預計777-9／777-8F自2030年起交付；不是已交機或確定逐架日期。"
     }
   ],
   "replacement_timeline": [
