@@ -1117,5 +1117,39 @@
     "verified_date": "2026-10-13",
     "as_of": null,
     "status": "confirmed"
+  },
+  {
+    "id": "ciLaxLiveryRecord",
+    "source": "華航｜動物方城市 2 彩繪機正式啟航",
+    "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+    "published_date": "2025-11-19",
+    "as_of": "2025-11-19",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "note": "彩繪機派飛紀錄；不是洛杉磯航線首次開航。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
+    "level": 1
+  },
+  {
+    "id": "jxSeaActualAircraft",
+    "source": "西雅圖港務局｜星宇西雅圖首航",
+    "source_url": "https://www.portseattle.org/news/starlux-airlines-takes-skies-nonstop-service-sea-taipei",
+    "published_date": "2024-08-17",
+    "as_of": "2024-08-16",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "note": "機場於 2024-08-17 報導前一日抵達的首航，故事件日期為 2024-08-16。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
+    "level": 3
+  },
+  {
+    "id": "jxOntActualAircraft",
+    "source": "桃園機場｜Quarterly Issue 28（2025 年 8 月），第 2 頁",
+    "source_url": "https://www.taoyuan-airport.com/api/imagecrop/fileid/6F4B2B99-5E8C-F011-BC16-0050569094FE",
+    "published_date": null,
+    "publication_month": "2025-08",
+    "as_of": "2025-06-02",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "note": "桃園機場季刊確認 2025-06-02 開航及 A350-900 配置；刊物僅標示出版月份。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
+    "level": 3
   }
 ]

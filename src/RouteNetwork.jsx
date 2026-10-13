@@ -353,7 +353,13 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               <p>{r.aircraft_note}</p>
                             </details>
                           )}
-                          {r.aircraft_source_url && (
+                          {r.aircraft_evidence && (
+                            <div aria-label="機型證據">
+                              <small>機型紀錄來源與日期</small>
+                              <Source item={r.aircraft_evidence} compact />
+                            </div>
+                          )}
+                          {!r.aircraft_evidence && r.aircraft_source_url && (
                             <a
                               href={r.aircraft_source_url}
                               target="_blank"

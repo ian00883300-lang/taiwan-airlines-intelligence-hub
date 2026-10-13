@@ -17,9 +17,7 @@
       "source_id": "ciPhxActual",
       "corroboration_url": "https://www.china-airlines.com/at/de/about-china-airlines/media/news/20250919",
       "note": "2025年12月3日CI036台北出發實際首航，官方事後稿件確認；航班日與派飛機型是該次首航紀錄，不保證今日班表。",
-      "event_ids": [
-        "china-airlines-phx-inaugural"
-      ],
+      "event_ids": ["china-airlines-phx-inaugural"],
       "evidence_kind": "confirmed_inaugural",
       "aircraft": "A350-900（2025-12-03 首航公告）",
       "aircraft_source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20251203-PHX.html",
@@ -39,9 +37,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-JFK-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-JFK-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -59,11 +55,22 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-LAX-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-LAX-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "aircraft": "777-300ER（2025-11-19 彩繪機派飛紀錄）",
+      "aircraft_evidence": {
+        "source": "華航｜動物方城市 2 彩繪機正式啟航",
+        "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+        "published_date": "2025-11-19",
+        "as_of": "2025-11-19",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciLaxLiveryRecord",
+        "note": "彩繪機派飛紀錄；不是洛杉磯航線首次開航。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
+      },
+      "aircraft_source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+      "aircraft_note": "彩繪機派飛紀錄；不是洛杉磯航線首次開航。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
     },
     {
       "id": "china-airlines-TPE-ONT",
@@ -79,9 +86,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-ONT-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-ONT-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -99,9 +104,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-SFO-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-SFO-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -119,9 +122,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-SEA-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-SEA-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -139,9 +140,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-YVR-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-YVR-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -159,9 +158,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-NRT-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-NRT-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
       "aircraft": "A350-900",
@@ -182,9 +179,7 @@
       "verified_date": "2026-10-12",
       "status": "confirmed",
       "source_id": "ciRoute",
-      "event_ids": [
-        "china-airlines-TPE-LHR-inaugural"
-      ],
+      "event_ids": ["china-airlines-TPE-LHR-inaugural"],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
     },
@@ -204,9 +199,7 @@
       "region": "Japan",
       "aircraft": "A321neo",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-RMQ-OKA-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-RMQ-OKA-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -225,9 +218,7 @@
       "region": "Japan",
       "aircraft": "A321neo",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-KHH-OKA-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-KHH-OKA-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -246,9 +237,7 @@
       "region": "Southeast Asia",
       "aircraft": "A321neo",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-KHH-MNL-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-KHH-MNL-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -267,9 +256,7 @@
       "region": "Europe",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-FCO-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-FCO-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -288,9 +275,7 @@
       "region": "Europe",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-VIE-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-VIE-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -309,9 +294,7 @@
       "region": "Southeast Asia",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-SIN-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-SIN-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -330,9 +313,7 @@
       "region": "Oceania",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-BNE-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-BNE-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -351,9 +332,7 @@
       "region": "Oceania",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-BNE-AKL-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-BNE-AKL-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -372,9 +351,7 @@
       "region": "Oceania",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-MEL-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-MEL-inaugural-pending"],
       "evidence_kind": "official_configuration"
     },
     {
@@ -393,9 +370,7 @@
       "region": "Southeast Asia",
       "aircraft": "A350-900",
       "route_type": "self_operated_passenger",
-      "event_ids": [
-        "china-airlines-TPE-BKK-inaugural-pending"
-      ],
+      "event_ids": ["china-airlines-TPE-BKK-inaugural-pending"],
       "evidence_kind": "official_configuration"
     }
   ]

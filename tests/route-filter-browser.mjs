@@ -27,10 +27,18 @@ try {
       (await p.locator(".route-table").innerText()).includes("KHH → MNL"),
     );
     await p.getByLabel("選擇機型", { exact: true }).selectOption("777-300ER");
+    assert.equal(await p.locator("tr[data-route]").count(), 1);
+    assert.ok(
+      (await p.locator(".route-table").innerText()).includes("TPE → LAX"),
+    );
+    await p.getByLabel("選擇機型", { exact: true }).selectOption("A330-300");
     assert.ok(
       (await p.locator(".route-list").innerText()).includes("Data pending"),
     );
     await p.getByLabel("航空公司", { exact: true }).selectOption("starlux");
+    await p.getByLabel("選擇機型", { exact: true }).selectOption("A350-900");
+    assert.equal(await p.locator("tr[data-route]").count(), 2);
+    assert.equal(await p.getByLabel("機型證據", { exact: true }).count(), 2);
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A350-1000");
     assert.equal(await p.locator("tr[data-route]").count(), 3);
     assert.equal(await p.locator(".continent-heading").count(), 3);
