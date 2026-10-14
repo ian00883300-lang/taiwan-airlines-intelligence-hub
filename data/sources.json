@@ -1511,5 +1511,16 @@
     "status": "announced",
     "source_id": "jxBusanAircraft2026",
     "level": 1
+  },
+  {
+    "id": "jxAirsorayamaAnnouncement",
+    "source": "星宇航空官方供稿｜AIRSORAYAMA 藝術計畫（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/424811",
+    "published_date": "2026-01-27",
+    "as_of": "2026-01-27",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "source_id": "jxAirsorayamaAnnouncement",
+    "level": 1
   }
 ]

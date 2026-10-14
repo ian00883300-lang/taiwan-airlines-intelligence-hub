@@ -1,0 +1,25 @@
+import { chromium } from 'playwright';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844}});
+const base=process.env.TEST_URL || 'http://127.0.0.1:5173/';
+try {
+  await page.goto(base+'#china-airlines/fleet');
+  const input=page.getByLabel('A350-900 搜尋機身編號',{exact:true});
+  await input.fill('B-18919');
+  const card=page.locator('.registration-list > div').filter({has:page.getByText('B-18919',{exact:true})});
+  await card.getByText('飛行時數與維修快照',{exact:false}).click();
+  assert.match(await card.innerText(),/23850:16/);
+  assert.match(await card.innerText(),/2025-07-13/);
+  await input.fill('B-18922');
+  const newer=page.locator('.registration-list > div').filter({has:page.getByText('B-18922',{exact:true})});
+  assert.equal(await newer.locator('details').count(),0);
+  await page.goto(base+'#starlux/fleet');
+  await page.getByLabel('A350-1000 搜尋機身編號',{exact:true}).fill('B-58554');
+  const gold=page.locator('.registration-list > div').filter({has:page.getByText('B-58554',{exact:true})});
+  await gold.getByText('機身歷史',{exact:true}).click();
+  assert.match(await gold.innerText(),/Gold/);
+  assert.match(await gold.innerText(),/不是交付日或首航日/);
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  console.log('PASS tail lookup, dated utilization, missing snapshot, livery provenance and mobile width');
+} finally {await browser.close();}

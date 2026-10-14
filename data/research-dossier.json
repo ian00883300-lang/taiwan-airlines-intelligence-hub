@@ -998,6 +998,19 @@
           "source_id": "jxArtProject"
         },
         {
+          "date": "2026-01-27",
+          "label": "公布 AIRSORAYAMA 雙機藝術計畫",
+          "body": "B-58553 為 Silver、B-58554 為 Gold；此為企劃發表日期，不是航機交付或營運首航。",
+          "date_kind": "announcement",
+          "source": "星宇航空官方供稿｜AIRSORAYAMA 藝術計畫（中央社訊息平台）",
+          "source_url": "https://www.cna.com.tw/business/chinese/424811",
+          "published_date": "2026-01-27",
+          "as_of": "2026-01-27",
+          "verified_date": "2026-10-14",
+          "status": "announced",
+          "source_id": "jxAirsorayamaAnnouncement"
+        },
+        {
           "date": "2026-02-10",
           "label": "A350-1000首次載客",
           "body": "JX802桃園—成田；為機型首次載客，不是航線最早開航。",

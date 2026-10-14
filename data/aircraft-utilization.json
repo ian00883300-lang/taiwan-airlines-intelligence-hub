@@ -398,6 +398,398 @@
       "cycles": 287,
       "last_c_check": null,
       "source_page": 9
+    },
+    "B-18123": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "1572:58",
+      "cycles": 691,
+      "last_c_check": null,
+      "source_page": 2
+    },
+    "B-18125": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "14:23",
+      "cycles": 3,
+      "last_c_check": null,
+      "source_page": 2
+    },
+    "B-18135": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "28:24",
+      "cycles": 10,
+      "last_c_check": null,
+      "source_page": 2
+    },
+    "B-18136": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "30:27",
+      "cycles": 14,
+      "last_c_check": null,
+      "source_page": 2
+    },
+    "B-18306": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "54916:48",
+      "cycles": 23012,
+      "last_c_check": "2025-09-11",
+      "source_page": 2
+    },
+    "B-18307": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "56994:34",
+      "cycles": 23038,
+      "last_c_check": "2025-07-09",
+      "source_page": 2
+    },
+    "B-18308": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "56018:44",
+      "cycles": 22411,
+      "last_c_check": "2025-08-08",
+      "source_page": 2
+    },
+    "B-18309": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "56359:37",
+      "cycles": 23122,
+      "last_c_check": "2026-04-27",
+      "source_page": 2
+    },
+    "B-18311": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "65981:15",
+      "cycles": 21553,
+      "last_c_check": "2025-06-07",
+      "source_page": 2
+    },
+    "B-18315": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "63072:49",
+      "cycles": 20437,
+      "last_c_check": "2026-01-19",
+      "source_page": 2
+    },
+    "B-18316": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "62130:32",
+      "cycles": 21072,
+      "last_c_check": "2026-02-09",
+      "source_page": 2
+    },
+    "B-18317": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "61507:06",
+      "cycles": 20435,
+      "last_c_check": "2026-06-13",
+      "source_page": 2
+    },
+    "B-18358": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "45515:26",
+      "cycles": 14338,
+      "last_c_check": "2026-01-09",
+      "source_page": 2
+    },
+    "B-18359": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "44095:42",
+      "cycles": 14247,
+      "last_c_check": "2025-10-29",
+      "source_page": 2
+    },
+    "B-18360": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "40343:24",
+      "cycles": 13103,
+      "last_c_check": "2025-03-21",
+      "source_page": 2
+    },
+    "B-18361": {
+      "aircraft_variant": "A330-300",
+      "flight_hours": "39000:23",
+      "cycles": 12372,
+      "last_c_check": "2025-12-10",
+      "source_page": 2
+    },
+    "B-18651": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "28280:03",
+      "cycles": 13843,
+      "last_c_check": "2024-11-12",
+      "source_page": 2
+    },
+    "B-18652": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "27540:23",
+      "cycles": 13182,
+      "last_c_check": "2026-06-29",
+      "source_page": 2
+    },
+    "B-18653": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "27203:28",
+      "cycles": 12650,
+      "last_c_check": "2025-03-02",
+      "source_page": 2
+    },
+    "B-18660": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "19673:37",
+      "cycles": 9815,
+      "last_c_check": "2025-09-28",
+      "source_page": 2
+    },
+    "B-18663": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "17413:26",
+      "cycles": 9256,
+      "last_c_check": "2025-10-12",
+      "source_page": 2
+    },
+    "B-18665": {
+      "aircraft_variant": "737-800",
+      "flight_hours": "17363:45",
+      "cycles": 8860,
+      "last_c_check": "2026-04-18",
+      "source_page": 2
+    },
+    "B-18717": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "91017:19",
+      "cycles": 17580,
+      "last_c_check": "2025-05-10",
+      "source_page": 2
+    },
+    "B-18718": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "90621:51",
+      "cycles": 17554,
+      "last_c_check": "2025-06-23",
+      "source_page": 2
+    },
+    "B-18719": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "87862:59",
+      "cycles": 16848,
+      "last_c_check": "2025-01-04",
+      "source_page": 2
+    },
+    "B-18720": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "88984:16",
+      "cycles": 17229,
+      "last_c_check": "2026-03-28",
+      "source_page": 2
+    },
+    "B-18721": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "87269:45",
+      "cycles": 17371,
+      "last_c_check": "2024-07-16",
+      "source_page": 3
+    },
+    "B-18722": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "84404:14",
+      "cycles": 15903,
+      "last_c_check": "2025-12-10",
+      "source_page": 3
+    },
+    "B-18723": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "83756:24",
+      "cycles": 16452,
+      "last_c_check": "2026-01-10",
+      "source_page": 3
+    },
+    "B-18725": {
+      "aircraft_variant": "747-400F",
+      "flight_hours": "76241:50",
+      "cycles": 14856,
+      "last_c_check": "2026-05-19",
+      "source_page": 3
+    },
+    "B-18771": {
+      "aircraft_variant": "777F",
+      "flight_hours": "33275:29",
+      "cycles": 3954,
+      "last_c_check": "2023-12-19",
+      "source_page": 3
+    },
+    "B-18772": {
+      "aircraft_variant": "777F",
+      "flight_hours": "33556:02",
+      "cycles": 3997,
+      "last_c_check": "2024-01-27",
+      "source_page": 3
+    },
+    "B-18773": {
+      "aircraft_variant": "777F",
+      "flight_hours": "32950:42",
+      "cycles": 3955,
+      "last_c_check": "2024-02-06",
+      "source_page": 3
+    },
+    "B-18775": {
+      "aircraft_variant": "777F",
+      "flight_hours": "24972:56",
+      "cycles": 3526,
+      "last_c_check": "2025-02-23",
+      "source_page": 3
+    },
+    "B-18776": {
+      "aircraft_variant": "777F",
+      "flight_hours": "20309:01",
+      "cycles": 2994,
+      "last_c_check": "2026-01-09",
+      "source_page": 3
+    },
+    "B-18777": {
+      "aircraft_variant": "777F",
+      "flight_hours": "18314:47",
+      "cycles": 2740,
+      "last_c_check": "2026-04-13",
+      "source_page": 3
+    },
+    "B-18778": {
+      "aircraft_variant": "777F",
+      "flight_hours": "16940:31",
+      "cycles": 2559,
+      "last_c_check": null,
+      "source_page": 3
+    },
+    "B-18779": {
+      "aircraft_variant": "777F",
+      "flight_hours": "6319:34",
+      "cycles": 975,
+      "last_c_check": null,
+      "source_page": 3
+    },
+    "B-18780": {
+      "aircraft_variant": "777F",
+      "flight_hours": "11527:28",
+      "cycles": 1787,
+      "last_c_check": null,
+      "source_page": 3
+    },
+    "B-18781": {
+      "aircraft_variant": "777F",
+      "flight_hours": "11193:20",
+      "cycles": 1753,
+      "last_c_check": null,
+      "source_page": 3
+    },
+    "B-18901": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "43131:18",
+      "cycles": 6331,
+      "last_c_check": "2025-05-06",
+      "source_page": 3
+    },
+    "B-18902": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "40946:05",
+      "cycles": 6073,
+      "last_c_check": "2025-09-07",
+      "source_page": 3
+    },
+    "B-18903": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "42711:38",
+      "cycles": 6097,
+      "last_c_check": "2025-11-03",
+      "source_page": 3
+    },
+    "B-18905": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "42703:50",
+      "cycles": 6026,
+      "last_c_check": "2025-11-03",
+      "source_page": 3
+    },
+    "B-18906": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "41193:38",
+      "cycles": 5776,
+      "last_c_check": "2026-01-19",
+      "source_page": 3
+    },
+    "B-18907": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "40954:46",
+      "cycles": 5768,
+      "last_c_check": "2026-02-11",
+      "source_page": 3
+    },
+    "B-18908": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "39841:17",
+      "cycles": 5436,
+      "last_c_check": "2026-04-28",
+      "source_page": 3
+    },
+    "B-18909": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "39935:02",
+      "cycles": 5469,
+      "last_c_check": "2026-05-19",
+      "source_page": 3
+    },
+    "B-18910": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "39245:49",
+      "cycles": 5299,
+      "last_c_check": "2026-06-05",
+      "source_page": 3
+    },
+    "B-18912": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "38997:06",
+      "cycles": 5291,
+      "last_c_check": "2023-11-08",
+      "source_page": 3
+    },
+    "B-18915": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "37425:52",
+      "cycles": 5101,
+      "last_c_check": "2023-12-15",
+      "source_page": 3
+    },
+    "B-18916": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "37063:35",
+      "cycles": 5029,
+      "last_c_check": "2024-01-25",
+      "source_page": 3
+    },
+    "B-18917": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "35806:23",
+      "cycles": 4845,
+      "last_c_check": "2024-05-26",
+      "source_page": 3
+    },
+    "B-18918": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "34803:46",
+      "cycles": 4767,
+      "last_c_check": "2024-09-10",
+      "source_page": 3
+    },
+    "B-18919": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "23850:16",
+      "cycles": 2939,
+      "last_c_check": "2025-07-13",
+      "source_page": 4
+    },
+    "B-18920": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "17761:16",
+      "cycles": 4896,
+      "last_c_check": "2026-03-29",
+      "source_page": 4
     }
   }
 }

@@ -794,7 +794,7 @@
         "verified_date": "2026-10-13",
         "as_of": null,
         "status": "announced",
-        "note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。"
+        "note": "2026-10-01 起主題班表列 JX800/801（成田）、JX25/26（鳳凰城，至 11 月 30 日）、JX101/102（布拉格）。布拉格週一加班為一般塗裝；主題機仍可因維修或調度替換，不能保證特定機身編號。"
       },
       "first_delivery": {
         "label": "首次交付（土魯斯當地）",
@@ -933,14 +933,34 @@
             "tail": "B-58553",
             "type": "A350-1000",
             "manufactured": "2026-06-30",
-            "age_years": 0.25
+            "age_years": 0.25,
+            "history": {
+              "source": "星宇航空官方供稿｜AIRSORAYAMA 藝術計畫（中央社訊息平台）",
+              "source_url": "https://www.cna.com.tw/business/chinese/424811",
+              "published_date": "2026-01-27",
+              "as_of": "2026-01-27",
+              "verified_date": "2026-10-14",
+              "status": "announced",
+              "source_id": "jxAirsorayamaAnnouncement",
+              "value": "2026-01-27 官方公布 B-58553 為 AIRSORAYAMA Silver（銀色）藝術機，與空山基合作；塗裝以特殊雲母及多層塗佈呈現金屬效果。當時預計第三季投入營運，公告日不是交付日或首航日。"
+            }
           },
           {
             "airline": "星宇航空",
             "tail": "B-58554",
             "type": "A350-1000",
             "manufactured": "2026-08-10",
-            "age_years": 0.1388888888888889
+            "age_years": 0.1388888888888889,
+            "history": {
+              "source": "星宇航空官方供稿｜AIRSORAYAMA 藝術計畫（中央社訊息平台）",
+              "source_url": "https://www.cna.com.tw/business/chinese/424811",
+              "published_date": "2026-01-27",
+              "as_of": "2026-01-27",
+              "verified_date": "2026-10-14",
+              "status": "announced",
+              "source_id": "jxAirsorayamaAnnouncement",
+              "value": "2026-01-27 官方公布 B-58554 為 AIRSORAYAMA Gold（金色）藝術機，與空山基合作；塗裝以特殊雲母及多層塗佈呈現金屬效果。當時預計第三季投入營運，公告日不是交付日或首航日。"
+            }
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
