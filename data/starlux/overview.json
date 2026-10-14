@@ -252,6 +252,17 @@
     "routes": [],
     "hubs": [
       {
+        "title": "北中南布局：營運與公告分開",
+        "body": "台中名古屋預定 2026-10-25、高雄神戶及沖繩預定 2027-01-01。高雄目前保留為公告計畫，不能據此宣稱已完成三地營運。",
+        "source": "星宇航空官方供稿｜高雄日本航線開賣",
+        "source_url": "https://www.cna.com.tw/business/chinese/442198",
+        "published_date": "2026-08-21",
+        "as_of": "2026-08-21",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxKhh2027"
+      },
+      {
         "title": "樞紐與台灣市場布局",
         "body": "2025年報以台北為跨洲轉運樞紐，並說明北部及中部市場布局。台中航線屬區域拓展；年報所載計畫不能直接當作今日航網清單。",
         "source": "星宇航空｜2025 年報",
@@ -280,6 +291,28 @@
     ],
     "codeshare": [
       {
+        "title": "美國航空共掛：9 月公告的新進展",
+        "body": "星宇公告 2026-09-23 開賣、9/30 起適用共掛航班，合作延伸至 20 個北美城市；這些美國航空承運航段不計入星宇自營航點。一本票與行李直掛仍依海關規定辦理。",
+        "source": "星宇航空｜美國航空共掛合作",
+        "source_url": "https://latestnews.starlux-airlines.com/en-US/about-us/travel-advisories/advisories/latest-news/aa-codeshare",
+        "published_date": "2026-09-23",
+        "as_of": "2026-09-23",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxAaCodeshare2026"
+      },
+      {
+        "title": "共掛範圍及里程權益：依承運、票號與會員規則分辨",
+        "body": "美國航空列出 LAX、ONT、SFO、SEA 至 TPE 的星宇承運共掛；PHX 共掛仍註明待主管機關核准。AA 公告允許符合條件的 AA 共掛累積 AAdvantage 哩程與 Loyalty Points；兌換及更多福利仍屬後續合作，不概括為雙邊全面互通或加入 oneworld。",
+        "source": "American Airlines｜STARLUX 共掛合作範圍",
+        "source_url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-STARLUX-Airlines-launch-codeshare-partnership-to-expand-trans-Pacific-flight-options-NET-ALP-09/default.aspx",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "aaJxCodeshare2026"
+      },
+      {
         "title": "阿拉斯加航空共用班號合作",
         "body": "年報記錄與阿拉斯加航空共用班號合作、北美內陸轉機及會員合作。共掛航點不算星宇自營航點，也不代表加入航空聯盟。",
         "source": "星宇航空｜2025 年報",
@@ -306,7 +339,7 @@
         "note": "年報印刷頁碼102（PDF第104頁）。"
       },
       {
-        "title": "美國航空interline銜接（已具體查核）",
+        "title": "美國航空 interline 銜接（2026 年 1 月歷史紀錄）",
         "body": "2026年1月15日鳳凰城首航稿明示與美國航空聯航協議，提供透過鳳凰城轉往40個美國境內城市的銜接。這是該公告的interline範圍，不代表星宇自營40個美國航點或所有航段共掛。",
         "source": "星宇｜台北—鳳凰城首航",
         "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260115",
@@ -636,6 +669,48 @@
       }
     ],
     "future": [
+      {
+        "title": "台中—名古屋：預定 2026-10-25",
+        "body": "公告規劃 A321neo、初期每週 4 班。截至本次查核尚未到預定開航日；不得列為已首航。",
+        "origin": "RMQ",
+        "destination": "NGO",
+        "planned_start": "2026-10-25",
+        "source": "星宇航空官方供稿｜台中名古屋開賣",
+        "source_url": "https://www.cna.com.tw/business/chinese/441531",
+        "published_date": "2026-08-13",
+        "as_of": "2026-08-13",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxRmqNgo2026"
+      },
+      {
+        "title": "高雄—神戶：預定 2027-01-01",
+        "body": "公告規劃 A321neo、初期每日一班；目前是開賣公告，尚非首航紀錄。",
+        "origin": "KHH",
+        "destination": "UKB",
+        "planned_start": "2027-01-01",
+        "source": "星宇航空官方供稿｜高雄日本航線開賣",
+        "source_url": "https://www.cna.com.tw/business/chinese/442198",
+        "published_date": "2026-08-21",
+        "as_of": "2026-08-21",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxKhh2027"
+      },
+      {
+        "title": "高雄—沖繩：預定 2027-01-01",
+        "body": "公告規劃 A321neo、初期每日一班；目前是開賣公告，尚非首航紀錄。",
+        "origin": "KHH",
+        "destination": "OKA",
+        "planned_start": "2027-01-01",
+        "source": "星宇航空官方供稿｜高雄日本航線開賣",
+        "source_url": "https://www.cna.com.tw/business/chinese/442198",
+        "published_date": "2026-08-21",
+        "as_of": "2026-08-21",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxKhh2027"
+      },
       {
         "title": "長程機隊擴展",
         "body": "A350-1000 交付公告連結歐洲、北美與部分亞太航線用途。逐條開航狀態需另查。",

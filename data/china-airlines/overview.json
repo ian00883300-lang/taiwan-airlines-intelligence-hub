@@ -405,6 +405,28 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciMaintenance"
+      },
+      {
+        "title": "24 小時修管中心與維修驗證",
+        "body": "2026 年 10 月官方稿介紹全天候修管中心、拆卸至測試的維修流程，以及起落架更換與零件檢測。此為公司公開的作業介紹，不是外部稽核結論或即時妥善率。",
+        "source": "中華航空｜修護流程、修管中心與人才培訓",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+        "published_date": "2026-10-06",
+        "as_of": "2026-10-06",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciMro2026"
+      },
+      {
+        "title": "修護人才：MR 與模擬教學",
+        "body": "官方稿確認修護訓練中心運用混合實境及模擬設備。這是修護人員培訓，不能當成培訓機師的飛行課程或時數。",
+        "source": "中華航空｜修護流程、修管中心與人才培訓",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+        "published_date": "2026-10-06",
+        "as_of": "2026-10-06",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciMro2026"
       }
     ],
     "safety": [
@@ -419,6 +441,17 @@
         "as_of": null,
         "source_id": "fatigue",
         "scope": "一般航空知識"
+      },
+      {
+        "title": "面試連結：飛安需要跨部門配合",
+        "body": "研究解讀：由修管中心、維修檢查與訓練制度，說明飛安依靠持續監控、驗證與團隊溝通。可延伸談機師清楚回報異常的重要性；具體放行流程仍以公司核准程序為準。",
+        "source": "中華航空｜修護流程、修管中心與人才培訓",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+        "published_date": "2026-10-06",
+        "as_of": "2026-10-06",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciMro2026"
       }
     ],
     "sms": [

@@ -615,3 +615,16 @@ test("CAA utilization snapshots resolve to registered aircraft and preserve time
     assert.ok(row.last_c_check === null || row.last_c_check <= u.as_of);
   }
 });
+
+test('Announced routes remain separate from operating records and retain planned dates', () => {
+  const plans=read('data/planned-routes.json');
+  assert.equal(plans.length,3);
+  const routes=read('data/starlux/routes.json').items;
+  for(const p of plans){
+    assert.equal(p.status,'announced');
+    assert.ok(p.planned_start > p.verified_date);
+    assert.ok(!routes.some(r=>r.origin===p.origin&&r.destination===p.destination));
+  }
+  const sections=read('data/starlux/overview.json').sections;
+  assert.ok(sections.codeshare.some(x=>x.source_id==='aaJxCodeshare2026'&&x.body.includes('待主管機關核准')));
+});

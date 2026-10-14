@@ -1371,5 +1371,55 @@
     "verified_date": "2026-10-14",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "jxAaCodeshare2026",
+    "source": "星宇航空｜美國航空共掛合作",
+    "source_url": "https://latestnews.starlux-airlines.com/en-US/about-us/travel-advisories/advisories/latest-news/aa-codeshare",
+    "published_date": "2026-09-23",
+    "as_of": "2026-09-23",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "aaJxCodeshare2026",
+    "source": "American Airlines｜STARLUX 共掛合作範圍",
+    "source_url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-STARLUX-Airlines-launch-codeshare-partnership-to-expand-trans-Pacific-flight-options-NET-ALP-09/default.aspx",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxKhh2027",
+    "source": "星宇航空官方供稿｜高雄日本航線開賣",
+    "source_url": "https://www.cna.com.tw/business/chinese/442198",
+    "published_date": "2026-08-21",
+    "as_of": "2026-08-21",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "level": 1
+  },
+  {
+    "id": "jxRmqNgo2026",
+    "source": "星宇航空官方供稿｜台中名古屋開賣",
+    "source_url": "https://www.cna.com.tw/business/chinese/441531",
+    "published_date": "2026-08-13",
+    "as_of": "2026-08-13",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "level": 1
+  },
+  {
+    "id": "ciMro2026",
+    "source": "中華航空｜修護流程、修管中心與人才培訓",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+    "published_date": "2026-10-06",
+    "as_of": "2026-10-06",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
   }
 ]

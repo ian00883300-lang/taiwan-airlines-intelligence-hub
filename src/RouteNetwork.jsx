@@ -8,6 +8,7 @@ import ciRoutes from "../data/china-airlines/routes.json";
 import evaRoutes from "../data/eva-air/routes.json";
 import jxRoutes from "../data/starlux/routes.json";
 import events from "../data/events.json";
+import plannedRoutes from "../data/planned-routes.json";
 import EventDates from "./EventDates.jsx";
 import { formatEventDate } from "./event-dates.mjs";
 import ciFleet from "../data/china-airlines/fleet.json";
@@ -423,6 +424,25 @@ export default function RouteNetwork({ initial = "all", Source }) {
           </p>
         )}
       </div>
+      {plannedRoutes.some((r) => air === "all" || r.airline === air) && (
+        <section aria-label="已公告待開航">
+          <h3>已公告待開航</h3>
+          <p className="fineprint">
+            另列公告計畫，不計入上方航線紀錄及地圖；日期到期後仍需首航證據才會改為已營運。
+          </p>
+          {plannedRoutes
+            .filter((r) => air === "all" || r.airline === air)
+            .map((r) => (
+              <article className="notice" key={r.origin + r.destination}>
+                <h4>{r.title}</h4>
+                <p>
+                  {r.origin} → {r.destination} · {r.body}
+                </p>
+                <Source item={r} compact />
+              </article>
+            ))}
+        </section>
+      )}
     </section>
   );
 }
