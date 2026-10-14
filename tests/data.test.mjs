@@ -220,7 +220,7 @@ test("All companies have sorted typed timelines, operational models and evidence
 });
 test("Expanded self-operated route records cover real origins and keep sources and first-flight evidence separate", () => {
   const routes = ids.flatMap((id) => read(`data/${id}/routes.json`).items);
-  assert.equal(routes.length, 112);
+  assert.equal(routes.length, 119);
   assert.equal(
     new Set(routes.map((r) => [r.airline, r.origin, r.destination].join("/")))
       .size,

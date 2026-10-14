@@ -1024,6 +1024,19 @@
           "source_id": "jxRmqNrtActual"
         },
         {
+          "date": "2026-06-01",
+          "label": "台北—釜山首航",
+          "body": "進入韓國市場；台中亦列入釜山航網，台中個別首航日期另待查核。",
+          "date_kind": "event",
+          "source": "星宇航空官方供稿｜釜山正式啟航（中央社訊息平台）",
+          "source_url": "https://www.cna.com.tw/business/chinese/435073",
+          "published_date": "2026-06-01",
+          "as_of": "2026-06-01",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxBusanActual2026"
+        },
+        {
           "date": "2026-07-03",
           "label": "Pantone專屬色與工藝公告",
           "body": "藝術機專案銀／金色與主識別曜石灰／大地金分開。",

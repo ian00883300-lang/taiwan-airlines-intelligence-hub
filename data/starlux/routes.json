@@ -1310,6 +1310,172 @@
       ],
       "evidence_kind": "dated_operating_snapshot",
       "note": "官方首航紀錄；班次與機型為當期資訊，不代表今日每班固定配置。"
+    },
+    {
+      "id": "starlux-TPE-PUS",
+      "airline": "starlux",
+      "origin": "TPE",
+      "destination": "PUS",
+      "region": "Asia",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜釜山正式啟航（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/435073",
+      "published_date": "2026-06-01",
+      "as_of": "2026-06-01",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxBusanActual2026",
+      "event_ids": [
+        "starlux-TPE-PUS-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-06-01 官方稿確認台北每日一班、台中每週三班的航網安排；桃園首航活動在當日舉行。班次為當時快照，非今日班表。",
+      "aircraft": "A321neo（2026 年開航公告配置）",
+      "aircraft_source_url": "https://www.cna.com.tw/business/chinese/426465",
+      "aircraft_evidence": {
+        "source": "星宇航空官方供稿｜釜山開航機型公告（中央社訊息平台）",
+        "source_url": "https://www.cna.com.tw/business/chinese/426465",
+        "published_date": "2026-02-26",
+        "as_of": "2026-02-26",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxBusanAircraft2026",
+        "value": "A321neo"
+      },
+      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。"
+    },
+    {
+      "id": "starlux-RMQ-PUS",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "PUS",
+      "region": "Asia",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜釜山正式啟航（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/435073",
+      "published_date": "2026-06-01",
+      "as_of": "2026-06-01",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxBusanActual2026",
+      "event_ids": [
+        "starlux-RMQ-PUS-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-06-01 官方稿確認台北每日一班、台中每週三班的航網安排；未據此推定台中首班也在 6 月 1 日；個別首航日期待查核。班次為當時快照，非今日班表。",
+      "aircraft": "A321neo（2026 年開航公告配置）",
+      "aircraft_source_url": "https://www.cna.com.tw/business/chinese/426465",
+      "aircraft_evidence": {
+        "source": "星宇航空官方供稿｜釜山開航機型公告（中央社訊息平台）",
+        "source_url": "https://www.cna.com.tw/business/chinese/426465",
+        "published_date": "2026-02-26",
+        "as_of": "2026-02-26",
+        "verified_date": "2026-10-14",
+        "status": "announced",
+        "source_id": "jxBusanAircraft2026",
+        "value": "A321neo"
+      },
+      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。"
+    },
+    {
+      "id": "starlux-RMQ-MFM",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "MFM",
+      "region": "Asia",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/429461",
+      "published_date": "2026-03-30",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNetwork2026",
+      "event_ids": [
+        "starlux-RMQ-MFM-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+    },
+    {
+      "id": "starlux-RMQ-DAD",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "DAD",
+      "region": "Asia",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/429461",
+      "published_date": "2026-03-30",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNetwork2026",
+      "event_ids": [
+        "starlux-RMQ-DAD-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+    },
+    {
+      "id": "starlux-RMQ-PQC",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "PQC",
+      "region": "Asia",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/429461",
+      "published_date": "2026-03-30",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNetwork2026",
+      "event_ids": [
+        "starlux-RMQ-PQC-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+    },
+    {
+      "id": "starlux-RMQ-TAK",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "TAK",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/429461",
+      "published_date": "2026-03-30",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNetwork2026",
+      "event_ids": [
+        "starlux-RMQ-TAK-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+    },
+    {
+      "id": "starlux-RMQ-OKA",
+      "airline": "starlux",
+      "origin": "RMQ",
+      "destination": "OKA",
+      "region": "Japan",
+      "route_type": "self_operated_passenger",
+      "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+      "source_url": "https://www.cna.com.tw/business/chinese/429461",
+      "published_date": "2026-03-30",
+      "as_of": "2026-03-30",
+      "verified_date": "2026-10-14",
+      "status": "confirmed",
+      "source_id": "jxRmqNetwork2026",
+      "event_ids": [
+        "starlux-RMQ-OKA-inaugural"
+      ],
+      "evidence_kind": "dated_operating_snapshot",
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
     }
   ]
 }

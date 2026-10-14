@@ -53,7 +53,7 @@ try {
         .evaluate((e) => e.scrollWidth <= e.clientWidth + 1),
     );
     await p.getByRole("button", { name: "依洲別看航線", exact: true }).click();
-    assert.equal(await p.locator("tr[data-route]").count(), 32);
+    assert.equal(await p.locator("tr[data-route]").count(), 39);
   }
   assert.deepEqual(errors, []);
   console.log(

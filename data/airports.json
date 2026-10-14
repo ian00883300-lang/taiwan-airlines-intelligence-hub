@@ -396,6 +396,12 @@
       "lat": 29.72,
       "lng": 106.64,
       "region": "China"
+    },
+    "PQC": {
+      "name": "富國島",
+      "lat": 10.17,
+      "lng": 103.99,
+      "region": "Asia"
     }
   }
 }

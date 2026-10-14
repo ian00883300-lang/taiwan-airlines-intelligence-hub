@@ -1478,5 +1478,38 @@
     "status": "confirmed",
     "source_id": "jxStaffCare2025",
     "level": 1
+  },
+  {
+    "id": "jxBusanActual2026",
+    "source": "星宇航空官方供稿｜釜山正式啟航（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/435073",
+    "published_date": "2026-06-01",
+    "as_of": "2026-06-01",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxBusanActual2026",
+    "level": 1
+  },
+  {
+    "id": "jxRmqNetwork2026",
+    "source": "星宇航空官方供稿｜台中東京首航與台中航網（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/429461",
+    "published_date": "2026-03-30",
+    "as_of": "2026-03-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxRmqNetwork2026",
+    "level": 1
+  },
+  {
+    "id": "jxBusanAircraft2026",
+    "source": "星宇航空官方供稿｜釜山開航機型公告（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/426465",
+    "published_date": "2026-02-26",
+    "as_of": "2026-02-26",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "source_id": "jxBusanAircraft2026",
+    "level": 1
   }
 ]
