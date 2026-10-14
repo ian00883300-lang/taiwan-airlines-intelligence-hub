@@ -23,7 +23,7 @@ Chart.register(
   Tooltip,
   Legend,
 );
-function Plot({
+export function Plot({
   type = "bar",
   labels,
   datasets,

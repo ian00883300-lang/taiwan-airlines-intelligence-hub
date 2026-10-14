@@ -1417,3 +1417,119 @@ abbr[title]:focus::after {
   border-radius: 5px;
   white-space: normal;
 }
+
+/* Compact research reading layout */
+.network-totals strong {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.25;
+}
+.route-distribution {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+  border-block: 1px solid #dfe7ed;
+  padding: 16px 0;
+  margin-bottom: 18px;
+}
+.route-distribution .research-chart {
+  height: 230px;
+  min-height: 0;
+}
+.distribution-copy label {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 600;
+}
+.distribution-copy ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.distribution-copy li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 3px 0;
+}
+.distribution-copy small {
+  display: block;
+  line-height: 1.5;
+  color: #526777;
+}
+.route-network .route-table th:nth-child(1) {
+  width: 12%;
+}
+.route-network .route-table th:nth-child(2) {
+  width: 31%;
+}
+.route-network .route-table th:nth-child(3) {
+  width: 22%;
+}
+.route-network .route-table th:nth-child(4) {
+  width: 35%;
+}
+.research-table th,
+.research-table td {
+  padding: 10px 12px;
+  font-size: 1rem;
+  line-height: 1.55;
+  vertical-align: top;
+}
+.research-table td p {
+  margin: 4px 0;
+}
+.research-table .inline-evidence {
+  margin-top: 6px;
+  font-size: 0.88rem;
+}
+.inline-evidence > summary {
+  color: #346baf;
+  cursor: pointer;
+}
+.company-identity table th:first-child {
+  width: 24%;
+}
+.security-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  background: #edf4fa;
+  border-radius: 12px;
+}
+.security-summary span,
+.security-summary b {
+  display: block;
+}
+.security-summary strong {
+  display: block;
+  font-size: 2.3rem;
+  line-height: 1.3;
+  color: #163851;
+}
+@media (max-width: 600px) {
+  .route-distribution {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .route-distribution .research-chart {
+    height: 210px;
+  }
+  .research-table th,
+  .research-table td {
+    padding: 8px 10px;
+  }
+  .distribution-copy label {
+    flex-wrap: wrap;
+  }
+}
+
+.route-distribution > *, .distribution-copy { min-width:0; }
+.route-distribution select { max-width:100%; min-width:0; }
+.network-totals { max-width:100%; overflow-wrap:anywhere; }
+.route-distribution .research-chart { max-width:100%; }

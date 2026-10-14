@@ -1,0 +1,32 @@
+{
+  "china-airlines": {
+    "code": "2610",
+    "name": "中華航空股份有限公司",
+    "source": "臺灣證券交易所｜個股資訊",
+    "source_url": "https://www.twse.com.tw/pdf/ch/2610_ch.pdf",
+    "published_date": null,
+    "as_of": "2025-12-02",
+    "verified_date": "2026-10-15",
+    "status": "confirmed"
+  },
+  "eva-air": {
+    "code": "2618",
+    "name": "長榮航空股份有限公司",
+    "source": "臺灣證券交易所｜個股資訊",
+    "source_url": "https://www.twse.com.tw/pdf/ch/2618_ch.pdf",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed"
+  },
+  "starlux": {
+    "code": "2646",
+    "name": "星宇航空股份有限公司",
+    "source": "臺灣證券交易所｜個股資訊",
+    "source_url": "https://www.twse.com.tw/IIH2/zh/company/sbl.html?code=2646",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed"
+  }
+}

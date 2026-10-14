@@ -1000,11 +1000,8 @@ function Airline({ a, tab = "overview", openInterview }) {
       </p>
       {group.id === "overview" ? (
         <>
-          {part(
-            "公司歷史時間軸",
-            <CompanyTimeline airline={a.id} Source={Source} />,
-          )}
           {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}
+          {part("公司歷史時間軸", <CompanyTimeline airline={a.id} Source={Source} />)}
         </>
       ) : group.id === "operations" ? (
         <>

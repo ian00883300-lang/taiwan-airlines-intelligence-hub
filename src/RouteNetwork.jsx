@@ -1,3 +1,4 @@
+import RouteDistribution from "./RouteDistribution.jsx";
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import { greatCircle } from "./great-circle.mjs";
@@ -178,6 +179,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
           <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>
         </div>
       </div>
+      <RouteDistribution
+        routes={filtered}
+        continents={continents}
+        continent={continent}
+      />
       <div className="filters network-filters">
         <label>
           選擇機型
@@ -309,7 +315,6 @@ export default function RouteNetwork({ initial = "all", Source }) {
                   <th scope="col">起點 → 終點</th>
                   <th scope="col">區域／基準日</th>
                   <th scope="col">機型／已核實首航</th>
-                  <th scope="col">證據</th>
                 </tr>
               </thead>
               <tbody>
@@ -322,7 +327,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                       {(index === 0 ||
                         continent(filtered[index - 1]) !== continent(r)) && (
                         <tr className="continent-heading">
-                          <th colSpan="5" scope="colgroup">
+                          <th colSpan="4" scope="colgroup">
                             {continents[continent(r)] || continent(r)}{" "}
                             <small>
                               {
@@ -399,33 +404,34 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               （實際首航另查）
                             </p>
                           )}
-                        </td>
-                        <td data-label="證據">
-                          <Source item={r} compact />
-                          {r.aircraft_note && (
+                          <details className="inline-evidence">
+                            <summary>來源與詳情</summary>
+                            <Source item={r} compact />
+                            {r.aircraft_note && (
+                              <details>
+                                <summary>機型配置說明</summary>
+                                <p>{r.aircraft_note}</p>
+                              </details>
+                            )}
+                            {r.aircraft_evidence && (
+                              <div aria-label="機型證據">
+                                <small>機型紀錄來源與日期</small>
+                                <Source item={r.aircraft_evidence} compact />
+                              </div>
+                            )}
+                            {!r.aircraft_evidence && r.aircraft_source_url && (
+                              <a
+                                href={r.aircraft_source_url}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                機型任務來源 ↗
+                              </a>
+                            )}
                             <details>
-                              <summary>機型配置說明</summary>
-                              <p>{r.aircraft_note}</p>
+                              <summary>首航詳情</summary>
+                              <EventDates ids={r.event_ids} />
                             </details>
-                          )}
-                          {r.aircraft_evidence && (
-                            <div aria-label="機型證據">
-                              <small>機型紀錄來源與日期</small>
-                              <Source item={r.aircraft_evidence} compact />
-                            </div>
-                          )}
-                          {!r.aircraft_evidence && r.aircraft_source_url && (
-                            <a
-                              href={r.aircraft_source_url}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              機型任務來源 ↗
-                            </a>
-                          )}
-                          <details>
-                            <summary>首航詳情</summary>
-                            <EventDates ids={r.event_ids} />
                           </details>
                         </td>
                       </tr>

@@ -1,3 +1,4 @@
+import securities from "../data/securities.json";
 import { change } from "./change.mjs";
 import React, { useState } from "react";
 import dossier from "../data/research-dossier.json";
@@ -69,6 +70,17 @@ export function CompanyIdentity({ a, Source }) {
       className="company-identity mobile-records"
       aria-label="公司與品牌資料表"
     >
+      <div className="security-summary">
+        <div>
+          <span>臺灣證券交易所 · 股票代號</span>
+          <strong>{securities[a.id].code}</strong>
+          <b>{securities[a.id].name}</b>
+        </div>
+        <details>
+          <summary>股票代號來源</summary>
+          <Source item={securities[a.id]} compact />
+        </details>
+      </div>
       <div className="table-wrap research-table">
         <table>
           <caption>公司、品牌與治理資料</caption>
@@ -76,7 +88,6 @@ export function CompanyIdentity({ a, Source }) {
             <tr>
               <th scope="col">項目</th>
               <th scope="col">公開資料</th>
-              <th scope="col">基準與來源</th>
             </tr>
           </thead>
           <tbody>
@@ -89,10 +100,11 @@ export function CompanyIdentity({ a, Source }) {
                       ? number(record.value) + " " + (record.unit || "")
                       : record.value
                     : record.body || "尚待官方資料查核"}
-                </td>
-                <td data-label="基準與來源">
-                  {record.as_of || "來源未指定基準日"}
-                  <Source item={record} compact />
+                  <details className="inline-evidence">
+                    <summary>基準與來源</summary>
+                    {record.as_of || "來源未指定基準日"}
+                    <Source item={record} compact />
+                  </details>
                 </td>
               </tr>
             ))}
