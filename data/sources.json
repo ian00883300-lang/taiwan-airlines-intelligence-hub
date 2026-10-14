@@ -1261,5 +1261,115 @@
     "verified_date": "2026-10-14",
     "status": "confirmed",
     "level": 3
+  },
+  {
+    "id": "jxDec2023Schedule",
+    "source": "星宇航空｜2023 年 12 月官方班表（2023-11-01 更新）",
+    "source_url": "https://media.starlux-airlines.com/cms/Z78TwW2UzWclIJgmvUnwA9g8fppkRXbspJfS31S7.pdf",
+    "published_date": "2023-11-01",
+    "as_of": "2023-12-01",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "level": 1
+  },
+  {
+    "id": "ciEarlyArchive",
+    "source": "國發會檔案管理局｜中華航空早期發展史料",
+    "source_url": "https://aa.archives.gov.tw/ELK/NAAMaterialDetail?DID=2733",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "ci777Ceremony",
+    "source": "Boeing｜華航首架 777-300ER 交付典禮",
+    "source_url": "https://boeing.mediaroom.com/2014-10-03-Boeing-China-Airlines-Celebrate-Delivery-of-Airlines-First-777-300ER",
+    "published_date": "2014-10-03",
+    "as_of": "2014-10-03",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "ci777Tenth",
+    "source": "Boeing｜華航第十架 777-300ER 聯名塗裝交付",
+    "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
+    "published_date": "2016-05-16",
+    "as_of": "2016-05-16",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "ci777FArrival",
+    "source": "華航｜首架 777F 抵台及貨運任務",
+    "source_url": "https://www.china-airlines.com/hk/zh/about-china-airlines/media/news/20201214",
+    "published_date": "2020-12-14",
+    "as_of": "2020-12-01",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxEsg2024History",
+    "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+    "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+    "published_date": null,
+    "as_of": "2024-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxKulOct2026",
+    "source": "星宇航空官方供稿｜吉隆坡廣體每日航班（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/446043",
+    "published_date": "2026-10-05",
+    "as_of": "2026-10-05",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxRmqCtsActual",
+    "source": "星宇航空官方供稿｜台中札幌首航（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/446040",
+    "published_date": "2026-10-05",
+    "as_of": "2026-10-02",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxDpsActual",
+    "source": "星宇航空官方供稿｜峇里島首航（中央社訊息平台）",
+    "source_url": "https://www.cna.com.tw/business/chinese/445818",
+    "published_date": "2026-10-02",
+    "as_of": "2026-10-01",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciCnxActual",
+    "source": "中華航空｜清邁首航",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20230120",
+    "published_date": "2023-01-20",
+    "as_of": "2023-01-20",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciDadActual",
+    "source": "中華航空｜峴港首航",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20230102.html",
+    "published_date": "2023-01-02",
+    "as_of": "2023-01-02",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "level": 1
   }
 ]

@@ -220,7 +220,7 @@ test("All companies have sorted typed timelines, operational models and evidence
 });
 test("Expanded self-operated route records cover real origins and keep sources and first-flight evidence separate", () => {
   const routes = ids.flatMap((id) => read(`data/${id}/routes.json`).items);
-  assert.equal(routes.length, 52);
+  assert.equal(routes.length, 72);
   assert.equal(
     new Set(routes.map((r) => [r.airline, r.origin, r.destination].join("/")))
       .size,
@@ -466,7 +466,9 @@ test("Route identifiers, airline, airport and source references are valid", () =
       assert.ok(airports[r.origin]);
       assert.ok(airports[r.destination]);
       assert.equal(r.route_type, "self_operated_passenger");
-      assert.equal(r.status, "confirmed");
+      assert.ok(["confirmed", "announced"].includes(r.status));
+      if (r.status === "announced")
+        assert.equal(r.evidence_kind, "published_schedule_snapshot");
     }
 });
 test("Interview bank covers 15 topics, four audiences, and both answer lengths", () => {
@@ -594,4 +596,22 @@ test("Every passenger layout reconciles cabin counts to its total and all aircra
     }
   }
   assert.equal(layouts, 21);
+});
+
+test("CAA utilization snapshots resolve to registered aircraft and preserve time notation", () => {
+  const u = read("data/aircraft-utilization.json");
+  const tails = new Set(
+    ids.flatMap((id) =>
+      read(`data/${id}/fleet.json`).items.flatMap((x) =>
+        (x.registrations?.records || []).map((r) => r.tail),
+      ),
+    ),
+  );
+  assert.equal(Object.keys(u.records).length, 56);
+  for (const [tail, row] of Object.entries(u.records)) {
+    assert.ok(tails.has(tail), tail);
+    assert.match(row.flight_hours, /^\d+:[0-5]\d$/);
+    assert.ok(Number.isInteger(row.cycles) && row.cycles >= 0);
+    assert.ok(row.last_c_check === null || row.last_c_check <= u.as_of);
+  }
 });

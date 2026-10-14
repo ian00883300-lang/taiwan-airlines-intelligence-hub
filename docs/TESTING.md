@@ -66,3 +66,7 @@
 2026-10-14: 30 unit/data checks passed; production build passed; route filters passed at 320/390/768/1440 px and 150% reading scale. Added CI LAX 777-300ER and JX SEA/ONT A350-900 historical evidence; verified separate inauguration dates.
 
 2026-10-14 expansion: 30 data/unit checks passed; route filters at four widths passed; 390px registration search, empty state and reset passed; Vite build passed. Six new route records, four delivery facts, ten timeline milestones, four maintenance/technical cards.
+
+## 2026-10-14
+
+資料與個人練習測試 31 項；航線瀏覽器測試涵蓋 320/390/768/1440px、150% 字級、洲別及機型篩選。静態建置成功；主程式 chunk 體積警告仍存在。72 條航線為歷史／營運來源紀錄，非即時完整時刻表。機身時數 56 筆另檢查時間格式、日期與註冊編號關聯。

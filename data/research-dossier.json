@@ -67,6 +67,48 @@
           "source_id": "ciFounding"
         },
         {
+          "date": "1966-12",
+          "date_kind": "event",
+          "label": "首條國際航線：台北—西貢",
+          "body": "檔案史料確認月份；未補造確切日期。",
+          "source": "國發會檔案管理局｜中華航空早期發展史料",
+          "source_url": "https://aa.archives.gov.tw/ELK/NAAMaterialDetail?DID=2733",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciEarlyArchive",
+          "timeline_date_precision": "month"
+        },
+        {
+          "date": "1967-01",
+          "date_kind": "event",
+          "label": "購進 Boeing 727",
+          "body": "進入噴射機發展階段；史料日期精度為月份。",
+          "source": "國發會檔案管理局｜中華航空早期發展史料",
+          "source_url": "https://aa.archives.gov.tw/ELK/NAAMaterialDetail?DID=2733",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciEarlyArchive",
+          "timeline_date_precision": "month"
+        },
+        {
+          "date": "1968",
+          "date_kind": "event",
+          "label": "訂購兩架 Boeing 707",
+          "body": "越洋航網準備；訂購不等於交付或首航。",
+          "source": "國發會檔案管理局｜中華航空早期發展史料",
+          "source_url": "https://aa.archives.gov.tw/ELK/NAAMaterialDetail?DID=2733",
+          "published_date": null,
+          "as_of": null,
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciEarlyArchive",
+          "timeline_date_precision": "year"
+        },
+        {
           "source": "證交所OpenAPI｜上市公司基本資料（2610）",
           "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
           "published_date": null,
@@ -93,6 +135,34 @@
           "source_id": "ciAlliance"
         },
         {
+          "date": "2014-10-03",
+          "date_kind": "event",
+          "label": "首架 777-300ER 交付典禮",
+          "body": "波音公告當日慶祝交付；不將典禮日替代製造日或法律交付日。",
+          "source": "Boeing｜華航首架 777-300ER 交付典禮",
+          "source_url": "https://boeing.mediaroom.com/2014-10-03-Boeing-China-Airlines-Celebrate-Delivery-of-Airlines-First-777-300ER",
+          "published_date": "2014-10-03",
+          "as_of": "2014-10-03",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ci777Ceremony",
+          "timeline_date_precision": "day"
+        },
+        {
+          "date": "2016-05-16",
+          "date_kind": "event",
+          "label": "第十架 777-300ER 聯名塗裝交付",
+          "body": "波音與華航聯名塗裝里程碑。",
+          "source": "Boeing｜華航第十架 777-300ER 聯名塗裝交付",
+          "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
+          "published_date": "2016-05-16",
+          "as_of": "2016-05-16",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ci777Tenth",
+          "timeline_date_precision": "day"
+        },
+        {
           "date": "2016-09-30",
           "date_kind": "event",
           "label": "首架 A350-900 交付",
@@ -104,6 +174,20 @@
           "verified_date": "2026-10-14",
           "status": "confirmed",
           "source_id": "ciA350FirstDelivery"
+        },
+        {
+          "date": "2020-12-01",
+          "date_kind": "event",
+          "label": "首架 777F 抵台",
+          "body": "B-18771；日期為抵台，不等於首班商業貨運。",
+          "source": "華航｜首架 777F 抵台及貨運任務",
+          "source_url": "https://www.china-airlines.com/hk/zh/about-china-airlines/media/news/20201214",
+          "published_date": "2020-12-14",
+          "as_of": "2020-12-01",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ci777FArrival",
+          "timeline_date_precision": "day"
         },
         {
           "date": "2021-11-29",
@@ -130,6 +214,32 @@
           "verified_date": "2026-10-14",
           "status": "confirmed",
           "source_id": "ciNeoFirstService"
+        },
+        {
+          "date": "2023-01-02",
+          "label": "台北—峴港首航",
+          "body": "首航公告確認使用 A321neo，屬當期機型證據。",
+          "date_kind": "event",
+          "source": "中華航空｜峴港首航",
+          "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20230102.html",
+          "published_date": "2023-01-02",
+          "as_of": "2023-01-02",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciDadActual"
+        },
+        {
+          "date": "2023-01-20",
+          "label": "台北—清邁首航",
+          "body": "首航公告確認使用 A321neo，屬當期機型證據。",
+          "date_kind": "event",
+          "source": "中華航空｜清邁首航",
+          "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20230120",
+          "published_date": "2023-01-20",
+          "as_of": "2023-01-20",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "ciCnxActual"
         },
         {
           "date": "2023-06-21",
@@ -318,7 +428,9 @@
           "verified_date": "2026-10-11",
           "status": "confirmed",
           "source_id": "ciA350Total",
-          "supporting_source_ids": ["ciA350Initial"]
+          "supporting_source_ids": [
+            "ciA350Initial"
+          ]
         }
       ],
       "annual_analysis": {
@@ -609,7 +721,9 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "brDfw",
-          "supporting_source_ids": ["evaAlliance"]
+          "supporting_source_ids": [
+            "evaAlliance"
+          ]
         }
       ]
     },
@@ -655,6 +769,20 @@
           "source_id": "jxA330DeliverySafran"
         },
         {
+          "date": "2022-09",
+          "date_kind": "event",
+          "label": "登錄興櫃",
+          "body": "與 2024 年證交所上市分開。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "month"
+        },
+        {
           "date": "2022-10-28",
           "date_kind": "event",
           "label": "首架 A350-900 交付",
@@ -666,6 +794,76 @@
           "verified_date": "2026-10-14",
           "status": "confirmed",
           "source_id": "jxA350DeliveryRelease"
+        },
+        {
+          "date": "2023-04-26",
+          "date_kind": "event",
+          "label": "台北—洛杉磯首航",
+          "body": "正式拓展北美客運。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "day"
+        },
+        {
+          "date": "2023-11",
+          "date_kind": "event",
+          "label": "取得 IOSA 認證",
+          "body": "報告記載的歷史稽核里程碑，不代表未來零風險。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "month"
+        },
+        {
+          "date": "2023-12",
+          "date_kind": "event",
+          "label": "加入 IATA",
+          "body": "IATA 是國際航空運輸協會，不是航空公司聯盟。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "month"
+        },
+        {
+          "date": "2023-12-16",
+          "date_kind": "event",
+          "label": "台北—舊金山首航",
+          "body": "第二個北美航點。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "day"
+        },
+        {
+          "date": "2024-03",
+          "date_kind": "event",
+          "label": "台中基地航網啟動",
+          "body": "台中—澳門、峴港、高松開始營運；本史料僅確認月份。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "month"
         },
         {
           "date": "2024-08-16",
@@ -692,6 +890,20 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxStock"
+        },
+        {
+          "date": "2024-11",
+          "date_kind": "event",
+          "label": "取得 CEIV Lithium Batteries 認證",
+          "body": "鋰電池運輸認證，不等同醫藥冷鏈認證。",
+          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
+          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
+          "published_date": null,
+          "as_of": "2024-12-31",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxEsg2024History",
+          "timeline_date_precision": "month"
         },
         {
           "date": "2025-06-02",
@@ -822,6 +1034,32 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxPragueOfficial"
+        },
+        {
+          "date": "2026-10-01",
+          "label": "台北—峇里島首航",
+          "body": "官方稿確認 10 月 1 日首航；本篇未列機型，保留待查核。",
+          "date_kind": "event",
+          "source": "星宇航空官方供稿｜峇里島首航（中央社訊息平台）",
+          "source_url": "https://www.cna.com.tw/business/chinese/445818",
+          "published_date": "2026-10-02",
+          "as_of": "2026-10-01",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxDpsActual"
+        },
+        {
+          "date": "2026-10-02",
+          "label": "台中—札幌首航",
+          "body": "首航公告確認使用 A321neo，屬當期機型證據。",
+          "date_kind": "event",
+          "source": "星宇航空官方供稿｜台中札幌首航（中央社訊息平台）",
+          "source_url": "https://www.cna.com.tw/business/chinese/446040",
+          "published_date": "2026-10-05",
+          "as_of": "2026-10-02",
+          "verified_date": "2026-10-14",
+          "status": "confirmed",
+          "source_id": "jxRmqCtsActual"
         }
       ],
       "revenue_mix": {
@@ -876,7 +1114,9 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxAnnual",
-          "supporting_source_ids": ["jxTwse"]
+          "supporting_source_ids": [
+            "jxTwse"
+          ]
         },
         {
           "theme": "台北樞紐及台中布局",
@@ -907,7 +1147,10 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxPhoenix",
-          "supporting_source_ids": ["jxPragueOfficial", "jxAnnual"]
+          "supporting_source_ids": [
+            "jxPragueOfficial",
+            "jxAnnual"
+          ]
         },
         {
           "theme": "規模擴張與資金壓力",
@@ -923,7 +1166,9 @@
           "verified_date": "2026-10-12",
           "status": "confirmed",
           "source_id": "jxFinancial2025",
-          "supporting_source_ids": ["jxAnnual"]
+          "supporting_source_ids": [
+            "jxAnnual"
+          ]
         }
       ],
       "annual_analysis": {

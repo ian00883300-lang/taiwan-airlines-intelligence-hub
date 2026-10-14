@@ -1718,7 +1718,17 @@
             "tail": "B-18771",
             "type": "B777F",
             "manufactured": "2020-11-30",
-            "age_years": 5.833333333333333
+            "age_years": 5.833333333333333,
+            "history": {
+              "source": "華航｜首架 777F 抵台及貨運任務",
+              "source_url": "https://www.china-airlines.com/hk/zh/about-china-airlines/media/news/20201214",
+              "published_date": "2020-12-14",
+              "as_of": "2020-12-01",
+              "verified_date": "2026-10-14",
+              "status": "confirmed",
+              "source_id": "ci777FArrival",
+              "value": "2020-12-01 首架 777F 抵台。此機號沿用 2004 年退役 747F 的編號；相同機號不代表同一架飛機。"
+            }
           },
           {
             "airline": "中華航空",

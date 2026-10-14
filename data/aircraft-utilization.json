@@ -1,0 +1,403 @@
+{
+  "source": "民航局｜航空器飛航時數與最近一次重大維修紀錄（115.6.30）",
+  "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41225&lang=1",
+  "published_date": "2026-07-24",
+  "as_of": "2026-06-30",
+  "verified_date": "2026-10-14",
+  "status": "confirmed",
+  "note": "累積時數使用小時:分鐘；起降次數依來源原欄位。C-check 空白代表來源未填，不代表未維修或逾期；不可用來判斷當日適航或剩餘壽命。",
+  "records": {
+    "B-18001": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "52926:58",
+      "cycles": 8013,
+      "last_c_check": "2024-06-19",
+      "source_page": 1
+    },
+    "B-18002": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "52804:03",
+      "cycles": 7904,
+      "last_c_check": "2024-08-15",
+      "source_page": 1
+    },
+    "B-18003": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "51140:50",
+      "cycles": 7789,
+      "last_c_check": "2024-11-02",
+      "source_page": 1
+    },
+    "B-18005": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "50538:26",
+      "cycles": 7559,
+      "last_c_check": "2024-12-15",
+      "source_page": 1
+    },
+    "B-18006": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "49824:39",
+      "cycles": 7447,
+      "last_c_check": "2025-03-07",
+      "source_page": 1
+    },
+    "B-18007": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "48438:44",
+      "cycles": 7176,
+      "last_c_check": "2025-06-18",
+      "source_page": 1
+    },
+    "B-18051": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "56614:05",
+      "cycles": 8432,
+      "last_c_check": "2023-09-23",
+      "source_page": 1
+    },
+    "B-18052": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "56692:13",
+      "cycles": 8214,
+      "last_c_check": "2023-11-02",
+      "source_page": 1
+    },
+    "B-18053": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "56635:43",
+      "cycles": 8123,
+      "last_c_check": "2024-01-19",
+      "source_page": 1
+    },
+    "B-18055": {
+      "aircraft_variant": "777-300ER",
+      "flight_hours": "55324:13",
+      "cycles": 8107,
+      "last_c_check": "2024-02-07",
+      "source_page": 1
+    },
+    "B-18101": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "11252:25",
+      "cycles": 5129,
+      "last_c_check": "2024-11-22",
+      "source_page": 1
+    },
+    "B-18102": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "11327:31",
+      "cycles": 4647,
+      "last_c_check": "2024-12-15",
+      "source_page": 1
+    },
+    "B-18103": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "11914:05",
+      "cycles": 4827,
+      "last_c_check": "2025-01-22",
+      "source_page": 1
+    },
+    "B-18105": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "10052:23",
+      "cycles": 4019,
+      "last_c_check": "2025-01-09",
+      "source_page": 1
+    },
+    "B-18106": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "11307:18",
+      "cycles": 4531,
+      "last_c_check": "2025-02-08",
+      "source_page": 1
+    },
+    "B-18107": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "9228:41",
+      "cycles": 3736,
+      "last_c_check": "2025-07-15",
+      "source_page": 1
+    },
+    "B-18108": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "10994:49",
+      "cycles": 4374,
+      "last_c_check": "2025-05-31",
+      "source_page": 1
+    },
+    "B-18109": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "10804:19",
+      "cycles": 4358,
+      "last_c_check": "2025-05-16",
+      "source_page": 1
+    },
+    "B-18110": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "9569:47",
+      "cycles": 3760,
+      "last_c_check": "2025-08-16",
+      "source_page": 1
+    },
+    "B-18111": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "9105:43",
+      "cycles": 3490,
+      "last_c_check": "2025-11-16",
+      "source_page": 1
+    },
+    "B-18112": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "7391:25",
+      "cycles": 3101,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18115": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "6386:16",
+      "cycles": 2641,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18116": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "5114:12",
+      "cycles": 2061,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18117": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "3106:16",
+      "cycles": 1334,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18118": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "4120:57",
+      "cycles": 1756,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18120": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "3659:07",
+      "cycles": 1597,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18121": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "2869:29",
+      "cycles": 1166,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-18122": {
+      "aircraft_variant": "A321-271NX",
+      "flight_hours": "1595:58",
+      "cycles": 721,
+      "last_c_check": null,
+      "source_page": 1
+    },
+    "B-58205": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "10305:34",
+      "cycles": 4153,
+      "last_c_check": "2024-06-05",
+      "source_page": 9
+    },
+    "B-58206": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "8976:35",
+      "cycles": 3602,
+      "last_c_check": "2025-07-03",
+      "source_page": 9
+    },
+    "B-58207": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "8931:00",
+      "cycles": 3595,
+      "last_c_check": "2025-08-23",
+      "source_page": 9
+    },
+    "B-58208": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "9499:21",
+      "cycles": 3882,
+      "last_c_check": "2025-01-11",
+      "source_page": 9
+    },
+    "B-58209": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "9724:00",
+      "cycles": 3891,
+      "last_c_check": "2024-11-01",
+      "source_page": 9
+    },
+    "B-58210": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "9402:11",
+      "cycles": 3835,
+      "last_c_check": "2025-03-17",
+      "source_page": 9
+    },
+    "B-58211": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "8882:04",
+      "cycles": 3554,
+      "last_c_check": "2025-08-29",
+      "source_page": 9
+    },
+    "B-58212": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "8616:23",
+      "cycles": 3504,
+      "last_c_check": "2025-09-26",
+      "source_page": 9
+    },
+    "B-58213": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "8631:21",
+      "cycles": 3526,
+      "last_c_check": "2025-11-08",
+      "source_page": 9
+    },
+    "B-58301": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "9406:13",
+      "cycles": 3486,
+      "last_c_check": "2025-12-14",
+      "source_page": 9
+    },
+    "B-58302": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "9447:16",
+      "cycles": 3405,
+      "last_c_check": "2026-01-30",
+      "source_page": 9
+    },
+    "B-58303": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "8825:30",
+      "cycles": 3128,
+      "last_c_check": "2026-05-16",
+      "source_page": 9
+    },
+    "B-58304": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "8765:08",
+      "cycles": 3194,
+      "last_c_check": "2024-09-28",
+      "source_page": 9
+    },
+    "B-58305": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "5137:44",
+      "cycles": 2012,
+      "last_c_check": "2026-05-31",
+      "source_page": 9
+    },
+    "B-58306": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "1344:17",
+      "cycles": 558,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58307": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "517:02",
+      "cycles": 235,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58308": {
+      "aircraft_variant": "A330-941",
+      "flight_hours": "296:25",
+      "cycles": 135,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58501": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "15485:29",
+      "cycles": 2794,
+      "last_c_check": "2025-10-19",
+      "source_page": 9
+    },
+    "B-58502": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "15227:42",
+      "cycles": 2671,
+      "last_c_check": "2025-11-07",
+      "source_page": 9
+    },
+    "B-58503": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "14710:52",
+      "cycles": 2321,
+      "last_c_check": "2026-03-31",
+      "source_page": 9
+    },
+    "B-58504": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "12811:52",
+      "cycles": 1977,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58505": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "10808:36",
+      "cycles": 1722,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58506": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "8814:49",
+      "cycles": 1368,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58507": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "7352:18",
+      "cycles": 1125,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58508": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "7259:36",
+      "cycles": 1168,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58509": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "5927:39",
+      "cycles": 926,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58510": {
+      "aircraft_variant": "A350-941",
+      "flight_hours": "5921:18",
+      "cycles": 924,
+      "last_c_check": null,
+      "source_page": 9
+    },
+    "B-58551": {
+      "aircraft_variant": "A350-1041",
+      "flight_hours": "833:48",
+      "cycles": 287,
+      "last_c_check": null,
+      "source_page": 9
+    }
+  }
+}

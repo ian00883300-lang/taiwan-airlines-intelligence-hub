@@ -37,13 +37,15 @@ const fleets = {
   starlux: jxFleet,
 };
 const aircraftOf = (r) =>
-  r.aircraft?.match(
-    /A\d{3}(?:-\d{3,4}|neo)?|(?:B)?7\d{2}(?:-\d{3}(?:ER)?)?F?/g,
-  ) || [];
+  [r.aircraft, r.schedule_evidence?.value]
+    .filter(Boolean)
+    .join(" / ")
+    .match(/A\d{3}(?:-\d{3,4}|neo)?|(?:B)?7\d{2}(?:-\d{3}(?:ER)?)?F?/g) || [];
 
 export default function RouteNetwork({ initial = "all", Source }) {
   const [air, setAir] = useState(initial),
     [region, setRegion] = useState("all"),
+    [evidence, setEvidence] = useState("all"),
     [origin, setOrigin] = useState("all"),
     [view, setView] = useState("continent"),
     [aircraft, setAircraft] = useState("all"),
@@ -59,6 +61,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
     .filter(
       (r) =>
         (air === "all" || r.airline === air) &&
+        (evidence === "all" ||
+          (evidence === "operating"
+            ? r.status === "confirmed"
+            : r.evidence_kind === "published_schedule_snapshot")) &&
         (origin === "all" || r.origin === origin) &&
         (aircraft === "all" ||
           (aircraft === "unknown"
@@ -241,6 +247,18 @@ export default function RouteNetwork({ initial = "all", Source }) {
             ))}
           </select>
         </label>
+        <label>
+          證據範圍
+          <select
+            aria-label="證據範圍"
+            value={evidence}
+            onChange={(e) => setEvidence(e.target.value)}
+          >
+            <option value="all">全部來源紀錄</option>
+            <option value="operating">開航／營運證據</option>
+            <option value="historical">僅歷史班表公告</option>
+          </select>
+        </label>
         <span className="filter-count">
           {filtered.length} 條航線 ·{" "}
           {new Set(filtered.map((r) => r.destination)).size} 個目的地機場
@@ -331,11 +349,29 @@ export default function RouteNetwork({ initial = "all", Source }) {
                           <small>
                             {r.evidence_kind === "dated_operating_snapshot"
                               ? "來源中的營運快照"
-                              : "已收錄官方證據"}
+                              : r.evidence_kind ===
+                                  "published_schedule_snapshot"
+                                ? "歷史班表公告（非現行班表）"
+                                : "已收錄官方證據"}
                           </small>
                         </td>
                         <td data-label="機型／已核實首航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
+                          {r.schedule_evidence && (
+                            <details>
+                              <summary>歷史班表與多機型配置</summary>
+                              <p>
+                                {r.schedule_evidence.value} ·{" "}
+                                {r.schedule_evidence.flight_numbers}
+                              </p>
+                              <p>
+                                {r.schedule_evidence.valid_from} 至{" "}
+                                {r.schedule_evidence.valid_to}
+                              </p>
+                              <p>{r.schedule_evidence.note}</p>
+                              <Source item={r.schedule_evidence} compact />
+                            </details>
+                          )}
                           <p>首航：</p>
                           {formatEventDate(event?.event_date)}
                           {event?.announced_event_date && !event.event_date && (

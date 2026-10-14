@@ -204,6 +204,90 @@
       "lat": 22.31,
       "lng": 113.92,
       "region": "Asia"
+    },
+    "PEN": {
+      "name": "檳城",
+      "lat": 5.3,
+      "lng": 100.28,
+      "region": "Southeast Asia"
+    },
+    "KUL": {
+      "name": "吉隆坡",
+      "lat": 2.75,
+      "lng": 101.71,
+      "region": "Southeast Asia"
+    },
+    "DAD": {
+      "name": "峴港",
+      "lat": 16.04,
+      "lng": 108.2,
+      "region": "Southeast Asia"
+    },
+    "SGN": {
+      "name": "胡志明市",
+      "lat": 10.82,
+      "lng": 106.65,
+      "region": "Southeast Asia"
+    },
+    "HAN": {
+      "name": "河內",
+      "lat": 21.22,
+      "lng": 105.81,
+      "region": "Southeast Asia"
+    },
+    "CEB": {
+      "name": "宿霧",
+      "lat": 10.31,
+      "lng": 123.98,
+      "region": "Southeast Asia"
+    },
+    "CRK": {
+      "name": "克拉克",
+      "lat": 15.19,
+      "lng": 120.56,
+      "region": "Southeast Asia"
+    },
+    "NGO": {
+      "name": "名古屋中部",
+      "lat": 34.86,
+      "lng": 136.81,
+      "region": "Japan"
+    },
+    "FUK": {
+      "name": "福岡",
+      "lat": 33.59,
+      "lng": 130.45,
+      "region": "Japan"
+    },
+    "CTS": {
+      "name": "札幌新千歲",
+      "lat": 42.78,
+      "lng": 141.69,
+      "region": "Japan"
+    },
+    "SDJ": {
+      "name": "仙台",
+      "lat": 38.14,
+      "lng": 140.92,
+      "region": "Japan"
+    },
+    "MFM": {
+      "name": "澳門",
+      "lat": 22.15,
+      "lng": 113.59,
+      "region": "Asia"
+    },
+    "DPS": {
+      "name": "峇里島／登巴薩",
+      "lat": -8.75,
+      "lng": 115.17,
+      "region": "Southeast Asia"
+    },
+    "CNX": {
+      "name": "清邁",
+      "lat": 18.77,
+      "lng": 98.96,
+      "region": "Southeast Asia"
     }
   }
 }

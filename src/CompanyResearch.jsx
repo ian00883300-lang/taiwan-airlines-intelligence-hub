@@ -25,7 +25,11 @@ export function CompanyTimeline({ airline, Source }) {
             <div className="event-line">
               <strong>
                 <time dateTime={record.date}>
-                  {formatEventDate(record.date)}
+                  {record.timeline_date_precision === "year"
+                    ? `${record.date}年（日期未詳）`
+                    : record.timeline_date_precision === "month"
+                      ? `${record.date.slice(0, 4)}年${Number(record.date.slice(5))}月（日期未詳）`
+                      : formatEventDate(record.date)}
                 </time>{" "}
                 —
               </strong>

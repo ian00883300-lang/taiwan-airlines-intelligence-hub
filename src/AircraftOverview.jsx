@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import utilization from "../data/aircraft-utilization.json";
 
 export default function AircraftOverview({ aircraft: x, Source }) {
   const [tailQuery, setTailQuery] = useState("");
@@ -44,6 +45,38 @@ export default function AircraftOverview({ aircraft: x, Source }) {
                   <strong>{r.tail}</strong>
                   <span>出廠 {r.manufactured}</span>
                   <span>機齡 {r.age_years.toFixed(2)} 年</span>
+                  <span>型別 {r.type}</span>
+                  {r.history && (
+                    <details>
+                      <summary>機身歷史</summary>
+                      <p>{r.history.value}</p>
+                      <Source item={r.history} compact />
+                    </details>
+                  )}
+                  {utilization.records[r.tail] && (
+                    <details>
+                      <summary>
+                        飛行時數與維修快照 · {utilization.as_of}
+                      </summary>
+                      <p>
+                        累積飛行 {utilization.records[r.tail].flight_hours}
+                        （小時:分鐘）
+                      </p>
+                      <p>
+                        累積起降{" "}
+                        {utilization.records[r.tail].cycles.toLocaleString()} 次
+                      </p>
+                      <p>
+                        最近 C-check：
+                        {utilization.records[r.tail].last_c_check || "來源未填"}
+                      </p>
+                      <p className="fineprint">
+                        {utilization.note} 原表第{" "}
+                        {utilization.records[r.tail].source_page} 頁。
+                      </p>
+                      <Source item={utilization} compact />
+                    </details>
+                  )}
                 </div>
               ))}
             </div>

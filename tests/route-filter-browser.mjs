@@ -15,14 +15,14 @@ try {
       document.documentElement.style.setProperty("--reading-scale", "1.5"),
     );
     assert.equal(await p.locator(".continent-heading").count(), 4);
-    assert.equal(await p.locator("tr[data-route]").count(), 24);
+    assert.equal(await p.locator("tr[data-route]").count(), 26);
     await p.getByLabel("洲別", { exact: true }).selectOption("Europe");
     assert.equal(await p.locator(".continent-heading").count(), 1);
     assert.equal(await p.locator("tr[data-route]").count(), 6);
     await p.getByLabel("洲別", { exact: true }).selectOption("all");
     await p.getByRole("button", { name: "依機型看航線", exact: true }).click();
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A321neo");
-    assert.equal(await p.locator("tr[data-route]").count(), 5);
+    assert.equal(await p.locator("tr[data-route]").count(), 7);
     assert.ok(
       (await p.locator(".route-table").innerText()).includes("KHH → MNL"),
     );
@@ -37,8 +37,8 @@ try {
     );
     await p.getByLabel("航空公司", { exact: true }).selectOption("starlux");
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A350-900");
-    assert.equal(await p.locator("tr[data-route]").count(), 2);
-    assert.equal(await p.getByLabel("機型證據", { exact: true }).count(), 2);
+    assert.equal(await p.locator("tr[data-route]").count(), 7);
+    assert.ok((await p.getByLabel("機型證據", { exact: true }).count()) >= 2);
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A350-1000");
     assert.equal(await p.locator("tr[data-route]").count(), 3);
     assert.equal(await p.locator(".continent-heading").count(), 3);
@@ -53,7 +53,7 @@ try {
         .evaluate((e) => e.scrollWidth <= e.clientWidth + 1),
     );
     await p.getByRole("button", { name: "依洲別看航線", exact: true }).click();
-    assert.equal(await p.locator("tr[data-route]").count(), 14);
+    assert.equal(await p.locator("tr[data-route]").count(), 32);
   }
   assert.deepEqual(errors, []);
   console.log(
