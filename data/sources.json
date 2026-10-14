@@ -1445,5 +1445,38 @@
     "status": "confirmed",
     "source_id": "ciEngineServices",
     "level": 1
+  },
+  {
+    "id": "jxGhg2025Current",
+    "source": "星宇航空｜2025 溫室氣體管理",
+    "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxGhg2025Current",
+    "level": 1
+  },
+  {
+    "id": "jxStakeholders2025",
+    "source": "星宇航空｜2025 利害關係人溝通",
+    "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxStakeholders2025",
+    "level": 1
+  },
+  {
+    "id": "jxStaffCare2025",
+    "source": "星宇航空｜2025 員工照顧",
+    "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025_STAFFCARE/",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxStaffCare2025",
+    "level": 1
   }
 ]

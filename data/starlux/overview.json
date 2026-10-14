@@ -177,6 +177,17 @@
         "as_of": "2025-12-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼36（PDF第38頁）。"
+      },
+      {
+        "title": "2025 年 5 月安全領導力承諾",
+        "body": "公司披露執行長於 2025 年 5 月簽署 IATA Safety Leadership Charter。此為治理承諾，不等同主管機關核發證照，也不是零事故保證。",
+        "source": "星宇航空｜2025 利害關係人溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStakeholders2025"
       }
     ],
     "organization": [
@@ -446,6 +457,17 @@
         "as_of": "2025-12-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼131（PDF第133頁）。"
+      },
+      {
+        "title": "安全通報：2025 年 706 份",
+        "body": "公司公開 2025 年收到 706 份安全報告、召開三層級安全會議共 16 場。報告數不等於事故數，亦不能單憑件數高低評判安全程度。",
+        "source": "星宇航空｜2025 利害關係人溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStakeholders2025"
       }
     ],
     "sms": [
@@ -474,6 +496,17 @@
         "as_of": "2025-12-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼130（PDF第132頁）。"
+      },
+      {
+        "title": "iQSMS 與改善追蹤",
+        "body": "官方描述匿名安全報告機制，以及安全落實小組、作業協調會與安全審查委員會的追蹤流程。面試可強調及時回報、明確描述事實與追蹤改善。",
+        "source": "星宇航空｜2025 利害關係人溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStakeholders2025"
       }
     ],
     "esg": [
@@ -487,6 +520,40 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "source_id": "jxAnnual"
+      },
+      {
+        "title": "排放強度：目標與實績並列",
+        "body": "官方表列範疇一、二排放強度：2023 年 26.54、2024 年 27.61、2025 年 30.91 公噸 CO₂e／百萬營收。2025 高於 2024；不可將減量目標寫成已達成。2024 起盤查邊界擴至全球據點，跨年比較須留意口徑。",
+        "source": "星宇航空｜2025 溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxGhg2025Current"
+      },
+      {
+        "title": "2030 強度目標與 SBTi 規劃",
+        "body": "以 2024 年為基準，2030 年範疇一、二排放強度目標降低 5%；官網另列 2026 導入 SBTi、2028 校正基準年之規劃。導入承諾不代表已取得 SBTi 目標驗證。",
+        "source": "星宇航空｜2025 溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "planned",
+        "source_id": "jxGhg2025Current"
+      },
+      {
+        "title": "2025 總排放與表格差異",
+        "body": "官網敘述全年總排放 1,371,612.91 公噸 CO₂e，分項表以整數呈現；敘述的間接排放百分比與表格分項未完全對應。本版保留總量的公司揭露口徑，不製作未對帳的占比圓餅圖。",
+        "source": "星宇航空｜2025 溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxGhg2025Current",
+        "note": "官方敘述與分項表存在口徑／四捨五入差異，待後續報告澄清。"
       }
     ],
     "saf": [
@@ -521,6 +588,17 @@
         "verified_date": "2026-10-13",
         "as_of": null,
         "status": "planned"
+      },
+      {
+        "title": "SAF 目標：2027 年 2%、2030 年 5%",
+        "body": "官方規劃逐步提升平均 SAF 使用比例，2027 年達 2%、2030 年達 5%。這是未來目標，不是目前全航網實際比例，也不等於每班都採相同比例。",
+        "source": "星宇航空｜2025 溫室氣體管理",
+        "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "planned",
+        "source_id": "jxGhg2025Current"
       }
     ],
     "finance": [],
@@ -624,6 +702,39 @@
         "as_of": "2026-03-31",
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼112（PDF第114頁）。"
+      },
+      {
+        "title": "內勤問卷：樣本與回覆率",
+        "body": "2025 年內勤職場調查有 1,353 人參與、回覆率約 53.2%。結果屬內勤填答者，不能外推為所有機師、空服或全體員工的滿意度。",
+        "source": "星宇航空｜2025 員工照顧",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025_STAFFCARE/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStaffCare2025"
+      },
+      {
+        "title": "輪班與異常工時健康管理",
+        "body": "2025 年公司記錄對 789 人進行過負荷問卷調查，結合體檢與風險分級，另追蹤每月異常工時。這是職業健康措施，不能替代機師適航與值勤疲勞判斷。",
+        "source": "星宇航空｜2025 員工照顧",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025_STAFFCARE/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStaffCare2025"
+      },
+      {
+        "title": "戶外熱危害訓練",
+        "body": "2025-06-13 熱危害預防教育訓練記錄 1,534 位員工完成；應用於可能暴露高溫的戶外作業。此為職場安全資料，不混作飛航員年度複訓時數。",
+        "source": "星宇航空｜2025 員工照顧",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025_STAFFCARE/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "jxStaffCare2025"
       }
     ],
     "recruitment": [
