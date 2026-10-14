@@ -1522,5 +1522,17 @@
     "status": "announced",
     "source_id": "jxAirsorayamaAnnouncement",
     "level": 1
+  },
+  {
+    "id": "caaUtilizationJune2026",
+    "source": "民航局｜航空器飛航時數與最近一次重大維修紀錄（115.6.30）",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41225&lang=1",
+    "published_date": "2026-07-24",
+    "as_of": "2026-06-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "note": "累積時數使用小時:分鐘；起降次數依來源原欄位。C-check 空白代表來源未填，不代表未維修或逾期；不可用來判斷當日適航或剩餘壽命。",
+    "source_id": "caaUtilizationJune2026",
+    "level": 2
   }
 ]

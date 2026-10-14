@@ -2537,5 +2537,176 @@
         "oct13-85"
       ]
     }
+  },
+  {
+    "source": "星宇航空｜2025 利害關係人溝通",
+    "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxStakeholders2025",
+    "id": "jx-safety-reports-evidence",
+    "airline": "starlux",
+    "topic": "Safety",
+    "practice_group": "資料判讀與營運思考",
+    "question": "星宇一年有 706 件安全通報，是否代表發生 706 次事故？",
+    "question_en": "Do 706 safety reports mean 706 accidents at STARLUX?",
+    "answer": "No. STARLUX disclosed 706 safety reports for 2025, not 706 accidents. I would focus on reporting, risk assessment and corrective action. A report count alone cannot establish safety performance because operational exposure and willingness to report may affect it.",
+    "answer_30": "No. STARLUX disclosed 706 safety reports for 2025, not 706 accidents. I would focus on reporting, risk assessment and corrective action. A report count alone cannot establish safety performance because operational exposure and willingness to report may affect it.",
+    "answer_60": "No. STARLUX disclosed 706 safety reports for 2025, not 706 accidents. I would focus on reporting, risk assessment and corrective action. A report count alone cannot establish safety performance because operational exposure and willingness to report may affect it. I would first clarify the reporting definition, period and severity, then examine whether corrective actions were completed and whether issues recurred. As a trainee, my responsibility would be to report facts honestly and learn from feedback. This is my interpretation, not a claim that all report categories are public.",
+    "answer_zh_30": "不是。星宇揭露的 706 件是 2025 年安全通報，不能直接等同事故。我的重點會放在公司如何鼓勵回報、分析風險與追蹤改善，而不是只看件數高低。通報量可能受到營運規模及回報意願影響，單一數字不足以判斷一家公司的安全表現。",
+    "answer_zh_60": "不是。星宇揭露的 706 件是 2025 年安全通報，不能直接等同事故。我的重點會放在公司如何鼓勵回報、分析風險與追蹤改善，而不是只看件數高低。通報量可能受到營運規模及回報意願影響，單一數字不足以判斷一家公司的安全表現。\n\n如果面試官追問，我會先確認通報的定義、涵蓋期間與事件嚴重度，再看改善措施是否完成及問題有沒有重複出現。我認為培訓學員能做到的是如實回報、保留事實並接受檢討，不把「沒有通報」當成安全的證明。這是我對資料的分析，不代表公司公開了所有通報分類，也不能從件數推論個別機師的能力。",
+    "chinese_answer": "如果面試官追問，我會先確認通報的定義、涵蓋期間與事件嚴重度，再看改善措施是否完成及問題有沒有重複出現。我認為培訓學員能做到的是如實回報、保留事實並接受檢討，不把「沒有通報」當成安全的證明。這是我對資料的分析，不代表公司公開了所有通報分類，也不能從件數推論個別機師的能力。",
+    "key_points": [
+      "通報不等於事故",
+      "確認定義與營運規模",
+      "追蹤改善與重複事件"
+    ],
+    "keywords": [
+      "通報不等於事故",
+      "確認定義與營運規模",
+      "追蹤改善與重複事件"
+    ],
+    "answer_outline": [
+      "通報不等於事故",
+      "確認定義與營運規模",
+      "追蹤改善與重複事件"
+    ],
+    "follow_up": "如果通報增加但事故沒有增加，你會先問哪些問題？",
+    "difficulty": "進階",
+    "why_it_matters": "分辨證據能支持的結論與仍待查核的事項。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創練習，非官方考題；官方事實與建議解讀分開，不含虛構個人經歷。",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "如果面試官追問，我會先確認通報的定義、涵蓋期間與事件嚴重度，再看改善措施是否完成及問題有沒有重複出現。我認為培訓學員能做到的是如實回報、保留事實並接受檢討，不把「沒有通報」當成安全的證明。這是我對資料的分析，不代表公司公開了所有通報分類，也不能從件數推論個別機師的能力。",
+      "analysis_en": "I would first clarify the reporting definition, period and severity, then examine whether corrective actions were completed and whether issues recurred. As a trainee, my responsibility would be to report facts honestly and learn from feedback. This is my interpretation, not a claim that all report categories are public.",
+      "pitfalls": [
+        "把 706 件說成事故數",
+        "以通報少推論比較安全"
+      ],
+      "follow_ups": [
+        "如果通報增加但事故沒有增加，你會先問哪些問題？"
+      ],
+      "evidence_ids": [
+        "jxStakeholders2025"
+      ]
+    }
+  },
+  {
+    "source": "星宇航空｜2025 溫室氣體管理",
+    "source_url": "https://sustainability.jx-starlux.com/esg/E-000/2025_GHGManagement/284/",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "jxGhg2025Current",
+    "id": "jx-saf-target-evidence",
+    "airline": "starlux",
+    "topic": "Current Aviation Issues",
+    "practice_group": "資料判讀與營運思考",
+    "question": "如何介紹星宇的 SAF 目標，同時避免把目標講成成果？",
+    "question_en": "How would you explain STARLUX’s SAF targets without presenting them as achievements?",
+    "answer": "I would label them as targets: STARLUX aims for SAF use of 2 percent in 2027 and 5 percent in 2030. Those figures are not current achievements or equivalent company-wide emissions reductions. I would separate the target, actual fuel use and accounting boundary.",
+    "answer_30": "I would label them as targets: STARLUX aims for SAF use of 2 percent in 2027 and 5 percent in 2030. Those figures are not current achievements or equivalent company-wide emissions reductions. I would separate the target, actual fuel use and accounting boundary.",
+    "answer_60": "I would label them as targets: STARLUX aims for SAF use of 2 percent in 2027 and 5 percent in 2030. Those figures are not current achievements or equivalent company-wide emissions reductions. I would separate the target, actual fuel use and accounting boundary. I would then consider supply, cost, certification and measurement. SAF share and emissions intensity are different indicators. Intensity comparisons also require a consistent denominator, baseline and organizational boundary. As a trainee, I would support efficiency through approved procedures while maintaining safety standards.",
+    "answer_zh_30": "我會先標明這是公司目標：星宇提出 2027 年 SAF 使用比例達 2%、2030 年達 5%。這不代表現在已經使用到該比例，也不能直接換算成全公司排放減少同樣百分比。回答時我會把目標、實際使用量與減排計算範圍分開，並指出資料的基準年度。",
+    "answer_zh_60": "我會先標明這是公司目標：星宇提出 2027 年 SAF 使用比例達 2%、2030 年達 5%。這不代表現在已經使用到該比例，也不能直接換算成全公司排放減少同樣百分比。回答時我會把目標、實際使用量與減排計算範圍分開，並指出資料的基準年度。\n\n我會接著關心 SAF 的供應、成本、認證與計算方法。SAF 使用比例和溫室氣體排放強度是不同指標；若談強度改善，還要確認分母、基準年及組織邊界一致。對培訓機師而言，我的態度是理解公司的永續方向，同時遵守核准作業程序，不為了節油自行改變安全標準。這部分屬於我的面試分析，而非宣稱公司已達標。",
+    "chinese_answer": "我會接著關心 SAF 的供應、成本、認證與計算方法。SAF 使用比例和溫室氣體排放強度是不同指標；若談強度改善，還要確認分母、基準年及組織邊界一致。對培訓機師而言，我的態度是理解公司的永續方向，同時遵守核准作業程序，不為了節油自行改變安全標準。這部分屬於我的面試分析，而非宣稱公司已達標。",
+    "key_points": [
+      "2027 年 2%／2030 年 5% 是目標",
+      "使用比例不等於減排比例",
+      "實績與邊界分開"
+    ],
+    "keywords": [
+      "2027 年 2%／2030 年 5% 是目標",
+      "使用比例不等於減排比例",
+      "實績與邊界分開"
+    ],
+    "answer_outline": [
+      "2027 年 2%／2030 年 5% 是目標",
+      "使用比例不等於減排比例",
+      "實績與邊界分開"
+    ],
+    "follow_up": "SAF 比例、絕對排放與排放強度，三者有什麼不同？",
+    "difficulty": "進階",
+    "why_it_matters": "分辨證據能支持的結論與仍待查核的事項。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "note": "原創練習，非官方考題；官方事實與建議解讀分開，不含虛構個人經歷。",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我會接著關心 SAF 的供應、成本、認證與計算方法。SAF 使用比例和溫室氣體排放強度是不同指標；若談強度改善，還要確認分母、基準年及組織邊界一致。對培訓機師而言，我的態度是理解公司的永續方向，同時遵守核准作業程序，不為了節油自行改變安全標準。這部分屬於我的面試分析，而非宣稱公司已達標。",
+      "analysis_en": "I would then consider supply, cost, certification and measurement. SAF share and emissions intensity are different indicators. Intensity comparisons also require a consistent denominator, baseline and organizational boundary. As a trainee, I would support efficiency through approved procedures while maintaining safety standards.",
+      "pitfalls": [
+        "把 planned 說成 confirmed 成果",
+        "用燃油比例直接推算全公司減排"
+      ],
+      "follow_ups": [
+        "SAF 比例、絕對排放與排放強度，三者有什麼不同？"
+      ],
+      "evidence_ids": [
+        "jxGhg2025Current"
+      ]
+    }
+  },
+  {
+    "source": "民航局｜航空器飛航時數與最近一次重大維修紀錄（115.6.30）",
+    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41225&lang=1",
+    "published_date": "2026-07-24",
+    "as_of": "2026-06-30",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "note": "原創練習，非官方考題；官方事實與建議解讀分開，不含虛構個人經歷。",
+    "source_id": "caaUtilizationJune2026",
+    "id": "ci-tail-maintenance-evidence",
+    "airline": "china-airlines",
+    "topic": "Fleet",
+    "practice_group": "資料判讀與營運思考",
+    "question": "查到華航某架飛機的飛行時數與 C-check 日期，就能判斷它今天適航嗎？",
+    "question_en": "Can published flight hours and a C-check date establish an aircraft’s airworthiness today?",
+    "answer": "No. The CAA table is a historical snapshot dated 30 June 2026. It gives published accumulated hours and maintenance dates, but it does not establish today’s complete technical status. A blank C-check field does not prove missing or overdue maintenance, and the table cannot replace release procedures.",
+    "answer_30": "No. The CAA table is a historical snapshot dated 30 June 2026. It gives published accumulated hours and maintenance dates, but it does not establish today’s complete technical status. A blank C-check field does not prove missing or overdue maintenance, and the table cannot replace release procedures.",
+    "answer_60": "No. The CAA table is a historical snapshot dated 30 June 2026. It gives published accumulated hours and maintenance dates, but it does not establish today’s complete technical status. A blank C-check field does not prove missing or overdue maintenance, and the table cannot replace release procedures. I would check the registration, aircraft variant and reference date, and distinguish manufacture, delivery and operation. Hours shown with a colon are hours and minutes, not decimal hours. For an operational decision, I would follow approved training and company procedures and seek clarification rather than independently infer airworthiness from public data.",
+    "answer_zh_30": "不能。民航局表格是特定日期的歷史快照，例如這份資料截至 2026 年 6 月 30 日。它能讓我了解個別機身的累積時數與已公布維修日期，但沒有涵蓋今天所有技術狀態。C-check 欄位空白也不能解讀成沒有維修或維修逾期，我不會用這份表替代正式放行程序。",
+    "answer_zh_60": "不能。民航局表格是特定日期的歷史快照，例如這份資料截至 2026 年 6 月 30 日。它能讓我了解個別機身的累積時數與已公布維修日期，但沒有涵蓋今天所有技術狀態。C-check 欄位空白也不能解讀成沒有維修或維修逾期，我不會用這份表替代正式放行程序。\n\n我會先核對機身編號、型別及資料日期，並區分出廠、交付、登記與實際營運。累積時數的冒號表示小時與分鐘，不是十進位小數。若被問到實際飛航決策，我會依訓練與公司核准程序確認所需文件並向教官或相關單位查證，而不是以公開網站自行判定。作為應徵者，我應展現的是知道資料能回答什麼，以及什麼仍需要專業程序確認。",
+    "chinese_answer": "我會先核對機身編號、型別及資料日期，並區分出廠、交付、登記與實際營運。累積時數的冒號表示小時與分鐘，不是十進位小數。若被問到實際飛航決策，我會依訓練與公司核准程序確認所需文件並向教官或相關單位查證，而不是以公開網站自行判定。作為應徵者，我應展現的是知道資料能回答什麼，以及什麼仍需要專業程序確認。",
+    "key_points": [
+      "先核對機號與資料日期",
+      "空白不等於逾期",
+      "不替代正式放行程序"
+    ],
+    "keywords": [
+      "先核對機號與資料日期",
+      "空白不等於逾期",
+      "不替代正式放行程序"
+    ],
+    "answer_outline": [
+      "先核對機號與資料日期",
+      "空白不等於逾期",
+      "不替代正式放行程序"
+    ],
+    "follow_up": "機隊名冊、交機新聞與當日可用機數，有哪些差別？",
+    "difficulty": "進階",
+    "why_it_matters": "分辨證據能支持的結論與仍待查核的事項。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "deep_dive": {
+      "analysis_zh": "我會先核對機身編號、型別及資料日期，並區分出廠、交付、登記與實際營運。累積時數的冒號表示小時與分鐘，不是十進位小數。若被問到實際飛航決策，我會依訓練與公司核准程序確認所需文件並向教官或相關單位查證，而不是以公開網站自行判定。作為應徵者，我應展現的是知道資料能回答什麼，以及什麼仍需要專業程序確認。",
+      "analysis_en": "I would check the registration, aircraft variant and reference date, and distinguish manufacture, delivery and operation. Hours shown with a colon are hours and minutes, not decimal hours. For an operational decision, I would follow approved training and company procedures and seek clarification rather than independently infer airworthiness from public data.",
+      "pitfalls": [
+        "由 C-check 日期推算剩餘壽命",
+        "把小時:分鐘當成十進位"
+      ],
+      "follow_ups": [
+        "機隊名冊、交機新聞與當日可用機數，有哪些差別？"
+      ],
+      "evidence_ids": [
+        "caaUtilizationJune2026"
+      ]
+    }
   }
 ]
