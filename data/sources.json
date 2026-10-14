@@ -1534,5 +1534,38 @@
     "note": "累積時數使用小時:分鐘；起降次數依來源原欄位。C-check 空白代表來源未填，不代表未維修或逾期；不可用來判斷當日適航或剩餘壽命。",
     "source_id": "caaUtilizationJune2026",
     "level": 2
+  },
+  {
+    "id": "ciClimateTargets2026",
+    "source": "華航｜關注氣候變遷",
+    "source_url": "https://calec.china-airlines.com/csr/environment/manage-climate.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "planned",
+    "source_id": "ciClimateTargets2026",
+    "level": 1
+  },
+  {
+    "id": "ciEnvironmentPerformance2025",
+    "source": "華航｜環境治理：2025 目標與實際績效",
+    "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "ciEnvironmentPerformance2025",
+    "level": 1
+  },
+  {
+    "id": "ciEnvironmentPerformance2025En",
+    "source": "China Airlines｜Environmental Governance",
+    "source_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "ciEnvironmentPerformance2025En",
+    "level": 1
   }
 ]

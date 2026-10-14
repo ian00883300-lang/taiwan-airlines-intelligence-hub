@@ -522,6 +522,42 @@
         "status": "confirmed",
         "as_of": "2025-12-31",
         "source_id": "ciEsg"
+      },
+      {
+        "title": "2025 航空用油效率",
+        "body": "2025 年較 2024 年提升 1.8%。這是效率改善，不代表整體絕對排放下降 1.8%。",
+        "source": "華航｜環境治理：2025 目標與實際績效",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciEnvironmentPerformance2025",
+        "corroboration_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html"
+      },
+      {
+        "title": "2030 地面減碳與再生能源目標",
+        "body": "地面排放較 2023 年減少 15%；再生能源裝置容量達用電契約容量 10%。裝置容量比例不是全年綠電使用比例。",
+        "source": "華航｜關注氣候變遷",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-climate.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "planned",
+        "source_id": "ciClimateTargets2026"
+      },
+      {
+        "title": "地面排放數字待釐清",
+        "body": "2025 實績：中文版寫較 2023 年增加 2%，英文版寫減少 2%。2027 目標：氣候頁同時出現減少 5% 與 10%。來源不一致，Data pending verification；暫不繪製趨勢圖。",
+        "source": "華航｜環境治理：2025 目標與實際績效",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "unverified",
+        "source_id": "ciEnvironmentPerformance2025",
+        "corroboration_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html",
+        "note": "已確認來源存在差異，尚未確認何者正確。2027 差異見氣候頁地面作業減量目標與生物多樣性指標表。"
       }
     ],
     "saf": [
@@ -546,6 +582,29 @@
         "verified_date": "2026-10-13",
         "as_of": null,
         "status": "announced"
+      },
+      {
+        "title": "SAF 階段目標：使用比例",
+        "body": "2027：0.5%；2030：5%；2040：40%；2050：65%。均為規劃，並非當前實績；公司說明會隨供應、成本與技術進展調整。",
+        "source": "華航｜關注氣候變遷",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-climate.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "planned",
+        "source_id": "ciClimateTargets2026"
+      },
+      {
+        "title": "2025 SAF 使用量",
+        "body": "2025 年績效表揭露添加 10,524 公噸 SAF；這是使用量，不能直接視為減碳噸數，也不等同三年採購合約總量。",
+        "source": "華航｜環境治理：2025 目標與實際績效",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciEnvironmentPerformance2025",
+        "corroboration_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html"
       }
     ],
     "finance": [],
@@ -722,14 +781,15 @@
     ],
     "esg": [
       {
-        "title": "2050 淨零與 2030 SAF 5%",
-        "body": "華航將飛航作業 2050 淨零、2030 年 SAF 添加比例 5% 列入永續目標；地面作業另訂 2030 年較 2023 年減碳 15%。目標與當年成果分開閱讀。",
-        "source": "華航｜永續治理與中長期目標",
-        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "title": "淨零方向與 SAF 階段目標",
+        "body": "飛航與地面作業以 2050 淨零為方向；SAF 使用目標為 2027 年 0.5%、2030 年 5%、2040 年 40%、2050 年 65%。以下另列 2025 實績及來源歧異。",
+        "source": "華航｜關注氣候變遷",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-climate.html",
         "published_date": null,
-        "verified_date": "2026-10-13",
         "as_of": null,
-        "status": "planned"
+        "verified_date": "2026-10-14",
+        "status": "planned",
+        "source_id": "ciClimateTargets2026"
       }
     ],
     "cadet": [
