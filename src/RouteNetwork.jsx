@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
+import { greatCircle } from "./great-circle.mjs";
 import airports from "../data/airports.json";
 import ci from "../data/china-airlines/overview.json";
 import eva from "../data/eva-air/overview.json";
@@ -69,10 +70,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
         (origin === "all" || r.origin === origin) &&
         (aircraft === "all" ||
           (aircraft === "unknown"
-            ? !r.aircraft
+            ? !aircraftOf(r).length
             : aircraftOf(r).includes(aircraft))) &&
         (region === "all" ||
-          r.region === region ||
+          continent(r) === region ||
           (region === "Taiwan" &&
             airports.items[r.origin].region === "Taiwan") ||
           (region === "Asia" &&
@@ -125,13 +126,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
       const from = airports.items[r.origin],
         to = airports.items[r.destination],
         color = airlineById(r.airline).color,
-        lng = to.lng < 0 ? to.lng + 360 : to.lng;
+        path = greatCircle([from.lat, from.lng], [to.lat, to.lng]),
+        lng = path.at(-1)[1];
       L.polyline(
-        [
-          [from.lat, from.lng],
-          [to.lat, lng],
-        ],
-        { color, weight: 2.5, opacity: 0.7 },
+        path,
+        { color, weight: 2.5, opacity: 0.8, dashArray: "7 9", className: "route-flow" },
       ).addTo(map);
       const content = document.createElement("span");
       content.textContent = `${airlineById(r.airline).name} · ${r.origin} ${from.name} → ${r.destination} ${to.name} · 來源基準 ${r.as_of || "未指定"}`;
@@ -161,9 +160,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
       resize.disconnect();
       map.remove();
     };
-  }, [air, origin, region, aircraft]);
+  }, [air, origin, region, aircraft, evidence]);
   return (
     <section className="route-network" aria-label="自營客運航圖與航線表">
+      <p className="fineprint">地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。</p>
       <div className="route-view-switch" aria-label="航網閱讀方式">
         <button
           aria-pressed={view === "continent"}

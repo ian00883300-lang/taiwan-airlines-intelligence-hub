@@ -1317,3 +1317,7 @@
     display: block;
   }
 }
+
+.route-flow { animation: route-flow 1.8s linear infinite; }
+@keyframes route-flow { to { stroke-dashoffset: -32; } }
+@media (prefers-reduced-motion: reduce) { .route-flow { animation: none; } }

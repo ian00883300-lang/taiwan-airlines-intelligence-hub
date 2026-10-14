@@ -38,6 +38,9 @@
     "jx-growth-profit",
     "jx-saf-goals",
     "jx-safety-reports-evidence",
-    "jx-saf-target-evidence"
+    "jx-saf-target-evidence",
+    "jx-own-error",
+    "jx-workload-help",
+    "jx-challenge-assumption"
   ]
 }

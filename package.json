@@ -7,9 +7,9 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test tests/data.test.mjs tests/practice.test.mjs",
+    "test": "node --test tests/data.test.mjs tests/practice.test.mjs tests/great-circle.test.mjs",
     "test:browser": "node tests/browser.mjs",
-    "check": "node --test tests/data.test.mjs tests/practice.test.mjs && vite build",
+    "check": "node --test tests/data.test.mjs tests/practice.test.mjs tests/great-circle.test.mjs && vite build",
     "test:starlux": "node tests/starlux-browser.mjs"
   },
   "dependencies": {

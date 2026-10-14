@@ -1567,5 +1567,27 @@
     "status": "confirmed",
     "source_id": "ciEnvironmentPerformance2025En",
     "level": 1
+  },
+  {
+    "id": "faaCrm51E",
+    "source": "FAA｜AC 120-51E Crew Resource Management Training",
+    "source_url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-51E.pdf",
+    "published_date": "2004-01-22",
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "source_id": "faaCrm51E",
+    "level": 2
+  },
+  {
+    "id": "ci145Training",
+    "source_id": "ci145Training",
+    "source": "華航修護組織｜145 技術培訓",
+    "source_url": "https://emo.china-airlines.com/lang-tc/145training.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 1
   }
 ]

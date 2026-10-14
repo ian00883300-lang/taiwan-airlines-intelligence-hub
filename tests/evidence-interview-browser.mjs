@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const questions=JSON.parse(fs.readFileSync('data/interview-bank.json','utf8')).filter(q=>['jx-safety-reports-evidence','jx-saf-target-evidence','ci-tail-maintenance-evidence'].includes(q.id));
+const questions=JSON.parse(fs.readFileSync('data/interview-bank.json','utf8')).filter(q=>['jx-safety-reports-evidence','jx-saf-target-evidence','ci-tail-maintenance-evidence','jx-own-error','jx-workload-help','jx-challenge-assumption'].includes(q.id));
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const page=await browser.newPage();
 const base=process.env.TEST_URL||'http://127.0.0.1:5173/';
@@ -28,5 +28,5 @@ try {
  await page.goto(base+'#china-airlines/esg');
  assert.match(await page.locator('.company-priorities').innerText(),/2027 年 0.5%/);
  assert.match(await page.locator('main').innerText(),/地面排放數字待釐清/);
- console.log('PASS three new bilingual exercises, answer lengths, citations, mobile/tablet dialogs and ESG priorities');
+ console.log('PASS six bilingual exercises, answer lengths, citations, mobile/tablet dialogs and ESG priorities');
 } finally {await browser.close();}

@@ -19,7 +19,7 @@ export default function AircraftOverview({ aircraft: x, Source }) {
       </section>
       {x.registrations && (
         <section className="aircraft-registrations">
-          <details open>
+          <details>
             <summary>
               機身編號 · {x.registrations.records.length} 架 ·{" "}
               {x.registrations.as_of}

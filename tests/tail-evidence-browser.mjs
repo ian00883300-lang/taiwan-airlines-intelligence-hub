@@ -6,6 +6,9 @@ const base=process.env.TEST_URL || 'http://127.0.0.1:5173/';
 try {
   await page.goto(base+'#china-airlines/fleet');
   const input=page.getByLabel('A350-900 搜尋機身編號',{exact:true});
+  const panel=input.locator('xpath=ancestor::details[1]');
+  assert.equal(await panel.getAttribute('open'),null);
+  await panel.locator(':scope > summary').click();
   await input.fill('B-18919');
   const card=page.locator('.registration-list > div').filter({has:page.getByText('B-18919',{exact:true})});
   await card.getByText('飛行時數與維修快照',{exact:false}).click();
@@ -15,7 +18,9 @@ try {
   const newer=page.locator('.registration-list > div').filter({has:page.getByText('B-18922',{exact:true})});
   assert.equal(await newer.locator('details').count(),0);
   await page.goto(base+'#starlux/fleet');
-  await page.getByLabel('A350-1000 搜尋機身編號',{exact:true}).fill('B-58554');
+  const jxInput=page.getByLabel('A350-1000 搜尋機身編號',{exact:true});
+  await jxInput.locator('xpath=ancestor::details[1]').locator(':scope > summary').click();
+  await jxInput.fill('B-58554');
   const gold=page.locator('.registration-list > div').filter({has:page.getByText('B-58554',{exact:true})});
   await gold.getByText('機身歷史',{exact:true}).click();
   assert.match(await gold.innerText(),/Gold/);

@@ -449,6 +449,17 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciSms"
+      },
+      {
+        "source_id": "ci145Training",
+        "source": "華航修護組織｜145 技術培訓",
+        "source_url": "https://emo.china-airlines.com/lang-tc/145training.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "145 技術培訓：維修能力如何持續維持",
+        "body": "官方列出基礎學科、實作、機種訓練與工作現場演練，並涵蓋發動機訓練及 CAT II/III、ETOPS、RVSM、PBN、防冰／除冰、載重平衡、RII 等專業複訓。對象包含維修人員、檢驗員、管制員與工程師；這是修護訓練能力，不能當成培訓機師課程，也不能用課程機種清單推算現役機隊。頁面未提供發布日期。"
       }
     ],
     "safety": [
