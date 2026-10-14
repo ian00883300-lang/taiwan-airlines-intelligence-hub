@@ -220,7 +220,7 @@ test("All companies have sorted typed timelines, operational models and evidence
 });
 test("Expanded self-operated route records cover real origins and keep sources and first-flight evidence separate", () => {
   const routes = ids.flatMap((id) => read(`data/${id}/routes.json`).items);
-  assert.equal(routes.length, 72);
+  assert.equal(routes.length, 112);
   assert.equal(
     new Set(routes.map((r) => [r.airline, r.origin, r.destination].join("/")))
       .size,
@@ -616,15 +616,60 @@ test("CAA utilization snapshots resolve to registered aircraft and preserve time
   }
 });
 
-test('Announced routes remain separate from operating records and retain planned dates', () => {
-  const plans=read('data/planned-routes.json');
-  assert.equal(plans.length,3);
-  const routes=read('data/starlux/routes.json').items;
-  for(const p of plans){
-    assert.equal(p.status,'announced');
+test("Announced routes remain separate from operating records and retain planned dates", () => {
+  const plans = read("data/planned-routes.json");
+  assert.equal(plans.length, 3);
+  const routes = read("data/starlux/routes.json").items;
+  for (const p of plans) {
+    assert.equal(p.status, "announced");
     assert.ok(p.planned_start > p.verified_date);
-    assert.ok(!routes.some(r=>r.origin===p.origin&&r.destination===p.destination));
+    assert.ok(
+      !routes.some(
+        (r) => r.origin === p.origin && r.destination === p.destination,
+      ),
+    );
   }
-  const sections=read('data/starlux/overview.json').sections;
-  assert.ok(sections.codeshare.some(x=>x.source_id==='aaJxCodeshare2026'&&x.body.includes('待主管機關核准')));
+  const sections = read("data/starlux/overview.json").sections;
+  assert.ok(
+    sections.codeshare.some(
+      (x) =>
+        x.source_id === "aaJxCodeshare2026" &&
+        x.body.includes("待主管機關核准"),
+    ),
+  );
+});
+
+test("CI seasonal timetable excludes partner operators and preserves segmented Auckland service", () => {
+  const routes = read("data/china-airlines/routes.json").items;
+  const season = routes.filter(
+    (r) => r.schedule_evidence?.source_id === "ciSchedule2026Summer",
+  );
+  assert.equal(season.length, 65);
+  assert.ok(!routes.some((r) => r.origin === "TPE" && r.destination === "AKL"));
+  assert.ok(routes.some((r) => r.origin === "BNE" && r.destination === "AKL"));
+  assert.ok(!routes.some((r) => r.origin === "RMQ" && r.destination === "SGN"));
+  assert.ok(!routes.some((r) => r.destination === "BWN"));
+  assert.ok(
+    routes
+      .find((r) => r.destination === "KTI")
+      .schedule_evidence.aircraft_codes.includes("738"),
+  );
+  assert.equal(
+    routes.find((r) => r.origin === "TSA" && r.destination === "HND")
+      .schedule_evidence.aircraft_codes,
+    "333",
+  );
+  assert.equal(
+    routes.find((r) => r.origin === "KHH" && r.destination === "OKA")
+      .schedule_evidence.aircraft_codes,
+    "738",
+  );
+  for (const r of season) {
+    assert.equal(r.schedule_evidence.valid_to, "2026-10-24");
+    assert.ok(
+      r.schedule_evidence.source_page >= 4 &&
+        r.schedule_evidence.source_page <= 11,
+    );
+    assert.ok(!/CI9\d{3}/.test(r.schedule_evidence.flight_numbers));
+  }
 });

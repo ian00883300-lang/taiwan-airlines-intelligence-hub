@@ -1421,5 +1421,29 @@
     "verified_date": "2026-10-14",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "ciSchedule2026Summer",
+    "source": "中華航空｜2026-07-01 至 2026-10-24 時刻表 Issue 2A",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf",
+    "published_date": null,
+    "as_of": "2026-07-01",
+    "verified_date": "2026-10-14",
+    "status": "announced",
+    "level": 1,
+    "document_version": "Issue 2A",
+    "document_sha256": "a70e081af5dd09676bc50809bf4d895ecf96b4155831df2804948a84cf77dffa",
+    "note": "PDF第4–11頁逐頁目視核對；僅CI自營班號。動態URL未保證日後仍為同一版本。"
+  },
+  {
+    "id": "ciEngineServices",
+    "source": "華航修護組織｜發動機服務",
+    "source_url": "https://emo.china-airlines.com/lang-tc/engine_mtn.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-14",
+    "status": "confirmed",
+    "source_id": "ciEngineServices",
+    "level": 1
   }
 ]

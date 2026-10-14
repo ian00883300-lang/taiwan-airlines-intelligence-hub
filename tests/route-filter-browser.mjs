@@ -15,25 +15,25 @@ try {
       document.documentElement.style.setProperty("--reading-scale", "1.5"),
     );
     assert.equal(await p.locator(".continent-heading").count(), 4);
-    assert.equal(await p.locator("tr[data-route]").count(), 26);
+    assert.equal(await p.locator("tr[data-route]").count(), 66);
     await p.getByLabel("洲別", { exact: true }).selectOption("Europe");
     assert.equal(await p.locator(".continent-heading").count(), 1);
     assert.equal(await p.locator("tr[data-route]").count(), 6);
     await p.getByLabel("洲別", { exact: true }).selectOption("all");
     await p.getByRole("button", { name: "依機型看航線", exact: true }).click();
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A321neo");
-    assert.equal(await p.locator("tr[data-route]").count(), 7);
+    assert.equal(await p.locator("tr[data-route]").count(), 34);
     assert.ok(
       (await p.locator(".route-table").innerText()).includes("KHH → MNL"),
     );
     await p.getByLabel("選擇機型", { exact: true }).selectOption("777-300ER");
-    assert.equal(await p.locator("tr[data-route]").count(), 1);
+    assert.equal(await p.locator("tr[data-route]").count(), 11);
     assert.ok(
       (await p.locator(".route-table").innerText()).includes("TPE → LAX"),
     );
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A330-300");
     assert.ok(
-      (await p.locator(".route-list").innerText()).includes("Data pending"),
+      (await p.locator(".route-table").innerText()).includes("TSA → HND"),
     );
     await p.getByLabel("航空公司", { exact: true }).selectOption("starlux");
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A350-900");

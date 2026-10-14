@@ -257,7 +257,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           >
             <option value="all">全部來源紀錄</option>
             <option value="operating">開航／營運證據</option>
-            <option value="historical">僅歷史班表公告</option>
+            <option value="historical">僅期間班表公告</option>
           </select>
         </label>
         <span className="filter-count">
@@ -352,7 +352,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               ? "來源中的營運快照"
                               : r.evidence_kind ===
                                   "published_schedule_snapshot"
-                                ? "歷史班表公告（非現行班表）"
+                                ? "期間班表公告（非即時派飛）"
                                 : "已收錄官方證據"}
                           </small>
                         </td>
@@ -360,7 +360,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                           <strong>{r.aircraft || "機型待查核"}</strong>
                           {r.schedule_evidence && (
                             <details>
-                              <summary>歷史班表與多機型配置</summary>
+                              <summary>班表期間與多機型配置</summary>
                               <p>
                                 {r.schedule_evidence.value} ·{" "}
                                 {r.schedule_evidence.flight_numbers}

@@ -288,6 +288,114 @@
       "lat": 18.77,
       "lng": 98.96,
       "region": "Southeast Asia"
+    },
+    "TSA": {
+      "name": "臺北松山",
+      "lat": 25.07,
+      "lng": 121.55,
+      "region": "Taiwan"
+    },
+    "HND": {
+      "name": "東京羽田",
+      "lat": 35.55,
+      "lng": 139.78,
+      "region": "Japan"
+    },
+    "HIJ": {
+      "name": "廣島",
+      "lat": 34.44,
+      "lng": 132.92,
+      "region": "Japan"
+    },
+    "TAK": {
+      "name": "高松",
+      "lat": 34.21,
+      "lng": 134.02,
+      "region": "Japan"
+    },
+    "KOJ": {
+      "name": "鹿兒島",
+      "lat": 31.8,
+      "lng": 130.72,
+      "region": "Japan"
+    },
+    "GMP": {
+      "name": "首爾金浦",
+      "lat": 37.56,
+      "lng": 126.79,
+      "region": "Korea"
+    },
+    "PUS": {
+      "name": "釜山金海",
+      "lat": 35.18,
+      "lng": 128.94,
+      "region": "Korea"
+    },
+    "CGK": {
+      "name": "雅加達蘇卡諾哈達",
+      "lat": -6.13,
+      "lng": 106.66,
+      "region": "Southeast Asia"
+    },
+    "RGN": {
+      "name": "仰光",
+      "lat": 16.91,
+      "lng": 96.13,
+      "region": "Southeast Asia"
+    },
+    "KTI": {
+      "name": "金邊德崇",
+      "lat": 11.36,
+      "lng": 104.92,
+      "region": "Southeast Asia"
+    },
+    "ROR": {
+      "name": "帛琉科羅",
+      "lat": 7.37,
+      "lng": 134.54,
+      "region": "Oceania"
+    },
+    "SHA": {
+      "name": "上海虹橋",
+      "lat": 31.2,
+      "lng": 121.34,
+      "region": "China"
+    },
+    "PEK": {
+      "name": "北京首都",
+      "lat": 40.08,
+      "lng": 116.6,
+      "region": "China"
+    },
+    "PVG": {
+      "name": "上海浦東",
+      "lat": 31.14,
+      "lng": 121.81,
+      "region": "China"
+    },
+    "CAN": {
+      "name": "廣州白雲",
+      "lat": 23.39,
+      "lng": 113.3,
+      "region": "China"
+    },
+    "SZX": {
+      "name": "深圳寶安",
+      "lat": 22.64,
+      "lng": 113.81,
+      "region": "China"
+    },
+    "SYD": {
+      "name": "雪梨",
+      "lat": -33.95,
+      "lng": 151.18,
+      "region": "Oceania"
+    },
+    "CKG": {
+      "name": "重慶江北",
+      "lat": 29.72,
+      "lng": 106.64,
+      "region": "China"
     }
   }
 }

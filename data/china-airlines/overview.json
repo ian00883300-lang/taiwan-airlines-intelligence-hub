@@ -427,6 +427,28 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciMro2026"
+      },
+      {
+        "title": "發動機服務：翻修、試車與性能監控",
+        "body": "官方服務頁列 CFM56-7B、CF6-80C2、CF6-80E1、PW1100G-JM 的翻修及試車服務，並提供 PBTH 管理、備用發動機租借與性能監控。頁面無更新日期；特定送修案仍需確認核准範圍與合約。",
+        "source": "華航修護組織｜發動機服務",
+        "source_url": "https://emo.china-airlines.com/lang-tc/engine_mtn.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciEngineServices"
+      },
+      {
+        "title": "修護設施與證照口徑",
+        "body": "永續頁列 11 個民航主管機關維修廠證照、可同時容納 5 架廣體與 1 架窄體的高階維修棚廠；2026 澳門 AACM 證照仍以計畫描述，未據此宣稱已取得。",
+        "source": "華航企業永續｜信賴價值與安全管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciSms"
       }
     ],
     "safety": [
@@ -463,6 +485,28 @@
         "published_date": null,
         "as_of": null,
         "verified_date": "2026-10-11",
+        "status": "confirmed",
+        "source_id": "ciSms"
+      },
+      {
+        "title": "聯管處：24/7 跨單位協調",
+        "body": "官方列出飛航、氣象、簽派、修護、航情守望與桃園運行管制席；整合空域、天候及場站資訊，與組員協調不正常航班應變。這些公司席位不是空中交通管制 ATC。",
+        "source": "華航企業永續｜信賴價值與安全管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
+        "status": "confirmed",
+        "source_id": "ciSms"
+      },
+      {
+        "title": "可靠性管制：由資料找出維修需求",
+        "body": "官方說明透過異常與技術參數的蒐集、分析，調整維修策略。面試可連結如實回報、完整記錄與持續改善，不把沒有故障報告當成沒有風險。",
+        "source": "華航企業永續｜信賴價值與安全管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciSms"
       }
