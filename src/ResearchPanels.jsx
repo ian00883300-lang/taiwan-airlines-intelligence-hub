@@ -1,3 +1,4 @@
+import { change } from "./change.mjs";
 import React, { useEffect, useRef, useState } from "react";
 import {
   Chart,
@@ -243,20 +244,30 @@ export function FinanceVisuals({ f, Source }) {
               <th>合併營收</th>
               <th>歸屬母公司淨利</th>
               <th>基本 EPS（元／股）</th>
+              <th>營收年增減</th>
             </tr>
           </thead>
           <tbody>
-            {f.history.map((x) => (
+            {f.history.map((x, index) => (
               <tr key={x.year}>
                 <th>{x.year}</th>
                 <td>{(x.revenue / 100000).toFixed(2)}</td>
                 <td>{(x.profit / 100000).toFixed(2)}</td>
                 <td>{x.eps.toFixed(2)}</td>
+                <td>
+                  {index && x.year === f.history[index - 1].year + 1
+                    ? change(f.history[index - 1].revenue, x.revenue)
+                    : "—"}
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <p className="trend-summary">
+        報表解讀：同口徑全年營收呈現規模變化，歸母淨利與 EPS
+        反映不同獲利面向；三者不必然同幅成長。年增減＝（本年／前一年－1）×100%，基期非正值或非連續年度不計算百分比。公司方向與進一步解讀見下方損益比較。
+      </p>
       <Source item={f.history.at(-1)} />
       <Source item={f.breakdown} />
     </>

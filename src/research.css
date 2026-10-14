@@ -1318,6 +1318,102 @@
   }
 }
 
-.route-flow { animation: route-flow 1.8s linear infinite; }
-@keyframes route-flow { to { stroke-dashoffset: -32; } }
-@media (prefers-reduced-motion: reduce) { .route-flow { animation: none; } }
+.route-flow {
+  animation: route-flow 1.8s linear infinite;
+}
+@keyframes route-flow {
+  to {
+    stroke-dashoffset: -32;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-flow {
+    animation: none;
+  }
+}
+
+/* Unified route controls and larger, responsive map */
+.route-network .route-map {
+  height: clamp(440px, 65vh, 760px);
+}
+.network-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+.network-totals {
+  text-align: right;
+  margin-left: auto;
+}
+.network-totals strong {
+  display: block;
+  font-size: 1.35rem;
+  color: #163851;
+}
+.network-totals small {
+  display: block;
+  margin-top: 6px;
+}
+.network-filters {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: end;
+}
+.network-filters label,
+.network-filters select {
+  min-width: 0;
+  width: 100%;
+}
+.network-filters .filter-count {
+  grid-column: 1/-1;
+}
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+  text-underline-offset: 4px;
+}
+abbr[title]:focus {
+  outline: 2px solid #346baf;
+  outline-offset: 3px;
+}
+.site-updated {
+  line-height: 1.7;
+}
+.trend-summary {
+  background: #edf4fa;
+  padding: 18px;
+  border-radius: 12px;
+  line-height: 1.8;
+}
+@media (max-width: 1000px) {
+  .network-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .route-network .route-map {
+    height: 480px;
+    max-height: 75svh;
+    min-height: 360px;
+  }
+  .network-totals {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+abbr[title]:hover::after,
+abbr[title]:focus::after {
+  content: attr(title);
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #163851;
+  background: #e9f3fa;
+  padding: 6px 8px;
+  border-radius: 5px;
+  white-space: normal;
+}

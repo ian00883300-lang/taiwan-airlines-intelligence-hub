@@ -49,7 +49,6 @@ export default function RouteNetwork({ initial = "all", Source }) {
     [region, setRegion] = useState("all"),
     [evidence, setEvidence] = useState("all"),
     [origin, setOrigin] = useState("all"),
-    [view, setView] = useState("continent"),
     [aircraft, setAircraft] = useState("all"),
     [tileError, setTileError] = useState(false);
   const ref = useRef();
@@ -128,10 +127,13 @@ export default function RouteNetwork({ initial = "all", Source }) {
         color = airlineById(r.airline).color,
         path = greatCircle([from.lat, from.lng], [to.lat, to.lng]),
         lng = path.at(-1)[1];
-      L.polyline(
-        path,
-        { color, weight: 2.5, opacity: 0.8, dashArray: "7 9", className: "route-flow" },
-      ).addTo(map);
+      L.polyline(path, {
+        color,
+        weight: 2.5,
+        opacity: 0.8,
+        dashArray: "7 9",
+        className: "route-flow",
+      }).addTo(map);
       const content = document.createElement("span");
       content.textContent = `${airlineById(r.airline).name} · ${r.origin} ${from.name} → ${r.destination} ${to.name} · 來源基準 ${r.as_of || "未指定"}`;
       L.circleMarker([to.lat, lng], {
@@ -163,46 +165,34 @@ export default function RouteNetwork({ initial = "all", Source }) {
   }, [air, origin, region, aircraft, evidence]);
   return (
     <section className="route-network" aria-label="自營客運航圖與航線表">
-      <p className="fineprint">地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。</p>
-      <div className="route-view-switch" aria-label="航網閱讀方式">
-        <button
-          aria-pressed={view === "continent"}
-          onClick={() => {
-            setView("continent");
-            setAircraft("all");
-          }}
-        >
-          依洲別看航線
-        </button>
-        <button
-          aria-pressed={view === "aircraft"}
-          onClick={() => setView("aircraft")}
-        >
-          依機型看航線
-        </button>
-      </div>
-      {view === "aircraft" && (
-        <div className="aircraft-route-picker">
-          <label>
-            選擇機型
-            <select
-              aria-label="選擇機型"
-              value={aircraft}
-              onChange={(e) => setAircraft(e.target.value)}
-            >
-              <option value="all">全部機型與待查核</option>
-              {aircraftOptions.map((t) => (
-                <option key={t}>{t}</option>
-              ))}
-              <option value="unknown">機型資料待查核</option>
-            </select>
-          </label>
-          <p>
-            選擇機型，查看已有來源支持的航點與航線。未收錄不代表該機型不執飛；歷史首航與活動配置不代表今日固定派飛。
-          </p>
+      <p className="fineprint">
+        地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。
+      </p>
+      <div className="network-heading">
+        <h3>自營客運航網</h3>
+        <div className="network-totals">
+          <strong>
+            {filtered.length} 條航線 ·{" "}
+            {new Set(filtered.map((r) => r.destination)).size} 個航點
+          </strong>
+          <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>
         </div>
-      )}
-      <div className="filters">
+      </div>
+      <div className="filters network-filters">
+        <label>
+          選擇機型
+          <select
+            aria-label="選擇機型"
+            value={aircraft}
+            onChange={(e) => setAircraft(e.target.value)}
+          >
+            <option value="all">全部機型與待查核</option>
+            {aircraftOptions.map((t) => (
+              <option key={t}>{t}</option>
+            ))}
+            <option value="unknown">機型資料待查核</option>
+          </select>
+        </label>
         <label>
           航空公司
           <select
@@ -241,10 +231,23 @@ export default function RouteNetwork({ initial = "all", Source }) {
           出發機場
           <select value={origin} onChange={(e) => setOrigin(e.target.value)}>
             <option value="all">全部起點</option>
-            {origins.map((code) => (
-              <option key={code} value={code}>
-                {code} · {airports.items[code].name}
-              </option>
+            {[true, false].map((taiwan) => (
+              <optgroup
+                key={String(taiwan)}
+                label={taiwan ? "台灣出發" : "海外延伸航段"}
+              >
+                {origins
+                  .filter(
+                    (code) =>
+                      (airports.items[code].region === "Taiwan") === taiwan,
+                  )
+                  .map((code) => (
+                    <option key={code} value={code}>
+                      {code} · {airports.items[code].name}
+                      {code === "BNE" ? "（澳洲）" : ""}
+                    </option>
+                  ))}
+              </optgroup>
             ))}
           </select>
         </label>
@@ -265,6 +268,9 @@ export default function RouteNetwork({ initial = "all", Source }) {
           {new Set(filtered.map((r) => r.destination)).size} 個目的地機場
         </span>
       </div>
+      <p className="fineprint">
+        機型配置依來源日期與班表期間判讀，未收錄不代表未執飛。海外起點為延伸航段，不屬於台灣機場；此處航點數不含僅作起點的機場。
+      </p>
       <ul className="network-legend">
         {airlines.map((a) => (
           <li key={a.id}>
@@ -292,7 +298,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           <div className="table-wrap research-table route-table">
             <table>
               <caption>
-                {view === "aircraft"
+                {aircraft !== "all"
                   ? `${aircraft === "all" ? "全部" : aircraft} · 已查核機型航線`
                   : "按目的地所在洲別分類"}{" "}
                 · 航線與日期
@@ -333,7 +339,19 @@ export default function RouteNetwork({ initial = "all", Source }) {
                         <th scope="row">{airlineById(r.airline).name}</th>
                         <td data-label="起點 → 終點">
                           <strong>
-                            {r.origin} → {r.destination}
+                            <abbr
+                              tabIndex={0}
+                              title={`${r.origin} · ${airports.items[r.origin].name}機場`}
+                            >
+                              {r.origin}
+                            </abbr>{" "}
+                            →{" "}
+                            <abbr
+                              tabIndex={0}
+                              title={`${r.destination} · ${airports.items[r.destination].name}機場`}
+                            >
+                              {r.destination}
+                            </abbr>
                           </strong>
                           <p>
                             {airports.items[r.origin].name} →{" "}

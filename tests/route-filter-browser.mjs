@@ -20,7 +20,7 @@ try {
     assert.equal(await p.locator(".continent-heading").count(), 1);
     assert.equal(await p.locator("tr[data-route]").count(), 6);
     await p.getByLabel("洲別", { exact: true }).selectOption("all");
-    await p.getByRole("button", { name: "依機型看航線", exact: true }).click();
+    assert.equal(await p.getByRole("button", { name: "依機型看航線", exact: true }).count(),0);
     await p.getByLabel("選擇機型", { exact: true }).selectOption("A321neo");
     assert.equal(await p.locator("tr[data-route]").count(), 34);
     assert.ok(
@@ -52,7 +52,7 @@ try {
         .locator(".route-table")
         .evaluate((e) => e.scrollWidth <= e.clientWidth + 1),
     );
-    await p.getByRole("button", { name: "依洲別看航線", exact: true }).click();
+    await p.getByLabel("選擇機型", { exact: true }).selectOption("all");
     assert.equal(await p.locator("tr[data-route]").count(), 39);
   }
   assert.deepEqual(errors, []);

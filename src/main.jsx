@@ -1725,7 +1725,7 @@ function App() {
             <br />
             ZERO EXTRA COST
           </p>
-          <span>v0.1 · NT$0</span>
+          <span className="site-updated">網站檔案更新<br /><time dateTime={__SITE_UPDATED_AT__}>{new Date(__SITE_UPDATED_AT__).toLocaleString("zh-TW", {timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false})}</time><br />台灣時間</span>
         </div>
       </aside>
       <div className="app-shell">

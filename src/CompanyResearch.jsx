@@ -1,3 +1,4 @@
+import { change } from "./change.mjs";
 import React, { useState } from "react";
 import dossier from "../data/research-dossier.json";
 import sourceCatalog from "../data/sources.json";
@@ -474,13 +475,32 @@ export function AnnualPerformance({ airline, Source }) {
                 <td data-label="2025">
                   {number(row.current, row.unit === "元／股" ? 2 : 0)}
                 </td>
-                <td data-label="年增率">
-                  {number((row.current / row.previous - 1) * 100, 2)}%
-                </td>
+                <td data-label="年增率">{change(row.previous, row.current)}</td>
               </tr>
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="trend-summary">
+        <h4>報表怎麼看？</h4>
+        <p>
+          2025 相較 2024：
+          {record.rows
+            .filter((row) => row.unit !== "元／股")
+            .slice(0, 3)
+            .map((row) => row.label + "" + change(row.previous, row.current))
+            .join("；")}
+          。上述增減依原始數值計算，非四捨五入後金額。
+        </p>
+        <p>
+          {airline === "starlux"
+            ? "研究解讀：營收擴張未同步轉為更高獲利，應並看營業利益率、營運成本與資金負擔；不能只以機隊或航點增加判斷經營成效。"
+            : "研究解讀：營收與獲利須分開比較，並追蹤客運及貨運收入結構；單一年度變動不足以判斷長期趨勢或因果。"}
+        </p>
+        <h4>對照公司方向</h4>
+        <p>{dossier.airlines[airline].strategy[0].official_fact}</p>
+        <p>{dossier.airlines[airline].strategy[0].analysis}</p>
+        <Source item={dossier.airlines[airline].strategy[0]} compact />
       </div>
       <p className="metric-definition">
         營業利益率＝營業利益／營業收入。
