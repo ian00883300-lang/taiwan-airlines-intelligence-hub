@@ -607,7 +607,7 @@ test("CAA utilization snapshots resolve to registered aircraft and preserve time
       ),
     ),
   );
-  assert.equal(Object.keys(u.records).length, 112);
+  assert.equal(Object.keys(u.records).length, 115);
   for (const [tail, row] of Object.entries(u.records)) {
     assert.ok(tails.has(tail), tail);
     assert.match(row.flight_hours, /^\d+:[0-5]\d$/);

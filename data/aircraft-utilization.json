@@ -790,6 +790,27 @@
       "cycles": 4896,
       "last_c_check": "2026-03-29",
       "source_page": 4
+    },
+    "B-58201": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "12034:50",
+      "cycles": 4813,
+      "last_c_check": "2025-08-08",
+      "source_page": 8
+    },
+    "B-58204": {
+      "aircraft_variant": "A321-252NX",
+      "flight_hours": "11223:31",
+      "cycles": 4590,
+      "last_c_check": "2023-10-12",
+      "source_page": 8
+    },
+    "B-58552": {
+      "aircraft_variant": "A350-1041",
+      "flight_hours": "586:42",
+      "cycles": 201,
+      "last_c_check": null,
+      "source_page": 10
     }
   }
 }
