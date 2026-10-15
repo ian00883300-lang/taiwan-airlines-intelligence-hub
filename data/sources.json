@@ -1589,5 +1589,82 @@
     "verified_date": "2026-10-15",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "jxLeaseContracts2025",
+    "source": "星宇｜2025 英文年報：重要契約",
+    "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%A0%B1(%E8%8B%B1%E6%96%87%E7%89%88)-V2_tcm14-15751.pdf",
+    "source_id": "jxLeaseContracts2025",
+    "published_date": null,
+    "as_of": "2026-03-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxLeaseFinancial2025",
+    "source": "星宇｜2025 個別財報：承諾及期後事項",
+    "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%8B%B1%E6%96%87%E5%A0%B1_final_tcm14-15726.pdf",
+    "source_id": "jxLeaseFinancial2025",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciRrTotalcare2026",
+    "source": "Rolls-Royce｜China Airlines TotalCare agreements",
+    "source_url": "https://www.rolls-royce.com/media/press-releases/2026/04-02-2026-rr-signs-totalcare-agreements-with-china-airlines-for-36-trent-xwb-engines.aspx",
+    "source_id": "ciRrTotalcare2026",
+    "published_date": "2026-02-04",
+    "as_of": "2026-02-04",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "jxAce2022",
+    "source": "Airbus｜STARLUX launches widebody fleet",
+    "source_url": "https://www.aircraft.airbus.com/en/newsroom/press-releases/2022-02-starlux-launches-widebody-fleet-with-first-a330neo",
+    "source_id": "jxAce2022",
+    "published_date": "2022-02-21",
+    "as_of": "2022-02-21",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "jxA350Design",
+    "source": "星宇｜A350-900 客艙與設計",
+    "source_url": "https://www.starlux-airlines.com/en-TH/experience/walk-into-starlux/our-fleet/a350-900",
+    "source_id": "jxA350Design",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "rrTotalcareConcept",
+    "source": "Rolls-Royce｜TotalCare 服務說明",
+    "source_url": "https://www.rolls-royce.com/products-and-services/civil-aerospace/services/totalcare.aspx",
+    "source_id": "rrTotalcareConcept",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "ciTrust2025",
+    "source": "中華航空企業永續網｜信賴價值",
+    "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "source_id": "ciTrust2025",
+    "level": 1
   }
 ]

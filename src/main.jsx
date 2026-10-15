@@ -777,6 +777,7 @@ function Fleet({ a, tab }) {
           </div>
         </div>
       </div>
+      {f.ownership_summary && <section className="notice ownership-summary"><b>租賃與自有 · {f.ownership_summary.as_of}</b><p>{f.ownership_summary.value}</p><details><summary>範圍與來源</summary><p>{f.ownership_summary.note}</p><Source item={f.ownership_summary} compact /></details></section>}
       <SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
         {visibleAircraft.map((x) => (

@@ -8,6 +8,7 @@ export default function AircraftOverview({ aircraft: x, Source }) {
   );
   return (
     <div className="aircraft-overview">
+      {x.ownership && <section className="aircraft-ownership"><h4>自有與租賃</h4><p>{x.ownership.value}</p><details><summary>統計日期與範圍</summary><p>{x.ownership.note}</p><Source item={x.ownership} compact /></details></section>}
       <section className="aircraft-missions">
         <h4>航線與任務</h4>
         <p>{x.main_routes?.value || "Data pending verification"}</p>

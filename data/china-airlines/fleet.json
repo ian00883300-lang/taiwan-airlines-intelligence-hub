@@ -323,6 +323,20 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 A350-900 承租 1 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
     {
@@ -587,6 +601,20 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 A330-300 承租 13 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
     {
@@ -826,6 +854,20 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 777-300ER 承租 10 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
     {
@@ -1048,6 +1090,20 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 737-800 承租 10 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
     {
@@ -1383,6 +1439,20 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 A321neo 承租 16 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
     {
@@ -1936,5 +2006,18 @@
       "verified_date": "2026-10-11",
       "status": "planned"
     }
-  ]
+  ],
+  "ownership_summary": {
+    "id": "ciFinancial2025",
+    "source": "華航｜2025／2024 合併財務報表",
+    "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+    "level": 1,
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "source_id": "ciFinancial2025",
+    "value": "2025 年末租賃揭露包含 A350-900、777-300ER、A330-300、737-800 及 A321neo。",
+    "note": "合併報表另含華信 ATR 與台灣虎航 A320，未計入華航本體機隊。租期、購買權與租金條件須按契約判讀。"
+  }
 }

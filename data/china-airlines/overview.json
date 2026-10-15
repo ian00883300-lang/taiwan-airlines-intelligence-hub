@@ -242,7 +242,21 @@
         "note": "尚未取得可比較且具日期的官方資料。"
       }
     ],
-    "fleet": [],
+    "fleet": [
+      {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "title": "A321neo 後續租賃安排",
+        "body": "2025 年財報記錄與 Avolon 簽訂 3 架 A321neo 租約、預期 2027 引進；另記董事會核准向 ALC 租入 5 架，其中 2 架已於 2025 年 8 月引進。公告安排不等於其餘飛機已交付。"
+      }
+    ],
     "orders": [],
     "renewal": [
       {
@@ -356,6 +370,17 @@
         "verified_date": "2026-10-12",
         "status": "confirmed",
         "source_id": "ciOperations2025"
+      },
+      {
+        "source": "中華航空企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciTrust2025",
+        "title": "旅客與貨運服務指標：方向不同",
+        "body": "官方表列 2025 年旅客 NPS 73.3，2024 年為 72.5，增加 0.8 點；貨運顧客滿意度由 89.8 降至 89.1，下降 0.7 分。兩者量表不同，不相加、不解讀成安全績效。2026 年旅客 NPS 目標 70.5，較 2025 年目標 69 提高，但低於 2025 實績；目標不等於預測。"
       }
     ],
     "cargo": [
@@ -460,6 +485,17 @@
         "status": "confirmed",
         "title": "145 技術培訓：維修能力如何持續維持",
         "body": "官方列出基礎學科、實作、機種訓練與工作現場演練，並涵蓋發動機訓練及 CAT II/III、ETOPS、RVSM、PBN、防冰／除冰、載重平衡、RII 等專業複訓。對象包含維修人員、檢驗員、管制員與工程師；這是修護訓練能力，不能當成培訓機師課程，也不能用課程機種清單推算現役機隊。頁面未提供發布日期。"
+      },
+      {
+        "source": "Rolls-Royce｜China Airlines TotalCare agreements",
+        "source_url": "https://www.rolls-royce.com/media/press-releases/2026/04-02-2026-rr-signs-totalcare-agreements-with-china-airlines-for-36-trent-xwb-engines.aspx",
+        "source_id": "ciRrTotalcare2026",
+        "published_date": "2026-02-04",
+        "as_of": "2026-02-04",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "華航 TotalCare：36 具 Trent XWB 的支援安排",
+        "body": "Rolls-Royce 2026-02-04 公告合約涵蓋 30 具 XWB-97 與 6 具 XWB-84，對應 15 架 A350-1000 及 3 架 A350-900。這是發動機服務合約範圍，不代表 18 架飛機均已交付；文中當時機隊數也不是今日機隊數。"
       }
     ],
     "safety": [
@@ -485,6 +521,17 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciMro2026"
+      },
+      {
+        "source": "中華航空企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciTrust2025",
+        "title": "聯合管制：飛航、氣象、簽派與修護協作",
+        "body": "官方說明聯管處全天候監控航班與場站，設飛航、氣象、簽派、修護、航情守望及桃園場站等席位。面對颱風或空域變動，需要跨單位資訊整合與應變；這是公開分工介紹，不是公司內部處置程序。"
       }
     ],
     "sms": [
@@ -697,6 +744,17 @@
         "status": "confirmed",
         "as_of": "2026-03-07",
         "source_id": "ciRecruit"
+      },
+      {
+        "source": "中華航空企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciTrust2025",
+        "title": "FOQA：用日常飛航資料改善訓練",
+        "body": "官方將 FOQA 說明為分析日常飛航紀錄、辨識操作特性與潛在風險，再作改善。面試可說明訓練、資料分析與回饋如何形成改善循環；不能只憑單一事件數判定個人能力，也不能把資料監控理解為取代教官評量。"
       }
     ],
     "interview": [],

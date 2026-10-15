@@ -2995,5 +2995,121 @@
         "faaCrm51E"
       ]
     }
+  },
+  {
+    "source": "星宇｜2025 個別財報：承諾及期後事項",
+    "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%8B%B1%E6%96%87%E5%A0%B1_final_tcm14-15726.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "source_id": "jxLeaseFinancial2025",
+    "id": "jx-lease-versus-fleet",
+    "airline": "starlux",
+    "topic": "Fleet",
+    "practice_group": "星宇情境與時事練習",
+    "question": "星宇簽了 28 架租約，是否代表有 28 架租賃機正在飛？",
+    "question_en": "Do 28 signed aircraft leases mean 28 leased aircraft are operating?",
+    "answer": "No. STARLUX’s year-end 2025 financial statements show 28 contracted leased aircraft, with 20 delivered and eight pending delivery. I would distinguish the reporting date, delivery status, registration and operational availability. Signed leases are not the same as aircraft available to fly.",
+    "answer_30": "No. STARLUX’s year-end 2025 financial statements show 28 contracted leased aircraft, with 20 delivered and eight pending delivery. I would distinguish the reporting date, delivery status, registration and operational availability. Signed leases are not the same as aircraft available to fly.",
+    "answer_60": "No. STARLUX’s year-end 2025 financial statements show 28 contracted leased aircraft, with 20 delivered and eight pending delivery. I would distinguish the reporting date, delivery status, registration and operational availability. Signed leases are not the same as aircraft available to fly. I would not subtract an older leased-aircraft figure from today’s fleet to estimate current ownership. Deliveries and other transactions may have changed the position. A useful comparison also considers payments, lease duration and return conditions rather than assuming leasing is always cheaper.",
+    "answer_zh_30": "不能直接這樣說。2025 年末星宇財報列 28 架已簽租約，其中 20 架已交付、8 架待交付。我會先說清楚日期與交付狀態，再區分簽約、登記及當日可執飛。租約數反映取得運能的安排，不等於當時或今天所有可用的飛機。",
+    "answer_zh_60": "不能直接這樣說。2025 年末星宇財報列 28 架已簽租約，其中 20 架已交付、8 架待交付。我會先說清楚日期與交付狀態，再區分簽約、登記及當日可執飛。租約數反映取得運能的安排，不等於當時或今天所有可用的飛機。\n\n我也不會用目前機隊總數減去舊年度租賃數，就算出今日自有機數。不同日期可能有交付、退租或交易，逐架歸屬需要同期官方資料支持。分析租賃時，我會關注現金支付、租期與退租條件，不簡化成租機一定比買機便宜。",
+    "chinese_answer": "不能直接這樣說。2025 年末星宇財報列 28 架已簽租約，其中 20 架已交付、8 架待交付。我會先說清楚日期與交付狀態，再區分簽約、登記及當日可執飛。租約數反映取得運能的安排，不等於當時或今天所有可用的飛機。",
+    "key_points": [
+      "單位與日期",
+      "契約與交付",
+      "營運與所有權"
+    ],
+    "keywords": [
+      "lease",
+      "delivery",
+      "support"
+    ],
+    "answer_outline": [
+      "先澄清統計口徑",
+      "引用同期來源",
+      "說明營運含義"
+    ],
+    "follow_up": "你還需要哪些資料才能判斷今日可用運能？",
+    "difficulty": "進階",
+    "why_it_matters": "辨認日期、統計單位與交付狀態，避免用合約數誤述當前運能。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "原創公司研究練習，非航空公司歷屆考題或官方答案。事實依列示財報或製造商公告，商業解讀為練習分析；30／60 秒為建議版本，實際時間依語速。",
+    "deep_dive": {
+      "analysis_zh": "這題的核心是檢查統計口徑與事件狀態。先辨認來源在講飛機、發動機或合約，再確認日期、是否交付及公司範圍，最後才提出商業解讀。合約公告支持交易或服務安排，不能代替當日營運名冊。若缺少逐架證據，誠實交代限制，比用看似精準但不相容的數字計算更專業。",
+      "analysis_en": "Check the unit, reporting date and event status before drawing an operational conclusion. A contract supports an acquisition or service arrangement, not current aircraft availability. Distinguish the company scope and identify missing evidence rather than combining incompatible snapshots into a precise-looking estimate.",
+      "pitfalls": [
+        "把租約或引擎數當現役飛機數",
+        "跨年度資料直接相減"
+      ],
+      "follow_ups": [
+        "你還需要哪些資料才能判斷今日可用運能？"
+      ],
+      "evidence_ids": [
+        "jxLeaseFinancial2025"
+      ]
+    },
+    "level": 1
+  },
+  {
+    "source": "Rolls-Royce｜China Airlines TotalCare agreements",
+    "source_url": "https://www.rolls-royce.com/media/press-releases/2026/04-02-2026-rr-signs-totalcare-agreements-with-china-airlines-for-36-trent-xwb-engines.aspx",
+    "published_date": "2026-02-04",
+    "as_of": "2026-02-04",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "source_id": "ciRrTotalcare2026",
+    "id": "ci-engine-contract",
+    "airline": "china-airlines",
+    "topic": "Fleet",
+    "practice_group": "公司研究與資料判讀",
+    "question": "華航簽約支援 36 具發動機，可以直接說新增 36 架飛機嗎？",
+    "question_en": "Does a contract covering 36 engines mean China Airlines is adding 36 aircraft?",
+    "answer": "No. The 2026 Rolls-Royce announcement covers 30 XWB-97 and six XWB-84 engines for 15 A350-1000 and three A350-900 aircraft. These are engine-service agreements, not evidence that 36 aircraft, or even all 18 related aircraft, have been delivered.",
+    "answer_30": "No. The 2026 Rolls-Royce announcement covers 30 XWB-97 and six XWB-84 engines for 15 A350-1000 and three A350-900 aircraft. These are engine-service agreements, not evidence that 36 aircraft, or even all 18 related aircraft, have been delivered.",
+    "answer_60": "No. The 2026 Rolls-Royce announcement covers 30 XWB-97 and six XWB-84 engines for 15 A350-1000 and three A350-900 aircraft. These are engine-service agreements, not evidence that 36 aircraft, or even all 18 related aircraft, have been delivered. Fleet introduction also requires long-term support. A maintenance agreement can help manage cost and reliability risks, but it does not promise that failures cannot occur or remove the airline’s operational responsibilities. I would separate orders, deliveries, service entry and maintenance support.",
+    "answer_zh_30": "不可以。Rolls-Royce 2026 年公告的 36 具發動機包括 30 具 XWB-97 及 6 具 XWB-84，分別對應 15 架 A350-1000 和 3 架 A350-900。這裡的單位是發動機，事件是服務合約；不能改寫成飛機交付數或現役機隊增加數。",
+    "answer_zh_60": "不可以。Rolls-Royce 2026 年公告的 36 具發動機包括 30 具 XWB-97 及 6 具 XWB-84，分別對應 15 架 A350-1000 和 3 架 A350-900。這裡的單位是發動機，事件是服務合約；不能改寫成飛機交付數或現役機隊增加數。\n\n對我而言，重點是公司引進機隊時也安排長期支援，而不只是買到飛機。維修服務可協助管理成本與可靠性風險，但不代表沒有故障，也不取代航空公司的營運責任。介紹時應把訂單、交付、投入營運與維修支援分開。",
+    "chinese_answer": "不可以。Rolls-Royce 2026 年公告的 36 具發動機包括 30 具 XWB-97 及 6 具 XWB-84，分別對應 15 架 A350-1000 和 3 架 A350-900。這裡的單位是發動機，事件是服務合約；不能改寫成飛機交付數或現役機隊增加數。",
+    "key_points": [
+      "發動機與飛機單位",
+      "維修服務與交付狀態",
+      "營運責任"
+    ],
+    "keywords": [
+      "engine",
+      "TotalCare",
+      "delivery"
+    ],
+    "answer_outline": [
+      "先澄清統計口徑",
+      "引用同期來源",
+      "說明營運含義"
+    ],
+    "follow_up": "你還需要哪些資料才能判斷今日可用運能？",
+    "difficulty": "進階",
+    "why_it_matters": "辨認日期、統計單位與交付狀態，避免用合約數誤述當前運能。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "原創公司研究練習，非航空公司歷屆考題或官方答案。事實依列示財報或製造商公告，商業解讀為練習分析；30／60 秒為建議版本，實際時間依語速。",
+    "deep_dive": {
+      "analysis_zh": "這題的核心是檢查統計口徑與事件狀態。先辨認來源在講飛機、發動機或合約，再確認日期、是否交付及公司範圍，最後才提出商業解讀。合約公告支持交易或服務安排，不能代替當日營運名冊。若缺少逐架證據，誠實交代限制，比用看似精準但不相容的數字計算更專業。",
+      "analysis_en": "Check the unit, reporting date and event status before drawing an operational conclusion. A contract supports an acquisition or service arrangement, not current aircraft availability. Distinguish the company scope and identify missing evidence rather than combining incompatible snapshots into a precise-looking estimate.",
+      "pitfalls": [
+        "把租約或引擎數當現役飛機數",
+        "跨年度資料直接相減"
+      ],
+      "follow_ups": [
+        "你還需要哪些資料才能判斷今日可用運能？"
+      ],
+      "evidence_ids": [
+        "ciRrTotalcare2026"
+      ]
+    },
+    "level": 3
   }
 ]

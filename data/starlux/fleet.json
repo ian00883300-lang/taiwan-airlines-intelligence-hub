@@ -254,6 +254,18 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "source": "星宇｜2025 英文年報：重要契約",
+        "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%A0%B1(%E8%8B%B1%E6%96%87%E7%89%88)-V2_tcm14-15751.pdf",
+        "source_id": "jxLeaseContracts2025",
+        "published_date": null,
+        "as_of": "2026-03-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "label": "自有與租賃",
+        "value": "有租賃契約；年報列 ACG、Wilmington、Celestial、Archerfish、GY Aviation、Avolon 等契約法人。",
+        "note": "契約表涵蓋不同簽約批次，不等於已交付架數；法人名稱不能直接當作目前逐架所有權名冊。"
       }
     },
     {
@@ -490,6 +502,18 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "source": "星宇｜2025 英文年報：重要契約",
+        "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%A0%B1(%E8%8B%B1%E6%96%87%E7%89%88)-V2_tcm14-15751.pdf",
+        "source_id": "jxLeaseContracts2025",
+        "published_date": null,
+        "as_of": "2026-03-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "label": "自有與租賃",
+        "value": "有租賃及採購安排；年報同列 ALC 系列法人、Avolon 的 A330 租約與 Airbus A330 採購契約。",
+        "note": "租賃與採購並存，不能把現役全部 A330-900 當成自有或全部租賃。"
       }
     },
     {
@@ -736,6 +760,18 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "source": "星宇｜2025 英文年報：重要契約",
+        "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%A0%B1(%E8%8B%B1%E6%96%87%E7%89%88)-V2_tcm14-15751.pdf",
+        "source_id": "jxLeaseContracts2025",
+        "published_date": null,
+        "as_of": "2026-03-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "label": "自有與租賃",
+        "value": "有租賃及採購安排；年報列 ALC CLOVER IRELAND 的 A350 租約及 Airbus A350 採購契約。",
+        "note": "契約表採 A350 家族名稱，未逐架對應機身編號；不據此分配個別航機所有權。"
       }
     },
     {
@@ -964,6 +1000,18 @@
           }
         ],
         "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "source": null,
+        "source_url": null,
+        "source_id": null,
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "unverified",
+        "label": "自有與租賃",
+        "value": "逐架自有／租賃歸屬待查核。",
+        "note": "Data pending verification：目前未取得足以逐架對應 A350-1000 機身編號與所有權的公開證據，不從機型或塗裝推定。"
       }
     }
   ],
@@ -1116,5 +1164,16 @@
     ],
     "note": "2025年報印刷頁碼4：2025年年底完整分型數量。2026年已有新機交付，不能當作今日現役組成，也不能與2026年3月31架總數混算。"
   },
-  "note": "現況採 CAA 2026-09-30 登記名冊；歴史快照、採購計畫與目前登記數分列，不推算剩餘訂單。"
+  "note": "現況採 CAA 2026-09-30 登記名冊；歴史快照、採購計畫與目前登記數分列，不推算剩餘訂單。",
+  "ownership_summary": {
+    "source": "星宇｜2025 個別財報：承諾及期後事項",
+    "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%8B%B1%E6%96%87%E5%A0%B1_final_tcm14-15726.pdf",
+    "source_id": "jxLeaseFinancial2025",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-15",
+    "status": "confirmed",
+    "value": "2025-12-31：已簽租約 28 架，其中已交付 20 架、尚待交付 8 架；採購契約已有 9 架交付。",
+    "note": "PDF 第 56 頁。這是 2025 年末契約／交付快照，不是今日租賃比率；28 架不可直接加到現役機隊。逐架所有權仍需租約或官方名冊。"
+  }
 }

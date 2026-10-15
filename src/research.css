@@ -1560,3 +1560,21 @@ abbr[title]:focus::after {
  .cabin-layout { padding:10px; }
  .cabin-total { flex-wrap:wrap; gap:4px 12px; }
 }
+
+/* Desktop tables need real label widths, not the mobile card rules. */
+@media (min-width: 761px) {
+  .company-identity .research-table table { table-layout:auto; }
+  .company-identity table th:first-child { width:18%; min-width:9em; max-width:none; }
+  .company-identity thead th:nth-child(2):last-child { width:82%; }
+  .research-table th, .research-table td { padding:8px 12px; line-height:1.5; font-size:.94rem; overflow-wrap:break-word; }
+  .research-table td p { margin:3px 0; }
+  .research-table th small { margin-top:3px; }
+  .route-network .route-table th:nth-child(1) { width:11%; }
+  .route-network .route-table th:nth-child(2) { width:30%; }
+  .route-network .route-table th:nth-child(3) { width:20%; }
+  .route-network .route-table th:nth-child(4) { width:39%; }
+  .aircraft-overview section { padding:12px 0; }
+  .aircraft-overview p { line-height:1.6; margin:5px 0; }
+  .aircraft-overview h4 { margin-bottom:6px; }
+  .table-wrap { margin:12px 0 18px; }
+}

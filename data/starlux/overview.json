@@ -230,7 +230,19 @@
         "source_id": "jxTwse"
       }
     ],
-    "fleet": [],
+    "fleet": [
+      {
+        "source": "星宇｜2025 個別財報：承諾及期後事項",
+        "source_url": "https://webassets2.starlux-airlines.com/en-TW/Images/25Q4_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA%E8%8B%B1%E6%96%87%E5%A0%B1_final_tcm14-15726.pdf",
+        "source_id": "jxLeaseFinancial2025",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "機隊取得方式：租賃與購買並存",
+        "body": "2025-12-31：已簽租約 28 架，其中已交付 20 架、尚待交付 8 架；採購契約已有 9 架交付。"
+      }
+    ],
     "orders": [],
     "renewal": [
       {
@@ -376,6 +388,17 @@
         "as_of": null,
         "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
         "note": "年報印刷頁碼103（PDF第105頁）。"
+      },
+      {
+        "source": "星宇｜A350-900 客艙與設計",
+        "source_url": "https://www.starlux-airlines.com/en-TH/experience/walk-into-starlux/our-fleet/a350-900",
+        "source_id": "jxA350Design",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "A350-900 客艙設計：從空間談產品",
+        "body": "官方機型頁以舒適、隱私、安全感、歸屬感等概念介紹 A350-900 客艙，並以 Glisten 主題延伸既有 A321／A330 設計。研究品牌時可連結座位配置與服務一致性；設計理念不等於可量化的旅客滿意度成果。"
       }
     ],
     "cargo": [
@@ -430,6 +453,17 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "jxFhsSupport"
+      },
+      {
+        "source": "Rolls-Royce｜TotalCare 服務說明",
+        "source_url": "https://www.rolls-royce.com/products-and-services/civil-aerospace/services/totalcare.aspx",
+        "source_id": "rrTotalcareConcept",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "TotalCare 的營運意義",
+        "body": "Rolls-Royce 將 TotalCare 說明為依發動機飛行小時計費的維修與風險管理服務，涵蓋維修規劃、離翼修理與健康監控。這是產品一般說明；星宇個別合約費率、除外條款及保證內容未公開，不推定所有修護成本均固定或完全外包。"
       }
     ],
     "safety": [
@@ -816,6 +850,17 @@
         "verified_date": "2026-10-15",
         "status": "confirmed",
         "source_id": "jxCadetCurrent"
+      },
+      {
+        "source": "Airbus｜STARLUX launches widebody fleet",
+        "source_url": "https://www.aircraft.airbus.com/en/newsroom/press-releases/2022-02-starlux-launches-widebody-fleet-with-first-a330neo",
+        "source_id": "jxAce2022",
+        "published_date": "2022-02-21",
+        "as_of": "2022-02-21",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "title": "ACE 數位駕駛艙學習工具",
+        "body": "Airbus 在 2022 年首架 A330neo 公告中記錄星宇採用 ACE Suite，包含 3D 駕駛艙環境、引導課程及自主探索。這是當時公布的數位學習工具，不能取代全動模擬機、實機訓練或推定目前所有梯次的課表。"
       }
     ],
     "interview": [],
