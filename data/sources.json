@@ -1666,5 +1666,203 @@
     "status": "confirmed",
     "source_id": "ciTrust2025",
     "level": 1
+  },
+  {
+    "id": "jxBrandIdentityOfficial",
+    "source": "星宇永續網站｜品牌價值與企業識別色",
+    "source_url": "https://sustainability.jx-starlux.com/esg/S-000/262/",
+    "source_id": "jxBrandIdentityOfficial",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxKiannExperience",
+    "source": "星宇航空｜kiânn 與五感旅行體驗",
+    "source_url": "https://www.starlux-airlines.com/zh-Global/experience/inflight-service/kiann",
+    "source_id": "jxKiannExperience",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxKiannLaunch2020",
+    "source": "星宇 kiânn｜2020 創刊特刊",
+    "source_url": "https://kiann.jx-starlux.com/files/ExtraIssue202001.pdf",
+    "source_id": "jxKiannLaunch2020",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciPrgInaugural2023",
+    "source": "華航｜布拉格正式首航",
+    "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20230719.html",
+    "source_id": "ciPrgInaugural2023",
+    "published_date": "2023-07-19",
+    "as_of": "2023-07-19",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciSeaInaugural2024",
+    "source": "華航｜西雅圖首航報導",
+    "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20240715.html",
+    "source_id": "ciSeaInaugural2024",
+    "published_date": "2024-07-15",
+    "as_of": "2024-07-15",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciOntInaugural2018",
+    "source": "華航｜台北—安大略開始營運",
+    "source_url": "https://www.china-airlines.com/jp/jp/about-china-airlines/media/news/20180325.html",
+    "source_id": "ciOntInaugural2018",
+    "published_date": "2018-03-25",
+    "as_of": "2018-03-25",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "motcJxLaunch2020",
+    "source": "交通部｜109 年業務概況書面報告",
+    "source_url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2020030207/64043281090412210001.pdf",
+    "source_id": "motcJxLaunch2020",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "nrtJxLaunchPlan2020",
+    "source": "成田機場｜星宇台北線開航公告",
+    "source_url": "https://www.narita-airport.jp/files/f62cdfefe59f6c3abce1dceca3690b24c7ec80cfefdaecd49a1f08daff48816a",
+    "source_id": "nrtJxLaunchPlan2020",
+    "published_date": "2020-11-30",
+    "as_of": "2020-11-30",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "sdjJxLaunchPlan2023",
+    "source": "仙台機場｜星宇開航計畫",
+    "source_url": "https://www.sendai-airport.co.jp/notice/entry_27.html",
+    "source_id": "sdjJxLaunchPlan2023",
+    "published_date": "2023-02-10",
+    "as_of": "2023-02-10",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "jxSinLaunch2021",
+    "source": "星宇航空｜新加坡航線啟航",
+    "source_url": "https://www.starlux-airlines.com/ja-JP/about-us/media-center/news/2021/20210923",
+    "source_id": "jxSinLaunch2021",
+    "published_date": "2021-09-23",
+    "as_of": "2021-09-23",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "takJxHistory2024",
+    "source": "高松機場｜台中航線營運沿革",
+    "source_url": "https://www.takamatsu-airport.com/news/info/20241015-8334/",
+    "source_id": "takJxHistory2024",
+    "published_date": "2024-10-15",
+    "as_of": "2024-10-15",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "takCiAnniversary2023",
+    "source": "高松市｜台北線十周年紀念",
+    "source_url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/shichoushitsu/katsudo/r4/sicho_up20230302.html",
+    "source_id": "takCiAnniversary2023",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 3
+  },
+  {
+    "id": "kojCityHistory",
+    "source": "鹿兒島市史｜台北直航開設",
+    "source_url": "https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/seisaku-s/shise/shokai/documents/02-2-dai2hen-keizai-4-8syou-pdf.pdf",
+    "source_id": "kojCityHistory",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "kumamotoRouteHistory2024",
+    "source": "熊本縣｜投資環境簡報：台北航線沿革",
+    "source_url": "https://www.kyushu-kei.org/events/img/2-2-3-j.pdf",
+    "source_id": "kumamotoRouteHistory2024",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "hijCiAnniversary2019",
+    "source": "廣島縣｜廣島—台北十五周年專訪",
+    "source_url": "https://www.pref.hiroshima.lg.jp/uploaded/life/998135_8927121_misc.pdf",
+    "source_id": "hijCiAnniversary2019",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxKixActual2020",
+    "source": "Aviation Wire｜星宇關西首航現場報導",
+    "source_url": "https://www.aviationwire.jp/archives/216883",
+    "published_date": "2020-12-15",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "source_id": "jxKixActual2020",
+    "level": 4,
+    "as_of": null
+  },
+  {
+    "id": "jxNrtActual2020",
+    "source": "Aviation Wire｜星宇成田首航現場報導",
+    "source_url": "https://www.aviationwire.jp/archives/217052",
+    "published_date": "2020-12-16",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "source_id": "jxNrtActual2020",
+    "level": 4,
+    "as_of": null
+  },
+  {
+    "id": "ciCebActual2022",
+    "source": "中華航空｜台北—宿霧正式首航",
+    "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20221201.html",
+    "published_date": "2022-12-01",
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "source_id": "ciCebActual2022",
+    "level": 1,
+    "as_of": null
   }
 ]

@@ -216,6 +216,19 @@
           "source_id": "ciNeoFirstService"
         },
         {
+          "date": "2022-12-01",
+          "date_kind": "event",
+          "label": "華航台北—宿霧首航",
+          "body": "依航空公司當日首航稿，與 2020 年延後開航公告區分；2020 年曾公布的日期不是實際首航證據。",
+          "source": "中華航空｜台北—宿霧正式首航",
+          "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20221201.html",
+          "published_date": "2022-12-01",
+          "as_of": "2022-12-01",
+          "verified_date": "2026-10-16",
+          "status": "confirmed",
+          "source_id": "ciCebActual2022"
+        },
+        {
           "date": "2023-01-02",
           "label": "台北—峴港首航",
           "body": "首航公告確認使用 A321neo，屬當期機型證據。",
@@ -279,6 +292,19 @@
           "verified_date": "2026-10-14",
           "status": "confirmed",
           "source_id": "ciKumamotoActual"
+        },
+        {
+          "date": "2024-07-14",
+          "date_kind": "event",
+          "label": "華航台北—西雅圖復航",
+          "body": "華航事後新聞確認 2024-07-14 開通；西雅圖港官方另記錄 2004–2008 年已營運，因此這次應標復航，並非歷史首次開航。",
+          "source": "華航｜西雅圖首航報導",
+          "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20240715.html",
+          "published_date": "2024-07-15",
+          "as_of": "2024-07-14",
+          "verified_date": "2026-10-16",
+          "status": "confirmed",
+          "source_id": "ciSeaInaugural2024"
         },
         {
           "date": "2025-03-31",
@@ -756,6 +782,32 @@
           "source_id": "jxTwse"
         },
         {
+          "date": "2020-12-15",
+          "date_kind": "event",
+          "label": "星宇台北—關西首航",
+          "body": "現場報導記錄 JX820 首班抵達及攝影日期，與關西機場 2020-11-02 公告的預定日交叉核對。首航機型為當時安排，不等於今日班表。",
+          "source": "Aviation Wire｜星宇關西首航現場報導",
+          "source_url": "https://www.aviationwire.jp/archives/216883",
+          "published_date": "2020-12-15",
+          "as_of": "2020-12-15",
+          "verified_date": "2026-10-16",
+          "status": "confirmed",
+          "source_id": "jxKixActual2020"
+        },
+        {
+          "date": "2020-12-16",
+          "date_kind": "event",
+          "label": "星宇台北—成田首航",
+          "body": "首班 JX800 抵達與水門照片的現場報導，交叉核對成田機場 2020-11-30 計畫公告；不是 2026 年 A350-1000 機型首航。",
+          "source": "Aviation Wire｜星宇成田首航現場報導",
+          "source_url": "https://www.aviationwire.jp/archives/217052",
+          "published_date": "2020-12-16",
+          "as_of": "2020-12-16",
+          "verified_date": "2026-10-16",
+          "status": "confirmed",
+          "source_id": "jxNrtActual2020"
+        },
+        {
           "date": "2022-02-18",
           "date_kind": "event",
           "label": "首架 A330-900 交付",
@@ -987,28 +1039,16 @@
         {
           "date": "2026-01-27",
           "label": "AIRSORAYAMA計畫發表",
-          "body": "東京發表艺术合作；不是當日全部藝術機投入營運。",
+          "body": "東京發表雙機藝術合作：B-58553（Silver）、B-58554（Gold）；這是計畫發表，不是交付或營運首航。",
           "date_kind": "announcement",
           "source": "星宇｜AIRSORAYAMA藝術計畫發表",
           "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260127",
           "published_date": "2026-01-27",
           "as_of": "2026-01-27",
-          "verified_date": "2026-10-12",
+          "verified_date": "2026-10-16",
           "status": "confirmed",
-          "source_id": "jxArtProject"
-        },
-        {
-          "date": "2026-01-27",
-          "label": "公布 AIRSORAYAMA 雙機藝術計畫",
-          "body": "B-58553 為 Silver、B-58554 為 Gold；此為企劃發表日期，不是航機交付或營運首航。",
-          "date_kind": "announcement",
-          "source": "星宇航空官方供稿｜AIRSORAYAMA 藝術計畫（中央社訊息平台）",
-          "source_url": "https://www.cna.com.tw/business/chinese/424811",
-          "published_date": "2026-01-27",
-          "as_of": "2026-01-27",
-          "verified_date": "2026-10-14",
-          "status": "announced",
-          "source_id": "jxAirsorayamaAnnouncement"
+          "source_id": "jxArtProject",
+          "corroboration_url": "https://www.cna.com.tw/business/chinese/424811"
         },
         {
           "date": "2026-02-10",
@@ -1052,13 +1092,13 @@
         {
           "date": "2026-07-03",
           "label": "Pantone專屬色與工藝公告",
-          "body": "藝術機專案銀／金色與主識別曜石灰／大地金分開。",
+          "body": "藝術機專案銀／金色與企業識別三色屬不同範圍；完整識別色另見公司及品牌。",
           "date_kind": "announcement",
           "source": "星宇｜AIRSORAYAMA專屬色與航空塗裝",
           "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260703",
           "published_date": "2026-07-03",
           "as_of": "2026-07-03",
-          "verified_date": "2026-10-12",
+          "verified_date": "2026-10-16",
           "status": "confirmed",
           "source_id": "jxPantone"
         },

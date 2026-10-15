@@ -1175,26 +1175,26 @@
     "practice_group": "星宇品牌與公司研究",
     "question": "星宇的品牌主色是什麼？與藝術機銀／金色如何區分？",
     "question_en": "What are STARLUX’s main brand colours, and how do they differ from AIRSORAYAMA?",
-    "answer": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity.",
-    "answer_30": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity.",
-    "answer_60": "STARLUX names obsidian grey and earth gold as its brand colours in the 5 January 2026 announcement. The first A350-1000 combines those colours with a carbon-fibre motif. AIRSORAYAMA silver and gold are a separate art-project palette, not evidence that the company has replaced its main identity. The professional distinction is between a stable corporate identity and an extension for a specific product or campaign. I would identify both palettes and explain their documented applications. The announcement does not publish universal HEX or RGB values, or a Pantone reference for the main identity. I would therefore avoid inventing numerical colour specifications or presenting a personal interpretation of grey and gold as the company’s official symbolism.",
-    "answer_zh_30": "星宇2026年1月5日官方稿把曜石灰與大地金列為品牌色：首架 A350-1000 以曜石灰作碳纖維編織圖騰底色，再用大地金點綴。AIRSORAYAMA 的銀與金則是藝術合作專案色，不能把藝術機塗裝直接當成全公司新的主識別。",
-    "answer_zh_60": "星宇2026年1月5日官方稿把曜石灰與大地金列為品牌色：首架 A350-1000 以曜石灰作碳纖維編織圖騰底色，再用大地金點綴。AIRSORAYAMA 的銀與金則是藝術合作專案色，不能把藝術機塗裝直接當成全公司新的主識別。\n\n我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
-    "chinese_answer": "我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
+    "answer": "STARLUX lists earth gold, rose gold and obsidian grey as its corporate colours. The official page associates them with morning, dusk and night, linking service and innovation, professionalism, and disciplined safety. AIRSORAYAMA silver and gold belong to an art project rather than replacing the corporate palette.",
+    "answer_30": "STARLUX lists earth gold, rose gold and obsidian grey as its corporate colours. The official page associates them with morning, dusk and night, linking service and innovation, professionalism, and disciplined safety. AIRSORAYAMA silver and gold belong to an art project rather than replacing the corporate palette.",
+    "answer_60": "STARLUX lists earth gold, rose gold and obsidian grey as its corporate colours. The official page associates them with morning, dusk and night, linking service and innovation, professionalism, and disciplined safety. AIRSORAYAMA silver and gold belong to an art project rather than replacing the corporate palette. I would distinguish corporate identity, aircraft design and campaign design. Visual identity communicates a promise, but does not establish safety performance. Pilots support that promise through discipline, standard procedures and teamwork. I would not infer official colour codes from a screenshot.",
+    "answer_zh_30": "星宇官方品牌頁列三個企業識別色：大地金、玫瑰金、曜石灰，分別連結早晨的創新與服務、黃昏的專業與配備，以及夜晚的紀律與安全。AIRSORAYAMA 的銀與金屬於藝術專案，不能取代完整企業識別。",
+    "answer_zh_60": "星宇官方品牌頁列三個企業識別色：大地金、玫瑰金、曜石灰，分別連結早晨的創新與服務、黃昏的專業與配備，以及夜晚的紀律與安全。AIRSORAYAMA 的銀與金屬於藝術專案，不能取代完整企業識別。\n\n我會分清楚企業識別、機型設計與合作專案三個層次。品牌色的意義可以依官方說明回答，但塗裝漂亮不是安全績效的證據；機師仍須透過紀律、標準程序與團隊合作落實承諾。沒有官方色碼時，也不從網站截圖猜測。",
+    "chinese_answer": "星宇官方品牌頁列三個企業識別色：大地金、玫瑰金、曜石灰，分別連結早晨的創新與服務、黃昏的專業與配備，以及夜晚的紀律與安全。AIRSORAYAMA 的銀與金屬於藝術專案，不能取代完整企業識別。",
     "key_points": [
-      "曜石灰／大地金",
-      "主識別與專案識別",
-      "不猜色碼"
+      "三種企業識別色",
+      "主識別與專案設計",
+      "形象不等於安全績效"
     ],
     "keywords": [
-      "曜石灰／大地金",
-      "主識別與專案識別",
-      "不猜色碼"
+      "大地金",
+      "玫瑰金",
+      "曜石灰"
     ],
     "answer_outline": [
-      "曜石灰／大地金",
-      "主識別與專案識別",
-      "不猜色碼"
+      "完整列出三色",
+      "說明官方意涵",
+      "區分藝術機專案"
     ],
     "follow_up": "品牌主色與特別塗裝如何在同一公司內維持辨識？",
     "difficulty": "進階",
@@ -1202,19 +1202,19 @@
     "content_type": "original_practice",
     "answer_basis": "source_based_analysis",
     "note": "原創研究型面試練習，非官方考題或標準答案。官方事實與研究解讀分列；個人經歷請自行填入。",
-    "source": "星宇｜首架 A350-1000 交付與返台",
-    "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
-    "source_id": "jxHandover",
-    "published_date": "2026-01-05",
-    "verified_date": "2026-10-12",
-    "as_of": "2026-01-05",
+    "source": "星宇永續網站｜品牌價值與企業識別色",
+    "source_url": "https://sustainability.jx-starlux.com/esg/S-000/262/",
+    "source_id": "jxBrandIdentityOfficial",
+    "published_date": null,
+    "verified_date": "2026-10-16",
+    "as_of": null,
     "status": "confirmed",
     "supporting_source_ids": [
       "jxPantone"
     ],
     "deep_dive": {
-      "analysis_zh": "我的解讀是，主識別建立長期辨識，專案識別則讓品牌延伸到不同合作與產品。回答可先準確指出兩組配色，再說明使用範圍。官方這篇公告沒有提供通用 HEX、RGB 或主品牌 Pantone 編號，所以我不會用網站配色猜色碼，也不會把「灰代表安全、金代表財富」等個人聯想冒充官方定義。",
-      "analysis_en": "The professional distinction is between a stable corporate identity and an extension for a specific product or campaign. I would identify both palettes and explain their documented applications. The announcement does not publish universal HEX or RGB values, or a Pantone reference for the main identity. I would therefore avoid inventing numerical colour specifications or presenting a personal interpretation of grey and gold as the company’s official symbolism.",
+      "analysis_zh": "我會分清楚企業識別、機型設計與合作專案三個層次。品牌色的意義可以依官方說明回答，但塗裝漂亮不是安全績效的證據；機師仍須透過紀律、標準程序與團隊合作落實承諾。沒有官方色碼時，也不從網站截圖猜測。 本次校正也示範來源範圍的重要性：單篇交機新聞只提兩種塗裝色，不足以回答完整企業識別；應回到公司品牌頁交叉核對。",
+      "analysis_en": "I would distinguish corporate identity, aircraft design and campaign design. Visual identity communicates a promise, but does not establish safety performance. Pilots support that promise through discipline, standard procedures and teamwork. I would not infer official colour codes from a screenshot.",
       "pitfalls": [
         "把艺术機銀／金當成主品牌色",
         "捏造HEX或官方象徵"
@@ -1223,11 +1223,11 @@
         "品牌主色與特別塗裝如何在同一公司內維持辨識？"
       ],
       "evidence_ids": [
-        "jxHandover",
+        "jxBrandIdentityOfficial",
         "jxPantone"
       ]
     },
-    "question_revision": 2,
+    "question_revision": 3,
     "previous_question": {
       "zh": "品牌價值與飛航安全衝突時，你如何排序？",
       "en": "How would you balance brand expectations with flight safety?"

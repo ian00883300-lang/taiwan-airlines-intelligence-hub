@@ -19,6 +19,12 @@ import jxFleet from "../data/starlux/fleet.json";
 
 const airlines = [ci, eva, jx];
 const routes = [...ciRoutes.items, ...evaRoutes.items, ...jxRoutes.items];
+const routeEvent = (r) => {
+  const records = (r.event_ids || []).map(id => events.find(e => e.id === id)).filter(Boolean);
+  return records.find(e => e.event_type === "inaugural" && e.event_date)
+    || records.find(e => e.event_date)
+    || records.find(e => e.event_type === "inaugural");
+};
 const airlineById = (id) => airlines.find((a) => a.id === id);
 const continents = {
   Asia: "亞洲",
@@ -66,7 +72,9 @@ export default function RouteNetwork({ initial = "all", Source }) {
         (evidence === "all" ||
           (evidence === "operating"
             ? r.status === "confirmed"
-            : r.evidence_kind === "published_schedule_snapshot")) &&
+            : evidence === "dated"
+              ? Boolean(routeEvent(r)?.event_date)
+              : r.evidence_kind === "published_schedule_snapshot")) &&
         (origin === "all" || r.origin === origin) &&
         (aircraft === "all" ||
           (aircraft === "unknown"
@@ -267,6 +275,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
             <option value="all">全部來源紀錄</option>
             <option value="operating">開航／營運證據</option>
             <option value="historical">僅期間班表公告</option>
+            <option value="dated">已有首航／復航日期</option>
           </select>
         </label>
         <span className="filter-count">
@@ -314,14 +323,12 @@ export default function RouteNetwork({ initial = "all", Source }) {
                   <th scope="col">航空公司</th>
                   <th scope="col">起點 → 終點</th>
                   <th scope="col">區域／基準日</th>
-                  <th scope="col">機型／已核實首航</th>
+                  <th scope="col">機型／首航與復航</th>
                 </tr>
               </thead>
               <tbody>
                 {filtered.map((r, index) => {
-                  const event = r.event_ids
-                    ?.map((id) => events.find((e) => e.id === id))
-                    .find((e) => e?.event_type === "inaugural");
+                  const event = routeEvent(r);
                   return (
                     <React.Fragment key={r.id}>
                       {(index === 0 ||
@@ -379,7 +386,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                                 : "已收錄官方證據"}
                           </small>
                         </td>
-                        <td data-label="機型／已核實首航">
+                        <td data-label="機型／首航與復航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
                           {r.schedule_evidence && (
                             <details>
@@ -396,8 +403,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               <Source item={r.schedule_evidence} compact />
                             </details>
                           )}
-                          <p>首航：</p>
-                          {formatEventDate(event?.event_date)}
+                          <p className="route-event-date">
+                            <span>{event?.event_type === "resumption" ? "復航" : event?.service_kind === "charter" ? "包機首航" : "首航"}：</span>
+                            <strong>{formatEventDate(event?.event_date)}</strong>
+                          </p>
+                          {event?.event_type === "resumption" && <small>最早首航年月日仍待查核</small>}
                           {event?.announced_event_date && !event.event_date && (
                             <p>
                               預定{formatEventDate(event.announced_event_date)}

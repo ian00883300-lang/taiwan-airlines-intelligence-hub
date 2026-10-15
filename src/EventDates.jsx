@@ -54,7 +54,7 @@ export default function EventDates({ ids = [] }) {
           )}
           <p className="fineprint">
             {event.checked_date
-              ? `官方原頁查核：${formatEventDate(event.checked_date)}`
+              ? `來源查核：${formatEventDate(event.checked_date)}`
               : event.announcement_checked_date
                 ? `開航計畫查核：${formatEventDate(event.announcement_checked_date)}`
                 : "首航日期尚未查核"}

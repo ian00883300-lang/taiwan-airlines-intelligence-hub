@@ -94,7 +94,7 @@ test("Inauguration and handover dates never fall back to article publication dat
       assert.ok(route.event_ids.length, route.id);
   for (const event of events) {
     assert.ok(
-      ["delivery", "inaugural", "arrival", "entry_into_service"].includes(
+      ["delivery", "inaugural", "resumption", "arrival", "entry_into_service"].includes(
         event.event_type,
       ),
     );
@@ -673,3 +673,32 @@ test("CI seasonal timetable excludes partner operators and preserves segmented A
     assert.ok(!/CI9\d{3}/.test(r.schedule_evidence.flight_numbers));
   }
 });
+
+test('Verified inaugural history separates route launches, charter starts and resumptions', () => {
+  const events = read('data/events.json');
+  const event = id => events.find(x => x.id === id);
+  assert.equal(event('china-airlines-TPE-SEA-inaugural').event_date, null);
+  const sea = event('china-airlines-TPE-SEA-resumption-2024');
+  assert.equal(sea.event_type, 'resumption');
+  assert.equal(sea.event_date, '2024-07-14');
+  assert.equal(sea.published_date, '2024-07-15');
+  assert.equal(event('starlux-RMQ-TAK-inaugural').service_kind, 'charter');
+  const nrt = event('starlux-NRT-inaugural-pending');
+  assert.equal(nrt.event_date, '2020-12-16');
+  assert.ok(nrt.corroboration_url.includes('narita-airport.jp'));
+  const sendai = events.find(x => /starlux.*SDJ/i.test(x.id));
+  assert.equal(sendai.event_date, null);
+  assert.equal(sendai.announced_event_date, '2023-04-01');
+});
+
+test('Brand definitions stay separate from special livery and unverified sixth-sense claims', () => {
+  const brand = read('data/starlux/identity.json').brand_experience;
+  assert.deepEqual(brand.colours.map(x => x.name), ['大地金','玫瑰金','曜石灰']);
+  assert.equal(brand.senses.examples.length, 5);
+  assert.match(brand.senses.note, /2020/);
+  assert.match(brand.senses.note, /Data pending verification/);
+  const answer = read('data/interview-bank.json').find(x => x.id === 'jx-values-safety');
+  for (const colour of brand.colours) assert.ok(answer.answer_zh_30.includes(colour.name));
+  assert.equal(answer.question_revision, 3);
+});
+

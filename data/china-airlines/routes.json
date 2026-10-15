@@ -270,7 +270,8 @@
       "status": "confirmed",
       "source_id": "ciRoute",
       "event_ids": [
-        "china-airlines-TPE-SEA-inaugural"
+        "china-airlines-TPE-SEA-inaugural",
+        "china-airlines-TPE-SEA-resumption-2024"
       ],
       "evidence_kind": "dated_operating_snapshot",
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",

@@ -58,15 +58,15 @@
       "source_id": "jxAnnual"
     },
     {
-      "label": "主識別品牌色",
-      "value": "曜石灰、大地金；官方未在這篇公告公布通用HEX／RGB色碼",
-      "source": "星宇｜首架 A350-1000 交付與返台",
-      "source_url": "https://www.starlux-airlines.com/zh-TW/about-us/media-center/news/2026/20260105",
-      "published_date": "2026-01-05",
-      "as_of": "2026-01-05",
-      "verified_date": "2026-10-12",
+      "label": "企業識別色",
+      "value": "大地金、玫瑰金、曜石灰。官方品牌頁列三色；特定機型塗裝不等於完整企業識別色。",
+      "source": "星宇永續網站｜品牌價值與企業識別色",
+      "source_url": "https://sustainability.jx-starlux.com/esg/S-000/262/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
       "status": "confirmed",
-      "source_id": "jxHandover"
+      "source_id": "jxBrandIdentityOfficial"
     },
     {
       "label": "A350-1000設計元素",
@@ -156,5 +156,66 @@
     "status": "confirmed",
     "source_id": "jxFinancial2025",
     "note": "個別綜合損益表，仟元精度；營業利益、稅前淨利、本期淨利及其他綜合損益分開。股價未接即時行情。"
+  },
+  "brand_experience": {
+    "source": "星宇永續網站｜品牌價值與企業識別色",
+    "source_url": "https://sustainability.jx-starlux.com/esg/S-000/262/",
+    "source_id": "jxBrandIdentityOfficial",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-16",
+    "status": "confirmed",
+    "colours": [
+      {
+        "name": "大地金",
+        "time": "早晨",
+        "meaning": "創新思維、熱忱服務"
+      },
+      {
+        "name": "玫瑰金",
+        "time": "黃昏",
+        "meaning": "專業本位、豪華配備"
+      },
+      {
+        "name": "曜石灰",
+        "time": "夜晚",
+        "meaning": "謹慎紀律、安全至上"
+      }
+    ],
+    "note": "官方企業識別的三色及意涵；藝術機塗裝另屬合作專案。未使用未經證實的 HEX／RGB 色碼。",
+    "senses": {
+      "source": "星宇 kiânn｜2020 創刊特刊",
+      "source_url": "https://kiann.jx-starlux.com/files/ExtraIssue202001.pdf",
+      "source_id": "jxKiannLaunch2020",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "title": "五感服務與「五感六覺」",
+      "body": "2020 創刊特刊以五感介紹座艙與選品；「新五感六覺」出現在選品文案，未列出獨立的第六覺定義。",
+      "examples": [
+        {
+          "sense": "視覺",
+          "example": "座艙暖色與空間設計"
+        },
+        {
+          "sense": "聽覺",
+          "example": "機上原創音樂"
+        },
+        {
+          "sense": "嗅覺",
+          "example": "Home in the Air 星宇香"
+        },
+        {
+          "sense": "味覺",
+          "example": "機上餐飲與調飲"
+        },
+        {
+          "sense": "觸覺",
+          "example": "座椅材質與毛毯等選品"
+        }
+      ],
+      "note": "以上是 2020 年官方出版品的歷史示例，不代表今日各航線／艙等的產品均相同。第六覺正式分類：Data pending verification。"
+    }
   }
 }

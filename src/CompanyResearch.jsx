@@ -116,6 +116,31 @@ export function CompanyIdentity({ a, Source }) {
       )}
       {a.id === "starlux" && (
         <>
+          <section className="brand-experience" aria-label="星宇企業識別與五感服務">
+            <h3>品牌識別與服務體驗</h3>
+            <div className="brand-meanings">
+              {identity.brand_experience.colours.map(colour => (
+                <article key={colour.name}>
+                  <strong>{colour.name}</strong><small>{colour.time}</small>
+                  <p>{colour.meaning}</p>
+                </article>
+              ))}
+            </div>
+            <details className="inline-evidence">
+              <summary>識別色說明與來源</summary>
+              <p>{identity.brand_experience.note}</p>
+              <Source item={identity.brand_experience} compact />
+            </details>
+            <details className="brand-senses">
+              <summary>{identity.brand_experience.senses.title}</summary>
+              <p>{identity.brand_experience.senses.body}</p>
+              <dl>{identity.brand_experience.senses.examples.map(item => (
+                <div key={item.sense}><dt>{item.sense}</dt><dd>{item.example}</dd></div>
+              ))}</dl>
+              <p className="fineprint">{identity.brand_experience.senses.note}</p>
+              <Source item={identity.brand_experience.senses} compact />
+            </details>
+          </section>
           <div className="table-wrap research-table">
             <table>
               <caption>

@@ -1578,3 +1578,16 @@ abbr[title]:focus::after {
   .aircraft-overview h4 { margin-bottom:6px; }
   .table-wrap { margin:12px 0 18px; }
 }
+.brand-experience {margin:20px 0;padding:16px;border:1px solid var(--line,#dce5ed);border-radius:12px;background:var(--card,#fff)}
+.brand-experience h3 {margin:0 0 12px}
+.brand-meanings {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.brand-meanings article {padding:10px 12px;border-left:3px solid #9a825c;background:#f4f6f8}
+.brand-meanings strong {margin-right:10px}
+.brand-meanings p {margin:5px 0 0}
+.brand-senses {margin-top:12px;border-top:1px solid #dce5ed;padding-top:12px}
+.brand-senses summary {cursor:pointer;font-weight:600}
+.brand-senses dl {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.brand-senses dt {font-weight:600}
+.brand-senses dd {margin:5px 0}
+.route-event-date {display:flex;gap:4px;flex-wrap:wrap;align-items:baseline}
+@media(max-width:760px){.brand-meanings {grid-template-columns:1fr;gap:8px}.brand-senses dl{grid-template-columns:1fr}.brand-senses dl>div{display:grid;grid-template-columns:3.5em 1fr;gap:8px}.brand-senses dd{margin:0}}

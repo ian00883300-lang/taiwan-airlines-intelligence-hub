@@ -228,6 +228,28 @@
         "status": "confirmed",
         "as_of": null,
         "source_id": "jxTwse"
+      },
+      {
+        "source": "星宇永續網站｜品牌價值與企業識別色",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/262/",
+        "source_id": "jxBrandIdentityOfficial",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "title": "企業識別與機身特別塗裝分開看",
+        "body": "官方企業識別色有大地金、玫瑰金及曜石灰，分別以早晨、黃昏、夜晚連結服務、專業與安全。A350-1000 或藝術機只呈現特定設計，不能用其配色取代完整企業識別。"
+      },
+      {
+        "source": "星宇航空｜kiânn 與五感旅行體驗",
+        "source_url": "https://www.starlux-airlines.com/zh-Global/experience/inflight-service/kiann",
+        "source_id": "jxKiannExperience",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "title": "五感服務：從接觸點理解品牌",
+        "body": "官方 kiânn 頁將閱讀與旅行體驗連結到五感。研究時可觀察座艙、音樂、香氛、餐飲與材質是否一致；這是品牌服務分析，不是對每條航線、每個艙等產品的保證。"
       }
     ],
     "fleet": [
