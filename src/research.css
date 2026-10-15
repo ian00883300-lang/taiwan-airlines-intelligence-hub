@@ -1533,3 +1533,30 @@ abbr[title]:focus::after {
 .route-distribution select { max-width:100%; min-width:0; }
 .network-totals { max-width:100%; overflow-wrap:anywhere; }
 .route-distribution .research-chart { max-width:100%; }
+
+/* Keep brief labels compact; never apply desktop column widths to mobile cards. */
+@media(min-width:761px) {
+ .company-identity table th:first-child { width:1%; min-width:7em; }
+ .company-identity table th[scope="row"] { max-width:12em; }
+}
+.fleet-summary-table { padding-bottom:0; }
+.fleet-summary-table table { table-layout:auto; }
+.fleet-summary-table th, .fleet-summary-table td { padding:10px 12px; white-space:nowrap; word-break:normal; overflow-wrap:normal; }
+.fleet-summary-table th:nth-child(2), .fleet-summary-table th:nth-child(3) { width:1%; }
+.cabin-layout dt { min-width:0; }
+.cabin-layout dd { flex-shrink:0; }
+@media(max-width:760px) {
+ .mobile-records .research-table th[scope="row"],
+ .mobile-records .research-table td,
+ .route-network .route-table th[scope="row"],
+ .company-identity table th[scope="row"] { width:auto; min-width:0; max-width:none; }
+ .mobile-records .research-table th[scope="row"] { line-height:1.5; }
+ .mobile-records .research-table td::before { margin-bottom:3px; }
+ .mobile-records tr { margin-bottom:10px; }
+ .fleet-summary-table th, .fleet-summary-table td { padding:9px 8px; }
+ .aircraft-overview { padding:0 12px 12px; }
+ .aircraft-overview section { padding:12px 0; }
+ .aircraft-overview h4 { margin-bottom:6px; }
+ .cabin-layout { padding:10px; }
+ .cabin-total { flex-wrap:wrap; gap:4px 12px; }
+}

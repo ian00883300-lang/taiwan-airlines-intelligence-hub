@@ -740,7 +740,7 @@ function Fleet({ a, tab }) {
                 ))}
             </select>
           </label>
-          <div className="table-wrap">
+          <div className="table-wrap fleet-summary-table" tabIndex={0} role="region" aria-label="機隊摘要，可橫向捲動">
             <table>
               <thead>
                 <tr>
