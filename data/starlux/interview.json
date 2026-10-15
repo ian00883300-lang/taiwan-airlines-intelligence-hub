@@ -41,6 +41,8 @@
     "jx-saf-target-evidence",
     "jx-own-error",
     "jx-workload-help",
-    "jx-challenge-assumption"
+    "jx-challenge-assumption",
+    "jx-lead-follow",
+    "jx-unclear-instruction"
   ]
 }

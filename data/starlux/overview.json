@@ -783,6 +783,39 @@
         "status": "confirmed",
         "title": "培訓費用與合約",
         "body": "官網說明訓練期間學費與生活費由公司負擔；錄取者須簽訓練合約。頁面未公開完整契約內容，不推定無服務義務、違約責任或其他限制。"
+      },
+      {
+        "title": "筆試準備的官方範圍",
+        "body": "官方 FAQ 列一般知識（星宇資訊與新聞、航空新聞與知識）、約九至十年級數學與物理，以及邏輯推理。這是範圍說明，不是當期題目、題數或配分。",
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent"
+      },
+      {
+        "title": "推薦人與飛行經歷文件",
+        "body": "申請條件列一位學校教師或前任主管作為推薦人並提供聯絡方式；如有飛行時數，申請文件包含飛行紀錄簿。推薦人資訊應先取得本人同意並確認正確。",
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent"
+      },
+      {
+        "title": "應屆畢業與兵役文件時點",
+        "body": "官方允許即將畢業及退伍者參與甄選，但須在開訓前取得畢業與退伍等所需證明。通過甄選不取代文件條件；個別資格疑問應向招募窗口確認。",
+        "source": "星宇｜Cadet Pilot Program 與 FAQ",
+        "source_url": "https://careers.jx-starlux.com/Pilot/Cadet",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "jxCadetCurrent"
       }
     ],
     "interview": [],
