@@ -26,7 +26,16 @@
           "SkyTeam Elite Plus"
         ]
       ],
-      "note": "會員卡並非聯名信用卡。貴賓室、額外行李與同行者權益須按承運航空、航程與當期條款判讀。"
+      "note": "會員卡並非聯名信用卡。貴賓室、額外行李與同行者權益須按承運航空、航程與當期條款判讀。",
+      "benefits": {
+        "value": "Elite Plus 的聯盟禮遇包含符合條件的貴賓室、優先行李處理及額外行李。貴賓室須檢查當日航班、承運航空、轉機與同行者條件；不能只憑持有翡翠／晶鑽卡推定所有機場皆可使用。",
+        "source": "SkyTeam｜Frequent Flyer Benefits",
+        "source_url": "https://www.skyteam.com/en/frequent-flyers/",
+        "as_of": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "published_date": null,
+        "status": "confirmed"
+      }
     },
     "liveries": [
       {
@@ -167,7 +176,16 @@
           "Star Alliance Gold"
         ]
       ],
-      "note": "長榮自家銀卡禮遇不等同所有星空聯盟銀卡權益；貴賓室及行李依實際承運與適用條款。"
+      "note": "長榮自家銀卡禮遇不等同所有星空聯盟銀卡權益；貴賓室及行李依實際承運與適用條款。",
+      "benefits": {
+        "value": "Star Alliance Gold 包含指定貴賓室、優先報到與登機、行李優先處理，並提供額外行李額度；計重制通常為 20 公斤、計件制通常為 1 件，仍有票價與航空公司例外，應按實際行程確認。",
+        "source": "Star Alliance｜Gold Benefits",
+        "source_url": "https://portal.staralliance.com/imagelibrary/products/benefits/star-alliance-gold",
+        "as_of": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "published_date": null,
+        "status": "confirmed"
+      }
     },
     "liveries": [
       {
@@ -337,7 +355,16 @@
           "最高卡別"
         ]
       ],
-      "note": "四種卡別不能直接換算成天合或星空聯盟等級。哩程加贈、貴賓室及行李須依官方卡別表與適用航班條件。"
+      "note": "四種卡別不能直接換算成天合或星空聯盟等級。哩程加贈、貴賓室及行李須依官方卡別表與適用航班條件。",
+      "benefits": {
+        "value": "自 2026-04-21 起，ADVENTURER、EXPLORER、INSIGHTER 搭乘星宇班號且由星宇執飛的航班，可依飛行當日卡別累積加贈酬賓哩程。官方另註台中國際機場星宇貴賓室自 2025-01-25 起不適用 COSMILE 會員使用，不能僅憑卡別推定所有貴賓室皆開放。",
+        "source": "STARLUX｜Tier Privileges",
+        "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/tier-privileges",
+        "as_of": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "published_date": null,
+        "status": "confirmed"
+      }
     },
     "liveries": [
       {
