@@ -1,3 +1,4 @@
+import FleetStudy from "./FleetStudy.jsx";
 import AircraftOverview from "./AircraftOverview.jsx";
 import KnowledgeBank, { knowledgeItems } from "./KnowledgeBank.jsx";
 import AircraftPhoto from "./AircraftPhoto.jsx";
@@ -748,6 +749,7 @@ function Fleet({ a, tab }) {
                 <tr>
                   <th>機型</th>
                   <th>{a.id === "starlux" ? "登記數量" : "機隊數量"}</th>
+                  <th>租賃數量／揭露日</th>
                   <th>任務</th>
                   <th>基準日</th>
                 </tr>
@@ -763,7 +765,7 @@ function Fleet({ a, tab }) {
                         )?.quantity ??
                         "待查核"}
                     </td>
-                    <td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
+                    <td>{x.ownership?.value?.match(/承租 (\d+) 架/)?.[1] || "待查核"}{x.ownership && <details><summary>{x.ownership.as_of || "租賃證據"}</summary><p>{x.ownership.value}</p><p>{x.ownership.note}</p><Source item={x.ownership} compact /></details>}</td><td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
                     <td>
                       {x.as_of ||
                         (f.composition_snapshot?.rows.some(
@@ -780,7 +782,7 @@ function Fleet({ a, tab }) {
         </div>
       </div>
       {f.ownership_summary && <section className="notice ownership-summary"><b>租賃與自有 · {f.ownership_summary.as_of}</b><p>{f.ownership_summary.value}</p><details><summary>範圍與來源</summary><p>{f.ownership_summary.note}</p><Source item={f.ownership_summary} compact /></details></section>}
-      <SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
+      <p className="fineprint">租賃欄為各來源的歷史揭露數，日期可能早於現役數；不可相減推算自有數，待查核不代表零。</p><FleetStudy airline={a.id} fleet={f} Source={Source}/><SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
         {visibleAircraft.map((x) => (
           <article className="aircraft-card" key={x.aircraft_type}>
@@ -1001,6 +1003,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           .map((id) => sections.find((s) => s.id === id)?.zh)
           .join(" · ")}
       </p>
+      {["routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
       {group.id === "overview" ? (
         <>
           {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}

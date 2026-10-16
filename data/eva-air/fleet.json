@@ -344,6 +344,18 @@
         "as_of": null,
         "status": "confirmed",
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "design": {
+        "theme": "人本機能與現代精緻美學",
+        "value": "皇璽桂冠艙由BMW Designworks設計，著重隱私、水平空間、收納及操作便利；Teague參與經濟艙設計。",
+        "elements": "以座椅使用動線與空間機能呈現品牌品質。不同787批次與艙等配置須分開確認。",
+        "interview": "用隱私、收納與便利性三個具體面向說明設計，而非只用豪華形容。",
+        "source": "長榮｜787客艙官方專頁",
+        "source_url": "https://b787.evaair.com/zh_tw/",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null
       }
     },
     {
@@ -495,6 +507,18 @@
         "as_of": null,
         "status": "confirmed",
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "design": {
+        "theme": "人本機能與現代精緻美學",
+        "value": "皇璽桂冠艙由BMW Designworks設計，著重隱私、水平空間、收納及操作便利；Teague參與經濟艙設計。",
+        "elements": "以座椅使用動線與空間機能呈現品牌品質。不同787批次與艙等配置須分開確認。",
+        "interview": "用隱私、收納與便利性三個具體面向說明設計，而非只用豪華形容。",
+        "source": "長榮｜787客艙官方專頁",
+        "source_url": "https://b787.evaair.com/zh_tw/",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null
       }
     },
     {

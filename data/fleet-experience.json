@@ -1,0 +1,192 @@
+{
+  "china-airlines": {
+    "membership": {
+      "source": "華航｜合作聯盟及會員級別",
+      "source_url": "https://www.china-airlines.com/us/zh/member/planning/partners",
+      "status": "confirmed",
+      "published_date": null,
+      "verified_date": "2026-10-16",
+      "as_of": null,
+      "name": "華夏會員 Dynasty Flyer",
+      "tiers": [
+        [
+          "華夏卡",
+          "基本會員"
+        ],
+        [
+          "金卡",
+          "SkyTeam Elite"
+        ],
+        [
+          "翡翠卡",
+          "SkyTeam Elite Plus"
+        ],
+        [
+          "晶鑽卡",
+          "SkyTeam Elite Plus"
+        ]
+      ],
+      "note": "會員卡並非聯名信用卡。貴賓室、額外行李與同行者權益須按承運航空、航程與當期條款判讀。"
+    },
+    "liveries": [
+      {
+        "source": "華航｜皮卡丘彩繪機官方專頁",
+        "source_url": "https://pikachujet.china-airlines.com/",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "name": "Pokémon 飛翔皮卡丘計畫",
+        "type": "CI1／CI2",
+        "description": "CI2將寶可夢與台灣祥雲、花磚意象結合；班機調度以官方彩繪機班表為準，購票不保證特定機身。"
+      }
+    ],
+    "replacement": [
+      {
+        "source": "華航｜787確認訂單",
+        "source_url": "https://www.china-airlines.com/at/en/about-china-airlines/media/news/20230621",
+        "status": "planned",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "from": "A330-300",
+        "to": "787-9／787-10",
+        "why": "官方明確列為廣體客機汰換計畫；舊稿交機年份不當作最新進度。"
+      },
+      {
+        "source": "華航｜2023年報",
+        "source_url": "https://calec.china-airlines.com/annual-report/annual_2023.pdf",
+        "status": "planned",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "from": "737-800",
+        "to": "A321neo",
+        "why": "逐步接替區域客機任務，並非一架交付即代表一架退役。"
+      },
+      {
+        "source": "華航｜永續發展策略",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "status": "planned",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "from": "747-400F",
+        "to": "777F／未來777-8F",
+        "why": "貨機更新與效率提升；各機型退役與交付仍依逐年公告。"
+      }
+    ]
+  },
+  "eva-air": {
+    "membership": {
+      "source": "長榮｜星空聯盟會員禮遇",
+      "source_url": "https://www.evaair.com/en-de/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/benefit-when-flying-with-star-alliance-members-partners/Default.html",
+      "status": "confirmed",
+      "published_date": null,
+      "verified_date": "2026-10-16",
+      "as_of": null,
+      "name": "無限萬哩遊 Infinity MileageLands",
+      "tiers": [
+        [
+          "綠卡",
+          "基本會員"
+        ],
+        [
+          "銀卡",
+          "Star Alliance Silver"
+        ],
+        [
+          "金卡",
+          "Star Alliance Gold"
+        ],
+        [
+          "鑽石卡",
+          "Star Alliance Gold"
+        ]
+      ],
+      "note": "長榮自家銀卡禮遇不等同所有星空聯盟銀卡權益；貴賓室及行李依實際承運與適用條款。"
+    },
+    "liveries": [
+      {
+        "source": "長榮｜彩繪機官方介紹",
+        "source_url": "https://www.evaair.com/en-us/fly-prepare/our-fleets/eva-special-livery-jets/",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "name": "Sanrio／Hello Kitty",
+        "type": "Besties Jet 等主題機",
+        "description": "角色合作從外部塗裝延伸到主題服務。各主題、派飛日期與航線依官方專頁，不將歷史彩繪機總數當現況。"
+      }
+    ],
+    "replacement": [
+      {
+        "source": "長榮｜2025第二季法說",
+        "source_url": "https://www.evaair.com/en-global/images/investor-conference-2025q2-en_tcm33-95095.pdf",
+        "status": "planned",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "from": "老舊機隊（逐型對應待確認）",
+        "to": "A350-1000／A321neo／787",
+        "why": "官方列機隊更新與區域航網拓展；未明示的逐型一對一替換關係不自行推定。"
+      }
+    ]
+  },
+  "starlux": {
+    "membership": {
+      "source": "星宇｜COSMILE卡別禮遇",
+      "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/tier-privileges",
+      "status": "confirmed",
+      "published_date": null,
+      "verified_date": "2026-10-16",
+      "as_of": null,
+      "name": "COSMILE",
+      "tiers": [
+        [
+          "TRAVELER",
+          "基本會員"
+        ],
+        [
+          "ADVENTURER",
+          "進階卡別"
+        ],
+        [
+          "EXPLORER",
+          "高階卡別"
+        ],
+        [
+          "INSIGHTER",
+          "最高卡別"
+        ]
+      ],
+      "note": "四種卡別不能直接換算成天合或星空聯盟等級。哩程加贈、貴賓室及行李須依官方卡別表與適用航班條件。"
+    },
+    "liveries": [
+      {
+        "source": "星宇｜AIRSORAYAMA官方專頁",
+        "source_url": "https://media.starlux-airlines.com/airsorayama/jp/index.html",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "name": "AIRSORAYAMA × 空山基",
+        "type": "A350-1000 藝術合作",
+        "description": "官方專頁標示2026-10-01正式就航；以金屬視覺語彙結合航空與藝術。特定班次是否派飛仍須查官方班表。"
+      }
+    ],
+    "replacement": [
+      {
+        "source": "Airbus｜星宇首架A350-1000交付",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "status": "confirmed",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "from": "擴張機隊，非已公告汰換",
+        "to": "A350-1000",
+        "why": "應區分長程運能擴張與舊機替換；不能因新機加入就推定A350-900將退役。"
+      }
+    ]
+  }
+}
