@@ -1,4 +1,5 @@
 import AircraftOverview from "./AircraftOverview.jsx";
+import KnowledgeBank, { knowledgeItems } from "./KnowledgeBank.jsx";
 import AircraftPhoto from "./AircraftPhoto.jsx";
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
@@ -81,7 +82,7 @@ const files = import.meta.glob("../data/**/*.json", {
 const data = (p) => files["../data/" + p + ".json"];
 const ids = ["china-airlines", "eva-air", "starlux"];
 const airlines = ids.map((id) => data(id + "/overview"));
-const bank = data("interview-bank"),
+const bank = [...data("interview-bank"), ...data("imported-interview")],
   weekly = data("weekly-updates"),
   sources = data("sources"),
   sections = data("sections");
@@ -122,6 +123,7 @@ const navItems = [
   ["compare", "三雄比較", ChartNoAxesCombined],
   ["weekly", "每週更新", Newspaper],
   ["interview", "面試題庫", GraduationCap],
+  ["knowledge", "知識題庫", BookOpen],
   ["sources", "資料來源", Database],
 ];
 function useHash() {
@@ -1337,6 +1339,8 @@ function QuestionBank({
     [query, setQuery] = useState(""),
     [mode, setMode] = useState("all"),
     [difficulty, setDifficulty] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(24);
+  useEffect(() => setVisibleCount(24), [air, topic, query, mode, difficulty]);
   let list = bank.filter(
     (q) =>
       (air === "all" || q.airline === air) &&
@@ -1437,10 +1441,10 @@ function QuestionBank({
       </div>
       <p className="fineprint">
         {list.length} 道題 ·
-        原創模擬練習，非歷屆考題或官方標準答案。練習紀錄僅儲存在此瀏覽器。
+        含原創練習與準備文件整理題，非官方考題認證。標示「答題框架」者尚非完整示範稿。練習紀錄僅儲存在此瀏覽器。
       </p>
       <div className="question-grid">
-        {list.map((q) => (
+        {list.slice(0, visibleCount).map((q) => (
           <button
             className="question-card"
             key={q.id}
@@ -1458,7 +1462,9 @@ function QuestionBank({
               </span>
             </div>
             <h3>{q.question}</h3>
-            <p>{q.question_en}</p>
+            {q.question_en && q.question_en !== q.question && <p>{q.question_en}</p>}
+            {q.answer_mode === "reviewed_guidance" && <span className="framework-badge">已校正建議回答</span>}
+            {q.answer_mode === "framework" && <span className="framework-badge">答題框架 · 文件整理</span>}
             {q.practice_group && (
               <p className="fineprint">{q.practice_group}</p>
             )}
@@ -1471,6 +1477,7 @@ function QuestionBank({
           </button>
         ))}
       </div>
+      {list.length > visibleCount && <div className="question-page-actions"><button onClick={() => setVisibleCount(n => n + 24)}>顯示更多題目（目前 {visibleCount} / {list.length}）</button></div>}
       {!list.length && (
         <Pending note="沒有符合篩選的題目，請調整搜尋或條件。" />
       )}
@@ -1778,6 +1785,7 @@ function App() {
                     </button>
                   ))}
                 <button onClick={() => setSearch("")}>關閉搜尋</button>
+                {knowledgeItems.filter(x => `${x.title} ${x.title_en} ${x.answer}`.toLowerCase().includes(search.toLowerCase())).slice(0, 4).map(x => <a href="#knowledge" key={x.id} onClick={() => setSearch("")}>知識 · {x.title}</a>)}
               </div>
             )}
           </div>
@@ -1801,7 +1809,7 @@ function App() {
               <Heading
                 eyebrow="PRACTISE WITH PURPOSE"
                 title="把知識，說成你的回答。"
-                description={`${bank.length} 道中英文練習題 · 已練習 ${mastered.length} 道 · 已收藏 ${saved.length} 道`}
+                description={`${bank.length} 道練習題（含示範與答題框架） · 已練習 ${mastered.length} 道 · 已收藏 ${saved.length} 道`}
               >
                 <button onClick={exportNotes}>
                   <Download size={16} />
@@ -1815,6 +1823,8 @@ function App() {
                 mastered={mastered}
               />
             </>
+          ) : page === "knowledge" ? (
+            <KnowledgeBank Source={Source} />
           ) : page === "sources" ? (
             <Sources />
           ) : page === "airlines" ? (
@@ -1849,6 +1859,7 @@ function App() {
           ["compare", "比較", ChartNoAxesCombined],
           ["weekly", "週報", Newspaper],
           ["interview", "面試", GraduationCap],
+          ["knowledge", "知識", BookOpen],
         ].map(([id, label, Icon]) => (
           <a
             key={id}

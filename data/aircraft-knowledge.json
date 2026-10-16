@@ -1,0 +1,167 @@
+{
+  "items": [
+    {
+      "id": "a350",
+      "category": "機型特色",
+      "title": "A350-900／A350-1000",
+      "title_en": "A350-900／A350-1000",
+      "subtitle": "長程廣體 · 複合材料",
+      "answer": "A350 家族採大量複合材料結構，使用 Rolls-Royce Trent XWB。-900 與加長的 -1000 不能混為同一尺寸或同一發動機版本。",
+      "answer_en": "The A350 family combines a composite-intensive structure with Trent XWB engines. The -900 and larger -1000 have different dimensions and engine variants.",
+      "caution": "A350-900／-1000 的座位數取決於航空公司配置；共同駕駛艙理念也不代表無須差異訓練。",
+      "source": "Airbus｜A350 family",
+      "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350",
+      "types": [
+        "A350-900",
+        "A350-1000"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "b787",
+      "category": "機型特色",
+      "title": "B787-9／B787-10",
+      "title_en": "B787-9／B787-10",
+      "subtitle": "長程廣體 · 更多電氣化系統",
+      "answer": "787 採約 50%（按重量）複合材料機體，具有更多電氣化系統與電子調光窗。-10 機身較長；選型需權衡容量、航程與航線需求，而非單看數字大小。",
+      "answer_en": "The 787 uses approximately 50 percent composites by weight, more-electric systems and electronically dimmable windows. The larger -10 trades capacity and mission capability differently from the -9.",
+      "caution": "更多電氣化不等於全電動推進；機型共通性不等於機師資格自動通用。",
+      "source": "Boeing｜787 by design",
+      "source_url": "https://www.boeing.com/commercial/787/by-design",
+      "types": [
+        "787-9",
+        "787-10"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "a321neo",
+      "category": "機型特色",
+      "title": "A321neo",
+      "title_en": "A321neo",
+      "subtitle": "單走道 · 新引擎世代",
+      "answer": "A321neo 屬 A320 家族，提供 PW1100G-JM 或 LEAP-1A 發動機選項，配合氣動改良。國籍航空各自選型不同，不能從 neo 名稱直接推定引擎或座位數。",
+      "answer_en": "The A321neo is an A320-family single-aisle aircraft with PW1100G-JM or LEAP-1A engine options. Airline selections and cabin layouts differ.",
+      "caution": "A321neo、LR 與 XLR 不可直接互換名稱；一般 neo 機隊不能自動套用 XLR 航程。",
+      "source": "Airbus｜A321neo certification and engine options",
+      "source_url": "https://www.airbus.com/en/newsroom/news/2016-12-approved-for-airline-service-how-the-a321neo-received-its-airworthiness",
+      "types": [
+        "A321neo"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "a330",
+      "category": "機型特色",
+      "title": "A330-300／A330-900",
+      "title_en": "A330-300／A330-900",
+      "subtitle": "廣體雙發 · ceo 與 neo 分開",
+      "answer": "A330-300 為原世代；A330-900 屬 A330neo，使用 Trent 7000，並改良機翼與翼尖。共通設計有利機隊銜接，但仍須核對機型、訓練與維修差異。",
+      "answer_en": "The A330-900 is an A330neo with Trent 7000 engines and aerodynamic improvements. It must be distinguished from the earlier A330-300.",
+      "caution": "不要把 -900 的引擎、油耗宣稱與座位配置直接套在 -300；燃油改善須交代比較基準。",
+      "source": "Airbus｜A330neo",
+      "source_url": "https://www.aircraft.airbus.com/en/aircraft/a330",
+      "types": [
+        "A330-200",
+        "A330-300",
+        "A330-900"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "b777",
+      "category": "機型特色",
+      "title": "B777-300ER／777F",
+      "title_en": "B777-300ER／777F",
+      "subtitle": "大型雙發 · 客貨任務",
+      "answer": "777-300ER 是長機身長程客機；777F 是原廠雙發貨機。GE90 系列為這些衍生型提供動力，客艙、貨艙、載重限制和任務須分開研究。",
+      "answer_en": "The 777-300ER is a long-range passenger aircraft, while the 777F is a factory-built freighter. These GE90-powered variants serve different payload and operational requirements.",
+      "caution": "777F 不等於 777-300ERSF 客改貨；777X 使用 GE9X，不能與 GE90 世代混淆。",
+      "source": "Boeing｜777-200LR／300ER／F airport planning",
+      "source_url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/777-200LR-300ER-F_Rev_G.pdf",
+      "types": [
+        "777-300ER",
+        "777F"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "b737",
+      "category": "機型特色",
+      "title": "B737-800",
+      "title_en": "B737-800",
+      "subtitle": "單走道 · Next Generation",
+      "answer": "737-800 屬 737 Next Generation，採雙發單走道布局。認識 NG 與 MAX 的世代差異，比只說「737」更精確。",
+      "answer_en": "The 737-800 belongs to the Next Generation family. It is a twin-engine single-aisle aircraft and should be distinguished from the MAX family.",
+      "caution": "737-800 不等於 737 MAX 8；不同世代的引擎與系統差異不能只靠名稱數字判斷。",
+      "source": "Boeing｜737NG design highlights",
+      "source_url": "https://www.boeing.com/Commercial/737ng/737-next-generation-design-highlights",
+      "types": [
+        "737-800"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "b747f",
+      "category": "機型特色",
+      "title": "B747-400F",
+      "title_en": "B747-400F",
+      "subtitle": "四發貨機 · 機鼻裝載",
+      "answer": "原廠 747-400F 配有機鼻貨門，可支援特定長件貨物裝載；貨艙尺寸、地板承重與裝載程序仍構成限制。",
+      "answer_en": "The factory-built 747-400F has a nose cargo door that supports loading of certain long cargo items, subject to dimensions and structural limits.",
+      "caution": "不能把所有 747 客改貨都當成有機鼻貨門，也不能將 -8F 性能套到 -400F。",
+      "source": "Boeing｜747-400／400ER freighter",
+      "source_url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/startup/pdf/freighters/747-400f.pdf",
+      "types": [
+        "747-400F"
+      ],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    },
+    {
+      "id": "atr72",
+      "category": "機型特色",
+      "title": "ATR 72-600",
+      "title_en": "ATR 72-600",
+      "subtitle": "區域渦槳 · 短航段",
+      "answer": "ATR 72-600 是區域雙發渦槳客機。螺旋槳與較低巡航速度適合短航段需求；新交付產品的 PW127XT 選項不能當成所有既有航機的引擎。",
+      "answer_en": "The ATR 72-600 is a regional twin-engine turboprop. Its design suits short sectors; newer PW127XT-powered deliveries should not be confused with every in-service aircraft.",
+      "caution": "渦槳也是燃氣渦輪發動機；不能以速度較慢推論較不安全。個別國籍航空現役配置另查官方機隊。",
+      "source": "ATR｜ATR 72-600",
+      "source_url": "https://www.atr-aircraft.com/regional-mobility/regional-aircraft/atr-72-600/",
+      "types": [],
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-16",
+      "status": "confirmed",
+      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+    }
+  ]
+}

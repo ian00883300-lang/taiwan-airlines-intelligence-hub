@@ -702,3 +702,15 @@ test('Brand definitions stay separate from special livery and unverified sixth-s
   assert.equal(answer.question_revision, 3);
 });
 
+
+test('Imported preparation questions distinguish reviewed guidance from frameworks and protect private sources',()=>{
+ const raw=fs.readFileSync('data/imported-interview.json','utf8');const q=JSON.parse(raw);
+ assert.equal(q.length,327);assert.equal(new Set(q.map(x=>x.id)).size,327);
+ assert.equal(q.filter(x=>x.answer_mode==='reviewed_guidance').length,23);
+ assert.equal(q.filter(x=>x.answer_mode==='framework').length,304);
+ assert.ok(!/docs.google.com|1CVGNHUr9qGCGSOvCExX4nvWWbsLpfVEv7MIT6QBf7MI/.test(raw));
+ for(const x of q){assert.equal(x.status,'unverified');assert.ok(x.question);}
+ const knowledge=['aviation','aircraft'].flatMap(n=>JSON.parse(fs.readFileSync(`data/${n}-knowledge.json`)).items);
+ assert.equal(knowledge.length,22);assert.equal(new Set(knowledge.map(x=>x.id)).size,22);
+ for(const x of knowledge){assert.ok(x.source_url.startsWith('https://'));assert.ok(x.answer);assert.ok(x.caution);}
+});

@@ -38,8 +38,8 @@ export function PrivateImport() {
     const file = e.target.files?.[0];
     if (!file) return;
     try {
-      if (file.size > 250000)
-        throw new Error("檔案過大，請使用 250 KB 以下的答案檔。");
+      if (file.size > 1000000)
+        throw new Error("檔案過大，請使用 1 MB 以下的答案檔。");
       const next = validatePack(JSON.parse(await file.text()), ids);
       if (save(next))
         setMessage(
@@ -167,6 +167,7 @@ export function AnswerView({ q, length, Source }) {
       <p className="fineprint">
         秒數是口說目標，請依自己的語速精簡；先理解，再用自己的話說。
       </p>
+      {q.answer_mode === "framework" && !mine && <p className="personal-note">本題目前提供答題框架，尚非逐題完成的示範回答。可匯入私人原稿或在筆記補入真實案例；不把框架當成自己的經歷。</p>}
       {personal && !currentPersonal && (
         <p className="personal-note" role="status">
           題目已重新整理，舊版個人答案仍保留，請確認是否適用。
