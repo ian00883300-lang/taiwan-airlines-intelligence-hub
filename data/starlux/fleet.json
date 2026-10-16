@@ -266,6 +266,18 @@
         "label": "自有與租賃",
         "value": "有租賃契約；年報列 ACG、Wilmington、Celestial、Archerfish、GY Aviation、Avolon 等契約法人。",
         "note": "契約表涵蓋不同簽約批次，不等於已交付架數；法人名稱不能直接當作目前逐架所有權名冊。"
+      },
+      "design": {
+        "source": "BMW Group Designworks｜STARLUX A321客艙設計案例",
+        "source_url": "https://www.bmwgroupdesignworks.com/case-studies/starlux-airlines/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "以家的感受重新定義精品客艙",
+        "value": "Designworks將設計重點放在旅客的舒適、放鬆與使用感受，透過形狀、觸感、顏色及感官環境建立整體體驗，而非只堆疊設備。",
+        "elements": "設計團隊以跨艙等的體驗一致性回應品牌承諾；精品定位也應照顧經濟艙旅客。",
+        "interview": "可談設計如何支持服務定位，再連結到可靠、安全、穩定的實際服務；避免只用豪華形容產品。"
       }
     },
     {
@@ -772,6 +784,18 @@
         "label": "自有與租賃",
         "value": "有租賃及採購安排；年報列 ALC CLOVER IRELAND 的 A350 租約及 Airbus A350 採購契約。",
         "note": "契約表採 A350 家族名稱，未逐架對應機身編號；不據此分配個別航機所有權。"
+      },
+      "design": {
+        "source": "Designworks｜STARLUX跨機隊設計與品牌敘事",
+        "source_url": "https://www.bmwgroupdesignworks.com/articles/starlux-aircraft-interior-designer-services-and-brand-storytelling/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "延續跨機隊品牌體驗",
+        "value": "Designworks說明與星宇的合作從初期客艙持續演進至A350，目標是各艙等均能感受到一致而有辨識度的品牌體驗。",
+        "elements": "設計不僅是座椅外觀，也包含整體客艙感受與品牌敘事的延續。",
+        "interview": "以A321neo與A350作例子，說明同一品牌如何適應不同客艙尺度，而非假設所有機型設備相同。"
       }
     },
     {

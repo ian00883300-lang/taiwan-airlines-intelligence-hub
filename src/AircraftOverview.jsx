@@ -90,6 +90,7 @@ export default function AircraftOverview({ aircraft: x, Source }) {
         <p>{x.introduction?.value || "Data pending verification"}</p>
         <Source item={x.introduction} compact />
       </section>
+      {x.design && <section className="aircraft-design"><h4>客艙設計風格與理念</h4><strong>{x.design.theme}</strong><p>{x.design.value}</p><details><summary>設計元素、寓意與面試應用</summary><p>{x.design.elements}</p><p><b>面試應用（本站整理）：</b>{x.design.interview}</p>{x.design.note && <p className="fineprint">{x.design.note}</p>}</details><Source item={x.design} compact />{x.design.upgrade && <><p>{x.design.upgrade.value}</p><Source item={x.design.upgrade} compact /></>}</section>}
       <section className="aircraft-engine">
         <h4>使用引擎</h4>
         <strong>{x.engine?.value || "Data pending verification"}</strong>

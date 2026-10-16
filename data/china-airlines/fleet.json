@@ -337,6 +337,28 @@
         "label": "租賃紀錄",
         "value": "2025 年末合併財報列 A350-900 承租 1 架。",
         "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
+      },
+      "design": {
+        "source": "華航｜設計概念（777／A350設計延續）",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/design-story",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "延續新世代客艙的東方識別",
+        "value": "官方設計頁將柿木紋列為777與A350新世代客艙的辨識特色，並說明A321neo迎賓區延續此語彙。",
+        "elements": "可從跨機型材質與紋理的一致性理解品牌延續；不將A321neo的完整登山敘事直接套用到A350。",
+        "interview": "比較同一家航空不同機型時，區分共通品牌元素與各機型專屬設計。",
+        "note": "2024-12-09官方公告預計2027年起推出升級客艙；不能把未來方案當成目前全機隊已完成改裝。",
+        "upgrade": {
+          "source": "華航｜A350客艙再升級公告",
+          "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20241209",
+          "published_date": "2024-12-09",
+          "verified_date": "2026-10-16",
+          "as_of": null,
+          "status": "announced",
+          "value": "公告規劃2027年起上線；實際進度以後續公告為準。"
+        }
       }
     },
     {
@@ -868,6 +890,19 @@
         "label": "租賃紀錄",
         "value": "2025 年末合併財報列 777-300ER 承租 10 架。",
         "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
+      },
+      "design": {
+        "source": "華航｜2015永續報告・新機隊客艙設計，第47頁",
+        "source_url": "https://calec.china-airlines.com/csr/download/2015/2015-CSR.pdf",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "宋代文人美學：三個連續的生活場景",
+        "value": "商務艙以書齋與閱讀燈營造私人閱讀空間；豪華經濟艙取意山間書院；經濟艙對應市井生活。",
+        "elements": "客艙與以宋代器物為靈感的餐具共同傳達文化識別，讓設計主題延伸至服務物件。",
+        "interview": "重點是跨艙等一致的品牌故事，不把文化美學直接等同飛安或營運績效。",
+        "note": "此為新世代客艙歷史設計理念；非逐架飛機今日內裝檢查結果。"
       }
     },
     {
@@ -1453,6 +1488,18 @@
         "label": "租賃紀錄",
         "value": "2025 年末合併財報列 A321neo 承租 16 架。",
         "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
+      },
+      "design": {
+        "source": "華航｜設計概念・A321neo",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/design-story",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "東方美學：從山林、茶館走向城市",
+        "value": "迎賓區延續777與A350的柿木紋，搭配漸層與金屬光感；商務艙以山間茶館營造安靜氣氛，經濟艙則轉為城市活力。",
+        "elements": "柿子寄寓旅途順心；蝴蝶以「福疊」諧音傳達祝福。台灣山水與城市意象串起各艙色調。",
+        "interview": "可用「在地文化轉化為旅客體驗」說明品牌特色，並以迎賓區與艙等氛圍兩項具體設計佐證。"
       }
     },
     {
