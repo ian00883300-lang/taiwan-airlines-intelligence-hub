@@ -825,6 +825,7 @@ function Fleet({ a, tab }) {
           </article>
         ))}
       </div>
+      <FleetStudy airline={a.id} fleet={f} Source={Source} mode="design"/>
       <SectionTitle title="機隊歷史時間軸" en="Fleet timeline" />
       {f.history.length ? (
         <div className="timeline">

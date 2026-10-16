@@ -1,0 +1,51 @@
+{
+  "china-airlines": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Economy_Class_of_China_Airlines_(A350)_01.jpg",
+      "caption": "華航 A350｜經濟艙歷史照片（2019）",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Economy_Class_of_China_Airlines_(A350)_01.jpg",
+      "credit": "Freedomwk · CC BY-SA 4.0 · 版面裁切顯示",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "verified_date": "2026-10-16"
+    }
+  ],
+  "eva-air": [
+    {
+      "url": "https://b787.evaair.com/img/top/kv-premium-1-mb.jpg",
+      "caption": "長榮 787-9｜第四代豪華經濟艙",
+      "source": "長榮航空",
+      "source_url": "https://b787.evaair.com/zh_tw/",
+      "verified_date": "2026-10-16",
+      "credit": "圖片版權歸原權利人；外部來源展示"
+    },
+    {
+      "url": "https://b787.evaair.com/img/business/pic/1.jpg",
+      "caption": "長榮 787｜皇璽桂冠艙座椅展示",
+      "source": "長榮航空",
+      "source_url": "https://b787.evaair.com/zh_tw/",
+      "verified_date": "2026-10-16",
+      "credit": "圖片版權歸原權利人；外部來源展示"
+    }
+  ],
+  "starlux": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(02).jpg",
+      "caption": "星宇 A350-900 B-58504｜經濟艙（2024-01-04）",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(02).jpg",
+      "credit": "Simply Aviation · CC BY 4.0 · 版面裁切顯示",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-10-16"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(03).jpg",
+      "caption": "星宇 A350-900 B-58504｜經濟艙（2024-01-04）",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(03).jpg",
+      "credit": "Simply Aviation · CC BY 4.0 · 版面裁切顯示",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-10-16"
+    }
+  ]
+}
