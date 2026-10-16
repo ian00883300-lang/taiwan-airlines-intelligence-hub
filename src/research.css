@@ -1607,3 +1607,31 @@ abbr[title]:focus::after {
 @media(min-width:761px){.cabin-photo-grid[data-count="1"]{grid-template-columns:1fr}.cabin-photo-grid[data-count="1"] figure{display:grid;grid-template-columns:minmax(240px,1fr) minmax(220px,1fr)}.cabin-photo-grid[data-count="1"] img{max-height:290px}.cabin-photo-grid[data-count="1"] figcaption{align-content:center;padding:24px;gap:10px}}
 
 .cabin-scroll-hint{display:none}@media(max-width:760px){.cabin-scroll-hint{display:block;font-size:.78rem;color:#62778b;margin:0 0 10px}}
+
+/* Screenshot-matched study tables: narrow blue labels, full grid, generous text columns. */
+.study-table{background:#fff;border:0;border-radius:0;padding:0;margin:18px 0;overflow-x:auto}
+.study-table table{width:100%;border-collapse:collapse;table-layout:fixed}
+.study-table th,.study-table td{border:1px solid #dce2ed;padding:12px 14px;line-height:1.75;font-size:calc(1rem * var(--reading-scale,1));text-align:left;vertical-align:top;color:#293b50;overflow-wrap:break-word;white-space:normal}
+.study-table th{background:#edf2fa;color:#244777;font-weight:650}
+.study-table th:first-child{width:11%;min-width:0}
+.study-table thead th:nth-child(2){width:40%}
+.study-table td p{margin:0 0 6px}
+.study-section{padding:24px;border-radius:18px;background:#fff}
+.study-section>h3{font-size:1.2rem;margin-bottom:20px}
+#fleet-role .study-table thead th:nth-child(2){width:35%}
+#fleet-future>.study-table thead th:nth-child(2){width:67%}
+#fleet-future>.study-table thead th:last-child{width:22%}
+.study-table.livery-table thead th:nth-child(2){width:89%}
+.study-cards{gap:18px;align-items:start}
+.study-cards article{padding:20px;border-radius:16px}
+.study-cards h4{color:#315f9c;font-size:1.15rem}
+.order-detail-table table th:first-child{width:18%}
+.order-detail-table{margin-bottom:0}
+.cabin-design-section{padding:0;background:transparent;border:0}
+.cabin-design-table{padding:24px;border:1px solid #dce2ed;border-radius:18px}
+.cabin-design-table th:first-child{width:11%;white-space:normal}
+.cabin-design-table thead th:nth-child(2){width:40%}
+.cabin-design-table td strong{color:#bf3473}
+@media(max-width:760px){.study-section{padding:14px}.study-table table{min-width:720px}.study-table th,.study-table td{padding:10px 12px;font-size:calc(.95rem * var(--reading-scale,1))}.cabin-design-table{padding:0}.order-detail-table table{min-width:0}.order-detail-table th:first-child{width:22%}.study-cards article{padding:16px}.cabin-design-section{padding:0}}
+
+.study-table table tr>th,.study-table table tr>td{border:1px solid #dce2ed!important}.study-table table tbody tr:last-child>th,.study-table table tbody tr:last-child>td{border-bottom:1px solid #dce2ed!important}
