@@ -39,6 +39,17 @@
         "name": "Pokémon 飛翔皮卡丘計畫",
         "type": "CI1／CI2",
         "description": "CI2將寶可夢與台灣祥雲、花磚意象結合；班機調度以官方彩繪機班表為準，購票不保證特定機身。"
+      },
+      {
+        "source": "華航｜動物方城市 2 彩繪機啟航",
+        "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+        "published_date": "2025-11-19",
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "迪士尼《動物方城市 2》",
+        "type": "777-300ER 主題機",
+        "description": "2025-11-19 首航台北—洛杉磯。合作涵蓋外部塗裝、登機證、行李名條、頭墊紙、餐飲用品與兒童玩具；首航紀錄不等於今日固定派飛航線。"
       }
     ],
     "replacement": [
@@ -107,7 +118,27 @@
         "status": "confirmed",
         "as_of": "2026-10-16"
       }
-    ]
+    ],
+    "aircraft_features": {
+      "A350-1000": {
+        "source": "Airbus｜A350-1000",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "value": "採 Rolls-Royce Trent XWB-97；A350 結構採約 53% 複合材料、14% 鈦。材料比例描述機體技術，不能直接換算成航空公司實際節油百分比。"
+      },
+      "777-9": {
+        "source": "Boeing｜777X By Design",
+        "source_url": "https://www.boeing.com/commercial/777x/by-design",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "value": "採 GE9X 引擎與高展弦比複合材料機翼，設可摺疊翼尖，兼顧飛行效率與地面機場相容性。製造商設計特徵不代表航空公司已投入營運。"
+      }
+    }
   },
   "eva-air": {
     "membership": {
@@ -140,15 +171,64 @@
     },
     "liveries": [
       {
-        "source": "長榮｜彩繪機官方介紹",
-        "source_url": "https://www.evaair.com/en-us/fly-prepare/our-fleets/eva-special-livery-jets/",
-        "status": "confirmed",
+        "source": "長榮｜彩繪機塗裝介紹",
+        "source_url": "https://www.evaair.com/zh-hk/fly-prepare/our-fleets/eva-special-livery-jets/",
         "published_date": null,
         "verified_date": "2026-10-16",
-        "as_of": null,
-        "name": "Sanrio／Hello Kitty",
-        "type": "Besties Jet 等主題機",
-        "description": "角色合作從外部塗裝延伸到主題服務。各主題、派飛日期與航線依官方專頁，不將歷史彩繪機總數當現況。"
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "Sanrio／糖果機",
+        "type": "777-300ER",
+        "registration": "B-16740",
+        "description": "B-16740；官方現行塗裝頁列示的主題與機號。塗裝名單不是固定班表，實際派飛依航空公司調度。"
+      },
+      {
+        "source": "長榮｜彩繪機塗裝介紹",
+        "source_url": "https://www.evaair.com/zh-hk/fly-prepare/our-fleets/eva-special-livery-jets/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "Sanrio／粉萌機",
+        "type": "A321",
+        "registration": "B-16217",
+        "description": "B-16217；官方現行塗裝頁列示的主題與機號。塗裝名單不是固定班表，實際派飛依航空公司調度。"
+      },
+      {
+        "source": "長榮｜彩繪機塗裝介紹",
+        "source_url": "https://www.evaair.com/zh-hk/fly-prepare/our-fleets/eva-special-livery-jets/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "Sanrio／閨蜜機",
+        "type": "777-300ER",
+        "registration": "B-16722",
+        "description": "B-16722；官方現行塗裝頁列示的主題與機號。塗裝名單不是固定班表，實際派飛依航空公司調度。"
+      },
+      {
+        "source": "長榮｜彩繪機塗裝介紹",
+        "source_url": "https://www.evaair.com/zh-hk/fly-prepare/our-fleets/eva-special-livery-jets/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "Sanrio／夢想機",
+        "type": "A330-300",
+        "registration": "B-16332",
+        "description": "B-16332；官方現行塗裝頁列示的主題與機號。塗裝名單不是固定班表，實際派飛依航空公司調度。"
+      },
+      {
+        "source": "長榮｜彩繪機塗裝介紹",
+        "source_url": "https://www.evaair.com/zh-hk/fly-prepare/our-fleets/eva-special-livery-jets/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "name": "Sanrio／派對機",
+        "type": "A330-300",
+        "registration": "B-16333",
+        "description": "B-16333；官方現行塗裝頁列示的主題與機號。塗裝名單不是固定班表，實際派飛依航空公司調度。"
       }
     ],
     "replacement": [
@@ -217,7 +297,18 @@
         "status": "confirmed",
         "as_of": "2026-10-16"
       }
-    ]
+    ],
+    "aircraft_features": {
+      "A350-1000": {
+        "source": "Airbus｜A350-1000",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "value": "採 Rolls-Royce Trent XWB-97；A350 結構採約 53% 複合材料、14% 鈦。材料比例描述機體技術，不能直接換算成航空公司實際節油百分比。"
+      }
+    }
   },
   "starlux": {
     "membership": {
@@ -250,15 +341,15 @@
     },
     "liveries": [
       {
-        "source": "星宇｜AIRSORAYAMA官方專頁",
-        "source_url": "https://media.starlux-airlines.com/airsorayama/jp/index.html",
-        "status": "confirmed",
-        "published_date": null,
+        "source": "STARLUX｜AIRSORAYAMA Silver 交付新聞稿",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/06/3322792/0/en/the-world-s-largest-flying-canvas-takes-flight-starlux-airsorayama-silver-redefines-art-in-the-sky.html",
+        "published_date": "2026-07-06",
         "verified_date": "2026-10-16",
-        "as_of": null,
+        "as_of": "2026-10-16",
+        "status": "confirmed",
         "name": "AIRSORAYAMA × 空山基",
         "type": "A350-1000 藝術合作",
-        "description": "官方專頁標示2026-10-01正式就航；以金屬視覺語彙結合航空與藝術。特定班次是否派飛仍須查官方班表。"
+        "description": "兩架金、銀主題 A350-1000 合作計畫。官方發布稿確認 Silver 於 2026-07-06 在土魯斯交付；交付、商業首航與後續班表是不同事件，不把活動頁的日期當成整個合作的首次啟用日。"
       }
     ],
     "replacement": [
@@ -305,6 +396,17 @@
         "status": "confirmed",
         "as_of": "2026-10-16"
       }
-    ]
+    ],
+    "aircraft_features": {
+      "A350-1000": {
+        "source": "Airbus｜A350-1000",
+        "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": "2026-10-16",
+        "status": "confirmed",
+        "value": "採 Rolls-Royce Trent XWB-97；A350 結構採約 53% 複合材料、14% 鈦。材料比例描述機體技術，不能直接換算成航空公司實際節油百分比。"
+      }
+    }
   }
 }
