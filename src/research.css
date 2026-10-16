@@ -1595,3 +1595,5 @@ abbr[title]:focus::after {
 @media(max-width:760px){.knowledge-grid{grid-template-columns:1fr}.knowledge-card{padding:16px}.knowledge-bank .filters{display:grid;grid-template-columns:1fr}.mobile-nav a{min-width:0;padding-left:2px;padding-right:2px}}
 
 .knowledge-language input{width:18px;height:18px;min-height:18px;padding:0;flex-shrink:0}
+
+.official-network{padding:20px;border:1px solid #cedde7;border-radius:14px;background:#edf4f8;margin-bottom:24px}.official-network-total strong{font-size:2rem}.official-network-regions{display:flex;gap:12px;flex-wrap:wrap;padding:0;list-style:none}.official-network-regions li{background:white;border-radius:6px;padding:6px 12px}.official-network details{margin:12px 0}.official-network summary{cursor:pointer}.official-network p{line-height:1.7}

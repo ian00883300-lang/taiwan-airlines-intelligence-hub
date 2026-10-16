@@ -371,7 +371,7 @@ function AirlineCard({ a }) {
         </div>
         <div>
           <span>航網 Network</span>
-          <b>代表航線已收錄</b>
+          <b>{a.network ? `${a.network.value} 航點（含合作與貨運）` : "代表航線已收錄"}</b>{a.network && <small>截至 {a.network.as_of}</small>}
         </div>
       </div>
       <Source item={a.total} compact />

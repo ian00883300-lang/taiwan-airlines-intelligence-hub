@@ -177,11 +177,19 @@ export default function RouteNetwork({ initial = "all", Source }) {
       <p className="fineprint">
         地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。
       </p>
+      {air === "china-airlines" && <section className="official-network" aria-label="華航官方航網統計">
+        <h3>官方全球航網 · 含合作與貨運</h3>
+        <p className="official-network-total"><strong>{ci.network.value} 個航點</strong> · {ci.network.countries} 個國家／地區</p>
+        <p>資料截至 {ci.network.as_of}。{ci.network.scope}</p>
+        <ul className="official-network-regions">{ci.network.regions.map(r => <li key={r.label}>{r.label} <b>{r.value}</b></li>)}</ul>
+        <details><summary>統計範圍與區域分類</summary><p>{ci.network.note}</p><p>官網符號：* 純貨運；@ 與其他業者合營；☆ 華信班號。下方地圖僅呈現本站已查核收錄的自營客運航段，不能拿收錄數代表官方完整航網。</p></details>
+        <Source item={ci.network} compact />
+      </section>}
       <div className="network-heading">
-        <h3>自營客運航網</h3>
+        <h3>本站已收錄的自營客運航網</h3>
         <div className="network-totals">
           <strong>
-            {filtered.length} 條航線 ·{" "}
+            已收錄 {filtered.length} 條航線 ·{" "}
             {new Set(filtered.map((r) => r.destination)).size} 個航點
           </strong>
           <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>

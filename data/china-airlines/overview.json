@@ -110,14 +110,15 @@
       },
       {
         "label": "航網規模",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "value": "176 航點／30 國家與地區（含合作與貨運）",
+        "source": "中華航空｜營運概況・全球航點介紹",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/operations?tab=GlobalDestinationsTab",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "城市、機場、自營、共掛及貨運口徑尚未統一，不比較單一航點數。"
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-08-31",
+        "note": "含與其他業者合營航點、純貨運業務航點及華信航空班號飛航；並非華航自營客運直航數。 截至2026-08-31；不與本站已收錄自營客運航線數直接比較。",
+        "scope": "含與其他業者合營航點、純貨運業務航點及華信航空班號飛航；並非華航自營客運直航數。"
       }
     ],
     "history": [
@@ -923,5 +924,40 @@
         "source_id": "ciRecruit"
       }
     ]
+  },
+  "network": {
+    "label": "官方全球航網（含合作與貨運）",
+    "value": 176,
+    "countries": 30,
+    "regions": [
+      {
+        "label": "歐洲",
+        "value": 28
+      },
+      {
+        "label": "亞洲",
+        "value": 100
+      },
+      {
+        "label": "美洲",
+        "value": 36
+      },
+      {
+        "label": "大洋洲",
+        "value": 8
+      },
+      {
+        "label": "台灣",
+        "value": 4
+      }
+    ],
+    "source": "中華航空｜營運概況・全球航點介紹",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/operations?tab=GlobalDestinationsTab",
+    "published_date": null,
+    "verified_date": "2026-10-16",
+    "as_of": "2026-08-31",
+    "status": "confirmed",
+    "scope": "含與其他業者合營航點、純貨運業務航點及華信航空班號飛航；並非華航自營客運直航數。",
+    "note": "區域數沿用官方分類：歐洲28、亞洲100、美洲36、大洋洲8、台灣4，合計176。官方將杜拜（阿勒馬克圖姆）列在歐洲，且亞洲包含帛琉；此處忠實呈現來源分類，不稱為標準地理洲別。"
   }
 }
