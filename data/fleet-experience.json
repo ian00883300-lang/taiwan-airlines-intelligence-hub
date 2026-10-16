@@ -75,6 +75,38 @@
         "to": "777F／未來777-8F",
         "why": "貨機更新與效率提升；各機型退役與交付仍依逐年公告。"
       }
+    ],
+    "facilities": [
+      {
+        "label": "Wi-Fi 適用機型",
+        "value": "B777、A350、A321neo 提供機上 Wi-Fi；官方現行頁註明特定 A350、A321neo 航機暫無提供，不能解讀為每一架均可使用。",
+        "source": "華航｜機上 Wi-Fi",
+        "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/In-flight/wifi.html",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "免費服務範圍",
+        "value": "豪華商務艙、豪華經濟艙可免費瀏覽網頁；經濟艙提供免費文字訊息。華夏金卡、翡翠卡、晶鑽卡不限艙等享網頁瀏覽。",
+        "source": "華航｜機上 Wi-Fi",
+        "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/In-flight/wifi.html",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "無線影音娛樂",
+        "value": "2025-07-09 公告確認 737-800 已備 Fantasy Sky，可用個人裝置觀看影音；同一公告對 A330 的描述為「規劃導入」，不能據此認定目前全數完成。機內影音不等於連上網際網路。",
+        "source": "華航｜免費機上 Wi-Fi 新聞稿",
+        "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20250709.html",
+        "published_date": "2025-07-09",
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      }
     ]
   },
   "eva-air": {
@@ -131,6 +163,60 @@
         "to": "A350-1000／A321neo／787",
         "why": "官方列機隊更新與區域航網拓展；未明示的逐型一對一替換關係不自行推定。"
       }
+    ],
+    "facilities": [
+      {
+        "label": "Wi-Fi 適用機型",
+        "value": "官方列 Boeing 787、777-300ER、A330-300 全艙等，服務由 Panasonic Avionics 提供；仍可能因訊號、維修或升級暫停。",
+        "source": "長榮｜Connectivity and Power",
+        "source_url": "https://www.evaair.com/en-tw/fly-prepare/flying-with-eva/inflight-entertainment-service/connectivity-and-Power/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "免費上網期間",
+        "value": "主服務頁列全艙等免費網頁瀏覽至 2026-10-31，FAQ 卻列 2026-10-30，兩頁存在一天差異；截止日待官方釐清，請以實際航班服務確認。",
+        "source": "長榮｜服務頁與 FAQ 日期交叉比對",
+        "source_url": "https://www.evaair.com/en-tw/fly-prepare/flying-with-eva/inflight-entertainment-service/connectivity-and-Power/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "unverified",
+        "cross_check_url": "https://www.evaair.com/en-global/customer-services/faq/detail.html?FaqCategories=inflight-wi-fi",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "後續會員方案",
+        "value": "服務頁公告自 2026-11-01：商務艙皆享網頁瀏覽；豪經艙限無限萬哩遊會員享網頁瀏覽；經濟艙金／鑽卡可瀏覽，銀／綠卡可傳文字。網頁瀏覽方案不支援串流、語音通話及 VPN。",
+        "source": "長榮｜Connectivity and Power",
+        "source_url": "https://www.evaair.com/en-tw/fly-prepare/flying-with-eva/inflight-entertainment-service/connectivity-and-Power/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "announced",
+        "effective_date": "2026-11-01",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "787-9 豪華經濟艙",
+        "value": "新三艙等版本設 28 席，2-3-2 排列、42 英吋椅距；座墊隨後傾向前上方移動。只適用配備此產品的 787-9，並非所有 787。",
+        "source": "長榮｜Premium Economy Class",
+        "source_url": "https://www.evaair.com/en-us/fly-prepare/flying-with-eva/cabin-classes/premium-economy-class/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "777-300ER 豪華經濟艙",
+        "value": "官方列 38 英吋椅距、19.5 英吋椅寬，與新 787-9 的 42 英吋椅距分開比較；椅距並非座椅寬度。",
+        "source": "長榮｜Premium Economy Class",
+        "source_url": "https://www.evaair.com/en-us/fly-prepare/flying-with-eva/cabin-classes/premium-economy-class/",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      }
     ]
   },
   "starlux": {
@@ -186,6 +272,38 @@
         "from": "擴張機隊，非已公告汰換",
         "to": "A350-1000",
         "why": "應區分長程運能擴張與舊機替換；不能因新機加入就推定A350-900將退役。"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "GALACTIC Wi-Fi",
+        "value": "頭等艙、商務艙、豪華經濟艙可免費使用 Wi-Fi；經濟艙提供免費無限文字訊息，不等於免費完整網頁瀏覽。",
+        "source": "星宇｜GALACTIC Wi-Fi",
+        "source_url": "https://www.starlux-airlines.com/en-CZ/booking/other-optional-service/galactic-wi-fi",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "付費流量服務",
+        "value": "查核時官方頁仍載明：網站暫停販售流量方案，並自 2024-11-30 暫停機上加購；不可直接建議經濟艙旅客在機上付費升級網路。",
+        "source": "星宇｜GALACTIC Wi-Fi",
+        "source_url": "https://www.starlux-airlines.com/en-CZ/booking/other-optional-service/galactic-wi-fi",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
+      },
+      {
+        "label": "A350 機上娛樂",
+        "value": "官方 A350 導覽列全艙等 4K 螢幕，並可連接個人藍牙耳機。此說明屬 A350 產品，不直接套用至 A321neo、A330neo 或其他客艙批次。",
+        "source": "星宇｜A350 Tour / Inflight Entertainment",
+        "source_url": "https://media.starlux-airlines.com/mandarin/a350/3d-cabinview/en/entertainment/index.html",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "status": "confirmed",
+        "as_of": "2026-10-16"
       }
     ]
   }
