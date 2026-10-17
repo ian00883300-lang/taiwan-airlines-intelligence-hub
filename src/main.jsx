@@ -642,6 +642,12 @@ function FactCards({ records, openInterview, airline }) {
     </div>
   );
 }
+function TopicTables({a,keys}) {
+ return <div className="topic-tables">{keys.map(key=>{
+ const records=a.sections[key]||[];if(!records.length)return null;
+ return <section className="study-section" key={key}><h3>{sections.find(x=>x.id===key)?.zh||key}</h3><div className="study-table"><table><thead><tr><th>項目</th><th>內容與適用範圍</th></tr></thead><tbody>{records.map((r,i)=><tr key={i}><th scope="row">{r.title||r.label||'資料'}</th><td>{r.body??r.value??PENDING}{r.note&&<p className="fineprint">{r.note}</p>}{r.status!=='confirmed'&&<Badge status={r.status}/>}<Source item={r}/></td></tr>)}</tbody></table></div></section>
+ })}</div>;
+}
 function Timeline({ items, empty }) {
   return items.length ? (
     <div className="timeline">
@@ -1037,7 +1043,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           <OperationsResearch airline={a.id} Source={Source} />
           {part(
             "已公開的服務與修護細節",
-            facts(["passenger", "cargo", "maintenance"]),
+            <TopicTables a={a} keys={["passenger", "cargo", "maintenance"]}/>,
           )}
         </>
       ) : group.id === "fleet" ? (
@@ -1053,7 +1059,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           </section>
           {part(
             "營運統計、樞紐與合作關係",
-            facts(["routes", "hubs", "alliances", "codeshare"]),
+            <TopicTables a={a} keys={["routes", "hubs", "alliances", "codeshare"]}/>,
           )}
         </>
       ) : group.id === "finance" ? (
@@ -1086,7 +1092,7 @@ function Airline({ a, tab = "overview", openInterview }) {
         </>
       ) : group.id === "esg" ? (
         <>
-          {facts(group.members)}
+          {<TopicTables a={a} keys={group.members}/>}
           {a.id === "china-airlines" ? (
             <SocialVisuals Source={Source} />
           ) : (
@@ -1110,7 +1116,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           )}
         </>
       ) : (
-        facts(group.members)
+        <TopicTables a={a} keys={group.members}/>
       )}
       {["overview", "routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
     </>

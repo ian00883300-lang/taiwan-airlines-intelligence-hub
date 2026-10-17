@@ -77,16 +77,14 @@ export function CompanyIdentity({ a, Source }) {
           <strong>{securities[a.id].code}</strong>
           <b>{securities[a.id].name}</b>
         </div>
-        <details>
-          <summary>股票代號來源</summary>
-          <Source item={securities[a.id]} compact />
-        </details>
+        <Source item={securities[a.id]} compact />
       </div>
       <div className="table-wrap research-table">
         <table>
           <caption>公司、品牌與治理資料</caption>
           <thead>
             <tr>
+              <th scope="col">分類</th>
               <th scope="col">項目</th>
               <th scope="col">公開資料</th>
             </tr>
@@ -94,18 +92,14 @@ export function CompanyIdentity({ a, Source }) {
           <tbody>
             {records.map((record, index) => (
               <tr key={index}>
-                <th scope="row">{record.label || record.title}</th>
+                <td data-label="分類">{a.id==="starlux" ? (/機隊/.test(record.label)?"機隊歷史快照":/設計|識別|AIRSORAYAMA/.test(record.label)?"品牌與設計":/董事/.test(record.label)?"公司治理":"公司基本資料") : a.sections.brand.includes(record)?"品牌理念":a.sections.governance.includes(record)?"公司治理":a.sections.organization.includes(record)?"組織架構":"公司基本資料"}</td><th scope="row">{record.label || record.title}</th>
                 <td data-label="公開資料">
                   {record.value != null
                     ? typeof record.value === "number"
                       ? number(record.value) + " " + (record.unit || "")
                       : record.value
                     : record.body || "尚待官方資料查核"}
-                  <details className="inline-evidence">
-                    <summary>基準與來源</summary>
-                    {record.as_of || "來源未指定基準日"}
-                    <Source item={record} compact />
-                  </details>
+                  <Source item={record} compact />
                 </td>
               </tr>
             ))}

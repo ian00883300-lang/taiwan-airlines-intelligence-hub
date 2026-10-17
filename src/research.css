@@ -1659,3 +1659,20 @@ abbr[title]:focus::after {
 .membership-section .member-card-image{display:block;width:140px;height:90px;object-fit:contain;margin-top:6px}
 .membership-section th:first-child{width:170px}
 @media(max-width:600px){.membership-section .study-table{overflow-x:auto}.membership-section table{min-width:560px}}
+
+.fleet-role-layout{display:grid;grid-template-columns:minmax(240px,.7fr) minmax(0,1.5fr);gap:20px;align-items:center}
+.fleet-role-pie{height:280px;min-width:0}.fleet-role-pie>div{height:100%}
+.topic-tables .study-table th:first-child{width:18%;min-width:100px}
+.topic-tables td p{margin:4px 0 0}
+@media(max-width:800px){.fleet-role-layout{grid-template-columns:1fr}.fleet-role-pie{height:240px}.fleet-role-layout .study-table{overflow-x:auto}.fleet-role-layout table{min-width:500px}}
+#fleet-future>.future-orders-table thead th:nth-child(1){width:15%}
+#fleet-future>.future-orders-table thead th:nth-child(2){width:15%}
+#fleet-future>.future-orders-table thead th:nth-child(3){width:20%}
+#fleet-future>.future-orders-table thead th:nth-child(4){width:50%}
+#fleet-role .study-table thead th:nth-child(1){width:22%}
+#fleet-role .study-table thead th:nth-child(2){width:48%}
+#fleet-role .study-table thead th:nth-child(3),#fleet-role .study-table thead th:nth-child(4){width:15%}
+.company-identity .research-table:first-of-type thead th:nth-child(1){width:16%}
+.company-identity .research-table:first-of-type thead th:nth-child(2){width:22%}
+.company-identity .research-table:first-of-type thead th:nth-child(3){width:62%}
+.topic-tables .study-table thead th:nth-child(2){width:82%}
