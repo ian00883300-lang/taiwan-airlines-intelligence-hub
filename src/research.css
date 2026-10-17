@@ -1676,3 +1676,7 @@ abbr[title]:focus::after {
 .company-identity .research-table:first-of-type thead th:nth-child(2){width:22%}
 .company-identity .research-table:first-of-type thead th:nth-child(3){width:62%}
 .topic-tables .study-table thead th:nth-child(2){width:82%}
+
+.cabin-filter{display:flex;align-items:center;gap:12px;margin:12px 0;font-size:.9rem}.cabin-filter select{padding:8px 12px;border:1px solid #dce5ed;border-radius:6px;background:white;color:inherit}
+
+.company-identity .identity-topic-table thead th:first-child{width:24%}.company-identity .identity-topic-table thead th:nth-child(2){width:76%}.identity-topic-table{margin-bottom:16px}

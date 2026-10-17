@@ -4,7 +4,7 @@ try{for(const air of ['china-airlines','eva-air','starlux']){
 await p.goto((process.env.TEST_URL||'http://127.0.0.1:5173/')+'#'+air+'/overview');
 await p.locator('.company-identity').waitFor();
 assert.equal(await p.locator('.company-identity').getByText('基準與來源',{exact:true}).count(),0);
-assert.deepEqual(await p.locator('.company-identity table').first().locator('thead th').allTextContents(),['分類','項目','公開資料']);
+assert.deepEqual(await p.locator('.company-identity table').first().locator('thead th').allTextContents(),['項目','公開資料']);
 await p.goto((process.env.TEST_URL||'http://127.0.0.1:5173/')+'#'+air+'/fleet');
 await p.locator('#fleet-role').waitFor();assert.equal(await p.locator('#fleet-role canvas').count(),1);
 assert.ok(await p.locator('.future-orders-table tbody tr').count()>0);

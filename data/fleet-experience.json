@@ -144,6 +144,26 @@
         "verified_date": "2026-10-16",
         "status": "confirmed",
         "as_of": "2026-10-16"
+      },
+      {
+        "source": "中華航空｜A321neo 首架交付新聞稿",
+        "source_url": "https://calec.china-airlines.com/csr/en/news20211129.html",
+        "published_date": "2021-11-29",
+        "verified_date": "2026-10-18",
+        "as_of": "2021-11-29",
+        "status": "confirmed",
+        "label": "A321neo 首批客艙配置",
+        "value": "2021 年首架交付公告：180 席（商務 12、經濟 168），商務座椅可全平躺。這是交付時產品說明，不代表其後所有批次均採同一娛樂設備。"
+      },
+      {
+        "source": "中華航空｜A321neo 首架交付新聞稿",
+        "source_url": "https://calec.china-airlines.com/csr/en/news20211129.html",
+        "published_date": "2021-11-29",
+        "verified_date": "2026-10-18",
+        "as_of": "2021-11-29",
+        "status": "confirmed",
+        "label": "A321neo 首批影音與接觸設計",
+        "value": "公告列商務／經濟艙螢幕 15.6／13.3 吋、4K 顯示、手機連接娛樂系統及藍牙耳機支援；洗手間採感應水龍頭。實際航班設備須依批次與座位圖確認。"
       }
     ],
     "aircraft_features": {
@@ -449,6 +469,17 @@
         "name": "AIRSORAYAMA × 空山基",
         "type": "A350-1000 藝術合作",
         "description": "兩架金、銀主題 A350-1000 合作計畫。官方發布稿確認 Silver 於 2026-07-06 在土魯斯交付；交付、商業首航與後續班表是不同事件，不把活動頁的日期當成整個合作的首次啟用日。"
+      },
+      {
+        "name": "A350-1000 碳纖維意象塗裝",
+        "type": "機型專屬塗裝",
+        "description": "結合星宇企業識別、碳纖維圖樣與機身「1000」字樣，呼應複合材料與新旗艦定位；屬外觀設計，不是客艙配色或座椅材質的描述。",
+        "source": "Airbus｜星宇首架 A350-1000 交付",
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+        "published_date": "2026-01-06",
+        "verified_date": "2026-10-18",
+        "as_of": "2026-01-06",
+        "status": "confirmed"
       }
     ],
     "replacement": [
