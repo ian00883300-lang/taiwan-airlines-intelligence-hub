@@ -147,7 +147,31 @@
         "status": "confirmed",
         "value": "採 GE9X 引擎與高展弦比複合材料機翼，設可摺疊翼尖，兼顧飛行效率與地面機場相容性。製造商設計特徵不代表航空公司已投入營運。"
       }
-    }
+    },
+    "partnerships": [
+      {
+        "source": "華航｜2025 春季機上菜單",
+        "source_url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20250401.html",
+        "published_date": "2025-04-01",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "type": "餐飲合作",
+        "name": "頤宮｜2025 春季案例",
+        "description": "官方公告長程航線全艙等合作菜單，依艙等設計不同餐點。屬 2025 春季案例，用於理解餐飲品牌合作；不代表目前每一航班的菜單。"
+      },
+      {
+        "source": "華航｜電子菜單與餐飲說明",
+        "source_url": "https://calec.china-airlines.com/OnboardDining/Info?lang=zh-cn",
+        "published_date": null,
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "type": "特別餐合作",
+        "name": "陽明春天｜純淨素食餐 VOML",
+        "description": "查核時官方頁列桃園、松山、高雄出發全航線全艙等預訂 VOML 可享合作餐點；仍須依航班與預訂期限確認，不能將素食餐名稱直接等同過敏原保證。"
+      }
+    ]
   },
   "eva-air": {
     "membership": {
@@ -326,7 +350,31 @@
         "status": "confirmed",
         "value": "採 Rolls-Royce Trent XWB-97；A350 結構採約 53% 複合材料、14% 鈦。材料比例描述機體技術，不能直接換算成航空公司實際節油百分比。"
       }
-    }
+    },
+    "partnerships": [
+      {
+        "source": "長榮｜全新服務用品與機上餐點",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2025-08-20-evaair-announces-new-in-flight-amenities-and-meals.html",
+        "published_date": "2025-08-20",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "type": "服務用品",
+        "name": "Maison Kitsuné",
+        "description": "推出同品牌過夜包、睡衣與拖鞋，公告先於 2025-10-03 開航的桃園—達拉斯線使用。睡衣含 50% rPET 材質；這是睡衣材料比例，不代表全部備品均有相同比例。實際供應以當班為準。"
+      },
+      {
+        "source": "長榮｜全新服務用品與機上餐點",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2025-08-20-evaair-announces-new-in-flight-amenities-and-meals.html",
+        "published_date": "2025-08-20",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "type": "餐飲合作",
+        "name": "長榮空廚｜桃園—紐約菜單案例",
+        "description": "公告自 2025-10-01 起更新該航線全艙等餐飲，依艙等區分料理設計。此為指定航線、指定時期案例，不能推廣為全航網永久菜單。"
+      }
+    ]
   },
   "starlux": {
     "membership": {
@@ -422,6 +470,16 @@
         "verified_date": "2026-10-16",
         "status": "confirmed",
         "as_of": "2026-10-16"
+      },
+      {
+        "source": "Safran｜Skylounge Core",
+        "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+        "published_date": "2022-06-02",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "label": "A330neo 商務艙",
+        "value": "2022 年供應商公告列 28 席 Skylounge Core，提供全平躺與直接走道通行。供應商公告中的當年採購架數不是今日機隊總數。"
       }
     ],
     "aircraft_features": {
@@ -434,6 +492,19 @@
         "status": "confirmed",
         "value": "採 Rolls-Royce Trent XWB-97；A350 結構採約 53% 複合材料、14% 鈦。材料比例描述機體技術，不能直接換算成航空公司實際節油百分比。"
       }
-    }
+    },
+    "partnerships": [
+      {
+        "source": "Safran｜STARLUX Skylounge Core",
+        "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+        "published_date": "2022-06-02",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "type": "產品設計合作",
+        "name": "Safran × BMW Designworks",
+        "description": "A330neo 商務艙結合座椅供應商的模組化產品與設計團隊的品牌客製。這是產品合作，不是航空聯盟或共用班號合作。"
+      }
+    ]
   }
 }

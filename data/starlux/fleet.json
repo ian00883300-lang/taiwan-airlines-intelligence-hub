@@ -526,6 +526,19 @@
         "label": "自有與租賃",
         "value": "有租賃及採購安排；年報同列 ALC 系列法人、Avolon 的 A330 租約與 Airbus A330 採購契約。",
         "note": "租賃與採購並存，不能把現役全部 A330-900 當成自有或全部租賃。"
+      },
+      "design": {
+        "source": "Safran｜STARLUX Skylounge Core 客艙合作",
+        "source_url": "https://www.safran-group.com/pressroom/safran-s-skylounge-core-seats-makes-first-flight-starlux-airlines-2022-06-02",
+        "published_date": "2022-06-02",
+        "verified_date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "status": "confirmed",
+        "theme": "以品牌配色與模組化座椅建立舒適私人空間",
+        "value": "Safran 與星宇、BMW Designworks 團隊共同客製 A330neo 商務艙座椅設計；星宇為 Skylounge Core 首發客戶。",
+        "elements": "座椅可全平躺、直接進出走道，透過模組化設計配合航空公司品牌配色及空間需求。",
+        "interview": "可以說明客艙設計同時涉及品牌、乘客動線與座椅供應商整合；設計公司與座椅製造商是不同角色。",
+        "note": "供應商 2022 年公告的客艙產品紀錄，不代表所有後續改裝批次均已逐架確認。"
       }
     },
     {
