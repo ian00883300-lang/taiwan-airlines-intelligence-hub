@@ -1650,3 +1650,12 @@ abbr[title]:focus::after {
 .member-card-image{display:block;width:110px;max-width:100%;height:74px;object-fit:contain;margin-top:4px}.cabin-coverage{margin:8px 0 16px}.cabin-coverage>summary{cursor:pointer;color:#527495;font-size:.85rem}
 
 @media(min-width:1000px){.revenue-mix:has(.revenue-pie){display:grid;grid-template-columns:minmax(240px,32%) 1fr;gap:12px;align-items:center}.revenue-mix:has(.revenue-pie)>.revenue-pie{width:100%;margin:0}.revenue-mix:has(.revenue-pie)>p,.revenue-mix:has(.revenue-pie)>.source{grid-column:1/-1}}
+
+/* Evidence is collected after page content, outside the reading tables. */
+.page-evidence{margin:24px 0;padding:12px 16px;border-top:1px solid #dce3ec;color:#56687b}
+.page-evidence>summary{cursor:pointer;font-size:.85rem}
+.page-evidence article{padding:12px 0;border-bottom:1px solid #e2e8f0}
+.page-evidence .source{display:block!important;margin:6px 0!important}
+.membership-section .member-card-image{display:block;width:140px;height:90px;object-fit:contain;margin-top:6px}
+.membership-section th:first-child{width:170px}
+@media(max-width:600px){.membership-section .study-table{overflow-x:auto}.membership-section table{min-width:560px}}

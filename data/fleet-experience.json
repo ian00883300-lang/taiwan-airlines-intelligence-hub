@@ -1,11 +1,11 @@
 {
   "china-airlines": {
     "membership": {
-      "source": "華航｜合作聯盟及會員級別",
-      "source_url": "https://www.china-airlines.com/us/zh/member/planning/partners",
+      "source": "中華航空｜會員優惠禮遇",
+      "source_url": "https://www.china-airlines.com/tw/zh/member/planning/introduction/membership-benefits",
       "status": "confirmed",
       "published_date": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-17",
       "as_of": null,
       "name": "華夏會員 Dynasty Flyer",
       "tiers": [
@@ -26,7 +26,7 @@
           "SkyTeam Elite Plus"
         ]
       ],
-      "note": "會員卡並非聯名信用卡。貴賓室、額外行李與同行者權益須按承運航空、航程與當期條款判讀。",
+      "note": "以上為華航官網摘要，各項優惠仍受航班、票種、機場與會籍條款限制。華航金卡的自營貴賓室優惠，不等同天合聯盟 Elite Plus 的跨聯盟貴賓室資格。",
       "benefits": {
         "value": "Elite Plus 的聯盟禮遇包含符合條件的貴賓室、優先行李處理及額外行李。貴賓室須檢查當日航班、承運航空、轉機與同行者條件；不能只憑持有翡翠／晶鑽卡推定所有機場皆可使用。",
         "source": "SkyTeam｜Frequent Flyer Benefits",
@@ -35,7 +35,25 @@
         "verified_date": "2026-10-16",
         "published_date": null,
         "status": "confirmed"
-      }
+      },
+      "images": [
+        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-DYNA_tcm539-68337.png&w=3840",
+        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-GOLD_tcm539-68338.png&w=3840",
+        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-EMER_tcm539-68339.png&w=3840",
+        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-PARA_tcm539-68340.png&w=3840"
+      ],
+      "tier_benefits": [
+        "累積哩程／積分；部分優選座位免費。",
+        "獎勵哩程 15%；額外託運 1 件；本人貴賓室禮遇。",
+        "獎勵哩程 25%；額外託運 1 件；貴賓室可邀請 1 位親友。",
+        "獎勵哩程 30%；額外託運 2 件；自營貴賓室可邀 2 位、非自營可邀 1 位。"
+      ],
+      "card_illustrations": [
+        "images/membership/ci-0.svg",
+        "images/membership/ci-1.svg",
+        "images/membership/ci-2.svg",
+        "images/membership/ci-3.svg"
+      ]
     },
     "liveries": [
       {

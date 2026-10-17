@@ -159,7 +159,28 @@ function Badge({ status }) {
     <span className={"badge " + status}>{labelStatus[status] || status}</span>
   );
 }
-function Source({ item, compact = false }) {
+const EvidenceContext = React.createContext(null);
+function EvidenceProvider({children}) {
+  const [items,setItems]=useState({});
+  const register=React.useCallback((id,item)=>setItems(old=>({...old,[id]:item})),[]);
+  const remove=React.useCallback(id=>setItems(old=>{const next={...old};delete next[id];return next;}),[]);
+  return <EvidenceContext.Provider value={{items,register,remove}}>{children}</EvidenceContext.Provider>;
+}
+function Source({item}) {
+  const context=React.useContext(EvidenceContext);
+  const id=React.useId();
+  const serialized=JSON.stringify(item);
+  useEffect(()=>{if(context && item)context.register(id,JSON.parse(serialized));return ()=>context?.remove(id);},[id,serialized,context?.register,context?.remove]);
+  if(item?.content_type==='original_practice' && item.answer_basis==='personal_reasoning')return <p className="fineprint">原創情境練習；建議回答不代表航空公司官方政策。</p>;
+  return null;
+}
+function EvidenceIndex() {
+  const {items}=React.useContext(EvidenceContext);
+  const path=useHash();
+  const unique=[...new Map(Object.values(items).map(item=>[JSON.stringify(item),item])).values()];
+  return <details className="page-evidence" key={path}><summary>查閱本頁來源與查核日期（{unique.length}）</summary><div>{unique.map((item,i)=><article key={i}><strong>{item.aircraft_type||item.title||item.label||item.name||item.source||'資料查核'}</strong>{typeof item.value === "string" && <p>{item.value}</p>}<SourceDetail item={item}/></article>)}</div></details>;
+}
+function SourceDetail({ item, compact = false }) {
   if (!item) return null;
   if (
     item.content_type === "original_practice" &&
@@ -170,7 +191,7 @@ function Source({ item, compact = false }) {
         {item.company_context && (
           <>
             <p>{item.company_context.value}</p>
-            <Source item={item.company_context} />
+            <SourceDetail item={item.company_context} />
           </>
         )}
         <p className="fineprint">
@@ -1091,7 +1112,7 @@ function Airline({ a, tab = "overview", openInterview }) {
       ) : (
         facts(group.members)
       )}
-      {["routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
+      {["overview", "routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
     </>
   );
 }
@@ -1852,6 +1873,7 @@ function App() {
               <a href="#home">回到總覽 →</a>
             </>
           )}
+          <EvidenceIndex />
           <footer>
             <span>Taiwan Airlines Intelligence Hub · v0.1</span>
             <span>獨立學習工具，非航空公司官方網站 · NT$0</span>
@@ -1898,7 +1920,7 @@ function App() {
 createRoot(document.getElementById("root")).render(
   <ReadingProvider>
     <PersonalProvider ids={bank.map((q) => q.id)}>
-      <App />
+      <EvidenceProvider><App /></EvidenceProvider>
     </PersonalProvider>
   </ReadingProvider>,
 );
