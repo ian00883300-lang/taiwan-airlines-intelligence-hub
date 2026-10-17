@@ -182,8 +182,8 @@ function Source({ item, compact = false }) {
     <details className={"source " + (compact ? "compact" : "")}>
       <summary>
         <ShieldCheck size={12} />
-        {item.source_url ? "來源與日期" : "查核說明"}
-        {!compact && item.as_of && <span>資料基準 {item.as_of}</span>}
+        {item.source_url ? "來源" : "查核說明"}
+        
       </summary>
       <div>
         <p>
@@ -1005,7 +1005,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           .map((id) => sections.find((s) => s.id === id)?.zh)
           .join(" · ")}
       </p>
-      {["routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
+
       {group.id === "overview" ? (
         <>
           {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}
@@ -1091,6 +1091,7 @@ function Airline({ a, tab = "overview", openInterview }) {
       ) : (
         facts(group.members)
       )}
+      {["routes", "operations"].includes(group.id) && <FleetStudy airline={a.id} Source={Source} mode="membership"/>}
     </>
   );
 }

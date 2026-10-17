@@ -209,7 +209,13 @@
         "verified_date": "2026-10-16",
         "published_date": null,
         "status": "confirmed"
-      }
+      },
+      "images": [
+        "https://www.evaair.com/en-in/images/green_348x348_tcm76-95585.png",
+        "https://www.evaair.com/en-in/images/silver_348x348_tcm76-95586.png",
+        "https://www.evaair.com/en-in/images/gold_348x348_tcm76-95584.png",
+        "https://www.evaair.com/en-in/images/diamond_348x348_tcm76-95583.png"
+      ]
     },
     "liveries": [
       {

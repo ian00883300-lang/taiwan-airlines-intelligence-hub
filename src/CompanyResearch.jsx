@@ -1,6 +1,7 @@
+import {Chart, DoughnutController, ArcElement, Tooltip, Legend} from "chart.js";
 import securities from "../data/securities.json";
 import { change } from "./change.mjs";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import dossier from "../data/research-dossier.json";
 import sourceCatalog from "../data/sources.json";
 import identity from "../data/starlux/identity.json";
@@ -296,10 +297,12 @@ export function TrafficComparison({ airline, Source }) {
   );
 }
 
+function RevenuePie({mix}){const ref=useRef(null);useEffect(()=>{Chart.register(DoughnutController,ArcElement,Tooltip,Legend);const chart=new Chart(ref.current,{type:'doughnut',data:{labels:mix.parts.map(x=>x.name),datasets:[{data:mix.parts.map(x=>x.amount),backgroundColor:['#315fa4','#ce467b','#dd993f','#4a9c92'],borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:c=>c.label+'：'+(c.raw/mix.total*100).toFixed(1)+'%'}}}}});return()=>chart.destroy()},[mix]);return <div className="revenue-pie"><canvas ref={ref} role="img" aria-label="營收占比圓餅圖；各項精確數值見下方表格"/></div>}
 export function RevenueMix({ airline, Source }) {
   const mix = dossier.airlines[airline].revenue_mix;
   return (
     <section className="revenue-mix mobile-records" aria-label="客貨運營收結構">
+{mix.total>0&&Math.abs(mix.parts.reduce((n,x)=>n+x.amount,0)-mix.total)<mix.total*.001&&<RevenuePie mix={mix}/>}
       <div className="table-wrap research-table">
         <table>
           <caption>

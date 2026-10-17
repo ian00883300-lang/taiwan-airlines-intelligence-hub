@@ -7,7 +7,10 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Economy_Class_of_China_Airlines_(A350)_01.jpg",
       "credit": "Freedomwk · CC BY-SA 4.0 · 版面裁切顯示",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "verified_date": "2026-10-16"
+      "verified_date": "2026-10-16",
+      "aircraft_types": [
+        "A350-900"
+      ]
     }
   ],
   "eva-air": [
@@ -17,7 +20,10 @@
       "source": "長榮航空",
       "source_url": "https://b787.evaair.com/zh_tw/",
       "verified_date": "2026-10-16",
-      "credit": "圖片版權歸原權利人；外部來源展示"
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "aircraft_types": [
+        "787-9"
+      ]
     },
     {
       "url": "https://b787.evaair.com/img/business/pic/1.jpg",
@@ -25,7 +31,11 @@
       "source": "長榮航空",
       "source_url": "https://b787.evaair.com/zh_tw/",
       "verified_date": "2026-10-16",
-      "credit": "圖片版權歸原權利人；外部來源展示"
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "aircraft_types": [
+        "787-9",
+        "787-10"
+      ]
     }
   ],
   "starlux": [
@@ -36,7 +46,10 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(02).jpg",
       "credit": "Simply Aviation · CC BY 4.0 · 版面裁切顯示",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "verified_date": "2026-10-16"
+      "verified_date": "2026-10-16",
+      "aircraft_types": [
+        "A350-900"
+      ]
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(03).jpg",
@@ -45,7 +58,10 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:04-JAN-2024_-_JX822_TPE-KIX_(B-58504_-_A350-900)_(03).jpg",
       "credit": "Simply Aviation · CC BY 4.0 · 版面裁切顯示",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "verified_date": "2026-10-16"
+      "verified_date": "2026-10-16",
+      "aircraft_types": [
+        "A350-900"
+      ]
     }
   ]
 }

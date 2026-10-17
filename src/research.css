@@ -1639,3 +1639,14 @@ abbr[title]:focus::after {
 .cabin-facilities .study-table thead th:first-child{width:15%}.cabin-facilities .study-table thead th:nth-child(2){width:85%}
 
 .livery-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.livery-photo-grid figure{margin:0;border:1px solid #dce2ed;border-radius:14px;overflow:hidden;background:#edf2fa}.livery-photo-grid img{width:100%;aspect-ratio:3.4;object-fit:contain;display:block;background:white}.livery-photo-grid figcaption{padding:12px 16px;line-height:1.6}.livery-photo-grid small{display:block;font-size:.75rem;color:#62778b}@media(max-width:760px){.livery-photo-grid{grid-template-columns:1fr}}
+
+/* Compact evidence links; dates remain available on demand. */
+.source:not([open]){display:inline-block!important;border:0!important;padding:0!important;margin:0 0 0 6px!important;vertical-align:baseline;background:transparent!important}
+.source:not([open])>summary{display:inline!important;padding:0!important;font-size:.75rem!important;text-decoration:underline;text-underline-offset:3px;color:#527495;cursor:pointer}
+.source:not([open])>summary svg,.source:not([open])>summary::after{display:none!important}
+.source[open]{padding:10px!important;margin:6px 0!important;background:#f1f5fa;border:1px solid #dce2ed;border-radius:6px}
+.study-table th,.study-table td{padding:7px 10px;line-height:1.55}.study-section{padding:18px;margin:16px 0}.study-table{margin:10px 0}.study-cards article{padding:14px}.study-section details{margin-top:4px}.cabin-design-table{padding:16px}.study-table p{margin:2px 0!important}.revenue-pie{height:270px;max-width:500px;margin:0 auto 12px}
+
+.member-card-image{display:block;width:110px;max-width:100%;height:74px;object-fit:contain;margin-top:4px}.cabin-coverage{margin:8px 0 16px}.cabin-coverage>summary{cursor:pointer;color:#527495;font-size:.85rem}
+
+@media(min-width:1000px){.revenue-mix:has(.revenue-pie){display:grid;grid-template-columns:minmax(240px,32%) 1fr;gap:12px;align-items:center}.revenue-mix:has(.revenue-pie)>.revenue-pie{width:100%;margin:0}.revenue-mix:has(.revenue-pie)>p,.revenue-mix:has(.revenue-pie)>.source{grid-column:1/-1}}
