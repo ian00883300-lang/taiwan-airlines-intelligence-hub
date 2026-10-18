@@ -1691,3 +1691,12 @@ abbr[title]:focus::after {
 .revenue-mix .research-table th:nth-child(2){width:40%}
 .revenue-mix .research-table th:nth-child(3){width:38%}
 .revenue-mix .research-table td{font-variant-numeric:tabular-nums}
+
+/* Aligned chronology and compact disclosures */
+.compact-event .event-line{display:grid;grid-template-columns:16em 5em minmax(0,1fr);align-items:baseline;gap:6px 12px}
+.compact-event .event-date{font-variant-numeric:tabular-nums}
+.compact-event .event-description{min-width:0}
+.brand-colour-swatch{width:44px;height:44px;object-fit:cover;border-radius:50%;vertical-align:middle;margin-right:10px;border:1px solid #dce2e8}
+.airport-label{font-size:11px;padding:2px 5px;background:rgba(255,255,255,.91);border:1px solid #c9d8df;box-shadow:none;color:#163851}
+.airport-origin{font-weight:700}
+@media(max-width:760px){.compact-event .event-line{grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}.compact-event .event-description{grid-column:1/-1}.company-timeline .compact-event time{white-space:normal}}

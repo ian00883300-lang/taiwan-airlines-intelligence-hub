@@ -27,7 +27,7 @@ export function CompanyTimeline({ airline, Source }) {
         {records.map((record, index) => (
           <li className="compact-event" key={record.date + record.label}>
             <div className="event-line">
-              <strong>
+              <strong className="event-date">
                 <time dateTime={record.date}>
                   {record.timeline_date_precision === "year"
                     ? `${record.date}年（日期未詳）`
@@ -46,8 +46,7 @@ export function CompanyTimeline({ airline, Source }) {
                   }[record.date_kind]
                 }
               </span>
-              <strong>{record.label}</strong>
-              <span>{record.body}</span>
+              <span className="event-description"><strong>{record.label}</strong>　{record.body}</span>
             </div>
             <Source item={record} compact />
           </li>
@@ -95,7 +94,7 @@ export function CompanyIdentity({ a, Source }) {
             <div className="brand-meanings">
               {identity.brand_experience.colours.map(colour => (
                 <article key={colour.name}>
-                  <strong>{colour.name}</strong><small>{colour.time}</small>
+                  {colour.image && <img className="brand-colour-swatch" src={colour.image} alt={colour.name+"官方識別色圖"} loading="lazy" />}<strong>{colour.name}</strong><small>{colour.time}</small>
                   <p>{colour.meaning}</p>
                 </article>
               ))}

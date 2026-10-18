@@ -130,6 +130,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
       },
     ).addTo(map);
     tiles.on("tileerror", () => setTileError(true));
+    const labelledAirports = new Set();
     for (const r of filtered) {
       const from = airports.items[r.origin],
         to = airports.items[r.destination],
@@ -145,7 +146,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
       }).addTo(map);
       const content = document.createElement("span");
       content.textContent = `${airlineById(r.airline).name} · ${r.origin} ${from.name} → ${r.destination} ${to.name} · 來源基準 ${r.as_of || "未指定"}`;
-      L.circleMarker([to.lat, lng], {
+      const marker = L.circleMarker([to.lat, lng], {
         radius: 5,
         color,
         fillColor: color,
@@ -153,6 +154,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
       })
         .addTo(map)
         .bindPopup(content);
+      if (!labelledAirports.has(r.destination)) {
+        marker.bindTooltip(r.destination, {permanent:true, direction:"right", className:"airport-label", offset:[8,0]});
+        labelledAirports.add(r.destination);
+      }
     }
     for (const code of new Set(filtered.map((r) => r.origin))) {
       const a = airports.items[code];
@@ -163,7 +168,8 @@ export default function RouteNetwork({ initial = "all", Source }) {
         fillOpacity: 1,
       })
         .addTo(map)
-        .bindPopup(code + " " + a.name);
+        .bindPopup(code + " " + a.name)
+        .bindTooltip(code, {permanent:true,direction:"left",className:"airport-label airport-origin",offset:[-8,0]});
     }
     const resize = new ResizeObserver(() => map.invalidateSize());
     resize.observe(ref.current);
@@ -385,14 +391,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               ? formatEventDate(r.as_of)
                               : "未指定基準日"}
                           </p>
-                          <small>
-                            {r.evidence_kind === "dated_operating_snapshot"
-                              ? "來源中的營運快照"
-                              : r.evidence_kind ===
-                                  "published_schedule_snapshot"
-                                ? "期間班表公告（非即時派飛）"
-                                : "已收錄官方證據"}
-                          </small>
+
                         </td>
                         <td data-label="機型／首航與復航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
@@ -422,35 +421,9 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               （實際首航另查）
                             </p>
                           )}
-                          <details className="inline-evidence">
-                            <summary>來源與詳情</summary>
-                            <Source item={r} compact />
-                            {r.aircraft_note && (
-                              <details>
-                                <summary>機型配置說明</summary>
-                                <p>{r.aircraft_note}</p>
-                              </details>
-                            )}
-                            {r.aircraft_evidence && (
-                              <div aria-label="機型證據">
-                                <small>機型紀錄來源與日期</small>
-                                <Source item={r.aircraft_evidence} compact />
-                              </div>
-                            )}
-                            {!r.aircraft_evidence && r.aircraft_source_url && (
-                              <a
-                                href={r.aircraft_source_url}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                機型任務來源 ↗
-                              </a>
-                            )}
-                            <details>
-                              <summary>首航詳情</summary>
-                              <EventDates ids={r.event_ids} />
-                            </details>
-                          </details>
+                          <Source item={{...r, note:[r.note,r.aircraft_note].filter(Boolean).join("；")}} compact />
+                          {r.aircraft_evidence && <Source item={r.aircraft_evidence} compact />}
+                          {(r.event_ids || []).map(id => {const e=events.find(e=>e.id===id);return e?<Source key={id} item={e} compact/>:null;})}
                         </td>
                       </tr>
                     </React.Fragment>

@@ -800,7 +800,7 @@ function Fleet({ a, tab }) {
                         )?.quantity ??
                         "待查核"}
                     </td>
-                    <td>{x.ownership?.value?.match(/承租 (\d+) 架/)?.[1] || "待查核"}{x.ownership && <details><summary>{x.ownership.as_of || "租賃證據"}</summary><p>{x.ownership.value}</p><p>{x.ownership.note}</p><Source item={x.ownership} compact /></details>}</td><td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
+                    <td>{x.ownership?.value?.match(/承租 (\d+) 架/)?.[1] || "待查核"}{x.ownership?.as_of && <> ／ {x.ownership.as_of}</>}{x.ownership && <Source item={x.ownership} compact />}</td><td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
                     <td>
                       {x.as_of ||
                         (f.composition_snapshot?.rows.some(

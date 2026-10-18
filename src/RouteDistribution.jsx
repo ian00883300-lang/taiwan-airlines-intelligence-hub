@@ -40,7 +40,7 @@ export default function RouteDistribution({ routes, continents, continent }) {
           ))}
         </ul>
         <small>
-          依目的地所在洲分類，與目前篩選同步。多個起點飛往同一機場，計為多條航線、單一航點；非航班頻率或運能占比。資料來源見下方各筆「來源與詳情」。
+          依目的地所在洲分類，與目前篩選同步。多個起點飛往同一機場，計為多條航線、單一航點；非航班頻率或運能占比。資料來源收於頁尾，可展開查閱。
         </small>
       </div>
       {total ? (

@@ -163,36 +163,39 @@
     "source_id": "jxBrandIdentityOfficial",
     "published_date": null,
     "as_of": null,
-    "verified_date": "2026-10-16",
+    "verified_date": "2026-10-18",
     "status": "confirmed",
     "colours": [
       {
         "name": "大地金",
         "time": "早晨",
-        "meaning": "創新思維、熱忱服務"
+        "meaning": "創新思維、熱忱服務",
+        "image": "https://sustainability.jx-starlux.com/esg/upload/esg_class_item_b/twL_esg_class_item_25E29_qGTLdcqZgB.jpg"
       },
       {
         "name": "玫瑰金",
         "time": "黃昏",
-        "meaning": "專業本位、豪華配備"
+        "meaning": "專業本位、豪華配備",
+        "image": "https://sustainability.jx-starlux.com/esg/upload/esg_class_item_b/twL_esg_class_item_25E29_gIYPIBfBrv.jpg"
       },
       {
         "name": "曜石灰",
         "time": "夜晚",
-        "meaning": "謹慎紀律、安全至上"
+        "meaning": "謹慎紀律、安全至上",
+        "image": "https://sustainability.jx-starlux.com/esg/upload/esg_class_item_b/twL_esg_class_item_25E29_dUhV30CslB.jpg"
       }
     ],
-    "note": "官方企業識別的三色及意涵；藝術機塗裝另屬合作專案。未使用未經證實的 HEX／RGB 色碼。",
+    "note": "色樣直接引用官方企業識別色圖片；官方此頁未公布 HEX、RGB 或 Pantone 數值，不以圖片取樣值冒充標準色號。螢幕顯色與印刷可能不同。",
     "senses": {
       "source": "星宇 kiânn｜2020 創刊特刊",
       "source_url": "https://kiann.jx-starlux.com/files/ExtraIssue202001.pdf",
       "source_id": "jxKiannLaunch2020",
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-18",
       "status": "confirmed",
       "title": "五感服務與「五感六覺」",
-      "body": "2020 創刊特刊以五感介紹座艙與選品；「新五感六覺」出現在選品文案，未列出獨立的第六覺定義。",
+      "body": "官方 2020 創刊特刊第 2–3 頁明列五感（視、聽、嗅、味、觸）；第 14–15 頁的選品介紹亦確實使用「新五感六覺」文案，但未定義獨立的第六覺。不能據此自行補出第六項感官。",
       "examples": [
         {
           "sense": "視覺",
