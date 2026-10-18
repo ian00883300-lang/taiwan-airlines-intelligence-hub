@@ -1,0 +1,38 @@
+[
+  {
+    "name": "SMS 安全管理系統",
+    "purpose": "以全組織方式管理安全風險，四構面為安全政策、安全風險管理、安全保證與安全推廣。",
+    "meaning": "辨識危害、依程序通報，並參與改善與訓練；安全不是只靠個人技術。",
+    "limit": "四構面並非固定先後的四個步驟；公司實際組織與通報流程須另查。",
+    "source": "FAA｜SMS Components",
+    "source_url": "https://www.faa.gov/about/initiatives/sms/explained/components",
+    "published_date": null,
+    "verified_date": "2026-10-18",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "name": "FOQA 飛航操作品質保證",
+    "purpose": "運用飛行紀錄資料辨識操作偏差與安全趨勢，支援風險改善。",
+    "meaning": "面試可說明資料如何回饋訓練與程序，不把單次超限直接等同違規結論。",
+    "limit": "此處引用 FAA 的自願性計畫定義；不能據此推定每家航空的採樣比例、分析頻率或資料保護條款。",
+    "source": "FAA｜SMS and Voluntary Safety Programs",
+    "source_url": "https://www.faa.gov/licenses_certificates/airline_certification/air_carrier/cert_volun_safety_program",
+    "published_date": null,
+    "verified_date": "2026-10-18",
+    "as_of": null,
+    "status": "confirmed"
+  },
+  {
+    "name": "IOSA 營運安全稽核",
+    "purpose": "IATA 評估航空公司營運管理與控制系統的稽核制度；2024 年轉向風險導向模式。",
+    "meaning": "理解稽核會考察制度及執行；面試不應把通過稽核說成保證沒有事故。",
+    "limit": "依受稽核航空公司的風險特性調整稽核範圍；不是單一飛行員考試，也不等同國家主管機關的營運許可。",
+    "source": "IATA｜IOSA",
+    "source_url": "https://www.iata.org/en/programs/safety/audit/iosa/",
+    "published_date": null,
+    "verified_date": "2026-10-18",
+    "as_of": null,
+    "status": "confirmed"
+  }
+]

@@ -1,3 +1,4 @@
+import SafetyMechanisms from './SafetyMechanisms.jsx';
 import FleetStudy from "./FleetStudy.jsx";
 import AircraftOverview from "./AircraftOverview.jsx";
 import KnowledgeBank, { knowledgeItems } from "./KnowledgeBank.jsx";
@@ -1099,6 +1100,8 @@ function Airline({ a, tab = "overview", openInterview }) {
             <Pending note="多年度社會參與圖表尚待官方資料查核，不套用華航數據。" />
           )}
         </>
+      ) : group.id === "safety" ? (
+        <><SafetyMechanisms Source={Source}/><TopicTables a={a} keys={group.members}/></>
       ) : group.id === "interview" ? (
         <QuestionBank initial={a.id} openInterview={openInterview} />
       ) : group.id === "strategy" ? (
