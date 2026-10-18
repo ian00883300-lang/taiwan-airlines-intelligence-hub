@@ -3111,5 +3111,179 @@
       ]
     },
     "level": 3
+  },
+  {
+    "source": "中華航空修護組織｜機隊管理",
+    "source_url": "https://emo.china-airlines.com/lang-tc/fleet_tech_mgm.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "source_id": "ciMroFleetManagement",
+    "id": "ci-mro-business",
+    "airline": "china-airlines",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "華航有自己的修護體系，對航空公司的經營與機師工作有什麼意義？",
+    "question_en": "What does China Airlines’ maintenance capability mean for its business and pilots?",
+    "answer": "Maintenance is more than repairing a failed aircraft. China Airlines lists maintenance planning, reliability monitoring, engineering orders and maintenance scheduling among its services. In-house capability can support technical coordination, but it requires investment and quality control; it does not automatically mean the lowest cost or no delays.",
+    "answer_30": "Maintenance is more than repairing a failed aircraft. China Airlines lists maintenance planning, reliability monitoring, engineering orders and maintenance scheduling among its services. In-house capability can support technical coordination, but it requires investment and quality control; it does not automatically mean the lowest cost or no delays.",
+    "answer_60": "Maintenance is more than repairing a failed aircraft. China Airlines lists maintenance planning, reliability monitoring, engineering orders and maintenance scheduling among its services. In-house capability can support technical coordination, but it requires investment and quality control; it does not automatically mean the lowest cost or no delays. As a cadet applicant, I would emphasise accurate observations, clear technical reporting and respect for maintenance and release responsibilities. Commercially, support for the airline’s own fleet is different from third-party revenue. I would not count every maintenance activity as external income or describe procedures beyond my training and authorisation.",
+    "answer_zh_30": "我認為修護不只是飛機故障後的修理。華航公開服務包括維護計畫、可靠度監控、工程技令與維修排程，支援持續適航與營運安排。自有能力有助於技術協調，但仍需人員、設備與品質管理投入，不能直接推論成本最低或航班永不延誤。",
+    "answer_zh_60": "我認為修護不只是飛機故障後的修理。華航公開服務包括維護計畫、可靠度監控、工程技令與維修排程，支援持續適航與營運安排。自有能力有助於技術協調，但仍需人員、設備與品質管理投入，不能直接推論成本最低或航班永不延誤。\n\n對培訓機師申請者而言，我會重視觀察、正確記錄及清楚溝通：將異常發生的條件與現象完整回報，尊重維修與放行權責。商業上則分開看對自有機隊的支援與第三方服務收入；沒有同口徑財報時，不會把所有修護工作都算成額外營收。實際處置仍依公司核准程序與本人資格。",
+    "chinese_answer": "我認為修護不只是飛機故障後的修理。華航公開服務包括維護計畫、可靠度監控、工程技令與維修排程，支援持續適航與營運安排。自有能力有助於技術協調，但仍需人員、設備與品質管理投入，不能直接推論成本最低或航班永不延誤。\n\n對培訓機師申請者而言，我會重視觀察、正確記錄及清楚溝通：將異常發生的條件與現象完整回報，尊重維修與放行權責。商業上則分開看對自有機隊的支援與第三方服務收入；沒有同口徑財報時，不會把所有修護工作都算成額外營收。實際處置仍依公司核准程序與本人資格。",
+    "key_points": [
+      "持續適航",
+      "可靠度與排程",
+      "回報與權責"
+    ],
+    "keywords": [
+      "持續適航",
+      "可靠度與排程",
+      "回報與權責"
+    ],
+    "answer_outline": [
+      "持續適航",
+      "可靠度與排程",
+      "回報與權責"
+    ],
+    "follow_up": "為什麼擁有修護能力不代表所有維修都自行完成？",
+    "difficulty": "進階",
+    "why_it_matters": "區分公開事實、適用條件與研究解讀，形成有依據且不誇大的面試回答。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "原創練習題，非航空公司歷屆考題或標準答案；商業推論為本站分析。30／60秒是練習目標，依口說速度調整。",
+    "deep_dive": {
+      "analysis_zh": "對培訓機師申請者而言，我會重視觀察、正確記錄及清楚溝通：將異常發生的條件與現象完整回報，尊重維修與放行權責。商業上則分開看對自有機隊的支援與第三方服務收入；沒有同口徑財報時，不會把所有修護工作都算成額外營收。實際處置仍依公司核准程序與本人資格。",
+      "analysis_en": "As a cadet applicant, I would emphasise accurate observations, clear technical reporting and respect for maintenance and release responsibilities. Commercially, support for the airline’s own fleet is different from third-party revenue. I would not count every maintenance activity as external income or describe procedures beyond my training and authorisation.",
+      "pitfalls": [
+        "把有條件的服務說成人人自動適用",
+        "把商業推論當成已證實的經營成效"
+      ],
+      "follow_ups": [
+        "為什麼擁有修護能力不代表所有維修都自行完成？"
+      ],
+      "evidence_ids": [
+        "ciMroFleetManagement"
+      ]
+    },
+    "level": 3
+  },
+  {
+    "source": "長榮航空｜EVA BizFam 方案介紹",
+    "source_url": "https://bizfam.evaair.com/BZES/bizfam-introduction",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "source_id": "evaBizFam2026",
+    "id": "eva-corporate-rewards",
+    "airline": "eva-air",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "EVA BizFam 與無限萬哩遊有何不同？企業方案如何支持航空公司經營？",
+    "question_en": "How does EVA BizFam differ from Infinity MileageLands, and what is its business role?",
+    "answer": "EVA BizFam serves corporate travel, while Infinity MileageLands is an individual loyalty programme. Eligible trips can generate corporate points and personal miles, and the company can manage travel and rewards through its platform. The two accounts have different purposes; joining BizFam does not automatically give every employee elite personal status.",
+    "answer_30": "EVA BizFam serves corporate travel, while Infinity MileageLands is an individual loyalty programme. Eligible trips can generate corporate points and personal miles, and the company can manage travel and rewards through its platform. The two accounts have different purposes; joining BizFam does not automatically give every employee elite personal status.",
+    "answer_60": "EVA BizFam serves corporate travel, while Infinity MileageLands is an individual loyalty programme. Eligible trips can generate corporate points and personal miles, and the company can manage travel and rewards through its platform. The two accounts have different purposes; joining BizFam does not automatically give every employee elite personal status. My business interpretation is that travel management, fares and benefits may encourage repeat corporate business. Profitability still depends on fares, reward costs and demand, rather than membership numbers alone. As a pilot, I would contribute through reliable operations while keeping safety and approved procedures ahead of commercial pressure.",
+    "answer_zh_30": "EVA BizFam 服務企業差旅，無限萬哩遊則是個人會員制度。官方說明符合條件的差旅可累積企業點數及員工個人哩程，企業還能透過平台管理差旅與兌換獎勵。兩種帳戶的回饋與使用權不同，不能說加入企業方案就自動取得個人高階卡籍。",
+    "answer_zh_60": "EVA BizFam 服務企業差旅，無限萬哩遊則是個人會員制度。官方說明符合條件的差旅可累積企業點數及員工個人哩程，企業還能透過平台管理差旅與兌換獎勵。兩種帳戶的回饋與使用權不同，不能說加入企業方案就自動取得個人高階卡籍。\n\n我的商業解讀是，企業方案結合差旅管理、票價與禮遇，可能提升企業持續選擇同一航空公司的意願；但能否改善收益仍要看實際票價、獎勵成本與旅客需求，不能只看會員數。對機師而言，穩定可靠的運行是整體服務的一部分，準點與服務目標都必須在安全與程序要求下達成。",
+    "chinese_answer": "EVA BizFam 服務企業差旅，無限萬哩遊則是個人會員制度。官方說明符合條件的差旅可累積企業點數及員工個人哩程，企業還能透過平台管理差旅與兌換獎勵。兩種帳戶的回饋與使用權不同，不能說加入企業方案就自動取得個人高階卡籍。\n\n我的商業解讀是，企業方案結合差旅管理、票價與禮遇，可能提升企業持續選擇同一航空公司的意願；但能否改善收益仍要看實際票價、獎勵成本與旅客需求，不能只看會員數。對機師而言，穩定可靠的運行是整體服務的一部分，準點與服務目標都必須在安全與程序要求下達成。",
+    "key_points": [
+      "企業點數與個人哩程",
+      "客戶關係",
+      "收益與成本"
+    ],
+    "keywords": [
+      "企業點數與個人哩程",
+      "客戶關係",
+      "收益與成本"
+    ],
+    "answer_outline": [
+      "企業點數與個人哩程",
+      "客戶關係",
+      "收益與成本"
+    ],
+    "follow_up": "企業回饋越多，航空公司的獲利一定越高嗎？",
+    "difficulty": "進階",
+    "why_it_matters": "區分公開事實、適用條件與研究解讀，形成有依據且不誇大的面試回答。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "原創練習題，非航空公司歷屆考題或標準答案；商業推論為本站分析。30／60秒是練習目標，依口說速度調整。",
+    "deep_dive": {
+      "analysis_zh": "我的商業解讀是，企業方案結合差旅管理、票價與禮遇，可能提升企業持續選擇同一航空公司的意願；但能否改善收益仍要看實際票價、獎勵成本與旅客需求，不能只看會員數。對機師而言，穩定可靠的運行是整體服務的一部分，準點與服務目標都必須在安全與程序要求下達成。",
+      "analysis_en": "My business interpretation is that travel management, fares and benefits may encourage repeat corporate business. Profitability still depends on fares, reward costs and demand, rather than membership numbers alone. As a pilot, I would contribute through reliable operations while keeping safety and approved procedures ahead of commercial pressure.",
+      "pitfalls": [
+        "把有條件的服務說成人人自動適用",
+        "把商業推論當成已證實的經營成效"
+      ],
+      "follow_ups": [
+        "企業回饋越多，航空公司的獲利一定越高嗎？"
+      ],
+      "evidence_ids": [
+        "evaBizFam2026"
+      ]
+    },
+    "level": 3
+  },
+  {
+    "source": "星宇航空｜COSMILE Family Account",
+    "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/family-account",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "source_id": "jxFamilyAccount2026",
+    "id": "jx-family-loyalty",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "星宇 COSMILE 家庭帳戶如何運作？它能讓全家一起累積高階會籍嗎？",
+    "question_en": "How does a COSMILE Family Account work, and can a family pool tier qualification?",
+    "answer": "A Family Account pools eligible family members’ award mileage, not their tier qualification. Award miles earned by sub-members are managed in the primary member’s account, while tier miles and sectors stay with each individual. The account allows one primary member and up to five sub-members, comprising a spouse or children aged two to seventeen.",
+    "answer_30": "A Family Account pools eligible family members’ award mileage, not their tier qualification. Award miles earned by sub-members are managed in the primary member’s account, while tier miles and sectors stay with each individual. The account allows one primary member and up to five sub-members, comprising a spouse or children aged two to seventeen.",
+    "answer_60": "A Family Account pools eligible family members’ award mileage, not their tier qualification. Award miles earned by sub-members are managed in the primary member’s account, while tier miles and sectors stay with each individual. The account allows one primary member and up to five sub-members, comprising a spouse or children aged two to seventeen. My interpretation is that pooling award miles may make rewards easier to use and support family loyalty. That is a business hypothesis, not proof of revenue growth. I would first distinguish redeemable miles from tier qualification, then explain how the product responds to customer needs rather than simply memorising card names.",
+    "answer_zh_30": "家庭帳戶讓符合資格的家人集中管理酬賓哩程，但不會把全家的會籍資格合併。官方規則是附屬會員的酬賓哩程歸主會員管理，會籍哩程與航段仍留在本人帳戶。帳戶可有一位主會員及最多五位附屬會員，附屬會員為配偶或二至十七歲子女。",
+    "answer_zh_60": "家庭帳戶讓符合資格的家人集中管理酬賓哩程，但不會把全家的會籍資格合併。官方規則是附屬會員的酬賓哩程歸主會員管理，會籍哩程與航段仍留在本人帳戶。帳戶可有一位主會員及最多五位附屬會員，附屬會員為配偶或二至十七歲子女。\n\n從公司研究的角度，我認為家庭帳戶降低了分散哩程的使用門檻，可能增強家庭旅客的黏著度；這是商業解讀，不能當成已證明的營收成長原因。面試回答時，我會先把可兌換獎勵的哩程與用來判斷卡籍的哩程分清楚，再談產品如何回應旅客需求，而不是只背出會員名稱。",
+    "chinese_answer": "家庭帳戶讓符合資格的家人集中管理酬賓哩程，但不會把全家的會籍資格合併。官方規則是附屬會員的酬賓哩程歸主會員管理，會籍哩程與航段仍留在本人帳戶。帳戶可有一位主會員及最多五位附屬會員，附屬會員為配偶或二至十七歲子女。\n\n從公司研究的角度，我認為家庭帳戶降低了分散哩程的使用門檻，可能增強家庭旅客的黏著度；這是商業解讀，不能當成已證明的營收成長原因。面試回答時，我會先把可兌換獎勵的哩程與用來判斷卡籍的哩程分清楚，再談產品如何回應旅客需求，而不是只背出會員名稱。",
+    "key_points": [
+      "酬賓與會籍分離",
+      "家庭帳戶資格",
+      "事實與商業解讀"
+    ],
+    "keywords": [
+      "酬賓與會籍分離",
+      "家庭帳戶資格",
+      "事實與商業解讀"
+    ],
+    "answer_outline": [
+      "酬賓與會籍分離",
+      "家庭帳戶資格",
+      "事實與商業解讀"
+    ],
+    "follow_up": "為什麼家庭哩程整合不等於共同取得貴賓室待遇？",
+    "difficulty": "進階",
+    "why_it_matters": "區分公開事實、適用條件與研究解讀，形成有依據且不誇大的面試回答。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "原創練習題，非航空公司歷屆考題或標準答案；商業推論為本站分析。30／60秒是練習目標，依口說速度調整。",
+    "deep_dive": {
+      "analysis_zh": "從公司研究的角度，我認為家庭帳戶降低了分散哩程的使用門檻，可能增強家庭旅客的黏著度；這是商業解讀，不能當成已證明的營收成長原因。面試回答時，我會先把可兌換獎勵的哩程與用來判斷卡籍的哩程分清楚，再談產品如何回應旅客需求，而不是只背出會員名稱。",
+      "analysis_en": "My interpretation is that pooling award miles may make rewards easier to use and support family loyalty. That is a business hypothesis, not proof of revenue growth. I would first distinguish redeemable miles from tier qualification, then explain how the product responds to customer needs rather than simply memorising card names.",
+      "pitfalls": [
+        "把有條件的服務說成人人自動適用",
+        "把商業推論當成已證實的經營成效"
+      ],
+      "follow_ups": [
+        "為什麼家庭哩程整合不等於共同取得貴賓室待遇？"
+      ],
+      "evidence_ids": [
+        "jxFamilyAccount2026"
+      ]
+    },
+    "level": 3
   }
 ]

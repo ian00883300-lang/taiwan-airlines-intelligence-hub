@@ -5,7 +5,7 @@ export default function MaintenanceServices({ airline, Source }) {
   const rows = services[airline];
   if (!rows) return null;
   return <section className="study-section maintenance-services">
-    <h3>修護服務：六類業務與分工</h3>
+    <h3>{airline === 'china-airlines' ? '修護服務：六類業務與分工' : '修護服務：合作體系與分工'}</h3>
     <div className="study-table"><table>
       <thead><tr><th>類別</th><th>公開服務範圍</th><th>研究重點</th></tr></thead>
       <tbody>{rows.map(row => <tr key={row.title}>

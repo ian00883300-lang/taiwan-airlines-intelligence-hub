@@ -72,5 +72,55 @@
       "status": "confirmed",
       "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
     }
+  ],
+  "eva-air": [
+    {
+      "title": "停機線／AOG｜長榮航太",
+      "body": "航班周轉、每日、飛行前與 A 級檢查，並列故障排除及發動機更換。官網說明服務長榮、立榮及其他航空客戶。",
+      "study_note": "這是 EGAT 的公開維修服務；AOG 表示飛機因故停場，不是獨立的航空公司。",
+      "source": "長榮航太｜官方服務介紹",
+      "source_url": "https://www.egat.com.tw/zh-hant/service-support/ramp-and-aog-services",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "官方未標更新日期；工作與機型適用範圍須依現行核准能力確認。"
+    },
+    {
+      "title": "定期維修｜長榮航太",
+      "body": "基地維修包含各級定期檢查、技術通報／適航指令相關工作、結構修理及客艙改裝等。",
+      "study_note": "檢查級別、週期及適用機型依核准維護計畫；網站歷史機型清單不是長榮現役機隊。",
+      "source": "長榮航太｜官方服務介紹",
+      "source_url": "https://www.egat.com.tw/zh-hant/service-support/hmv-and-base-services",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "官方未標更新日期；工作與機型適用範圍須依現行核准能力確認。"
+    },
+    {
+      "title": "零組件｜長榮航太",
+      "body": "公開分類涵蓋航電、儀器、發電機、液壓、氣瓶、推力反向器、複合材料、客艙、緊急裝備與輪胎煞車。",
+      "study_note": "維修廠零組件能力與航空公司機隊數、可用備件數不同，不可相互推算。",
+      "source": "長榮航太｜官方服務介紹",
+      "source_url": "https://www.egat.com.tw/zh-hant/service-support/component-lru-overhauls",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "官方未標更新日期；工作與機型適用範圍須依現行核准能力確認。"
+    },
+    {
+      "title": "發動機｜長異",
+      "body": "GE Evergreen 官方介紹其為 GE 與長榮航太合資公司，提供發動機修護；試車設施支援 CF6 與 GEnx 系列。",
+      "study_note": "長異與長榮航太是不同公司；官網能力不代表每架長榮飛機的發動機都由同一廠處理。",
+      "source": "GE Evergreen｜About us",
+      "source_url": "https://www.geevergreen.com/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "官方未標更新日期；工作與機型適用範圍須依現行核准能力確認。"
+    }
   ]
 }

@@ -5,7 +5,7 @@
       "source_url": "https://www.china-airlines.com/tw/zh/member/planning/introduction/membership-benefits",
       "status": "confirmed",
       "published_date": null,
-      "verified_date": "2026-10-17",
+      "verified_date": "2026-10-18",
       "as_of": null,
       "name": "華夏會員 Dynasty Flyer",
       "tiers": [
@@ -37,10 +37,10 @@
         "status": "confirmed"
       },
       "images": [
-        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-DYNA_tcm539-68337.png&w=3840",
-        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-GOLD_tcm539-68338.png&w=3840",
-        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-EMER_tcm539-68339.png&w=3840",
-        "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-PARA_tcm539-68340.png&w=3840"
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-DYNA_tcm539-68337.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-GOLD_tcm539-68338.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-EMER_tcm539-68339.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-PARA_tcm539-68340.png&w=1920&q=100"
       ],
       "tier_benefits": [
         "累積哩程／積分；部分優選座位免費。",

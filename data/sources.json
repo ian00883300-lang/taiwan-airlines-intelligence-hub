@@ -1864,5 +1864,35 @@
     "source_id": "ciCebActual2022",
     "level": 1,
     "as_of": null
+  },
+  {
+    "id": "ciMroFleetManagement",
+    "source": "中華航空修護組織｜機隊管理",
+    "source_url": "https://emo.china-airlines.com/lang-tc/fleet_tech_mgm.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "evaBizFam2026",
+    "source": "長榮航空｜EVA BizFam 方案介紹",
+    "source_url": "https://bizfam.evaair.com/BZES/bizfam-introduction",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFamilyAccount2026",
+    "source": "星宇航空｜COSMILE Family Account",
+    "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/family-account",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-18",
+    "status": "confirmed",
+    "level": 1
   }
 ]

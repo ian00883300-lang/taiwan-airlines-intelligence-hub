@@ -314,15 +314,14 @@
     ],
     "maintenance": [
       {
-        "label": "修護",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "航空運輸、機體修護與發動機服務分工",
+        "body": "長榮航太官網說明其由長榮航空與 GE 於 1998 年合資發展，提供航空維修服務；它並非長榮航空內部部門的同義詞。此處按實際提供服務的公司整理，不把集團公司的營收、員工或維修能力直接併為航空公司的同一指標。",
+        "source": "長榮航太｜公司首頁",
+        "source_url": "https://www.egat.com.tw/zh-hant",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
       }
     ],
     "safety": [
