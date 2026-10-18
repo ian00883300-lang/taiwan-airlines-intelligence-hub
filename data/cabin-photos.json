@@ -11,6 +11,17 @@
       "aircraft_types": [
         "A350-900"
       ]
+    },
+    {
+      "url": "https://www.china-airlines.com/_next/image?q=100&url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2FA321neo-banner-1023under_r_tcm539-74973.jpg&w=3840",
+      "caption": "華航 A321neo｜豪華商務艙官方展示",
+      "source": "中華航空｜客艙空間",
+      "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-18",
+      "aircraft_types": [
+        "A321neo"
+      ]
     }
   ],
   "eva-air": [
@@ -61,6 +72,28 @@
       "verified_date": "2026-10-16",
       "aircraft_types": [
         "A350-900"
+      ]
+    },
+    {
+      "url": "https://media.bmwgroupdesignworks.com/dw-main/uploads/2019/12/30145624/0005_2500x1446.jpg",
+      "caption": "星宇 A321neo｜商務艙設計效果圖（初代設計）",
+      "source": "BMW Group Designworks",
+      "source_url": "https://www.bmwgroupdesignworks.com/case-studies/starlux-airlines/",
+      "credit": "Designworks 官方設計展示；非實機拍攝，版權歸原權利人",
+      "verified_date": "2026-10-18",
+      "aircraft_types": [
+        "A321neo"
+      ]
+    },
+    {
+      "url": "https://media.bmwgroupdesignworks.com/dw-main/uploads/2019/12/30145624/0003_2500x1446.jpg",
+      "caption": "星宇 A321neo｜經濟艙設計效果圖（初代設計）",
+      "source": "BMW Group Designworks",
+      "source_url": "https://www.bmwgroupdesignworks.com/case-studies/starlux-airlines/",
+      "credit": "Designworks 官方設計展示；非實機拍攝，版權歸原權利人",
+      "verified_date": "2026-10-18",
+      "aircraft_types": [
+        "A321neo"
       ]
     }
   ]
