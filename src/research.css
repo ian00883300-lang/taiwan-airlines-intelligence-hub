@@ -1682,3 +1682,12 @@ abbr[title]:focus::after {
 .company-identity .identity-topic-table thead th:first-child{width:24%}.company-identity .identity-topic-table thead th:nth-child(2){width:76%}.identity-topic-table{margin-bottom:16px}
 
 .safety-mechanisms thead th:first-child{width:20%}.safety-mechanisms thead th:nth-child(2){width:40%}.safety-mechanisms thead th:last-child{width:40%}
+
+.maintenance-services thead th:first-child{width:15%}.maintenance-services thead th:nth-child(2){width:45%}.maintenance-services thead th:last-child{width:40%}
+@media(max-width:600px){.maintenance-services .study-table{overflow-x:auto}.maintenance-services table{min-width:640px}}
+/* Compact three-column revenue table fits beside its chart. */
+.revenue-mix .research-table table{min-width:0;width:100%;table-layout:fixed}
+.revenue-mix .research-table th:first-child{width:22%}
+.revenue-mix .research-table th:nth-child(2){width:40%}
+.revenue-mix .research-table th:nth-child(3){width:38%}
+.revenue-mix .research-table td{font-variant-numeric:tabular-nums}

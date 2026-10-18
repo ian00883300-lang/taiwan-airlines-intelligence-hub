@@ -276,6 +276,26 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "title": "企業差旅｜EVA BizFam",
+        "body": "企業員工符合條件的長榮／立榮差旅，可同時累積企業 BizFam 點數及員工無限萬哩遊個人哩程。企業點數可兌換酬賓機票、升等、貴賓室、超額行李等；企業管理平台提供差旅與點數管理。",
+        "source": "長榮航空｜EVA BizFam 方案介紹",
+        "source_url": "https://bizfam.evaair.com/BZES/bizfam-introduction",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
+      },
+      {
+        "title": "BizFam 入會條件與待遇邊界",
+        "body": "官方列示合法註冊企業、至少 3 位在職員工為無限萬哩遊會員，旅行社等機票銷售業者不適用。入會免費；票價折扣、退改優惠與兌換禮遇依企業方案及條件，不能直接視為每位員工取得個人金卡。",
+        "source": "長榮航空｜EVA BizFam 方案介紹",
+        "source_url": "https://bizfam.evaair.com/BZES/bizfam-introduction",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
       }
     ],
     "cargo": [

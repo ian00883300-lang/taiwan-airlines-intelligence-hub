@@ -421,6 +421,26 @@
         "status": "confirmed",
         "title": "A350-900 客艙設計：從空間談產品",
         "body": "官方機型頁以舒適、隱私、安全感、歸屬感等概念介紹 A350-900 客艙，並以 Glisten 主題延伸既有 A321／A330 設計。研究品牌時可連結座位配置與服務一致性；設計理念不等於可量化的旅客滿意度成果。"
+      },
+      {
+        "title": "家庭帳戶｜酬賓哩程集中、會籍分開",
+        "body": "COSMILE 家庭帳戶設 1 位主會員、最多 5 位附屬會員；附屬會員為配偶或 2–17 歲子女。附屬會員酬賓哩程歸入主會員帳戶管理，但會籍哩程與航段仍留在本人帳戶，不是全家合併升等卡籍。",
+        "source": "星宇航空｜COSMILE Family Account",
+        "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/family-account",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
+      },
+      {
+        "title": "企業差旅｜北美 Business Travel Program",
+        "body": "北美官網列示適用航線的企業票價及會員禮遇／會籍匹配申請資格。該頁同時出現年度最低消費與無最低旅行要求的文字，條件尚需由星宇釐清；此處僅確認方案存在，不將金額或條件套用至台灣企業，也不視為保證取得會籍。",
+        "source": "星宇航空｜北美 Business Travel Program",
+        "source_url": "https://www.starlux-airlines.com/flights/en-us/business_travel_program",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
       }
     ],
     "cargo": [

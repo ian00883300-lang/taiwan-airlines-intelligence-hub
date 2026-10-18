@@ -382,6 +382,26 @@
         "source_id": "ciTrust2025",
         "title": "旅客與貨運服務指標：方向不同",
         "body": "官方表列 2025 年旅客 NPS 73.3，2024 年為 72.5，增加 0.8 點；貨運顧客滿意度由 89.8 降至 89.1，下降 0.7 分。兩者量表不同，不相加、不解讀成安全績效。2026 年旅客 NPS 目標 70.5，較 2025 年目標 69 提高，但低於 2025 實績；目標不等於預測。"
+      },
+      {
+        "title": "企業差旅｜Corporate Extra",
+        "body": "企業與員工的回饋分開累積：符合方案的華航／華信自營國際線差旅可累積企業獎勵，華夏會員員工亦可累積個人哩程。企業可兌換升等、酬賓機票與 CFS 企業禮遇憑證；貴賓室及優先服務須符合憑證條件，並非免費入會即全面享有。",
+        "source": "中華航空｜Corporate Extra 企業會員專屬優惠",
+        "source_url": "https://members.china-airlines.com/CRP/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
+      },
+      {
+        "title": "企業方案與個人卡籍：分開閱讀",
+        "body": "Corporate Extra 是企業差旅回饋方案，華夏卡／金卡／翡翠卡／晶鑽卡則是個人會員卡籍。企業搭乘淨額、個人哩程與個人會籍積分不是同一數值；研究時應分清受益對象及累積規則。",
+        "source": "中華航空｜Corporate Extra 方案介紹",
+        "source_url": "https://members.china-airlines.com/CRP/Promote/Introduction",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-18",
+        "status": "confirmed"
       }
     ],
     "cargo": [
@@ -410,28 +430,6 @@
       }
     ],
     "maintenance": [
-      {
-        "title": "自有修護體系",
-        "body": "官方修護組織介紹列有自有機隊與第三方客戶的維修服務。",
-        "source": "華航｜修護組織介紹",
-        "source_url": "https://emo.china-airlines.com/lang-en/profile_en.html",
-        "published_date": null,
-        "verified_date": "2026-10-11",
-        "status": "confirmed",
-        "as_of": null,
-        "source_id": "ciMaintenance"
-      },
-      {
-        "title": "修護服務範圍與能力表分開核對",
-        "body": "EMO 官網列有航線維修、機體、發動機、零組件、機隊技術及庫存技術管理。介紹頁未標發布日期，且含舊機型，不直接據此宣稱所有能力均為今日有效；特定工作須再查核現行核准能力清單。",
-        "source": "華航｜修護組織介紹",
-        "source_url": "https://emo.china-airlines.com/lang-en/profile_en.html",
-        "published_date": null,
-        "as_of": null,
-        "verified_date": "2026-10-14",
-        "status": "confirmed",
-        "source_id": "ciMaintenance"
-      },
       {
         "title": "24 小時修管中心與維修驗證",
         "body": "2026 年 10 月官方稿介紹全天候修管中心、拆卸至測試的維修流程，以及起落架更換與零件檢測。此為公司公開的作業介紹，不是外部稽核結論或即時妥善率。",
@@ -532,7 +530,7 @@
         "status": "confirmed",
         "source_id": "ciTrust2025",
         "title": "聯合管制：飛航、氣象、簽派與修護協作",
-        "body": "官方說明聯管處全天候監控航班與場站，設飛航、氣象、簽派、修護、航情守望及桃園場站等席位。面對颱風或空域變動，需要跨單位資訊整合與應變；這是公開分工介紹，不是公司內部處置程序。"
+        "body": "官方說明聯管處全天候監控航班與場站，設飛航、氣象、簽派、修護、航情守望及桃園場站等席位。面對颱風或空域變動，需要跨單位資訊整合與應變；這是公開分工介紹，不是公司內部處置程序。 公司聯管席位並非空中交通管制（ATC）。"
       }
     ],
     "sms": [
@@ -544,17 +542,6 @@
         "published_date": null,
         "as_of": null,
         "verified_date": "2026-10-11",
-        "status": "confirmed",
-        "source_id": "ciSms"
-      },
-      {
-        "title": "聯管處：24/7 跨單位協調",
-        "body": "官方列出飛航、氣象、簽派、修護、航情守望與桃園運行管制席；整合空域、天候及場站資訊，與組員協調不正常航班應變。這些公司席位不是空中交通管制 ATC。",
-        "source": "華航企業永續｜信賴價值與安全管理",
-        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
-        "published_date": null,
-        "as_of": null,
-        "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciSms"
       },

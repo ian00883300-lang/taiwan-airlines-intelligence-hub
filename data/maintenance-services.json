@@ -1,0 +1,76 @@
+{
+  "china-airlines": [
+    {
+      "title": "航線修護",
+      "body": "航班周轉、日常及飛行前檢查，並提供故障診斷、排除與外站技術支援。",
+      "study_note": "著重日常營運支援；不能把航線修護等同航管，或將所有維修都視為停場大修。",
+      "source": "中華航空修護組織｜航線修護",
+      "source_url": "https://emo.china-airlines.com/lang-tc/line_mtn.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    },
+    {
+      "title": "機體修護",
+      "body": "機體結構、系統、複合材料、客艙及塗裝等維護作業，服務自有與第三方機隊。",
+      "study_note": "機體、客艙與結構維護的範圍不同；檢查級別與間隔依機型及核准維護計畫。",
+      "source": "中華航空修護組織｜機體修護",
+      "source_url": "https://emo.china-airlines.com/lang-tc/airframe_mtn.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    },
+    {
+      "title": "發動機修護",
+      "body": "發動機翻修、試車、性能監控、備份發動機租借，以及按使用時數計價的 PBTH 管理服務。",
+      "study_note": "性能監控、實體維修與備發安排是不同服務；發動機租借不等於整架飛機為租賃。",
+      "source": "中華航空修護組織｜發動機修護",
+      "source_url": "https://emo.china-airlines.com/lang-tc/engine_mtn.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    },
+    {
+      "title": "附件修護",
+      "body": "航電、電氣、液壓與氣壓、輪胎煞車等零組件的檢驗、測試、修理、翻修及改裝。",
+      "study_note": "組件可拆下送修；應分清組件維修與整機維修的工作範圍。",
+      "source": "中華航空修護組織｜附件修護",
+      "source_url": "https://emo.china-airlines.com/lang-tc/component_mtn.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    },
+    {
+      "title": "機隊管理",
+      "body": "維護計畫、可靠度監控、技術文件評估、工程技令、維修工作包及中長期維修排程。",
+      "study_note": "重點是持續適航與工程管理，不是航線網路或機票收益管理。",
+      "source": "中華航空修護組織｜機隊管理",
+      "source_url": "https://emo.china-airlines.com/lang-tc/fleet_tech_mgm.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    },
+    {
+      "title": "倉儲管理",
+      "body": "器材採購、收貨、運輸、庫存、保管、租借交換及保固索賠，支援 AOG 停場需求。",
+      "study_note": "備料與物流影響維修支援效率；有庫存不代表器材可不經適用性及文件檢查就裝機。",
+      "source": "中華航空修護組織｜倉儲管理",
+      "source_url": "https://emo.china-airlines.com/lang-tc/inventory_tech_mgm.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-18",
+      "status": "confirmed",
+      "scope": "未標發布日期的官方服務介紹；不據此認定所有歷史機型能力目前仍有效。"
+    }
+  ]
+}

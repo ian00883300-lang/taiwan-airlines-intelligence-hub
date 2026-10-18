@@ -1,5 +1,6 @@
 import {Chart, DoughnutController, ArcElement, Tooltip, Legend} from "chart.js";
 import securities from "../data/securities.json";
+import MaintenanceServices from "./MaintenanceServices.jsx";
 import { change } from "./change.mjs";
 import React, { useState, useEffect, useRef } from "react";
 import dossier from "../data/research-dossier.json";
@@ -328,6 +329,7 @@ export function OperationsResearch({ airline, Source }) {
       </article>
       <TrafficComparison airline={airline} Source={Source} />
       <RevenueMix airline={airline} Source={Source} />
+      <MaintenanceServices airline={airline} Source={Source} />
       {dossier.airlines[airline].cargo_capabilities && (
         <CargoCapabilities airline={airline} Source={Source} />
       )}

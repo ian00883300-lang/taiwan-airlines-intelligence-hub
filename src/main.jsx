@@ -181,6 +181,13 @@ function EvidenceIndex() {
   const unique=[...new Map(Object.values(items).map(item=>[JSON.stringify(item),item])).values()];
   return <details className="page-evidence" key={path}><summary>查閱本頁來源與查核日期（{unique.length}）</summary><div>{unique.map((item,i)=><article key={i}><strong>{item.aircraft_type||item.title||item.label||item.name||item.source||'資料查核'}</strong>{typeof item.value === "string" && <p>{item.value}</p>}<SourceDetail item={item}/></article>)}</div></details>;
 }
+function EvidenceRecency() {
+  const {items} = React.useContext(EvidenceContext);
+  const dates = Object.values(items).map(item => item.verified_date).filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date || '')).sort();
+  return <div className="verification-strip"><ShieldCheck size={16}/>
+    本頁最近查核：{dates.at(-1) || '待查核'} · 各項資料基準不同，來源收於頁尾
+  </div>;
+}
 function SourceDetail({ item, compact = false }) {
   if (!item) return null;
   if (
@@ -994,16 +1001,10 @@ function Airline({ a, tab = "overview", openInterview }) {
       </div>
       {a.slogan && (
         <p className="slogan-evidence">
-          {a.slogan.english} ·{" "}
-          <a href={a.slogan.source_url} target="_blank" rel="noreferrer">
-            官方品牌標語來源 ↗
-          </a>
+          {a.slogan.english}<Source item={a.slogan}/>
         </p>
       )}
-      <div className="verification-strip">
-        <ShieldCheck size={16} /> Data verified through: {a.last_verified} ·
-        個別欄位日期請展開來源
-      </div>
+      <EvidenceRecency/>
       <nav className="topic-nav consolidated-nav" aria-label="研究主題">
         {researchGroups.map((g) => (
           <a
