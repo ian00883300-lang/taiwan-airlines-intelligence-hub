@@ -59,6 +59,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
     [aircraft, setAircraft] = useState("all"),
     [tileError, setTileError] = useState(false);
   const ref = useRef();
+  const mapRef = useRef();
   useEffect(() => {
     setAir(initial);
     setOrigin("all");
@@ -119,8 +120,14 @@ export default function RouteNetwork({ initial = "all", Source }) {
     setTileError(false);
     const map = L.map(ref.current, {
       scrollWheelZoom: false,
-      worldCopyJump: true,
+      worldCopyJump: false,
+      minZoom: 2,
+      maxZoom: 10,
+      maxBounds: [[-85, -30], [85, 330]],
+      maxBoundsViscosity: 1,
+      zoomAnimation: false,
     }).setView([32, 165], 2);
+    mapRef.current = map;
     const tiles = L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
@@ -136,7 +143,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
       const from = airports.items[r.origin],
         to = airports.items[r.destination],
         color = airlineById(r.airline).color,
-        path = greatCircle([from.lat, from.lng], [to.lat, to.lng]),
+        path = greatCircle([from.lat, from.lng < -30 ? from.lng + 360 : from.lng], [to.lat, to.lng]),
         lng = path.at(-1)[1];
       L.polyline(path, {
         color,
@@ -163,7 +170,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
     }
     for (const code of new Set(filtered.map((r) => r.origin))) {
       const a = airports.items[code];
-      const originMarker = L.circleMarker([a.lat, a.lng], {
+      const originMarker = L.circleMarker([a.lat, a.lng < -30 ? a.lng + 360 : a.lng], {
         radius: 7,
         color: "#163851",
         fillColor: "#fff",
@@ -188,11 +195,12 @@ export default function RouteNetwork({ initial = "all", Source }) {
     };
     map.on("zoomend moveend resize", arrangeLabels);
     const labelFrame = requestAnimationFrame(arrangeLabels);
-    const resize = new ResizeObserver(() => map.invalidateSize());
+    const resize = new ResizeObserver(() => map.invalidateSize({pan:false, debounceMoveend:true}));
     resize.observe(ref.current);
     return () => {
       cancelAnimationFrame(labelFrame);
       resize.disconnect();
+      mapRef.current = null;
       map.remove();
     };
   }, [air, origin, region, aircraft, evidence]);
@@ -326,6 +334,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           </li>
         ))}
       </ul>
+      <button type="button" className="map-reset" onClick={() => mapRef.current?.setView([32,165],2,{animate:false})}>重設航圖視野</button>
       <div
         ref={ref}
         className="route-map"
