@@ -3285,5 +3285,121 @@
       ]
     },
     "level": 3
+  },
+  {
+    "source": "長榮永續網｜飛安管理策略",
+    "source_url": "https://www.evacsr.com/governance/flying-safety01.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-20",
+    "status": "confirmed",
+    "source_id": "evaSafetySystems2025",
+    "id": "eva-safety-feedback",
+    "airline": "eva-air",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "長榮如何把飛行資料用於改善？系統分數可以取代機師判斷嗎？",
+    "question_en": "How can flight data improve operations, and can a system score replace pilot judgement?",
+    "answer": "I see a cycle of preparation, review and feedback. EVA describes FORAS, FOPAS and FDM as tools supporting that process. A score cannot replace judgement: weather, ATC constraints and operational context still matter. As a trainee, I would use feedback to learn rather than treat a high score as permission to relax standards.",
+    "answer_30": "I see a cycle of preparation, review and feedback. EVA describes FORAS, FOPAS and FDM as tools supporting that process. A score cannot replace judgement: weather, ATC constraints and operational context still matter. As a trainee, I would use feedback to learn rather than treat a high score as permission to relax standards.",
+    "answer_60": "I see a cycle of preparation, review and feedback. EVA describes FORAS, FOPAS and FDM as tools supporting that process. A score cannot replace judgement: weather, ATC constraints and operational context still matter. As a trainee, I would use feedback to learn rather than treat a high score as permission to relax standards. If data suggested a deviation, I would first establish data quality, definitions and context, then discuss it through training and reporting channels. The cause might involve skills, procedures or resources. An isolated result is not enough to assign blame, and corrective action should be followed by an effectiveness review.",
+    "answer_zh_30": "我會把它理解為事前辨識、事後評估與持續回饋的循環。長榮公開 FORAS、FOPAS 及 FDM 的用途，但系統資訊只是決策支援。評分需放回當次天氣、航管限制與操作背景理解；身為受訓者，我應主動學習回饋，而不把高分當成可以放寬標準的理由。",
+    "answer_zh_60": "我會把它理解為事前辨識、事後評估與持續回饋的循環。長榮公開 FORAS、FOPAS 及 FDM 的用途，但系統資訊只是決策支援。評分需放回當次天氣、航管限制與操作背景理解；身為受訓者，我應主動學習回饋，而不把高分當成可以放寬標準的理由。\n\n若資料顯示異常，我會先確認紀錄品質、指標定義與情境，再透過教官及正式管道了解原因。改善可能涉及個人技能、程序或資源，而不是看到一次偏差就直接歸咎某個人。後續還需要看措施是否有效。",
+    "chinese_answer": "我會把它理解為事前辨識、事後評估與持續回饋的循環。長榮公開 FORAS、FOPAS 及 FDM 的用途，但系統資訊只是決策支援。評分需放回當次天氣、航管限制與操作背景理解；身為受訓者，我應主動學習回饋，而不把高分當成可以放寬標準的理由。\n\n若資料顯示異常，我會先確認紀錄品質、指標定義與情境，再透過教官及正式管道了解原因。改善可能涉及個人技能、程序或資源，而不是看到一次偏差就直接歸咎某個人。後續還需要看措施是否有效。",
+    "key_points": [
+      "辨識與回饋循環",
+      "情境與資料品質",
+      "改善後驗證"
+    ],
+    "keywords": [
+      "辨識與回饋循環",
+      "情境與資料品質",
+      "改善後驗證"
+    ],
+    "answer_outline": [
+      "辨識與回饋循環",
+      "情境與資料品質",
+      "改善後驗證"
+    ],
+    "follow_up": "如果兩個航班分數不同，可以直接判斷誰飛得比較安全嗎？",
+    "difficulty": "進階",
+    "level": 3,
+    "why_it_matters": "用公開事實支持判斷，分清資料指標、推論與機師責任。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "本站原創練習，非歷屆考題或公司標準答案；情境分析不代表內部操作程序。",
+    "deep_dive": {
+      "analysis_zh": "若資料顯示異常，我會先確認紀錄品質、指標定義與情境，再透過教官及正式管道了解原因。改善可能涉及個人技能、程序或資源，而不是看到一次偏差就直接歸咎某個人。後續還需要看措施是否有效。",
+      "analysis_en": "If data suggested a deviation, I would first establish data quality, definitions and context, then discuss it through training and reporting channels. The cause might involve skills, procedures or resources. An isolated result is not enough to assign blame, and corrective action should be followed by an effectiveness review.",
+      "pitfalls": [
+        "把單一數字視為完整安全結論",
+        "把輔助資訊當成取代人的判斷"
+      ],
+      "follow_ups": [
+        "如果兩個航班分數不同，可以直接判斷誰飛得比較安全嗎？"
+      ],
+      "evidence_ids": [
+        "evaSafetySystems2025"
+      ]
+    }
+  },
+  {
+    "source": "星宇永續網｜安全文化問卷",
+    "source_url": "https://sustainability.jx-starlux.com/esg/G-000/2025__SAFE/294/",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-20",
+    "status": "confirmed",
+    "source_id": "jxSafetyCulture2024",
+    "id": "jx-safety-survey",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "星宇安全文化問卷分數高，能否證明飛航一定安全？",
+    "question_en": "Does a strong safety-culture survey score prove safe operations?",
+    "answer": "No. A survey describes employee perceptions and supports management decisions, but it does not replace operational observations, reports or audits. I would check the survey period, population and denominator before interpreting the result. A culture score is not a probability of a future accident.",
+    "answer_30": "No. A survey describes employee perceptions and supports management decisions, but it does not replace operational observations, reports or audits. I would check the survey period, population and denominator before interpreting the result. A culture score is not a probability of a future accident.",
+    "answer_60": "No. A survey describes employee perceptions and supports management decisions, but it does not replace operational observations, reports or audits. I would check the survey period, population and denominator before interpreting the result. A culture score is not a probability of a future accident. I would also consider non-response, invalid responses and differences between work groups. A high score can coexist with more safety reports because people may be more willing to speak up. A stronger assessment triangulates several sources and follows whether corrective actions produce sustained improvement.",
+    "answer_zh_30": "不能直接這樣推論。問卷提供員工對安全文化的看法，是管理上的參考，但不能取代實際作業觀察、通報分析及稽核。星宇公開的是特定年度、特定作業單位的調查；我會先確認樣本、分母與調查時間，再解讀分數，而不是把它當成未來事故機率。",
+    "answer_zh_60": "不能直接這樣推論。問卷提供員工對安全文化的看法，是管理上的參考，但不能取代實際作業觀察、通報分析及稽核。星宇公開的是特定年度、特定作業單位的調查；我會先確認樣本、分母與調查時間，再解讀分數，而不是把它當成未來事故機率。\n\n研究時還應留意未填答者、無效問卷及不同單位的差異。高分與通報增加可以同時發生，後者也可能來自更願意揭露風險。較好的結論需要多種證據互相支持，並觀察改善措施及後續趨勢。",
+    "chinese_answer": "不能直接這樣推論。問卷提供員工對安全文化的看法，是管理上的參考，但不能取代實際作業觀察、通報分析及稽核。星宇公開的是特定年度、特定作業單位的調查；我會先確認樣本、分母與調查時間，再解讀分數，而不是把它當成未來事故機率。\n\n研究時還應留意未填答者、無效問卷及不同單位的差異。高分與通報增加可以同時發生，後者也可能來自更願意揭露風險。較好的結論需要多種證據互相支持，並觀察改善措施及後續趨勢。",
+    "key_points": [
+      "員工認知不是事故率",
+      "樣本與分母",
+      "多項證據交叉判讀"
+    ],
+    "keywords": [
+      "員工認知不是事故率",
+      "樣本與分母",
+      "多項證據交叉判讀"
+    ],
+    "answer_outline": [
+      "員工認知不是事故率",
+      "樣本與分母",
+      "多項證據交叉判讀"
+    ],
+    "follow_up": "有效問卷占回收問卷 86%，是否等於全員填答率 86%？",
+    "difficulty": "進階",
+    "level": 3,
+    "why_it_matters": "用公開事實支持判斷，分清資料指標、推論與機師責任。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "本站原創練習，非歷屆考題或公司標準答案；情境分析不代表內部操作程序。",
+    "deep_dive": {
+      "analysis_zh": "研究時還應留意未填答者、無效問卷及不同單位的差異。高分與通報增加可以同時發生，後者也可能來自更願意揭露風險。較好的結論需要多種證據互相支持，並觀察改善措施及後續趨勢。",
+      "analysis_en": "I would also consider non-response, invalid responses and differences between work groups. A high score can coexist with more safety reports because people may be more willing to speak up. A stronger assessment triangulates several sources and follows whether corrective actions produce sustained improvement.",
+      "pitfalls": [
+        "把單一數字視為完整安全結論",
+        "把輔助資訊當成取代人的判斷"
+      ],
+      "follow_ups": [
+        "有效問卷占回收問卷 86%，是否等於全員填答率 86%？"
+      ],
+      "evidence_ids": [
+        "jxSafetyCulture2024"
+      ]
+    }
   }
 ]

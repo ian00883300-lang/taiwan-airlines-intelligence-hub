@@ -694,15 +694,34 @@
     ],
     "risks": [
       {
-        "label": "挑戰與風險",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "2025 年三項永續風險",
+        "body": "公司辨識低碳轉型成本、維修品質與安全管理、客戶資訊及資安防護三項風險。這是管理上需控制的風險清單，並非宣稱三項問題都已發生。",
+        "source": "華航企業永續網｜風險管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_risk.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "新航點：開航前也要做風險評估",
+        "body": "官方說明新航站籌備須依程序評估並符合民航及公司要求。研究解讀：開航不只是市場需求，還涉及地勤、維修、機組與應變資源能否支持。",
+        "source": "華航企業永續網｜風險管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_risk.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "風險治理與財務波動",
+        "body": "董事會為最高治理單位，委員會定期追蹤；公司將燃油、利率與匯率等波動納入管理，運用金融工具控制部分暴露。避險是控制風險，不保證每期獲利。",
+        "source": "華航企業永續網｜風險管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_risk.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "employees": [

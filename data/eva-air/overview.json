@@ -160,15 +160,14 @@
     ],
     "governance": [
       {
-        "label": "公司治理",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "董事會：9 席、3 席獨立董事",
+        "body": "官方揭露本屆董事於 2026-05-29 選出，任期至 2029-05-28；董事長不兼任總經理。董事會下設審計、薪資報酬與永續委員會。",
+        "source": "長榮永續網｜治理架構",
+        "source_url": "https://www.evacsr.com/governance/governance01.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2026-05-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "organization": [
@@ -224,7 +223,18 @@
         "source_id": "evaOrder"
       }
     ],
-    "technical": [],
+    "technical": [
+      {
+        "source": "Lufthansa Technik｜EVA AeroSHARK 改裝公告",
+        "source_url": "https://www.lufthansa-technik.com/en/scaling-up-efficiency-eva-air-first-airline-in-asia-to-sign-for-aeroshark-00f8a347382fb217",
+        "published_date": "2024-08-23",
+        "as_of": "2024-08-23",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "title": "AeroSHARK：B-16786 的減阻改裝",
+        "body": "公告確認首架 B-16786 由長榮航太完成仿生薄膜施工，利用微細溝槽降低摩擦阻力，預期節油約 1%。9 架 777F 是當時規劃範圍，不能據此宣稱全數已改裝；也不能將該效益套用到所有機型。"
+      }
+    ],
     "routes": [],
     "hubs": [
       {
@@ -322,6 +332,26 @@
         "as_of": null,
         "verified_date": "2026-10-18",
         "status": "confirmed"
+      },
+      {
+        "title": "可靠性管制與持續適航",
+        "body": "監測系統、零組件、發動機及機體結構，透過每月可靠性與品質會議分析異常、調整維護措施。派遣可靠度與準點率屬不同指標。",
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "電子飛航維護紀錄 e-LOG",
+        "body": "公司披露 2025 年申請驗證、2026 年第二季獲准上線，減少紙本並改善紀錄作業；官方未列確切啟用日，因此不補造日期。",
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "safety": [
@@ -356,6 +386,26 @@
         "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-policy-en_tcm33-84999.pdf",
         "title": "安全責任與績效追蹤",
         "body": "工作可適當授權，但主管最終安全責任不能轉移；各部門透過 SPI 追蹤趨勢並檢查控制措施成效。面試應用：通報之後還須追蹤改善結果，不能把送出報告當成風險已解除。"
+      },
+      {
+        "title": "2025 年風險改善與安全文化",
+        "body": "公司披露 SMS 行動小組針對 5 類追蹤事項完成 42 項改善；同年推動全年「Live with Safety」活動。措施完成率不等於風險歸零。",
+        "source": "長榮永續網｜飛安管理策略",
+        "source_url": "https://www.evacsr.com/governance/flying-safety01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "疲勞與心理支持：制度如何落地",
+        "body": "官方說明每月檢討疲勞指標及派遣方式，並提供 EAP、專業諮詢與 EVA iTALK 支持。這些是公司公開做法，不據此推定特定航班或個人的適任狀態。",
+        "source": "長榮永續網｜飛航組員生心理照顧",
+        "source_url": "https://www.evacsr.com/governance/flying-safety03.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "sms": [
@@ -370,6 +420,16 @@
         "as_of": null,
         "source_id": "sms",
         "scope": "一般航空知識，非公司合規結論"
+      },
+      {
+        "title": "FORAS → FOPAS → FDM",
+        "body": "飛行前由 FORAS 提供風險提示，任務後以 FOPAS 評估操作表現，再以 FDM 分析回饋組員。DSMS 串接預警、評估與回饋；系統是決策支援，不取代機組責任。",
+        "source": "長榮永續網｜飛安管理策略",
+        "source_url": "https://www.evacsr.com/governance/flying-safety01.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "esg": [
@@ -383,6 +443,16 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "source_id": "evaSaf"
+      },
+      {
+        "title": "2025 年節油成果：比較基準要正確",
+        "body": "9 項措施估計節油 14,341 噸、避免 45,317 噸 CO₂e。比較基準是「未實施措施」情境，不能說成公司總排放比前一年下降相同數量。",
+        "source": "長榮永續網｜飛航節油與績效",
+        "source_url": "https://www.evacsr.com/environment/green-aviation01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "saf": [
@@ -396,6 +466,16 @@
         "verified_date": "2026-10-11",
         "status": "confirmed",
         "source_id": "evaSaf"
+      },
+      {
+        "source": "長榮航空｜2026-08-25 SAF 合作公告",
+        "source_url": "https://www.evaair.com/en-tw/about-eva-air/news/news-releases/2026-08-25-eco-friendly-evaair-news.html",
+        "published_date": "2026-08-25",
+        "as_of": "2026-08-25",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "title": "AIT／Microsoft 合作：環境屬性與實際燃料分開",
+        "body": "合作備忘錄規劃首年提供約 15,000 噸 CO₂e 的 SAF 環境屬性，支援 Microsoft 空運範疇三減碳，透過 ISCC CTS 發行與註銷。這是合作規劃，不是 15,000 噸 SAF 燃料，也非已完成減排實績。"
       }
     ],
     "finance": [],
@@ -445,15 +525,24 @@
     ],
     "risks": [
       {
-        "label": "挑戰與風險",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "風險治理：董事會監督、委員會追蹤",
+        "body": "董事會核定政策與架構；永續執行委員會每季追蹤改善。公開流程涵蓋範疇確認、評估、管理、揭露溝通；2026-06-17 完成外部查證。",
+        "source": "長榮永續網｜風險管理",
+        "source_url": "https://www.evacsr.com/governance/risk01.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
+        "as_of": "2026-06-17",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "新興風險：假訊息與人才結構",
+        "body": "公司列出 AI 假訊息、冒名網站及人才市場轉變等風險。研究重點：數位工具既能提高效率，也需資料保護、查證與人員能力配套。",
+        "source": "長榮永續網｜風險管理",
+        "source_url": "https://www.evacsr.com/governance/risk01.html",
+        "published_date": null,
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "employees": [

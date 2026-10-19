@@ -1894,5 +1894,25 @@
     "verified_date": "2026-10-18",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "evaSafetySystems2025",
+    "source": "長榮永續網｜飛安管理策略",
+    "source_url": "https://www.evacsr.com/governance/flying-safety01.html",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-20",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxSafetyCulture2024",
+    "source": "星宇永續網｜安全文化問卷",
+    "source_url": "https://sustainability.jx-starlux.com/esg/G-000/2025__SAFE/294/",
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-20",
+    "status": "confirmed",
+    "level": 1
   }
 ]
