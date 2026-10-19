@@ -1049,6 +1049,19 @@
         "label": "自有與租賃",
         "value": "逐架自有／租賃歸屬待查核。",
         "note": "Data pending verification：目前未取得足以逐架對應 A350-1000 機身編號與所有權的公開證據，不從機型或塗裝推定。"
+      },
+      "design": {
+        "theme": "Glisten：延續 A350 家族的居家舒適感",
+        "value": "官方說明由 BMW Designworks 設計，延續 A350-900 的 Glisten 主題，重視舒適、隱私與歸屬感。",
+        "elements": "以較深、豐富的材質表現奢華；商務艙結合太空銀與溫暖大地色調。外觀的碳纖維意象與「1000」標識屬機身塗裝，與客艙設計分開理解。",
+        "interview": "可比較同一品牌在不同機型的產品一致性；不將內裝相近等同座位數或設備完全相同。",
+        "note": "官網展示產品；實際配置依航班與機隊批次。",
+        "source": "星宇航空｜A350-1000 官方機隊介紹",
+        "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a350-1000",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-19",
+        "status": "confirmed"
       }
     }
   ],

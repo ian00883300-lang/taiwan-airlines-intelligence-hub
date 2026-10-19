@@ -164,6 +164,16 @@
         "status": "confirmed",
         "label": "A321neo 首批影音與接觸設計",
         "value": "公告列商務／經濟艙螢幕 15.6／13.3 吋、4K 顯示、手機連接娛樂系統及藍牙耳機支援；洗手間採感應水龍頭。實際航班設備須依批次與座位圖確認。"
+      },
+      {
+        "label": "商務艙產品依機型區分",
+        "value": "官網分型介紹 A321neo、A350-900、777-300ER 的全平躺座椅；A330-300 與 737-800 另列一般商務艙座椅。不可將全平躺、Sky Lounge 或特定充電設備直接套用至所有機型與批次。",
+        "source": "中華航空｜客艙空間各機型分頁",
+        "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-19",
+        "status": "confirmed"
       }
     ],
     "aircraft_features": {

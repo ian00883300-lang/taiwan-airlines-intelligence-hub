@@ -22,6 +22,50 @@
       "aircraft_types": [
         "A321neo"
       ]
+    },
+    {
+      "url": "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2FA350-banner-1024-1439_tcm539-74989.jpg&w=3840&q=100",
+      "caption": "華航 A350-900｜豪華商務艙官方展示",
+      "source": "中華航空｜客艙空間（A350-900分頁）",
+      "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+      "credit": "圖片版權歸原權利人；官方展示不代表所有批次配置相同",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A350-900"
+      ]
+    },
+    {
+      "url": "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2F777-banner-1024-1439_tcm539-75015.jpg&w=3840&q=100",
+      "caption": "華航 777-300ER｜豪華商務艙官方展示",
+      "source": "中華航空｜客艙空間（777-300ER分頁）",
+      "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+      "credit": "圖片版權歸原權利人；官方展示不代表所有批次配置相同",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "777-300ER"
+      ]
+    },
+    {
+      "url": "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2FA330-image_tcm539-75012.jpg&w=3840&q=100",
+      "caption": "華航 A330-300｜商務艙官方展示",
+      "source": "中華航空｜客艙空間（A330-300分頁）",
+      "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+      "credit": "圖片版權歸原權利人；官方展示不代表所有批次配置相同",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A330-300"
+      ]
+    },
+    {
+      "url": "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2F737-800-image_tcm539-75013.jpg&w=3840&q=100",
+      "caption": "華航 737-800｜商務艙官方展示",
+      "source": "中華航空｜客艙空間（737-800分頁）",
+      "source_url": "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/cabin/business/detail.html",
+      "credit": "圖片版權歸原權利人；官方展示不代表所有批次配置相同",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "737-800"
+      ]
     }
   ],
   "eva-air": [
@@ -94,6 +138,61 @@
       "verified_date": "2026-10-18",
       "aircraft_types": [
         "A321neo"
+      ]
+    },
+    {
+      "url": "https://webassets2.starlux-airlines.com/en-ID/Images/A330neo_Business_Class_4_tcm5-5160_w760_h566_n_tcm41-5090_w760_h566_n.jpg",
+      "caption": "星宇 A330-900｜商務艙官方展示",
+      "source": "星宇航空｜Our Fleet & Cabin Class",
+      "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a330neo",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A330-900"
+      ]
+    },
+    {
+      "url": "https://webassets2.starlux-airlines.com/en-ID/Images/A330neo_Economy_Class_750px_tcm41-5191_w760_h566_n.jpg",
+      "caption": "星宇 A330-900｜經濟艙官方展示",
+      "source": "星宇航空｜Our Fleet & Cabin Class",
+      "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a330neo",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A330-900"
+      ]
+    },
+    {
+      "url": "https://webassets2.starlux-airlines.com/en-ID/Images/a350business_tcm41-7133_w760_h566_n.jpg",
+      "caption": "星宇 A350-900｜商務艙官方展示",
+      "source": "星宇航空｜Our Fleet & Cabin Class",
+      "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a350-900",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A350-900"
+      ]
+    },
+    {
+      "url": "https://webassets2.starlux-airlines.com/en-ID/Images/1000bc_tcm41-14902_w760_h566_n.jpg",
+      "caption": "星宇 A350-1000｜商務艙官方展示",
+      "source": "星宇航空｜Our Fleet & Cabin Class",
+      "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a350-1000",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A350-1000"
+      ]
+    },
+    {
+      "url": "https://webassets2.starlux-airlines.com/en-ID/Images/1000pe_tcm41-14545_w760_h566_n.jpg",
+      "caption": "星宇 A350-1000｜豪華經濟艙官方展示",
+      "source": "星宇航空｜Our Fleet & Cabin Class",
+      "source_url": "https://www.starlux-airlines.com/en-ID/experience/walk-into-starlux/our-fleet/a350-1000",
+      "credit": "圖片版權歸原權利人；外部來源展示",
+      "verified_date": "2026-10-19",
+      "aircraft_types": [
+        "A350-1000"
       ]
     }
   ]
