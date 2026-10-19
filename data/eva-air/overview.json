@@ -336,6 +336,26 @@
         "as_of": null,
         "source_id": "fatigue",
         "scope": "一般航空知識"
+      },
+      {
+        "published_date": "2024-11-01",
+        "as_of": "2024-11-01",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "source": "長榮航空｜Corporate Safety Policy",
+        "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-policy-en_tcm33-84999.pdf",
+        "title": "自願通報與公正文化的界線",
+        "body": "政策承諾安全與保安自願通報的保密及非懲罰性，鼓勵及早揭露風險；同時明定不容許魯莽行為與蓄意違規。非懲罰性不等於所有行為均免責。"
+      },
+      {
+        "published_date": "2024-11-01",
+        "as_of": "2024-11-01",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "source": "長榮航空｜Corporate Safety Policy",
+        "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-policy-en_tcm33-84999.pdf",
+        "title": "安全責任與績效追蹤",
+        "body": "工作可適當授權，但主管最終安全責任不能轉移；各部門透過 SPI 追蹤趨勢並檢查控制措施成效。面試應用：通報之後還須追蹤改善結果，不能把送出報告當成風險已解除。"
       }
     ],
     "sms": [
@@ -545,28 +565,17 @@
     ],
     "safety": [
       {
-        "title": "公司方向待查核",
-        "body": "Data pending verification；尚未取得足以支持此主題公司目標的官方資料，不將一般航空知識當作公司政策。",
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "as_of": null,
-        "status": "unverified"
+        "published_date": "2024-11-01",
+        "as_of": "2024-11-01",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "source": "長榮航空｜Corporate Safety Policy",
+        "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-policy-en_tcm33-84999.pdf",
+        "title": "以 SMS、主動通報與績效監測持續改善",
+        "body": "2024-11-01 安全政策要求管理階層提供資源、各單位落實 SOP，並透過安全績效指標確認風險控制成效。「零事故」是追求的目標，不是未來安全保證。"
       }
     ],
     "esg": [
-      {
-        "title": "SAF 使用與未來目標分列",
-        "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",
-        "source": "長榮｜永續績效",
-        "source_url": "https://www.evacsr.com/en/esg/about03.html",
-        "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-11",
-        "status": "confirmed",
-        "source_id": "evaSaf"
-      },
       {
         "title": "SAF 使用與未來目標分列",
         "body": "2025 年 SAF 約占全年航空燃油消耗 0.5%。未來減碳目標不能當作已實現成果。",

@@ -34,5 +34,17 @@
     "verified_date": "2026-10-18",
     "as_of": null,
     "status": "confirmed"
+  },
+  {
+    "published_date": null,
+    "as_of": null,
+    "verified_date": "2026-10-20",
+    "status": "confirmed",
+    "name": "FRM 疲勞風險管理",
+    "purpose": "結合法定工時與休息限制、排班及運作監測、疲勞通報，持續辨識並降低疲勞風險。",
+    "meaning": "面試應用：即使未超過工時，仍應評估睡眠、夜間勤務與時差影響；不適任時依程序通報，不能只說「我能撐住」。",
+    "limit": "引用 EASA 作為一般航空知識；歐盟工時規則不直接等同台灣法規，也不據此宣稱三家公司均取得 FRMS 核准。",
+    "source": "EASA｜Fatigue Risk Management",
+    "source_url": "https://www.easa.europa.eu/en/domains/air-operations/fatigue-risk-management"
   }
 ]
