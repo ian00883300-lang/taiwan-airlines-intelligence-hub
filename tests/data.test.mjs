@@ -714,3 +714,16 @@ test('Imported preparation questions distinguish reviewed guidance from framewor
  assert.equal(knowledge.length,22);assert.equal(new Set(knowledge.map(x=>x.id)).size,22);
  for(const x of knowledge){assert.ok(x.source_url.startsWith('https://'));assert.ok(x.answer);assert.ok(x.caution);}
 });
+
+test("Lease commitment snapshots reconcile without becoming current ownership counts", () => {
+  const fleet = JSON.parse(fs.readFileSync("data/starlux/fleet.json", "utf8"));
+  const snapshot = fleet.ownership_summary;
+  assert.equal(snapshot.as_of, "2026-03-31");
+  for (const row of snapshot.rows) {
+    assert.equal(row.delivered + row.pending, row.total);
+  }
+  assert.equal(snapshot.rows[0].delivered, 20);
+  assert.notEqual(snapshot.as_of, fleet.items[0].as_of);
+  const eva = JSON.parse(fs.readFileSync("data/eva-air/fleet.json", "utf8"));
+  assert.equal(eva.items.find(x => x.aircraft_type === "A330-300").ownership.quantity, undefined);
+});

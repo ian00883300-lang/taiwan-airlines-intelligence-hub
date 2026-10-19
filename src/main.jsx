@@ -816,7 +816,7 @@ function Fleet({ a, tab }) {
           </div>
         </div>
       </div>
-      {f.ownership_summary && <section className="notice ownership-summary"><b>租賃與自有 · {f.ownership_summary.as_of}</b><p>{f.ownership_summary.value}</p><details><summary>範圍與來源</summary><p>{f.ownership_summary.note}</p><Source item={f.ownership_summary} compact /></details></section>}
+      {f.ownership_summary && <section className="notice ownership-summary"><b>{f.ownership_summary.rows ? "租賃與採購契約快照" : "租賃與自有"} · {f.ownership_summary.as_of}</b><p>{f.ownership_summary.value}</p>{f.ownership_summary.rows && <div className="table-wrap"><table><thead><tr><th>契約類別</th><th>已交付</th><th>待交付</th><th>合計</th></tr></thead><tbody>{f.ownership_summary.rows.map(row=><tr key={row.label}><th>{row.label}</th><td>{row.delivered}</td><td>{row.pending}</td><td>{row.total}</td></tr>)}</tbody></table></div>}<details><summary>範圍與來源</summary><p>{f.ownership_summary.note}</p><Source item={f.ownership_summary} compact /></details></section>}
       <p className="fineprint">租賃欄僅接受與機隊同日期、同公司範圍的統計；尚無可對照資料時顯示待查核。舊年度數量收在「歷史揭露」，不可與本期機隊相減推算自有數。</p><FleetStudy airline={a.id} fleet={f} Source={Source}/><SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
         {visibleAircraft.map((x) => (

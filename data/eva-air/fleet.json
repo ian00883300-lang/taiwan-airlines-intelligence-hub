@@ -670,6 +670,17 @@
         "as_of": null,
         "status": "confirmed",
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "ownership": {
+        "label": "已確認的出租人紀錄",
+        "value": "Avation 2026年5月簡報列對長榮出租1架A330-300，並披露雙方同意延長租期4年。",
+        "source": "Avation｜Corporate Update May 2026，第6、8頁",
+        "source_url": "https://www.avation.net/files/avap_corporate_pres_May_2026.pdf",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-19",
+        "status": "confirmed",
+        "note": "簡報僅標示2026年5月；不補造確切日期。1架是此出租人披露的範圍，不是長榮A330-300全部租賃數，也不表示新增1架。"
       }
     },
     {
