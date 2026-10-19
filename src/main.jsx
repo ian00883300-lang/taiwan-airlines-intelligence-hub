@@ -784,7 +784,7 @@ function Fleet({ a, tab }) {
                 <tr>
                   <th>機型</th>
                   <th>{a.id === "starlux" ? "登記數量" : "機隊數量"}</th>
-                  <th>租賃數量／揭露日</th>
+                  <th>同基準租賃數量</th>
                   <th>任務</th>
                   <th>基準日</th>
                 </tr>
@@ -800,7 +800,7 @@ function Fleet({ a, tab }) {
                         )?.quantity ??
                         "待查核"}
                     </td>
-                    <td>{x.ownership?.value?.match(/承租 (\d+) 架/)?.[1] || "待查核"}{x.ownership?.as_of && <> ／ {x.ownership.as_of}</>}{x.ownership && <Source item={x.ownership} compact />}</td><td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
+                    <td>{Number.isInteger(x.ownership?.quantity) && x.ownership.as_of === x.as_of && x.ownership.scope === "airline" ? x.ownership.quantity : "待查核"}{x.ownership && <><details className="lease-history"><summary>歷史揭露</summary><p>{x.ownership.value}</p><small>{x.ownership.as_of} · {x.ownership.note}</small></details><Source item={x.ownership} compact /></>}</td><td>{x.kind === "cargo" ? "貨運" : "客運"}</td>
                     <td>
                       {x.as_of ||
                         (f.composition_snapshot?.rows.some(
@@ -817,7 +817,7 @@ function Fleet({ a, tab }) {
         </div>
       </div>
       {f.ownership_summary && <section className="notice ownership-summary"><b>租賃與自有 · {f.ownership_summary.as_of}</b><p>{f.ownership_summary.value}</p><details><summary>範圍與來源</summary><p>{f.ownership_summary.note}</p><Source item={f.ownership_summary} compact /></details></section>}
-      <p className="fineprint">租賃欄為各來源的歷史揭露數，日期可能早於現役數；不可相減推算自有數，待查核不代表零。</p><FleetStudy airline={a.id} fleet={f} Source={Source}/><SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
+      <p className="fineprint">租賃欄僅接受與機隊同日期、同公司範圍的統計；尚無可對照資料時顯示待查核。舊年度數量收在「歷史揭露」，不可與本期機隊相減推算自有數。</p><FleetStudy airline={a.id} fleet={f} Source={Source}/><SectionTitle title="機型資料卡" en="Aircraft technical knowledge" />
       <div className="aircraft-gallery">
         {visibleAircraft.map((x) => (
           <article className="aircraft-card" key={x.aircraft_type}>

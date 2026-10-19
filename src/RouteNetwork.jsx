@@ -138,7 +138,6 @@ export default function RouteNetwork({ initial = "all", Source }) {
     ).addTo(map);
     tiles.on("tileerror", () => setTileError(true));
     const labelledAirports = new Set();
-    const airportLabels = [];
     for (const r of filtered) {
       const from = airports.items[r.origin],
         to = airports.items[r.destination],
@@ -164,7 +163,6 @@ export default function RouteNetwork({ initial = "all", Source }) {
         .bindPopup(content);
       if (!labelledAirports.has(r.destination)) {
         marker.bindTooltip(r.destination, {permanent:true, direction:"right", className:"airport-label", offset:[8,0]});
-        airportLabels.push(marker);
         labelledAirports.add(r.destination);
       }
     }
@@ -179,26 +177,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
         .addTo(map)
         .bindPopup(code + " " + a.name)
         .bindTooltip(code, {permanent:true,direction:"left",className:"airport-label airport-origin",offset:[-8,0]});
-      airportLabels.unshift(originMarker);
     }
-    const arrangeLabels = () => {
-      const occupied = [];
-      for (const marker of airportLabels) {
-        const tooltip = marker.getTooltip();
-        const el = tooltip?.getElement();
-        if (!el) continue;
-        const box = el.getBoundingClientRect();
-        const overlaps = occupied.some(b => box.left < b.right + 3 && box.right + 3 > b.left && box.top < b.bottom + 3 && box.bottom + 3 > b.top);
-        tooltip.setOpacity(overlaps ? 0 : 0.95);
-        if (!overlaps) occupied.push(box);
-      }
-    };
-    map.on("zoomend moveend resize", arrangeLabels);
-    const labelFrame = requestAnimationFrame(arrangeLabels);
     const resize = new ResizeObserver(() => map.invalidateSize({pan:false, debounceMoveend:true}));
     resize.observe(ref.current);
     return () => {
-      cancelAnimationFrame(labelFrame);
       resize.disconnect();
       mapRef.current = null;
       map.remove();
@@ -207,7 +189,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
   return (
     <section className="route-network" aria-label="自營客運航圖與航線表">
       <p className="fineprint">
-        機場以 IATA 代碼標示；放大可展開密集區域的標籤，點選圓點查看中文機場名稱。地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。
+        機場代碼在所有縮放層級均顯示；密集區域可放大或篩選航線，點選圓點查看中文機場名稱。地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。
       </p>
       {air === "china-airlines" && <section className="official-network" aria-label="華航官方航網統計">
         <h3>官方全球航網 · 含合作與貨運</h3>
