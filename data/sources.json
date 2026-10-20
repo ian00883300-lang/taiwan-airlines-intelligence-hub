@@ -1914,5 +1914,16 @@
     "verified_date": "2026-10-20",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "jxFleetOutlook20261020",
+    "source": "中央社｜2026-10-20 星宇公關長訪談",
+    "source_url": "https://www.cna.com.tw/news/afe/202610200128.aspx",
+    "published_date": "2026-10-20",
+    "as_of": "2026-10-20",
+    "verified_date": "2026-10-20",
+    "status": "announced",
+    "source_id": "jxFleetOutlook20261020",
+    "level": 2
   }
 ]

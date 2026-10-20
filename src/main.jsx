@@ -1090,6 +1090,7 @@ function Airline({ a, tab = "overview", openInterview }) {
             "機師養成路線",
             <TrainingPath airline={a.id} Source={Source} />,
           )}
+          {part("公司培訓與準備重點", <TopicTables a={a} keys={["cadet"]} />)}
           {part("人才與職涯", facts(["employees"]))}
         </>
       ) : group.id === "esg" ? (
@@ -1108,6 +1109,7 @@ function Airline({ a, tab = "overview", openInterview }) {
       ) : group.id === "strategy" ? (
         <>
           {<StrategyResearch airline={a.id} Source={Source} />}
+          {part("公司方向與風險重點", <TopicTables a={a} keys={["strategy", "advantages", "risks", "future"]} />)}
           {part(
             "已查核動態",
             <>
