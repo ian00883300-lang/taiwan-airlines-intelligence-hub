@@ -584,15 +584,44 @@
     ],
     "cadet": [
       {
-        "title": "三階段培訓",
-        "body": "地面學科、基礎飛行、進階與機型轉換；完成後以副機長任用。各階段須達成訓練要求。",
-        "source": "長榮｜飛航人員招募",
+        "title": "第一階段：地面學科約四個月",
+        "body": "官網列在公司訓練中心集中住宿、接受航空基礎教育；通過後才進入下一階段。",
+        "source": "長榮航空｜飛航人員招募",
         "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
         "published_date": null,
-        "verified_date": "2026-10-11",
-        "status": "confirmed",
         "as_of": null,
-        "source_id": "evaRecruit"
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "第二階段：赴美基礎飛行約四至五個月",
+        "body": "完成地面學科後赴美國飛行訓練基地。此為官網公開概估，實際梯次、進度與安排仍以公司通知為準。",
+        "source": "長榮航空｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "第三階段：進階與機型轉換約十二至十四個月",
+        "body": "返台接受地面學科、模擬機及所屬機型航路訓練，時程依機種而異；完訓後以副機長任用。不能把模擬機訓練期間換算為實機飛行時數。",
+        "source": "長榮航空｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "培訓學員與一般飛航員分開準備",
+        "body": "無飛行經驗者走培訓飛航學員管道；軍退或自學飛行者屬一般飛航員，官網列進階及轉換訓練約十至十二個月。兩類資格與訓練時程不能混用。",
+        "source": "長榮航空｜飛航人員招募",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "interview": [],

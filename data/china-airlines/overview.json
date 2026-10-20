@@ -437,6 +437,26 @@
         "source_id": "ciCargoAi",
         "title": "貨運AI客服與數位服務",
         "body": "2026年6月15日官方公告貨運AI客服於官網與App上線，服務包括航班資訊、貨況追蹤及知識問答，支援多語系與24小時查詢。這是客服查詢能力，不代表貨物自動核准承運、保證艙位或已完成報關。"
+      },
+      {
+        "title": "冷鏈運送：主動式與被動式溫控",
+        "body": "2021 年官方公告介紹主動式溫控貨櫃，以及使用隔熱材料、相變材料的被動式貨櫃；搭配乾冰可支援特定超低溫需求。這是歷史服務能力說明，不是所有貨艙、貨物或航班都維持相同溫度。",
+        "source": "華航企業永續網｜超低溫冷鏈服務公告",
+        "source_url": "https://calec.china-airlines.com/csr/en/news20210201.html",
+        "published_date": "2021-02-01",
+        "as_of": "2021-02-01",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
+      },
+      {
+        "title": "冷鏈品質：裝機前到交接的連續管理",
+        "body": "官方強調出貨前評估場站能力、人員訓練、運送監控及倉儲優先處理。面試重點是航空公司、倉儲與地勤如何維持溫控與交接紀錄；不能把冷鏈能力簡化成飛機有冷氣。",
+        "source": "華航企業永續網｜超低溫冷鏈服務公告",
+        "source_url": "https://calec.china-airlines.com/csr/en/news20210201.html",
+        "published_date": "2021-02-01",
+        "as_of": "2021-02-01",
+        "verified_date": "2026-10-20",
+        "status": "confirmed"
       }
     ],
     "maintenance": [

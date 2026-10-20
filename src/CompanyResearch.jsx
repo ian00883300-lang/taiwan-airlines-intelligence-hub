@@ -341,13 +341,13 @@ function CargoCapabilities({ airline, Source }) {
   return (
     <section
       className="cargo-capabilities mobile-records"
-      aria-label="星宇貨運CEIV認證與研究重點"
+      aria-label={`${names[airline]}貨運CEIV認證與研究重點`}
     >
       <h3>特殊貨物與CEIV能力</h3>
       <p>{record.scope}</p>
       <div className="table-wrap research-table">
         <table>
-          <caption>2025年報 · 貨種與研究重點</caption>
+          <caption>{names[airline]} · 貨種與研究重點</caption>
           <thead>
             <tr>
               <th scope="col">認證</th>

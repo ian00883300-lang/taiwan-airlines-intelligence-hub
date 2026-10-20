@@ -751,7 +751,39 @@
             "evaAlliance"
           ]
         }
-      ]
+      ],
+      "cargo_capabilities": {
+        "source": "長榮航空｜CEIV Fresh 與 Live Animals 雙認證公告",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2025-11-28-evaair-eacs-easc-earn-iata-ceiv-fresh-and-live-animals-certifications.html",
+        "published_date": "2025-11-28",
+        "as_of": "2025-11-28",
+        "verified_date": "2026-10-20",
+        "status": "confirmed",
+        "scope": "2025年11月公告確認長榮航空取得四項CEIV認證；長榮空運倉儲與長榮航勤共同取得其中鋰電池、生鮮及活生動物三項。",
+        "rows": [
+          {
+            "certification": "CEIV Pharma",
+            "focus": "醫藥冷鏈",
+            "research_focus": "溫控、交接與溫度偏離管理"
+          },
+          {
+            "certification": "CEIV Fresh",
+            "focus": "生鮮貨物",
+            "research_focus": "時效、貨種適配與品質維持"
+          },
+          {
+            "certification": "CEIV Live Animals",
+            "focus": "活生動物",
+            "research_focus": "動物照護、容器與地面交接"
+          },
+          {
+            "certification": "CEIV Lithium Batteries",
+            "focus": "鋰電池",
+            "research_focus": "危險品分類、包裝與安全程序"
+          }
+        ],
+        "note": "右欄為研究分析框架。航空公司、倉儲與地勤分工不同；此處記錄取得認證的公告，未推定所有海外場站均在同一證書範圍，也不代表每種貨物都可無條件承運。"
+      }
     },
     "starlux": {
       "timeline": [
