@@ -30,16 +30,16 @@
     "note": "本版未查得足以確認當前正式聯盟會員身分的官方資料；共掛班號不等於加入聯盟。"
   },
   "total": {
-    "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
-    "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
-    "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
-    "published_date": "2026-10-07",
-    "verified_date": "2026-10-13",
-    "as_of": "2026-09-30",
+    "source": "MoneyDJ｜星宇公關長機隊說明",
+    "source_url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+    "published_date": "2026-10-20",
+    "as_of": "2026-10-20",
+    "verified_date": "2026-10-21",
     "status": "confirmed",
-    "label": "登記機隊總數",
-    "value": 37,
-    "note": "CAA 2026-09-30 名冊：13 A321neo、10 A330-900、10 A350-900、4 A350-1000；非即時可用架數。"
+    "label": "公司受訪機隊總數",
+    "value": 38,
+    "note": "公司 10 月 20 日受訪總數 38 架；分型以 9 月底登記名冊加上 B-58555 抵台紀錄補充，A350-1000 更新為五架。非同日官方登記統計或即時可用架數。",
+    "date_precision": "day"
   },
   "age": {
     "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",

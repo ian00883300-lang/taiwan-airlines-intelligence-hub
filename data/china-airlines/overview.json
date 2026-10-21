@@ -536,6 +536,28 @@
         "status": "confirmed",
         "title": "華航 TotalCare：36 具 Trent XWB 的支援安排",
         "body": "Rolls-Royce 2026-02-04 公告合約涵蓋 30 具 XWB-97 與 6 具 XWB-84，對應 15 架 A350-1000 及 3 架 A350-900。這是發動機服務合約範圍，不代表 18 架飛機均已交付；文中當時機隊數也不是今日機隊數。"
+      },
+      {
+        "title": "修護品質：拆卸到測試的完整流程",
+        "body": "華航公開介紹拆卸、檢查、維護、回裝與測試，以及起落架更換和零件檢測。研究重點是作業後仍需驗證與紀錄，不能將「零件已換好」直接等同放行。",
+        "source": "華航｜修護流程與訓練公開介紹",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+        "published_date": "2026-10-06",
+        "as_of": "2026-10-06",
+        "verified_date": "2026-10-21",
+        "status": "confirmed",
+        "source_id": "ciMroDocumentary20261006"
+      },
+      {
+        "title": "24 小時修管與 MR 修護訓練",
+        "body": "官方介紹全天修管中心監控全球機隊運行，修護訓練中心以混合實境（MR）與模擬設備協助人才培育。這是公開介紹的支援能力，不代表數位工具可取代合格人員的檢查與放行責任。",
+        "source": "華航｜修護流程與訓練公開介紹",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+        "published_date": "2026-10-06",
+        "as_of": "2026-10-06",
+        "verified_date": "2026-10-21",
+        "status": "confirmed",
+        "source_id": "ciMroDocumentary20261006"
       }
     ],
     "safety": [
@@ -666,6 +688,17 @@
         "source_id": "ciEnvironmentPerformance2025",
         "corroboration_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html",
         "note": "已確認來源存在差異，尚未確認何者正確。2027 差異見氣候頁地面作業減量目標與生物多樣性指標表。"
+      },
+      {
+        "title": "旅客參與：Eco Travel 與輕旅行點數",
+        "body": "2026 年 10 月 15 日公告新增自願碳抵換點數回饋，與其他任務合計達八點可享官網購票優惠。這是會員參與機制，不等於提高華夏會籍，也不能把碳抵換當作飛機本身已減少等量燃油。",
+        "source": "華航｜Eco Travel 輕旅行點數回饋",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20261015.html",
+        "published_date": "2026-10-15",
+        "as_of": "2026-10-15",
+        "verified_date": "2026-10-21",
+        "status": "confirmed",
+        "source_id": "ciEcoTravel20261015"
       }
     ],
     "saf": [

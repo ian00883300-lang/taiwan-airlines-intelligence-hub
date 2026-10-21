@@ -1957,5 +1957,49 @@
     "status": "confirmed",
     "source_id": "evaFleetGlobal202610",
     "level": 1
+  },
+  {
+    "id": "jxB58555Observed",
+    "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
+    "source_url": "https://www.jetphotos.com/registration/B-58555",
+    "published_date": "2026-10-17",
+    "as_of": "2026-10-17",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "jxB58555Observed",
+    "level": 2
+  },
+  {
+    "id": "ciEcoTravel20261015",
+    "source": "華航｜Eco Travel 輕旅行點數回饋",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20261015.html",
+    "published_date": "2026-10-15",
+    "as_of": "2026-10-15",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "ciEcoTravel20261015",
+    "level": 1
+  },
+  {
+    "id": "ciMroDocumentary20261006",
+    "source": "華航｜修護流程與訓練公開介紹",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
+    "published_date": "2026-10-06",
+    "as_of": "2026-10-06",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "ciMroDocumentary20261006",
+    "level": 1
+  },
+  {
+    "id": "jxKulUpgrade20260930",
+    "source": "星宇官方航線頁｜台北—吉隆坡每日 A330neo",
+    "source_url": "https://www.starlux-airlines.com/flights/en-tw/flights-from-taipei-to-kuala-lumpur",
+    "published_date": null,
+    "as_of": "2026-09-30",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "jxKulUpgrade20260930",
+    "level": 1
   }
 ]

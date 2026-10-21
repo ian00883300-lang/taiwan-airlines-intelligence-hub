@@ -572,7 +572,7 @@
       "source_url": "https://www.cna.com.tw/business/chinese/446043",
       "published_date": "2026-10-05",
       "as_of": "2026-10-05",
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-21",
       "status": "confirmed",
       "source_id": "jxKulOct2026",
       "event_ids": [
@@ -594,19 +594,20 @@
         "valid_to": "2023-12-31",
         "note": " 歷史公告配置，不代表今日派飛；原表 A32Q/A339/A359 分別對應 A321neo/A330-900/A350-900。"
       },
-      "aircraft": "A330-900（2026-10-05 公布 A330neo 配置）",
+      "aircraft": "A330-900（官網列 2026-09-30 起升級）",
       "aircraft_evidence": {
-        "source": "星宇航空官方供稿｜吉隆坡廣體每日航班（中央社訊息平台）",
-        "source_url": "https://www.cna.com.tw/business/chinese/446043",
-        "published_date": "2026-10-05",
-        "as_of": "2026-10-05",
-        "verified_date": "2026-10-14",
+        "source": "星宇官方航線頁｜台北—吉隆坡每日 A330neo",
+        "source_url": "https://www.starlux-airlines.com/flights/en-tw/flights-from-taipei-to-kuala-lumpur",
+        "published_date": null,
+        "as_of": "2026-09-30",
+        "verified_date": "2026-10-21",
         "status": "confirmed",
-        "source_id": "jxKulOct2026",
-        "value": "A330neo（星宇 A330-900）"
+        "source_id": "jxKulUpgrade20260930",
+        "value": "A330neo（星宇 A330-900）",
+        "note": "官方航線頁明列 9 月 30 日起升級每日廣體服務；10 月 5 日新聞稿日期不是換機型生效日。"
       },
-      "aircraft_note": "10 月 5 日官方稿公布每日一班 A330neo；2023 年 A321neo 班表另保留於歷史資料。",
-      "aircraft_source_url": "https://www.cna.com.tw/business/chinese/446043"
+      "aircraft_note": "官方航線頁明列 9 月 30 日起升級每日廣體服務；10 月 5 日新聞稿日期不是換機型生效日。",
+      "aircraft_source_url": "https://www.starlux-airlines.com/flights/en-tw/flights-from-taipei-to-kuala-lumpur"
     },
     {
       "id": "starlux-TPE-DAD",

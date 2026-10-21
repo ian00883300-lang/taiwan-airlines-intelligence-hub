@@ -813,16 +813,16 @@
     },
     {
       "aircraft_type": "A350-1000",
-      "current_fleet": 4,
+      "current_fleet": 5,
       "service_state": "current",
       "kind": "passenger",
-      "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
-      "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
-      "published_date": "2026-10-07",
-      "verified_date": "2026-10-13",
+      "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
+      "source_url": "https://www.jetphotos.com/registration/B-58555",
+      "published_date": "2026-10-17",
+      "verified_date": "2026-10-21",
       "status": "confirmed",
-      "as_of": "2026-09-30",
-      "source_id": null,
+      "as_of": "2026-10-17",
+      "source_id": "jxB58555Observed",
       "engine": {
         "label": "發動機",
         "value": "Rolls-Royce Trent XWB-97",
@@ -919,7 +919,7 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "現役機型與數量需由同一日期官方清單確認；見下方歷史快照與交付事件。",
+      "note": "9 月底民航局名冊四架，加上 10 月 17 日桃園觀察到的 B-58555，共五架；屬公開資料交叉核對，非新版民航局登記統計，也不代表五架當天全可執飛。",
       "photo": {
         "source": "星宇航空｜官方機隊介紹",
         "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
@@ -978,12 +978,12 @@
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       },
       "registrations": {
-        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
-        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
+        "source_url": "https://www.jetphotos.com/registration/B-58555",
         "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
-        "published_date": "2026-10-07",
-        "verified_date": "2026-10-13",
-        "as_of": "2026-09-30",
+        "published_date": "2026-10-17",
+        "verified_date": "2026-10-21",
+        "as_of": "2026-10-17",
         "status": "confirmed",
         "label": "機身註冊編號",
         "records": [
@@ -1034,9 +1034,29 @@
               "source_id": "jxAirsorayamaAnnouncement",
               "value": "2026-01-27 官方公布 B-58554 為 AIRSORAYAMA Gold（金色）藝術機，與空山基合作；塗裝以特殊雲母及多層塗佈呈現金屬效果。當時預計第三季投入營運，公告日不是交付日或首航日。"
             }
+          },
+          {
+            "airline": "星宇航空",
+            "tail": "B-58555",
+            "type": "A350-1000",
+            "manufactured": null,
+            "age_years": null,
+            "msn": 805,
+            "history": {
+              "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
+              "source_url": "https://www.jetphotos.com/registration/B-58555",
+              "published_date": "2026-10-17",
+              "as_of": "2026-10-17",
+              "verified_date": "2026-10-21",
+              "status": "confirmed",
+              "source_id": "jxB58555Observed",
+              "value": "10 月 17 日桃園實拍可辨識 B-58555、A350-1041、MSN 805；Planespotters 記載 10 月 16–17 日由土魯斯飛渡桃園。抵台、契約交付與首次載客日期不能混用。未取得出廠日與民航局機齡，不以抵台日代填。",
+              "cross_check_url": "https://www.planespotters.net/airframe/airbus-a350-1000-b-58555-starlux-airlines/e5zjnx"
+            }
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "B-58551 至 B-58554 沿用 2026-09-30 民航局名冊；B-58555 以 2026-10-17 公開攝影與機隊紀錄補入。各機機齡保留原基準，不推定最新值。",
+        "source_id": "jxB58555Observed"
       },
       "ownership": {
         "source": null,
@@ -1181,7 +1201,7 @@
     "status": "confirmed",
     "label": "公司受訪機隊總數",
     "value": 38,
-    "note": "媒體引述公關長確認第 38 架已抵台且為自購。這不是民航局當月登記快照；新增機身編號與分型仍待正式資料核對。",
+    "note": "公司 10 月 20 日受訪總數 38 架；分型以 9 月底登記名冊加上 B-58555 抵台紀錄補充，A350-1000 更新為五架。非同日官方登記統計或即時可用架數。",
     "date_precision": "day"
   },
   "composition_snapshot": {

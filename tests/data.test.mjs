@@ -22,7 +22,7 @@ test("STARLUX workforce snapshots reconcile and do not become current fleet stat
   const overview = JSON.parse(
     fs.readFileSync("data/starlux/overview.json", "utf8"),
   );
-  assert.equal(overview.total.value, 37);
+  assert.equal(overview.total.value, 38);
   assert.ok(overview.sections.renewal.every((x) => x.status === "planned"));
   const fleet = JSON.parse(fs.readFileSync("data/starlux/fleet.json", "utf8"));
   const cargo = fleet.orders.find((x) => x.aircraft_type === "A350F");
@@ -403,14 +403,14 @@ test("Passenger and cargo sums match dated current fleet totals, excluding all o
     );
   }
 });
-test("STARLUX dated 37 registrations exclude historical counts and orders", () => {
+test("STARLUX updated 38-aircraft fleet preserves the 37-aircraft registry snapshot", () => {
   const a = read("data/starlux/overview.json"),
     f = read("data/starlux/fleet.json");
-  assert.equal(a.total.value, 37);
+  assert.equal(a.total.value, 38);
   assert.equal(a.total.status, "confirmed");
   assert.equal(
     f.items.reduce((n, x) => n + x.current_fleet, 0),
-    37,
+    38,
   );
   assert.equal(f.history[0].as_of, "2025-12-31");
   assert.equal(f.orders[0].delivery_state, "order_program");
@@ -425,7 +425,7 @@ test("STARLUX dated 37 registrations exclude historical counts and orders", () =
     assert.equal(new Set(tails).size, tails.length);
     for (const x of items) {
       assert.equal(x.registrations.records.length, x.current_fleet);
-      assert.equal(x.registrations.as_of, "2026-09-30");
+      assert.equal(x.registrations.as_of, id === "starlux" && x.aircraft_type === "A350-1000" ? "2026-10-17" : "2026-09-30");
     }
   }
   assert.equal(f.composition_snapshot.as_of, "2026-09-30");

@@ -9,6 +9,8 @@ try {
   page.on("pageerror", (error) => errors.push(error.message));
   // Data validation alone cannot detect research sections omitted by the UI.
   const cases = [
+    ["china-airlines/esg", "旅客參與：Eco Travel 與輕旅行點數"],
+    ["china-airlines/operations", "24 小時修管與 MR 修護訓練"],
     ["eva-air/cadet", "第三階段：進階與機型轉換"],
     ["starlux/cadet", "筆試準備的官方範圍"],
     ["china-airlines/cadet", "FOQA：用日常飛航資料改善訓練"],

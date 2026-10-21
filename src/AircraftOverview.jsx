@@ -44,8 +44,8 @@ export default function AircraftOverview({ aircraft: x, Source }) {
               {registrations.map((r) => (
                 <div key={r.tail}>
                   <strong>{r.tail}</strong>
-                  <span>出廠 {r.manufactured}</span>
-                  <span>機齡 {r.age_years.toFixed(2)} 年</span>
+                  <span>出廠 {r.manufactured || "待查核"}</span>
+                  <span>機齡 {Number.isFinite(r.age_years) ? `${r.age_years.toFixed(2)} 年` : "待查核"}</span>
                   <span>型別 {r.type}</span>
                   {r.history && (
                     <details>
