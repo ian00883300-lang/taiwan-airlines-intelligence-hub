@@ -1,6 +1,508 @@
 {
   "items": [
     {
+      "aircraft_type": "777-300ER",
+      "current_fleet": 10,
+      "service_state": "current",
+      "kind": "passenger",
+      "source": "中華航空｜營運概況",
+      "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+      "published_date": null,
+      "verified_date": "2026-10-19",
+      "status": "confirmed",
+      "as_of": "2026-09-30",
+      "source_id": "ciFleet",
+      "engine": {
+        "label": "使用引擎",
+        "value": "GE90-115B",
+        "source": "Boeing｜華航聯名塗裝 777 交付",
+        "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
+        "published_date": "2016-05-16",
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
+      },
+      "typical_seats": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "358 席（官網列示配置）",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
+      },
+      "range": {
+        "label": "航程（製造商標準；非保證航線）",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "role": "客運 Passenger",
+      "main_routes": {
+        "label": "航線與任務",
+        "value": "長程客運例：2025-11-19 彩繪機首航台北—洛杉磯，官方當時公告主要派飛洛杉磯。",
+        "source": "華航｜彩繪機首航",
+        "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
+        "published_date": "2025-11-19",
+        "as_of": null,
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史派飛紀錄；不是 2026 年完整或即時班表。"
+      },
+      "first_delivery": {
+        "label": "首次交付",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "average_age": {
+        "label": "平均機齡",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "replacement_plan": {
+        "label": "替換計畫",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "future_orders": {
+        "label": "待交訂單",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-777-300er.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-777-300ER_tcm538-68199.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 777 家族的加長航程廣體雙發客機，採雙走道客艙；與 777F 分屬客運和貨運版本，各航空公司及航機的艙等配置可以不同。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/777",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
+        "layouts": [
+          {
+            "name": "官網列示配置",
+            "total": 358,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 40
+              },
+              {
+                "name": "豪華經濟艙",
+                "seats": 62
+              },
+              {
+                "name": "經濟艙",
+                "seats": 256
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B777-300ER_20260820_tcm517-67240.jpg"
+          }
+        ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18001",
+            "type": "B777-300ER",
+            "manufactured": "2015-05-22",
+            "age_years": 11.355555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18002",
+            "type": "B777-300ER",
+            "manufactured": "2015-06-30",
+            "age_years": 11.25
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18003",
+            "type": "B777-300ER",
+            "manufactured": "2015-08-25",
+            "age_years": 11.097222222222221
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18005",
+            "type": "B777-300ER",
+            "manufactured": "2015-10-29",
+            "age_years": 10.919444444444444
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18006",
+            "type": "B777-300ER",
+            "manufactured": "2016-01-19",
+            "age_years": 10.697222222222223
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18007",
+            "type": "B777-300ER",
+            "manufactured": "2016-05-16",
+            "age_years": 10.372222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18051",
+            "type": "B777-300ER",
+            "manufactured": "2014-09-30",
+            "age_years": 12
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18052",
+            "type": "B777-300ER",
+            "manufactured": "2014-10-23",
+            "age_years": 11.936111111111112
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18053",
+            "type": "B777-300ER",
+            "manufactured": "2014-11-24",
+            "age_years": 11.85
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18055",
+            "type": "B777-300ER",
+            "manufactured": "2015-01-14",
+            "age_years": 11.71111111111111
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 777-300ER 承租 10 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
+      },
+      "design": {
+        "source": "華航｜2015永續報告・新機隊客艙設計，第47頁",
+        "source_url": "https://calec.china-airlines.com/csr/download/2015/2015-CSR.pdf",
+        "published_date": null,
+        "verified_date": "2026-10-16",
+        "as_of": null,
+        "status": "confirmed",
+        "theme": "宋代文人美學：三個連續的生活場景",
+        "value": "商務艙以書齋與閱讀燈營造私人閱讀空間；豪華經濟艙取意山間書院；經濟艙對應市井生活。",
+        "elements": "客艙與以宋代器物為靈感的餐具共同傳達文化識別，讓設計主題延伸至服務物件。",
+        "interview": "重點是跨艙等一致的品牌故事，不把文化美學直接等同飛安或營運績效。",
+        "note": "此為新世代客艙歷史設計理念；非逐架飛機今日內裝檢查結果。"
+      }
+    },
+    {
+      "aircraft_type": "737-800",
+      "current_fleet": 6,
+      "service_state": "current",
+      "kind": "passenger",
+      "source": "中華航空｜營運概況",
+      "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+      "published_date": null,
+      "verified_date": "2026-10-19",
+      "status": "confirmed",
+      "as_of": "2026-09-30",
+      "source_id": "ciFleet",
+      "engine": {
+        "label": "使用引擎",
+        "value": "CFM56-7B",
+        "source": "華航｜2025 第四次法人說明會",
+        "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
+      },
+      "typical_seats": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "官方座位配置",
+        "value": "158 席（配置一）／161 席（配置二）",
+        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
+      },
+      "range": {
+        "label": "航程（製造商標準；非保證航線）",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "role": "客運 Passenger",
+      "main_routes": {
+        "label": "航線與任務",
+        "value": "區域客運例：2023 年公告高雄—首爾金浦 CI184/185 自 7 月 6 日起採此機型。",
+        "source": "華航｜高雄航線公告",
+        "source_url": "https://calec.china-airlines.com/csr/news20230515.html",
+        "published_date": "2023-05-15",
+        "as_of": null,
+        "verified_date": "2026-10-13",
+        "status": "confirmed",
+        "note": "歷史開航公告；當前同航線派飛機型待查核。"
+      },
+      "first_delivery": {
+        "label": "首次交付",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "average_age": {
+        "label": "平均機齡",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "replacement_plan": {
+        "label": "替換計畫",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "future_orders": {
+        "label": "待交訂單",
+        "value": null,
+        "source": null,
+        "source_url": null,
+        "published_date": null,
+        "verified_date": null,
+        "status": "unverified",
+        "as_of": null,
+        "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      "photo": {
+        "source": "中華航空｜官方營運機隊",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "status": "confirmed",
+        "as_of": null,
+        "image_url": "aircraft/china-airlines-737-800.jpg",
+        "description": "官方機型示意圖（非實機攝影）",
+        "credit": "© China Airlines，圖片權利屬原航空公司",
+        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-737-800_tcm538-68197.jpg"
+      },
+      "introduction": {
+        "label": "機型介紹",
+        "value": "波音 737 Next Generation 家族的單走道客機；737-800 與 737 MAX 8 為不同世代，研究時應分清機型名稱及引擎系列。",
+        "source": "機型簡介｜依官方機型資料整理",
+        "source_url": "https://www.boeing.com/commercial/737ng",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
+      },
+      "cabin_configurations": {
+        "source": "中華航空｜官方座位圖",
+        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
+        "published_date": null,
+        "verified_date": "2026-10-12",
+        "as_of": null,
+        "status": "confirmed",
+        "label": "總座位數與艙等配置",
+        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
+        "layouts": [
+          {
+            "name": "配置一",
+            "total": 158,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 150
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
+          },
+          {
+            "name": "配置二",
+            "total": 161,
+            "cabins": [
+              {
+                "name": "商務艙",
+                "seats": 8
+              },
+              {
+                "name": "經濟艙",
+                "seats": 153
+              }
+            ],
+            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
+          }
+        ]
+      },
+      "registrations": {
+        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
+        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
+        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
+        "published_date": "2026-10-07",
+        "verified_date": "2026-10-13",
+        "as_of": "2026-09-30",
+        "status": "confirmed",
+        "label": "機身註冊編號",
+        "records": [
+          {
+            "airline": "中華航空",
+            "tail": "B-18651",
+            "type": "B737-800",
+            "manufactured": "2013-04-16",
+            "age_years": 13.455555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18652",
+            "type": "B737-800",
+            "manufactured": "2013-05-16",
+            "age_years": 13.372222222222222
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18653",
+            "type": "B737-800",
+            "manufactured": "2013-06-28",
+            "age_years": 13.255555555555556
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18660",
+            "type": "B737-800",
+            "manufactured": "2016-03-15",
+            "age_years": 10.541666666666666
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18663",
+            "type": "B737-800",
+            "manufactured": "2016-10-20",
+            "age_years": 9.944444444444445
+          },
+          {
+            "airline": "中華航空",
+            "tail": "B-18665",
+            "type": "B737-800",
+            "manufactured": "2016-11-14",
+            "age_years": 9.877777777777778
+          }
+        ],
+        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+      },
+      "ownership": {
+        "id": "ciFinancial2025",
+        "source": "華航｜2025／2024 合併財務報表",
+        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
+        "level": 1,
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-15",
+        "status": "confirmed",
+        "source_id": "ciFinancial2025",
+        "label": "租賃紀錄",
+        "value": "2025 年末合併財報列 737-800 承租 10 架。",
+        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
+      }
+    },
+    {
       "aircraft_type": "A350-900",
       "current_fleet": 17,
       "service_state": "current",
@@ -636,508 +1138,6 @@
         "source_id": "ciFinancial2025",
         "label": "租賃紀錄",
         "value": "2025 年末合併財報列 A330-300 承租 13 架。",
-        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
-      }
-    },
-    {
-      "aircraft_type": "777-300ER",
-      "current_fleet": 10,
-      "service_state": "current",
-      "kind": "passenger",
-      "source": "中華航空｜營運概況",
-      "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
-      "published_date": null,
-      "verified_date": "2026-10-19",
-      "status": "confirmed",
-      "as_of": "2026-09-30",
-      "source_id": "ciFleet",
-      "engine": {
-        "label": "使用引擎",
-        "value": "GE90-115B",
-        "source": "Boeing｜華航聯名塗裝 777 交付",
-        "source_url": "https://boeing.mediaroom.com/2016-05-16-Boeing-China-Airlines-Celebrate-Delivery-of-Worlds-First-Co-Branded-777",
-        "published_date": "2016-05-16",
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
-      },
-      "typical_seats": {
-        "source": "中華航空｜官方座位圖",
-        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "label": "官方座位配置",
-        "value": "358 席（官網列示配置）",
-        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
-      },
-      "range": {
-        "label": "航程（製造商標準；非保證航線）",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "role": "客運 Passenger",
-      "main_routes": {
-        "label": "航線與任務",
-        "value": "長程客運例：2025-11-19 彩繪機首航台北—洛杉磯，官方當時公告主要派飛洛杉磯。",
-        "source": "華航｜彩繪機首航",
-        "source_url": "https://www.china-airlines.com/nz/zh/about-china-airlines/media/news/20251119",
-        "published_date": "2025-11-19",
-        "as_of": null,
-        "verified_date": "2026-10-13",
-        "status": "confirmed",
-        "note": "歷史派飛紀錄；不是 2026 年完整或即時班表。"
-      },
-      "first_delivery": {
-        "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "average_age": {
-        "label": "平均機齡",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "replacement_plan": {
-        "label": "替換計畫",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "future_orders": {
-        "label": "待交訂單",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "photo": {
-        "source": "中華航空｜官方營運機隊",
-        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "status": "confirmed",
-        "as_of": null,
-        "image_url": "aircraft/china-airlines-777-300er.jpg",
-        "description": "官方機型示意圖（非實機攝影）",
-        "credit": "© China Airlines，圖片權利屬原航空公司",
-        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-777-300ER_tcm538-68199.jpg"
-      },
-      "introduction": {
-        "label": "機型介紹",
-        "value": "波音 777 家族的加長航程廣體雙發客機，採雙走道客艙；與 777F 分屬客運和貨運版本，各航空公司及航機的艙等配置可以不同。",
-        "source": "機型簡介｜依官方機型資料整理",
-        "source_url": "https://www.boeing.com/commercial/777",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
-      },
-      "cabin_configurations": {
-        "source": "中華航空｜官方座位圖",
-        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "label": "總座位數與艙等配置",
-        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
-        "layouts": [
-          {
-            "name": "官網列示配置",
-            "total": 358,
-            "cabins": [
-              {
-                "name": "商務艙",
-                "seats": 40
-              },
-              {
-                "name": "豪華經濟艙",
-                "seats": 62
-              },
-              {
-                "name": "經濟艙",
-                "seats": 256
-              }
-            ],
-            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B777-300ER_20260820_tcm517-67240.jpg"
-          }
-        ]
-      },
-      "registrations": {
-        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
-        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
-        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
-        "published_date": "2026-10-07",
-        "verified_date": "2026-10-13",
-        "as_of": "2026-09-30",
-        "status": "confirmed",
-        "label": "機身註冊編號",
-        "records": [
-          {
-            "airline": "中華航空",
-            "tail": "B-18001",
-            "type": "B777-300ER",
-            "manufactured": "2015-05-22",
-            "age_years": 11.355555555555556
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18002",
-            "type": "B777-300ER",
-            "manufactured": "2015-06-30",
-            "age_years": 11.25
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18003",
-            "type": "B777-300ER",
-            "manufactured": "2015-08-25",
-            "age_years": 11.097222222222221
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18005",
-            "type": "B777-300ER",
-            "manufactured": "2015-10-29",
-            "age_years": 10.919444444444444
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18006",
-            "type": "B777-300ER",
-            "manufactured": "2016-01-19",
-            "age_years": 10.697222222222223
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18007",
-            "type": "B777-300ER",
-            "manufactured": "2016-05-16",
-            "age_years": 10.372222222222222
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18051",
-            "type": "B777-300ER",
-            "manufactured": "2014-09-30",
-            "age_years": 12
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18052",
-            "type": "B777-300ER",
-            "manufactured": "2014-10-23",
-            "age_years": 11.936111111111112
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18053",
-            "type": "B777-300ER",
-            "manufactured": "2014-11-24",
-            "age_years": 11.85
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18055",
-            "type": "B777-300ER",
-            "manufactured": "2015-01-14",
-            "age_years": 11.71111111111111
-          }
-        ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "ownership": {
-        "id": "ciFinancial2025",
-        "source": "華航｜2025／2024 合併財務報表",
-        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
-        "level": 1,
-        "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-15",
-        "status": "confirmed",
-        "source_id": "ciFinancial2025",
-        "label": "租賃紀錄",
-        "value": "2025 年末合併財報列 777-300ER 承租 10 架。",
-        "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
-      },
-      "design": {
-        "source": "華航｜2015永續報告・新機隊客艙設計，第47頁",
-        "source_url": "https://calec.china-airlines.com/csr/download/2015/2015-CSR.pdf",
-        "published_date": null,
-        "verified_date": "2026-10-16",
-        "as_of": null,
-        "status": "confirmed",
-        "theme": "宋代文人美學：三個連續的生活場景",
-        "value": "商務艙以書齋與閱讀燈營造私人閱讀空間；豪華經濟艙取意山間書院；經濟艙對應市井生活。",
-        "elements": "客艙與以宋代器物為靈感的餐具共同傳達文化識別，讓設計主題延伸至服務物件。",
-        "interview": "重點是跨艙等一致的品牌故事，不把文化美學直接等同飛安或營運績效。",
-        "note": "此為新世代客艙歷史設計理念；非逐架飛機今日內裝檢查結果。"
-      }
-    },
-    {
-      "aircraft_type": "737-800",
-      "current_fleet": 6,
-      "service_state": "current",
-      "kind": "passenger",
-      "source": "中華航空｜營運概況",
-      "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
-      "published_date": null,
-      "verified_date": "2026-10-19",
-      "status": "confirmed",
-      "as_of": "2026-09-30",
-      "source_id": "ciFleet",
-      "engine": {
-        "label": "使用引擎",
-        "value": "CFM56-7B",
-        "source": "華航｜2025 第四次法人說明會",
-        "source_url": "https://www.china-airlines.com/tw/en/Images/2025%E5%B9%B4%E7%AC%AC%E5%9B%9B%E6%AC%A1%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1_%E8%8B%B1%E6%96%87%E7%89%88_tcm264-74934.pdf",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "note": "航空公司／製造商官方資料；未自行外推更細的引擎後綴或逐機配置。"
-      },
-      "typical_seats": {
-        "source": "中華航空｜官方座位圖",
-        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "label": "官方座位配置",
-        "value": "158 席（配置一）／161 席（配置二）",
-        "note": "請展開來源查看官方座位圖，實際班機可能調整配置。"
-      },
-      "range": {
-        "label": "航程（製造商標準；非保證航線）",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "role": "客運 Passenger",
-      "main_routes": {
-        "label": "航線與任務",
-        "value": "區域客運例：2023 年公告高雄—首爾金浦 CI184/185 自 7 月 6 日起採此機型。",
-        "source": "華航｜高雄航線公告",
-        "source_url": "https://calec.china-airlines.com/csr/news20230515.html",
-        "published_date": "2023-05-15",
-        "as_of": null,
-        "verified_date": "2026-10-13",
-        "status": "confirmed",
-        "note": "歷史開航公告；當前同航線派飛機型待查核。"
-      },
-      "first_delivery": {
-        "label": "首次交付",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "average_age": {
-        "label": "平均機齡",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "replacement_plan": {
-        "label": "替換計畫",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "future_orders": {
-        "label": "待交訂單",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      "photo": {
-        "source": "中華航空｜官方營運機隊",
-        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "status": "confirmed",
-        "as_of": null,
-        "image_url": "aircraft/china-airlines-737-800.jpg",
-        "description": "官方機型示意圖（非實機攝影）",
-        "credit": "© China Airlines，圖片權利屬原航空公司",
-        "original_url": "https://prd-api.china-airlines.com/tw/en/Images/about-us-operation-737-800_tcm538-68197.jpg"
-      },
-      "introduction": {
-        "label": "機型介紹",
-        "value": "波音 737 Next Generation 家族的單走道客機；737-800 與 737 MAX 8 為不同世代，研究時應分清機型名稱及引擎系列。",
-        "source": "機型簡介｜依官方機型資料整理",
-        "source_url": "https://www.boeing.com/commercial/737ng",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
-      },
-      "cabin_configurations": {
-        "source": "中華航空｜官方座位圖",
-        "source_url": "https://www.china-airlines.com/us/en/prepare-for-the-fly/cabin/seat-map",
-        "published_date": null,
-        "verified_date": "2026-10-12",
-        "as_of": null,
-        "status": "confirmed",
-        "label": "總座位數與艙等配置",
-        "note": "實體座位配置；部分航班的販售艙等不同。官方未提供完整逐機配置對應，不自行推定機號。",
-        "layouts": [
-          {
-            "name": "配置一",
-            "total": 158,
-            "cabins": [
-              {
-                "name": "商務艙",
-                "seats": 8
-              },
-              {
-                "name": "經濟艙",
-                "seats": 150
-              }
-            ],
-            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
-          },
-          {
-            "name": "配置二",
-            "total": 161,
-            "cabins": [
-              {
-                "name": "商務艙",
-                "seats": 8
-              },
-              {
-                "name": "經濟艙",
-                "seats": 153
-              }
-            ],
-            "source_url": "https://prd-api.china-airlines.com/us/en/Images/B737-800_20260820_tcm517-67244.jpg"
-          }
-        ]
-      },
-      "registrations": {
-        "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
-        "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
-        "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
-        "published_date": "2026-10-07",
-        "verified_date": "2026-10-13",
-        "as_of": "2026-09-30",
-        "status": "confirmed",
-        "label": "機身註冊編號",
-        "records": [
-          {
-            "airline": "中華航空",
-            "tail": "B-18651",
-            "type": "B737-800",
-            "manufactured": "2013-04-16",
-            "age_years": 13.455555555555556
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18652",
-            "type": "B737-800",
-            "manufactured": "2013-05-16",
-            "age_years": 13.372222222222222
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18653",
-            "type": "B737-800",
-            "manufactured": "2013-06-28",
-            "age_years": 13.255555555555556
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18660",
-            "type": "B737-800",
-            "manufactured": "2016-03-15",
-            "age_years": 10.541666666666666
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18663",
-            "type": "B737-800",
-            "manufactured": "2016-10-20",
-            "age_years": 9.944444444444445
-          },
-          {
-            "airline": "中華航空",
-            "tail": "B-18665",
-            "type": "B737-800",
-            "manufactured": "2016-11-14",
-            "age_years": 9.877777777777778
-          }
-        ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
-      },
-      "ownership": {
-        "id": "ciFinancial2025",
-        "source": "華航｜2025／2024 合併財務報表",
-        "source_url": "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Investor-relations/Consolidated-Financial-Statements/EN/2025Q4.pdf",
-        "level": 1,
-        "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-15",
-        "status": "confirmed",
-        "source_id": "ciFinancial2025",
-        "label": "租賃紀錄",
-        "value": "2025 年末合併財報列 737-800 承租 10 架。",
         "note": "附註 21，PDF 第 44 頁；為華航集團租賃揭露中的此機型，非 2026 即時租賃架數。未取得逐機租約對照，不推定剩餘現役飛機全部自有。"
       }
     },
