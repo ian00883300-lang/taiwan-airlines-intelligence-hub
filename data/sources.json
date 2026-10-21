@@ -2001,5 +2001,318 @@
     "status": "confirmed",
     "source_id": "jxKulUpgrade20260930",
     "level": 1
+  },
+  {
+    "id": "jxKobeActual2025",
+    "source": "星宇神戶首航現場報導",
+    "source_url": "https://ec.ltn.com.tw/article/breakingnews/5015711",
+    "published_date": "2025-04-18",
+    "as_of": "2025-04-18",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxRmqOkaActual2024",
+    "source": "交通部 113 年交通年鑑｜12 月大事紀",
+    "source_url": "https://www.motc.gov.tw/ch/app/yearbook/doc%3Fid%3D21%26year%3D113%26module%3Ddirectory%26detailNo%3D2%26serno%3D13843%26type%3Ds",
+    "published_date": null,
+    "as_of": "2024-12-02",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxManilaActual2021",
+    "source": "星宇航空供稿｜馬尼拉首航",
+    "source_url": "https://en.prnasia.com/releases/apac/starlux-airlines-launches-new-route-to-manila-philippines-325138.shtml",
+    "published_date": "2021-07-08",
+    "as_of": "2021-07-08",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "evaHoustonActual2015",
+    "source": "長榮航空供稿｜休士頓首航抵達",
+    "source_url": "https://www.prnewswire.com/news-releases/eva-lands-hello-kitty-shining-star-jet-in-houston-300101888.html",
+    "published_date": "2015-06-19",
+    "as_of": "2015-06-19",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "evaChicagoActual2016",
+    "source": "長榮航空新聞稿轉載｜芝加哥首航",
+    "source_url": "https://aviator.aero/press/eva-expands-to-chicago-its-8th-gateway-in-north-america",
+    "published_date": "2016-11-03",
+    "as_of": "2016-11-02",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciMelbourneActual2015",
+    "source": "墨爾本機場｜歷史里程碑",
+    "source_url": "https://www.melbourneairport.com.au/corporate/connecting-victoria-to-the-world-since-1-july-1970",
+    "published_date": null,
+    "as_of": "2015-10-25",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxRmqLaunchActual2024",
+    "source": "台中市政府｜星宇台中航線首航",
+    "source_url": "https://www.taichung.gov.tw/8868/8872/9962/2602829/",
+    "published_date": "2024-03-31",
+    "as_of": "2024-03-31",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFirstTPESDJ",
+    "source": "中央社｜星宇仙台首航",
+    "source_url": "https://www.cna.com.tw/news/ahel/202304010116.aspx",
+    "source_id": "jxFirstTPESDJ",
+    "published_date": "2023-04-01",
+    "as_of": "2023-04-01",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPENGO",
+    "source": "星宇官方｜名古屋正式開航",
+    "source_url": "https://www.starlux-airlines.com/id-ID/about-us/media-center/news/2023/20231201",
+    "source_id": "jxFirstTPENGO",
+    "published_date": "2023-12-01",
+    "as_of": "2023-12-01",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxFirstTPEHAN",
+    "source": "越通社｜內排機場星宇首航抵達",
+    "source_url": "https://zh.vietnamplus.vn/article-post181288.vnp",
+    "source_id": "jxFirstTPEHAN",
+    "published_date": "2023-01-13",
+    "as_of": "2023-01-13",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPECEB",
+    "source": "菲律賓通訊社｜宿霧機場迎接首航",
+    "source_url": "https://www.pna.gov.ph/articles/1192925",
+    "source_id": "jxFirstTPECEB",
+    "published_date": "2023-01-17",
+    "as_of": "2023-01-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPECRK",
+    "source": "菲律賓通訊社｜克拉克首航",
+    "source_url": "https://www.pna.gov.ph/articles/1207883",
+    "source_id": "jxFirstTPECRK",
+    "published_date": "2023-08-15",
+    "as_of": "2023-08-15",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPESGN",
+    "source": "中央社｜星宇胡志明市正式首航",
+    "source_url": "https://www.cna.com.tw/news/ahel/202105130246.aspx",
+    "source_id": "jxFirstTPESGN",
+    "published_date": "2021-05-13",
+    "as_of": "2021-05-13",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPEKUL",
+    "source": "KLIA2.info 新聞轉載｜星宇吉隆坡首航",
+    "source_url": "https://www.klia2.info/news/2021/starlux-airlines-launches-inaugural-flight-kul-tpe/",
+    "source_id": "jxFirstTPEKUL",
+    "published_date": "2021-01-05",
+    "as_of": "2021-01-05",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPEBKK",
+    "source": "TTG China｜星宇 2020 年 12 月開航回顧",
+    "source_url": "https://ttgchina.com/2020/12/18/%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA12%E6%9C%88%E9%80%86%E5%8A%BF%E5%BC%80%E8%BE%9F%E6%96%B0%E8%88%AA%E7%BA%BF-%E6%8A%A2%E5%8D%A03%E9%87%8D%E7%82%B9%E5%9F%8E%E5%B8%82/",
+    "source_id": "jxFirstTPEBKK",
+    "published_date": "2020-12-18",
+    "as_of": "2020-12-01",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPECTS",
+    "source": "Aviation Wire｜星宇日本航線開航紀錄",
+    "source_url": "https://www.aviationwire.jp/archives/263438",
+    "source_id": "jxFirstTPECTS",
+    "published_date": "2022-10-29",
+    "as_of": "2022-10-28",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPEOKA",
+    "source": "Aviation Wire｜星宇日本航線開航紀錄",
+    "source_url": "https://www.aviationwire.jp/archives/263438",
+    "source_id": "jxFirstTPEOKA",
+    "published_date": "2022-10-29",
+    "as_of": "2022-10-28",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstTPEFUK",
+    "source": "Aviation Wire｜星宇日本航線開航紀錄",
+    "source_url": "https://www.aviationwire.jp/archives/263438",
+    "source_id": "jxFirstTPEFUK",
+    "published_date": "2022-10-29",
+    "as_of": "2022-02-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstRMQPUS",
+    "source": "中央社／華視｜星宇台北台中雙點釜山首航",
+    "source_url": "https://news.cts.com.tw/cna/life/202606/202606013038308.html",
+    "source_id": "jxFirstRMQPUS",
+    "published_date": "2026-06-01",
+    "as_of": "2026-06-01",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "jxFirstRMQPQC",
+    "source": "Yahoo 財經｜星宇台中富國島當日首航報導",
+    "source_url": "https://tw.stock.yahoo.com/news/%E6%98%9F%E5%AE%87%E5%8F%B0%E4%B8%AD%E8%88%AA%E7%B7%9A%E9%80%A3%E7%99%BC-%E4%BB%8A%E5%95%9F%E8%88%AA%E5%AF%8C%E5%9C%8B%E5%B3%B6-12%E6%9C%88%E5%86%8D%E6%B7%BB%E6%B2%96%E7%B9%A9-085948693.html",
+    "source_id": "jxFirstRMQPQC",
+    "published_date": "2024-10-27",
+    "as_of": "2024-10-27",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 2
+  },
+  {
+    "id": "ciViennaFirst2005",
+    "source": "Taipei Times｜華航維也納直飛首航",
+    "source_url": "https://www.taipeitimes.com/News/biz/archives/2005/05/04/2003253133",
+    "published_date": "2005-05-04",
+    "level": 2,
+    "as_of": "2005-05-03",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciRomeFirst1995",
+    "source": "Aviation Week｜台北—杜拜—羅馬首航",
+    "source_url": "https://aviationweek.com/china-airlines-launches-taipei-rome-service",
+    "published_date": "1995-07-21",
+    "level": 2,
+    "as_of": "1995-07-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciHeathrowFirst2010",
+    "source": "Aviation Week｜華航希斯洛首航現場報導",
+    "source_url": "https://aviationweek.com/air-transport/airports-networks/making-history",
+    "published_date": "2010-03-31",
+    "level": 2,
+    "as_of": "2010-03-28",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciAmsterdamFirst1983",
+    "source": "華視歷史新聞｜1983年4月12日中荷首航",
+    "source_url": "https://www.youtube.com/watch?v=8LT7l5GKZ0E",
+    "published_date": "2016-03-24",
+    "level": 2,
+    "as_of": "1983-04-12",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "evaLosAngelesFirst1992",
+    "source": "長榮航空｜首條跨太平洋航線回顧",
+    "source_url": "https://www.linkedin.com/posts/eva-airways_it-all-started-in-los-angeles-on-12121992-activity-6214141679226757120-eDyx",
+    "published_date": null,
+    "level": 1,
+    "as_of": "1992-12-12",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "evaTorontoFirst2010",
+    "source": "旅奇週刊｜長榮多倫多首航現場",
+    "source_url": "https://b2b.richmarcom.com.tw/newweb/news_into.aspx?Second_classification_id=3&Subject_id=8238",
+    "published_date": "2010-04-12",
+    "level": 2,
+    "as_of": "2010-03-29",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "evaKobeFirst2025",
+    "source": "中央社｜長榮及星宇神戶首航",
+    "source_url": "https://www.cna.com.tw/news/ahel/202504183001.aspx",
+    "published_date": "2025-04-18",
+    "level": 2,
+    "as_of": "2025-04-18",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciKumamotoFirst2015",
+    "source": "華航日本支社｜熊本—高雄就航",
+    "source_url": "https://www.value-press.com/pressrelease/151078",
+    "published_date": "2015-10-26",
+    "level": 1,
+    "as_of": "2015-10-25",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciTaichungOkinawaFirst2026",
+    "source": "華航｜台中—沖繩開航",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20260721",
+    "published_date": "2026-07-21",
+    "level": 1,
+    "as_of": "2026-07-21",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
+  },
+  {
+    "id": "ciFukuokaFirst2015",
+    "source": "華航日本支社｜福岡—高雄就航",
+    "source_url": "https://www.value-press.com/pressrelease/151132",
+    "published_date": "2015-10-27",
+    "level": 1,
+    "as_of": "2015-10-26",
+    "verified_date": "2026-10-22",
+    "status": "confirmed"
   }
 ]

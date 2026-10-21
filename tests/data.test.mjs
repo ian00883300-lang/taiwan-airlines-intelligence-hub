@@ -687,7 +687,8 @@ test('Verified inaugural history separates route launches, charter starts and re
   assert.equal(nrt.event_date, '2020-12-16');
   assert.ok(nrt.corroboration_url.includes('narita-airport.jp'));
   const sendai = events.find(x => /starlux.*SDJ/i.test(x.id));
-  assert.equal(sendai.event_date, null);
+  assert.equal(sendai.event_date, '2023-04-01');
+  assert.equal(sendai.status, 'confirmed');
   assert.equal(sendai.announced_event_date, '2023-04-01');
 });
 
@@ -726,4 +727,16 @@ test("Lease commitment snapshots reconcile without becoming current ownership co
   assert.notEqual(snapshot.as_of, fleet.items[0].as_of);
   const eva = JSON.parse(fs.readFileSync("data/eva-air/fleet.json", "utf8"));
   assert.equal(eva.items.find(x => x.aircraft_type === "A330-300").ownership.quantity, undefined);
+});
+
+test('Inaugural dates retain publication dates and distinguish charter and historical stopovers', () => {
+  const events = read('data/events.json');
+  const e = id => events.find(x => x.id === id);
+  assert.equal(e('china-airlines-KHH-KMJ-inaugural').event_date, '2015-10-25');
+  assert.equal(e('china-airlines-KHH-KMJ-inaugural').published_date, '2015-10-26');
+  assert.match(e('china-airlines-TPE-FCO-inaugural-pending').note, /杜拜/);
+  for (const id of ['starlux-TPE-UKB-inaugural', 'starlux-RMQ-UKB-inaugural', 'eva-air-TPE-UKB-inaugural']) {
+    assert.equal(e(id).service_kind, 'charter');
+    assert.equal(e(id).event_date, '2025-04-18');
+  }
 });
