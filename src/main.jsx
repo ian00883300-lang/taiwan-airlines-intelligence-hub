@@ -288,6 +288,8 @@ function Donut({ airline }) {
   let f = fleet.items.filter((x) => x.current_fleet !== null);
   if (historical)
     f = historical.rows.map((row) => ({ ...row, current_fleet: row.quantity }));
+  const difference = Math.max(0, (fleet.latest_confirmed_total?.value ?? 0) - f.reduce((sum, x) => sum + x.current_fleet, 0));
+  if (difference) f = [...f, { aircraft_type: "新增待核實機型", current_fleet: difference }];
   useEffect(() => {
     if (!canvas.current || !f.length) return;
     let chart = new Chart(canvas.current, {
@@ -327,7 +329,7 @@ function Donut({ airline }) {
         />
         <div className="donut-center">
           <b>{f.reduce((s, x) => s + x.current_fleet, 0)}</b>
-          <span>{historical ? "年末快照 / 架" : "機隊 / 架"}</span>
+          <span>{difference ? "最新總數 / 架" : historical ? "年末快照 / 架" : "機隊 / 架"}</span>
         </div>
       </div>
       <ul className="chart-legend">
@@ -339,6 +341,7 @@ function Donut({ airline }) {
           </li>
         ))}
       </ul>
+      {difference > 0 && <p className="fineprint">數量核對：已知分型快照加上新增待核實機型；各分型不是最新同日占比。</p>}
       {historical && (
         <p className="fineprint">
           分型基準 {historical.as_of}；不同於2026年3月總數。
@@ -743,13 +746,13 @@ function Fleet({ a, tab }) {
           <h3>{a.name} · 機隊組成</h3>
           <Donut airline={a} />
           <Source
-            item={a.total.value !== null ? a.total : f.composition_snapshot}
+            item={f.latest_confirmed_total || (a.total.value !== null ? a.total : f.composition_snapshot)}
           />
         </section>
         <div>
           <p className="notice">
             {a.id === "starlux"
-              ? "分型數量採民航局2026年9月30日登記機隊；不代表當日可執飛架數。"
+              ? "已知分型採民航局 2026-09-30 登記快照；最新增加的一架另列「新增待核實機型」，與上方總數核對。"
               : "航空公司公開機隊快照；機身名冊另採民航局2026年9月30日資料。"}{" "}
             訂單、未來計畫與已退役分開保存。未知值不視為 0。
           </p>
@@ -783,7 +786,7 @@ function Fleet({ a, tab }) {
               <thead>
                 <tr>
                   <th>機型</th>
-                  <th>{a.id === "starlux" ? "登記數量" : "機隊數量"}</th>
+                  <th>{a.id === "starlux" ? "數量" : "機隊數量"}</th>
                   <th>同基準租賃數量</th>
                   <th>任務</th>
                   <th>基準日</th>
@@ -811,6 +814,7 @@ function Fleet({ a, tab }) {
                     </td>
                   </tr>
                 ))}
+                {filter === "all" && aircraftType === "all" && f.latest_confirmed_total?.value > f.items.reduce((n, x) => n + (x.current_fleet || 0), 0) && <tr><td>新增待核實機型</td><td>{f.latest_confirmed_total.value - f.items.reduce((n, x) => n + (x.current_fleet || 0), 0)}</td><td>待查核</td><td>待查核</td><td>{f.latest_confirmed_total.as_of}</td></tr>}
               </tbody>
             </table>
           </div>
