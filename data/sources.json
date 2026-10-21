@@ -1925,5 +1925,26 @@
     "status": "announced",
     "source_id": "jxFleetOutlook20261020",
     "level": 2
+  },
+  {
+    "id": "easaGnssR4",
+    "source": "EASA｜GNSS 干擾安全公告 2022-02R4（7 月 22 日更正）",
+    "source_url": "https://ad.easa.europa.eu/ad/2022-02R4",
+    "published_date": "2026-07-03",
+    "as_of": "2026-07-22",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "ciStakeholder2025",
+    "source": "華航企業永續｜2025 年利害關係人溝通成果",
+    "source_url": "https://calec.china-airlines.com/csr/management_interested.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "ciStakeholder2025",
+    "level": 1
   }
 ]

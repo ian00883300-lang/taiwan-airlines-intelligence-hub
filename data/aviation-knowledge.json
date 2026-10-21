@@ -237,6 +237,40 @@
       "status": "confirmed",
       "source": "FAA PHAK 第 5 章｜飛行氣動力學",
       "source_url": "https://www.faa.gov/sites/faa.gov/files/07_phak_ch5_0.pdf"
+    },
+    {
+      "id": "gnss-jamming-spoofing",
+      "category": "飛行儀表",
+      "title": "GNSS 干擾與欺騙訊號有何不同？",
+      "title_en": "GNSS jamming versus spoofing",
+      "answer": "Jamming 以無線電干擾使衛星訊號難以接收；spoofing 則以偽造訊號造成錯誤的位置、導航或時間資料。後者可能仍顯示看似合理的定位，因此較難立即察覺。",
+      "answer_en": "Jamming disrupts signal reception. Spoofing supplies counterfeit signals that can produce incorrect position, navigation or timing data and may be harder to detect.",
+      "caution": "不能只憑單一警示判定干擾種類；此題為通用知識，非任何公司的操作程序。",
+      "follow_up": "為何螢幕仍顯示位置，不代表定位可信？",
+      "origin": "依 EASA 公開安全公告新增",
+      "source": "EASA｜GNSS 干擾安全公告 2022-02R4（7 月 22 日更正）",
+      "source_url": "https://ad.easa.europa.eu/ad/2022-02R4",
+      "published_date": "2026-07-03",
+      "as_of": "2026-07-22",
+      "verified_date": "2026-10-21",
+      "status": "confirmed"
+    },
+    {
+      "id": "gnss-system-effects",
+      "category": "飛行儀表",
+      "title": "GNSS 異常為何不只是導航地圖的問題？",
+      "title_en": "GNSS effects beyond the navigation display",
+      "answer": "依機載系統整合方式，錯誤 GNSS 資料也可能影響 ADS-B、地形警示、時間相依系統及電子飛行包的位置顯示。離開干擾區不保證系統立即恢復。",
+      "answer_en": "Depending on system integration, GNSS anomalies may also affect ADS-B, terrain alerts, time-dependent systems and EFB position displays. Effects may persist after leaving the area.",
+      "caution": "不可據此忽略警告或自行重置設備；處置須依核准的機型與公司程序。EASA SIB 本身是非強制性安全建議。",
+      "follow_up": "面試時如何區分系統知識與尚未受訓的機型處置？",
+      "origin": "依 EASA 公開安全公告新增",
+      "source": "EASA｜GNSS 干擾安全公告 2022-02R4（7 月 22 日更正）",
+      "source_url": "https://ad.easa.europa.eu/ad/2022-02R4",
+      "published_date": "2026-07-03",
+      "as_of": "2026-07-22",
+      "verified_date": "2026-10-21",
+      "status": "confirmed"
     }
   ]
 }
