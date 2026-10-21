@@ -2314,5 +2314,25 @@
     "as_of": "2015-10-26",
     "verified_date": "2026-10-22",
     "status": "confirmed"
+  },
+  {
+    "id": "jxCeivFour2025",
+    "source": "星宇｜四項 CEIV 認證",
+    "source_url": "https://sustainability.jx-starlux.com/en/news-detail/97/",
+    "published_date": "2025-07-24",
+    "as_of": "2025-07-24",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "jxColdChain2025",
+    "source": "星宇｜醫藥與生鮮冷鏈作業",
+    "source_url": "https://www.starlux-airlines.com/en-Global/about-us/media-center/news/2025/20250210",
+    "published_date": "2025-02-10",
+    "as_of": "2025-02-10",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
   }
 ]

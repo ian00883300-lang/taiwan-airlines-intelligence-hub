@@ -469,6 +469,39 @@
         "as_of": "2026-01-06",
         "scope": "2026-01-06 Airbus 公告的訂單總量；現役貨機與後續交機進度須另行查證。",
         "note": ""
+      },
+      {
+        "source": "星宇｜四項 CEIV 認證",
+        "source_url": "https://sustainability.jx-starlux.com/en/news-detail/97/",
+        "published_date": "2025-07-24",
+        "as_of": "2025-07-24",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "jxCeivFour2025",
+        "title": "四項 CEIV：依貨物風險管理",
+        "body": "2025 年 7 月公告列出活體動物、生鮮、鋰電池及醫藥四項 CEIV 認證。面試可從貨物需求解釋差異：運送品質需要專門程序與人員能力，不能只比較運價與速度；這是公司當時的認證紀錄，並非所有貨物都可無條件收運。"
+      },
+      {
+        "source": "星宇｜醫藥與生鮮冷鏈作業",
+        "source_url": "https://www.starlux-airlines.com/en-Global/about-us/media-center/news/2025/20250210",
+        "published_date": "2025-02-10",
+        "as_of": "2025-02-10",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "jxColdChain2025",
+        "title": "冷鏈交接：從收貨到最後交付",
+        "body": "公司說明溫控流程涵蓋收貨、組盤、機坪運送、裝卸、儲存與交付，並透過風險管理、員工訓練及設施準備降低溫度偏離風險。重點是每個交接環節持續控管，不能只看飛行中的貨艙溫度。"
+      },
+      {
+        "source": "星宇｜醫藥與生鮮冷鏈作業",
+        "source_url": "https://www.starlux-airlines.com/en-Global/about-us/media-center/news/2025/20250210",
+        "published_date": "2025-02-10",
+        "as_of": "2025-02-10",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "jxColdChain2025",
+        "title": "腹艙貨運與未來全貨機",
+        "body": "2025 年 2 月公告說明當時以客機腹艙承運貨物，同時布局 A350F。營運分析上，腹艙運能與客運班表、行李及可用酬載相互牽動；全貨機則是不同的運能安排。此為模式分析，訂單與預計交付不能算作已投入營運貨機。"
       }
     ],
     "maintenance": [

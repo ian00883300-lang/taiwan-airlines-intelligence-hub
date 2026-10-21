@@ -1057,6 +1057,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           {part("現役機隊與機型資料", <Fleet a={a} tab="fleet" />)}
           {part("訂單與未來交付", <Fleet a={a} tab="orders" />)}
           {part("機隊更新", facts(["renewal"]))}
+          {part("機型共通性與客艙工程", <TopicTables a={a} keys={["technical"]}/>)}
         </>
       ) : group.id === "routes" ? (
         <>

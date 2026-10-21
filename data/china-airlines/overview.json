@@ -316,6 +316,17 @@
         "verified_date": "2026-10-14",
         "status": "confirmed",
         "source_id": "ciNeoFirstService"
+      },
+      {
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "ciOperations2025",
+        "title": "客艙更新：設計、驗收與認證",
+        "body": "2025 營運揭露列出客艙規格定義、初始設計審查（PDR）、技術會議及首件檢驗（FAI）等工作；A330-300 無線串流影音完成軟硬體認證與裝機。這些里程碑應分別記錄，完成設計或驗收不等於新客艙已全面載客營運。"
       }
     ],
     "routes": [
@@ -558,6 +569,17 @@
         "verified_date": "2026-10-21",
         "status": "confirmed",
         "source_id": "ciMroDocumentary20261006"
+      },
+      {
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "ciOperations2025",
+        "title": "777 客貨機共通性：差異訓練仍必要",
+        "body": "華航說明 777F 與 777-300ER 同屬 777 家族、使用 GE90 系列發動機，有助管理與維修資源配置；組員需完成差異訓練後執行任務。同系列的效益應從人員與維修資源理解，不能解讀成客貨機設備完全相同。"
       }
     ],
     "safety": [
@@ -732,6 +754,17 @@
         "verified_date": "2026-10-21",
         "status": "confirmed",
         "source_id": "ciEcoTravel20261015"
+      },
+      {
+        "source": "華航｜2025營運與旅客服務績效",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-22",
+        "status": "confirmed",
+        "source_id": "ciOperations2025",
+        "title": "人道運輸：運用航空本業支援救援",
+        "body": "2025 年公司揭露支援 3 月 28 日緬甸地震救援，提供緬泰救災物資無償運送，並支持無國界醫生與國際義診。面試可連結航空公司的航網與運輸能力如何協助人道任務；公益運輸與減碳績效是不同面向。"
       }
     ],
     "saf": [
