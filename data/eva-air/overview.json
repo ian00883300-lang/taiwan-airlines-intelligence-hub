@@ -649,6 +649,17 @@
         "status": "announced",
         "as_of": "2025-04-07",
         "source_id": "evaOrder"
+      },
+      {
+        "title": "待交 54 架：更新與擴張須分開解讀",
+        "body": "官網待交清單為 A350-1000 24 架、A321neo 18 架、787-9 8 架及 787-10 4 架，合計 54 架。這是不同時程的待交數；現役 89 架加上 54 架，不等於公司承諾未來將有 143 架，因為還有退役、退租與時程調整。",
+        "source": "長榮航空｜2026-10-01 營運機隊",
+        "source_url": "https://www.evaair.com/en-global/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+        "published_date": null,
+        "as_of": "2026-10-01",
+        "verified_date": "2026-10-21",
+        "status": "confirmed",
+        "source_id": "evaFleetGlobal202610"
       }
     ]
   },

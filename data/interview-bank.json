@@ -3401,5 +3401,179 @@
         "jxSafetyCulture2024"
       ]
     }
+  },
+  {
+    "source": "長榮航空｜EVA Air Fleet",
+    "source_url": "https://www.evaair.com/en-tw/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+    "published_date": null,
+    "as_of": "2026-10-01",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "evaFleet",
+    "id": "eva-backlog-growth",
+    "airline": "eva-air",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "長榮有 89 架現役、54 架待交，能說未來一定有 143 架嗎？",
+    "question_en": "Does 89 aircraft in service plus 54 pending deliveries guarantee a future fleet of 143?",
+    "answer": "No. The October 1 snapshot distinguishes aircraft in service from pending deliveries. It is not a commitment to a future fleet of 143. New deliveries can replace retired or returned aircraft, so I would examine both additions and exits before assessing growth.",
+    "answer_30": "No. The October 1 snapshot distinguishes aircraft in service from pending deliveries. It is not a commitment to a future fleet of 143. New deliveries can replace retired or returned aircraft, so I would examine both additions and exits before assessing growth.",
+    "answer_60": "No. The October 1 snapshot distinguishes aircraft in service from pending deliveries. It is not a commitment to a future fleet of 143. New deliveries can replace retired or returned aircraft, so I would examine both additions and exits before assessing growth. Capacity also depends on seating, range and utilisation. The same number of aircraft can support different capacity through aircraft size, frequency or network changes. These are analytical factors, not a basis for inventing delivery dates.",
+    "answer_zh_30": "不能。官網 2026 年 10 月 1 日的數字描述現役與待交兩種狀態，並不是同一日期的未來規模承諾。新機也可能用來替換退役或退租機，所以我會先確認交機、退出及運能規劃，再評估成長。",
+    "answer_zh_60": "不能。官網 2026 年 10 月 1 日的數字描述現役與待交兩種狀態，並不是同一日期的未來規模承諾。新機也可能用來替換退役或退租機，所以我會先確認交機、退出及運能規劃，再評估成長。\n\n研究機隊策略還要看座位數、航程與利用率。同樣的飛機架數，可以因換成較大機型、增加班次或調整航網而提供不同運能。這些是分析方向，不能用未經確認的交機時程精算未來運能。",
+    "chinese_answer": "不能。官網 2026 年 10 月 1 日的數字描述現役與待交兩種狀態，並不是同一日期的未來規模承諾。新機也可能用來替換退役或退租機，所以我會先確認交機、退出及運能規劃，再評估成長。\n\n研究機隊策略還要看座位數、航程與利用率。同樣的飛機架數，可以因換成較大機型、增加班次或調整航網而提供不同運能。這些是分析方向，不能用未經確認的交機時程精算未來運能。",
+    "key_points": [
+      "現役與待交分列",
+      "同時考慮退出",
+      "架數不等於運能"
+    ],
+    "keywords": [
+      "現役與待交分列",
+      "同時考慮退出",
+      "架數不等於運能"
+    ],
+    "answer_outline": [
+      "現役與待交分列",
+      "同時考慮退出",
+      "架數不等於運能"
+    ],
+    "follow_up": "如果新機主要汰換舊機，公司的營運效益仍可能如何改善？",
+    "difficulty": "進階",
+    "level": 3,
+    "why_it_matters": "分辨公司公開事實、時間範圍與合理推論，避免只背數字。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "本站原創練習，非歷屆考題或公司標準答案；答案中的推論為研究判讀。",
+    "deep_dive": {
+      "analysis_zh": "研究機隊策略還要看座位數、航程與利用率。同樣的飛機架數，可以因換成較大機型、增加班次或調整航網而提供不同運能。這些是分析方向，不能用未經確認的交機時程精算未來運能。",
+      "analysis_en": "Capacity also depends on seating, range and utilisation. The same number of aircraft can support different capacity through aircraft size, frequency or network changes. These are analytical factors, not a basis for inventing delivery dates.",
+      "pitfalls": [
+        "把目標當作已完成",
+        "混用不同日期或統計口徑"
+      ],
+      "follow_ups": [
+        "如果新機主要汰換舊機，公司的營運效益仍可能如何改善？"
+      ],
+      "evidence_ids": [
+        "evaFleet"
+      ]
+    }
+  },
+  {
+    "source": "華航｜2025 營運績效",
+    "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "ciFinance",
+    "id": "ci-delivery-operation",
+    "airline": "china-airlines",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "華航已接收新飛機，為何不代表馬上可以增加航班？",
+    "question_en": "Why does receiving an aircraft not necessarily allow immediate additional flights?",
+    "answer": "Delivery and entry into service are different milestones. China Airlines reported that two newly leased A321neos had not completed the five-stage review and did not operate flights in 2025. An aircraft receipt announcement therefore does not prove that all additional capacity is available.",
+    "answer_30": "Delivery and entry into service are different milestones. China Airlines reported that two newly leased A321neos had not completed the five-stage review and did not operate flights in 2025. An aircraft receipt announcement therefore does not prove that all additional capacity is available.",
+    "answer_60": "Delivery and entry into service are different milestones. China Airlines reported that two newly leased A321neos had not completed the five-stage review and did not operate flights in 2025. An aircraft receipt announcement therefore does not prove that all additional capacity is available. I would identify this as a historical 2025 example, not claim that those aircraft are still inactive. More broadly, capacity planning also requires crews, training, maintenance and schedules. These are general considerations, not unverified explanations of that particular delay.",
+    "answer_zh_30": "交付與投入營運是不同里程碑。華航揭露 2025 年新增 A321neo 中，有兩架租機當年尚未完成五階段審查，未執行飛航任務。這提醒我不能只看接收消息就判定新增運能已全部到位。",
+    "answer_zh_60": "交付與投入營運是不同里程碑。華航揭露 2025 年新增 A321neo 中，有兩架租機當年尚未完成五階段審查，未執行飛航任務。這提醒我不能只看接收消息就判定新增運能已全部到位。\n\n面試時我會先說清楚這是 2025 年的歷史例子，而不是宣稱那兩架現在仍未營運。更廣泛的運能分析還需確認人員、訓練、維修及航班安排；這些是一般分析條件，不是對該個案延遲原因的猜測。",
+    "chinese_answer": "交付與投入營運是不同里程碑。華航揭露 2025 年新增 A321neo 中，有兩架租機當年尚未完成五階段審查，未執行飛航任務。這提醒我不能只看接收消息就判定新增運能已全部到位。\n\n面試時我會先說清楚這是 2025 年的歷史例子，而不是宣稱那兩架現在仍未營運。更廣泛的運能分析還需確認人員、訓練、維修及航班安排；這些是一般分析條件，不是對該個案延遲原因的猜測。",
+    "key_points": [
+      "接收與營運不同",
+      "保留歷史日期",
+      "不猜測個案原因"
+    ],
+    "keywords": [
+      "接收與營運不同",
+      "保留歷史日期",
+      "不猜測個案原因"
+    ],
+    "answer_outline": [
+      "接收與營運不同",
+      "保留歷史日期",
+      "不猜測個案原因"
+    ],
+    "follow_up": "為何機隊登記數也不等於當天可執飛架數？",
+    "difficulty": "進階",
+    "level": 3,
+    "why_it_matters": "分辨公司公開事實、時間範圍與合理推論，避免只背數字。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "本站原創練習，非歷屆考題或公司標準答案；答案中的推論為研究判讀。",
+    "deep_dive": {
+      "analysis_zh": "面試時我會先說清楚這是 2025 年的歷史例子，而不是宣稱那兩架現在仍未營運。更廣泛的運能分析還需確認人員、訓練、維修及航班安排；這些是一般分析條件，不是對該個案延遲原因的猜測。",
+      "analysis_en": "I would identify this as a historical 2025 example, not claim that those aircraft are still inactive. More broadly, capacity planning also requires crews, training, maintenance and schedules. These are general considerations, not unverified explanations of that particular delay.",
+      "pitfalls": [
+        "把目標當作已完成",
+        "混用不同日期或統計口徑"
+      ],
+      "follow_ups": [
+        "為何機隊登記數也不等於當天可執飛架數？"
+      ],
+      "evidence_ids": [
+        "ciFinance"
+      ]
+    }
+  },
+  {
+    "source": "中央社｜2026-10-20 星宇公關長訪談",
+    "source_url": "https://www.cna.com.tw/news/afe/202610200128.aspx",
+    "published_date": "2026-10-20",
+    "as_of": "2026-10-20",
+    "verified_date": "2026-10-21",
+    "status": "announced",
+    "source_id": "jxFleetOutlook20261020",
+    "id": "jx-expansion-execution",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "practice_group": "公司研究與資料判讀",
+    "question": "如何看待星宇年底機隊展望與擴張風險？",
+    "question_en": "How would you assess STARLUX’s fleet outlook and expansion risks?",
+    "answer": "I would separate the company outlook from completed results. The October 20 outlook projected 42 aircraft at year-end 2026 and 48 at year-end 2027. It indicates expansion, but deliveries and operational readiness still need confirmation. Aircraft growth does not automatically translate into the same growth in revenue or profit.",
+    "answer_30": "I would separate the company outlook from completed results. The October 20 outlook projected 42 aircraft at year-end 2026 and 48 at year-end 2027. It indicates expansion, but deliveries and operational readiness still need confirmation. Aircraft growth does not automatically translate into the same growth in revenue or profit.",
+    "answer_60": "I would separate the company outlook from completed results. The October 20 outlook projected 42 aircraft at year-end 2026 and 48 at year-end 2027. It indicates expansion, but deliveries and operational readiness still need confirmation. Aircraft growth does not automatically translate into the same growth in revenue or profit. I would connect route demand, delivery timing and cost exposure. The company also identified fuel prices as a variable. Demand, fares and costs still affect results even when capacity grows. As a cadet applicant, I see disciplined training and consistent safety standards as essential during expansion.",
+    "answer_zh_30": "我會把公司展望與已完成結果分開。2026 年 10 月 20 日受訪展望為年底 42 架、2027 年底 48 架；它顯示擴張方向，但仍須等待交付與營運確認。我不會直接把增加架數換算成相同比例的營收或獲利成長。",
+    "answer_zh_60": "我會把公司展望與已完成結果分開。2026 年 10 月 20 日受訪展望為年底 42 架、2027 年底 48 架；它顯示擴張方向，但仍須等待交付與營運確認。我不會直接把增加架數換算成相同比例的營收或獲利成長。\n\n我的分析會連結航線需求、交機時程與成本承受能力。公司受訪也提及油價變數；即使運能增加，需求、票價及成本仍會影響結果。以培訓機師申請者而言，較重要的是理解擴張需要穩健訓練與安全紀律，而不是以成長為由降低標準。",
+    "chinese_answer": "我會把公司展望與已完成結果分開。2026 年 10 月 20 日受訪展望為年底 42 架、2027 年底 48 架；它顯示擴張方向，但仍須等待交付與營運確認。我不會直接把增加架數換算成相同比例的營收或獲利成長。\n\n我的分析會連結航線需求、交機時程與成本承受能力。公司受訪也提及油價變數；即使運能增加，需求、票價及成本仍會影響結果。以培訓機師申請者而言，較重要的是理解擴張需要穩健訓練與安全紀律，而不是以成長為由降低標準。",
+    "key_points": [
+      "預期與結果分開",
+      "運能不等於獲利",
+      "擴張仍維持標準"
+    ],
+    "keywords": [
+      "預期與結果分開",
+      "運能不等於獲利",
+      "擴張仍維持標準"
+    ],
+    "answer_outline": [
+      "預期與結果分開",
+      "運能不等於獲利",
+      "擴張仍維持標準"
+    ],
+    "follow_up": "如果舊年報與較新訪談的年底目標不同，你會如何回答？",
+    "difficulty": "進階",
+    "level": 3,
+    "why_it_matters": "分辨公司公開事實、時間範圍與合理推論，避免只背數字。",
+    "content_type": "original_practice",
+    "answer_basis": "source_based_analysis",
+    "question_revision": 1,
+    "note": "本站原創練習，非歷屆考題或公司標準答案；答案中的推論為研究判讀。",
+    "deep_dive": {
+      "analysis_zh": "我的分析會連結航線需求、交機時程與成本承受能力。公司受訪也提及油價變數；即使運能增加，需求、票價及成本仍會影響結果。以培訓機師申請者而言，較重要的是理解擴張需要穩健訓練與安全紀律，而不是以成長為由降低標準。",
+      "analysis_en": "I would connect route demand, delivery timing and cost exposure. The company also identified fuel prices as a variable. Demand, fares and costs still affect results even when capacity grows. As a cadet applicant, I see disciplined training and consistent safety standards as essential during expansion.",
+      "pitfalls": [
+        "把目標當作已完成",
+        "混用不同日期或統計口徑"
+      ],
+      "follow_ups": [
+        "如果舊年報與較新訪談的年底目標不同，你會如何回答？"
+      ],
+      "evidence_ids": [
+        "jxFleetOutlook20261020"
+      ]
+    }
   }
 ]

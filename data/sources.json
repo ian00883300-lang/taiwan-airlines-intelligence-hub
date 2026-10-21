@@ -1946,5 +1946,16 @@
     "status": "confirmed",
     "source_id": "ciStakeholder2025",
     "level": 1
+  },
+  {
+    "id": "evaFleetGlobal202610",
+    "source": "長榮航空｜2026-10-01 營運機隊",
+    "source_url": "https://www.evaair.com/en-global/about-eva-air/about-us/market-and-sales-overview/eva-air-fleet/",
+    "published_date": null,
+    "as_of": "2026-10-01",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "source_id": "evaFleetGlobal202610",
+    "level": 1
   }
 ]

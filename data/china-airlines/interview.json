@@ -18,6 +18,7 @@
     "fatigue",
     "ci-tail-maintenance-evidence",
     "ci-engine-contract",
-    "ci-mro-business"
+    "ci-mro-business",
+    "ci-delivery-operation"
   ]
 }

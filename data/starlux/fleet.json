@@ -1145,18 +1145,16 @@
   "retired": [],
   "planned": [
     {
-      "title": "2026年年底43架目標（計畫）",
-      "body": "年報規劃2026年年底達43架；不能視為現在已達成。機型與逐架交機日期須依後續公告核實。",
-      "source": "星宇航空｜2025 年報",
-      "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
-      "source_id": "jxAnnual",
-      "published_date": null,
-      "verified_date": "2026-10-12",
+      "title": "年底機隊目標：2026 年 42 架、2027 年 48 架",
+      "body": "中央社引述公關長說明：2026 年 11–12 月預計交付四架；2027 年預計再交付六架。數字是公司受訪時的預期，非已交付、已登記或已投入營運數量。 2025 年報曾列 2026 年底 43 架；此處改以 2026-10-20 較新受訪展望呈現。",
+      "source": "中央社｜2026-10-20 星宇公關長訪談",
+      "source_url": "https://www.cna.com.tw/news/afe/202610200128.aspx",
+      "published_date": "2026-10-20",
+      "as_of": "2026-10-20",
+      "verified_date": "2026-10-21",
       "status": "planned",
-      "as_of": null,
-      "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
-      "note": "年報印刷頁碼102（PDF第104頁）。",
-      "date": "2026年（計畫年份；逐架交機年月日未公告）"
+      "source_id": "jxFleetOutlook20261020",
+      "date": "2026–2027 年底（公司預期）"
     },
     {
       "title": "2033年76架目標（計畫）",
