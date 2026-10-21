@@ -414,8 +414,8 @@ test("STARLUX dated 37 registrations exclude historical counts and orders", () =
   );
   assert.equal(f.history[0].as_of, "2025-12-31");
   assert.equal(f.orders[0].delivery_state, "order_program");
-  assert.equal(f.latest_confirmed_total.value, 37);
-  assert.equal(f.latest_confirmed_total.as_of, "2026-09-30");
+  assert.equal(f.latest_confirmed_total.value, 38);
+  assert.equal(f.latest_confirmed_total.as_of, "2026-10-20");
   assert.equal(f.latest_confirmed_total.date_precision, "day");
   for (const id of ["china-airlines", "starlux"]) {
     const items = read(`data/${id}/fleet.json`).items;
@@ -428,7 +428,7 @@ test("STARLUX dated 37 registrations exclude historical counts and orders", () =
       assert.equal(x.registrations.as_of, "2026-09-30");
     }
   }
-  assert.equal(f.composition_snapshot.as_of, "2025-12-31");
+  assert.equal(f.composition_snapshot.as_of, "2026-09-30");
   assert.equal(
     f.composition_snapshot.rows.reduce((sum, row) => sum + row.quantity, 0),
     f.composition_snapshot.total,

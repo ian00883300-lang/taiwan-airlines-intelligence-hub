@@ -713,7 +713,7 @@ function Fleet({ a, tab }) {
       {f.latest_confirmed_total && (
         <section
           className="fleet-snapshot-summary"
-          aria-label="星宇官方機隊數量"
+          aria-label="星宇機隊數量與資料基準"
         >
           <div>
             <span>最新已查核總數</span>
@@ -721,7 +721,7 @@ function Fleet({ a, tab }) {
               {f.latest_confirmed_total.value}
               <small> 架</small>
             </strong>
-            <p>{f.latest_confirmed_total.as_of} · 登記機隊快照</p>
+            <p>{f.latest_confirmed_total.as_of} · {f.latest_confirmed_total.label}</p>
             <Source item={f.latest_confirmed_total} compact />
           </div>
           <div>
@@ -730,11 +730,11 @@ function Fleet({ a, tab }) {
               {f.composition_snapshot.total}
               <small> 架</small>
             </strong>
-            <p>2025年12月31日 · 年末快照</p>
+            <p>{f.composition_snapshot.as_of} · {f.composition_snapshot.label}</p>
             <Source item={f.composition_snapshot} compact />
           </div>
           <p className="fleet-snapshot-note">
-            兩個基準不同，勿混算。最新登記數不等於即時可執飛架數；2026年底43架另屬計畫。
+            {f.latest_confirmed_total.note}
           </p>
         </section>
       )}

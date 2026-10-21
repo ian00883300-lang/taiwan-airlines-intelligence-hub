@@ -1173,6 +1173,18 @@
   ],
   "replacement_timeline": [],
   "latest_confirmed_total": {
+    "source": "MoneyDJ｜星宇公關長機隊說明",
+    "source_url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
+    "published_date": "2026-10-20",
+    "as_of": "2026-10-20",
+    "verified_date": "2026-10-21",
+    "status": "confirmed",
+    "label": "公司受訪機隊總數",
+    "value": 38,
+    "note": "媒體引述公關長確認第 38 架已抵台且為自購。這不是民航局當月登記快照；新增機身編號與分型仍待正式資料核對。",
+    "date_precision": "day"
+  },
+  "composition_snapshot": {
     "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
     "source_url": "https://www.caa.gov.tw/FileAtt.ashx?id=41662&lang=1",
     "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
@@ -1180,22 +1192,11 @@
     "verified_date": "2026-10-13",
     "as_of": "2026-09-30",
     "status": "confirmed",
-    "label": "登記機隊總數",
+    "label": "民航局分型登記快照",
     "value": 37,
     "note": "CAA 2026-09-30 名冊：13 A321neo、10 A330-900、10 A350-900、4 A350-1000；非即時可用架數。",
-    "date_precision": "day"
-  },
-  "composition_snapshot": {
-    "source": "星宇航空｜2025 年報",
-    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
-    "published_date": null,
-    "level": 1,
-    "as_of": "2025-12-31",
-    "verified_date": "2026-10-12",
-    "status": "confirmed",
-    "source_id": "jxAnnual",
-    "total": 29,
-    "label": "年末分型快照",
+    "date_precision": "day",
+    "total": 37,
     "rows": [
       {
         "aircraft_type": "A321neo",
@@ -1203,14 +1204,17 @@
       },
       {
         "aircraft_type": "A330-900",
-        "quantity": 6
+        "quantity": 10
       },
       {
         "aircraft_type": "A350-900",
         "quantity": 10
+      },
+      {
+        "aircraft_type": "A350-1000",
+        "quantity": 4
       }
-    ],
-    "note": "2025年報印刷頁碼4：2025年年底完整分型數量。2026年已有新機交付，不能當作今日現役組成，也不能與2026年3月31架總數混算。"
+    ]
   },
   "note": "現況採 CAA 2026-09-30 登記名冊；歴史快照、採購計畫與目前登記數分列，不推算剩餘訂單。",
   "ownership_summary": {
