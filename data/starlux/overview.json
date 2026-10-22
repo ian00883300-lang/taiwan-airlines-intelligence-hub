@@ -587,6 +587,27 @@
         "as_of": "2024-12-31",
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "source": "星宇｜2024 永續報告",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/20250908-1-STARLUX-2024-ESG-EC-CH.pdf_tcm5-13135.pdf",
+        "title": "安全績效指標：五大高風險事件",
+        "body": "報告說明參考 ICAO GASP 的五大高風險事件：受控墜地、飛行中失控、空中相撞、跑道越界及跑道侵入，據公司營運現況設定 SPI 與 SPT。這是風險監控分類，不表示公司曾發生上述每種事件。",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
+      },
+      {
+        "source": "IATA｜IOSA",
+        "source_url": "https://www.iata.org/en/programs/safety/audit/iosa",
+        "scope": "一般航空知識",
+        "title": "風險導向 IOSA：如何理解稽核深度",
+        "body": "IATA 說明 IOSA 自 2024 年轉向風險導向模式，依受稽核航空公司的風險特性調整範圍。研究認證時應同時看適用範圍、查核日期與後續改善，不能只比較證書數量；此項為制度解說，不代替星宇個別稽核結果。",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
       }
     ],
     "sms": [

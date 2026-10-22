@@ -417,6 +417,36 @@
         "as_of": null,
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "title": "可靠性管制：四類資料與改善循環",
+        "body": "長榮分別監控航機系統、零組件、發動機與機體結構；異常發生率超過警示標準時，由工程師分析並將改善方案納入維護計畫，每月透過可靠性會議及品質管理委員會追蹤。",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
+      },
+      {
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "title": "派遣可靠度：數據如何回饋維修",
+        "body": "公司設定各機隊派遣率目標，每月檢討延誤原因，據此調整維修計畫與預防性工程措施。派遣可靠度反映技術運作表現，不能與整體準點率或事故率互換使用。",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
+      },
+      {
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "title": "電子飛航維護紀錄：2026 年第二季啟用",
+        "body": "官方披露自力開發的 e-LOG 於 2025 年向民航局申請驗證，2026 年第二季取得核准上線。用途是數位化飛航維護紀錄、減少紙張並提升作業效率；官方未列確切核准日，不自行補成某一天。",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
       }
     ],
     "sms": [
