@@ -1,0 +1,151 @@
+{
+  "china-airlines": [
+    {
+      "label": "IATA 國際航空運輸協會",
+      "date": "2002 年（重新加入）",
+      "body": "華航年報確認 2002 年重返 IATA；本次採官方可確認的年份，確切月日與最初入會日期待補原始資料。",
+      "source": "華航｜2022 年報",
+      "source_url": "https://calec.china-airlines.com/annual-report/annual_2022.pdf",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "SkyTeam 天合聯盟",
+      "date": "2011-09-28",
+      "body": "正式成為第 15 家成員；航空聯盟與 IATA 產業協會不同。",
+      "source": "華航｜利害關係人溝通",
+      "source_url": "https://calec.china-airlines.com/csr/en/management_interested.html",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "ICAO 國際民航組織",
+      "date": "不適用",
+      "body": "會員為締約國，航空公司沒有加入 ICAO 的日期；CAL／EVA／SJX 是航空公司識別碼，不代表會員資格。",
+      "source": "ICAO｜Member States",
+      "source_url": "https://www.icao.int/about-icao/member-states",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "上市 · 2610",
+      "date": "1993-02-26",
+      "body": "臺灣證券交易所上市。未查得可確認的先前上櫃日期，不將上市日填成上櫃日。",
+      "source": "證交所｜國際證券辨識號碼",
+      "source_url": "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    }
+  ],
+  "eva-air": [
+    {
+      "label": "IATA 國際航空運輸協會",
+      "date": "加入日期待查核",
+      "body": "IATA 官方會員名錄確認長榮為會員，但該頁未提供加入日期；e-freight、數位領導章程及理事任職日期不當成入會日。",
+      "source": "IATA｜EVA Air 會員名錄",
+      "source_url": "https://www.iata.org/en/about/members/airline-list/eva-air/357/",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "Star Alliance 星空聯盟",
+      "date": "2013-06-18",
+      "body": "正式加入星空聯盟；與 IATA 會員資格分開記錄。",
+      "source": "SAS／星空聯盟｜加入公告",
+      "source_url": "https://www.sasgroup.net/newsroom/press-releases/2013/eva-air-joins-the-star-alliance-network/",
+      "published_date": "2013-06-18",
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "ICAO 國際民航組織",
+      "date": "不適用",
+      "body": "會員為締約國，航空公司沒有加入 ICAO 的日期；CAL／EVA／SJX 是航空公司識別碼，不代表會員資格。",
+      "source": "ICAO｜Member States",
+      "source_url": "https://www.icao.int/about-icao/member-states",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "上櫃 · 2618",
+      "date": "1999-10-27",
+      "body": "股票於櫃檯買賣市場掛牌；當日報導與公司沿革的先上櫃、後轉上市歷程相符。",
+      "source": "Taipei Times｜EVA offering ready for take-off",
+      "source_url": "https://www.taipeitimes.com/News/biz/archives/1999/10/27/0000008389",
+      "published_date": "1999-10-27",
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "上市 · 2618",
+      "date": "2001-09-17",
+      "body": "由上櫃轉至臺灣證券交易所上市；不是 1999 年首次掛牌日。",
+      "source": "證交所｜國際證券辨識號碼",
+      "source_url": "https://isin.twse.com.tw/isin/e_C_public.jsp?strMode=2",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    }
+  ],
+  "starlux": [
+    {
+      "label": "IATA 國際航空運輸協會",
+      "date": "2023-12-04",
+      "body": "正式入會日為 12 月 4 日；12 月 13 日為授證典禮與新聞發布日。2023 年 11 月初通過 IOSA 是另一個稽核里程碑。",
+      "source": "星宇｜正式加入 IATA 公告",
+      "source_url": "https://www.starlux-airlines.com/en-CZ/about-us/media-center/news/2023/20231213",
+      "published_date": "2023-12-13",
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "ICAO 國際民航組織",
+      "date": "不適用",
+      "body": "會員為締約國，航空公司沒有加入 ICAO 的日期；CAL／EVA／SJX 是航空公司識別碼，不代表會員資格。",
+      "source": "ICAO｜Member States",
+      "source_url": "https://www.icao.int/about-icao/member-states",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "興櫃 · 2646",
+      "date": "2022-09-30",
+      "body": "登錄興櫃市場。興櫃與上櫃是不同市場，不寫成「上櫃」。",
+      "source": "星宇｜興櫃前法人說明會",
+      "source_url": "https://www.starlux-airlines.com/en-TH/about-us/media-center/news/2022/20220928",
+      "published_date": "2022-09-28",
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    },
+    {
+      "label": "上市 · 2646",
+      "date": "2024-10-25",
+      "body": "普通股開始於臺灣證券交易所上市買賣；與 2022 年興櫃掛牌分開。",
+      "source": "證交所｜星宇上市公告",
+      "source_url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d69236c2e30192bd916ec202a0.pdf",
+      "published_date": "2024-10-24",
+      "as_of": null,
+      "verified_date": "2026-10-22",
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import membershipListing from "../data/membership-listing.json";
 import {Chart, DoughnutController, ArcElement, Tooltip, Legend} from "chart.js";
 import securities from "../data/securities.json";
 import MaintenanceServices from "./MaintenanceServices.jsx";
@@ -79,6 +80,7 @@ export function CompanyIdentity({ a, Source }) {
         </div>
         <Source item={securities[a.id]} compact />
       </div>
+      <div className="table-wrap research-table identity-topic-table membership-listing"><table><caption>組織參與與資本市場里程碑</caption><thead><tr><th>項目</th><th>日期</th><th>重點</th></tr></thead><tbody>{membershipListing[a.id].map(record=><tr key={record.label}><th scope="row">{record.label}</th><td data-label="日期">{record.date}</td><td data-label="重點">{record.body}<Source item={record} compact /></td></tr>)}</tbody></table><p className="fineprint">IATA 為航空運輸產業協會；ICAO 為政府間組織；IOSA 為營運安全稽核。興櫃、上櫃與上市分別記錄。</p></div>
       {['公司基本資料','公司治理','組織架構','品牌理念','品牌與設計','機隊歷史快照'].map(category=>{
  const categoryOf=record=>a.id==='starlux'?(/機隊/.test(record.label)?'機隊歷史快照':/設計|識別|AIRSORAYAMA/.test(record.label)?'品牌與設計':/董事/.test(record.label)?'公司治理':'公司基本資料'):a.sections.brand.includes(record)?'品牌理念':a.sections.governance.includes(record)?'公司治理':a.sections.organization.includes(record)?'組織架構':'公司基本資料';
  const rows=records.filter(r=>categoryOf(r)===category);if(!rows.length)return null;

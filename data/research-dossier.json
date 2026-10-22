@@ -853,18 +853,17 @@
           "source_id": "jxA330DeliverySafran"
         },
         {
-          "date": "2022-09",
+          "date": "2022-09-30",
           "date_kind": "event",
           "label": "登錄興櫃",
-          "body": "與 2024 年證交所上市分開。",
-          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
-          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
-          "published_date": null,
-          "as_of": "2024-12-31",
-          "verified_date": "2026-10-14",
+          "body": "登錄興櫃市場。興櫃與上櫃是不同市場，不寫成「上櫃」。",
+          "source": "星宇｜興櫃前法人說明會",
+          "source_url": "https://www.starlux-airlines.com/en-TH/about-us/media-center/news/2022/20220928",
+          "published_date": "2022-09-28",
+          "as_of": null,
+          "verified_date": "2026-10-22",
           "status": "confirmed",
-          "source_id": "jxEsg2024History",
-          "timeline_date_precision": "month"
+          "timeline_date_precision": "day"
         },
         {
           "date": "2022-10-28",
@@ -908,18 +907,17 @@
           "timeline_date_precision": "month"
         },
         {
-          "date": "2023-12",
+          "date": "2023-12-04",
           "date_kind": "event",
           "label": "加入 IATA",
-          "body": "IATA 是國際航空運輸協會，不是航空公司聯盟。",
-          "source": "星宇｜2024 永續報告（歷史里程碑，PDF 第 10–12 頁）",
-          "source_url": "https://sustainability.jx-starlux.com/download/0/2024SUSREPORTEN/",
-          "published_date": null,
-          "as_of": "2024-12-31",
-          "verified_date": "2026-10-14",
+          "body": "正式入會日為 12 月 4 日；12 月 13 日為授證典禮與新聞發布日。2023 年 11 月初通過 IOSA 是另一個稽核里程碑。",
+          "source": "星宇｜正式加入 IATA 公告",
+          "source_url": "https://www.starlux-airlines.com/en-CZ/about-us/media-center/news/2023/20231213",
+          "published_date": "2023-12-13",
+          "as_of": null,
+          "verified_date": "2026-10-22",
           "status": "confirmed",
-          "source_id": "jxEsg2024History",
-          "timeline_date_precision": "month"
+          "timeline_date_precision": "day"
         },
         {
           "date": "2023-12-16",
