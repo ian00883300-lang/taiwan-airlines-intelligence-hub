@@ -1,3 +1,4 @@
+import Awards from "./Awards.jsx";
 import SafetyMechanisms from './SafetyMechanisms.jsx';
 import FleetStudy from "./FleetStudy.jsx";
 import AircraftOverview from "./AircraftOverview.jsx";
@@ -1043,6 +1044,7 @@ function Airline({ a, tab = "overview", openInterview }) {
         <>
           {part("公司與品牌資料表", <CompanyIdentity a={a} Source={Source} />)}
           {part("公司歷史時間軸", <CompanyTimeline airline={a.id} Source={Source} />)}
+          <Awards key={a.id} airline={a.id} Source={Source}/>
         </>
       ) : group.id === "operations" ? (
         <>

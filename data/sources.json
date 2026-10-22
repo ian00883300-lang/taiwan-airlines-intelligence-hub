@@ -2334,5 +2334,159 @@
     "verified_date": "2026-10-22",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "id": "award-ci-pharma-2019",
+    "source_id": "award-ci-pharma-2019",
+    "source": "IATA｜首次取得 CEIV Pharma",
+    "source_url": "https://calec.china-airlines.com/csr/news20210201.html",
+    "published_date": "2021-02-01",
+    "as_of": null,
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-ci-sp-2023",
+    "source_id": "award-ci-sp-2023",
+    "source": "S&P Global｜Sustainability Yearbook Top 1%",
+    "source_url": "https://www.china-airlines.com/sea/ma/about-china-airlines/media/news/20230222",
+    "published_date": "2023-02-22",
+    "as_of": "2023-02-22",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-ci-apex-2025",
+    "source_id": "award-ci-apex-2025",
+    "source": "APEX｜APEX 五星及餐飲、Wi-Fi 獎",
+    "source_url": "https://www.china-airlines.com/nl/nl/about-china-airlines/media/news/20241125",
+    "published_date": "2024-11-25",
+    "as_of": "2024-11-25",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-br-five-2016",
+    "source_id": "award-br-five-2016",
+    "source": "Skytrax｜首次 Skytrax 五星航空",
+    "source_url": "https://skytraxratings.com/eva-air-certified-5-star-airline",
+    "published_date": "2016-06-15",
+    "as_of": "2016-06-15",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-br-sky-2024",
+    "source_id": "award-br-sky-2024",
+    "source": "Skytrax｜全球第8名、豪華經濟艙餐飲獎",
+    "source_url": "https://www.evaair.com/en-gb/about-eva-air/news/news-releases/2024-06-25-skytrax-award.html",
+    "published_date": "2024-06-25",
+    "as_of": "2024-06-24",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-br-sky-2025",
+    "source_id": "award-br-sky-2025",
+    "source": "Skytrax｜全球最乾淨航空、最佳經濟艙餐飲",
+    "source_url": "https://www.evaair.com/en-global/about-eva-air/about-us/awards-and-honors/",
+    "published_date": null,
+    "as_of": "2025-06-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-br-pharma-2024",
+    "source_id": "award-br-pharma-2024",
+    "source": "IATA｜CEIV Pharma 再認證",
+    "source_url": "https://www.evaair.com/en-us/about-eva-air/news/news-releases/2024-04-10-evaair-cargo.html",
+    "published_date": "2024-04-17",
+    "as_of": "2024-04-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-jx-pharma-2025",
+    "source_id": "award-jx-pharma-2025",
+    "source": "IATA｜CEIV Pharma、CEIV Fresh",
+    "source_url": "https://www.starlux-airlines.com/en-Global/about-us/media-center/news/2025/20250210",
+    "published_date": "2025-02-10",
+    "as_of": "2025-02-10",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-jx-five-2025",
+    "source_id": "award-jx-five-2025",
+    "source": "Skytrax｜首次 Skytrax 五星航空",
+    "source_url": "https://skytraxratings.com/starlux-airlines-is-certified-with-the-highest-5-star-airline-rating?pubDate=20251202",
+    "published_date": "2025-06-17",
+    "as_of": "2025-06-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-jx-improved-2025",
+    "source_id": "award-jx-improved-2025",
+    "source": "Skytrax｜全球最佳進步航空",
+    "source_url": "https://www.starlux-airlines.com/en-TW/about-us/media-center/news/2025/202506181",
+    "published_date": "2025-06-18",
+    "as_of": "2025-06-17",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-jx-live-2025",
+    "source_id": "award-jx-live-2025",
+    "source": "IATA｜CEIV Live Animals：四項認證里程碑",
+    "source_url": "https://sustainability.jx-starlux.com/en/news-detail/97/",
+    "published_date": "2025-07-24",
+    "as_of": "2025-07-24",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-ci-cargo-2022",
+    "source_id": "award-ci-cargo-2022",
+    "source": "華航｜2022貨運獎與冷鏈續證",
+    "source_url": "https://www.china-airlines.com/cn/en/about-china-airlines/media/news/20221027",
+    "published_date": "2022-10-27",
+    "as_of": "2022-10-27",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-ci-pharma-2022",
+    "source_id": "award-ci-pharma-2022",
+    "source": "華航｜2022貨運獎與冷鏈續證",
+    "source_url": "https://www.china-airlines.com/cn/en/about-china-airlines/media/news/20221027",
+    "published_date": "2022-10-27",
+    "as_of": "2022-10-27",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
+  },
+  {
+    "id": "award-jx-li-2024",
+    "source_id": "award-jx-li-2024",
+    "source": "星宇｜2024官方新聞紀錄",
+    "source_url": "https://www.starlux-airlines.com/id-ID/about-us/media-center/2024news",
+    "published_date": null,
+    "as_of": "2024-12-09",
+    "verified_date": "2026-10-22",
+    "status": "confirmed",
+    "level": 1
   }
 ]
