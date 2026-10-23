@@ -5,7 +5,7 @@
       "source_url": "https://www.china-airlines.com/tw/zh/member/planning/introduction/membership-benefits",
       "status": "confirmed",
       "published_date": null,
-      "verified_date": "2026-10-18",
+      "verified_date": "2026-10-23",
       "as_of": null,
       "name": "華夏會員 Dynasty Flyer",
       "tiers": [
@@ -53,6 +53,12 @@
         "images/membership/ci-1.svg",
         "images/membership/ci-2.svg",
         "images/membership/ci-3.svg"
+      ],
+      "image_sources": [
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-DYNA_tcm539-68337.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-GOLD_tcm539-68338.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-EMER_tcm539-68339.png&w=1920&q=100",
+        "https://www.china-airlines.com/_next/image?url=https%3A%2F%2Fprd-api.china-airlines.com%2Ftw%2Fzh%2FImages%2Fmember-card-PARA_tcm539-68340.png&w=1920&q=100"
       ]
     },
     "liveries": [
@@ -227,7 +233,7 @@
       "source_url": "https://www.evaair.com/en-de/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/benefit-when-flying-with-star-alliance-members-partners/Default.html",
       "status": "confirmed",
       "published_date": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-23",
       "as_of": null,
       "name": "無限萬哩遊 Infinity MileageLands",
       "tiers": [
@@ -259,6 +265,12 @@
         "status": "confirmed"
       },
       "images": [
+        "https://www.evaair.com/en-in/images/green_348x348_tcm76-95585.png",
+        "https://www.evaair.com/en-in/images/silver_348x348_tcm76-95586.png",
+        "https://www.evaair.com/en-in/images/gold_348x348_tcm76-95584.png",
+        "https://www.evaair.com/en-in/images/diamond_348x348_tcm76-95583.png"
+      ],
+      "image_sources": [
         "https://www.evaair.com/en-in/images/green_348x348_tcm76-95585.png",
         "https://www.evaair.com/en-in/images/silver_348x348_tcm76-95586.png",
         "https://www.evaair.com/en-in/images/gold_348x348_tcm76-95584.png",
@@ -436,7 +448,7 @@
       "source_url": "https://www.starlux-airlines.com/en-US/cosmile/cosmile-plan/tier-privileges",
       "status": "confirmed",
       "published_date": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-23",
       "as_of": null,
       "name": "COSMILE",
       "tiers": [
@@ -466,7 +478,19 @@
         "verified_date": "2026-10-16",
         "published_date": null,
         "status": "confirmed"
-      }
+      },
+      "images": [
+        "images/membership/starlux-0.png",
+        "images/membership/starlux-1.png",
+        "images/membership/starlux-2.png",
+        "images/membership/starlux-3.png"
+      ],
+      "image_sources": [
+        "https://webassets2.starlux-airlines.com/en-US/Images/TRAVELER_tcm8-2034.png",
+        "https://webassets2.starlux-airlines.com/en-US/Images/ADVENTURER_tcm8-2035.png",
+        "https://webassets2.starlux-airlines.com/en-US/Images/EXPLORER_tcm8-2036.png",
+        "https://webassets2.starlux-airlines.com/en-US/Images/INSIGHTER_tcm8-2037.png"
+      ]
     },
     "liveries": [
       {

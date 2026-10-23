@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {Plot} from './ResearchPanels.jsx';
 import CabinDesign from "./CabinDesign.jsx";
 import content from '../data/fleet-experience.json';
-function MemberCard({src,name,url,illustration}){const[failed,setFailed]=useState(false);const fallback=illustration?import.meta.env.BASE_URL+illustration:null;return <a href={url} target="_blank" rel="noreferrer">{src&&!failed?<img className="member-card-image" src={src} alt={name+'官方卡面'} loading="lazy" referrerPolicy="no-referrer" onError={()=>setFailed(true)}/>:fallback?<img className="member-card-image" src={fallback} alt={name+'卡別示意，非官方卡面'}/>:<small className="fineprint">官方卡面待補 ↗</small>}</a>}
+function MemberCard({src,name,url,illustration}){const[failed,setFailed]=useState(false);const fallback=illustration?import.meta.env.BASE_URL+illustration:null;return <a href={url} target="_blank" rel="noreferrer">{src&&!failed?<img className="member-card-image" src={src.startsWith('http')?src:import.meta.env.BASE_URL+src} alt={name+'官方卡面'} loading="lazy" referrerPolicy="no-referrer" onError={()=>setFailed(true)}/>:fallback?<img className="member-card-image" src={fallback} alt={name+'卡別示意，非官方卡面'}/>:<small className="fineprint">官方卡面待補 ↗</small>}</a>}
 export default function FleetStudy({airline,fleet,Source,mode='fleet'}){
 const d=content[airline];if(!d)return null;
 if(mode==='design')return <CabinDesign key={airline} airline={airline} fleet={fleet} Source={Source}/>;
