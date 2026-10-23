@@ -1458,7 +1458,17 @@
         "source_page": 4,
         "note": "PDF 第 4 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
       },
-      "aircraft_note": "PDF 第 4 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      "aircraft_note": "PDF 第 4 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。",
+      "next_schedule": {
+        "outbound": "CI112",
+        "inbound": "CI113",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-01-31",
+        "source": "廣島機場｜冬季台北航線時刻表",
+        "source_url": "https://www.hij.airport.jp/en/flight/kokusai/next_taipei.html",
+        "verified_date": "2026-10-24",
+        "note": "每週二至日；週六去程時刻不同。JL5110／5119、KL4976／4977 是共掛銷售班號，不另計航線。"
+      }
     },
     {
       "id": "china-airlines-TPE-TAK",

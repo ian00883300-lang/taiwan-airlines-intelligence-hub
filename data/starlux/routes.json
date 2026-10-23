@@ -367,6 +367,16 @@
         "valid_to": null,
         "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
         "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      },
+      "next_schedule": {
+        "outbound": "JX306",
+        "inbound": "JX307",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-03-27",
+        "source": "星宇航空｜台中航線官方專頁",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-24",
+        "note": "每日飛航。台中 09:00→神戶 12:30；神戶 13:30→台中 16:00，均為當地時間。"
       }
     },
     {

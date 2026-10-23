@@ -18,6 +18,8 @@ import evaFleet from "../data/eva-air/fleet.json";
 import jxFleet from "../data/starlux/fleet.json";
 
 const airlines = [ci, eva, jx];
+const taipeiDate = () => new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const expiredSchedule = r => { const e=r.flight_number_evidence || r.schedule_evidence; return e?.valid_to && e.valid_to < taipeiDate(); };
 const routes = [...ciRoutes.items, ...evaRoutes.items, ...jxRoutes.items];
 const routeEvent = (r) => {
   const records = (r.event_ids || []).map(id => events.find(e => e.id === id)).filter(Boolean);
@@ -405,6 +407,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                         <td data-label="機型／首航與復航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
                           {(r.flight_number_evidence || r.schedule_evidence?.flight_numbers) && <div className="route-flight-numbers">
+                            {expiredSchedule(r) && <small>歷史班表（已超過來源適用期間）</small>}
                             {r.flight_number_evidence ? <>
                               <strong>去程 {r.flight_number_evidence.outbound} · 回程 {r.flight_number_evidence.inbound}</strong>
                               <small>{r.flight_number_evidence.period_label || (r.flight_number_evidence.valid_to ? r.flight_number_evidence.valid_from + '～' + r.flight_number_evidence.valid_to : '官網快照 2026-10-23（適用期間未明示）')}</small>
@@ -412,6 +415,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                             </> : <><strong>班號 {r.schedule_evidence.flight_numbers}</strong><small>歷史班表：{r.schedule_evidence.valid_from}～{r.schedule_evidence.valid_to}</small></>}
                           </div>}
 
+                          {r.next_schedule && <details className="route-next-schedule"><summary>冬季班表 · {r.next_schedule.valid_from}～{r.next_schedule.valid_to}</summary><p>去程 {r.next_schedule.outbound} · 回程 {r.next_schedule.inbound}</p><p>{r.next_schedule.note}</p><Source item={r.next_schedule} compact /></details>}
                           {r.schedule_evidence && (
                             <details>
                               <summary>班表期間與多機型配置</summary>
