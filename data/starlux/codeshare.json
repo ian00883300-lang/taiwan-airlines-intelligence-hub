@@ -1,0 +1,70 @@
+[
+  {
+    "partner": "阿拉斯加航空 AS",
+    "dates": "2024-10-02 開始共掛／開賣",
+    "scope": "首批由 AS 承運西雅圖至鹽湖城、聖地牙哥、鳳凰城、波特蘭、拉斯維加斯、達拉斯、丹佛及奧斯汀，以 JX 班號銷售。",
+    "benefit": "可串接星宇跨太平洋航班，延伸北美內陸；選位、寵物及醫療等特殊服務須洽實際承運方。",
+    "source": "星宇航空通報 TW241001（Sabre 保存）",
+    "source_url": "https://www.sabretn.com.tw/admin/fileupload/13372485866415779220241004JX1.pdf",
+    "published_date": "2024-10-04",
+    "as_of": null,
+    "verified_date": "2026-10-23",
+    "status": "confirmed"
+  },
+  {
+    "partner": "阿拉斯加航空 AS · 擴大",
+    "dates": "2025-09-30 官方更新",
+    "scope": "官方更新列出經西雅圖或舊金山銜接的多個城市，包括費城、奧蘭多、華盛頓及紐瓦克；此日為擴大合作公告，不是首次合作日。",
+    "benefit": "可在星宇官網／App 購買一本票的美亞行程，簡化報到與行李銜接；COSMILE 累積須依適用班號與艙等規則。",
+    "source": "星宇｜阿拉斯加共掛服務",
+    "source_url": "https://latestnews.starlux-airlines.com/en-US/about-us/travel-advisories/advisories/latest-news/fly_to_US_AS",
+    "published_date": "2025-09-30",
+    "as_of": null,
+    "verified_date": "2026-10-23",
+    "status": "confirmed"
+  },
+  {
+    "partner": "阿提哈德航空 EY",
+    "dates": "2025-06-04 簽約公告；2025-09 開始合作",
+    "scope": "星宇年報確認 9 月共掛；AeroRoutes 於 9 月 10 日報導預定 9 月 15 日啟用，初期含桃園—阿布達比、阿布達比—布魯塞爾／布拉格，以及星宇桃園—大阪。9 月 15 日屬班表計畫日期，未當成實際首班紀錄。",
+    "benefit": "透過阿布達比銜接歐洲，並由桃園延伸東北亞；阿提哈德 9 月 7 日開航台北是航線首航，與共掛生效不同。",
+    "source": "阿提哈德｜簽約公告",
+    "source_url": "https://www.etihad.com/en-de/news/etihad-airways-and-starlux-airlines-sign-strategic-codeshare-partnership",
+    "published_date": "2025-06-04",
+    "as_of": null,
+    "verified_date": "2026-10-23",
+    "status": "confirmed",
+    "additional": [
+      {
+        "source": "AeroRoutes｜初期共掛班表計畫",
+        "source_url": "https://www.aeroroutes.com/eng/250910-jxeycodeshare",
+        "published_date": "2025-09-10",
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
+      }
+    ]
+  },
+  {
+    "partner": "美國航空 AA",
+    "dates": "2026-09-23 開賣；2026-09-30 適用航班",
+    "scope": "AA 班號掛在星宇洛杉磯、安大略、舊金山、西雅圖—桃園航班；AA 公告中的鳳凰城共掛仍附主管機關核准條件。星宇公告另列延伸 20 個北美城市。",
+    "benefit": "符合條件的 AA 班號、星宇承運航班可累積 AAdvantage 哩程及 Loyalty Points；公告將里程兌換與更多福利列為未來合作，不能寫成已全面互通。",
+    "source": "星宇｜美國航空共掛啟售",
+    "source_url": "https://latestnews.starlux-airlines.com/en-US/about-us/travel-advisories/advisories/latest-news/aa-codeshare",
+    "published_date": "2026-09-23",
+    "as_of": null,
+    "verified_date": "2026-10-23",
+    "status": "confirmed",
+    "additional": [
+      {
+        "source": "美國航空｜範圍與會員權益",
+        "source_url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-STARLUX-Airlines-launch-codeshare-partnership-to-expand-trans-Pacific-flight-options-NET-ALP-09/default.aspx",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
+      }
+    ]
+  }
+]

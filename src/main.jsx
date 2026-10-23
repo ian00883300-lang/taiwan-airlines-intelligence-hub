@@ -1,3 +1,4 @@
+import StarluxCodeshare from "./StarluxCodeshare.jsx";
 import Awards from "./Awards.jsx";
 import SafetyMechanisms from './SafetyMechanisms.jsx';
 import FleetStudy from "./FleetStudy.jsx";
@@ -1068,7 +1069,7 @@ function Airline({ a, tab = "overview", openInterview }) {
           </section>
           {part(
             "營運統計、樞紐與合作關係",
-            <TopicTables a={a} keys={["routes", "hubs", "alliances", "codeshare"]}/>,
+            <><TopicTables a={a} keys={["routes", "hubs", "alliances", "codeshare"]}/>{a.id === "starlux" && <StarluxCodeshare Source={Source}/>}</>,
           )}
         </>
       ) : group.id === "finance" ? (
