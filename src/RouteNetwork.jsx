@@ -111,6 +111,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
         ),
     ),
   ].sort();
+  const cargoOptions = [...new Set(Object.entries(fleets)
+    .filter(([id]) => air === "all" || id === air)
+    .flatMap(([, f]) => f.items.filter(x => x.kind === "cargo" && x.status === "confirmed").map(x => x.aircraft_type)))].sort();
+  const cargoSelected = cargoOptions.includes(aircraft);
   const origins = [
     ...new Set(
       routes
@@ -211,6 +215,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>
         </div>
       </div>
+      {cargoSelected && <p role="status" className="notice">{aircraft} 貨機：目前尚未收錄經查核、可對應此機型的貨運航段；零筆資料不代表沒有營運。請查閱 <a href="https://cargo.china-airlines.com/" target="_blank" rel="noreferrer">華航貨運</a> 或 <a href="https://www.brcargo.com/NEC_WEB/Schedule/DailySchedule/Index" target="_blank" rel="noreferrer">長榮貨運班表</a>。客機腹艙載貨不列為全貨機航線。</p>}
       <RouteDistribution
         routes={filtered}
         continents={continents}
@@ -225,9 +230,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
             onChange={(e) => setAircraft(e.target.value)}
           >
             <option value="all">全部機型與待查核</option>
-            {aircraftOptions.map((t) => (
+            <optgroup label="客機">{aircraftOptions.map((t) => (
               <option key={t}>{t}</option>
             ))}
+            </optgroup>
+            <optgroup label="貨機">{cargoOptions.map(t => <option key={t} value={t}>{t}（貨機）</option>)}</optgroup>
             <option value="unknown">機型資料待查核</option>
           </select>
         </label>
