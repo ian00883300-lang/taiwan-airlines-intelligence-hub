@@ -3575,5 +3575,213 @@
         "jxFleetOutlook20261020"
       ]
     }
+  },
+  {
+    "id": "cargo-route-evidence",
+    "airline": "General",
+    "topic": "Routes",
+    "question": "貨機航班常中停，如何避免把班號誤解成直飛航線？",
+    "question_en": "How would you interpret a multi-sector cargo flight?",
+    "answer": "I would verify each airport-to-airport sector, then check the flight number, date, aircraft and record status. One number can cover a Taipei–Anchorage sector and an onward flight, so it does not prove a nonstop service to the final destination. Tracking history supports an individual operation; recurring frequency requires a dated official schedule.",
+    "answer_30": "I would verify each airport-to-airport sector, then check the flight number, date, aircraft and record status. One number can cover a Taipei–Anchorage sector and an onward flight, so it does not prove a nonstop service to the final destination. Tracking history supports an individual operation; recurring frequency requires a dated official schedule.",
+    "answer_60": "I would verify each airport-to-airport sector, then check the flight number, date, aircraft and record status. One number can cover a Taipei–Anchorage sector and an onward flight, so it does not prove a nonstop service to the final destination. Tracking history supports an individual operation; recurring frequency requires a dated official schedule. I would connect the principle to the actual situation and verify any details before making a stronger claim.",
+    "chinese_answer": "我會以每一段起降機場為單位查核，再核對班號、日期、機型及資料狀態。同一班號可能涵蓋桃園到安克拉治、再到美國其他城市，不能直接當成桃園直飛最終目的地。飛行追蹤紀錄只能證明特定航班的歷史情況；要說明固定班次，還需要有效期間明確的官方班表。",
+    "answer_zh_30": "我會以每一段起降機場為單位查核，再核對班號、日期、機型及資料狀態。同一班號可能涵蓋桃園到安克拉治、再到美國其他城市，不能直接當成桃園直飛最終目的地。飛行追蹤紀錄只能證明特定航班的歷史情況；要說明固定班次，還需要有效期間明確的官方班表。",
+    "answer_zh_60": "我會以每一段起降機場為單位查核，再核對班號、日期、機型及資料狀態。同一班號可能涵蓋桃園到安克拉治、再到美國其他城市，不能直接當成桃園直飛最終目的地。飛行追蹤紀錄只能證明特定航班的歷史情況；要說明固定班次，還需要有效期間明確的官方班表。 延伸回答時可加入具體情境與查證方式，不以尚未受訓的操作經驗充當實例。",
+    "key_points": [
+      "航段與班號分開",
+      "區分預定和實飛",
+      "標示證據期間"
+    ],
+    "keywords": [
+      "航段與班號分開",
+      "區分預定和實飛",
+      "標示證據期間"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "區分概念、證據及實際操作權責，練習精準而不誇大的回答。",
+    "content_type": "original_practice",
+    "note": "本站原創練習題，非歷屆考題或航空公司標準答案；來源支持知識原則，不代表公司評分規則。",
+    "source": "公開資料支持的原創情境題",
+    "source_url": "https://www.flightradar24.com/data/aircraft/b-16785",
+    "published_date": "2026-10-24",
+    "verified_date": "2026-10-24",
+    "status": "unverified",
+    "as_of": null,
+    "answer_outline": [
+      "航段與班號分開",
+      "區分預定和實飛",
+      "標示證據期間"
+    ],
+    "follow_up": "若只有預定出發，能不能寫成已實際執飛？",
+    "deep_dive": {
+      "analysis_zh": "我會以每一段起降機場為單位查核，再核對班號、日期、機型及資料狀態。同一班號可能涵蓋桃園到安克拉治、再到美國其他城市，不能直接當成桃園直飛最終目的地。飛行追蹤紀錄只能證明特定航班的歷史情況；要說明固定班次，還需要有效期間明確的官方班表。",
+      "analysis_en": "I would verify each airport-to-airport sector, then check the flight number, date, aircraft and record status. One number can cover a Taipei–Anchorage sector and an onward flight, so it does not prove a nonstop service to the final destination. Tracking history supports an individual operation; recurring frequency requires a dated official schedule.",
+      "pitfalls": [
+        "把概念知識當成機型操作資格",
+        "未區分單次紀錄與固定規則"
+      ],
+      "follow_ups": [
+        "若只有預定出發，能不能寫成已實際執飛？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
+  },
+  {
+    "id": "safety-unstable-approach",
+    "airline": "General",
+    "topic": "Safety",
+    "question": "進場未穩定但快到跑道，如何看待重飛？",
+    "question_en": "How would you view a go-around from an unstable approach?",
+    "answer": "I view a go-around as a normal risk-control option, not a personal failure. Stability depends on the operator’s criteria for speed, flight path, configuration and thrust, not just runway alignment. If the criteria are not met or stability is lost, I would follow the applicable policy and aircraft procedure, with clear crew communication and monitoring rather than lowering standards because of delay pressure.",
+    "answer_30": "I view a go-around as a normal risk-control option, not a personal failure. Stability depends on the operator’s criteria for speed, flight path, configuration and thrust, not just runway alignment. If the criteria are not met or stability is lost, I would follow the applicable policy and aircraft procedure, with clear crew communication and monitoring rather than lowering standards because of delay pressure.",
+    "answer_60": "I view a go-around as a normal risk-control option, not a personal failure. Stability depends on the operator’s criteria for speed, flight path, configuration and thrust, not just runway alignment. If the criteria are not met or stability is lost, I would follow the applicable policy and aircraft procedure, with clear crew communication and monitoring rather than lowering standards because of delay pressure. I would connect the principle to the actual situation and verify any details before making a stronger claim.",
+    "chinese_answer": "我會把重飛視為控制風險的正常選項，而不是面子或技術失敗。是否穩定應依公司的速度、航徑、構型、推力等標準及檢查高度判斷，不能只看是否對準跑道。未達標或後續失穩時，按公司政策及機型程序行動；組員需要清楚通報、分工及監控，不因延誤或乘客期待而自行降低標準。",
+    "answer_zh_30": "我會把重飛視為控制風險的正常選項，而不是面子或技術失敗。是否穩定應依公司的速度、航徑、構型、推力等標準及檢查高度判斷，不能只看是否對準跑道。未達標或後續失穩時，按公司政策及機型程序行動；組員需要清楚通報、分工及監控，不因延誤或乘客期待而自行降低標準。",
+    "answer_zh_60": "我會把重飛視為控制風險的正常選項，而不是面子或技術失敗。是否穩定應依公司的速度、航徑、構型、推力等標準及檢查高度判斷，不能只看是否對準跑道。未達標或後續失穩時，按公司政策及機型程序行動；組員需要清楚通報、分工及監控，不因延誤或乘客期待而自行降低標準。 延伸回答時可加入具體情境與查證方式，不以尚未受訓的操作經驗充當實例。",
+    "key_points": [
+      "標準與檢查高度",
+      "及時決策",
+      "重飛分工"
+    ],
+    "keywords": [
+      "標準與檢查高度",
+      "及時決策",
+      "重飛分工"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "區分概念、證據及實際操作權責，練習精準而不誇大的回答。",
+    "content_type": "original_practice",
+    "note": "本站原創練習題，非歷屆考題或航空公司標準答案；來源支持知識原則，不代表公司評分規則。",
+    "source": "公開資料支持的原創情境題",
+    "source_url": "https://safety.atr-aircraft.com/2021/07/29/decision-making-during-approach/",
+    "published_date": "2026-10-24",
+    "verified_date": "2026-10-24",
+    "status": "unverified",
+    "as_of": null,
+    "answer_outline": [
+      "標準與檢查高度",
+      "及時決策",
+      "重飛分工"
+    ],
+    "follow_up": "為什麼不應把某公司的穩定高度數字當成全球通用規則？",
+    "deep_dive": {
+      "analysis_zh": "我會把重飛視為控制風險的正常選項，而不是面子或技術失敗。是否穩定應依公司的速度、航徑、構型、推力等標準及檢查高度判斷，不能只看是否對準跑道。未達標或後續失穩時，按公司政策及機型程序行動；組員需要清楚通報、分工及監控，不因延誤或乘客期待而自行降低標準。",
+      "analysis_en": "I view a go-around as a normal risk-control option, not a personal failure. Stability depends on the operator’s criteria for speed, flight path, configuration and thrust, not just runway alignment. If the criteria are not met or stability is lost, I would follow the applicable policy and aircraft procedure, with clear crew communication and monitoring rather than lowering standards because of delay pressure.",
+      "pitfalls": [
+        "把概念知識當成機型操作資格",
+        "未區分單次紀錄與固定規則"
+      ],
+      "follow_ups": [
+        "為什麼不應把某公司的穩定高度數字當成全球通用規則？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
+  },
+  {
+    "id": "training-uncertain-answer",
+    "airline": "General",
+    "topic": "Learning",
+    "question": "面試被問到不確定的機型程序，你會怎麼回答？",
+    "question_en": "How would you answer an unfamiliar aircraft-procedure question?",
+    "answer": "I would separate the principle I understand from the procedure I have not been trained to use. For example, I can explain the role of angle of attack in a stall without inventing aircraft-specific switch actions or pitch targets. I would identify the approved reference and seek clarification from an instructor. Honesty should be paired with a concrete plan to close the knowledge gap.",
+    "answer_30": "I would separate the principle I understand from the procedure I have not been trained to use. For example, I can explain the role of angle of attack in a stall without inventing aircraft-specific switch actions or pitch targets. I would identify the approved reference and seek clarification from an instructor. Honesty should be paired with a concrete plan to close the knowledge gap.",
+    "answer_60": "I would separate the principle I understand from the procedure I have not been trained to use. For example, I can explain the role of angle of attack in a stall without inventing aircraft-specific switch actions or pitch targets. I would identify the approved reference and seek clarification from an instructor. Honesty should be paired with a concrete plan to close the knowledge gap. I would connect the principle to the actual situation and verify any details before making a stronger claim.",
+    "chinese_answer": "我會先清楚說明已知的原理與不確定的部分，避免把猜測包裝成程序。例如能解釋失速與迎角的關係，但未受該機型訓練，就不臆測按鈕順序或固定姿態值。接著說明會查核哪份核准手冊、確認適用構型，並向教官請教；誠實不是放棄準備，而是知道知識的邊界並主動補足。",
+    "answer_zh_30": "我會先清楚說明已知的原理與不確定的部分，避免把猜測包裝成程序。例如能解釋失速與迎角的關係，但未受該機型訓練，就不臆測按鈕順序或固定姿態值。接著說明會查核哪份核准手冊、確認適用構型，並向教官請教；誠實不是放棄準備，而是知道知識的邊界並主動補足。",
+    "answer_zh_60": "我會先清楚說明已知的原理與不確定的部分，避免把猜測包裝成程序。例如能解釋失速與迎角的關係，但未受該機型訓練，就不臆測按鈕順序或固定姿態值。接著說明會查核哪份核准手冊、確認適用構型，並向教官請教；誠實不是放棄準備，而是知道知識的邊界並主動補足。 延伸回答時可加入具體情境與查證方式，不以尚未受訓的操作經驗充當實例。",
+    "key_points": [
+      "區分原理與程序",
+      "不虛構細節",
+      "具體查證行動"
+    ],
+    "keywords": [
+      "區分原理與程序",
+      "不虛構細節",
+      "具體查證行動"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "區分概念、證據及實際操作權責，練習精準而不誇大的回答。",
+    "content_type": "original_practice",
+    "note": "本站原創練習題，非歷屆考題或航空公司標準答案；來源支持知識原則，不代表公司評分規則。",
+    "source": "公開資料支持的原創情境題",
+    "source_url": "https://www.faa.gov/documentlibrary/media/advisory_circular/ac_120-51e.pdf",
+    "published_date": "2026-10-24",
+    "verified_date": "2026-10-24",
+    "status": "unverified",
+    "as_of": null,
+    "answer_outline": [
+      "區分原理與程序",
+      "不虛構細節",
+      "具體查證行動"
+    ],
+    "follow_up": "如何讓「我不知道」變成有準備且負責任的回答？",
+    "deep_dive": {
+      "analysis_zh": "我會先清楚說明已知的原理與不確定的部分，避免把猜測包裝成程序。例如能解釋失速與迎角的關係，但未受該機型訓練，就不臆測按鈕順序或固定姿態值。接著說明會查核哪份核准手冊、確認適用構型，並向教官請教；誠實不是放棄準備，而是知道知識的邊界並主動補足。",
+      "analysis_en": "I would separate the principle I understand from the procedure I have not been trained to use. For example, I can explain the role of angle of attack in a stall without inventing aircraft-specific switch actions or pitch targets. I would identify the approved reference and seek clarification from an instructor. Honesty should be paired with a concrete plan to close the knowledge gap.",
+      "pitfalls": [
+        "把概念知識當成機型操作資格",
+        "未區分單次紀錄與固定規則"
+      ],
+      "follow_ups": [
+        "如何讓「我不知道」變成有準備且負責任的回答？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
+  },
+  {
+    "id": "cargo-loading",
+    "airline": "General",
+    "topic": "Aviation Knowledge",
+    "question": "貨機沒有乘客，安全考量是不是比較簡單？",
+    "question_en": "Is freighter safety simpler because there are no passengers?",
+    "answer": "No. Freighters retain the core operational risks and require careful control of load distribution, centre of gravity, restraint and special cargo requirements. Being below maximum weight does not establish that the loading is safe; cargo movement can also change balance. I would discuss verified loading data, limitations and handovers rather than assume lower safety standards because there are no passengers.",
+    "answer_30": "No. Freighters retain the core operational risks and require careful control of load distribution, centre of gravity, restraint and special cargo requirements. Being below maximum weight does not establish that the loading is safe; cargo movement can also change balance. I would discuss verified loading data, limitations and handovers rather than assume lower safety standards because there are no passengers.",
+    "answer_60": "No. Freighters retain the core operational risks and require careful control of load distribution, centre of gravity, restraint and special cargo requirements. Being below maximum weight does not establish that the loading is safe; cargo movement can also change balance. I would discuss verified loading data, limitations and handovers rather than assume lower safety standards because there are no passengers. I would connect the principle to the actual situation and verify any details before making a stronger claim.",
+    "chinese_answer": "不能這樣推論。貨機仍須管理飛行操作風險，且裝載分布、重心、貨物固定與特殊貨物要求都需要嚴格控制。總重量未超限不代表裝載一定安全，貨物移位也可能改變重心。面試時我會從裝載資料、限制與交接確認說明自己的理解，不假設貨機可採較寬鬆的飛安標準。",
+    "answer_zh_30": "不能這樣推論。貨機仍須管理飛行操作風險，且裝載分布、重心、貨物固定與特殊貨物要求都需要嚴格控制。總重量未超限不代表裝載一定安全，貨物移位也可能改變重心。面試時我會從裝載資料、限制與交接確認說明自己的理解，不假設貨機可採較寬鬆的飛安標準。",
+    "answer_zh_60": "不能這樣推論。貨機仍須管理飛行操作風險，且裝載分布、重心、貨物固定與特殊貨物要求都需要嚴格控制。總重量未超限不代表裝載一定安全，貨物移位也可能改變重心。面試時我會從裝載資料、限制與交接確認說明自己的理解，不假設貨機可採較寬鬆的飛安標準。 延伸回答時可加入具體情境與查證方式，不以尚未受訓的操作經驗充當實例。",
+    "key_points": [
+      "重量與重心不同",
+      "裝載固定",
+      "交接與限制"
+    ],
+    "keywords": [
+      "重量與重心不同",
+      "裝載固定",
+      "交接與限制"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "區分概念、證據及實際操作權責，練習精準而不誇大的回答。",
+    "content_type": "original_practice",
+    "note": "本站原創練習題，非歷屆考題或航空公司標準答案；來源支持知識原則，不代表公司評分規則。",
+    "source": "公開資料支持的原創情境題",
+    "source_url": "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf",
+    "published_date": "2026-10-24",
+    "verified_date": "2026-10-24",
+    "status": "unverified",
+    "as_of": null,
+    "answer_outline": [
+      "重量與重心不同",
+      "裝載固定",
+      "交接與限制"
+    ],
+    "follow_up": "貨物總重量相同，裝載位置不同會影響什麼？",
+    "deep_dive": {
+      "analysis_zh": "不能這樣推論。貨機仍須管理飛行操作風險，且裝載分布、重心、貨物固定與特殊貨物要求都需要嚴格控制。總重量未超限不代表裝載一定安全，貨物移位也可能改變重心。面試時我會從裝載資料、限制與交接確認說明自己的理解，不假設貨機可採較寬鬆的飛安標準。",
+      "analysis_en": "No. Freighters retain the core operational risks and require careful control of load distribution, centre of gravity, restraint and special cargo requirements. Being below maximum weight does not establish that the loading is safe; cargo movement can also change balance. I would discuss verified loading data, limitations and handovers rather than assume lower safety standards because there are no passengers.",
+      "pitfalls": [
+        "把概念知識當成機型操作資格",
+        "未區分單次紀錄與固定規則"
+      ],
+      "follow_ups": [
+        "貨物總重量相同，裝載位置不同會影響什麼？"
+      ],
+      "evidence_ids": []
+    },
+    "question_revision": 1
   }
 ]

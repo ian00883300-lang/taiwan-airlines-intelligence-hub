@@ -408,6 +408,13 @@
       "lat": 38.95,
       "lng": -77.46,
       "region": "North America"
+    },
+    "ANC": {
+      "name": "安克拉治泰德史蒂文斯",
+      "lat": 61.174,
+      "lng": -149.998,
+      "region": "North America",
+      "source_url": "https://www.airnav.com/airport/panc"
     }
   }
 }

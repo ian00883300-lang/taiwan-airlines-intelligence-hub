@@ -9,6 +9,7 @@ import jx from "../data/starlux/overview.json";
 import ciRoutes from "../data/china-airlines/routes.json";
 import evaRoutes from "../data/eva-air/routes.json";
 import jxRoutes from "../data/starlux/routes.json";
+import cargoRoutes from "../data/cargo-routes.json";
 import events from "../data/events.json";
 import plannedRoutes from "../data/planned-routes.json";
 import EventDates from "./EventDates.jsx";
@@ -68,7 +69,9 @@ export default function RouteNetwork({ initial = "all", Source }) {
     setRegion("all");
     setAircraft("all");
   }, [initial]);
-  const filtered = routes
+  const cargoMode = aircraft === "cargo-all" || Object.values(fleets).some(f => f.items.some(x => x.kind === "cargo" && x.aircraft_type === aircraft));
+  const activeRoutes = cargoMode ? cargoRoutes.items : routes;
+  const filtered = activeRoutes
     .filter(
       (r) =>
         (air === "all" || r.airline === air) &&
@@ -79,7 +82,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
               ? Boolean(routeEvent(r)?.event_date)
               : r.evidence_kind === "published_schedule_snapshot")) &&
         (origin === "all" || r.origin === origin) &&
-        (aircraft === "all" ||
+        (aircraft === "all" || aircraft === "cargo-all" ||
           (aircraft === "unknown"
             ? !aircraftOf(r).length
             : aircraftOf(r).includes(aircraft))) &&
@@ -114,10 +117,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
   const cargoOptions = [...new Set(Object.entries(fleets)
     .filter(([id]) => air === "all" || id === air)
     .flatMap(([, f]) => f.items.filter(x => x.kind === "cargo" && x.status === "confirmed").map(x => x.aircraft_type)))].sort();
-  const cargoSelected = cargoOptions.includes(aircraft);
+  const cargoSelected = cargoMode;
   const origins = [
     ...new Set(
-      routes
+      activeRoutes
         .filter((r) => air === "all" || r.airline === air)
         .map((r) => r.origin),
     ),
@@ -193,7 +196,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
     };
   }, [air, origin, region, aircraft, evidence]);
   return (
-    <section className="route-network" aria-label="自營客運航圖與航線表">
+    <section className="route-network" aria-label="自營航圖與航線表">
       <p className="fineprint">
         機場代碼在所有縮放層級均顯示；密集區域可放大或篩選航線，點選圓點查看中文機場名稱。地圖以球面大圓航線示意兩機場間路徑；虛線流動僅為視覺效果，非即時航班或實際飛航計畫。實際航路受空域、天氣與航管等因素影響。
       </p>
@@ -202,11 +205,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
         <p className="official-network-total"><strong>{ci.network.value} 個航點</strong> · {ci.network.countries} 個國家／地區</p>
         <p>資料截至 {ci.network.as_of}。{ci.network.scope}</p>
         <ul className="official-network-regions">{ci.network.regions.map(r => <li key={r.label}>{r.label} <b>{r.value}</b></li>)}</ul>
-        <details><summary>統計範圍與區域分類</summary><p>{ci.network.note}</p><p>官網符號：* 純貨運；@ 與其他業者合營；☆ 華信班號。下方地圖僅呈現本站已查核收錄的自營客運航段，不能拿收錄數代表官方完整航網。</p></details>
+        <details><summary>統計範圍與區域分類</summary><p>{ci.network.note}</p><p>官網符號：* 純貨運；@ 與其他業者合營；☆ 華信班號。下方地圖依機型選擇呈現本站已收錄的客運或貨機航段，不能拿收錄數代表官方完整航網。</p></details>
         <Source item={ci.network} compact />
       </section>}
       <div className="network-heading">
-        <h3>本站已收錄的自營客運航網</h3>
+        <h3>{cargoMode ? "貨機實際航段 · 歷史紀錄" : "本站已收錄的自營客運航網"}</h3>
         <div className="network-totals">
           <strong>
             已收錄 {filtered.length} 條航線 ·{" "}
@@ -215,7 +218,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>
         </div>
       </div>
-      {cargoSelected && <p role="status" className="notice">{aircraft} 貨機：目前尚未收錄經查核、可對應此機型的貨運航段；零筆資料不代表沒有營運。請查閱 <a href="https://cargo.china-airlines.com/" target="_blank" rel="noreferrer">華航貨運</a> 或 <a href="https://www.brcargo.com/NEC_WEB/Schedule/DailySchedule/Index" target="_blank" rel="noreferrer">長榮貨運班表</a>。客機腹艙載貨不列為全貨機航線。</p>}
+      {cargoSelected && <p role="status" className="notice">貨機航段為已降落航班的歷史紀錄，包含機身編號及班號；不是首航日期或今日完整班表。日期沿用來源列表。最新安排請查閱 <a href="https://cargo.china-airlines.com/" target="_blank" rel="noreferrer">華航貨運</a> 或 <a href="https://www.brcargo.com/NEC_WEB/Schedule/DailySchedule/Index" target="_blank" rel="noreferrer">長榮貨運班表</a>。客機腹艙載貨不列為全貨機航線。</p>}
       <RouteDistribution
         routes={filtered}
         continents={continents}
@@ -227,14 +230,14 @@ export default function RouteNetwork({ initial = "all", Source }) {
           <select
             aria-label="選擇機型"
             value={aircraft}
-            onChange={(e) => setAircraft(e.target.value)}
+            onChange={(e) => { setAircraft(e.target.value); setOrigin("all"); setEvidence("all"); }}
           >
-            <option value="all">全部機型與待查核</option>
+            <option value="all">全部客機與待查核</option>
             <optgroup label="客機">{aircraftOptions.map((t) => (
               <option key={t}>{t}</option>
             ))}
             </optgroup>
-            <optgroup label="貨機">{cargoOptions.map(t => <option key={t} value={t}>{t}（貨機）</option>)}</optgroup>
+            <optgroup label="貨機">{cargoOptions.length > 0 && <option value="cargo-all">全部貨機</option>}{cargoOptions.map(t => <option key={t} value={t}>{t}（貨機）</option>)}</optgroup>
             <option value="unknown">機型資料待查核</option>
           </select>
         </label>
@@ -329,7 +332,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
       <div
         ref={ref}
         className="route-map"
-        aria-label="有日期來源的自營客運航網示意圖"
+        aria-label="有日期來源的自營航網示意圖"
       />
       {tileError && (
         <p className="notice">
@@ -337,8 +340,8 @@ export default function RouteNetwork({ initial = "all", Source }) {
         </p>
       )}
       <p className="fineprint">
-        {routes.length}
-        筆自營客運航網紀錄，包含來源基準日不同的歷史快照，非今日完整班表。連線為航網示意，非導航航路。共掛與interline銜接不算自營；貨運運量另見客貨運表，不將腹艙貨運畫成獨立貨機航線。
+        {activeRoutes.length}
+        筆目前模式的航網紀錄，包含來源基準日不同的歷史快照，非今日完整班表。連線為航網示意，非導航航路。共掛與interline銜接不算自營；貨運運量另見客貨運表，不將腹艙貨運畫成獨立貨機航線。
       </p>
       <div className="route-list mobile-records">
         {filtered.length ? (
@@ -413,6 +416,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                         </td>
                         <td data-label="機型／首航與復航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
+                          {r.observed_flight && <p className="route-flight-numbers"><strong>{r.observed_flight} · {r.registration}</strong><small>實飛紀錄：{r.as_of} · 單向航段，非固定班表</small></p>}
                           {(r.flight_number_evidence || r.schedule_evidence?.flight_numbers) && <div className="route-flight-numbers">
                             {expiredSchedule(r) && <small>歷史班表（已超過來源適用期間）</small>}
                             {r.flight_number_evidence ? <>
@@ -438,10 +442,10 @@ export default function RouteNetwork({ initial = "all", Source }) {
                               <Source item={r.schedule_evidence} compact />
                             </details>
                           )}
-                          <p className="route-event-date">
+                          {r.route_type !== "self_operated_cargo" && <p className="route-event-date">
                             <span>{event?.event_type === "resumption" ? "復航" : event?.service_kind === "charter" ? "包機首航" : "首航"}：</span>
                             <strong>{formatEventDate(event?.event_date)}</strong>
-                          </p>
+                          </p>}
                           {event?.event_type === "resumption" && <small>最早首航年月日仍待查核</small>}
                           {event?.announced_event_date && !event.event_date && (
                             <p>
@@ -467,7 +471,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
           </p>
         )}
       </div>
-      {plannedRoutes.some((r) => air === "all" || r.airline === air) && (
+      {!cargoMode && plannedRoutes.some((r) => air === "all" || r.airline === air) && (
         <section aria-label="已公告待開航">
           <h3>已公告待開航</h3>
           <p className="fineprint">
