@@ -393,8 +393,17 @@
         "verified_date": "2026-10-12",
         "status": "confirmed",
         "as_of": "2026-01-15",
-        "scope": "2025年度年報所載公開資料；包含部分2026年後續資訊，不代表今日即時現況。",
-        "note": "年報印刷頁碼102（PDF第104頁）。"
+        "scope": "2026 年 1 月首航公告所載聯運歷史範圍；後續共掛合作另列。"
+      },
+      {
+        "title": "印度航空聯運：2025 年 10 月 8 日公告",
+        "body": "印度航空宣布與星宇建立聯運，可將兩家公司航班開在同一張機票。公告列香港、曼谷、新加坡、胡志明市及吉隆坡為銜接門戶，延伸至德里、孟買、清奈及班加羅爾。這是合作轉機服務，不是星宇開航印度直飛，也不等於加入星空聯盟。",
+        "source": "印度航空｜星宇聯運合作新聞稿",
+        "source_url": "https://www.airindia.com/content/dam/air-india/newsroom/press-releases/pdf/Press-Release-AI-and-JX-Interline-Partnership-08Oct25.pdf",
+        "published_date": "2025-10-08",
+        "as_of": "2025-10-08",
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
       }
     ],
     "passenger": [

@@ -284,6 +284,16 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "title": "西南航空聯運：2025 年 8 月 26 日展開",
+        "body": "長榮當日公告經洛杉磯、舊金山、西雅圖與芝加哥銜接西南航空，涵蓋超過 30 座美國城市。此數字為公告當時合作範圍，不是長榮新增 30 個自營航點；實際可售轉機組合應以當期訂位結果為準。",
+        "source": "長榮｜與西南航空合作",
+        "source_url": "https://www.evaair.com/zh-hk/about-eva-air/news/news-releases/2025-08-26-br-wn-news.html",
+        "published_date": "2025-08-26",
+        "as_of": "2025-08-26",
+        "verified_date": "2026-10-23",
+        "status": "confirmed"
       }
     ],
     "passenger": [
