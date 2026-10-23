@@ -484,7 +484,18 @@
       "event_ids": [
         "china-airlines-RMQ-OKA-inaugural-pending"
       ],
-      "evidence_kind": "official_configuration"
+      "evidence_kind": "official_configuration",
+      "flight_number_evidence": {
+        "outbound": "CI310",
+        "inbound": "CI311",
+        "source": "華航｜台中沖繩開航公告",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20260721",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-07-21 開航公告；非完整加班機清單",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "label": "航線與任務",

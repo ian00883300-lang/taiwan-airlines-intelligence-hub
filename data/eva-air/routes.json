@@ -48,7 +48,18 @@
       "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
       "event_ids": [
         "eva-air-nrt-inaugural"
-      ]
+      ],
+      "flight_number_evidence": {
+        "outbound": "BR184 / BR198 / BR196",
+        "inbound": "BR183 / BR197 / BR195",
+        "source": "長榮航空｜2026 成田夏季航線資訊",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/26NRTSUM.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 夏季公告；完整起訖未列",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-LAX",
@@ -68,7 +79,18 @@
         "eva-air-TPE-LAX-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR006 / BR012 / BR016",
+        "inbound": "BR005 / BR011 / BR015",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-SFO",
@@ -88,7 +110,18 @@
         "eva-air-TPE-SFO-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR008 / BR018 / BR028",
+        "inbound": "BR007 / BR017 / BR027",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-SEA",
@@ -108,7 +141,18 @@
         "eva-air-TPE-SEA-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR024 / BR026",
+        "inbound": "BR023 / BR025",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-JFK",
@@ -128,7 +172,18 @@
         "eva-air-TPE-JFK-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR032",
+        "inbound": "BR031",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-IAH",
@@ -148,7 +203,18 @@
         "eva-air-TPE-IAH-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR052",
+        "inbound": "BR051",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-ORD",
@@ -168,7 +234,18 @@
         "eva-air-TPE-ORD-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR056",
+        "inbound": "BR055",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-YVR",
@@ -188,7 +265,18 @@
         "eva-air-TPE-YVR-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR010",
+        "inbound": "BR009",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-YYZ",
@@ -208,7 +296,18 @@
         "eva-air-TPE-YYZ-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR036",
+        "inbound": "BR035",
+        "source": "長榮航空｜2026 感恩相聚，聖誕遊美加",
+        "source_url": "https://www.evaair.com/zh-tw/plan-and-book/special-offers/promotions/flight/2026usaxmas.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年末活動班號（2026-10-23 查核）",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-UKB",
@@ -228,7 +327,18 @@
         "eva-air-TPE-UKB-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR134 / BR176",
+        "inbound": "BR133 / BR175",
+        "source": "長榮航空｜神戶航班資訊",
+        "source_url": "https://flights.evaair.com/zh-tw/航班-飛往-神戶",
+        "verified_date": "2026-10-23",
+        "valid_from": "2026-06-15",
+        "valid_to": "2026-10-24",
+        "period_label": "2026-06-15～2026-10-24",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-BKK",
@@ -248,7 +358,18 @@
         "eva-air-TPE-BKK-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR211",
+        "inbound": "BR212",
+        "source": "長榮直營長汎假期｜曼谷航班資訊",
+        "source_url": "https://www.everfuntravel.com/globalfit/detail/2651",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "產品頁班號快照 2026-10-23；非全班次",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-TPE-ICN",
@@ -268,7 +389,18 @@
         "eva-air-TPE-ICN-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR170 / BR160",
+        "inbound": "BR169 / BR159",
+        "source": "長榮航空｜2023 年 1 月航班表（易飛網存檔）",
+        "source_url": "https://www.ezfly.com/flights/eva-air/link/flight-schedule_jan.pdf",
+        "verified_date": "2026-10-23",
+        "valid_from": "2023-01-01",
+        "valid_to": "2023-01-31",
+        "period_label": "歷史班表 2023-01-01～2023-01-31",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "eva-air-KHH-KIX",
@@ -288,7 +420,18 @@
         "eva-air-KHH-KIX-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "BR182",
+        "inbound": "BR181",
+        "source": "長榮航空｜2023 年 1 月航班表（易飛網存檔）",
+        "source_url": "https://www.ezfly.com/flights/eva-air/link/flight-schedule_jan.pdf",
+        "verified_date": "2026-10-23",
+        "valid_from": "2023-01-01",
+        "valid_to": "2023-01-31",
+        "period_label": "歷史班表 2023-01-01～2023-01-31",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     }
   ]
 }

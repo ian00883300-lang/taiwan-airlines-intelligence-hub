@@ -215,7 +215,18 @@
         "note": "機場於 2024-08-17 報導前一日抵達的首航，故事件日期為 2024-08-16。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
       },
       "aircraft_source_url": "https://www.portseattle.org/news/starlux-airlines-takes-skies-nonstop-service-sea-taipei",
-      "aircraft_note": "機場於 2024-08-17 報導前一日抵達的首航，故事件日期為 2024-08-16。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
+      "aircraft_note": "機場於 2024-08-17 報導前一日抵達的首航，故事件日期為 2024-08-16。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
+      "flight_number_evidence": {
+        "outbound": "JX32",
+        "inbound": "JX31",
+        "source": "Flightradar24｜B-58506 飛航紀錄",
+        "source_url": "https://www.flightradar24.com/data/aircraft/b-58506",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-09-13／14 飛航紀錄；非現行完整班表",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-ONT",
@@ -249,7 +260,18 @@
         "note": "桃園機場季刊確認 2025-06-02 開航及 A350-900 配置；刊物僅標示出版月份。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
       },
       "aircraft_source_url": "https://www.taoyuan-airport.com/api/imagecrop/fileid/6F4B2B99-5E8C-F011-BC16-0050569094FE",
-      "aircraft_note": "桃園機場季刊確認 2025-06-02 開航及 A350-900 配置；刊物僅標示出版月份。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。"
+      "aircraft_note": "桃園機場季刊確認 2025-06-02 開航及 A350-900 配置；刊物僅標示出版月份。 此為歷史執飛紀錄，不代表今日所有班次固定使用此機型。",
+      "flight_number_evidence": {
+        "outbound": "JX10",
+        "inbound": "JX9",
+        "source": "Plane Finder｜B-58509 飛航紀錄",
+        "source_url": "https://planefinder.net/data/aircraft/B-58509",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-09-12／13 飛航紀錄；非現行完整班表",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-PHX",
@@ -272,7 +294,18 @@
       "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
       "aircraft": "A350-1000（活動公布安排；可能調整）",
       "aircraft_source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
-      "aircraft_note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。"
+      "aircraft_note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。",
+      "flight_number_evidence": {
+        "outbound": "JX26",
+        "inbound": "JX25",
+        "source": "星宇航空｜AIRSORAYAMA 航班資訊",
+        "source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-10-01 起主題服務公告；非永久派飛",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-UKB",
@@ -292,7 +325,18 @@
         "starlux-TPE-UKB-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "JX834",
+        "inbound": "JX835",
+        "source": "星宇航空｜神戶開航公告",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/fly_to_UKB",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2025-04-18 開航公告班號",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-UKB",
@@ -312,7 +356,18 @@
         "starlux-RMQ-UKB-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "JX306",
+        "inbound": "JX307",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-MNL",
@@ -382,7 +437,18 @@
         "starlux-TPE-SHI-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "JX886",
+        "inbound": "JX887",
+        "source": "星宇航空｜宮古島航線公告",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/fly_to_SHI",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-02-12 起公告班號",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-SHI",
@@ -402,7 +468,18 @@
         "starlux-RMQ-SHI-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。"
+      "note": "有日期的官方營運／航網敘述；確認該日期範圍的航線存在，不保證今日班次、機型或不停航。共掛與interline目的地未加入此自營航圖。",
+      "flight_number_evidence": {
+        "outbound": "JX308",
+        "inbound": "JX309",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-03-29～2026-10-23 公告班號",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "label": "航線與任務",
@@ -470,6 +547,17 @@
         "status": "announced",
         "source_id": "jxRmqNrtAircraft",
         "note": "實際首航由中央社事後報導確認；機型及 188 席是成田機場開航公告安排，並非即時派飛。"
+      },
+      "flight_number_evidence": {
+        "outbound": "JX314",
+        "inbound": "JX315",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
       }
     },
     {
@@ -1301,7 +1389,18 @@
         "source_id": "jxRmqCtsActual",
         "value": "A321neo"
       },
-      "aircraft_note": "官方首航紀錄；班次與機型為當期資訊，不代表今日每班固定配置。"
+      "aircraft_note": "官方首航紀錄；班次與機型為當期資訊，不代表今日每班固定配置。",
+      "flight_number_evidence": {
+        "outbound": "JX318",
+        "inbound": "JX319",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-10-02 起公告班號",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-DPS",
@@ -1321,7 +1420,18 @@
         "starlux-TPE-DPS-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "官方首航紀錄；班次與機型為當期資訊，不代表今日每班固定配置。"
+      "note": "官方首航紀錄；班次與機型為當期資訊，不代表今日每班固定配置。",
+      "flight_number_evidence": {
+        "outbound": "JX765",
+        "inbound": "JX766",
+        "source": "星宇航空｜峇里島開航公告",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/fly_to_DPS",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026-10-01 起公告班號",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-TPE-PUS",
@@ -1354,7 +1464,18 @@
         "source_id": "jxBusanAircraft2026",
         "value": "A321neo"
       },
-      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。"
+      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。",
+      "flight_number_evidence": {
+        "outbound": "JX900 / JX902",
+        "inbound": "JX901 / JX903",
+        "source": "星宇航空｜釜山開航公告",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/fly_to_PUS",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "2026 年 6 月起公告班號；依星期分班",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-PUS",
@@ -1387,7 +1508,18 @@
         "source_id": "jxBusanAircraft2026",
         "value": "A321neo"
       },
-      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。"
+      "aircraft_note": "官方開航稿圖片說明載明 A321neo、188 席；未查核每班實際派飛。",
+      "flight_number_evidence": {
+        "outbound": "JX310",
+        "inbound": "JX311",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-MFM",
@@ -1407,7 +1539,18 @@
         "starlux-RMQ-MFM-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。",
+      "flight_number_evidence": {
+        "outbound": "JX331",
+        "inbound": "JX332",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-DAD",
@@ -1427,7 +1570,18 @@
         "starlux-RMQ-DAD-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。",
+      "flight_number_evidence": {
+        "outbound": "JX327",
+        "inbound": "JX328",
+        "source": "星宇航空｜2026-02-05 航班異動通告（Sabre 存檔）",
+        "source_url": "https://www.sabretn.com.tw/admin/fileupload/134147528828674556260205JX1.pdf",
+        "verified_date": "2026-10-23",
+        "valid_from": "2026-03-26",
+        "valid_to": "2026-03-26",
+        "period_label": "歷史加班公告 2026-03-26；不代表現行營運",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-PQC",
@@ -1447,7 +1601,18 @@
         "starlux-RMQ-PQC-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。",
+      "flight_number_evidence": {
+        "outbound": "JX333",
+        "inbound": "JX334",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-TAK",
@@ -1467,7 +1632,18 @@
         "starlux-RMQ-TAK-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。",
+      "flight_number_evidence": {
+        "outbound": "JX300",
+        "inbound": "JX301",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     },
     {
       "id": "starlux-RMQ-OKA",
@@ -1487,7 +1663,18 @@
         "starlux-RMQ-OKA-inaugural"
       ],
       "evidence_kind": "dated_operating_snapshot",
-      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。"
+      "note": "2026-03-30 官方稿列為已開闢的台中直飛航線；不是首次開航日期，機型仍待逐航線查核。",
+      "flight_number_evidence": {
+        "outbound": "JX302 / JX312",
+        "inbound": "JX303 / JX313",
+        "source": "星宇航空｜台中航線專頁（2026-08-10 更新）",
+        "source_url": "https://starlux-taichung.com/",
+        "verified_date": "2026-10-23",
+        "valid_from": null,
+        "valid_to": null,
+        "period_label": "官方專頁快照 2026-10-23；各班次期間依來源",
+        "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
+      }
     }
   ]
 }
