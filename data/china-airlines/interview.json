@@ -19,6 +19,10 @@
     "ci-tail-maintenance-evidence",
     "ci-engine-contract",
     "ci-mro-business",
-    "ci-delivery-operation"
+    "ci-delivery-operation",
+    "cargo-route-evidence",
+    "safety-unstable-approach",
+    "training-uncertain-answer",
+    "cargo-loading"
   ]
 }

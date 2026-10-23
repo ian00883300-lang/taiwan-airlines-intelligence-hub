@@ -184,8 +184,11 @@ export default function RouteNetwork({ initial = "all", Source }) {
         fillOpacity: 1,
       })
         .addTo(map)
-        .bindPopup(code + " " + a.name)
-        .bindTooltip(code, {permanent:true,direction:"left",className:"airport-label airport-origin",offset:[-8,0]});
+        .bindPopup(code + " " + a.name);
+      if (!labelledAirports.has(code)) {
+        originMarker.bindTooltip(code, {permanent:true,direction:"left",className:"airport-label airport-origin",offset:[-8,0]});
+        labelledAirports.add(code);
+      }
     }
     const resize = new ResizeObserver(() => map.invalidateSize({pan:false, debounceMoveend:true}));
     resize.observe(ref.current);
@@ -309,12 +312,12 @@ export default function RouteNetwork({ initial = "all", Source }) {
           >
             <option value="all">全部來源紀錄</option>
             <option value="operating">開航／營運證據</option>
-            <option value="historical">僅期間班表公告</option>
-            <option value="dated">已有首航／復航日期</option>
+            {!cargoMode && <option value="historical">僅期間班表公告</option>}
+            {!cargoMode && <option value="dated">已有首航／復航日期</option>}
           </select>
         </label>
         <span className="filter-count">
-          {filtered.length} 條航線 ·{" "}
+          {filtered.length} {cargoMode ? "筆機型航段" : "條航線"} ·{" "}
           {new Set(filtered.map((r) => r.destination)).size} 個目的地機場
         </span>
       </div>
