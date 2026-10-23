@@ -1700,3 +1700,23 @@ abbr[title]:focus::after {
 .airport-label{font-size:11px;padding:2px 5px;background:rgba(255,255,255,.91);border:1px solid #c9d8df;box-shadow:none;color:#163851}
 .airport-origin{font-weight:700}
 @media(max-width:760px){.compact-event .event-line{grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}.compact-event .event-description{grid-column:1/-1}.company-timeline .compact-event time{white-space:normal}}
+/* Company overview: separate two-column facts from dated milestones. */
+@media (min-width:761px) {
+  .company-identity .identity-topic-table table { table-layout:fixed; }
+  .company-identity .identity-topic-table thead th:first-child { width:19%; }
+  .company-identity .identity-topic-table thead th:nth-child(2):last-child { width:81%; }
+  .company-identity .membership-listing thead th:first-child { width:23%; }
+  .company-identity .membership-listing thead th:nth-child(2) { width:23%; }
+  .company-identity .membership-listing thead th:last-child { width:54%; }
+  .company-identity .identity-topic-table tbody th { width:auto; min-width:0; max-width:none; }
+  .company-identity .identity-topic-table th,
+  .company-identity .identity-topic-table td { padding:10px 12px; line-height:1.6; word-break:normal; overflow-wrap:anywhere; }
+}
+.membership-section .study-table thead th:first-child { width:180px; }
+.membership-section .study-table thead th:nth-child(2):last-child { width:auto; }
+.membership-section .study-table thead th:nth-child(2):not(:last-child) { width:23%; }
+.membership-section .study-table thead th:nth-child(3) { width:auto; }
+
+.route-flight-numbers { margin:6px 0; font-variant-numeric:tabular-nums; }
+.route-flight-numbers small { display:block; font-size:.82em; line-height:1.5; color:#587185; }
+@media(min-width:761px){.company-identity .membership-listing thead th:first-child{width:24%}.company-identity .membership-listing thead th:nth-child(2){width:16%}.company-identity .membership-listing thead th:last-child{width:60%}}

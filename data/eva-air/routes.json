@@ -18,7 +18,18 @@
       "note": "代表性航線；查核官方航線存在或首航紀錄，不保證特定日期班表。",
       "event_ids": [
         "br-dallas-inaugural"
-      ]
+      ],
+      "flight_number_evidence": {
+        "outbound": "BR050",
+        "inbound": "BR049",
+        "valid_from": "2025-10-03",
+        "valid_to": "2026-10-24",
+        "source": "長榮航空｜桃園—達拉斯開航業務通告 APR25-07",
+        "source_url": "https://www.sabretn.com.tw/admin/fileupload/13389775944654133220250422_BR01.pdf",
+        "published_date": "2025-04-22",
+        "verified_date": "2026-10-23",
+        "note": "公告班表適用期間；實際營運可能調整，訂位前請查當日班表。"
+      }
     },
     {
       "id": "eva-air-NRT",

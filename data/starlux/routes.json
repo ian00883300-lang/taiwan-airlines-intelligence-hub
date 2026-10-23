@@ -21,7 +21,18 @@
       ],
       "aircraft": "A350-1000（活動公布安排；可能調整）",
       "aircraft_source_url": "https://media.starlux-airlines.com/airsorayama/zh/index.html",
-      "aircraft_note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。"
+      "aircraft_note": "當期公布安排，鳳凰城活動至 2026-11-30；維修與調度可能更換機型，塗裝班表不是永久配置。",
+      "flight_number_evidence": {
+        "outbound": "JX101",
+        "inbound": "JX102",
+        "valid_from": "2026-08-01",
+        "valid_to": "2026-10-24",
+        "source": "星宇航空｜布拉格航線公告",
+        "source_url": "https://latestnews.starlux-airlines.com/en-KR/about-us/travel-advisories/advisories/latest-news/fly_to_PRG",
+        "published_date": "2026-02-25",
+        "verified_date": "2026-10-23",
+        "note": "公告班表適用期間；實際營運可能調整，訂位前請查當日班表。"
+      }
     },
     {
       "id": "starlux-KIX",

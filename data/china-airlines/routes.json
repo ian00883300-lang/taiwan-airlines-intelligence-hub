@@ -39,6 +39,17 @@
         "valid_to": "2026-10-24",
         "source_page": 9,
         "note": "PDF 第 9 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      },
+      "flight_number_evidence": {
+        "outbound": "CI036",
+        "inbound": "CI035",
+        "valid_from": null,
+        "valid_to": null,
+        "source": "華航｜鳳凰城航線官方時刻表",
+        "source_url": "https://flights.china-airlines.com/zh-tw/202508_phx",
+        "published_date": null,
+        "verified_date": "2026-10-23",
+        "note": "官網查核日為 2026-10-23；頁面未列完整適用起訖，不推定所有日期均使用相同班號。"
       }
     },
     {

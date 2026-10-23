@@ -404,6 +404,14 @@ export default function RouteNetwork({ initial = "all", Source }) {
                         </td>
                         <td data-label="機型／首航與復航">
                           <strong>{r.aircraft || "機型待查核"}</strong>
+                          {(r.flight_number_evidence || r.schedule_evidence?.flight_numbers) && <div className="route-flight-numbers">
+                            {r.flight_number_evidence ? <>
+                              <strong>去程 {r.flight_number_evidence.outbound} · 回程 {r.flight_number_evidence.inbound}</strong>
+                              <small>{r.flight_number_evidence.valid_to ? r.flight_number_evidence.valid_from + '～' + r.flight_number_evidence.valid_to : '官網快照 2026-10-23（適用期間未明示）'}</small>
+                              <Source item={r.flight_number_evidence} compact />
+                            </> : <><strong>班號 {r.schedule_evidence.flight_numbers}</strong><small>歷史班表：{r.schedule_evidence.valid_from}～{r.schedule_evidence.valid_to}</small></>}
+                          </div>}
+
                           {r.schedule_evidence && (
                             <details>
                               <summary>班表期間與多機型配置</summary>
