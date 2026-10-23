@@ -415,6 +415,13 @@
       "lng": -149.998,
       "region": "North America",
       "source_url": "https://www.airnav.com/airport/panc"
+    },
+    "MIA": {
+      "name": "邁阿密",
+      "lat": 25.795,
+      "lng": -80.29,
+      "region": "North America",
+      "source_url": "https://www.airnav.com/airport/KMIA"
     }
   }
 }

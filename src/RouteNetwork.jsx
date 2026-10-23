@@ -161,7 +161,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
         className: "route-flow",
       }).addTo(map);
       const content = document.createElement("span");
-      content.textContent = `${airlineById(r.airline).name} · ${r.origin} ${from.name} → ${r.destination} ${to.name} · 來源基準 ${r.as_of || "未指定"}`;
+      content.textContent = `${airlineById(r.airline).name} · ${r.origin} ${from.name} → ${r.destination} ${to.name} · ${r.observed_flight ? r.aircraft + " · " + r.registration + " · " + r.observed_flight + " · 歷史實飛 " : "來源基準 "}${r.as_of || "未指定"}`;
       const marker = L.circleMarker([to.lat, lng], {
         radius: 5,
         color,
@@ -212,7 +212,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
         <h3>{cargoMode ? "貨機實際航段 · 歷史紀錄" : "本站已收錄的自營客運航網"}</h3>
         <div className="network-totals">
           <strong>
-            已收錄 {filtered.length} 條航線 ·{" "}
+            已收錄 {filtered.length} {cargoMode ? "筆機型航段" : "條航線"} ·{" "}
             {new Set(filtered.map((r) => r.destination)).size} 個航點
           </strong>
           <small>目前篩選的收錄紀錄 · 航點以目的地機場去重</small>
@@ -221,6 +221,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
       {cargoSelected && <p role="status" className="notice">貨機航段為已降落航班的歷史紀錄，包含機身編號及班號；不是首航日期或今日完整班表。日期沿用來源列表。最新安排請查閱 <a href="https://cargo.china-airlines.com/" target="_blank" rel="noreferrer">華航貨運</a> 或 <a href="https://www.brcargo.com/NEC_WEB/Schedule/DailySchedule/Index" target="_blank" rel="noreferrer">長榮貨運班表</a>。客機腹艙載貨不列為全貨機航線。</p>}
       <RouteDistribution
         routes={filtered}
+        cargo={cargoMode}
         continents={continents}
         continent={continent}
       />
@@ -377,7 +378,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                                   (x) => continent(x) === continent(r),
                                 ).length
                               }{" "}
-                              條航線
+                              {cargoMode ? "筆機型航段" : "條航線"}
                             </small>
                           </th>
                         </tr>

@@ -6,20 +6,20 @@
       "title": "A350-900／A350-1000",
       "title_en": "A350-900／A350-1000",
       "subtitle": "長程廣體 · 複合材料",
-      "answer": "A350 家族採大量複合材料結構，使用 Rolls-Royce Trent XWB。-900 與加長的 -1000 不能混為同一尺寸或同一發動機版本。",
-      "answer_en": "The A350 family combines a composite-intensive structure with Trent XWB engines. The -900 and larger -1000 have different dimensions and engine variants.",
+      "answer": "A350 是以複合材料等先進材料、氣動設計與新世代引擎共同改善長程效率的廣體雙發機。-1000 機身較長、可提供較大容量，不能把它視為座位配置不同的 -900。比較國籍航空時，應連結航線需求、客艙配置與交付版本；製造商標示的最大航程及典型座位數，不等於各公司的實際派飛能力。",
+      "answer_en": "The A350 combines advanced materials, aerodynamics and new-generation engines for long-haul efficiency. The longer -1000 provides greater capacity; it is not simply a -900 with different seats. Airline comparisons should consider cabin layout, mission and delivered specification. Published maximum range and typical seating do not define every operator’s capability.",
       "caution": "A350-900／-1000 的座位數取決於航空公司配置；共同駕駛艙理念也不代表無須差異訓練。",
-      "source": "Airbus｜A350 family",
-      "source_url": "https://www.aircraft.airbus.com/en/aircraft/a350",
+      "source": "Airbus｜A350 Family",
+      "source_url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family",
       "types": [
         "A350-900",
         "A350-1000"
       ],
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-24",
       "status": "confirmed",
-      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+      "follow_up": "為什麼製造商的典型座位數不能直接填入航空公司的機隊表？"
     },
     {
       "id": "b787",
@@ -27,8 +27,8 @@
       "title": "B787-9／B787-10",
       "title_en": "B787-9／B787-10",
       "subtitle": "長程廣體 · 更多電氣化系統",
-      "answer": "787 採約 50%（按重量）複合材料機體，具有更多電氣化系統與電子調光窗。-10 機身較長；選型需權衡容量、航程與航線需求，而非單看數字大小。",
-      "answer_en": "The 787 uses approximately 50 percent composites by weight, more-electric systems and electronically dimmable windows. The larger -10 trades capacity and mission capability differently from the -9.",
+      "answer": "787 機體約 50% 按重量採用複合材料，結合氣動改良與更多電氣化系統來提升效率。電子調光窗、較低客艙高度及濕度設計是乘客體驗重點，但不能保證每個人都不疲勞。-10 較長、容量較大，-9 與 -10 的選擇仍須看載重、航程及需求；更多電氣化也不代表用電池取代噴射引擎推進。",
+      "answer_en": "About half of the 787 airframe by weight is composite material, combined with aerodynamic improvements and more-electric systems. Dimmable windows and cabin-pressure and humidity features support passenger comfort, without guaranteeing freedom from fatigue. The larger -10 and the -9 serve different capacity and range needs. More-electric systems do not mean battery-electric propulsion.",
       "caution": "更多電氣化不等於全電動推進；機型共通性不等於機師資格自動通用。",
       "source": "Boeing｜787 by design",
       "source_url": "https://www.boeing.com/commercial/787/by-design",
@@ -38,9 +38,9 @@
       ],
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-24",
       "status": "confirmed",
-      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+      "follow_up": "為什麼「多電化」與「電動飛機」不是同一件事？"
     },
     {
       "id": "a321neo",
@@ -111,19 +111,19 @@
       "title": "B737-800",
       "title_en": "B737-800",
       "subtitle": "單走道 · Next Generation",
-      "answer": "737-800 屬 737 Next Generation，採雙發單走道布局。認識 NG 與 MAX 的世代差異，比只說「737」更精確。",
-      "answer_en": "The 737-800 belongs to the Next Generation family. It is a twin-engine single-aisle aircraft and should be distinguished from the MAX family.",
+      "answer": "737-800 屬 737 Next Generation，使用 CFM56-7B 系列引擎；不是名稱相似的 737 MAX 8。說明機型時應包含完整型號與世代，再核對航空公司的座位、重量及設備配置。不能因同屬 737，就假設發動機、系統或訓練要求完全相同。",
+      "answer_en": "The 737-800 is a Next Generation aircraft powered by CFM56-7B engines, not the similarly named 737 MAX 8. Identify the full variant and generation before checking an airline’s cabin, weight and equipment configuration. A shared family name does not establish identical engines, systems or training requirements.",
       "caution": "737-800 不等於 737 MAX 8；不同世代的引擎與系統差異不能只靠名稱數字判斷。",
-      "source": "Boeing｜737NG design highlights",
-      "source_url": "https://www.boeing.com/Commercial/737ng/737-next-generation-design-highlights",
+      "source": "CFM｜CFM56-7B／737NG",
+      "source_url": "https://www.cfmaeroengines.com/cfm56/CFM56-5B-CFM56-7B",
       "types": [
         "737-800"
       ],
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-24",
       "status": "confirmed",
-      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+      "follow_up": "只寫「737」會造成哪些資訊混淆？"
     },
     {
       "id": "b747f",
@@ -131,8 +131,8 @@
       "title": "B747-400F",
       "title_en": "B747-400F",
       "subtitle": "四發貨機 · 機鼻裝載",
-      "answer": "原廠 747-400F 配有機鼻貨門，可支援特定長件貨物裝載；貨艙尺寸、地板承重與裝載程序仍構成限制。",
-      "answer_en": "The factory-built 747-400F has a nose cargo door that supports loading of certain long cargo items, subject to dimensions and structural limits.",
+      "answer": "原廠 747-400F 同時具有主甲板側貨門與機鼻貨門，機鼻裝載可支援部分長件貨物。能否承運仍要檢查貨門與貨艙尺寸、地板承重、重心及固定方案，不能只比較最大酬載。客改貨版本與 -8F 有不同設計與限制，不能把所有 747 貨機都當成同一配置。",
+      "answer_en": "The production 747-400F has both a main-deck side door and a nose cargo door, supporting some long cargo loads. Acceptance still depends on door and hold dimensions, floor loading, balance and restraint, not just maximum payload. Converted freighters and the -8F have different designs and limits, so not all 747 freighters are interchangeable.",
       "caution": "不能把所有 747 客改貨都當成有機鼻貨門，也不能將 -8F 性能套到 -400F。",
       "source": "Boeing｜747-400／400ER freighter",
       "source_url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/startup/pdf/freighters/747-400f.pdf",
@@ -141,9 +141,9 @@
       ],
       "published_date": null,
       "as_of": null,
-      "verified_date": "2026-10-16",
+      "verified_date": "2026-10-24",
       "status": "confirmed",
-      "follow_up": "如何把這些設計特色連結到航線任務，而不把行銷數字當成每趟航班性能保證？"
+      "follow_up": "為何一件貨物重量很輕，仍可能無法裝進貨機？"
     },
     {
       "id": "atr72",
