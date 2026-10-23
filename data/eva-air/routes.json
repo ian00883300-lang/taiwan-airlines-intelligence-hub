@@ -432,6 +432,41 @@
         "period_label": "歷史班表 2023-01-01～2023-01-31",
         "note": "僅涵蓋本來源所列班號；不代表所有日期或加班機均使用相同班號。實際班表、停飛與機型請於出發前向航空公司確認。"
       }
+    },
+    {
+      "source": "華盛頓都會機場管理局｜長榮 IAD—TPE 首航紀錄",
+      "source_url": "https://www.mwaa.com/news/airline-launch-recap-eva-air-iad-tpe",
+      "published_date": null,
+      "as_of": "2026-06-26",
+      "verified_date": "2026-10-23",
+      "status": "confirmed",
+      "id": "eva-air-IAD",
+      "airline": "eva-air",
+      "origin": "TPE",
+      "destination": "IAD",
+      "region": "North America",
+      "route_type": "self_operated_passenger",
+      "evidence_kind": "dated_operating_snapshot",
+      "event_ids": [
+        "eva-air-iad-inaugural"
+      ],
+      "aircraft": "787-9（三艙等；首航公告配置）",
+      "aircraft_source_url": "https://www.mwaa.com/news/airline-launch-recap-eva-air-iad-tpe",
+      "note": "2026-06-26 首航；首航時每週四班。北美第 10 個門戶含加拿大，不等於美國第 10 個航點。首航配置與班次不代表所有日期。",
+      "flight_number_evidence": {
+        "source": "華盛頓都會機場管理局｜長榮 IAD—TPE 首航紀錄",
+        "source_url": "https://www.mwaa.com/news/airline-launch-recap-eva-air-iad-tpe",
+        "published_date": null,
+        "as_of": "2026-06-26",
+        "verified_date": "2026-10-23",
+        "status": "confirmed",
+        "outbound": "BR004",
+        "inbound": "BR003",
+        "valid_from": "2026-06-27",
+        "valid_to": null,
+        "period_label": "2026-06-27 起首航公告班表；後續調整以官網為準",
+        "note": "桃園出發一、三、五、六；杜勒斯出發二、四、六、日。首航日特殊班表與常態班表分開。"
+      }
     }
   ]
 }

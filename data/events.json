@@ -1870,5 +1870,19 @@
     "live_check_status": "checked",
     "checked_date": "2026-10-16",
     "corroboration_url": "https://www.portseattle.org/news/make-your-way-taipei-new-china-airlines-service-sea-airport-starts-summer"
+  },
+  {
+    "source": "華盛頓都會機場管理局｜長榮 IAD—TPE 首航紀錄",
+    "source_url": "https://www.mwaa.com/news/airline-launch-recap-eva-air-iad-tpe",
+    "published_date": null,
+    "as_of": "2026-06-26",
+    "verified_date": "2026-10-23",
+    "status": "confirmed",
+    "id": "eva-air-iad-inaugural",
+    "label": "長榮桃園—華盛頓杜勒斯首航",
+    "event_type": "inaugural",
+    "event_date": "2026-06-26",
+    "note": "機場管理局記錄 6 月 26 日首航典禮；與 2 月 11 日預告及 6 月 27 日起常態班表分開。",
+    "corroboration_url": "https://www.newswire.ca/news-releases/eva-air-debuts-the-first-washington-d-c-to-taipei-nonstop-service-821917173.html"
   }
 ]

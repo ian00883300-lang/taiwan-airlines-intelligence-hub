@@ -402,6 +402,12 @@
       "lat": 10.17,
       "lng": 103.99,
       "region": "Asia"
+    },
+    "IAD": {
+      "name": "華盛頓杜勒斯",
+      "lat": 38.95,
+      "lng": -77.46,
+      "region": "North America"
     }
   }
 }
