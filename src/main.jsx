@@ -542,14 +542,14 @@ function Home({ openInterview }) {
       </section>
       <div className="home-columns">
         <section>
-          <SectionTitle title="本週情報" en="Oct 05 — Oct 11" link="weekly" />
+          <SectionTitle title="近期情報" en="Updated Oct 24" link="weekly" />
           {weekly
-            .filter((n) => n.event_date >= "2026-10-05")
+            .slice().sort((a, b) => b.published_date.localeCompare(a.published_date)).slice(0, 4)
             .map((n) => (
               <NewsCard n={n} key={n.id} />
             ))}
           <p className="fineprint">
-            星宇本週：尚無已查核消息，不代表沒有新消息。
+            按公告日期排列；舊聞背景與最新事件分開判讀。
           </p>
         </section>
         <section className="panel">
@@ -1296,7 +1296,7 @@ function Compare() {
 function Weekly() {
   const [air, setAir] = useState("all"),
     [topic, setTopic] = useState("all"),
-    [period, setPeriod] = useState("week");
+    [period, setPeriod] = useState("all");
   const topics = [
     "Fleet",
     "Aircraft Orders",
@@ -1309,6 +1309,7 @@ function Weekly() {
     "Cargo",
     "Recruitment",
     "Cadet Pilot",
+    "Service",
     "Management",
     "Safety",
     "Maintenance",
@@ -1316,19 +1317,19 @@ function Weekly() {
     "SAF",
     "Major Aviation News",
   ];
-  let list = weekly.filter(
+  let list = [...weekly].sort((a, b) => b.published_date.localeCompare(a.published_date)).filter(
     (n) =>
       (air === "all" || n.airline === air) &&
       (topic === "all" || n.topic === topic) &&
       (period === "all" ||
-        (n.event_date >= "2026-10-05" && n.event_date <= "2026-10-11")),
+        (n.published_date >= "2026-10-19" && n.published_date <= "2026-10-25")),
   );
   return (
     <>
       <Heading
         eyebrow="WEEKLY INTELLIGENCE"
         title="每週情報簡報"
-        description="查核週期：2026-10-05 — 2026-10-11。新消息、重要性與面試影響一起讀。"
+        description="查核更新：2026-10-24。近期公告與背景整理；分析觀點不代表公司承諾。"
       />
       <div className="notice">
         人工查核的靜態週報，尚未啟用自動更新；不是即時新聞串流。
@@ -1357,8 +1358,8 @@ function Weekly() {
         <label>
           期間
           <select value={period} onChange={(e) => setPeriod(e.target.value)}>
-            <option value="week">本週</option>
-            <option value="all">含近期背景</option>
+            <option value="week">本週公告（10/19–10/25）</option>
+            <option value="all">近期與背景（全部）</option>
           </select>
         </label>
         <span>{list.length} 則</span>
@@ -1370,7 +1371,7 @@ function Weekly() {
         <Pending note="本篩選尚無已查核消息，不代表沒有事件發生。" />
       )}
       {air === "all" && period === "week" && (
-        <Pending note="星宇本週尚無已查核新聞；可切換「含近期背景」閱讀布拉格首航。" />
+        <Pending note="本週篩選依公告日期；切換「近期與背景」可閱讀已查核的合作與營運資訊。" />
       )}
     </>
   );
