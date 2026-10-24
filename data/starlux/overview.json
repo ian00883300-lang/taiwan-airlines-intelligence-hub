@@ -617,6 +617,16 @@
         "as_of": null,
         "verified_date": "2026-10-23",
         "status": "confirmed"
+      },
+      {
+        "published_date": null,
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "問卷如何回饋管理：不是做完調查就結束",
+        "body": "官方說明安全文化調查每兩年辦理，採不記名方式，涵蓋運航相關單位及外站主管。2024 年結果提交安全審查委員會（SRC），作為政策與推廣活動規劃參考。這是特定調查對象的認知資料，不宜直接視為全體員工或旅客的看法。",
+        "source": "星宇永續網｜安全文化問卷",
+        "source_url": "https://sustainability.jx-starlux.com/esg/G-000/2025__SAFE/294/"
       }
     ],
     "sms": [

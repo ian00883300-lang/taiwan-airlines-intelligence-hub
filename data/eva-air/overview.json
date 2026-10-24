@@ -457,6 +457,36 @@
         "as_of": null,
         "verified_date": "2026-10-23",
         "status": "confirmed"
+      },
+      {
+        "published_date": "2026-01-27",
+        "as_of": "2026-01-27",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "2026 安全政策：可授權工作，不能轉移最終責任",
+        "body": "2026-01-27 政策指出，可授權執行責任，但主管仍承擔最終課責；安全與保安目標須納入策略、資源分配及採購。面試可連結到清楚分工、回報與確認，而非將工作交出去就視為結案。",
+        "source": "長榮航空｜企業安全與保安政策",
+        "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-and-security-policy-en_tcm33-97414.pdf"
+      },
+      {
+        "published_date": "2026-01-27",
+        "as_of": "2026-01-27",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "外包服務：供應商也納入安全監督",
+        "body": "同一政策要求外部服務提供者符合公司的安全、保安與品質標準，納入管理監督並鼓勵通報危害。採購或外包不代表安全責任消失；公開政策未列每家供應商的稽核結果，不推定全部已獲特定認證。",
+        "source": "長榮航空｜企業安全與保安政策",
+        "source_url": "https://www.evaair.com/en-global/images/eva-corporate-safety-and-security-policy-en_tcm33-97414.pdf"
+      },
+      {
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "Safety II：也從正常運作學習",
+        "body": "長榮永續頁說明導入 Safety II 觀點，從日常成功運作學習，強化系統韌性與調適能力。研究解讀：除了找出失誤，也理解團隊如何在變動條件下維持安全；不能將此解釋為鼓勵偏離 SOP。",
+        "source": "長榮永續網｜Intelligent Safety",
+        "source_url": "https://www.evacsr.com/en/governance/flying-safety01.html"
       }
     ],
     "sms": [

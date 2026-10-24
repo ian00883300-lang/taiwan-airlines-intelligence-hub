@@ -640,12 +640,12 @@
       {
         "published_date": null,
         "as_of": "2025-12-31",
-        "verified_date": "2026-10-20",
+        "verified_date": "2026-10-24",
         "status": "confirmed",
         "source": "華航企業永續網｜永續治理（2025 年績效）",
         "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "title": "2025 年安全訓練：從辨識到通報",
-        "body": "華航披露安全風險管理、事件調查與安全種子人員等訓練共 264 人完訓，並對國內一線作業主管實施進階 SMS 線上訓練，涵蓋安全報告、匿名報告處理與公正文化。完訓數代表訓練投入，不能單獨證明事故風險已下降。"
+        "body": "華航披露安全風險管理、事件調查與安全種子人員等訓練共 264 人次完訓，並對國內一線作業主管實施進階 SMS 線上訓練，涵蓋安全報告、匿名報告處理與公正文化。完訓數代表訓練投入，不能單獨證明事故風險已下降。"
       },
       {
         "source": "華航企業永續網｜信賴價值",
@@ -699,6 +699,16 @@
         "as_of": null,
         "verified_date": "2026-10-23",
         "status": "confirmed"
+      },
+      {
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "安全推廣：從內部程序到產業交流",
+        "body": "公司永續頁列出 2025 年主辦航空保安研討會及協辦飛航安全管理國際峰會。這是安全知識交流與推廣活動，不是新增認證；「保安」主要處理非法干擾等蓄意威脅，與日常操作風險管理有不同重點。",
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html"
       }
     ],
     "sms": [
