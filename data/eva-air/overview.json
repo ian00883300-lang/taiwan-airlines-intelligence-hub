@@ -367,6 +367,16 @@
         "as_of": null,
         "verified_date": "2026-10-18",
         "status": "confirmed"
+      },
+      {
+        "title": "2025 客運推薦值與調查管道",
+        "body": "2025 年客運 NPS 為 72.82，較 2024 年 70.16 增加 2.66 點，高於當年標準值 69.50。公司透過會員電郵及官網問卷收集旅客體驗；跨公司比較前仍須確認抽樣與問卷方式，不能只以分數高低判定服務排名。",
+        "source": "長榮永續網｜服務品質",
+        "source_url": "https://www.evacsr.com/governance/service01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "cargo": [
@@ -400,6 +410,16 @@
         "published_date": null,
         "as_of": "2025-12-31",
         "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "2025 貨運滿意度：改善但尚未達標",
+        "body": "主要貨運代理商調查實際值由 2024 年 4.37 升至 2025 年 4.40，增加 0.03，仍低於目標 4.52。問卷涵蓋訂位、行銷、倉儲、電子商務、貨運及售後服務；應同時呈現進步與目標差距，不把成長直接寫成達標。",
+        "source": "長榮永續網｜服務品質",
+        "source_url": "https://www.evacsr.com/governance/service01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
         "status": "confirmed"
       }
     ],
