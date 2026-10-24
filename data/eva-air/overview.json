@@ -534,6 +534,26 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "2025 客運燃油效率：每百 RPK 用油增加約 5.5%",
+        "body": "官網表列 2024 年 4.217、2025 年 4.451 升／百 RPK，依揭露值計算增加約 5.5%；此指標越低越省油，2025 年也高於 4.371 的目標。節油專案有成效，不代表年度單位用油必然改善；原因須結合航網、機型與運量分析，不能由此表單獨歸因。",
+        "source": "長榮永續網｜飛航節油與績效",
+        "source_url": "https://www.evacsr.com/environment/green-aviation01.html"
+      },
+      {
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed",
+        "title": "貨運效率與整體排放強度分開看",
+        "body": "2025 年貨運燃油效率為 0.097 升／FTK，與 2024 年公布值相同；整體排放強度則由 0.732 升至 0.742 公斤 CO₂e／RTK，約增加 1.4%。百分比依已四捨五入的官方值計算，屬近似值；不同分母的客運、貨運與整體指標不能直接相加。",
+        "source": "長榮永續網｜飛航節油與績效",
+        "source_url": "https://www.evacsr.com/environment/green-aviation01.html"
       }
     ],
     "saf": [

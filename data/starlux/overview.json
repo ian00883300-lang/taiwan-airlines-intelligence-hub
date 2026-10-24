@@ -713,6 +713,16 @@
         "status": "confirmed",
         "source_id": "jxGhg2025Current",
         "note": "官方敘述與分項表存在口徑／四捨五入差異，待後續報告澄清。"
+      },
+      {
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-24",
+        "status": "planned",
+        "title": "SAF 使用比例與減排比例不是同一指標",
+        "body": "官網中英文頁均列出 2027 年平均 SAF 添加 2%、2030 年 5% 的規劃。添加比例說明燃料組成，不代表整家公司溫室氣體排放直接降低相同比例；實際減排還須看燃料生命週期、來源及使用量。",
+        "source": "星宇永續網｜溫室氣體管理（英文交叉核對）",
+        "source_url": "https://sustainability.jx-starlux.com/en/esg/E-000/228/greenhouse-gas/"
       }
     ],
     "saf": [
