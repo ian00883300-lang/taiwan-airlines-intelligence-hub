@@ -554,12 +554,12 @@
     "maintenance": [
       {
         "title": "24 小時修管中心與維修驗證",
-        "body": "2026 年 10 月官方稿介紹全天候修管中心、拆卸至測試的維修流程，以及起落架更換與零件檢測。此為公司公開的作業介紹，不是外部稽核結論或即時妥善率。",
+        "body": "2026 年 10 月官方稿介紹全天候修管中心，以及拆卸、檢查、維護、回裝與測試流程，包含起落架更換和零件檢測。作業完成後仍須驗證與紀錄，不能將零件更換直接等同放行；這是公司作業介紹，不是外部稽核結論或即時妥善率。",
         "source": "中華航空｜修護流程、修管中心與人才培訓",
         "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
         "published_date": "2026-10-06",
         "as_of": "2026-10-06",
-        "verified_date": "2026-10-14",
+        "verified_date": "2026-10-25",
         "status": "confirmed",
         "source_id": "ciMro2026"
       },
@@ -617,28 +617,6 @@
         "status": "confirmed",
         "title": "華航 TotalCare：36 具 Trent XWB 的支援安排",
         "body": "Rolls-Royce 2026-02-04 公告合約涵蓋 30 具 XWB-97 與 6 具 XWB-84，對應 15 架 A350-1000 及 3 架 A350-900。這是發動機服務合約範圍，不代表 18 架飛機均已交付；文中當時機隊數也不是今日機隊數。"
-      },
-      {
-        "title": "修護品質：拆卸到測試的完整流程",
-        "body": "華航公開介紹拆卸、檢查、維護、回裝與測試，以及起落架更換和零件檢測。研究重點是作業後仍需驗證與紀錄，不能將「零件已換好」直接等同放行。",
-        "source": "華航｜修護流程與訓練公開介紹",
-        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
-        "published_date": "2026-10-06",
-        "as_of": "2026-10-06",
-        "verified_date": "2026-10-21",
-        "status": "confirmed",
-        "source_id": "ciMroDocumentary20261006"
-      },
-      {
-        "title": "24 小時修管與 MR 修護訓練",
-        "body": "官方介紹全天修管中心監控全球機隊運行，修護訓練中心以混合實境（MR）與模擬設備協助人才培育。這是公開介紹的支援能力，不代表數位工具可取代合格人員的檢查與放行責任。",
-        "source": "華航｜修護流程與訓練公開介紹",
-        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261006",
-        "published_date": "2026-10-06",
-        "as_of": "2026-10-06",
-        "verified_date": "2026-10-21",
-        "status": "confirmed",
-        "source_id": "ciMroDocumentary20261006"
       },
       {
         "source": "華航｜2025營運與旅客服務績效",
