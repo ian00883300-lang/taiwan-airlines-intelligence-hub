@@ -361,6 +361,26 @@
         "as_of": "2026-10-01",
         "source_id": "evaFleet",
         "note": "777F；客機腹艙另計。"
+      },
+      {
+        "title": "2025 貨運表現與需求來源",
+        "body": "長榮揭露 2025 年貨運量成長 6.91%，貨運承載率為 71.46%；主要需求包括 AI 伺服器、半導體及電商。6.91% 是貨運量成長率，不是貨運營收增幅；承載率則反映運能使用情況，不能當作貨運占公司收入的比重。",
+        "source": "長榮永續網｜飛航節油與績效：2025 改善乘載率",
+        "source_url": "https://www.evacsr.com/environment/green-aviation01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "冷鏈、包艙與貨機運能配置",
+        "body": "長榮積極攬收冷鏈貨物，並與客戶簽訂中長期包艙或包機合約，依需求調整貨機長、短程航線配置。研究解讀：這些措施有助於取得較穩定貨源並改善載貨率；評估成效仍須一起觀察運價、燃油成本及回程貨源，不能僅以滿載判斷獲利。",
+        "source": "長榮永續網｜飛航節油與績效：2025 改善乘載率",
+        "source_url": "https://www.evacsr.com/environment/green-aviation01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
       }
     ],
     "maintenance": [
