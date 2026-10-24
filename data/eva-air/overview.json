@@ -168,6 +168,26 @@
         "as_of": "2026-05-31",
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "title": "供應鏈治理：董事會監督與季度檢視",
+        "body": "長榮由董事會監督永續供應鏈管理，ESG 委員會協調、供應鏈行動小組執行，並按季檢視管理流程。這是公開治理分工，不表示董事會直接執行每筆採購或每次稽核。",
+        "source": "長榮永續網｜Supply Chain Management",
+        "source_url": "https://www.evacsr.com/en/governance/supply-chain01.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "2025 供應商分級：總數與一階門檻",
+        "body": "公司揭露全球供應商 1,143 家，採購分為航油、修護與航材、地面作業、客艙用品與餐飲、營運維護及總務等五類。此頁將年採購金額至少新臺幣 1,200 萬元列為一階供應商門檻，屬長榮揭露定義，不能直接套用其他公司的統計。",
+        "source": "長榮永續網｜Supply Chain Management",
+        "source_url": "https://www.evacsr.com/en/governance/supply-chain01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
       }
     ],
     "organization": [
