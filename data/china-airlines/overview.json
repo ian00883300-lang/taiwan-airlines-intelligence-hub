@@ -966,6 +966,26 @@
         "status": "confirmed",
         "as_of": "2026-03-07",
         "source_id": "ciRecruit"
+      },
+      {
+        "title": "2025 年底人力：華航與華信分開",
+        "body": "2025-12-31 華航 11,640 人，較前一年增加 122 人，依揭露值計算約增加 1.1%；華信另列 954 人。華航另使用 145 名派遣人力，不能直接混加為同一員工統計；這也是年度快照，不是目前即時人數。",
+        "source": "華航企業永續網｜人才結構",
+        "source_url": "https://calec.china-airlines.com/csr/employees_talents.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "2025 新進人員與淨增加不同",
+        "body": "華航全年招募 645 名新進人員，其中正式員工 623、約聘 22。新進人數是期間流入，年底淨增加還受離職、退休等因素影響；不能用 645 人推算員工總數成長或當作培訓機師錄取名額。",
+        "source": "華航企業永續網｜人才結構",
+        "source_url": "https://calec.china-airlines.com/csr/employees_talents.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
       }
     ],
     "recruitment": [
