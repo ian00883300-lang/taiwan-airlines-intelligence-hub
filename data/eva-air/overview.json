@@ -453,6 +453,26 @@
         "as_of": null,
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "title": "維修管理：定期維修與停機線作業",
+        "body": "長榮依維修手冊、原廠技術規範與法令執行定期維修及停機線維修，並管理零組件壽限、維修工序與檢驗。適航指令（AD）與服務通告（SB）須依其適用性及要求評估執行，不能把兩者當成相同法律效力的文件。",
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
+      },
+      {
+        "title": "機務安全：指標、目標與日常風險",
+        "body": "機務本部以安全績效指標（SPI）監測表現，並設定安全績效目標（SPT），將危害辨識與風險管理納入日常作業。每月品質管理檢討也追蹤派遣率及延誤原因，以調整維修計畫與預防措施；此頁未公布各機隊數值，不推算或補造達成率。",
+        "source": "長榮永續網｜航機維修與監控",
+        "source_url": "https://www.evacsr.com/governance/flying-safety02.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "safety": [
