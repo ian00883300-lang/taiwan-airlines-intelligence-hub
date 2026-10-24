@@ -223,6 +223,16 @@
         "as_of": null,
         "verified_date": "2026-10-24",
         "status": "confirmed"
+      },
+      {
+        "title": "資安韌性：備援與修補驗證",
+        "body": "華航揭露 2025 年辦理 1 次災害備援暨回復演練，10 月與 12 月完成資安健診及滲透測試初測、複測。核心系統另訂業務持續運作計畫；重點是發現弱點後驗證修補、測試中斷後復原能力，而非僅有防毒或認證。",
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
       }
     ],
     "organization": [
@@ -473,6 +483,16 @@
         "published_date": null,
         "as_of": null,
         "verified_date": "2026-10-18",
+        "status": "confirmed"
+      },
+      {
+        "title": "2025 旅客推薦值：73.3，較上年增加 0.8 點",
+        "body": "官方調查列示旅客淨推薦值（NPS）由 2024 年 72.5 升至 2025 年 73.3，增加 0.8 點；2026 年目標為 70.5，屬目標而非實績。NPS 反映推薦者與貶損者比例之差，不是滿意旅客百分比，也不能與貨運滿意度分數直接相比。",
+        "source": "華航企業永續網｜顧客滿意度",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-24",
         "status": "confirmed"
       }
     ],

@@ -188,6 +188,26 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-24",
         "status": "confirmed"
+      },
+      {
+        "title": "資安治理：專責單位與董事會監督",
+        "body": "長榮資安暨個資管理單位負責政策、法遵、事件應變及訓練，由資安長每年向董事會報告。2022 年成立的資安與個資保護委員會由總經理主持，每半年開會，協調業務需求與風險管理。",
+        "source": "長榮永續網｜Information Security & Privacy Protection",
+        "source_url": "https://www.evacsr.com/en/governance/governance03.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "ISO 27001：效期與持續改善",
+        "body": "官網列示目前資訊安全管理系統證書效期為 2025-05-13 至 2028-05-12，經 BSI 驗證；每年至少執行一次內部資安稽核，缺失由權責單位限期改善並追蹤。這是受驗範圍內的管理系統驗證，不能視為不會發生資安事件的保證。",
+        "source": "長榮永續網｜Information Security & Privacy Protection",
+        "source_url": "https://www.evacsr.com/en/governance/governance03.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-24",
+        "status": "confirmed"
       }
     ],
     "organization": [
