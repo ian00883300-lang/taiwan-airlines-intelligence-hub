@@ -543,6 +543,40 @@
       "as_of": null,
       "verified_date": "2026-10-24",
       "status": "confirmed"
+    },
+    {
+      "id": "hypoxia-hyperventilation",
+      "category": "安全與人因",
+      "title": "缺氧與過度換氣有何不同？",
+      "title_en": "Hypoxia versus hyperventilation",
+      "answer": "缺氧是身體組織獲得的氧不足；高空環境可能因氧分壓下降而造成缺氧。過度換氣則是通氣超過代謝需要，使二氧化碳過度流失。兩者都可能出現頭暈、麻刺感與判斷力下降，不能只憑感覺就認定是緊張。飛行中疑似缺氧應立即依機型程序處理氧氣供應及相關異常，避免因自行判斷為過度換氣而延誤處置。",
+      "answer_en": "Hypoxia means inadequate oxygen reaching body tissues; reduced oxygen partial pressure at altitude is one possible cause. Hyperventilation removes more carbon dioxide than metabolism requires. Symptoms can overlap, including dizziness, tingling and impaired judgment, so symptoms alone cannot establish anxiety as the cause. Suspected hypoxia in flight requires prompt action under the aircraft procedures, including oxygen-system actions, rather than delaying while assuming hyperventilation.",
+      "caution": "本題說明生理概念，不取代機型緊急程序、航空體檢或醫療評估。",
+      "follow_up": "為什麼自覺狀況良好，也不代表沒有缺氧？",
+      "source": "FAA｜AIM Medical Facts for Pilots",
+      "source_url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+      "origin": "依公開專業指引整理的原創知識題",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-24",
+      "status": "confirmed"
+    },
+    {
+      "id": "hydroplaning-braking",
+      "category": "天氣與風險",
+      "title": "濕跑道為什麼可能影響煞車與方向控制？",
+      "title_en": "Wet runways, hydroplaning and braking",
+      "answer": "跑道上的水會降低輪胎與地面的有效接觸，積水造成的水漂可能使煞車與方向控制能力大幅下降。實際影響與速度、積水、輪胎及跑道表面等條件有關，不能只用一個估算速度判定安全。起降前應依跑道狀況報告及核准性能資料評估，並保留所需裕度。防滑系統可調節煞車，但不能保證在任何積水條件下仍有足夠摩擦力。",
+      "answer_en": "Water can reduce effective tire contact with the pavement, and hydroplaning can severely degrade braking and directional control. The outcome depends on speed, water, tires and runway surface; a single estimated speed does not establish safety. Assess reported runway conditions using approved performance data and required margins. Anti-skid can modulate braking but cannot guarantee adequate friction in all standing-water conditions.",
+      "caution": "不要把一般水漂經驗公式當成機型限制或濕跑道性能計算的替代品。",
+      "follow_up": "為什麼有防滑系統，仍須重新評估污染跑道的落地距離？",
+      "source": "Transport Canada｜AC 700-057 Runway Surface Condition Assessment and Reporting",
+      "source_url": "https://tc.canada.ca/en/aviation/reference-centre/advisory-circulars/advisory-circular-ac-no-700-057",
+      "origin": "依公開專業指引整理的原創知識題",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-24",
+      "status": "confirmed"
     }
   ]
 }
