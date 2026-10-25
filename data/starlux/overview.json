@@ -153,7 +153,7 @@
     ],
     "governance": [
       {
-        "title": "董事會與独立董事（年報所載）",
+        "title": "董事會與獨立董事（年報所載）",
         "body": "2025年報列董事會7席，其中3席獨立董事；年報董事名單包括張國煒、翟健華、葉淑汶、董俊毅、蔡堆、王德和、洪慶山。名單為年報紀錄，任職與異動需再查最新公司公告。",
         "source": "星宇航空｜2025 年報",
         "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
@@ -216,6 +216,16 @@
         "source_url": "https://www.starlux-airlines.com/en-TW/terms-conditions/privacy-policy",
         "published_date": null,
         "as_of": null,
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
+      },
+      {
+        "title": "資安培訓：人次與演練並行",
+        "body": "2025 年資訊安全暨個人資料保護教育訓練共 11,296 人次，另辦理釣魚郵件演練及後續教育。人次可能包含同一員工多次參訓，不能當作員工總數或訓練覆蓋率；管理重點是演練結果能否轉化為辨識與通報能力。",
+        "source": "星宇永續網｜2025 利害關係人議合溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
         "verified_date": "2026-10-25",
         "status": "confirmed"
       }
@@ -493,9 +503,19 @@
       },
       {
         "title": "旅客回饋：問卷寄發與有效樣本分開",
-        "body": "星宇揭露 2025 年寄發搭乘滿意度問卷共 15,000 份，並定期進行客運、貨運調查及服務流程檢核。15,000 是寄發量，不能當成回收樣本或滿意人數；該頁未列回收率及整體客運滿意分數，因此不據此製作滿意度排名。",
+        "body": "星宇揭露 2025 年寄發搭乘滿意度問卷共 15,000 份，並定期進行客運、貨運調查及服務流程檢核。15,000 是寄發量，不能當成回收樣本或滿意人數；此頁未列回收率，客運 NPS 與貨運滿意度則見本分類另列的官方顧客服務資料。",
         "source": "星宇永續網｜2025 利害關係人議合溝通",
         "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
+      },
+      {
+        "title": "2025 客運 NPS：71.6，高於年度目標",
+        "body": "官方顧客服務頁揭露 2025 年淨推薦值（NPS）71.6，比年度目標 66 高 5.6 點；另列短期目標 69、中長期 70。NPS 是推薦者比例減去貶損者比例，不是滿意旅客百分比。跨航空公司比較仍須確認樣本、調查期間與方法。",
+        "source": "星宇永續網｜2025 顧客服務",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025__CUSSERVICE/",
         "published_date": null,
         "as_of": "2025-12-31",
         "verified_date": "2026-10-25",
@@ -570,6 +590,16 @@
         "published_date": "2025-11-14",
         "as_of": "2025-11-14",
         "verified_date": "2026-10-24",
+        "status": "confirmed"
+      },
+      {
+        "title": "貨運滿意度：回升但未超越 2023 年",
+        "body": "官方五分制貨運滿意度為 2023 年 4.44、2024 年 4.34、2025 年 4.38。2025 年較前一年增加 0.04 分，高於當年目標 4.35，但仍低於 2023 年；短期目標為 4.45，中長期 4.65。這反映受訪客戶評價，不能直接當作準點率或貨損率。",
+        "source": "星宇永續網｜2025 顧客服務",
+        "source_url": "https://sustainability.jx-starlux.com/esg/S-000/2025__CUSSERVICE/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
         "status": "confirmed"
       }
     ],
@@ -793,6 +823,16 @@
         "body": "官網中英文頁均列出 2027 年平均 SAF 添加 2%、2030 年 5% 的規劃。添加比例說明燃料組成，不代表整家公司溫室氣體排放直接降低相同比例；實際減排還須看燃料生命週期、來源及使用量。",
         "source": "星宇永續網｜溫室氣體管理（英文交叉核對）",
         "source_url": "https://sustainability.jx-starlux.com/en/esg/E-000/228/greenhouse-gas/"
+      },
+      {
+        "title": "自然風險：2025 年啟動 TNFD 專案",
+        "body": "星宇揭露 2025 年啟動自然相關財務揭露（TNFD）專案，將自然與生物多樣性納入營運及關鍵供應商盤點，並完成自身營運的 LEAP「定位」與「評價」分析。這是辨識自然依賴與影響的進度，不等於已完成全部 LEAP 階段或取得環境認證。",
+        "source": "星宇永續網｜2025 利害關係人議合溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "saf": [

@@ -208,6 +208,16 @@
         "as_of": null,
         "verified_date": "2026-10-24",
         "status": "confirmed"
+      },
+      {
+        "title": "重大主題：同看永續衝擊與財務影響",
+        "body": "2025 年長榮由 19 項永續議題評估出 13 項重大主題，結合永續衝擊、財務衝擊與利害關係人關注程度；當年度議合結果於 2025 年 12 月 26 日提報永續委員會與董事會。重大主題是管理優先順序，不能當成已完成改善的項目數。",
+        "source": "長榮永續網｜永續議題議合與回應",
+        "source_url": "https://www.evacsr.com/esg/stakeholder01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "organization": [
@@ -662,6 +672,16 @@
         "body": "2025 年貨運燃油效率為 0.097 升／FTK，與 2024 年公布值相同；整體排放強度則由 0.732 升至 0.742 公斤 CO₂e／RTK，約增加 1.4%。百分比依已四捨五入的官方值計算，屬近似值；不同分母的客運、貨運與整體指標不能直接相加。",
         "source": "長榮永續網｜飛航節油與績效",
         "source_url": "https://www.evacsr.com/environment/green-aviation01.html"
+      },
+      {
+        "title": "生物多樣性：敏感區篩查與鄰近影響",
+        "body": "長榮揭露 2024 年針對國內外重要據點及重要供應商據點周邊 15 公里，評估關鍵生物多樣性區域。結果未直接重疊，但部分據點鄰近敏感區，並點出許厝港濕地可能受機場營運影響。未重疊不等於沒有間接影響；環境管理須同時看位置、營運活動與價值鏈。",
+        "source": "長榮永續網｜管理組織及策略",
+        "source_url": "https://www.evacsr.com/environment/environment01.html",
+        "published_date": null,
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "saf": [
