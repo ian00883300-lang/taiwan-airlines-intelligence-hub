@@ -444,13 +444,13 @@
     ],
     "passenger": [
       {
-        "title": "2025全年載客與旅客調查",
-        "body": "華航官方2025績效頁記錄全年載客11,746,082人次，較2024年增加2.46%；2025年1至12月旅客淨推薦值NPS為73.3。載客人次不是獨立旅客人數；NPS不當作航空安全指標。",
+        "title": "2025 全年載客人次",
+        "body": "華航官方 2025 績效頁記錄全年載客 11,746,082 人次，較 2024 年增加 2.46%。人次統計包含重複搭乘，不是獨立旅客人數；也不等同載客率或客運收入成長率。",
         "source": "華航｜2025營運與旅客服務績效",
         "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "published_date": null,
         "as_of": "2025-12-31",
-        "verified_date": "2026-10-12",
+        "verified_date": "2026-10-25",
         "status": "confirmed",
         "source_id": "ciOperations2025"
       },
@@ -459,11 +459,11 @@
         "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
         "published_date": null,
         "as_of": "2025-12-31",
-        "verified_date": "2026-10-15",
+        "verified_date": "2026-10-25",
         "status": "confirmed",
         "source_id": "ciTrust2025",
-        "title": "旅客與貨運服務指標：方向不同",
-        "body": "官方表列 2025 年旅客 NPS 73.3，2024 年為 72.5，增加 0.8 點；貨運顧客滿意度由 89.8 降至 89.1，下降 0.7 分。兩者量表不同，不相加、不解讀成安全績效。2026 年旅客 NPS 目標 70.5，較 2025 年目標 69 提高，但低於 2025 實績；目標不等於預測。"
+        "title": "旅客推薦值：年度變化與目標",
+        "body": "2025 年旅客淨推薦值（NPS）為 73.3，較 2024 年 72.5 增加 0.8 點。2026 年目標為 70.5，較 2025 年目標 69 提高，但低於 2025 年實績；目標不是預測。NPS 是推薦者與貶損者比例之差，不是滿意旅客百分比，也不是飛安指標。"
       },
       {
         "title": "企業差旅｜Corporate Extra",
@@ -483,16 +483,6 @@
         "published_date": null,
         "as_of": null,
         "verified_date": "2026-10-18",
-        "status": "confirmed"
-      },
-      {
-        "title": "2025 旅客推薦值：73.3，較上年增加 0.8 點",
-        "body": "官方調查列示旅客淨推薦值（NPS）由 2024 年 72.5 升至 2025 年 73.3，增加 0.8 點；2026 年目標為 70.5，屬目標而非實績。NPS 反映推薦者與貶損者比例之差，不是滿意旅客百分比，也不能與貨運滿意度分數直接相比。",
-        "source": "華航企業永續網｜顧客滿意度",
-        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
-        "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-24",
         "status": "confirmed"
       }
     ],

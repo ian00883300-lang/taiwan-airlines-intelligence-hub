@@ -338,17 +338,6 @@
     ],
     "passenger": [
       {
-        "label": "客運業務",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
-      {
         "title": "企業差旅｜EVA BizFam",
         "body": "企業員工符合條件的長榮／立榮差旅，可同時累積企業 BizFam 點數及員工無限萬哩遊個人哩程。企業點數可兌換酬賓機票、升等、貴賓室、超額行李等；企業管理平台提供差旅與點數管理。",
         "source": "長榮航空｜EVA BizFam 方案介紹",
