@@ -377,6 +377,26 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-25",
         "status": "confirmed"
+      },
+      {
+        "title": "2025 準時率：離場與到場分開閱讀",
+        "body": "長榮按公司公開的 15 分鐘準時率口徑，2025 年全線離場為 97.1%，短程到場 98.5%、長程到場 97.5%；2026 年全線目標為 95.5%。離場與到場是不同指標，目標也不是實績；跨公司比較前應確認取消航班、排除原因與航班樣本的處理方式。",
+        "source": "長榮永續網｜服務品質",
+        "source_url": "https://www.evacsr.com/governance/service01.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
+      },
+      {
+        "title": "無障礙服務：涵蓋完整旅程",
+        "body": "長榮公開說明服務涵蓋購票、報到、搭機及售後階段，包括線上特別需求預訂、文字客服、機場特殊服務櫃檯、優先登機，以及點字與字幕安全資訊。研究重點是資訊可取得性與地面、客艙交接的一致性；個別航班可提供的輔助設備仍須事前確認。",
+        "source": "長榮永續網｜服務品質",
+        "source_url": "https://www.evacsr.com/governance/service01.html",
+        "published_date": null,
+        "as_of": null,
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "cargo": [
