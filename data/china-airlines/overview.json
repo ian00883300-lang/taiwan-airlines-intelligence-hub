@@ -549,6 +549,16 @@
         "as_of": null,
         "verified_date": "2026-10-24",
         "status": "confirmed"
+      },
+      {
+        "title": "2025 貨運滿意度：達標但較上年下降",
+        "body": "華航貨運顧客滿意度由 2024 年 89.8 降至 2025 年 89.1，減少 0.7 分，仍高於當年目標 89。達標與年度改善是不同判斷，應同時呈現；此為服務調查分數，不能當作載貨率或收入占比。",
+        "source": "華航企業永續網｜顧客滿意度",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "maintenance": [
@@ -628,6 +638,16 @@
         "source_id": "ciOperations2025",
         "title": "777 客貨機共通性：差異訓練仍必要",
         "body": "華航說明 777F 與 777-300ER 同屬 777 家族、使用 GE90 系列發動機，有助管理與維修資源配置；組員需完成差異訓練後執行任務。同系列的效益應從人員與維修資源理解，不能解讀成客貨機設備完全相同。"
+      },
+      {
+        "title": "2025 修護客戶滿意度：十分制 9.05",
+        "body": "修護顧客滿意度由 2024 年 9.0 升至 2025 年 9.05，增加 0.05 分，高於目標 8.4。官方明示採十分制；這項客戶回饋可觀察服務品質，但不能代替維修放行、品質稽核或航機可靠度指標。",
+        "source": "華航企業永續網｜顧客滿意度",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "safety": [
