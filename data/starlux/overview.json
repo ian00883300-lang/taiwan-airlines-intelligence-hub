@@ -490,6 +490,16 @@
         "as_of": null,
         "verified_date": "2026-10-25",
         "status": "confirmed"
+      },
+      {
+        "title": "旅客回饋：問卷寄發與有效樣本分開",
+        "body": "星宇揭露 2025 年寄發搭乘滿意度問卷共 15,000 份，並定期進行客運、貨運調查及服務流程檢核。15,000 是寄發量，不能當成回收樣本或滿意人數；該頁未列回收率及整體客運滿意分數，因此不據此製作滿意度排名。",
+        "source": "星宇永續網｜2025 利害關係人議合溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "cargo": [
@@ -677,6 +687,16 @@
         "body": "官方說明安全文化調查每兩年辦理，採不記名方式，涵蓋運航相關單位及外站主管。2024 年結果提交安全審查委員會（SRC），作為政策與推廣活動規劃參考。這是特定調查對象的認知資料，不宜直接視為全體員工或旅客的看法。",
         "source": "星宇永續網｜安全文化問卷",
         "source_url": "https://sustainability.jx-starlux.com/esg/G-000/2025__SAFE/294/"
+      },
+      {
+        "title": "2025 安全報告：通報量與事故數不同",
+        "body": "星宇公布 2025 年收到 706 份安全報告，並召開三層級安全會議共 16 場，透過安全報告系統追蹤改善。通報數反映收到的報告量，不能當成 706 起事故，也不能單憑數量增加或減少判定安全表現；應連同風險內容及改善成效閱讀。",
+        "source": "星宇永續網｜2025 利害關係人議合溝通",
+        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-10-25",
+        "status": "confirmed"
       }
     ],
     "sms": [

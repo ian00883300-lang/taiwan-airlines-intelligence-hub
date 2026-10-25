@@ -260,17 +260,6 @@
         "as_of": null,
         "status": "confirmed",
         "note": "英文：Show You the World Take You Home"
-      },
-      {
-        "label": "品牌與理念",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
       }
     ],
     "fleet": [
@@ -399,17 +388,6 @@
       }
     ],
     "codeshare": [
-      {
-        "label": "共掛班號",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
-      },
       {
         "source": "華航｜台北—鳳凰城實際首航",
         "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20251203-PHX.html",
