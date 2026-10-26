@@ -638,6 +638,26 @@
         "status": "confirmed",
         "title": "TotalCare 的營運意義",
         "body": "Rolls-Royce 將 TotalCare 說明為依發動機飛行小時計費的維修與風險管理服務，涵蓋維修規劃、離翼修理與健康監控。這是產品一般說明；星宇個別合約費率、除外條款及保證內容未公開，不推定所有修護成本均固定或完全外包。"
+      },
+      {
+        "title": "電子技術日誌與文件版本管理",
+        "body": "2024 永續報告書第 88 頁介紹 ULTRAMAIN 電子技術日誌與維修工卡，以及 DOC／eManual 文件控管。機組回報異常可提前供地面維修準備，技術文件則須保持正確版本；數位紀錄提升交接效率，仍須依核准程序完成檢查與放行。",
+        "source": "星宇航空｜2024 永續報告書，第 88 頁",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/20250908-1-STARLUX-2024-ESG-EC-CH.pdf_tcm5-13135.pdf",
+        "published_date": null,
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-26",
+        "status": "confirmed"
+      },
+      {
+        "title": "維修授權：訓練紀錄與持續資格",
+        "body": "2024 永續報告書第 88 頁說明 eTDS 保存學科、術科及專業職能考核紀錄，供維修授權資格管理。研究重點：完成課程、通過考核與取得相關作業授權是不同環節，不能只以參訓人數代表維修能力。",
+        "source": "星宇航空｜2024 永續報告書，第 88 頁",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/20250908-1-STARLUX-2024-ESG-EC-CH.pdf_tcm5-13135.pdf",
+        "published_date": null,
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-26",
+        "status": "confirmed"
       }
     ],
     "safety": [
