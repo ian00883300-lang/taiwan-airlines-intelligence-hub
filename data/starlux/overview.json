@@ -688,12 +688,12 @@
       },
       {
         "title": "安全通報：2025 年 706 份",
-        "body": "公司公開 2025 年收到 706 份安全報告、召開三層級安全會議共 16 場。報告數不等於事故數，亦不能單憑件數高低評判安全程度。",
+        "body": "公司公開 2025 年收到 706 份安全報告、召開三層級安全會議共 16 場，並透過安全報告系統追蹤改善。通報量不是事故數；評估安全表現還須看事件風險、改善措施與後續成效，不能單憑件數高低判斷。",
         "source": "星宇航空｜2025 利害關係人溝通",
         "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
         "published_date": null,
         "as_of": "2025-12-31",
-        "verified_date": "2026-10-14",
+        "verified_date": "2026-10-27",
         "status": "confirmed",
         "source_id": "jxStakeholders2025"
       },
@@ -739,13 +739,23 @@
         "source_url": "https://sustainability.jx-starlux.com/esg/G-000/2025__SAFE/294/"
       },
       {
-        "title": "2025 安全報告：通報量與事故數不同",
-        "body": "星宇公布 2025 年收到 706 份安全報告，並召開三層級安全會議共 16 場，透過安全報告系統追蹤改善。通報數反映收到的報告量，不能當成 706 起事故，也不能單憑數量增加或減少判定安全表現；應連同風險內容及改善成效閱讀。",
-        "source": "星宇永續網｜2025 利害關係人議合溝通",
-        "source_url": "https://sustainability.jx-starlux.com/esg/A-000/314/",
+        "title": "聯合管制中心：簽放、監控與地面協調",
+        "body": "2024 永續報告書第 89 頁說明聯合管制中心全天候運作：飛航簽派製作與簽放飛行計畫，飛航管制追蹤航班並與機組聯繫，航務管制協調桃園機坪及地面資源。這是航空公司內部營運分工，與負責航機隔離及空域指揮的空中交通管制不同。",
+        "source": "星宇航空｜2024 永續報告書，第 89 頁",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/20250908-1-STARLUX-2024-ESG-EC-CH.pdf_tcm5-13135.pdf",
         "published_date": null,
-        "as_of": "2025-12-31",
-        "verified_date": "2026-10-25",
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-27",
+        "status": "confirmed"
+      },
+      {
+        "title": "數位監控：飛行計畫與天氣資訊整合",
+        "body": "2024 永續報告書列出 Netline/Ops 航班監控、SITA Mission Watch 位置與異常資訊、Lido 飛行計畫及 WNI 天氣監控。工具協助簽派與機組掌握變化；系統提供的資料仍須由人員判讀，不能把即時監控寫成自動排除所有飛行風險。",
+        "source": "星宇航空｜2024 永續報告書，第 89 頁",
+        "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/20250908-1-STARLUX-2024-ESG-EC-CH.pdf_tcm5-13135.pdf",
+        "published_date": null,
+        "as_of": "2024-12-31",
+        "verified_date": "2026-10-27",
         "status": "confirmed"
       }
     ],
