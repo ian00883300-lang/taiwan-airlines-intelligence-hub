@@ -430,6 +430,7 @@ export default function RouteNetwork({ initial = "all", Source }) {
                             </> : <><strong>班號 {r.schedule_evidence.flight_numbers}</strong><small>歷史班表：{r.schedule_evidence.valid_from}～{r.schedule_evidence.valid_to}</small></>}
                           </div>}
 
+                          {r.frequency_evidence && <div className="route-flight-numbers"><strong>每週 {r.frequency_evidence.weekly_flights} 班</strong><small>{r.frequency_evidence.valid_from}～{r.frequency_evidence.valid_to}</small><details><summary>班次說明</summary><p>{r.frequency_evidence.note}</p><Source item={r.frequency_evidence} compact /></details></div>}
                           {r.next_schedule && <details className="route-next-schedule"><summary>冬季班表 · {r.next_schedule.valid_from}～{r.next_schedule.valid_to}</summary><p>去程 {r.next_schedule.outbound} · 回程 {r.next_schedule.inbound}</p><p>{r.next_schedule.note}</p><Source item={r.next_schedule} compact /></details>}
                           {r.schedule_evidence && (
                             <details>

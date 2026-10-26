@@ -717,6 +717,18 @@
         "valid_to": "2026-10-24",
         "source_page": 9,
         "note": "PDF 第 9 頁。CI053經布里斯本續飛奧克蘭；以實際航段分列，非TPE–AKL直飛。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      },
+      "frequency_evidence": {
+        "source": "華航｜大洋洲增班官方航班資訊",
+        "source_url": "https://flybeyond.china-airlines.com/destination/oceania/expansion-travel",
+        "published_date": "2026-07-21",
+        "as_of": "2026-10-25",
+        "verified_date": "2026-10-27",
+        "status": "announced",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-03-27",
+        "weekly_flights": 6,
+        "note": "台北出發：週一、三、四、五、六、日；布里斯本出發返台：週一、二、四、五、六、日。"
       }
     },
     {
@@ -754,6 +766,18 @@
         "valid_to": "2026-10-24",
         "source_page": 9,
         "note": "PDF 第 9 頁。CI053延遠航段；本列起點為布里斯本。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      },
+      "frequency_evidence": {
+        "source": "華航｜大洋洲增班官方航班資訊",
+        "source_url": "https://flybeyond.china-airlines.com/destination/oceania/expansion-travel",
+        "published_date": "2026-07-21",
+        "as_of": "2026-10-25",
+        "verified_date": "2026-10-27",
+        "status": "announced",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-03-27",
+        "weekly_flights": 5,
+        "note": "台北經布里斯本延伸至奧克蘭，維持每週五班；不是台北—奧克蘭不停站航班。"
       }
     },
     {
@@ -791,6 +815,18 @@
         "valid_to": "2026-10-24",
         "source_page": 10,
         "note": "PDF 第 10 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      },
+      "frequency_evidence": {
+        "source": "華航｜大洋洲增班官方航班資訊",
+        "source_url": "https://flybeyond.china-airlines.com/destination/oceania/expansion-travel",
+        "published_date": "2026-07-21",
+        "as_of": "2026-10-25",
+        "verified_date": "2026-10-27",
+        "status": "announced",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-03-27",
+        "weekly_flights": 5,
+        "note": "台北出發：週一、二、三、四、六；墨爾本出發：週二、三、四、五、日。"
       }
     },
     {
@@ -2750,7 +2786,19 @@
         "source_page": 9,
         "note": "PDF 第 9 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
       },
-      "aircraft_note": "PDF 第 9 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。"
+      "aircraft_note": "PDF 第 9 頁。 期間班表公告，未驗證每班實際派飛；班次有日期例外，須查即時班表。",
+      "frequency_evidence": {
+        "source": "華航｜大洋洲增班官方航班資訊",
+        "source_url": "https://flybeyond.china-airlines.com/destination/oceania/expansion-travel",
+        "published_date": "2026-07-21",
+        "as_of": "2026-10-25",
+        "verified_date": "2026-10-27",
+        "status": "announced",
+        "valid_from": "2026-10-25",
+        "valid_to": "2027-03-27",
+        "weekly_flights": 7,
+        "note": "台北往返雪梨，每日一班。"
+      }
     },
     {
       "id": "china-airlines-KHH-NRT",

@@ -103,5 +103,24 @@
     "verified_date": "2026-10-24",
     "status": "confirmed",
     "as_of": "2026-08-11"
+  },
+  {
+    "source": "華航｜大洋洲增班官方航班資訊",
+    "source_url": "https://flybeyond.china-airlines.com/destination/oceania/expansion-travel",
+    "published_date": "2026-07-21",
+    "as_of": "2026-10-25",
+    "verified_date": "2026-10-27",
+    "status": "announced",
+    "valid_from": "2026-10-25",
+    "valid_to": "2027-03-27",
+    "id": "ci-oceania-winter-20261025",
+    "airline": "china-airlines",
+    "topic": "Routes",
+    "title": "華航紐澳冬季班次：雪梨 7、布里斯本 6、墨爾本 5",
+    "event_date": "2026-10-25",
+    "what": "10/25 起至 2027/3/27，澳洲三城增班；奧克蘭維持每週 5 班，經布里斯本延伸。",
+    "why": "增頻提升出發日期選擇與轉機銜接彈性，但不是新增航點；布里斯本與奧克蘭部分共用同一航班，不能相加當成台北出發班次。",
+    "impact": "How does adding frequency differ from opening a new destination?",
+    "remember": "7/21 是官方文章日期，10/25 是班表生效日；奧克蘭不是台北不停站航線。"
   }
 ]
