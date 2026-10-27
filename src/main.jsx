@@ -1,3 +1,4 @@
+import { taipeiWeek, latestVerified } from "./report-dates.mjs";
 import StarluxCodeshare from "./StarluxCodeshare.jsx";
 import Awards from "./Awards.jsx";
 import SafetyMechanisms from './SafetyMechanisms.jsx';
@@ -542,7 +543,7 @@ function Home({ openInterview }) {
       </section>
       <div className="home-columns">
         <section>
-          <SectionTitle title="近期情報" en="Updated Oct 24" link="weekly" />
+          <SectionTitle title="近期情報" en={`Verified ${latestVerified(weekly)}`} link="weekly" />
           {weekly
             .slice().sort((a, b) => b.published_date.localeCompare(a.published_date)).slice(0, 4)
             .map((n) => (
@@ -1317,19 +1318,20 @@ function Weekly() {
     "SAF",
     "Major Aviation News",
   ];
-  let list = [...weekly].sort((a, b) => b.published_date.localeCompare(a.published_date)).filter(
+  const week = taipeiWeek();
+  let list = [...weekly].sort((a, b) => (b.published_date || "").localeCompare(a.published_date || "")).filter(
     (n) =>
       (air === "all" || n.airline === air) &&
       (topic === "all" || n.topic === topic) &&
       (period === "all" ||
-        (n.published_date >= "2026-10-19" && n.published_date <= "2026-10-25")),
+        (n.published_date >= week.start && n.published_date <= week.end)),
   );
   return (
     <>
       <Heading
         eyebrow="WEEKLY INTELLIGENCE"
         title="每週情報簡報"
-        description="查核更新：2026-10-24。近期公告與背景整理；分析觀點不代表公司承諾。"
+        description={`查核更新：${latestVerified(weekly)}。近期公告與背景整理；分析觀點不代表公司承諾。`}
       />
       <div className="notice">
         人工查核的靜態週報，尚未啟用自動更新；不是即時新聞串流。
@@ -1358,7 +1360,7 @@ function Weekly() {
         <label>
           期間
           <select value={period} onChange={(e) => setPeriod(e.target.value)}>
-            <option value="week">本週公告（10/19–10/25）</option>
+            <option value="week">本週公告（{week.start}～{week.end}）</option>
             <option value="all">近期與背景（全部）</option>
           </select>
         </label>

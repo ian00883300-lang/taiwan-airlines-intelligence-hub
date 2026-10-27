@@ -1884,5 +1884,19 @@
     "event_date": "2026-06-26",
     "note": "機場管理局記錄 6 月 26 日首航典禮；與 2 月 11 日預告及 6 月 27 日起常態班表分開。",
     "corroboration_url": "https://www.newswire.ca/news-releases/eva-air-debuts-the-first-washington-d-c-to-taipei-nonstop-service-821917173.html"
+  },
+  {
+    "source": "中央社｜星宇台中名古屋首航紀錄",
+    "source_url": "https://www.cna.com.tw/news/afe/202610250168.aspx",
+    "published_date": "2026-10-25",
+    "as_of": "2026-10-25",
+    "verified_date": "2026-10-27",
+    "status": "confirmed",
+    "id": "starlux-RMQ-NGO-inaugural",
+    "label": "星宇台中—名古屋首航",
+    "event_type": "inaugural",
+    "event_date": "2026-10-25",
+    "note": "首航剪綵與實際開航報導；與8月開賣公告日期分開。",
+    "corroboration_url": "https://latestnews.starlux-airlines.com/zh-TW/about-us/travel-advisories/advisories/latest-news/from-taichung-to-nagoya"
   }
 ]

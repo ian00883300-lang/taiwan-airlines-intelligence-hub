@@ -122,5 +122,22 @@
     "why": "增頻提升出發日期選擇與轉機銜接彈性，但不是新增航點；布里斯本與奧克蘭部分共用同一航班，不能相加當成台北出發班次。",
     "impact": "How does adding frequency differ from opening a new destination?",
     "remember": "7/21 是官方文章日期，10/25 是班表生效日；奧克蘭不是台北不停站航線。"
+  },
+  {
+    "source": "中央社｜星宇台中名古屋首航紀錄",
+    "source_url": "https://www.cna.com.tw/news/afe/202610250168.aspx",
+    "published_date": "2026-10-25",
+    "as_of": "2026-10-25",
+    "verified_date": "2026-10-27",
+    "status": "confirmed",
+    "id": "jx-rmq-ngo-inaugural-20261025",
+    "airline": "starlux",
+    "topic": "Routes",
+    "title": "星宇台中—名古屋已首航，班次依期間調整",
+    "event_date": "2026-10-25",
+    "what": "10月25日實際開航，已由預定航線移入航網與首航紀錄。",
+    "why": "強化台中往日本中部的直飛服務；11月增頻提供較多出發日選擇。",
+    "impact": "Why must route frequency be tied to a specific timetable period?",
+    "remember": "10月底4班／週、11月7班／週、12月至3/27為3班／週；不要把11月每日一班寫成全季每日。"
   }
 ]
