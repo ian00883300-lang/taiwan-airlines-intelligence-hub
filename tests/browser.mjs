@@ -96,17 +96,16 @@ try {
     },
   );
   await check(
-    "Weekly filter excludes older STARLUX news until background is selected",
+    "Weekly digest keeps source dates and archive filtering separate",
     async () => {
       await go("weekly");
-      assert.equal(await page.locator(".news-card").count(), 2);
+      assert.equal(await page.locator(".weekly-tracking-card").count(), 2);
       await page.getByLabel("航空公司").selectOption("starlux");
-      assert.equal(await page.locator(".news-card").count(), 0);
+      assert.equal(await page.locator(".weekly-tracking-card").count(), 1);
       await page.getByLabel("期間").selectOption("all");
-      assert.equal(await page.locator(".news-card").count(), 1);
-      assert.ok(
-        (await page.locator(".news-card").innerText()).includes("2026-08-01"),
-      );
+      const records = JSON.parse(fs.readFileSync("data/weekly-updates.json", "utf8")).filter(n => n.airline === "starlux");
+      assert.equal(await page.locator(".news-card").count(), records.length);
+      assert.ok((await page.locator(".news-card").allTextContents()).some(text => text.includes("2026-08-01")));
     },
   );
   await check(

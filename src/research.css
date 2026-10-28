@@ -1720,3 +1720,9 @@ abbr[title]:focus::after {
 .route-flight-numbers { margin:6px 0; font-variant-numeric:tabular-nums; }
 .route-flight-numbers small { display:block; font-size:.82em; line-height:1.5; color:#587185; }
 @media(min-width:761px){.company-identity .membership-listing thead th:first-child{width:24%}.company-identity .membership-listing thead th:nth-child(2){width:16%}.company-identity .membership-listing thead th:last-child{width:60%}}
+
+.weekly-edition { min-width: 0; }
+.weekly-tracking-card { margin: 20px 0; overflow-wrap: anywhere; }
+.weekly-tracking-card dl { margin: 18px 0; }
+.weekly-tracking-card dt { font-weight: 600; color: #244d6a; margin-top: 14px; }
+.weekly-tracking-card dd { margin: 6px 0 0; line-height: 1.8; }
