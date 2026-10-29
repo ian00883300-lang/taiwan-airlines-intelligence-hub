@@ -454,6 +454,16 @@
         "as_of": "2025-10-08",
         "verified_date": "2026-10-23",
         "status": "confirmed"
+      },
+      {
+        "source": "星宇航空｜歐洲聯程合作",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+        "published_date": "2026-10-01",
+        "as_of": "2026-10-01",
+        "verified_date": "2026-10-29",
+        "status": "confirmed",
+        "title": "歐洲聯運：Smartwings與芬蘭航空",
+        "body": "10月1日公告可一票預訂並提供行李直掛：經布拉格銜接Smartwings延伸20個歐洲航點，芬蘭航空合作可延伸9個北歐城市。Smartwings明示10月1日上線；芬蘭航空最初合作日未單獨列出。這是聯運，不新增為星宇共掛夥伴或自營航點；20與9也不能直接相加當作不重複城市總數。"
       }
     ],
     "passenger": [
@@ -1172,15 +1182,14 @@
     "interview": [],
     "news": [
       {
-        "label": "最新消息",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "source": "星宇航空｜歐洲聯程合作",
+        "source_url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+        "published_date": "2026-10-01",
+        "as_of": "2026-10-01",
+        "verified_date": "2026-10-29",
+        "status": "confirmed",
+        "title": "歐洲聯運拓展",
+        "body": "10月1日公告擴大經布拉格的聯程服務；合作範圍與權益見航網與聯盟，合作城市不計入自營航點。"
       }
     ],
     "future": [

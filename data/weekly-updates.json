@@ -139,5 +139,39 @@
     "why": "強化台中往日本中部的直飛服務；11月增頻提供較多出發日選擇。",
     "impact": "Why must route frequency be tied to a specific timetable period?",
     "remember": "10月底4班／週、11月7班／週、12月至3/27為3班／週；不要把11月每日一班寫成全季每日。"
+  },
+  {
+    "source": "長榮航空｜斑哥條紋羚空運任務",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-28-evaair-transports-a-bongo-to-taiwan.html",
+    "published_date": "2026-10-28",
+    "as_of": "2026-10-27",
+    "verified_date": "2026-10-29",
+    "status": "confirmed",
+    "id": "eva-bongo-transport-20261028",
+    "airline": "eva-air",
+    "topic": "Cargo",
+    "title": "長榮777F完成保育動物空運任務",
+    "event_date": "2026-10-27",
+    "what": "10月28日公告：雄性斑哥條紋羚Harris搭BR697自達拉斯運台，於台灣時間10月27日抵達。",
+    "why": "箱籠尺寸與動物照護需求影響機型及出發站安排，顯示特殊貨運需要事前跨單位協調。",
+    "impact": "What makes live-animal transport different from ordinary cargo?",
+    "remember": "單次任務證據不等於定期班表；裝載、環境及隨行照護須按個案規劃。"
+  },
+  {
+    "source": "星宇航空｜歐洲聯程合作",
+    "source_url": "https://latestnews.starlux-airlines.com/zh-Global/about-us/travel-advisories/advisories/latest-news/europe-interline",
+    "published_date": "2026-10-01",
+    "as_of": "2026-10-01",
+    "verified_date": "2026-10-29",
+    "status": "confirmed",
+    "id": "jx-europe-interline-20261001",
+    "airline": "starlux",
+    "topic": "Routes",
+    "title": "星宇歐洲聯運：經布拉格延伸航網",
+    "event_date": "2026-10-01",
+    "what": "官方公告Smartwings當日上線，並介紹芬蘭航空聯程合作，提供一本票及行李直掛。",
+    "why": "可利用夥伴航網擴大歐洲行程選擇；不需為每個延伸城市自行派機。",
+    "impact": "How does interline cooperation differ from codesharing?",
+    "remember": "20個歐洲航點與9個北歐城市為各合作範圍，非星宇新增自營航點；芬蘭航空最初生效日未確認。"
   }
 ]

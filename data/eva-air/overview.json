@@ -429,6 +429,16 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-25",
         "status": "confirmed"
+      },
+      {
+        "source": "長榮航空｜斑哥條紋羚空運任務",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-28-evaair-transports-a-bongo-to-taiwan.html",
+        "published_date": "2026-10-28",
+        "as_of": "2026-10-27",
+        "verified_date": "2026-10-29",
+        "status": "confirmed",
+        "title": "活生動物專案：777F運送斑哥條紋羚",
+        "body": "Harris於美國當地10月26日搭乘BR697自達拉斯起飛，台灣時間10月27日抵達。因箱籠尺寸改採777F貨機，事前安排適應箱籠、裝載固定及專業人員隨行照護。這是單次特殊貨運案例，不代表BR697每日航班或全程不停站。"
       }
     ],
     "maintenance": [
@@ -702,6 +712,16 @@
         "as_of": "2024-12-31",
         "verified_date": "2026-10-25",
         "status": "confirmed"
+      },
+      {
+        "source": "長榮航空｜退役AMJ貨櫃再利用",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-09-24-esg-news.html",
+        "published_date": "2026-09-24",
+        "as_of": "2026-09-24",
+        "verified_date": "2026-10-29",
+        "status": "confirmed",
+        "title": "循環利用：退役航空貨櫃成為公車亭",
+        "body": "2026年9月24日公布將兩只服役15年的AMJ航空貨櫃改作中壢簡易法庭站候車亭，結合設備再利用與城市公共服務。這是材料延壽案例；未揭露生命週期減碳量，不能直接換算為減碳績效。"
       }
     ],
     "saf": [
@@ -895,15 +915,14 @@
     "interview": [],
     "news": [
       {
-        "label": "最新消息",
-        "value": null,
-        "source": null,
-        "source_url": null,
-        "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "source": "長榮航空｜斑哥條紋羚空運任務",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-28-evaair-transports-a-bongo-to-taiwan.html",
+        "published_date": "2026-10-28",
+        "as_of": "2026-10-27",
+        "verified_date": "2026-10-29",
+        "status": "confirmed",
+        "title": "10月28日公告：保育動物運輸任務",
+        "body": "10月27日抵台的斑哥條紋羚空運案例，補充於客貨運與修護分類；活動日與公告日分開記錄。"
       }
     ],
     "future": [
