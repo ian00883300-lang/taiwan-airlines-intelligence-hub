@@ -3,6 +3,7 @@ import StarluxCodeshare from "./StarluxCodeshare.jsx";
 import Awards from "./Awards.jsx";
 import SafetyMechanisms from './SafetyMechanisms.jsx';
 import FleetStudy from "./FleetStudy.jsx";
+import WeeklyEdition from "./WeeklyEdition.jsx";
 import AircraftOverview from "./AircraftOverview.jsx";
 import KnowledgeBank, { knowledgeItems } from "./KnowledgeBank.jsx";
 import AircraftPhoto from "./AircraftPhoto.jsx";
@@ -89,6 +90,7 @@ const ids = ["china-airlines", "eva-air", "starlux"];
 const airlines = ids.map((id) => data(id + "/overview"));
 const bank = [...data("interview-bank"), ...data("imported-interview")],
   weekly = data("weekly-updates"),
+  weeklyEdition = data("weekly-edition"),
   sources = data("sources"),
   sections = data("sections");
 const regions = [
@@ -543,7 +545,10 @@ function Home({ openInterview }) {
       </section>
       <div className="home-columns">
         <section>
-          <SectionTitle title="近期情報" en={`Verified ${latestVerified(weekly)}`} link="weekly" />
+          <SectionTitle title="本期營運追蹤週報" en={`${weeklyEdition.period_start} — ${weeklyEdition.period_end}`} link="weekly" />
+          <p>{weeklyEdition.title}</p><p className="fineprint">本期營運追蹤與本週新公告分開整理。</p>
+          <a className="text-link" href="#weekly">閱讀本期週報 →</a>
+          <h3>近期消息與背景</h3>
           {weekly
             .slice().sort((a, b) => b.published_date.localeCompare(a.published_date)).slice(0, 4)
             .map((n) => (
@@ -1297,7 +1302,7 @@ function Compare() {
 function Weekly() {
   const [air, setAir] = useState("all"),
     [topic, setTopic] = useState("all"),
-    [period, setPeriod] = useState("all");
+    [period, setPeriod] = useState("edition");
   const topics = [
     "Fleet",
     "Aircraft Orders",
@@ -1339,7 +1344,7 @@ function Weekly() {
       <div className="filters">
         <label>
           航空公司
-          <select value={air} onChange={(e) => setAir(e.target.value)}>
+          <select aria-label="航空公司" value={air} onChange={(e) => setAir(e.target.value)}>
             <option value="all">全部</option>
             {airlines.map((a) => (
               <option key={a.id} value={a.id}>
@@ -1350,7 +1355,7 @@ function Weekly() {
         </label>
         <label>
           追蹤主題
-          <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+          <select aria-label="追蹤主題" value={topic} onChange={(e) => setTopic(e.target.value)}>
             <option value="all">全部主題</option>
             {topics.map((t) => (
               <option key={t}>{t}</option>
@@ -1359,17 +1364,18 @@ function Weekly() {
         </label>
         <label>
           期間
-          <select value={period} onChange={(e) => setPeriod(e.target.value)}>
+          <select aria-label="期間" value={period} onChange={(e) => setPeriod(e.target.value)}>
+            <option value="edition">本期週報（{weeklyEdition.period_start}～{weeklyEdition.period_end}）</option>
             <option value="week">本週公告（{week.start}～{week.end}）</option>
             <option value="all">近期與背景（全部）</option>
           </select>
         </label>
-        <span>{list.length} 則</span>
+        <span>{period === "edition" ? "營運追蹤" : `${list.length} 則`}</span>
       </div>
-      {list.map((n) => (
+      {period === "edition" ? <WeeklyEdition edition={weeklyEdition} records={weekly} air={air} topic={topic} Source={Source}/> : list.map((n) => (
         <NewsCard key={n.id} n={n} />
       ))}
-      {!list.length && (
+      {period !== "edition" && !list.length && (
         <Pending note="本篩選尚無已查核消息，不代表沒有事件發生。" />
       )}
       {air === "all" && period === "week" && (
