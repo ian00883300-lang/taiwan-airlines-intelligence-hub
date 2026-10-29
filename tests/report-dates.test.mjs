@@ -43,7 +43,7 @@ test("Edited weekly digest resolves original evidence without relabeling old ann
     const source = news.find((n) => n.id === item.news_id);
     assert.ok(source && source.source_url.startsWith("https://"));
     assert.ok(source.verified_date <= edition.edited_date);
-    assert.ok(source.published_date < edition.period_start);
+    assert.ok(source.published_date <= edition.edited_date);
     assert.ok(item.tracking && item.focus && item.interview);
   }
 });

@@ -1,6 +1,7 @@
 import { chromium } from "playwright";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+const edition = JSON.parse(fs.readFileSync("data/weekly-edition.json", "utf8"));
 const news = JSON.parse(fs.readFileSync("data/weekly-updates.json", "utf8"));
 const browser = await chromium.launch({
   executablePath: process.env.BROWSER_PATH || "/usr/bin/chromium",
@@ -17,7 +18,7 @@ try {
     await page.evaluate(() =>
       document.documentElement.style.setProperty("--reading-scale", "1.5"),
     );
-    assert.equal(await page.locator(".weekly-tracking-card").count(), 2);
+    assert.equal(await page.locator(".weekly-tracking-card").count(), edition.items.length);
     assert.match(
       await page.locator(".weekly-edition").innerText(),
       /2026-10-26～2026-11-01/,

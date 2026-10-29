@@ -1,9 +1,9 @@
 {
-  "title": "冬季航網啟動：華航紐澳增班與星宇中部市場",
+  "title": "冬季航網與特殊貨運：三家航空營運追蹤",
   "period_start": "2026-10-26",
   "period_end": "2026-11-01",
-  "edited_date": "2026-10-28",
-  "note": "本期為營運追蹤，沿用已查核資料，不是完整的本週新公告清單。公告日、事件日及原來源查核日分開保留；尚未取得新的官方原文前，不提升查核日期。",
+  "edited_date": "2026-10-29",
+  "note": "本期整理已查核的新公告與營運追蹤，不是完整新聞清單。公告日、事件日及來源查核日分開保留；資料更新範圍依各筆來源。",
   "items": [
     {
       "news_id": "ci-oceania-winter-20261025",
@@ -18,6 +18,13 @@
       "tracking": "台中—名古屋於2026年10月25日實際首航。本期接續觀察中部市場：10月底每週4班、11月每週7班，12月至2027年3月27日每週3班；11月每日一班不等於全季每日營運。",
       "focus": "航線首航與後續增頻分開判讀。評估台中出發市場時，可追蹤旅客需求、季節性與運能配置，不以增加班次直接推定獲利。",
       "interview": "Why should route frequency always be tied to a specific timetable period?"
+    },
+    {
+      "news_id": "eva-bongo-transport-20261028",
+      "headline": "長榮：活生動物運輸考驗特殊貨運協調",
+      "tracking": "長榮10月28日公告，斑哥條紋羚Harris已於台灣時間10月27日運抵台北；因箱籠尺寸，選擇達拉斯出發的777F貨機執行。",
+      "focus": "任務涉及動物事前適應、裝載固定、環境條件與隨行照護，顯示特殊貨運服務價值不只是運量。不可將單次任務當成固定班表。",
+      "interview": "How do cargo dimensions and welfare requirements affect an air-transport plan?"
     }
   ]
 }

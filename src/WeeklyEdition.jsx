@@ -30,7 +30,7 @@ export default function WeeklyEdition({
         <article key={item.news_id} className="panel weekly-tracking-card">
           <span className="eyebrow">
             營運追蹤 ·{" "}
-            {item.news.airline === "starlux" ? "星宇航空" : "中華航空"}
+            {({starlux: "星宇航空", "eva-air": "長榮航空", "china-airlines": "中華航空"})[item.news.airline] || item.news.airline}
           </span>
           <h3>{item.headline}</h3>
           <p>{item.tracking}</p>
