@@ -473,6 +473,26 @@
         "as_of": null,
         "verified_date": "2026-10-18",
         "status": "confirmed"
+      },
+      {
+        "title": "行李定位：AirTag 與 Find Hub",
+        "body": "華航於 2026-03-30 宣布支援 Google Find Hub，補足既有 Apple AirTag 位置分享服務。旅客使用相容裝置產生位置連結，供航空公司輔助查找行李；這與既有行李追蹤系統配合，不能保證定位持續即時或行李必定尋回。官方說明連結於行李歸還後停用，並於七天後到期。",
+        "source": "中華航空｜Find Hub 行李定位功能",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260330",
+        "published_date": "2026-03-30",
+        "as_of": "2026-03-30",
+        "verified_date": "2026-10-30",
+        "status": "confirmed"
+      },
+      {
+        "title": "開放 Apple AirTag 行李位置分享",
+        "body": "2025-04-15 宣布支援旅客透過網站或服務櫃檯分享 AirTag 位置，協助查找延誤或遺失行李。此日期為服務公告日；2026 年再擴充 Find Hub 支援。",
+        "source": "中華航空｜Apple AirTag 行李追蹤服務",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20250415",
+        "published_date": "2025-04-15",
+        "as_of": "2025-04-15",
+        "verified_date": "2026-10-30",
+        "status": "confirmed"
       }
     ],
     "cargo": [
