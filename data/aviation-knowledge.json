@@ -577,6 +577,23 @@
       "as_of": null,
       "verified_date": "2026-10-24",
       "status": "confirmed"
+    },
+    {
+      "id": "live-animal-cargo",
+      "category": "營運與產業",
+      "title": "活體動物空運為什麼不能只考慮載重與航程？",
+      "title_en": "Why does live-animal transport require special planning?",
+      "answer": "活體運輸須同時照顧飛航安全與動物福利。除了載重，還要評估物種適用的運輸箱、通風、溫度、飲水及全程運輸時間。收運時須檢查動物狀態、文件與容器，裝載時確認固定方式，並協調地面與空側人員。IATA LAR 提供業界運輸標準，實際作業仍須符合適用法規與航空公司的程序。",
+      "answer_en": "Live-animal transport must protect both flight safety and animal welfare. Planning includes species-appropriate containers, ventilation, temperature, hydration and total journey time. Acceptance checks cover animal condition, documents and containers; loading requires secure restraint and coordination between ground and airside teams. IATA LAR supplies industry standards, alongside applicable regulations and airline procedures.",
+      "caution": "本題是概念整理；特定物種的收運及照護條件須由合格人員確認。",
+      "follow_up": "轉運等待時間增加，會讓哪些風險跟著改變？",
+      "source": "IATA｜Live Animal Handling & Transport",
+      "source_url": "https://www.iata.org/en/programs/cargo/live-animals/",
+      "origin": "依公開專業指引整理的原創知識題",
+      "published_date": null,
+      "as_of": null,
+      "verified_date": "2026-10-29",
+      "status": "confirmed"
     }
   ]
 }

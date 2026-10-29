@@ -237,15 +237,14 @@
     ],
     "organization": [
       {
-        "label": "組織架構",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "永續治理分工：監督與執行",
+        "body": "董事會為最高治理單位，董事會層級的永續暨風險委員會負責監督；由總經理帶領的企業永續委員會執行永續策略。兩個委員會分屬監督與執行層級，不能視為同一組織。此處為官方公開的永續治理分工摘要。",
+        "source": "華航企業永續網｜永續治理",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-29",
+        "status": "confirmed"
       }
     ],
     "brand": [

@@ -222,15 +222,14 @@
     ],
     "organization": [
       {
-        "label": "組織架構",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "title": "董事會與經營團隊分工",
+        "body": "董事長監督經營管理，總經理領導經營團隊落實董事會指示，兩職不由同一人兼任。董事會設薪資報酬、審計及永續委員會，分別處理薪酬政策、財務與內控監督、永續策略與進度追蹤；這是治理層級摘要，不是完整營運部門圖。",
+        "source": "長榮永續網｜治理架構",
+        "source_url": "https://www.evacsr.com/governance/governance01.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
         "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "verified_date": "2026-10-29",
+        "status": "confirmed"
       }
     ],
     "brand": [
