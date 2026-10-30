@@ -813,16 +813,16 @@
     },
     {
       "aircraft_type": "A350-1000",
-      "current_fleet": 5,
+      "current_fleet": 6,
       "service_state": "current",
       "kind": "passenger",
-      "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
-      "source_url": "https://www.jetphotos.com/registration/B-58555",
-      "published_date": "2026-10-17",
-      "verified_date": "2026-10-21",
+      "source": "Planespotters｜機隊矩陣與 B-58556 交機飛行實拍",
+      "source_url": "https://www.planespotters.net/airline/STARLUX-Airlines",
+      "published_date": null,
+      "verified_date": "2026-10-30",
       "status": "confirmed",
-      "as_of": "2026-10-17",
-      "source_id": "jxB58555Observed",
+      "as_of": "2026-10-30",
+      "source_id": "jxFleetOct30",
       "engine": {
         "label": "發動機",
         "value": "Rolls-Royce Trent XWB-97",
@@ -919,7 +919,7 @@
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
       },
-      "note": "9 月底民航局名冊四架，加上 10 月 17 日桃園觀察到的 B-58555，共五架；屬公開資料交叉核對，非新版民航局登記統計，也不代表五架當天全可執飛。",
+      "note": "新增 B-58556（MSN 815）；10 月 28 日土魯斯交機飛行實拍與 10 月 30 日機隊資料庫六架紀錄交叉核對。不是同日民航局登記統計，亦不代表六架皆可立即執飛。",
       "photo": {
         "source": "星宇航空｜官方機隊介紹",
         "source_url": "https://www.starlux-airlines.com/zh-TW/experience/walk-into-starlux/our-fleet/a350-1000",
@@ -978,12 +978,12 @@
         "note": "機型概念摘要，非特定航機派飛航線或性能保證。"
       },
       "registrations": {
-        "source": "JetPhotos｜B-58555 桃園實拍紀錄；交叉核對 Planespotters",
-        "source_url": "https://www.jetphotos.com/registration/B-58555",
+        "source": "Planespotters｜機隊矩陣與 B-58556 交機飛行實拍",
+        "source_url": "https://www.planespotters.net/airline/STARLUX-Airlines",
         "source_page_url": "https://www.caa.gov.tw/Article.aspx?a=4499&lang=1",
-        "published_date": "2026-10-17",
-        "verified_date": "2026-10-21",
-        "as_of": "2026-10-17",
+        "published_date": null,
+        "verified_date": "2026-10-30",
+        "as_of": "2026-10-30",
         "status": "confirmed",
         "label": "機身註冊編號",
         "records": [
@@ -1053,10 +1053,29 @@
               "value": "10 月 17 日桃園實拍可辨識 B-58555、A350-1041、MSN 805；Planespotters 記載 10 月 16–17 日由土魯斯飛渡桃園。抵台、契約交付與首次載客日期不能混用。未取得出廠日與民航局機齡，不以抵台日代填。",
               "cross_check_url": "https://www.planespotters.net/airframe/airbus-a350-1000-b-58555-starlux-airlines/e5zjnx"
             }
+          },
+          {
+            "airline": "星宇航空",
+            "tail": "B-58556",
+            "type": "A350-1000",
+            "manufactured": null,
+            "age_years": null,
+            "msn": 815,
+            "history": {
+              "source": "Planespotters｜dn280 拍攝 B-58556 交機飛行",
+              "source_url": "https://www.planespotters.net/photo/2000306/b-58556-starlux-airlines-airbus-a350-1041",
+              "published_date": null,
+              "as_of": "2026-10-28",
+              "verified_date": "2026-10-30",
+              "status": "confirmed",
+              "source_id": "jxB58556DeliveryPhoto",
+              "value": "2026-10-28 土魯斯實拍標註交機飛行（Delivery flight），機號 B-58556、製造序號 815。未取得契約交付、抵台與首次載客的完整日期證據，三者不混用。",
+              "cross_check_url": "https://www.planespotters.net/airline/STARLUX-Airlines"
+            }
           }
         ],
-        "note": "B-58551 至 B-58554 沿用 2026-09-30 民航局名冊；B-58555 以 2026-10-17 公開攝影與機隊紀錄補入。各機機齡保留原基準，不推定最新值。",
-        "source_id": "jxB58555Observed"
+        "note": "B-58551 至 B-58554 的出廠日與機齡沿用 2026-09-30 民航局名冊；B-58555、B-58556 依公開機隊與攝影紀錄補入。機齡保留原基準，未公布出廠日不以交機飛行日代填。",
+        "source_id": "jxFleetOct30"
       },
       "ownership": {
         "source": null,
@@ -1193,16 +1212,17 @@
   ],
   "replacement_timeline": [],
   "latest_confirmed_total": {
-    "source": "MoneyDJ｜星宇公關長機隊說明",
-    "source_url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=06dd71dc-acfc-42c5-ab75-b63869b2d032",
-    "published_date": "2026-10-20",
-    "as_of": "2026-10-20",
-    "verified_date": "2026-10-21",
+    "source": "Planespotters｜機隊矩陣與 B-58556 交機飛行實拍",
+    "source_url": "https://www.planespotters.net/airline/STARLUX-Airlines",
+    "published_date": null,
+    "as_of": "2026-10-30",
+    "verified_date": "2026-10-30",
     "status": "confirmed",
-    "label": "公司受訪機隊總數",
-    "value": 38,
-    "note": "公司 10 月 20 日受訪總數 38 架；分型以 9 月底登記名冊加上 B-58555 抵台紀錄補充，A350-1000 更新為五架。非同日官方登記統計或即時可用架數。",
-    "date_precision": "day"
+    "source_id": "jxFleetOct30",
+    "label": "公開機隊追蹤總數",
+    "value": 39,
+    "date_precision": "day",
+    "note": "39 架＝A321neo 13、A330-900 10、A350-900 10、A350-1000 6。B-58556 交機飛行實拍與機隊資料庫交叉核對；機隊總量包含資料庫列示的停場機，不等於即時可執飛架數。9 月底民航局 37 架名冊保留為歷史快照。"
   },
   "composition_snapshot": {
     "source": "交通部民用航空局｜115年9月民用航空器機齡一覽表",
@@ -1236,7 +1256,7 @@
       }
     ]
   },
-  "note": "現況採 CAA 2026-09-30 登記名冊；歴史快照、採購計畫與目前登記數分列，不推算剩餘訂單。",
+  "note": "現況分型以民航局 2026-09-30 名冊為底，補入 B-58555、B-58556 的交機與機隊紀錄，合計 39 架；不是新的同日民航局登記快照。訂單不計入現役總數。",
   "ownership_summary": {
     "source": "星宇航空｜2026 第一季個別財報，附註九、十一",
     "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/26Q1_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA_%E8%B2%A1%E5%A0%B1final_tcm5-15892.pdf",

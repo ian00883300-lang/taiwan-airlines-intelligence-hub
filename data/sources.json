@@ -6,7 +6,7 @@
     "published_date": null,
     "level": 1,
     "as_of": "2026-09-30",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-30",
     "status": "confirmed"
   },
   {
@@ -16,7 +16,7 @@
     "published_date": null,
     "level": 1,
     "as_of": "2026-10-01",
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-10-30",
     "status": "confirmed"
   },
   {
@@ -2488,5 +2488,27 @@
     "verified_date": "2026-10-22",
     "status": "confirmed",
     "level": 1
+  },
+  {
+    "source": "Planespotters｜機隊矩陣與 B-58556 交機飛行實拍",
+    "source_url": "https://www.planespotters.net/airline/STARLUX-Airlines",
+    "published_date": null,
+    "as_of": "2026-10-30",
+    "verified_date": "2026-10-30",
+    "status": "confirmed",
+    "source_id": "jxFleetOct30",
+    "id": "jxFleetOct30",
+    "level": 2
+  },
+  {
+    "source": "Planespotters｜dn280 拍攝 B-58556 交機飛行",
+    "source_url": "https://www.planespotters.net/photo/2000306/b-58556-starlux-airlines-airbus-a350-1041",
+    "published_date": null,
+    "as_of": "2026-10-28",
+    "verified_date": "2026-10-30",
+    "status": "confirmed",
+    "source_id": "jxB58556DeliveryPhoto",
+    "id": "jxB58556DeliveryPhoto",
+    "level": 2
   }
 ]

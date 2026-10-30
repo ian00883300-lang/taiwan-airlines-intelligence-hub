@@ -736,7 +736,7 @@ function Fleet({ a, tab }) {
             <Source item={f.latest_confirmed_total} compact />
           </div>
           <div>
-            <span>完整分型快照</span>
+            <span>歷史登記快照</span>
             <strong>
               {f.composition_snapshot.total}
               <small> 架</small>
@@ -760,7 +760,7 @@ function Fleet({ a, tab }) {
         <div>
           <p className="notice">
             {a.id === "starlux"
-              ? "分型以 2026-09-30 民航局名冊為底，補入 10 月 17 日抵台的 B-58555（A350-1000）。合計 38 架；各列保留來源日期，非同日登記統計。"
+              ? f.note
               : "航空公司公開機隊快照；機身名冊另採民航局2026年9月30日資料。"}{" "}
             訂單、未來計畫與已退役分開保存。未知值不視為 0。
           </p>
