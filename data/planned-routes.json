@@ -28,5 +28,19 @@
     "status": "announced",
     "source_id": "jxKhh2027",
     "airline": "starlux"
+  },
+  {
+    "source": "長榮航空｜桃園—德里開航公告",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-08-05-direct-flights-from-taipei-to-delhi.html",
+    "published_date": "2026-08-05",
+    "as_of": "2026-08-05",
+    "verified_date": "2026-10-30",
+    "status": "announced",
+    "airline": "eva-air",
+    "title": "桃園—德里：預定 2026-12-01",
+    "origin": "TPE",
+    "destination": "DEL",
+    "planned_start": "2026-12-01",
+    "body": "規劃 A330-300，每週二、三、五、六、日各一班。BR367 桃園 11:00→德里 15:35；BR368 德里 19:55→桃園翌日 04:20（皆當地時間）。目前為開賣計畫，尚未計入已開航航線或首航紀錄。"
   }
 ]

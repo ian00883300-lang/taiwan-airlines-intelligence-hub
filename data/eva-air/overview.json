@@ -786,6 +786,16 @@
         "status": "unverified",
         "as_of": null,
         "note": "尚未取得可比較且具日期的官方資料。"
+      },
+      {
+        "source": "長榮航空｜桃園—德里開航公告",
+        "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-08-05-direct-flights-from-taipei-to-delhi.html",
+        "published_date": "2026-08-05",
+        "as_of": "2026-08-05",
+        "verified_date": "2026-10-30",
+        "status": "announced",
+        "title": "德里航線：南亞商務與桃園轉機",
+        "body": "2026-08-05 公告預定 12 月 1 日以 A330-300 開航桃園—德里，每週五班。公司規劃服務科技製造與商務往來，並銜接桃園往北美航網；另提及與印度航空合作延伸印度城市。這是公司規劃與合作方向，不能據此把所有延伸城市視為長榮自營或已開通共用班號。"
       }
     ],
     "advantages": [

@@ -618,9 +618,9 @@ test("CAA utilization snapshots resolve to registered aircraft and preserve time
 
 test("Announced routes remain separate from operating records and retain planned dates", () => {
   const plans = read("data/planned-routes.json");
-  assert.equal(plans.length, 2);
-  const routes = read("data/starlux/routes.json").items;
+  assert.ok(plans.some(p => p.airline === "eva-air" && p.destination === "DEL" && p.planned_start === "2026-12-01"));
   for (const p of plans) {
+    const routes = read(`data/${p.airline}/routes.json`).items;
     assert.equal(p.status, "announced");
     assert.ok(p.planned_start > p.verified_date);
     assert.ok(
