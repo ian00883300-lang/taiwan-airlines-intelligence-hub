@@ -2510,5 +2510,35 @@
     "source_id": "jxB58556DeliveryPhoto",
     "id": "jxB58556DeliveryPhoto",
     "level": 2
+  },
+  {
+    "source": "星宇航空官方供稿｜阿提哈德雙向哩程合作",
+    "source_url": "https://www.cna.com.tw/business/chinese/448369",
+    "published_date": "2026-10-29",
+    "as_of": "2026-10-29",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "jx-ey-miles-20261029",
+    "level": 1
+  },
+  {
+    "source": "中華航空｜跨年主題航班公告",
+    "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20261104.html",
+    "published_date": "2026-11-04",
+    "as_of": "2026-11-04",
+    "verified_date": "2026-11-05",
+    "status": "announced",
+    "id": "ci-newyear-20261104",
+    "level": 1
+  },
+  {
+    "source": "長榮航空｜鴻海科技日企業合作",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-30-eva-air-participates-in-hon-hai-tech-day.html",
+    "published_date": "2026-10-30",
+    "as_of": "2026-10-30",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "eva-hhtd-20261030",
+    "level": 1
   }
 ]

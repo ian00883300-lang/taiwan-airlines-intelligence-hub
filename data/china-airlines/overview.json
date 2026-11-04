@@ -493,6 +493,16 @@
         "as_of": "2025-04-15",
         "verified_date": "2026-10-30",
         "status": "confirmed"
+      },
+      {
+        "source": "中華航空｜跨年主題航班公告",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20261104.html",
+        "published_date": "2026-11-04",
+        "as_of": "2026-11-04",
+        "verified_date": "2026-11-05",
+        "status": "announced",
+        "title": "跨年主題航班：12月31日CI837活動預告",
+        "body": "11月4日公告預定12月31日以A321neo執飛台北—曼谷CI837跨年主題航班，11月5日上午10時開賣。產品結合候機、機上餐飲、紀念品及目的地旅遊合作；這是指定日期的主題活動，不是新航線首航或全航線常態服務。"
       }
     ],
     "cargo": [

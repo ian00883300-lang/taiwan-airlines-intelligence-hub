@@ -1,30 +1,30 @@
 {
-  "title": "冬季航網與特殊貨運：三家航空營運追蹤",
-  "period_start": "2026-10-26",
-  "period_end": "2026-11-01",
-  "edited_date": "2026-10-29",
-  "note": "本期整理已查核的新公告與營運追蹤，不是完整新聞清單。公告日、事件日及來源查核日分開保留；資料更新範圍依各筆來源。",
+  "title": "會員合作、企業差旅與主題航班",
+  "period_start": "2026-11-02",
+  "period_end": "2026-11-08",
+  "edited_date": "2026-11-05",
+  "note": "截至11月5日的本週整理，包含上週公告的持續追蹤；每則保留原公告日。活動預告與已發生事件分開說明。",
   "items": [
     {
-      "news_id": "ci-oceania-winter-20261025",
-      "headline": "華航：冬季紐澳增頻，先分清班次與航點",
-      "tracking": "本期追蹤10月25日啟用的冬季安排：雪梨每週7班、布里斯本6班、墨爾本5班；奧克蘭每週5班，經布里斯本延伸。適用期間至2027年3月27日，仍需以實際訂位班表確認。",
-      "focus": "增頻改善出發日與轉機銜接選擇，但不是新增城市。布里斯本與奧克蘭部分共用航班，不可直接相加為台北出發班數。",
-      "interview": "How would you distinguish frequency growth, a new destination and an intermediate stop?"
+      "news_id": "jx-ey-miles-20261029",
+      "headline": "阿提哈德：2026年10月29日起雙向哩程合作",
+      "tracking": "COSMILE與Etihad Guest開放雙向哩程累積、補登及酬賓機票兌換，適用符合資格的雙方實際營運航班。公告列可兌換頭等、商務及經濟艙；艙位供應與累積資格依各計畫規則。合作可透過阿布達比延伸旅程，夥伴航網不計入星宇自營航點，也不等同航空聯盟會籍。",
+      "focus": "分析：擴大哩程用途可增加會員留存與轉機選擇；成效仍需觀察兌換可用性、銜接及旅客需求。",
+      "interview": "How does reciprocal mileage cooperation differ from codesharing and alliance membership?"
     },
     {
-      "news_id": "jx-rmq-ngo-inaugural-20261025",
-      "headline": "星宇：台中—名古屋已首航，11月班次另有安排",
-      "tracking": "台中—名古屋於2026年10月25日實際首航。本期接續觀察中部市場：10月底每週4班、11月每週7班，12月至2027年3月27日每週3班；11月每日一班不等於全季每日營運。",
-      "focus": "航線首航與後續增頻分開判讀。評估台中出發市場時，可追蹤旅客需求、季節性與運能配置，不以增加班次直接推定獲利。",
-      "interview": "Why should route frequency always be tied to a specific timetable period?"
+      "news_id": "ci-newyear-20261104",
+      "headline": "跨年主題航班：12月31日CI837活動預告",
+      "tracking": "11月4日公告預定12月31日以A321neo執飛台北—曼谷CI837跨年主題航班，11月5日上午10時開賣。產品結合候機、機上餐飲、紀念品及目的地旅遊合作；這是指定日期的主題活動，不是新航線首航或全航線常態服務。",
+      "focus": "分析：將航班與目的地體驗結合，可增加產品差異化；不能僅憑推出活動就推定收益或載客率提升。",
+      "interview": "How can a themed flight differentiate an airline product?"
     },
     {
-      "news_id": "eva-bongo-transport-20261028",
-      "headline": "長榮：活生動物運輸考驗特殊貨運協調",
-      "tracking": "長榮10月28日公告，斑哥條紋羚Harris已於台灣時間10月27日運抵台北；因箱籠尺寸，選擇達拉斯出發的777F貨機執行。",
-      "focus": "任務涉及動物事前適應、裝載固定、環境條件與隨行照護，顯示特殊貨運服務價值不只是運量。不可將單次任務當成固定班表。",
-      "interview": "How do cargo dimensions and welfare requirements affect an air-transport plan?"
+      "news_id": "eva-hhtd-20261030",
+      "headline": "企業差旅：鴻海科技日展示787客艙服務",
+      "tracking": "10月30日首度以合作夥伴身分參與鴻海科技日，在南港展覽館設置活動專屬貴賓室並展示787皇璽桂冠艙座椅。官方將此次合作連結至企業差旅市場，強調航網、客艙、數位服務與會員權益；展場體驗空間不是新增機場貴賓室。",
+      "focus": "分析：企業差旅除了票價，也重視航班銜接、服務一致性與行程管理。展場合作提供接觸企業客戶的機會，但未揭露新增合約金額。",
+      "interview": "What do corporate travellers value beyond the ticket price?"
     }
   ]
 }
