@@ -29,25 +29,25 @@
   },
   "total": {
     "label": "機隊總數",
-    "value": 85,
+    "value": 86,
     "source": "中華航空｜營運概況",
     "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
     "published_date": null,
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-06",
     "status": "confirmed",
-    "as_of": "2026-09-30",
+    "as_of": "2026-10-31",
     "source_id": "ciFleet",
-    "scope": "華航本體；67 客機 + 18 貨機，不含子公司與訂單"
+    "scope": "華航本體；68 客機 + 18 貨機，不含子公司與訂單"
   },
   "age": {
     "label": "平均機齡",
-    "value": "9.6 年",
+    "value": "9.4 年",
     "source": "中華航空｜營運概況",
     "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
     "published_date": null,
-    "verified_date": "2026-10-11",
+    "verified_date": "2026-11-06",
     "status": "confirmed",
-    "as_of": "2026-09-30",
+    "as_of": "2026-10-31",
     "source_id": "ciFleet"
   },
   "sections": {
@@ -87,25 +87,25 @@
       },
       {
         "label": "機隊總數",
-        "value": 85,
+        "value": 86,
         "source": "中華航空｜營運概況",
         "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-11-06",
         "status": "confirmed",
-        "as_of": "2026-09-30",
+        "as_of": "2026-10-31",
         "source_id": "ciFleet",
-        "scope": "華航本體；67 客機 + 18 貨機，不含子公司與訂單"
+        "scope": "華航本體；68 客機 + 18 貨機，不含子公司與訂單"
       },
       {
         "label": "平均機齡",
-        "value": "9.6 年",
+        "value": "9.4 年",
         "source": "中華航空｜營運概況",
         "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-11-06",
         "status": "confirmed",
-        "as_of": "2026-09-30",
+        "as_of": "2026-10-31",
         "source_id": "ciFleet"
       },
       {
@@ -259,6 +259,16 @@
         "as_of": null,
         "status": "confirmed",
         "note": "英文：Show You the World Take You Home"
+      },
+      {
+        "label": "服務與品牌核心",
+        "value": "以同理心從旅客視角出發，將產品與服務由合規標準提升為暖心體驗。2025 年 ITF 首次推出 AI 虛擬人物 Aria 與 Miles，用於旅展互動與品牌體驗。",
+        "source": "華航｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed"
       }
     ],
     "fleet": [
@@ -284,6 +294,17 @@
         "as_of": "2026-06-25",
         "verified_date": "2026-10-20",
         "status": "confirmed"
+      },
+      {
+        "source": "中華航空｜營運概況",
+        "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+        "source_id": "ciFleet",
+        "published_date": null,
+        "as_of": "2026-10-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "10 月底機隊更新",
+        "body": "86 架：68 架客機、18 架貨機。A350-900 18 架、A330-300 11 架、A321neo 23 架；其餘分型數量不變。這是營運機隊統計，不能據此推算各型租賃架數或個別交退機日期。"
       }
     ],
     "orders": [],
@@ -512,9 +533,9 @@
         "source": "中華航空｜營運概況",
         "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
         "published_date": null,
-        "verified_date": "2026-10-11",
+        "verified_date": "2026-11-06",
         "status": "confirmed",
-        "as_of": "2026-09-30",
+        "as_of": "2026-10-31",
         "source_id": "ciFleet",
         "note": "8 架 747-400F + 10 架 777F；不含客機腹艙。"
       },
@@ -965,6 +986,26 @@
         "status": "confirmed",
         "as_of": "2025-12-31",
         "source_id": "ciEsg"
+      },
+      {
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "機隊與產品同步更新",
+        "body": "2025 年經營回顧將新世代客貨機引進、A350-900 全艙升級及 A321neo 汰換 737-800 並列。重點是同時提升運輸效率、產品品質與減碳表現；訂單規模須與已交付機隊分開。"
+      },
+      {
+        "source": "華航｜經營者的話",
+        "source_url": "https://calec.china-airlines.com/csr/about.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "2026 經營環境與風險",
+        "body": "公司展望指出，地緣衝突、能源價格及供應鏈中斷影響營運韌性，AI 與臺灣供應鏈地位則帶來客貨運機會。閱讀策略時應同時觀察市場需求、交機時程及成本，不能只看擴張架數。"
       }
     ],
     "advantages": [
@@ -1117,6 +1158,16 @@
         "published_date": "2025-12-18",
         "as_of": "2025-12-18",
         "verified_date": "2026-10-11",
+        "status": "announced"
+      },
+      {
+        "title": "787 客艙設計預覽：臺灣山景與梅花",
+        "body": "2026-10-29 月曆預覽以玉山晨曦、合歡山雲霧作為迎賓飾板元素，豪華商務艙配置梅花燈座意象，展示商務、豪華經濟與經濟三艙等。官方明示圖片為電腦模擬，配置、設備與服務以最終交機構型為準；不當作現役客艙照片或已啟航證據。",
+        "source": "華航｜2027 月曆與 787 設計預覽",
+        "source_url": "https://www.china-airlines.com/cn/zh/about-china-airlines/media/news/20261029.html",
+        "published_date": "2026-10-29",
+        "as_of": "2026-10-29",
+        "verified_date": "2026-11-06",
         "status": "announced"
       }
     ]

@@ -8,9 +8,9 @@
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -236,7 +236,7 @@
             "age_years": 11.71111111111111
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       },
       "ownership": {
         "id": "ciFinancial2025",
@@ -274,9 +274,9 @@
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -485,7 +485,7 @@
             "age_years": 9.877777777777778
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       },
       "ownership": {
         "id": "ciFinancial2025",
@@ -504,15 +504,15 @@
     },
     {
       "aircraft_type": "A350-900",
-      "current_fleet": 17,
+      "current_fleet": 18,
       "service_state": "current",
       "kind": "passenger",
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "發動機",
@@ -824,7 +824,7 @@
             "age_years": 8.147222222222222
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       },
       "ownership": {
         "id": "ciFinancial2025",
@@ -865,15 +865,15 @@
     },
     {
       "aircraft_type": "A330-300",
-      "current_fleet": 12,
+      "current_fleet": 11,
       "service_state": "current",
       "kind": "passenger",
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -1124,7 +1124,7 @@
             "age_years": 12.258333333333333
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       },
       "ownership": {
         "id": "ciFinancial2025",
@@ -1143,15 +1143,15 @@
     },
     {
       "aircraft_type": "A321neo",
-      "current_fleet": 22,
+      "current_fleet": 23,
       "service_state": "current",
       "kind": "passenger",
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -1473,7 +1473,7 @@
             "age_years": 1.1333333333333333
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       },
       "ownership": {
         "id": "ciFinancial2025",
@@ -1510,9 +1510,9 @@
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -1693,7 +1693,7 @@
             "age_years": 19.444444444444443
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       }
     },
     {
@@ -1704,9 +1704,9 @@
       "source": "中華航空｜營運概況",
       "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
       "published_date": null,
-      "verified_date": "2026-10-30",
+      "verified_date": "2026-11-06",
       "status": "confirmed",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-31",
       "source_id": "ciFleet",
       "engine": {
         "label": "使用引擎",
@@ -1911,7 +1911,7 @@
             "age_years": 2.2527777777777778
           }
         ],
-        "note": "名冊登錄狀態，不等於當日可執飛；出廠日期不等於交付日期。機齡依名冊基準日計算。"
+        "note": "歷史機身名冊：民航局 2026-09-30 登記資料，並非 2026-10-31 現役名冊。其筆數可能與上方最新營運數不同；新增及退出機號須另取得逐機資料確認。"
       }
     }
   ],
@@ -2014,6 +2014,17 @@
       "as_of": "2026-09-30",
       "verified_date": "2026-10-11",
       "status": "confirmed"
+    },
+    {
+      "source": "中華航空｜營運概況",
+      "source_url": "https://www.china-airlines.com/tw/en/about-china-airlines/about-us/operations",
+      "source_id": "ciFleet",
+      "published_date": null,
+      "as_of": "2026-10-31",
+      "verified_date": "2026-11-06",
+      "status": "confirmed",
+      "date": "2026-10-31",
+      "label": "官方營運機隊 86 架（客機 68／貨機 18）。相較 9 月底，A350-900 增 1、A321neo 增 1、A330-300 減 1，總數淨增 1。"
     }
   ],
   "retired": [],

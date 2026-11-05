@@ -22,7 +22,7 @@ export default function AircraftOverview({ aircraft: x, Source }) {
         <section className="aircraft-registrations">
           <details>
             <summary>
-              機身編號 · {x.registrations.records.length} 架 ·{" "}
+              機身編號{x.registrations.as_of !== x.as_of ? "（歷史名冊）" : ""} · {x.registrations.records.length} 架 ·{" "}
               {x.registrations.as_of}
             </summary>
             <p className="fineprint">{x.registrations.note}</p>

@@ -424,7 +424,8 @@ test("STARLUX updated 39-aircraft fleet preserves the 37-aircraft registry snaps
     );
     assert.equal(new Set(tails).size, tails.length);
     for (const x of items) {
-      assert.equal(x.registrations.records.length, x.current_fleet);
+      if (id === "starlux") assert.equal(x.registrations.records.length, x.current_fleet);
+      else assert.match(x.registrations.note, /歷史機身名冊/);
       assert.equal(x.registrations.as_of, id === "starlux" && x.aircraft_type === "A350-1000" ? "2026-10-30" : "2026-09-30");
     }
   }
@@ -741,3 +742,13 @@ test('Inaugural dates retain publication dates and distinguish charter and histo
   }
 });
 
+
+test("China Airlines October fleet totals agree while September registry stays dated", () => {
+ const a=read("data/china-airlines/overview.json"), f=read("data/china-airlines/fleet.json");
+ assert.equal(a.total.value,86);
+ assert.equal(f.items.reduce((s,x)=>s+x.current_fleet,0),a.total.value);
+ assert.equal(f.items.filter(x=>x.kind==="passenger").reduce((s,x)=>s+x.current_fleet,0),68);
+ assert.equal(f.items.reduce((s,x)=>s+x.registrations.records.length,0),85);
+ for(const x of f.items) {assert.equal(x.as_of,"2026-10-31");assert.equal(x.registrations.as_of,"2026-09-30");}
+ assert.equal(a.sections.overview.find(x=>x.label==="機隊總數").value,a.total.value);
+});
