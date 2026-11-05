@@ -242,5 +242,39 @@
     "why": "分析：企業差旅除了票價，也重視航班銜接、服務一致性與行程管理。展場合作提供接觸企業客戶的機會，但未揭露新增合約金額。",
     "impact": "What do corporate travellers value beyond the ticket price?",
     "remember": "10月30日為受邀貴賓場；10月31日公眾場與會員入場安排是該次活動條件，不是永久會員禮遇。"
+  },
+  {
+    "source": "臺中市政府交通局｜333機場快線品牌合作",
+    "source_url": "https://www.traffic.taichung.gov.tw/news/index-1.asp?Parser=9,4,20,,,,21881,,,,1",
+    "published_date": "2026-11-02",
+    "as_of": "2026-11-02",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "jx-rmq-ground-20261102",
+    "airline": "starlux",
+    "title": "台中機場地面銜接：333機場快線合作",
+    "topic": "Strategy",
+    "event_date": "2026-11-02",
+    "what": "交通局11月2日公告與星宇及Peanuts合作，推出3輛SNOOPY主題彩繪公車，分為春天、夏天與秋冬款，用於333路機場快線推廣。合作結合交通安全宣導與機場—市區交通，補充星宇中部航網的地面旅程體驗；不能由此推定公車由星宇營運或機票含免費接駁。",
+    "why": "分析：航點競爭力也受機場可達性影響，旅客評估的是從住處到目的地的整段時間與便利性。",
+    "impact": "Why does ground access matter when an airline develops a secondary airport hub?",
+    "remember": "此日期為交通局公告日，不推定333路首次營運日。"
+  },
+  {
+    "source": "長榮航空｜2026馬拉松活動紀錄",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-26-2026evaairrun-news.html",
+    "published_date": "2026-10-25",
+    "as_of": "2026-10-25",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "eva-marathon-20261025",
+    "airline": "eva-air",
+    "title": "2026長榮航空馬拉松：運動與城市觀光",
+    "topic": "ESG",
+    "event_date": "2026-10-25",
+    "what": "官方記錄10月25日在台北舉行馬拉松，現場聚集超過兩萬名海內外跑者。案例連結運動參與、城市觀光及品牌互動；人數採官方活動敘述，不當作經查核的完賽人數或公益受益人數。原頁顯示10月25日，日期不以網址中的10月26日代替。",
+    "why": "分析：可從社會參與及運動觀光理解航空品牌延伸；活動規模本身不足以證明減碳成效或航空營收增加。",
+    "impact": "How would you assess the value of an airline-sponsored sports event beyond attendance?",
+    "remember": "活動紀錄與事前報名名額分開；不將賽事認證當作航空安全認證。"
   }
 ]

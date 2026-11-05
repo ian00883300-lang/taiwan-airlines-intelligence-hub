@@ -2540,5 +2540,25 @@
     "status": "confirmed",
     "id": "eva-hhtd-20261030",
     "level": 1
+  },
+  {
+    "source": "臺中市政府交通局｜333機場快線品牌合作",
+    "source_url": "https://www.traffic.taichung.gov.tw/news/index-1.asp?Parser=9,4,20,,,,21881,,,,1",
+    "published_date": "2026-11-02",
+    "as_of": "2026-11-02",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "jx-rmq-ground-20261102",
+    "level": 1
+  },
+  {
+    "source": "長榮航空｜2026馬拉松活動紀錄",
+    "source_url": "https://www.evaair.com/zh-tw/about-eva-air/news/news-releases/2026-10-26-2026evaairrun-news.html",
+    "published_date": "2026-10-25",
+    "as_of": "2026-10-25",
+    "verified_date": "2026-11-05",
+    "status": "confirmed",
+    "id": "eva-marathon-20261025",
+    "level": 1
   }
 ]
