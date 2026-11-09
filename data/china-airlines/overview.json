@@ -233,6 +233,16 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-24",
         "status": "confirmed"
+      },
+      {
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "資安與支付資料：認證範圍",
+        "body": "2022 年 10 月取得 ISO 27001，2025 年完成重新稽核；PCI DSS 最近公開查核紀錄為 2024 年 11 月。它們分別關注資訊安全管理與支付卡資料保護。"
       }
     ],
     "organization": [
@@ -395,15 +405,14 @@
     ],
     "hubs": [
       {
-        "label": "樞紐",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "label": "主要運行場站：桃園 TPE",
+        "value": "聯管中心設桃園機場運行管制席，協調華航離到場作業。這是公司營運管理分工，與機場航管分開。"
       }
     ],
     "alliances": [
@@ -524,6 +533,16 @@
         "status": "announced",
         "title": "跨年主題航班：12月31日CI837活動預告",
         "body": "11月4日公告預定12月31日以A321neo執飛台北—曼谷CI837跨年主題航班，11月5日上午10時開賣。產品結合候機、機上餐飲、紀念品及目的地旅遊合作；這是指定日期的主題活動，不是新航線首航或全航線常態服務。"
+      },
+      {
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "桃園票務櫃檯：AI 雙向翻譯",
+        "body": "2025 年 10 月於桃園第一、第二航廈票務櫃檯導入互動翻譯螢幕，支援 32 種語言。這項設備的揭露場域是票務櫃檯，不能外推至全部機場或客艙。"
       }
     ],
     "cargo": [
@@ -678,6 +697,16 @@
         "as_of": "2025-12-31",
         "verified_date": "2026-10-25",
         "status": "confirmed"
+      },
+      {
+        "source": "華航企業永續網｜信賴價值",
+        "source_url": "https://calec.china-airlines.com/csr/management_trust.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "品質認證沿革",
+        "body": "修護品質系統於 1996 年通過 ISO 9001，2017 年 4 月通過 AS9110；航空器維修廠許可與品質系統驗證用途不同，承修範圍仍依主管機關核准。"
       }
     ],
     "safety": [
@@ -923,6 +952,17 @@
         "status": "confirmed",
         "title": "森林保育：認養面積12.425公頃",
         "body": "截至2026年10月5日公告，南庄認養林地12.425公頃、種植約33,801株原生樹種，並維護加里山大坪段0–0.6公里步道，與林業保育署及賽夏族夥伴合作。公司所述每年最多236公噸二氧化碳為吸存潛力，並非已核發碳權或可直接扣抵航班排放。"
+      },
+      {
+        "title": "2025 資源績效：達標與缺口",
+        "body": "環境治理表列事業廢棄物回收再利用率 35.8%，未達 45% 目標；用紙量較 2018 年減少 55%，超過原訂 30% 減量目標。不同指標的分母與基準年不同，不應合成同一減碳百分比。",
+        "source": "華航｜環境治理：2025 目標與實際績效",
+        "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "source_id": "ciEnvironmentPerformance2025"
       }
     ],
     "saf": [
@@ -960,16 +1000,17 @@
         "source_id": "ciClimateTargets2026"
       },
       {
-        "title": "2025 SAF 使用量",
-        "body": "2025 年績效表揭露添加 10,524 公噸 SAF；這是使用量，不能直接視為減碳噸數，也不等同三年採購合約總量。",
+        "title": "2025 SAF 使用量：官方頁面數值待釐清",
+        "body": "環境治理績效表列 10,524 公噸；永續治理價值創造表列 10,264.70 噸。兩頁差異原因未說明，暫不合併為單一確定數字，也不據此計算使用比例或減碳量。",
         "source": "華航｜環境治理：2025 目標與實際績效",
         "source_url": "https://calec.china-airlines.com/csr/environment/manage-policy.html",
         "published_date": null,
         "as_of": "2025-12-31",
-        "verified_date": "2026-10-14",
-        "status": "confirmed",
+        "verified_date": "2026-11-06",
+        "status": "unverified",
         "source_id": "ciEnvironmentPerformance2025",
-        "corroboration_url": "https://calec.china-airlines.com/csr/en/environment/manage-policy.html"
+        "corroboration_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "note": "兩個官方數字均保留供查核；待取得統計範圍或更正說明。"
       }
     ],
     "finance": [],
@@ -1006,19 +1047,28 @@
         "status": "confirmed",
         "title": "2026 經營環境與風險",
         "body": "公司展望指出，地緣衝突、能源價格及供應鏈中斷影響營運韌性，AI 與臺灣供應鏈地位則帶來客貨運機會。閱讀策略時應同時觀察市場需求、交機時程及成本，不能只看擴張架數。"
+      },
+      {
+        "source": "華航企業永續網｜永續治理",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "title": "六大策略：從基礎到品牌",
+        "body": "以安全與治理為基礎，連結機隊航網、產品服務、集團合作及品牌感知。評估策略須同時看安全管理、運能配置和旅客體驗，不能僅以購機數判斷。"
       }
     ],
     "advantages": [
       {
-        "label": "競爭優勢",
-        "value": null,
-        "source": null,
-        "source_url": null,
+        "source": "華航企業永續網｜永續治理",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
         "published_date": null,
-        "verified_date": null,
-        "status": "unverified",
-        "as_of": null,
-        "note": "尚未取得可比較且具日期的官方資料。"
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-06",
+        "status": "confirmed",
+        "label": "營運能力：客貨機與專業資源",
+        "value": "研究解讀：客運網絡、全貨機運能及修護能力形成多元業務基礎；同時承受需求、油價與資本支出風險。這是能力分析，不是競爭排名或獲利保證。"
       }
     ],
     "risks": [
@@ -1097,6 +1147,16 @@
         "status": "announced",
         "as_of": "2026-03-07",
         "source_id": "ciRecruit"
+      },
+      {
+        "title": "2026 下半年空服與貨運招募：報名已截止",
+        "body": "9 月 30 日公告合計逾百名名額。空服報名 10 月 5–12 日，貨運報名 10 月 1–14 日；空服初、複試原訂 11 月 7、14 日。這是非機師職缺歷史公告，不能套用為培訓機師門檻或目前開放名額。",
+        "source": "華航｜下半年客艙組員及貨運人才招募",
+        "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260930.html",
+        "published_date": "2026-09-30",
+        "as_of": "2026-09-30",
+        "verified_date": "2026-11-06",
+        "status": "confirmed"
       }
     ],
     "cadet": [

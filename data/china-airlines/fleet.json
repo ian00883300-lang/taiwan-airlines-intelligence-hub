@@ -1917,8 +1917,8 @@
   ],
   "orders": [
     {
-      "aircraft_type": "787-9",
-      "quantity": 18,
+      "aircraft_type": "787-9／787-10",
+      "quantity": 24,
       "quantity_basis": "program_total",
       "order_type": "firm_order",
       "delivery_state": "order_program",
@@ -1927,24 +1927,9 @@
       "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
       "published_date": null,
       "as_of": "2025-12-31",
-      "verified_date": "2026-10-11",
+      "verified_date": "2026-11-06",
       "status": "announced",
-      "note": "官方歷史訂購總量；不是本日剩餘待交架數。"
-    },
-    {
-      "aircraft_type": "787-10",
-      "quantity": 6,
-      "quantity_basis": "program_total",
-      "order_type": "firm_order",
-      "delivery_state": "order_program",
-      "source": "華航｜2025 營運績效",
-      "source_id": "ciFinance",
-      "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
-      "published_date": null,
-      "as_of": "2025-12-31",
-      "verified_date": "2026-10-11",
-      "status": "announced",
-      "note": "官方歷史訂購總量；不是本日剩餘待交架數。"
+      "note": "已公告計畫總量 24 架。官方同頁訂購段落列 18 架 -9／6 架 -10，技術規格段落另列 16／8；分型分配待釐清。不是目前剩餘待交數，也不代表已交付。"
     },
     {
       "aircraft_type": "A350-1000",

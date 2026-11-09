@@ -752,3 +752,14 @@ test("China Airlines October fleet totals agree while September registry stays d
  for(const x of f.items) {assert.equal(x.as_of,"2026-10-31");assert.equal(x.registrations.as_of,"2026-09-30");}
  assert.equal(a.sections.overview.find(x=>x.label==="機隊總數").value,a.total.value);
 });
+
+test("China Airlines disputed source figures are not represented as settled totals", () => {
+ const a=read("data/china-airlines/overview.json"), f=read("data/china-airlines/fleet.json");
+ const saf=a.sections.saf.find(x=>x.title.includes("2025 SAF"));
+ assert.equal(saf.status,"unverified");
+ assert.match(saf.body,/10,524/); assert.match(saf.body,/10,264.70/);
+ const orders=f.orders.filter(x=>x.aircraft_type.includes("787"));
+ assert.equal(orders.length,1); assert.equal(orders[0].quantity,24);
+ assert.match(orders[0].note,/分型分配待釐清/);
+ assert.ok(a.sections.hubs.every(x=>x.source_url&&x.value));
+});

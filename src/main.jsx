@@ -1104,7 +1104,7 @@ function Airline({ a, tab = "overview", openInterview }) {
             "機師養成路線",
             <TrainingPath airline={a.id} Source={Source} />,
           )}
-          {part("公司培訓與準備重點", <TopicTables a={a} keys={["cadet"]} />)}
+          {part("公司培訓與準備重點", <TopicTables a={a} keys={["cadet", "recruitment"]} />)}
           {part("人才與職涯", facts(["employees"]))}
         </>
       ) : group.id === "esg" ? (
