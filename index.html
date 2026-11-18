@@ -29,7 +29,34 @@
     <title>Taiwan Airlines Intelligence Hub</title>
   </head>
   <body>
+    <div id="startup-status" style="max-width:32rem;margin:15vh auto;padding:24px;font:16px/1.7 system-ui;color:#193b50">
+      <h1 style="font-size:22px">正在開啟台灣航空情報中心</h1>
+      <p id="startup-message" role="status">正在載入內容，請稍候。</p>
+      <a id="startup-retry" href="?reload=1#home">重新載入最新版本</a>
+      <p style="font-size:13px">重新載入不會刪除已儲存的面試答案。</p>
+      <noscript>請在瀏覽器設定中啟用 JavaScript。</noscript>
+    </div>
     <div id="root"></div>
+    <script>
+      (function () {
+        var panel = document.getElementById('startup-status');
+        var message = document.getElementById('startup-message');
+        var retry = document.getElementById('startup-retry');
+        var failure = '';
+        retry.href = location.pathname + '?reload=' + Date.now() + (location.hash || '#home');
+        window.addEventListener('error', function(e) { failure = e.message || '程式檔案載入失敗'; });
+        window.addEventListener('unhandledrejection', function(e) { failure = String(e.reason && e.reason.message || e.reason || '載入失敗'); });
+        var start = Date.now();
+        setInterval(function () {
+          var root = document.getElementById('root');
+          var ready = root && root.childElementCount > 0;
+          panel.style.display = ready ? 'none' : 'block';
+          if (!ready && (failure || Date.now() - start > 15000)) {
+            message.textContent = '內容未能載入，請點選下方連結取得最新版本。' + (failure ? ' 錯誤：' + failure.slice(0, 180) : ' 若仍無法開啟，請將此畫面提供給我們。');
+          }
+        }, 500);
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
