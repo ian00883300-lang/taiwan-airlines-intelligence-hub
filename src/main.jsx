@@ -550,7 +550,7 @@ function Home({ openInterview }) {
           <a className="text-link" href="#weekly">閱讀本期週報 →</a>
           <h3>近期消息與背景</h3>
           {weekly
-            .slice().sort((a, b) => b.published_date.localeCompare(a.published_date)).slice(0, 4)
+            .slice().sort((a, b) => (b.published_date || "").localeCompare(a.published_date || "")).slice(0, 4)
             .map((n) => (
               <NewsCard n={n} key={n.id} />
             ))}
