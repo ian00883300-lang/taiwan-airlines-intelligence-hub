@@ -109,6 +109,19 @@
           "timeline_date_precision": "year"
         },
         {
+          "source": "NOWnews｜台北分公司新據點啟用（華航說明）",
+          "source_url": "https://www.nownews.com/news/6892765",
+          "published_date": "2026-11-16",
+          "as_of": "2026-11-16",
+          "verified_date": "2026-11-18",
+          "status": "confirmed",
+          "date": "1980",
+          "timeline_date_precision": "year",
+          "label": "南京東路辦公大樓啟用",
+          "body": "2026年搬遷報導回顧舊址於1980年啟用；未提供確切月日。",
+          "date_kind": "event"
+        },
+        {
           "source": "證交所OpenAPI｜上市公司基本資料（2610）",
           "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
           "published_date": null,
@@ -120,6 +133,18 @@
           "date_kind": "event",
           "label": "臺灣證券交易所上市",
           "body": "證券代號2610；來源為證交所上市公司基本資料，不將上市與公司成立混為同一事件。"
+        },
+        {
+          "source": "鉅亨網｜華航企業總部落成啟用",
+          "source_url": "https://news.cnyes.com/news/id/3504502",
+          "published_date": "2010-03-26",
+          "as_of": "2010-03-26",
+          "verified_date": "2026-11-18",
+          "status": "confirmed",
+          "date": "2010-03-26",
+          "label": "桃園華航園區企業總部啟用",
+          "body": "總部與訓練功能集中於機場旁；台北據點其後繼續提供分公司服務。",
+          "date_kind": "event"
         },
         {
           "date": "2011-09-28",
@@ -370,6 +395,18 @@
           "verified_date": "2026-10-11",
           "status": "confirmed",
           "source_id": "ci787"
+        },
+        {
+          "source": "華航｜台北分公司搬遷公告",
+          "source_url": "https://www.china-airlines.com/tw/zh/member/announcements/20261029",
+          "published_date": "2026-10-29",
+          "as_of": "2026-11-16",
+          "verified_date": "2026-11-18",
+          "status": "confirmed",
+          "date": "2026-11-16",
+          "label": "台北分公司及票務櫃檯搬遷",
+          "body": "由南京東路三段舊址遷至民權東路三段167號；總公司2010年遷桃園是另一事件。",
+          "date_kind": "event"
         }
       ],
       "revenue_mix": {

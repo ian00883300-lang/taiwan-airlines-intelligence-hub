@@ -119,6 +119,36 @@
         "as_of": "2026-08-31",
         "note": "含與其他業者合營航點、純貨運業務航點及華信航空班號飛航；並非華航自營客運直航數。 截至2026-08-31；不與本站已收錄自營客運航線數直接比較。",
         "scope": "含與其他業者合營航點、純貨運業務航點及華信航空班號飛航；並非華航自營客運直航數。"
+      },
+      {
+        "source": "華航｜台北分公司搬遷公告",
+        "source_url": "https://www.china-airlines.com/tw/zh/member/announcements/20261029",
+        "published_date": "2026-10-29",
+        "as_of": "2026-11-16",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "label": "台北分公司新址（含票務櫃檯）",
+        "value": "2026年11月16日起：台北市松山區民權東路三段167號，近民權敦化路口。此次為台北分公司搬遷，並非總公司由桃園遷回台北。"
+      },
+      {
+        "source": "NOWnews｜台北分公司新據點啟用（華航說明）",
+        "source_url": "https://www.nownews.com/news/6892765",
+        "published_date": "2026-11-16",
+        "as_of": "2026-11-16",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "label": "台北舊址與歷史",
+        "value": "南京東路三段舊辦公大樓於1980年啟用；2010年總公司遷往桃園後，仍作為台北分公司服務據點，至2026年新址啟用。"
+      },
+      {
+        "source": "鉅亨網｜華航企業總部落成啟用",
+        "source_url": "https://news.cnyes.com/news/id/3504502",
+        "published_date": "2010-03-26",
+        "as_of": "2010-03-26",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "label": "企業總部：桃園華航園區",
+        "value": "2010年3月26日舉行總部落成啟用典禮；園區結合企業總部、模擬機飛行訓練、航空組員訓練及機場旅館。這是總部整合事件，與2026年台北分公司搬遷分列。"
       }
     ],
     "history": [
@@ -255,6 +285,56 @@
         "as_of": null,
         "verified_date": "2026-10-29",
         "status": "confirmed"
+      },
+      {
+        "source": "中央社歷史報導轉載｜總部搬遷與業務整合",
+        "source_url": "https://www.home7-11.com.tw/forum_content.asp?id=162969",
+        "published_date": "2009-09-09",
+        "as_of": "2009-09-09",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "2010總部搬遷：整合分散業務",
+        "body": "2009年中央社報導引述華航財務副總說明，當時業務分散於南京東路、松山機場與桃園機場，聯繫不便，因此規劃集中至國際機場旁。此為當年規劃理由；實際啟用日期另依2010年報導。"
+      },
+      {
+        "source": "NOWnews｜台北分公司新據點啟用（華航說明）",
+        "source_url": "https://www.nownews.com/news/6892765",
+        "published_date": "2026-11-16",
+        "as_of": "2026-11-16",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "2026台北據點：服務與辦公空間更新",
+        "body": "新址提供機票開立、行程異動及會員服務，並配置會議、交流及無障礙空間。公開說明著重服務與協作環境改善；未確認搬遷是因租約到期、都更或出售舊樓，故不採用這些推測。"
+      },
+      {
+        "source": "華航企業永續網｜永續治理",
+        "source_url": "https://calec.china-airlines.com/csr/management_vision.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "董事會與三個功能性委員會",
+        "body": "2025年度揭露第23屆董事會15席，含5席獨立董事；其下設審計、薪資報酬及永續暨風險委員會，協助監督、審議並提報董事會。此為年度組成，不將獨立董事另加成20席。"
+      },
+      {
+        "source": "華航企業永續網｜供應鏈與集團價值鏈",
+        "source_url": "https://calec.china-airlines.com/csr/partners_group.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "集團組成與業務鏈",
+        "body": "截至2025年底，官方列26家轉投資事業，涵蓋航空運輸、地勤、觀光休閒、航太科技、空運輔助及倉儲物流。「轉投資」不等於全部100%持股子公司；下表仍保留各企業持股的財報日期與範圍。"
+      },
+      {
+        "source": "華航企業永續網｜風險管理",
+        "source_url": "https://calec.china-airlines.com/csr/management_risk.html",
+        "published_date": null,
+        "as_of": "2025-12-31",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "風險管理：業務、監督、獨立稽核",
+        "body": "第一道防線由各營運權責單位管理風險；第二道防線由風險管理組整合、追蹤並向企業永續委員會報告；第三道防線由總稽核協助董事會獨立檢視。這是風險治理分工摘要，不是所有部門的完整人事編制圖。"
       }
     ],
     "brand": [
@@ -543,6 +623,16 @@
         "status": "confirmed",
         "title": "桃園票務櫃檯：AI 雙向翻譯",
         "body": "2025 年 10 月於桃園第一、第二航廈票務櫃檯導入互動翻譯螢幕，支援 32 種語言。這項設備的揭露場域是票務櫃檯，不能外推至全部機場或客艙。"
+      },
+      {
+        "source": "華航｜台北分公司搬遷公告",
+        "source_url": "https://www.china-airlines.com/tw/zh/member/announcements/20261029",
+        "published_date": "2026-10-29",
+        "as_of": "2026-11-16",
+        "verified_date": "2026-11-18",
+        "status": "confirmed",
+        "title": "台北市區票務服務搬遷",
+        "body": "2026年11月16日起至民權東路三段167號辦理台北分公司服務；原南京東路據點已由新址接替。票務櫃檯地址與機場報到櫃檯不同，搭機仍依航班指定機場及航廈辦理。"
       }
     ],
     "cargo": [
