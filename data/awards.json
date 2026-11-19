@@ -336,5 +336,22 @@
     "as_of": "2026-09-19",
     "verified_date": "2026-10-30",
     "status": "confirmed"
+  },
+  {
+    "source": "華航｜首獲 SGS 隱私暨個資管理卓越獎",
+    "source_url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20261105.html",
+    "published_date": "2026-11-05",
+    "as_of": "2026-11-05",
+    "verified_date": "2026-11-19",
+    "status": "confirmed",
+    "id": "ci-sgs-privacy-2026",
+    "airline": "china-airlines",
+    "year": 2026,
+    "date": "2026-11-05",
+    "date_basis": "公告日",
+    "kind": "治理獎項",
+    "title": "SGS 隱私暨個資管理卓越獎",
+    "issuer": "SGS（2026 DT Awards）",
+    "detail": "華航公告首次獲獎，為國內首家獲此獎的航空公司。評獎關注隱私及個資管理；與 ISO 管理系統驗證、民航局行政檢查分開理解，不屬飛安排名。11 月 5 日為新聞發布日，未據此推定頒獎日。"
   }
 ]
