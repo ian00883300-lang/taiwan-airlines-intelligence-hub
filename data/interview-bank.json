@@ -3783,5 +3783,117 @@
       "evidence_ids": []
     },
     "question_revision": 1
+  },
+  {
+    "id": "ci-traffic-distance",
+    "airline": "china-airlines",
+    "topic": "Company Knowledge",
+    "question": "華航載客人次較多，是否代表平均航程或載客率也較高？",
+    "question_en": "Does carrying more passengers imply a longer average journey or a higher load factor?",
+    "answer": "Not necessarily. In the comparable 2025 international and cross-strait table, CAL carried 11,419,585 passengers, with 37,062,787 thousand passenger-kilometres and 47,242,956 thousand seat-kilometres. These imply about 3,246 kilometres per passenger segment and a 78.45% load factor. Distance and capacity utilisation measure different things.",
+    "answer_30": "Not necessarily. In the comparable 2025 international and cross-strait table, CAL carried 11,419,585 passengers, with 37,062,787 thousand passenger-kilometres and 47,242,956 thousand seat-kilometres. These imply about 3,246 kilometres per passenger segment and a 78.45% load factor. Distance and capacity utilisation measure different things.",
+    "answer_60": "Not necessarily. In the comparable 2025 international and cross-strait table, CAL carried 11,419,585 passengers, with 37,062,787 thousand passenger-kilometres and 47,242,956 thousand seat-kilometres. These imply about 3,246 kilometres per passenger segment and a 78.45% load factor. Distance and capacity utilisation measure different things. Passenger counts are segment counts, not unique people or complete origin-to-destination journeys. A connecting traveller may be counted on multiple segments. The annual average is not a representative route length. Network analysis also needs regional, seasonal and aircraft detail. Profitability requires yields and costs on the same reporting basis; a high load factor alone is insufficient. These are historical full-year 2025 figures, not current bookings or full-year 2026 performance.",
+    "chinese_answer": "不能直接推論。2025年國際及兩岸同口徑表中，華航載客11,419,585人次、RPK為37,062,787千客公里、ASK為47,242,956千座公里。RPK除以人次約為每旅客航段3,246公里；RPK除以ASK約為78.45%。前者描述平均承運距離，後者描述座位運能使用程度，不能互相替代。\n\n此處的旅客人次不是不重複的個人數，也不是旅客從出發地到最終目的地的完整旅程；轉機旅客可能分段計入。平均運距是全年加權結果，不能視為某條代表性航線。要研究航網配置，應再拆區域、季節與機型；要研究獲利，還須同範圍收益率與成本，不能用高載客率直接推論高利潤。這些數字是2025全年歷史資料，不代表目前訂位或2026全年表現。",
+    "answer_zh_30": "不能直接推論。2025年國際及兩岸同口徑表中，華航載客11,419,585人次、RPK為37,062,787千客公里、ASK為47,242,956千座公里。RPK除以人次約為每旅客航段3,246公里；RPK除以ASK約為78.45%。前者描述平均承運距離，後者描述座位運能使用程度，不能互相替代。",
+    "answer_zh_60": "不能直接推論。2025年國際及兩岸同口徑表中，華航載客11,419,585人次、RPK為37,062,787千客公里、ASK為47,242,956千座公里。RPK除以人次約為每旅客航段3,246公里；RPK除以ASK約為78.45%。前者描述平均承運距離，後者描述座位運能使用程度，不能互相替代。\n\n此處的旅客人次不是不重複的個人數，也不是旅客從出發地到最終目的地的完整旅程；轉機旅客可能分段計入。平均運距是全年加權結果，不能視為某條代表性航線。要研究航網配置，應再拆區域、季節與機型；要研究獲利，還須同範圍收益率與成本，不能用高載客率直接推論高利潤。這些數字是2025全年歷史資料，不代表目前訂位或2026全年表現。",
+    "key_points": [
+      "人次與旅客航段",
+      "RPK／人次估算平均運距",
+      "RPK／ASK計算載客率"
+    ],
+    "keywords": [
+      "人次與旅客航段",
+      "RPK／人次估算平均運距",
+      "RPK／ASK計算載客率"
+    ],
+    "answer_outline": [
+      "人次與旅客航段",
+      "RPK／人次估算平均運距",
+      "RPK／ASK計算載客率"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "分辨運量、運距與運能，練習在相同統計範圍內解讀航空公司營運。",
+    "content_type": "original_practice",
+    "note": "原創練習題；基於既有來源資料新增分析，非航空公司標準答案。估算值四捨五入，未重新查核外部原頁。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "answer_basis": "source_based_analysis",
+    "follow_up": "轉機客增加時，旅客人次與不重複旅客數為什麼可能不同？",
+    "deep_dive": {
+      "analysis_zh": "此處的旅客人次不是不重複的個人數，也不是旅客從出發地到最終目的地的完整旅程；轉機旅客可能分段計入。平均運距是全年加權結果，不能視為某條代表性航線。要研究航網配置，應再拆區域、季節與機型；要研究獲利，還須同範圍收益率與成本，不能用高載客率直接推論高利潤。這些數字是2025全年歷史資料，不代表目前訂位或2026全年表現。",
+      "analysis_en": "Passenger counts are segment counts, not unique people or complete origin-to-destination journeys. A connecting traveller may be counted on multiple segments. The annual average is not a representative route length. Network analysis also needs regional, seasonal and aircraft detail. Profitability requires yields and costs on the same reporting basis; a high load factor alone is insufficient. These are historical full-year 2025 figures, not current bookings or full-year 2026 performance.",
+      "pitfalls": [
+        "混用人次、重量、運距與運能單位",
+        "以歷史載運率推論目前獲利或單班剩餘承載量"
+      ],
+      "follow_ups": [
+        "轉機客增加時，旅客人次與不重複旅客數為什麼可能不同？",
+        "若統計期間或公司範圍不同，還能直接相除嗎？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    }
+  },
+  {
+    "id": "jx-cargo-distance",
+    "airline": "starlux",
+    "topic": "Company Knowledge",
+    "question": "星宇貨運噸數與貨運噸公里有何不同？如何分析腹艙貨運成長？",
+    "question_en": "How do cargo tonnes differ from tonne-kilometres when assessing STARLUX belly-cargo growth?",
+    "answer": "Tonnes measure weight, while tonne-kilometres also reflect distance. The comparable 2025 international and cross-strait table reports 166,059 cargo tonnes for STARLUX, 386,906 thousand freight tonne-kilometres and 583,665 thousand available freight tonne-kilometres. These imply about 2,330 kilometres per cargo tonne and a 66.29% cargo load factor. Weight growth and transport-work growth can differ.",
+    "answer_30": "Tonnes measure weight, while tonne-kilometres also reflect distance. The comparable 2025 international and cross-strait table reports 166,059 cargo tonnes for STARLUX, 386,906 thousand freight tonne-kilometres and 583,665 thousand available freight tonne-kilometres. These imply about 2,330 kilometres per cargo tonne and a 66.29% cargo load factor. Weight growth and transport-work growth can differ.",
+    "answer_60": "Tonnes measure weight, while tonne-kilometres also reflect distance. The comparable 2025 international and cross-strait table reports 166,059 cargo tonnes for STARLUX, 386,906 thousand freight tonne-kilometres and 583,665 thousand available freight tonne-kilometres. These imply about 2,330 kilometres per cargo tonne and a 66.29% cargo load factor. Weight growth and transport-work growth can differ. For belly cargo I would examine route and distance mix, capacity provided by passenger schedules, weight and volume constraints, yields and incremental costs. A tonne-kilometre load factor is not a measure of hold volume filled and cannot establish the spare kilograms on an individual flight. Longer routes can raise tonne-kilometres faster than tonnes, but that is a possible mechanism, not a proven explanation of STARLUX growth without route-level evidence. The figures come from the annual report reproducing CAA statistics; this update did not independently retrieve the original CAA table.",
+    "chinese_answer": "噸數只描述承運重量，噸公里還納入運距。2025年國際及兩岸同口徑表中，星宇貨運166,059噸、FTK為386,906噸千公里、AFTK為583,665噸千公里。FTK除以貨運噸數約為2,330公里；FTK除以AFTK約為66.29%。因此噸數成長與噸公里成長可能不同，不能把兩者都簡稱為貨運成長而省略單位。\n\n分析腹艙貨運時，我會依序檢查航線與運距組合、客運班表提供的貨運運能、重量和容積限制、收益率及額外成本。噸公里載運率不是貨艙容積填滿比例，也不能據此算出每班可再裝多少公斤。新長程航線可能使噸公里增幅大於噸數增幅，但這只是分析機制，不能在沒有分航線資料時宣稱是星宇實際成長原因。資料出自星宇年報轉引民航局統計，並非本次另行讀取民航局原始表。",
+    "answer_zh_30": "噸數只描述承運重量，噸公里還納入運距。2025年國際及兩岸同口徑表中，星宇貨運166,059噸、FTK為386,906噸千公里、AFTK為583,665噸千公里。FTK除以貨運噸數約為2,330公里；FTK除以AFTK約為66.29%。因此噸數成長與噸公里成長可能不同，不能把兩者都簡稱為貨運成長而省略單位。",
+    "answer_zh_60": "噸數只描述承運重量，噸公里還納入運距。2025年國際及兩岸同口徑表中，星宇貨運166,059噸、FTK為386,906噸千公里、AFTK為583,665噸千公里。FTK除以貨運噸數約為2,330公里；FTK除以AFTK約為66.29%。因此噸數成長與噸公里成長可能不同，不能把兩者都簡稱為貨運成長而省略單位。\n\n分析腹艙貨運時，我會依序檢查航線與運距組合、客運班表提供的貨運運能、重量和容積限制、收益率及額外成本。噸公里載運率不是貨艙容積填滿比例，也不能據此算出每班可再裝多少公斤。新長程航線可能使噸公里增幅大於噸數增幅，但這只是分析機制，不能在沒有分航線資料時宣稱是星宇實際成長原因。資料出自星宇年報轉引民航局統計，並非本次另行讀取民航局原始表。",
+    "key_points": [
+      "重量與運距分開",
+      "FTK／AFTK",
+      "腹艙重量與容積限制"
+    ],
+    "keywords": [
+      "重量與運距分開",
+      "FTK／AFTK",
+      "腹艙重量與容積限制"
+    ],
+    "answer_outline": [
+      "重量與運距分開",
+      "FTK／AFTK",
+      "腹艙重量與容積限制"
+    ],
+    "difficulty": "進階",
+    "why_it_matters": "分辨運量、運距與運能，練習在相同統計範圍內解讀航空公司營運。",
+    "content_type": "original_practice",
+    "note": "原創練習題；基於既有來源資料新增分析，非航空公司標準答案。估算值四捨五入，未重新查核外部原頁。",
+    "source": "星宇航空｜2025 年報",
+    "source_url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88)-V8_tcm5-15388.pdf",
+    "published_date": null,
+    "as_of": "2025-12-31",
+    "verified_date": "2026-10-12",
+    "status": "confirmed",
+    "source_id": "jxAnnual",
+    "answer_basis": "source_based_analysis",
+    "follow_up": "長程航線增加時，為什麼貨運噸公里可能比貨運噸數成長更快？",
+    "deep_dive": {
+      "analysis_zh": "分析腹艙貨運時，我會依序檢查航線與運距組合、客運班表提供的貨運運能、重量和容積限制、收益率及額外成本。噸公里載運率不是貨艙容積填滿比例，也不能據此算出每班可再裝多少公斤。新長程航線可能使噸公里增幅大於噸數增幅，但這只是分析機制，不能在沒有分航線資料時宣稱是星宇實際成長原因。資料出自星宇年報轉引民航局統計，並非本次另行讀取民航局原始表。",
+      "analysis_en": "For belly cargo I would examine route and distance mix, capacity provided by passenger schedules, weight and volume constraints, yields and incremental costs. A tonne-kilometre load factor is not a measure of hold volume filled and cannot establish the spare kilograms on an individual flight. Longer routes can raise tonne-kilometres faster than tonnes, but that is a possible mechanism, not a proven explanation of STARLUX growth without route-level evidence. The figures come from the annual report reproducing CAA statistics; this update did not independently retrieve the original CAA table.",
+      "pitfalls": [
+        "混用人次、重量、運距與運能單位",
+        "以歷史載運率推論目前獲利或單班剩餘承載量"
+      ],
+      "follow_ups": [
+        "長程航線增加時，為什麼貨運噸公里可能比貨運噸數成長更快？",
+        "若統計期間或公司範圍不同，還能直接相除嗎？"
+      ],
+      "evidence_ids": [
+        "jxAnnual"
+      ]
+    }
   }
 ]

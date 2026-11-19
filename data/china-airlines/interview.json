@@ -23,6 +23,7 @@
     "cargo-route-evidence",
     "safety-unstable-approach",
     "training-uncertain-answer",
-    "cargo-loading"
+    "cargo-loading",
+    "ci-traffic-distance"
   ]
 }
